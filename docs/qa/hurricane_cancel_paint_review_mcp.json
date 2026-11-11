@@ -1,0 +1,7 @@
+{
+  "status": "success",
+  "result": {
+    "executed": true,
+    "result": "INCOMPLETE_PAINT_REVIEW_CANCELLED\nTESSELLATE_RESULT [(1, 2, 3), (1, 3, 0)] ['int', 'int', 'int']\n"
+  }
+}

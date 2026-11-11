@@ -1,0 +1,2741 @@
+{
+  "method": "241 samples per route, full 9.18 x 3.19 x 4.485m Rhino road envelope. BVH against evaluated structure; 2D separating-axis test against three occupied bay envelopes. Not a continuous collision or steering simulation.",
+  "bays": [
+    {
+      "y": 15,
+      "path_length_m": 40.234504623169656,
+      "structure_hits": [],
+      "parked_vehicle_hits": []
+    },
+    {
+      "y": 21,
+      "path_length_m": 46.23450454740555,
+      "structure_hits": [],
+      "parked_vehicle_hits": []
+    },
+    {
+      "y": 27,
+      "path_length_m": 52.234504533591775,
+      "structure_hits": [],
+      "parked_vehicle_hits": []
+    },
+    {
+      "y": 33,
+      "path_length_m": 58.23450493967981,
+      "structure_hits": [],
+      "parked_vehicle_hits": []
+    }
+  ],
+  "gate_contacts": [
+    {
+      "progress": 0.0,
+      "pairs": [
+        [
+          "BH_QuarterArmorWall_0",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterArmorWall_1",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(0, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(0, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 0)",
+          "BH_ExitGateHorizontalRib_(1, 1.2)"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 1)",
+          "BH_ExitGateHorizontalRib_(2, 1.2)"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(2, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(2, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(3, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(3, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(4, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(4, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(5, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(5, 1)",
+          "BH_ExitGateLeaf_2"
+        ]
+      ]
+    },
+    {
+      "progress": 0.025,
+      "pairs": [
+        [
+          "BH_QuarterHorizontalSeam_(0, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(0, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 0)",
+          "BH_ExitGateHorizontalRib_(1, 1.2)"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 1)",
+          "BH_ExitGateHorizontalRib_(2, 1.2)"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(2, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(2, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(3, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(3, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(4, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(4, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(5, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(5, 1)",
+          "BH_ExitGateLeaf_2"
+        ]
+      ]
+    },
+    {
+      "progress": 0.05,
+      "pairs": [
+        [
+          "BH_QuarterHorizontalSeam_(0, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(0, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 0)",
+          "BH_ExitGateHorizontalRib_(1, 1.2)"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 1)",
+          "BH_ExitGateHorizontalRib_(2, 1.2)"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(2, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(2, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(3, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(3, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(4, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(4, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(5, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(5, 1)",
+          "BH_ExitGateLeaf_2"
+        ]
+      ]
+    },
+    {
+      "progress": 0.075,
+      "pairs": [
+        [
+          "BH_QuarterHorizontalSeam_(0, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(0, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 0)",
+          "BH_ExitGateHorizontalRib_(1, 1.2)"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 1)",
+          "BH_ExitGateHorizontalRib_(2, 1.2)"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(2, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(2, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(3, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(3, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(4, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(4, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(5, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(5, 1)",
+          "BH_ExitGateLeaf_2"
+        ]
+      ]
+    },
+    {
+      "progress": 0.1,
+      "pairs": [
+        [
+          "BH_QuarterHorizontalSeam_(0, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(0, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 0)",
+          "BH_ExitGateHorizontalRib_(1, 1.2)"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 1)",
+          "BH_ExitGateHorizontalRib_(2, 1.2)"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(2, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(2, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(3, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(3, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(4, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(4, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(5, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(5, 1)",
+          "BH_ExitGateLeaf_2"
+        ]
+      ]
+    },
+    {
+      "progress": 0.125,
+      "pairs": [
+        [
+          "BH_QuarterHorizontalSeam_(0, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(0, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 0)",
+          "BH_ExitGateHorizontalRib_(1, 1.2)"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 1)",
+          "BH_ExitGateHorizontalRib_(2, 1.2)"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(2, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(2, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(3, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(3, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(4, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(4, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(5, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(5, 1)",
+          "BH_ExitGateLeaf_2"
+        ]
+      ]
+    },
+    {
+      "progress": 0.15,
+      "pairs": [
+        [
+          "BH_QuarterHorizontalSeam_(0, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(0, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 0)",
+          "BH_ExitGateHorizontalRib_(1, 1.2)"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 1)",
+          "BH_ExitGateHorizontalRib_(2, 1.2)"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(2, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(2, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(3, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(3, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(4, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(4, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(5, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(5, 1)",
+          "BH_ExitGateLeaf_2"
+        ]
+      ]
+    },
+    {
+      "progress": 0.175,
+      "pairs": [
+        [
+          "BH_QuarterHorizontalSeam_(0, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(0, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 0)",
+          "BH_ExitGateHorizontalRib_(1, 1.2)"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 1)",
+          "BH_ExitGateHorizontalRib_(2, 1.2)"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(2, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(2, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(3, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(3, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(4, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(4, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(5, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(5, 1)",
+          "BH_ExitGateLeaf_2"
+        ]
+      ]
+    },
+    {
+      "progress": 0.2,
+      "pairs": [
+        [
+          "BH_QuarterHorizontalSeam_(0, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(0, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 0)",
+          "BH_ExitGateHorizontalRib_(1, 1.2)"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 1)",
+          "BH_ExitGateHorizontalRib_(2, 1.2)"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(2, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(2, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(3, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(3, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(4, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(4, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(5, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(5, 1)",
+          "BH_ExitGateLeaf_2"
+        ]
+      ]
+    },
+    {
+      "progress": 0.225,
+      "pairs": [
+        [
+          "BH_QuarterHorizontalSeam_(0, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(0, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 0)",
+          "BH_ExitGateHorizontalRib_(1, 1.2)"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 1)",
+          "BH_ExitGateHorizontalRib_(2, 1.2)"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(2, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(2, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(3, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(3, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(4, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(4, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(5, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(5, 1)",
+          "BH_ExitGateLeaf_2"
+        ]
+      ]
+    },
+    {
+      "progress": 0.25,
+      "pairs": [
+        [
+          "BH_QuarterHorizontalSeam_(0, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(0, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 0)",
+          "BH_ExitGateHorizontalRib_(1, 1.2)"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 1)",
+          "BH_ExitGateHorizontalRib_(2, 1.2)"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(2, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(2, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(3, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(3, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(4, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(4, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(5, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(5, 1)",
+          "BH_ExitGateLeaf_2"
+        ]
+      ]
+    },
+    {
+      "progress": 0.275,
+      "pairs": [
+        [
+          "BH_QuarterHorizontalSeam_(0, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(0, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 0)",
+          "BH_ExitGateHorizontalRib_(1, 1.2)"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 1)",
+          "BH_ExitGateHorizontalRib_(2, 1.2)"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(2, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(2, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(3, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(3, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(4, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(4, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(5, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(5, 1)",
+          "BH_ExitGateLeaf_2"
+        ]
+      ]
+    },
+    {
+      "progress": 0.3,
+      "pairs": [
+        [
+          "BH_QuarterHorizontalSeam_(0, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(0, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 0)",
+          "BH_ExitGateHorizontalRib_(1, 1.2)"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 1)",
+          "BH_ExitGateHorizontalRib_(2, 1.2)"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(2, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(2, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(3, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(3, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(4, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(4, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(5, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(5, 1)",
+          "BH_ExitGateLeaf_2"
+        ]
+      ]
+    },
+    {
+      "progress": 0.325,
+      "pairs": [
+        [
+          "BH_QuarterHorizontalSeam_(0, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(0, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 0)",
+          "BH_ExitGateHorizontalRib_(1, 1.2)"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 1)",
+          "BH_ExitGateHorizontalRib_(2, 1.2)"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(2, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(2, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(3, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(3, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(4, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(4, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(5, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(5, 1)",
+          "BH_ExitGateLeaf_2"
+        ]
+      ]
+    },
+    {
+      "progress": 0.35,
+      "pairs": [
+        [
+          "BH_QuarterHorizontalSeam_(0, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(0, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 0)",
+          "BH_ExitGateHorizontalRib_(1, 1.2)"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 1)",
+          "BH_ExitGateHorizontalRib_(2, 1.2)"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(2, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(2, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(3, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(3, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(4, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(4, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(5, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(5, 1)",
+          "BH_ExitGateLeaf_2"
+        ]
+      ]
+    },
+    {
+      "progress": 0.375,
+      "pairs": [
+        [
+          "BH_QuarterHorizontalSeam_(0, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(0, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 0)",
+          "BH_ExitGateHorizontalRib_(1, 1.2)"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 1)",
+          "BH_ExitGateHorizontalRib_(2, 1.2)"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(2, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(2, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(3, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(3, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(4, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(4, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(5, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(5, 1)",
+          "BH_ExitGateLeaf_2"
+        ]
+      ]
+    },
+    {
+      "progress": 0.4,
+      "pairs": [
+        [
+          "BH_QuarterHorizontalSeam_(0, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(0, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 0)",
+          "BH_ExitGateHorizontalRib_(1, 1.2)"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 1)",
+          "BH_ExitGateHorizontalRib_(2, 1.2)"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(2, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(2, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(3, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(3, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(4, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(4, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(5, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(5, 1)",
+          "BH_ExitGateLeaf_2"
+        ]
+      ]
+    },
+    {
+      "progress": 0.425,
+      "pairs": [
+        [
+          "BH_QuarterHorizontalSeam_(0, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(0, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 0)",
+          "BH_ExitGateHorizontalRib_(1, 1.2)"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 1)",
+          "BH_ExitGateHorizontalRib_(2, 1.2)"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(2, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(2, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(3, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(3, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(4, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(4, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(5, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(5, 1)",
+          "BH_ExitGateLeaf_2"
+        ]
+      ]
+    },
+    {
+      "progress": 0.45,
+      "pairs": [
+        [
+          "BH_QuarterHorizontalSeam_(0, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(0, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 0)",
+          "BH_ExitGateHorizontalRib_(1, 1.2)"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 1)",
+          "BH_ExitGateHorizontalRib_(2, 1.2)"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(2, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(2, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(3, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(3, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(4, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(4, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(5, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(5, 1)",
+          "BH_ExitGateLeaf_2"
+        ]
+      ]
+    },
+    {
+      "progress": 0.475,
+      "pairs": [
+        [
+          "BH_QuarterHorizontalSeam_(0, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(0, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 0)",
+          "BH_ExitGateHorizontalRib_(1, 1.2)"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 1)",
+          "BH_ExitGateHorizontalRib_(2, 1.2)"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(2, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(2, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(3, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(3, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(4, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(4, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(5, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(5, 1)",
+          "BH_ExitGateLeaf_2"
+        ]
+      ]
+    },
+    {
+      "progress": 0.5,
+      "pairs": [
+        [
+          "BH_QuarterHorizontalSeam_(0, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(0, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 0)",
+          "BH_ExitGateHorizontalRib_(1, 1.2)"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 1)",
+          "BH_ExitGateHorizontalRib_(2, 1.2)"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(2, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(2, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(3, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(3, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(4, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(4, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(5, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(5, 1)",
+          "BH_ExitGateLeaf_2"
+        ]
+      ]
+    },
+    {
+      "progress": 0.525,
+      "pairs": [
+        [
+          "BH_QuarterHorizontalSeam_(0, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(0, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 0)",
+          "BH_ExitGateHorizontalRib_(1, 1.2)"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 1)",
+          "BH_ExitGateHorizontalRib_(2, 1.2)"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(2, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(2, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(3, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(3, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(4, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(4, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(5, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(5, 1)",
+          "BH_ExitGateLeaf_2"
+        ]
+      ]
+    },
+    {
+      "progress": 0.55,
+      "pairs": [
+        [
+          "BH_QuarterHorizontalSeam_(0, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(0, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 0)",
+          "BH_ExitGateHorizontalRib_(1, 1.2)"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 1)",
+          "BH_ExitGateHorizontalRib_(2, 1.2)"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(2, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(2, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(3, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(3, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(4, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(4, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(5, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(5, 1)",
+          "BH_ExitGateLeaf_2"
+        ]
+      ]
+    },
+    {
+      "progress": 0.575,
+      "pairs": [
+        [
+          "BH_QuarterHorizontalSeam_(0, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(0, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 0)",
+          "BH_ExitGateHorizontalRib_(1, 1.2)"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 1)",
+          "BH_ExitGateHorizontalRib_(2, 1.2)"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(2, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(2, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(3, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(3, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(4, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(4, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(5, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(5, 1)",
+          "BH_ExitGateLeaf_2"
+        ]
+      ]
+    },
+    {
+      "progress": 0.6,
+      "pairs": [
+        [
+          "BH_QuarterHorizontalSeam_(0, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(0, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 0)",
+          "BH_ExitGateHorizontalRib_(1, 1.2)"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 1)",
+          "BH_ExitGateHorizontalRib_(2, 1.2)"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(2, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(2, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(3, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(3, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(4, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(4, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(5, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(5, 1)",
+          "BH_ExitGateLeaf_2"
+        ]
+      ]
+    },
+    {
+      "progress": 0.625,
+      "pairs": [
+        [
+          "BH_QuarterHorizontalSeam_(0, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(0, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 0)",
+          "BH_ExitGateHorizontalRib_(1, 1.2)"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 1)",
+          "BH_ExitGateHorizontalRib_(2, 1.2)"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(2, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(2, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(3, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(3, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(4, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(4, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(5, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(5, 1)",
+          "BH_ExitGateLeaf_2"
+        ]
+      ]
+    },
+    {
+      "progress": 0.65,
+      "pairs": [
+        [
+          "BH_QuarterHorizontalSeam_(0, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(0, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 0)",
+          "BH_ExitGateHorizontalRib_(1, 1.2)"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 1)",
+          "BH_ExitGateHorizontalRib_(2, 1.2)"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(2, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(2, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(3, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(3, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(4, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(4, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(5, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(5, 1)",
+          "BH_ExitGateLeaf_2"
+        ]
+      ]
+    },
+    {
+      "progress": 0.675,
+      "pairs": [
+        [
+          "BH_QuarterHorizontalSeam_(0, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(0, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 0)",
+          "BH_ExitGateHorizontalRib_(1, 1.2)"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 1)",
+          "BH_ExitGateHorizontalRib_(2, 1.2)"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(2, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(2, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(3, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(3, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(4, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(4, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(5, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(5, 1)",
+          "BH_ExitGateLeaf_2"
+        ]
+      ]
+    },
+    {
+      "progress": 0.7,
+      "pairs": [
+        [
+          "BH_QuarterHorizontalSeam_(0, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(0, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 0)",
+          "BH_ExitGateHorizontalRib_(1, 1.2)"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 1)",
+          "BH_ExitGateHorizontalRib_(2, 1.2)"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(2, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(2, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(3, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(3, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(4, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(4, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(5, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(5, 1)",
+          "BH_ExitGateLeaf_2"
+        ]
+      ]
+    },
+    {
+      "progress": 0.725,
+      "pairs": [
+        [
+          "BH_QuarterHorizontalSeam_(0, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(0, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 0)",
+          "BH_ExitGateHorizontalRib_(1, 1.2)"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 1)",
+          "BH_ExitGateHorizontalRib_(2, 1.2)"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(2, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(2, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(3, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(3, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(4, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(4, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(5, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(5, 1)",
+          "BH_ExitGateLeaf_2"
+        ]
+      ]
+    },
+    {
+      "progress": 0.75,
+      "pairs": [
+        [
+          "BH_QuarterHorizontalSeam_(0, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(0, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 0)",
+          "BH_ExitGateHorizontalRib_(1, 1.2)"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 1)",
+          "BH_ExitGateHorizontalRib_(2, 1.2)"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(2, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(2, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(3, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(3, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(4, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(4, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(5, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(5, 1)",
+          "BH_ExitGateLeaf_2"
+        ]
+      ]
+    },
+    {
+      "progress": 0.775,
+      "pairs": [
+        [
+          "BH_QuarterHorizontalSeam_(0, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(0, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 0)",
+          "BH_ExitGateHorizontalRib_(1, 1.2)"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 1)",
+          "BH_ExitGateHorizontalRib_(2, 1.2)"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(2, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(2, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(3, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(3, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(4, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(4, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(5, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(5, 1)",
+          "BH_ExitGateLeaf_2"
+        ]
+      ]
+    },
+    {
+      "progress": 0.8,
+      "pairs": [
+        [
+          "BH_QuarterHorizontalSeam_(0, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(0, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 0)",
+          "BH_ExitGateHorizontalRib_(1, 1.2)"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 1)",
+          "BH_ExitGateHorizontalRib_(2, 1.2)"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(2, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(2, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(3, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(3, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(4, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(4, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(5, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(5, 1)",
+          "BH_ExitGateLeaf_2"
+        ]
+      ]
+    },
+    {
+      "progress": 0.825,
+      "pairs": [
+        [
+          "BH_QuarterHorizontalSeam_(0, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(0, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 0)",
+          "BH_ExitGateHorizontalRib_(1, 1.2)"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 1)",
+          "BH_ExitGateHorizontalRib_(2, 1.2)"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(2, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(2, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(3, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(3, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(4, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(4, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(5, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(5, 1)",
+          "BH_ExitGateLeaf_2"
+        ]
+      ]
+    },
+    {
+      "progress": 0.85,
+      "pairs": [
+        [
+          "BH_QuarterHorizontalSeam_(0, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(0, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 0)",
+          "BH_ExitGateHorizontalRib_(1, 1.2)"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 1)",
+          "BH_ExitGateHorizontalRib_(2, 1.2)"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(2, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(2, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(3, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(3, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(4, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(4, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(5, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(5, 1)",
+          "BH_ExitGateLeaf_2"
+        ]
+      ]
+    },
+    {
+      "progress": 0.875,
+      "pairs": [
+        [
+          "BH_QuarterHorizontalSeam_(0, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(0, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 0)",
+          "BH_ExitGateHorizontalRib_(1, 1.2)"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 1)",
+          "BH_ExitGateHorizontalRib_(2, 1.2)"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(2, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(2, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(3, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(3, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(4, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(4, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(5, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(5, 1)",
+          "BH_ExitGateLeaf_2"
+        ]
+      ]
+    },
+    {
+      "progress": 0.9,
+      "pairs": [
+        [
+          "BH_QuarterArmorWall_0",
+          "BH_ExitGateHorizontalRib_(1, 1.2)"
+        ],
+        [
+          "BH_QuarterArmorWall_0",
+          "BH_ExitGateHorizontalRib_(1, 2.4)"
+        ],
+        [
+          "BH_QuarterArmorWall_0",
+          "BH_ExitGateHorizontalRib_(1, 3.6)"
+        ],
+        [
+          "BH_QuarterArmorWall_0",
+          "BH_ExitGateHorizontalRib_(1, 4.8)"
+        ],
+        [
+          "BH_QuarterArmorWall_0",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterArmorWall_1",
+          "BH_ExitGateHorizontalRib_(2, 1.2)"
+        ],
+        [
+          "BH_QuarterArmorWall_1",
+          "BH_ExitGateHorizontalRib_(2, 2.4)"
+        ],
+        [
+          "BH_QuarterArmorWall_1",
+          "BH_ExitGateHorizontalRib_(2, 3.6)"
+        ],
+        [
+          "BH_QuarterArmorWall_1",
+          "BH_ExitGateHorizontalRib_(2, 4.8)"
+        ],
+        [
+          "BH_QuarterArmorWall_1",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(0, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(0, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 0)",
+          "BH_ExitGateHorizontalRib_(1, 1.2)"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 1)",
+          "BH_ExitGateHorizontalRib_(2, 1.2)"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(2, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(2, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(3, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(3, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(4, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(4, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(5, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(5, 1)",
+          "BH_ExitGateLeaf_2"
+        ]
+      ]
+    },
+    {
+      "progress": 0.925,
+      "pairs": [
+        [
+          "BH_QuarterArmorWall_0",
+          "BH_ExitGateHorizontalRib_(1, 1.2)"
+        ],
+        [
+          "BH_QuarterArmorWall_0",
+          "BH_ExitGateHorizontalRib_(1, 2.4)"
+        ],
+        [
+          "BH_QuarterArmorWall_0",
+          "BH_ExitGateHorizontalRib_(1, 3.6)"
+        ],
+        [
+          "BH_QuarterArmorWall_0",
+          "BH_ExitGateHorizontalRib_(1, 4.8)"
+        ],
+        [
+          "BH_QuarterArmorWall_0",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterArmorWall_1",
+          "BH_ExitGateHorizontalRib_(2, 1.2)"
+        ],
+        [
+          "BH_QuarterArmorWall_1",
+          "BH_ExitGateHorizontalRib_(2, 2.4)"
+        ],
+        [
+          "BH_QuarterArmorWall_1",
+          "BH_ExitGateHorizontalRib_(2, 3.6)"
+        ],
+        [
+          "BH_QuarterArmorWall_1",
+          "BH_ExitGateHorizontalRib_(2, 4.8)"
+        ],
+        [
+          "BH_QuarterArmorWall_1",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(0, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(0, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 0)",
+          "BH_ExitGateHorizontalRib_(1, 1.2)"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 1)",
+          "BH_ExitGateHorizontalRib_(2, 1.2)"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(2, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(2, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(3, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(3, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(4, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(4, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(5, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(5, 1)",
+          "BH_ExitGateLeaf_2"
+        ]
+      ]
+    },
+    {
+      "progress": 0.95,
+      "pairs": [
+        [
+          "BH_QuarterArmorWall_0",
+          "BH_ExitGateHorizontalRib_(1, 1.2)"
+        ],
+        [
+          "BH_QuarterArmorWall_0",
+          "BH_ExitGateHorizontalRib_(1, 2.4)"
+        ],
+        [
+          "BH_QuarterArmorWall_0",
+          "BH_ExitGateHorizontalRib_(1, 3.6)"
+        ],
+        [
+          "BH_QuarterArmorWall_0",
+          "BH_ExitGateHorizontalRib_(1, 4.8)"
+        ],
+        [
+          "BH_QuarterArmorWall_0",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterArmorWall_1",
+          "BH_ExitGateHorizontalRib_(2, 1.2)"
+        ],
+        [
+          "BH_QuarterArmorWall_1",
+          "BH_ExitGateHorizontalRib_(2, 2.4)"
+        ],
+        [
+          "BH_QuarterArmorWall_1",
+          "BH_ExitGateHorizontalRib_(2, 3.6)"
+        ],
+        [
+          "BH_QuarterArmorWall_1",
+          "BH_ExitGateHorizontalRib_(2, 4.8)"
+        ],
+        [
+          "BH_QuarterArmorWall_1",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(0, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(0, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 0)",
+          "BH_ExitGateHorizontalRib_(1, 1.2)"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 1)",
+          "BH_ExitGateHorizontalRib_(2, 1.2)"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(2, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(2, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(3, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(3, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(4, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(4, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(5, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(5, 1)",
+          "BH_ExitGateLeaf_2"
+        ]
+      ]
+    },
+    {
+      "progress": 0.975,
+      "pairs": [
+        [
+          "BH_QuarterArmorWall_0",
+          "BH_ExitGateHorizontalRib_(1, 1.2)"
+        ],
+        [
+          "BH_QuarterArmorWall_0",
+          "BH_ExitGateHorizontalRib_(1, 2.4)"
+        ],
+        [
+          "BH_QuarterArmorWall_0",
+          "BH_ExitGateHorizontalRib_(1, 3.6)"
+        ],
+        [
+          "BH_QuarterArmorWall_0",
+          "BH_ExitGateHorizontalRib_(1, 4.8)"
+        ],
+        [
+          "BH_QuarterArmorWall_0",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterArmorWall_1",
+          "BH_ExitGateHorizontalRib_(2, 1.2)"
+        ],
+        [
+          "BH_QuarterArmorWall_1",
+          "BH_ExitGateHorizontalRib_(2, 2.4)"
+        ],
+        [
+          "BH_QuarterArmorWall_1",
+          "BH_ExitGateHorizontalRib_(2, 3.6)"
+        ],
+        [
+          "BH_QuarterArmorWall_1",
+          "BH_ExitGateHorizontalRib_(2, 4.8)"
+        ],
+        [
+          "BH_QuarterArmorWall_1",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(0, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(0, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 0)",
+          "BH_ExitGateHorizontalRib_(1, 1.2)"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 1)",
+          "BH_ExitGateHorizontalRib_(2, 1.2)"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(2, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(2, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(3, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(3, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(4, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(4, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(5, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(5, 1)",
+          "BH_ExitGateLeaf_2"
+        ]
+      ]
+    },
+    {
+      "progress": 1.0,
+      "pairs": [
+        [
+          "BH_QuarterArmorWall_0",
+          "BH_ExitGateHorizontalRib_(1, 1.2)"
+        ],
+        [
+          "BH_QuarterArmorWall_0",
+          "BH_ExitGateHorizontalRib_(1, 2.4)"
+        ],
+        [
+          "BH_QuarterArmorWall_0",
+          "BH_ExitGateHorizontalRib_(1, 3.6)"
+        ],
+        [
+          "BH_QuarterArmorWall_0",
+          "BH_ExitGateHorizontalRib_(1, 4.8)"
+        ],
+        [
+          "BH_QuarterArmorWall_0",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterArmorWall_1",
+          "BH_ExitGateHorizontalRib_(2, 1.2)"
+        ],
+        [
+          "BH_QuarterArmorWall_1",
+          "BH_ExitGateHorizontalRib_(2, 2.4)"
+        ],
+        [
+          "BH_QuarterArmorWall_1",
+          "BH_ExitGateHorizontalRib_(2, 3.6)"
+        ],
+        [
+          "BH_QuarterArmorWall_1",
+          "BH_ExitGateHorizontalRib_(2, 4.8)"
+        ],
+        [
+          "BH_QuarterArmorWall_1",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(0, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(0, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 0)",
+          "BH_ExitGateHorizontalRib_(1, 1.2)"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 1)",
+          "BH_ExitGateHorizontalRib_(2, 1.2)"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(1, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(2, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(2, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(3, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(3, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(4, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(4, 1)",
+          "BH_ExitGateLeaf_2"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(5, 0)",
+          "BH_ExitGateLeaf_1"
+        ],
+        [
+          "BH_QuarterHorizontalSeam_(5, 1)",
+          "BH_ExitGateLeaf_2"
+        ]
+      ]
+    }
+  ],
+  "invalid_drivers": []
+}

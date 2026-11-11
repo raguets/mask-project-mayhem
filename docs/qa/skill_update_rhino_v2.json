@@ -1,0 +1,21 @@
+{
+  "project_source": "G:\\DEV\\mask-project-mayhem\\.agents\\skills\\mask-asset-production",
+  "installed": "C:\\Users\\steph\\.codex\\skills\\mask-asset-production",
+  "hashes_match": true,
+  "sha256": {
+    "SKILL.md": "83eb0f59b687191abf06138b2786534be2dd1cd62cbf880f1872f17d5d8e9999",
+    "references\\blender-operations.md": "1f6f8d53176c6dabe7d50955fac04f5fe9b93ebd445b541b0e3ef228a1b1959f",
+    "references\\characters-masks.md": "6cb99414f497db586e52bb93fb7054188d3ed94d30b5cde254d0ea7ab7c6afc1",
+    "references\\vehicles.md": "e7cb565a47993fd90f71d285f74324899090eb92d5a49e1ba8abcc215b0cfe0d",
+    "references\\verified-lessons.md": "59cf34bc970bf5484b632743cdee25c043741835dbd4de5bb9a520358d147a50",
+    "scripts\\export_components.py": "57433ba99386b8251cf8dfaf36fe3b9f1f6590742aeee2a794c38301444b38c1",
+    "scripts\\mcp_client.py": "40cfee2bde71b24270dda9bb8eacf43125f4d7b6d90037a35b2536442d2c3b85",
+    "scripts\\render_review_queue.py": "3b442e080e2d115a55d3f6b157bd1e28600bb41cfb855337c6a2ee396f723071"
+  },
+  "behavioral_evidence": [
+    "art_source/Rhino/renders/v2_final/manifest.json",
+    "art_source/Rhino/standalone_validation_v2.json",
+    "docs/qa/rhino_active_review_guard.json"
+  ],
+  "syntax_passed": true
+}

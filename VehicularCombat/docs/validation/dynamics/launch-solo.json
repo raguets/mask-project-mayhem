@@ -1,0 +1,20 @@
+﻿{
+    "role":  "solo",
+    "pid":  21956,
+    "executable":  "G:\\DEV\\mask-project-mayhem\\VehicularCombat\\Saved\\Packages\\MASK-Dynamics-Development-r2\\Windows\\VehicularCombat\\Binaries\\Win64\\VehicularCombat.exe",
+    "arguments":  [
+                      "/Game/Maps/TestMaps/Test?Vehicle=Thunderhawk",
+                      "-unattended",
+                      "-nosound",
+                      "-nosteam",
+                      "-nosplash",
+                      "-windowed",
+                      "-ResX=1280",
+                      "-ResY=720",
+                      "-NoVSync",
+                      "-ExecCmds=\"t.MaxFPS 30,MASK.DynamicsSmoke solo\"",
+                      "-MigrationReportDir=\"G:\\DEV\\mask-project-mayhem\\VehicularCombat\\Saved\\Migration\\dynamics-packaged-r2\"",
+                      "-AbsLog=\"G:\\DEV\\mask-project-mayhem\\VehicularCombat\\Saved\\Migration\\dynamics-packaged-r2\\solo.log\"",
+                      "-RenderOffscreen"
+                  ]
+}

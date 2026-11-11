@@ -1,0 +1,3824 @@
+[
+  {
+    "name": "AS_ArmBand_L",
+    "bounds": [
+      [
+        -0.40202319622039795,
+        0.14075598120689392,
+        0.7349004745483398
+      ],
+      [
+        -0.2894435524940491,
+        0.26808077096939087,
+        0.8866485357284546
+      ]
+    ],
+    "materials": [
+      "AS_WovenShirt"
+    ],
+    "modifiers": [
+      [
+        "SurfaceSubdivision",
+        "SUBSURF"
+      ],
+      [
+        "MT_Deform",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "AS_Cuff_L",
+    "bounds": [
+      [
+        0.07400757074356079,
+        0.1118401288986206,
+        0.7384486198425293
+      ],
+      [
+        0.13657045364379883,
+        0.19364935159683228,
+        0.8252456784248352
+      ]
+    ],
+    "materials": [
+      "AS_WovenShirt"
+    ],
+    "modifiers": [
+      [
+        "SurfaceSubdivision",
+        "SUBSURF"
+      ],
+      [
+        "MT_Deform",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "AS_ArmBand_R",
+    "bounds": [
+      [
+        -0.40201812982559204,
+        -0.2680327296257019,
+        0.7349071502685547
+      ],
+      [
+        -0.2894183397293091,
+        -0.14081302285194397,
+        0.8867135643959045
+      ]
+    ],
+    "materials": [
+      "AS_WovenShirt"
+    ],
+    "modifiers": [
+      [
+        "SurfaceSubdivision",
+        "SUBSURF"
+      ],
+      [
+        "MT_Deform",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "AS_Cuff_R",
+    "bounds": [
+      [
+        0.07401008903980255,
+        -0.19365932047367096,
+        0.7384564876556396
+      ],
+      [
+        0.13634631037712097,
+        -0.1118459403514862,
+        0.8252546191215515
+      ]
+    ],
+    "materials": [
+      "AS_WovenShirt"
+    ],
+    "modifiers": [
+      [
+        "SurfaceSubdivision",
+        "SUBSURF"
+      ],
+      [
+        "MT_Deform",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "AS_Belt",
+    "bounds": [
+      [
+        -0.5433034896850586,
+        -0.15900000929832458,
+        0.5697404742240906
+      ],
+      [
+        -0.3099322021007538,
+        0.15900000929832458,
+        0.6699514985084534
+      ]
+    ],
+    "materials": [
+      "AS_MT2_HarnessWebbing.001"
+    ],
+    "modifiers": [
+      [
+        "MT_Deform",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "AS_BeltBuckle",
+    "bounds": [
+      [
+        -0.32238084077835083,
+        -0.02900000289082527,
+        0.6381126046180725
+      ],
+      [
+        -0.2955765128135681,
+        0.029000001028180122,
+        0.680004358291626
+      ]
+    ],
+    "materials": [
+      "AS_MT2_BrushedBuckle.001"
+    ],
+    "modifiers": [
+      [
+        "EdgeRadius",
+        "BEVEL"
+      ],
+      [
+        "Normals",
+        "WEIGHTED_NORMAL"
+      ],
+      [
+        "MT_Deform",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "AS_FabricCollar_1.479",
+    "bounds": [
+      [
+        -0.6315370798110962,
+        -0.06199999526143074,
+        0.910145103931427
+      ],
+      [
+        -0.5166386961936951,
+        0.06200001761317253,
+        0.9726857542991638
+      ]
+    ],
+    "materials": [
+      "AS_WovenShirt"
+    ],
+    "modifiers": [
+      [
+        "MT_Deform",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "AS_FabricCollar_1.491",
+    "bounds": [
+      [
+        -0.6356204152107239,
+        -0.06099999323487282,
+        0.9227129220962524
+      ],
+      [
+        -0.5225550532341003,
+        0.061000023037195206,
+        0.9844436645507812
+      ]
+    ],
+    "materials": [
+      "AS_WovenShirt"
+    ],
+    "modifiers": [
+      [
+        "MT_Deform",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "AS_Head_AnatomicalSurface",
+    "bounds": [
+      [
+        -0.6701644062995911,
+        -0.09573359787464142,
+        0.9244900941848755
+      ],
+      [
+        -0.4540880620479584,
+        0.0944783017039299,
+        1.2553471326828003
+      ]
+    ],
+    "materials": [
+      "AS_MT4_Skin.001"
+    ],
+    "modifiers": [
+      [
+        "AnatomicalSurface",
+        "SUBSURF"
+      ],
+      [
+        "SameMattRig",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "AS_ContinuousFlightSuit",
+    "bounds": [
+      [
+        -0.643149197101593,
+        -0.26815807819366455,
+        0.07775642722845078
+      ],
+      [
+        0.20640844106674194,
+        0.2681998908519745,
+        0.9713551998138428
+      ]
+    ],
+    "materials": [
+      "AS_WovenShirt",
+      "AS_TrouserFabric"
+    ],
+    "modifiers": [
+      [
+        "ContinuousSuitSkin",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "AS_BootSole_L",
+    "bounds": [
+      [
+        0.1351061910390854,
+        0.05899987742304802,
+        -0.04097779840230942
+      ],
+      [
+        0.36531955003738403,
+        0.1709998995065689,
+        0.046027351170778275
+      ]
+    ],
+    "materials": [
+      "AS_Spectrum2_Rubber.001"
+    ],
+    "modifiers": [
+      [
+        "SameCharacterFootSkin",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "AS_BootUpper_L",
+    "bounds": [
+      [
+        0.09667956829071045,
+        0.06099986657500267,
+        -0.013579145073890686
+      ],
+      [
+        0.355720579624176,
+        0.16899986565113068,
+        0.18405646085739136
+      ]
+    ],
+    "materials": [
+      "AS_Leather",
+      "AS_Leather"
+    ],
+    "modifiers": [
+      [
+        "SameCharacterFootSkin",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "AS_BootWelt_L",
+    "bounds": [
+      [
+        0.1358986794948578,
+        0.059999871999025345,
+        -0.016233831644058228
+      ],
+      [
+        0.358892023563385,
+        0.1699998825788498,
+        0.04772915691137314
+      ]
+    ],
+    "materials": [
+      "AS_Leather"
+    ],
+    "modifiers": [
+      [
+        "SameCharacterFootSkin",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "AS_BootSole_R",
+    "bounds": [
+      [
+        0.13510563969612122,
+        -0.17100030183792114,
+        -0.04097806289792061
+      ],
+      [
+        0.365319162607193,
+        -0.05900028347969055,
+        0.04602697491645813
+      ]
+    ],
+    "materials": [
+      "AS_Spectrum2_Rubber.001"
+    ],
+    "modifiers": [
+      [
+        "SameCharacterFootSkin",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "AS_BootUpper_R",
+    "bounds": [
+      [
+        0.09667862951755524,
+        -0.1690002977848053,
+        -0.013579398393630981
+      ],
+      [
+        0.3557202219963074,
+        -0.061000268906354904,
+        0.18405582010746002
+      ]
+    ],
+    "materials": [
+      "AS_Leather",
+      "AS_Leather"
+    ],
+    "modifiers": [
+      [
+        "SameCharacterFootSkin",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "AS_BootWelt_R",
+    "bounds": [
+      [
+        0.1358981728553772,
+        -0.17000029981136322,
+        -0.016234084963798523
+      ],
+      [
+        0.35889163613319397,
+        -0.06000027805566788,
+        0.04772878438234329
+      ]
+    ],
+    "materials": [
+      "AS_Leather"
+    ],
+    "modifiers": [
+      [
+        "SameCharacterFootSkin",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "AS_Eyeball_L",
+    "bounds": [
+      [
+        -0.5090900659561157,
+        0.02175556868314743,
+        1.1301417350769043
+      ],
+      [
+        -0.48529642820358276,
+        0.04700866714119911,
+        1.1538362503051758
+      ]
+    ],
+    "materials": [
+      "AS_MT4_Sclera.001"
+    ],
+    "modifiers": [
+      [
+        "AnatomicalSurface",
+        "SUBSURF"
+      ],
+      [
+        "SameMattRig",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "AS_Iris_L",
+    "bounds": [
+      [
+        -0.486217737197876,
+        0.028315842151641846,
+        1.1362920999526978
+      ],
+      [
+        -0.4848177433013916,
+        0.040448181331157684,
+        1.147684097290039
+      ]
+    ],
+    "materials": [
+      "AS_MT4_IrisFibers.001",
+      "AS_MT4_Pupil.001"
+    ],
+    "modifiers": [
+      [
+        "AnatomicalSurface",
+        "SUBSURF"
+      ],
+      [
+        "SameMattRig",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "AS_Eyeball_R",
+    "bounds": [
+      [
+        -0.5090900659561157,
+        -0.04701981693506241,
+        1.1301417350769043
+      ],
+      [
+        -0.48529642820358276,
+        -0.021766718477010727,
+        1.1538362503051758
+      ]
+    ],
+    "materials": [
+      "AS_MT4_Sclera.001"
+    ],
+    "modifiers": [
+      [
+        "AnatomicalSurface",
+        "SUBSURF"
+      ],
+      [
+        "SameMattRig",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "AS_Iris_R",
+    "bounds": [
+      [
+        -0.486217737197876,
+        -0.040459539741277695,
+        1.1362920999526978
+      ],
+      [
+        -0.4848177433013916,
+        -0.028327208012342453,
+        1.147684097290039
+      ]
+    ],
+    "materials": [
+      "AS_MT4_IrisFibers.001",
+      "AS_MT4_Pupil.001"
+    ],
+    "modifiers": [
+      [
+        "AnatomicalSurface",
+        "SUBSURF"
+      ],
+      [
+        "SameMattRig",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "AS_Brow_NaturalFibers",
+    "bounds": [
+      [
+        -0.49490082263946533,
+        -0.05595775321125984,
+        1.1579029560089111
+      ],
+      [
+        -0.47493040561676025,
+        0.05513986200094223,
+        1.165329933166504
+      ]
+    ],
+    "materials": [
+      "AS_MT4_BrowHair.001"
+    ],
+    "modifiers": [
+      [
+        "AnatomicalSurface",
+        "SUBSURF"
+      ],
+      [
+        "SameMattRig",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "AS_GloveSkin_L",
+    "bounds": [
+      [
+        0.10944543033838272,
+        0.09717410802841187,
+        0.7386805415153503
+      ],
+      [
+        0.21308183670043945,
+        0.158649280667305,
+        0.8205479979515076
+      ]
+    ],
+    "materials": [
+      "Character_HandSkin"
+    ],
+    "modifiers": [
+      [
+        "AnatomicalSurface",
+        "SUBSURF"
+      ],
+      [
+        "SameMattRig",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "AS_GloveSkin_R",
+    "bounds": [
+      [
+        0.10944563895463943,
+        -0.1586494743824005,
+        0.7386810183525085
+      ],
+      [
+        0.2130819708108902,
+        -0.0971742570400238,
+        0.8205484747886658
+      ]
+    ],
+    "materials": [
+      "Character_HandSkin"
+    ],
+    "modifiers": [
+      [
+        "AnatomicalSurface",
+        "SUBSURF"
+      ],
+      [
+        "SameMattRig",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "AS_VestFront_-1",
+    "bounds": [
+      [
+        -0.5022041201591492,
+        -0.19371040165424347,
+        0.6503395438194275
+      ],
+      [
+        -0.34332194924354553,
+        -0.06499997526407242,
+        0.9559375643730164
+      ]
+    ],
+    "materials": [
+      "AS_Vest"
+    ],
+    "modifiers": [
+      [
+        "EditableCharacterSkin",
+        "ARMATURE"
+      ],
+      [
+        "ClothThickness",
+        "SOLIDIFY"
+      ]
+    ]
+  },
+  {
+    "name": "AS_VestFront_1",
+    "bounds": [
+      [
+        -0.505865752696991,
+        0.06342898309230804,
+        0.6485437750816345
+      ],
+      [
+        -0.3470425307750702,
+        0.19373250007629395,
+        0.9524519443511963
+      ]
+    ],
+    "materials": [
+      "AS_Vest"
+    ],
+    "modifiers": [
+      [
+        "EditableCharacterSkin",
+        "ARMATURE"
+      ],
+      [
+        "ClothThickness",
+        "SOLIDIFY"
+      ]
+    ]
+  },
+  {
+    "name": "AS_VestBack",
+    "bounds": [
+      [
+        -0.6561332941055298,
+        -0.193531796336174,
+        0.6012458205223083
+      ],
+      [
+        -0.4641069173812866,
+        0.1932772397994995,
+        0.8923822641372681
+      ]
+    ],
+    "materials": [
+      "AS_Vest"
+    ],
+    "modifiers": [
+      [
+        "EditableCharacterSkin",
+        "ARMATURE"
+      ],
+      [
+        "ClothThickness",
+        "SOLIDIFY"
+      ]
+    ]
+  },
+  {
+    "name": "AS_VestPocket_-1",
+    "bounds": [
+      [
+        -0.37594354152679443,
+        -0.15849998593330383,
+        0.6884725093841553
+      ],
+      [
+        -0.3301806151866913,
+        -0.07349997758865356,
+        0.7697567343711853
+      ]
+    ],
+    "materials": [
+      "AS_Vest"
+    ],
+    "modifiers": [
+      [
+        "ManufacturedEdge",
+        "BEVEL"
+      ],
+      [
+        "WeightedNormals",
+        "WEIGHTED_NORMAL"
+      ],
+      [
+        "EditableCharacterSkin",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "AS_VestPocket_1",
+    "bounds": [
+      [
+        -0.37594354152679443,
+        0.07349999994039536,
+        0.6884723901748657
+      ],
+      [
+        -0.3301806151866913,
+        0.15850000083446503,
+        0.7697567343711853
+      ]
+    ],
+    "materials": [
+      "AS_Vest"
+    ],
+    "modifiers": [
+      [
+        "ManufacturedEdge",
+        "BEVEL"
+      ],
+      [
+        "WeightedNormals",
+        "WEIGHTED_NORMAL"
+      ],
+      [
+        "EditableCharacterSkin",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "AS_GraduatedBeard",
+    "bounds": [
+      [
+        -0.5843192338943481,
+        -0.09456422924995422,
+        1.0043258666992188
+      ],
+      [
+        -0.45023098587989807,
+        0.09447646141052246,
+        1.1486655473709106
+      ]
+    ],
+    "materials": [
+      "AS_BeardFiberSurface"
+    ],
+    "modifiers": [
+      [
+        "EditableCharacterSkin",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "AS_ShortBeardGroom",
+    "bounds": [
+      [
+        -0.5639333128929138,
+        -0.08029492199420929,
+        1.0125479698181152
+      ],
+      [
+        -0.4646228551864624,
+        0.08076656609773636,
+        1.1216717958450317
+      ]
+    ],
+    "materials": [
+      "AS_RedBeard"
+    ],
+    "modifiers": [
+      [
+        "EditableCharacterSkin",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "AS_Suit_Torso",
+    "bounds": [
+      [
+        -0.12896819412708282,
+        -0.19831882417201996,
+        0.8999999761581421
+      ],
+      [
+        0.10496819019317627,
+        0.1976327896118164,
+        1.5
+      ]
+    ],
+    "materials": [
+      "AS_MT2_WovenGrey.001"
+    ],
+    "modifiers": [
+      [
+        "SurfaceSubdivision",
+        "SUBSURF"
+      ],
+      [
+        "MT_Deform",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "AS_ContinuousSleeve_L",
+    "bounds": [
+      [
+        -0.08367660641670227,
+        0.1265401542186737,
+        0.9093151092529297
+      ],
+      [
+        0.07429473102092743,
+        0.32030147314071655,
+        1.4486109018325806
+      ]
+    ],
+    "materials": [
+      "AS_MT2_WovenGrey.001"
+    ],
+    "modifiers": [
+      [
+        "SurfaceSubdivision",
+        "SUBSURF"
+      ],
+      [
+        "MT_Deform",
+        "ARMATURE"
+      ],
+      [
+        "ClothFoldRelax",
+        "SMOOTH"
+      ]
+    ]
+  },
+  {
+    "name": "AS_ContinuousTrouser_L",
+    "bounds": [
+      [
+        -0.09212127327919006,
+        -0.0007015764713287354,
+        0.11328385025262833
+      ],
+      [
+        0.094153992831707,
+        0.1911570429801941,
+        0.9602288603782654
+      ]
+    ],
+    "materials": [
+      "AS_MT2_WovenGrey.001"
+    ],
+    "modifiers": [
+      [
+        "SurfaceSubdivision",
+        "SUBSURF"
+      ],
+      [
+        "MT_Deform",
+        "ARMATURE"
+      ],
+      [
+        "ClothFoldRelax",
+        "SMOOTH"
+      ]
+    ]
+  },
+  {
+    "name": "AS_ContinuousSleeve_R",
+    "bounds": [
+      [
+        -0.08367660641670227,
+        -0.3205814063549042,
+        0.9093151688575745
+      ],
+      [
+        0.07385681569576263,
+        -0.1265401542186737,
+        1.4486109018325806
+      ]
+    ],
+    "materials": [
+      "AS_MT2_WovenGrey.001"
+    ],
+    "modifiers": [
+      [
+        "SurfaceSubdivision",
+        "SUBSURF"
+      ],
+      [
+        "MT_Deform",
+        "ARMATURE"
+      ],
+      [
+        "ClothFoldRelax",
+        "SMOOTH"
+      ]
+    ]
+  },
+  {
+    "name": "AS_ContinuousTrouser_R",
+    "bounds": [
+      [
+        -0.09212128072977066,
+        -0.19127534329891205,
+        0.11328385025262833
+      ],
+      [
+        0.09431979060173035,
+        0.0007015913724899292,
+        0.9602288007736206
+      ]
+    ],
+    "materials": [
+      "AS_MT2_WovenGrey.001"
+    ],
+    "modifiers": [
+      [
+        "SurfaceSubdivision",
+        "SUBSURF"
+      ],
+      [
+        "MT_Deform",
+        "ARMATURE"
+      ],
+      [
+        "ClothFoldRelax",
+        "SMOOTH"
+      ]
+    ]
+  },
+  {
+    "name": "AS_DeltoidCloth_L",
+    "bounds": [
+      [
+        -0.08500004559755325,
+        0.10099996626377106,
+        1.3686000108718872
+      ],
+      [
+        0.07300002872943878,
+        0.26100003719329834,
+        1.5110000371932983
+      ]
+    ],
+    "materials": [
+      "AS_MT2_WovenGrey.001"
+    ],
+    "modifiers": [
+      [
+        "MT_Deform",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "AS_DeltoidCloth_R",
+    "bounds": [
+      [
+        -0.08500004559755325,
+        -0.26100003719329834,
+        1.3686000108718872
+      ],
+      [
+        0.07300002872943878,
+        -0.10099993646144867,
+        1.5110000371932983
+      ]
+    ],
+    "materials": [
+      "AS_MT2_WovenGrey.001"
+    ],
+    "modifiers": [
+      [
+        "MT_Deform",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "AS_GlovePalm_L",
+    "bounds": [
+      [
+        0.007999968715012074,
+        0.24599996209144592,
+        0.8159999847412109
+      ],
+      [
+        0.06199999153614044,
+        0.32999998331069946,
+        0.9240000247955322
+      ]
+    ],
+    "materials": [
+      "AS_MT2_RedLeather.001"
+    ],
+    "modifiers": [
+      [
+        "MT_Deform",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "AS_GloveFinger_L0",
+    "bounds": [
+      [
+        0.03910357505083084,
+        0.2510000169277191,
+        0.7877442836761475
+      ],
+      [
+        0.09377572685480118,
+        0.2709999978542328,
+        0.8533622622489929
+      ]
+    ],
+    "materials": [
+      "AS_MT2_RedLeather.001"
+    ],
+    "modifiers": [
+      [
+        "MT_Deform",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "AS_GloveKnuckleSeam_L01",
+    "bounds": [
+      [
+        0.06532693654298782,
+        0.2537396252155304,
+        0.8218665719032288
+      ],
+      [
+        0.06869950145483017,
+        0.2682603895664215,
+        0.8251819610595703
+      ]
+    ],
+    "materials": [
+      "AS_MT2_SeamGrey.001"
+    ],
+    "modifiers": [
+      [
+        "MT_Deform",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "AS_GloveKnuckleSeam_L02",
+    "bounds": [
+      [
+        0.08732693642377853,
+        0.2537396252155304,
+        0.8017066121101379
+      ],
+      [
+        0.09069950133562088,
+        0.2682603895664215,
+        0.8050219416618347
+      ]
+    ],
+    "materials": [
+      "AS_MT2_SeamGrey.001"
+    ],
+    "modifiers": [
+      [
+        "MT_Deform",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "AS_GloveFinger_L1",
+    "bounds": [
+      [
+        0.03942182660102844,
+        0.2705000042915344,
+        0.7799383997917175
+      ],
+      [
+        0.093485988676548,
+        0.28949999809265137,
+        0.8528367280960083
+      ]
+    ],
+    "materials": [
+      "AS_MT2_RedLeather.001"
+    ],
+    "modifiers": [
+      [
+        "MT_Deform",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "AS_GloveKnuckleSeam_L11",
+    "bounds": [
+      [
+        0.06532693654298782,
+        0.27273961901664734,
+        0.818086564540863
+      ],
+      [
+        0.06869950145483017,
+        0.28726038336753845,
+        0.8214019536972046
+      ]
+    ],
+    "materials": [
+      "AS_MT2_SeamGrey.001"
+    ],
+    "modifiers": [
+      [
+        "MT_Deform",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "AS_GloveKnuckleSeam_L12",
+    "bounds": [
+      [
+        0.08732693642377853,
+        0.27273961901664734,
+        0.7950465679168701
+      ],
+      [
+        0.09069950133562088,
+        0.28726038336753845,
+        0.7983619570732117
+      ]
+    ],
+    "materials": [
+      "AS_MT2_SeamGrey.001"
+    ],
+    "modifiers": [
+      [
+        "MT_Deform",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "AS_GloveFinger_L2",
+    "bounds": [
+      [
+        0.039921388030052185,
+        0.28999999165534973,
+        0.7836707234382629
+      ],
+      [
+        0.09298259019851685,
+        0.30799999833106995,
+        0.8528286814689636
+      ]
+    ],
+    "materials": [
+      "AS_MT2_RedLeather.001"
+    ],
+    "modifiers": [
+      [
+        "MT_Deform",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "AS_GloveKnuckleSeam_L21",
+    "bounds": [
+      [
+        0.06532693654298782,
+        0.2917396128177643,
+        0.8197665810585022
+      ],
+      [
+        0.06869950145483017,
+        0.3062603771686554,
+        0.8230819702148438
+      ]
+    ],
+    "materials": [
+      "AS_MT2_SeamGrey.001"
+    ],
+    "modifiers": [
+      [
+        "MT_Deform",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "AS_GloveKnuckleSeam_L22",
+    "bounds": [
+      [
+        0.08732693642377853,
+        0.2917396128177643,
+        0.7980065941810608
+      ],
+      [
+        0.09069950133562088,
+        0.3062603771686554,
+        0.8013219237327576
+      ]
+    ],
+    "materials": [
+      "AS_MT2_SeamGrey.001"
+    ],
+    "modifiers": [
+      [
+        "MT_Deform",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "AS_GloveFinger_L3",
+    "bounds": [
+      [
+        0.04062593728303909,
+        0.30949997901916504,
+        0.797114908695221
+      ],
+      [
+        0.09224056452512741,
+        0.3264999985694885,
+        0.8533127307891846
+      ]
+    ],
+    "materials": [
+      "AS_MT2_RedLeather.001"
+    ],
+    "modifiers": [
+      [
+        "MT_Deform",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "AS_GloveKnuckleSeam_L31",
+    "bounds": [
+      [
+        0.06532693654298782,
+        0.3107396066188812,
+        0.8260666131973267
+      ],
+      [
+        0.06869950145483017,
+        0.32526037096977234,
+        0.8293819427490234
+      ]
+    ],
+    "materials": [
+      "AS_MT2_SeamGrey.001"
+    ],
+    "modifiers": [
+      [
+        "MT_Deform",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "AS_GloveKnuckleSeam_L32",
+    "bounds": [
+      [
+        0.08732693642377853,
+        0.3107396066188812,
+        0.8091065883636475
+      ],
+      [
+        0.09069950133562088,
+        0.32526037096977234,
+        0.8124219179153442
+      ]
+    ],
+    "materials": [
+      "AS_MT2_SeamGrey.001"
+    ],
+    "modifiers": [
+      [
+        "MT_Deform",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "AS_GloveThumb_L",
+    "bounds": [
+      [
+        0.03899095207452774,
+        0.22334130108356476,
+        0.8333733677864075
+      ],
+      [
+        0.09807008504867554,
+        0.26469773054122925,
+        0.8913625478744507
+      ]
+    ],
+    "materials": [
+      "AS_MT2_RedLeather.001"
+    ],
+    "modifiers": [
+      [
+        "MT_Deform",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "AS_GlovePalm_R",
+    "bounds": [
+      [
+        0.00799998827278614,
+        -0.3299999535083771,
+        0.8159999847412109
+      ],
+      [
+        0.062000010162591934,
+        -0.24599991738796234,
+        0.9240000247955322
+      ]
+    ],
+    "materials": [
+      "AS_MT2_RedLeather.001"
+    ],
+    "modifiers": [
+      [
+        "MT_Deform",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "AS_GloveFinger_R0",
+    "bounds": [
+      [
+        0.03910357505083084,
+        -0.2709999978542328,
+        0.7877442836761475
+      ],
+      [
+        0.09377572685480118,
+        -0.2510000169277191,
+        0.8533622622489929
+      ]
+    ],
+    "materials": [
+      "AS_MT2_RedLeather.001"
+    ],
+    "modifiers": [
+      [
+        "MT_Deform",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "AS_GloveKnuckleSeam_R01",
+    "bounds": [
+      [
+        0.06532693654298782,
+        -0.2682603895664215,
+        0.8218665719032288
+      ],
+      [
+        0.06869950145483017,
+        -0.2537396252155304,
+        0.8251819610595703
+      ]
+    ],
+    "materials": [
+      "AS_MT2_SeamGrey.001"
+    ],
+    "modifiers": [
+      [
+        "MT_Deform",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "AS_GloveKnuckleSeam_R02",
+    "bounds": [
+      [
+        0.08732693642377853,
+        -0.2682603895664215,
+        0.8017066121101379
+      ],
+      [
+        0.09069950133562088,
+        -0.2537396252155304,
+        0.8050219416618347
+      ]
+    ],
+    "materials": [
+      "AS_MT2_SeamGrey.001"
+    ],
+    "modifiers": [
+      [
+        "MT_Deform",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "AS_GloveFinger_R1",
+    "bounds": [
+      [
+        0.03942182660102844,
+        -0.28949999809265137,
+        0.7799383997917175
+      ],
+      [
+        0.093485988676548,
+        -0.2705000042915344,
+        0.8528367280960083
+      ]
+    ],
+    "materials": [
+      "AS_MT2_RedLeather.001"
+    ],
+    "modifiers": [
+      [
+        "MT_Deform",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "AS_GloveKnuckleSeam_R11",
+    "bounds": [
+      [
+        0.06532693654298782,
+        -0.28726038336753845,
+        0.818086564540863
+      ],
+      [
+        0.06869950145483017,
+        -0.27273961901664734,
+        0.8214019536972046
+      ]
+    ],
+    "materials": [
+      "AS_MT2_SeamGrey.001"
+    ],
+    "modifiers": [
+      [
+        "MT_Deform",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "AS_GloveKnuckleSeam_R12",
+    "bounds": [
+      [
+        0.08732693642377853,
+        -0.28726038336753845,
+        0.7950465679168701
+      ],
+      [
+        0.09069950133562088,
+        -0.27273961901664734,
+        0.7983619570732117
+      ]
+    ],
+    "materials": [
+      "AS_MT2_SeamGrey.001"
+    ],
+    "modifiers": [
+      [
+        "MT_Deform",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "AS_GloveFinger_R2",
+    "bounds": [
+      [
+        0.039921388030052185,
+        -0.30799999833106995,
+        0.7836707234382629
+      ],
+      [
+        0.09298259019851685,
+        -0.28999999165534973,
+        0.8528286814689636
+      ]
+    ],
+    "materials": [
+      "AS_MT2_RedLeather.001"
+    ],
+    "modifiers": [
+      [
+        "MT_Deform",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "AS_GloveKnuckleSeam_R21",
+    "bounds": [
+      [
+        0.06532693654298782,
+        -0.3062603771686554,
+        0.8197665810585022
+      ],
+      [
+        0.06869950145483017,
+        -0.2917396128177643,
+        0.8230819702148438
+      ]
+    ],
+    "materials": [
+      "AS_MT2_SeamGrey.001"
+    ],
+    "modifiers": [
+      [
+        "MT_Deform",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "AS_GloveKnuckleSeam_R22",
+    "bounds": [
+      [
+        0.08732693642377853,
+        -0.3062603771686554,
+        0.7980065941810608
+      ],
+      [
+        0.09069950133562088,
+        -0.2917396128177643,
+        0.8013219237327576
+      ]
+    ],
+    "materials": [
+      "AS_MT2_SeamGrey.001"
+    ],
+    "modifiers": [
+      [
+        "MT_Deform",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "AS_GloveFinger_R3",
+    "bounds": [
+      [
+        0.04062593728303909,
+        -0.3264999985694885,
+        0.797114908695221
+      ],
+      [
+        0.09224056452512741,
+        -0.30949997901916504,
+        0.8533127307891846
+      ]
+    ],
+    "materials": [
+      "AS_MT2_RedLeather.001"
+    ],
+    "modifiers": [
+      [
+        "MT_Deform",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "AS_GloveKnuckleSeam_R31",
+    "bounds": [
+      [
+        0.06532693654298782,
+        -0.32526037096977234,
+        0.8260666131973267
+      ],
+      [
+        0.06869950145483017,
+        -0.3107396066188812,
+        0.8293819427490234
+      ]
+    ],
+    "materials": [
+      "AS_MT2_SeamGrey.001"
+    ],
+    "modifiers": [
+      [
+        "MT_Deform",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "AS_GloveKnuckleSeam_R32",
+    "bounds": [
+      [
+        0.08732693642377853,
+        -0.32526037096977234,
+        0.8091065883636475
+      ],
+      [
+        0.09069950133562088,
+        -0.3107396066188812,
+        0.8124219179153442
+      ]
+    ],
+    "materials": [
+      "AS_MT2_SeamGrey.001"
+    ],
+    "modifiers": [
+      [
+        "MT_Deform",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "AS_GloveThumb_R",
+    "bounds": [
+      [
+        0.03899094834923744,
+        -0.26469773054122925,
+        0.8333733677864075
+      ],
+      [
+        0.09807007759809494,
+        -0.22334130108356476,
+        0.8913625478744507
+      ]
+    ],
+    "materials": [
+      "AS_MT2_RedLeather.001"
+    ],
+    "modifiers": [
+      [
+        "MT_Deform",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "BS_ArmBand_L",
+    "bounds": [
+      [
+        -0.40202319622039795,
+        0.14075598120689392,
+        0.7349004745483398
+      ],
+      [
+        -0.2894435524940491,
+        0.26808077096939087,
+        0.8866485357284546
+      ]
+    ],
+    "materials": [
+      "BS_Leather"
+    ],
+    "modifiers": [
+      [
+        "SurfaceSubdivision",
+        "SUBSURF"
+      ],
+      [
+        "MT_Deform",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "BS_Cuff_L",
+    "bounds": [
+      [
+        0.07400757074356079,
+        0.1118401288986206,
+        0.7384486198425293
+      ],
+      [
+        0.13657045364379883,
+        0.19364935159683228,
+        0.8252456784248352
+      ]
+    ],
+    "materials": [
+      "BS_Leather"
+    ],
+    "modifiers": [
+      [
+        "SurfaceSubdivision",
+        "SUBSURF"
+      ],
+      [
+        "MT_Deform",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "BS_KneePatch_L",
+    "bounds": [
+      [
+        -0.6601173281669617,
+        -0.015445642173290253,
+        0.43015870451927185
+      ],
+      [
+        0.12627634406089783,
+        0.23094621300697327,
+        0.8946243524551392
+      ]
+    ],
+    "materials": [
+      "BS_Leather"
+    ],
+    "modifiers": [
+      [
+        "FollowSameClothSurface",
+        "SURFACE_DEFORM"
+      ],
+      [
+        "ClothPatchThickness",
+        "SOLIDIFY"
+      ]
+    ]
+  },
+  {
+    "name": "BS_ArmBand_R",
+    "bounds": [
+      [
+        -0.40201812982559204,
+        -0.2680327296257019,
+        0.7349071502685547
+      ],
+      [
+        -0.2894183397293091,
+        -0.14081302285194397,
+        0.8867135643959045
+      ]
+    ],
+    "materials": [
+      "BS_Leather"
+    ],
+    "modifiers": [
+      [
+        "SurfaceSubdivision",
+        "SUBSURF"
+      ],
+      [
+        "MT_Deform",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "BS_Cuff_R",
+    "bounds": [
+      [
+        0.07401008903980255,
+        -0.19365932047367096,
+        0.7384564876556396
+      ],
+      [
+        0.13634631037712097,
+        -0.1118459403514862,
+        0.8252546191215515
+      ]
+    ],
+    "materials": [
+      "BS_Leather"
+    ],
+    "modifiers": [
+      [
+        "SurfaceSubdivision",
+        "SUBSURF"
+      ],
+      [
+        "MT_Deform",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "BS_KneePatch_R",
+    "bounds": [
+      [
+        -0.5787696838378906,
+        -0.2081904113292694,
+        0.05681079626083374
+      ],
+      [
+        0.1690717339515686,
+        0.1791134625673294,
+        0.9737370610237122
+      ]
+    ],
+    "materials": [
+      "BS_Leather"
+    ],
+    "modifiers": [
+      [
+        "FollowSameClothSurface",
+        "SURFACE_DEFORM"
+      ],
+      [
+        "ClothPatchThickness",
+        "SOLIDIFY"
+      ]
+    ]
+  },
+  {
+    "name": "BS_Belt",
+    "bounds": [
+      [
+        -0.5433034896850586,
+        -0.15900000929832458,
+        0.5697404742240906
+      ],
+      [
+        -0.3099322021007538,
+        0.15900000929832458,
+        0.6699514985084534
+      ]
+    ],
+    "materials": [
+      "BS_MT2_HarnessWebbing.002"
+    ],
+    "modifiers": [
+      [
+        "MT_Deform",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "BS_BeltBuckle",
+    "bounds": [
+      [
+        -0.32238084077835083,
+        -0.02900000289082527,
+        0.6381126046180725
+      ],
+      [
+        -0.2955765128135681,
+        0.029000001028180122,
+        0.680004358291626
+      ]
+    ],
+    "materials": [
+      "BS_MT2_BrushedBuckle.002"
+    ],
+    "modifiers": [
+      [
+        "EdgeRadius",
+        "BEVEL"
+      ],
+      [
+        "Normals",
+        "WEIGHTED_NORMAL"
+      ],
+      [
+        "MT_Deform",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "BS_FabricCollar_1.479",
+    "bounds": [
+      [
+        -0.6315370798110962,
+        -0.06199999526143074,
+        0.910145103931427
+      ],
+      [
+        -0.5166386961936951,
+        0.06200001761317253,
+        0.9726857542991638
+      ]
+    ],
+    "materials": [
+      "BS_WovenShirt"
+    ],
+    "modifiers": [
+      [
+        "MT_Deform",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "BS_FabricCollar_1.491",
+    "bounds": [
+      [
+        -0.6356204152107239,
+        -0.06099999323487282,
+        0.9227129220962524
+      ],
+      [
+        -0.5225550532341003,
+        0.061000023037195206,
+        0.9844436645507812
+      ]
+    ],
+    "materials": [
+      "BS_WovenShirt"
+    ],
+    "modifiers": [
+      [
+        "MT_Deform",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "BS_Head_AnatomicalSurface",
+    "bounds": [
+      [
+        -0.6797846555709839,
+        -0.08825138956308365,
+        0.9244900941848755
+      ],
+      [
+        -0.46888619661331177,
+        0.08730464428663254,
+        1.2493470907211304
+      ]
+    ],
+    "materials": [
+      "BS_MT4_Skin.002"
+    ],
+    "modifiers": [
+      [
+        "AnatomicalSurface",
+        "SUBSURF"
+      ],
+      [
+        "SameMattRig",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "BS_ContinuousFlightSuit",
+    "bounds": [
+      [
+        -0.643149197101593,
+        -0.26815807819366455,
+        0.07775642722845078
+      ],
+      [
+        0.20640844106674194,
+        0.2681998908519745,
+        0.9713551998138428
+      ]
+    ],
+    "materials": [
+      "BS_WovenShirt",
+      "BS_TrouserFabric"
+    ],
+    "modifiers": [
+      [
+        "ContinuousSuitSkin",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "BS_BootSole_L",
+    "bounds": [
+      [
+        0.1351061910390854,
+        0.05899987742304802,
+        -0.04097779840230942
+      ],
+      [
+        0.36531955003738403,
+        0.1709998995065689,
+        0.046027351170778275
+      ]
+    ],
+    "materials": [
+      "BS_Spectrum2_Rubber.002"
+    ],
+    "modifiers": [
+      [
+        "SameCharacterFootSkin",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "BS_BootUpper_L",
+    "bounds": [
+      [
+        0.09667956829071045,
+        0.06099986657500267,
+        -0.013579145073890686
+      ],
+      [
+        0.355720579624176,
+        0.16899986565113068,
+        0.18405646085739136
+      ]
+    ],
+    "materials": [
+      "BS_Leather",
+      "BS_Leather"
+    ],
+    "modifiers": [
+      [
+        "SameCharacterFootSkin",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "BS_BootWelt_L",
+    "bounds": [
+      [
+        0.1358986794948578,
+        0.059999871999025345,
+        -0.016233831644058228
+      ],
+      [
+        0.358892023563385,
+        0.1699998825788498,
+        0.04772915691137314
+      ]
+    ],
+    "materials": [
+      "BS_Leather"
+    ],
+    "modifiers": [
+      [
+        "SameCharacterFootSkin",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "BS_BootSole_R",
+    "bounds": [
+      [
+        0.13510563969612122,
+        -0.17100030183792114,
+        -0.04097806289792061
+      ],
+      [
+        0.365319162607193,
+        -0.05900028347969055,
+        0.04602697491645813
+      ]
+    ],
+    "materials": [
+      "BS_Spectrum2_Rubber.002"
+    ],
+    "modifiers": [
+      [
+        "SameCharacterFootSkin",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "BS_BootUpper_R",
+    "bounds": [
+      [
+        0.09667862951755524,
+        -0.1690002977848053,
+        -0.013579398393630981
+      ],
+      [
+        0.3557202219963074,
+        -0.061000268906354904,
+        0.18405582010746002
+      ]
+    ],
+    "materials": [
+      "BS_Leather",
+      "BS_Leather"
+    ],
+    "modifiers": [
+      [
+        "SameCharacterFootSkin",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "BS_BootWelt_R",
+    "bounds": [
+      [
+        0.1358981728553772,
+        -0.17000029981136322,
+        -0.016234084963798523
+      ],
+      [
+        0.35889163613319397,
+        -0.06000027805566788,
+        0.04772878438234329
+      ]
+    ],
+    "materials": [
+      "BS_Leather"
+    ],
+    "modifiers": [
+      [
+        "SameCharacterFootSkin",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "BS_Eyeball_L",
+    "bounds": [
+      [
+        -0.5150900483131409,
+        0.019712796434760094,
+        1.1241416931152344
+      ],
+      [
+        -0.4912964105606079,
+        0.04259471222758293,
+        1.1478362083435059
+      ]
+    ],
+    "materials": [
+      "BS_MT4_Sclera.002"
+    ],
+    "modifiers": [
+      [
+        "AnatomicalSurface",
+        "SUBSURF"
+      ],
+      [
+        "SameMattRig",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "BS_Iris_L",
+    "bounds": [
+      [
+        -0.4922177791595459,
+        0.025657078251242638,
+        1.1302919387817383
+      ],
+      [
+        -0.49081772565841675,
+        0.03665023297071457,
+        1.1416840553283691
+      ]
+    ],
+    "materials": [
+      "BS_MT4_IrisFibers.002",
+      "BS_MT4_Pupil.002"
+    ],
+    "modifiers": [
+      [
+        "AnatomicalSurface",
+        "SUBSURF"
+      ],
+      [
+        "SameMattRig",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "BS_Eyeball_R",
+    "bounds": [
+      [
+        -0.5150900483131409,
+        -0.042604804039001465,
+        1.1241416931152344
+      ],
+      [
+        -0.4912964105606079,
+        -0.019722890108823776,
+        1.1478362083435059
+      ]
+    ],
+    "materials": [
+      "BS_MT4_Sclera.002"
+    ],
+    "modifiers": [
+      [
+        "AnatomicalSurface",
+        "SUBSURF"
+      ],
+      [
+        "SameMattRig",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "BS_Iris_R",
+    "bounds": [
+      [
+        -0.4922177791595459,
+        -0.03666051849722862,
+        1.1302919387817383
+      ],
+      [
+        -0.49081772565841675,
+        -0.025667371228337288,
+        1.1416840553283691
+      ]
+    ],
+    "materials": [
+      "BS_MT4_IrisFibers.002",
+      "BS_MT4_Pupil.002"
+    ],
+    "modifiers": [
+      [
+        "AnatomicalSurface",
+        "SUBSURF"
+      ],
+      [
+        "SameMattRig",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "BS_Brow_NaturalFibers",
+    "bounds": [
+      [
+        -0.5009008646011353,
+        -0.0507035031914711,
+        1.1519027948379517
+      ],
+      [
+        -0.4809303283691406,
+        0.04996240884065628,
+        1.1593297719955444
+      ]
+    ],
+    "materials": [
+      "BS_MT4_BrowHair.002"
+    ],
+    "modifiers": [
+      [
+        "AnatomicalSurface",
+        "SUBSURF"
+      ],
+      [
+        "SameMattRig",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "BS_GloveSkin_L",
+    "bounds": [
+      [
+        0.10944543033838272,
+        0.09717410802841187,
+        0.7386805415153503
+      ],
+      [
+        0.21308183670043945,
+        0.158649280667305,
+        0.8205479979515076
+      ]
+    ],
+    "materials": [
+      "Character_HandSkin"
+    ],
+    "modifiers": [
+      [
+        "AnatomicalSurface",
+        "SUBSURF"
+      ],
+      [
+        "SameMattRig",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "BS_GloveSkin_R",
+    "bounds": [
+      [
+        0.10944563895463943,
+        -0.1586494743824005,
+        0.7386810183525085
+      ],
+      [
+        0.2130819708108902,
+        -0.0971742570400238,
+        0.8205484747886658
+      ]
+    ],
+    "materials": [
+      "Character_HandSkin"
+    ],
+    "modifiers": [
+      [
+        "AnatomicalSurface",
+        "SUBSURF"
+      ],
+      [
+        "SameMattRig",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "BS_ChestArmorRib_(0, 0)",
+    "bounds": [
+      [
+        -0.3697669804096222,
+        -0.1250000149011612,
+        0.7987030744552612
+      ],
+      [
+        -0.3314143717288971,
+        -0.08699999749660492,
+        0.8533647060394287
+      ]
+    ],
+    "materials": [
+      "BS_Vest"
+    ],
+    "modifiers": [
+      [
+        "ManufacturedEdge",
+        "BEVEL"
+      ],
+      [
+        "WeightedNormals",
+        "WEIGHTED_NORMAL"
+      ],
+      [
+        "EditableCharacterSkin",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "BS_ChestArmorRib_(0, 1)",
+    "bounds": [
+      [
+        -0.36976704001426697,
+        -0.07199999690055847,
+        0.7987030744552612
+      ],
+      [
+        -0.3314143717288971,
+        -0.03399999812245369,
+        0.8533647060394287
+      ]
+    ],
+    "materials": [
+      "BS_Vest"
+    ],
+    "modifiers": [
+      [
+        "ManufacturedEdge",
+        "BEVEL"
+      ],
+      [
+        "WeightedNormals",
+        "WEIGHTED_NORMAL"
+      ],
+      [
+        "EditableCharacterSkin",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "BS_ChestArmorRib_(0, 2)",
+    "bounds": [
+      [
+        -0.36976704001426697,
+        -0.01899999938905239,
+        0.7987030744552612
+      ],
+      [
+        -0.3314143717288971,
+        0.018999995663762093,
+        0.8533647060394287
+      ]
+    ],
+    "materials": [
+      "BS_Vest"
+    ],
+    "modifiers": [
+      [
+        "ManufacturedEdge",
+        "BEVEL"
+      ],
+      [
+        "WeightedNormals",
+        "WEIGHTED_NORMAL"
+      ],
+      [
+        "EditableCharacterSkin",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "BS_ChestArmorRib_(0, 3)",
+    "bounds": [
+      [
+        -0.36976704001426697,
+        0.03399999439716339,
+        0.7987030744552612
+      ],
+      [
+        -0.3314143717288971,
+        0.07199998199939728,
+        0.8533648252487183
+      ]
+    ],
+    "materials": [
+      "BS_Vest"
+    ],
+    "modifiers": [
+      [
+        "ManufacturedEdge",
+        "BEVEL"
+      ],
+      [
+        "WeightedNormals",
+        "WEIGHTED_NORMAL"
+      ],
+      [
+        "EditableCharacterSkin",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "BS_ChestArmorRib_(0, 4)",
+    "bounds": [
+      [
+        -0.3697669208049774,
+        0.08699998259544373,
+        0.7987030744552612
+      ],
+      [
+        -0.3314144015312195,
+        0.1249999925494194,
+        0.8533647060394287
+      ]
+    ],
+    "materials": [
+      "BS_Vest"
+    ],
+    "modifiers": [
+      [
+        "ManufacturedEdge",
+        "BEVEL"
+      ],
+      [
+        "WeightedNormals",
+        "WEIGHTED_NORMAL"
+      ],
+      [
+        "EditableCharacterSkin",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "BS_ChestArmorRib_(1, 0)",
+    "bounds": [
+      [
+        -0.4035937488079071,
+        -0.125,
+        0.8733815550804138
+      ],
+      [
+        -0.3652411997318268,
+        -0.08699999004602432,
+        0.9280431270599365
+      ]
+    ],
+    "materials": [
+      "BS_Vest"
+    ],
+    "modifiers": [
+      [
+        "ManufacturedEdge",
+        "BEVEL"
+      ],
+      [
+        "WeightedNormals",
+        "WEIGHTED_NORMAL"
+      ],
+      [
+        "EditableCharacterSkin",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "BS_ChestArmorRib_(1, 1)",
+    "bounds": [
+      [
+        -0.4035937488079071,
+        -0.07199999690055847,
+        0.873381495475769
+      ],
+      [
+        -0.3652411997318268,
+        -0.03399999067187309,
+        0.9280428886413574
+      ]
+    ],
+    "materials": [
+      "BS_Vest"
+    ],
+    "modifiers": [
+      [
+        "ManufacturedEdge",
+        "BEVEL"
+      ],
+      [
+        "WeightedNormals",
+        "WEIGHTED_NORMAL"
+      ],
+      [
+        "EditableCharacterSkin",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "BS_ChestArmorRib_(1, 2)",
+    "bounds": [
+      [
+        -0.4035937488079071,
+        -0.018999995663762093,
+        0.8733815550804138
+      ],
+      [
+        -0.3652411997318268,
+        0.01900000125169754,
+        0.9280428886413574
+      ]
+    ],
+    "materials": [
+      "BS_Vest"
+    ],
+    "modifiers": [
+      [
+        "ManufacturedEdge",
+        "BEVEL"
+      ],
+      [
+        "WeightedNormals",
+        "WEIGHTED_NORMAL"
+      ],
+      [
+        "EditableCharacterSkin",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "BS_ChestArmorRib_(1, 3)",
+    "bounds": [
+      [
+        -0.4035937488079071,
+        0.03400000184774399,
+        0.8733815550804138
+      ],
+      [
+        -0.3652411997318268,
+        0.07199998944997787,
+        0.928043007850647
+      ]
+    ],
+    "materials": [
+      "BS_Vest"
+    ],
+    "modifiers": [
+      [
+        "ManufacturedEdge",
+        "BEVEL"
+      ],
+      [
+        "WeightedNormals",
+        "WEIGHTED_NORMAL"
+      ],
+      [
+        "EditableCharacterSkin",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "BS_ChestArmorRib_(1, 4)",
+    "bounds": [
+      [
+        -0.4035937488079071,
+        0.08699998259544373,
+        0.8733815550804138
+      ],
+      [
+        -0.36524125933647156,
+        0.125,
+        0.928043007850647
+      ]
+    ],
+    "materials": [
+      "BS_Vest"
+    ],
+    "modifiers": [
+      [
+        "ManufacturedEdge",
+        "BEVEL"
+      ],
+      [
+        "WeightedNormals",
+        "WEIGHTED_NORMAL"
+      ],
+      [
+        "EditableCharacterSkin",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "BS_OrangeGaiter_L",
+    "bounds": [
+      [
+        -0.019294336438179016,
+        0.04106679931282997,
+        0.10252335667610168
+      ],
+      [
+        0.22119398415088654,
+        0.18893256783485413,
+        0.45484286546707153
+      ]
+    ],
+    "materials": [
+      "BS_Leather"
+    ],
+    "modifiers": [
+      [
+        "EditableCharacterSkin",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "BS_OrangeGaiter_R",
+    "bounds": [
+      [
+        -0.019294623285531998,
+        -0.18893292546272278,
+        0.10252287983894348
+      ],
+      [
+        0.2211930751800537,
+        -0.041067201644182205,
+        0.45484256744384766
+      ]
+    ],
+    "materials": [
+      "BS_Leather"
+    ],
+    "modifiers": [
+      [
+        "EditableCharacterSkin",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "BS_VestFront_-1",
+    "bounds": [
+      [
+        -0.5022041201591492,
+        -0.19371040165424347,
+        0.6503395438194275
+      ],
+      [
+        -0.34332194924354553,
+        -0.06499997526407242,
+        0.9559375643730164
+      ]
+    ],
+    "materials": [
+      "BS_Vest"
+    ],
+    "modifiers": [
+      [
+        "EditableCharacterSkin",
+        "ARMATURE"
+      ],
+      [
+        "ClothThickness",
+        "SOLIDIFY"
+      ]
+    ]
+  },
+  {
+    "name": "BS_VestFront_1",
+    "bounds": [
+      [
+        -0.505865752696991,
+        0.06342898309230804,
+        0.6485437750816345
+      ],
+      [
+        -0.3470425307750702,
+        0.19373250007629395,
+        0.9524519443511963
+      ]
+    ],
+    "materials": [
+      "BS_Vest"
+    ],
+    "modifiers": [
+      [
+        "EditableCharacterSkin",
+        "ARMATURE"
+      ],
+      [
+        "ClothThickness",
+        "SOLIDIFY"
+      ]
+    ]
+  },
+  {
+    "name": "BS_VestBack",
+    "bounds": [
+      [
+        -0.6561332941055298,
+        -0.193531796336174,
+        0.6012458205223083
+      ],
+      [
+        -0.4641069173812866,
+        0.1932772397994995,
+        0.8923822641372681
+      ]
+    ],
+    "materials": [
+      "BS_Vest"
+    ],
+    "modifiers": [
+      [
+        "EditableCharacterSkin",
+        "ARMATURE"
+      ],
+      [
+        "ClothThickness",
+        "SOLIDIFY"
+      ]
+    ]
+  },
+  {
+    "name": "BS_VestPocket_-1",
+    "bounds": [
+      [
+        -0.37594354152679443,
+        -0.15849998593330383,
+        0.6884725093841553
+      ],
+      [
+        -0.3301806151866913,
+        -0.07349997758865356,
+        0.7697567343711853
+      ]
+    ],
+    "materials": [
+      "BS_Vest"
+    ],
+    "modifiers": [
+      [
+        "ManufacturedEdge",
+        "BEVEL"
+      ],
+      [
+        "WeightedNormals",
+        "WEIGHTED_NORMAL"
+      ],
+      [
+        "EditableCharacterSkin",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "BS_VestPocket_1",
+    "bounds": [
+      [
+        -0.37594354152679443,
+        0.07349999994039536,
+        0.6884723901748657
+      ],
+      [
+        -0.3301806151866913,
+        0.15850000083446503,
+        0.7697567343711853
+      ]
+    ],
+    "materials": [
+      "BS_Vest"
+    ],
+    "modifiers": [
+      [
+        "ManufacturedEdge",
+        "BEVEL"
+      ],
+      [
+        "WeightedNormals",
+        "WEIGHTED_NORMAL"
+      ],
+      [
+        "EditableCharacterSkin",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "BS_ChestArmorSurface",
+    "bounds": [
+      [
+        -0.4622137248516083,
+        -0.15229997038841248,
+        0.730925440788269
+      ],
+      [
+        -0.35562077164649963,
+        0.15198037028312683,
+        0.9505148530006409
+      ]
+    ],
+    "materials": [
+      "BS_Vest"
+    ],
+    "modifiers": [
+      [
+        "EditableCharacterSkin",
+        "ARMATURE"
+      ],
+      [
+        "GarmentEdgeThickness",
+        "SOLIDIFY"
+      ]
+    ]
+  },
+  {
+    "name": "BS_SmoothShoulderPlate_L",
+    "bounds": [
+      [
+        -0.588549017906189,
+        0.09260562062263489,
+        0.7798820734024048
+      ],
+      [
+        -0.4273160398006439,
+        0.30086904764175415,
+        0.9615490436553955
+      ]
+    ],
+    "materials": [
+      "BS_Leather"
+    ],
+    "modifiers": [
+      [
+        "EditableCharacterSkin",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "BS_SmoothShoulderPlate_R",
+    "bounds": [
+      [
+        -0.5885481834411621,
+        -0.3008689880371094,
+        0.7798817753791809
+      ],
+      [
+        -0.42731526494026184,
+        -0.09260562062263489,
+        0.9615488648414612
+      ]
+    ],
+    "materials": [
+      "BS_Leather"
+    ],
+    "modifiers": [
+      [
+        "EditableCharacterSkin",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "BS_Suit_Torso",
+    "bounds": [
+      [
+        -0.12896819412708282,
+        -0.19831882417201996,
+        0.8999999761581421
+      ],
+      [
+        0.10496819019317627,
+        0.1976327896118164,
+        1.5
+      ]
+    ],
+    "materials": [
+      "BS_MT2_WovenGrey.002"
+    ],
+    "modifiers": [
+      [
+        "SurfaceSubdivision",
+        "SUBSURF"
+      ],
+      [
+        "MT_Deform",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "BS_ContinuousSleeve_L",
+    "bounds": [
+      [
+        -0.08367660641670227,
+        0.1265401542186737,
+        0.9093151092529297
+      ],
+      [
+        0.07429473102092743,
+        0.32030147314071655,
+        1.4486109018325806
+      ]
+    ],
+    "materials": [
+      "BS_MT2_WovenGrey.002"
+    ],
+    "modifiers": [
+      [
+        "SurfaceSubdivision",
+        "SUBSURF"
+      ],
+      [
+        "MT_Deform",
+        "ARMATURE"
+      ],
+      [
+        "ClothFoldRelax",
+        "SMOOTH"
+      ]
+    ]
+  },
+  {
+    "name": "BS_ContinuousTrouser_L",
+    "bounds": [
+      [
+        -0.09212127327919006,
+        -0.0007015764713287354,
+        0.11328385025262833
+      ],
+      [
+        0.094153992831707,
+        0.1911570429801941,
+        0.9602288603782654
+      ]
+    ],
+    "materials": [
+      "BS_MT2_WovenGrey.002"
+    ],
+    "modifiers": [
+      [
+        "SurfaceSubdivision",
+        "SUBSURF"
+      ],
+      [
+        "MT_Deform",
+        "ARMATURE"
+      ],
+      [
+        "ClothFoldRelax",
+        "SMOOTH"
+      ]
+    ]
+  },
+  {
+    "name": "BS_ContinuousSleeve_R",
+    "bounds": [
+      [
+        -0.08367660641670227,
+        -0.3205814063549042,
+        0.9093151688575745
+      ],
+      [
+        0.07385681569576263,
+        -0.1265401542186737,
+        1.4486109018325806
+      ]
+    ],
+    "materials": [
+      "BS_MT2_WovenGrey.002"
+    ],
+    "modifiers": [
+      [
+        "SurfaceSubdivision",
+        "SUBSURF"
+      ],
+      [
+        "MT_Deform",
+        "ARMATURE"
+      ],
+      [
+        "ClothFoldRelax",
+        "SMOOTH"
+      ]
+    ]
+  },
+  {
+    "name": "BS_ContinuousTrouser_R",
+    "bounds": [
+      [
+        -0.09212128072977066,
+        -0.19127534329891205,
+        0.11328385025262833
+      ],
+      [
+        0.09431979060173035,
+        0.0007015913724899292,
+        0.9602288007736206
+      ]
+    ],
+    "materials": [
+      "BS_MT2_WovenGrey.002"
+    ],
+    "modifiers": [
+      [
+        "SurfaceSubdivision",
+        "SUBSURF"
+      ],
+      [
+        "MT_Deform",
+        "ARMATURE"
+      ],
+      [
+        "ClothFoldRelax",
+        "SMOOTH"
+      ]
+    ]
+  },
+  {
+    "name": "BS_DeltoidCloth_L",
+    "bounds": [
+      [
+        -0.08500004559755325,
+        0.10099996626377106,
+        1.3686000108718872
+      ],
+      [
+        0.07300002872943878,
+        0.26100003719329834,
+        1.5110000371932983
+      ]
+    ],
+    "materials": [
+      "BS_MT2_WovenGrey.002"
+    ],
+    "modifiers": [
+      [
+        "MT_Deform",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "BS_DeltoidCloth_R",
+    "bounds": [
+      [
+        -0.08500004559755325,
+        -0.26100003719329834,
+        1.3686000108718872
+      ],
+      [
+        0.07300002872943878,
+        -0.10099993646144867,
+        1.5110000371932983
+      ]
+    ],
+    "materials": [
+      "BS_MT2_WovenGrey.002"
+    ],
+    "modifiers": [
+      [
+        "MT_Deform",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "BS_GlovePalm_L",
+    "bounds": [
+      [
+        0.007999968715012074,
+        0.24599996209144592,
+        0.8159999847412109
+      ],
+      [
+        0.06199999153614044,
+        0.32999998331069946,
+        0.9240000247955322
+      ]
+    ],
+    "materials": [
+      "BS_MT2_RedLeather.002"
+    ],
+    "modifiers": [
+      [
+        "MT_Deform",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "BS_GloveFinger_L0",
+    "bounds": [
+      [
+        0.03910357505083084,
+        0.2510000169277191,
+        0.7877442836761475
+      ],
+      [
+        0.09377572685480118,
+        0.2709999978542328,
+        0.8533622622489929
+      ]
+    ],
+    "materials": [
+      "BS_MT2_RedLeather.002"
+    ],
+    "modifiers": [
+      [
+        "MT_Deform",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "BS_GloveKnuckleSeam_L01",
+    "bounds": [
+      [
+        0.06532693654298782,
+        0.2537396252155304,
+        0.8218665719032288
+      ],
+      [
+        0.06869950145483017,
+        0.2682603895664215,
+        0.8251819610595703
+      ]
+    ],
+    "materials": [
+      "BS_MT2_SeamGrey.002"
+    ],
+    "modifiers": [
+      [
+        "MT_Deform",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "BS_GloveKnuckleSeam_L02",
+    "bounds": [
+      [
+        0.08732693642377853,
+        0.2537396252155304,
+        0.8017066121101379
+      ],
+      [
+        0.09069950133562088,
+        0.2682603895664215,
+        0.8050219416618347
+      ]
+    ],
+    "materials": [
+      "BS_MT2_SeamGrey.002"
+    ],
+    "modifiers": [
+      [
+        "MT_Deform",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "BS_GloveFinger_L1",
+    "bounds": [
+      [
+        0.03942182660102844,
+        0.2705000042915344,
+        0.7799383997917175
+      ],
+      [
+        0.093485988676548,
+        0.28949999809265137,
+        0.8528367280960083
+      ]
+    ],
+    "materials": [
+      "BS_MT2_RedLeather.002"
+    ],
+    "modifiers": [
+      [
+        "MT_Deform",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "BS_GloveKnuckleSeam_L11",
+    "bounds": [
+      [
+        0.06532693654298782,
+        0.27273961901664734,
+        0.818086564540863
+      ],
+      [
+        0.06869950145483017,
+        0.28726038336753845,
+        0.8214019536972046
+      ]
+    ],
+    "materials": [
+      "BS_MT2_SeamGrey.002"
+    ],
+    "modifiers": [
+      [
+        "MT_Deform",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "BS_GloveKnuckleSeam_L12",
+    "bounds": [
+      [
+        0.08732693642377853,
+        0.27273961901664734,
+        0.7950465679168701
+      ],
+      [
+        0.09069950133562088,
+        0.28726038336753845,
+        0.7983619570732117
+      ]
+    ],
+    "materials": [
+      "BS_MT2_SeamGrey.002"
+    ],
+    "modifiers": [
+      [
+        "MT_Deform",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "BS_GloveFinger_L2",
+    "bounds": [
+      [
+        0.039921388030052185,
+        0.28999999165534973,
+        0.7836707234382629
+      ],
+      [
+        0.09298259019851685,
+        0.30799999833106995,
+        0.8528286814689636
+      ]
+    ],
+    "materials": [
+      "BS_MT2_RedLeather.002"
+    ],
+    "modifiers": [
+      [
+        "MT_Deform",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "BS_GloveKnuckleSeam_L21",
+    "bounds": [
+      [
+        0.06532693654298782,
+        0.2917396128177643,
+        0.8197665810585022
+      ],
+      [
+        0.06869950145483017,
+        0.3062603771686554,
+        0.8230819702148438
+      ]
+    ],
+    "materials": [
+      "BS_MT2_SeamGrey.002"
+    ],
+    "modifiers": [
+      [
+        "MT_Deform",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "BS_GloveKnuckleSeam_L22",
+    "bounds": [
+      [
+        0.08732693642377853,
+        0.2917396128177643,
+        0.7980065941810608
+      ],
+      [
+        0.09069950133562088,
+        0.3062603771686554,
+        0.8013219237327576
+      ]
+    ],
+    "materials": [
+      "BS_MT2_SeamGrey.002"
+    ],
+    "modifiers": [
+      [
+        "MT_Deform",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "BS_GloveFinger_L3",
+    "bounds": [
+      [
+        0.04062593728303909,
+        0.30949997901916504,
+        0.797114908695221
+      ],
+      [
+        0.09224056452512741,
+        0.3264999985694885,
+        0.8533127307891846
+      ]
+    ],
+    "materials": [
+      "BS_MT2_RedLeather.002"
+    ],
+    "modifiers": [
+      [
+        "MT_Deform",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "BS_GloveKnuckleSeam_L31",
+    "bounds": [
+      [
+        0.06532693654298782,
+        0.3107396066188812,
+        0.8260666131973267
+      ],
+      [
+        0.06869950145483017,
+        0.32526037096977234,
+        0.8293819427490234
+      ]
+    ],
+    "materials": [
+      "BS_MT2_SeamGrey.002"
+    ],
+    "modifiers": [
+      [
+        "MT_Deform",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "BS_GloveKnuckleSeam_L32",
+    "bounds": [
+      [
+        0.08732693642377853,
+        0.3107396066188812,
+        0.8091065883636475
+      ],
+      [
+        0.09069950133562088,
+        0.32526037096977234,
+        0.8124219179153442
+      ]
+    ],
+    "materials": [
+      "BS_MT2_SeamGrey.002"
+    ],
+    "modifiers": [
+      [
+        "MT_Deform",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "BS_GloveThumb_L",
+    "bounds": [
+      [
+        0.03899095207452774,
+        0.22334130108356476,
+        0.8333733677864075
+      ],
+      [
+        0.09807008504867554,
+        0.26469773054122925,
+        0.8913625478744507
+      ]
+    ],
+    "materials": [
+      "BS_MT2_RedLeather.002"
+    ],
+    "modifiers": [
+      [
+        "MT_Deform",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "BS_GlovePalm_R",
+    "bounds": [
+      [
+        0.00799998827278614,
+        -0.3299999535083771,
+        0.8159999847412109
+      ],
+      [
+        0.062000010162591934,
+        -0.24599991738796234,
+        0.9240000247955322
+      ]
+    ],
+    "materials": [
+      "BS_MT2_RedLeather.002"
+    ],
+    "modifiers": [
+      [
+        "MT_Deform",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "BS_GloveFinger_R0",
+    "bounds": [
+      [
+        0.03910357505083084,
+        -0.2709999978542328,
+        0.7877442836761475
+      ],
+      [
+        0.09377572685480118,
+        -0.2510000169277191,
+        0.8533622622489929
+      ]
+    ],
+    "materials": [
+      "BS_MT2_RedLeather.002"
+    ],
+    "modifiers": [
+      [
+        "MT_Deform",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "BS_GloveKnuckleSeam_R01",
+    "bounds": [
+      [
+        0.06532693654298782,
+        -0.2682603895664215,
+        0.8218665719032288
+      ],
+      [
+        0.06869950145483017,
+        -0.2537396252155304,
+        0.8251819610595703
+      ]
+    ],
+    "materials": [
+      "BS_MT2_SeamGrey.002"
+    ],
+    "modifiers": [
+      [
+        "MT_Deform",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "BS_GloveKnuckleSeam_R02",
+    "bounds": [
+      [
+        0.08732693642377853,
+        -0.2682603895664215,
+        0.8017066121101379
+      ],
+      [
+        0.09069950133562088,
+        -0.2537396252155304,
+        0.8050219416618347
+      ]
+    ],
+    "materials": [
+      "BS_MT2_SeamGrey.002"
+    ],
+    "modifiers": [
+      [
+        "MT_Deform",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "BS_GloveFinger_R1",
+    "bounds": [
+      [
+        0.03942182660102844,
+        -0.28949999809265137,
+        0.7799383997917175
+      ],
+      [
+        0.093485988676548,
+        -0.2705000042915344,
+        0.8528367280960083
+      ]
+    ],
+    "materials": [
+      "BS_MT2_RedLeather.002"
+    ],
+    "modifiers": [
+      [
+        "MT_Deform",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "BS_GloveKnuckleSeam_R11",
+    "bounds": [
+      [
+        0.06532693654298782,
+        -0.28726038336753845,
+        0.818086564540863
+      ],
+      [
+        0.06869950145483017,
+        -0.27273961901664734,
+        0.8214019536972046
+      ]
+    ],
+    "materials": [
+      "BS_MT2_SeamGrey.002"
+    ],
+    "modifiers": [
+      [
+        "MT_Deform",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "BS_GloveKnuckleSeam_R12",
+    "bounds": [
+      [
+        0.08732693642377853,
+        -0.28726038336753845,
+        0.7950465679168701
+      ],
+      [
+        0.09069950133562088,
+        -0.27273961901664734,
+        0.7983619570732117
+      ]
+    ],
+    "materials": [
+      "BS_MT2_SeamGrey.002"
+    ],
+    "modifiers": [
+      [
+        "MT_Deform",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "BS_GloveFinger_R2",
+    "bounds": [
+      [
+        0.039921388030052185,
+        -0.30799999833106995,
+        0.7836707234382629
+      ],
+      [
+        0.09298259019851685,
+        -0.28999999165534973,
+        0.8528286814689636
+      ]
+    ],
+    "materials": [
+      "BS_MT2_RedLeather.002"
+    ],
+    "modifiers": [
+      [
+        "MT_Deform",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "BS_GloveKnuckleSeam_R21",
+    "bounds": [
+      [
+        0.06532693654298782,
+        -0.3062603771686554,
+        0.8197665810585022
+      ],
+      [
+        0.06869950145483017,
+        -0.2917396128177643,
+        0.8230819702148438
+      ]
+    ],
+    "materials": [
+      "BS_MT2_SeamGrey.002"
+    ],
+    "modifiers": [
+      [
+        "MT_Deform",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "BS_GloveKnuckleSeam_R22",
+    "bounds": [
+      [
+        0.08732693642377853,
+        -0.3062603771686554,
+        0.7980065941810608
+      ],
+      [
+        0.09069950133562088,
+        -0.2917396128177643,
+        0.8013219237327576
+      ]
+    ],
+    "materials": [
+      "BS_MT2_SeamGrey.002"
+    ],
+    "modifiers": [
+      [
+        "MT_Deform",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "BS_GloveFinger_R3",
+    "bounds": [
+      [
+        0.04062593728303909,
+        -0.3264999985694885,
+        0.797114908695221
+      ],
+      [
+        0.09224056452512741,
+        -0.30949997901916504,
+        0.8533127307891846
+      ]
+    ],
+    "materials": [
+      "BS_MT2_RedLeather.002"
+    ],
+    "modifiers": [
+      [
+        "MT_Deform",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "BS_GloveKnuckleSeam_R31",
+    "bounds": [
+      [
+        0.06532693654298782,
+        -0.32526037096977234,
+        0.8260666131973267
+      ],
+      [
+        0.06869950145483017,
+        -0.3107396066188812,
+        0.8293819427490234
+      ]
+    ],
+    "materials": [
+      "BS_MT2_SeamGrey.002"
+    ],
+    "modifiers": [
+      [
+        "MT_Deform",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "BS_GloveKnuckleSeam_R32",
+    "bounds": [
+      [
+        0.08732693642377853,
+        -0.32526037096977234,
+        0.8091065883636475
+      ],
+      [
+        0.09069950133562088,
+        -0.3107396066188812,
+        0.8124219179153442
+      ]
+    ],
+    "materials": [
+      "BS_MT2_SeamGrey.002"
+    ],
+    "modifiers": [
+      [
+        "MT_Deform",
+        "ARMATURE"
+      ]
+    ]
+  },
+  {
+    "name": "BS_GloveThumb_R",
+    "bounds": [
+      [
+        0.03899094834923744,
+        -0.26469773054122925,
+        0.8333733677864075
+      ],
+      [
+        0.09807007759809494,
+        -0.22334130108356476,
+        0.8913625478744507
+      ]
+    ],
+    "materials": [
+      "BS_MT2_RedLeather.002"
+    ],
+    "modifiers": [
+      [
+        "MT_Deform",
+        "ARMATURE"
+      ]
+    ]
+  }
+]

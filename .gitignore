@@ -1,0 +1,68 @@
+# Unreal generated data (all projects in this workspace)
+**/Binaries/
+**/Intermediate/
+**/Saved/
+**/DerivedDataCache/
+**/.vs/
+**/.idea/
+**/.vscode/
+**/Build/**
+!**/Build/**/
+!**/Build/**/*.ico
+!**/Build/**/PakBlacklist*.txt
+
+# Generated IDE projects and compiled output
+*.sln
+*.suo
+*.VC.db
+*.VC.opendb
+*.opensdf
+*.sdf
+*.xcodeproj/
+*.xcworkspace/
+*.obj
+*.o
+*.pch
+*.pdb
+*.ilk
+*.dll
+*.exe
+*.lib
+*.so
+*.dylib
+
+# Local environments, caches and temporary output
+**/__pycache__/
+*.py[cod]
+**/.venv/
+**/venv/
+**/node_modules/
+# Locally installed QA helper packages (yt-dlp/Pillow), not project sources
+/docs/qa/boulder_tools/
+/docs/qa/hurricane_tools/
+*.log
+*.tmp
+*.temp
+*.blend[0-9]*
+*.blend@
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Credentials and machine-local agent settings
+.env
+.env.*
+!.env.example
+!.env.sample
+.aws/
+.codex/
+*.pem
+*.key
+*.pfx
+*.p12
+
+# Optional archive of the previous nested repository metadata
+/.git-backups/
+
+# Keep Content, Config, Source, Plugins source, Blender sources, exports,
+# reference images, reports and versioned art iterations. Binary assets use LFS.

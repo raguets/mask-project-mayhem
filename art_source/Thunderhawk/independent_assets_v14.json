@@ -1,0 +1,24 @@
+{
+  "source": "G:\\DEV\\mask-project-mayhem\\art_source\\Thunderhawk\\Thunderhawk_V14.blend",
+  "outputs": [
+    {
+      "kind": "character",
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Matt_Trakker\\MattTrakker_V5.blend",
+      "scene": "MattTrakker_V5_Independent",
+      "scene_objects": 127
+    },
+    {
+      "kind": "vehicle",
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Thunderhawk\\Thunderhawk_V14_Vehicle.blend",
+      "scene": "Thunderhawk_V14_Vehicle_Independent",
+      "scene_objects": 483
+    },
+    {
+      "kind": "mask",
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Matt_Trakker\\Spectrum_V4.blend",
+      "scene": "Spectrum_V4_Independent",
+      "scene_objects": 28
+    }
+  ],
+  "expected": 3
+}

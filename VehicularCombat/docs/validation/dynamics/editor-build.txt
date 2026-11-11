@@ -1,0 +1,40 @@
+﻿Using bundled DotNet SDK version: 10.0 win-x64
+Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" VehicularCombatEditor Win64 Development -Project=G:\DEV\mask-project-mayhem\VehicularCombat\VehicularCombat.uproject -WaitMutex -NoHotReloadFromIDE -Unattended -Log=G:\DEV\mask-project-mayhem\VehicularCombat\Saved\Migration\VehicularCombatEditor-20261108-095655.log
+Log file: G:\DEV\mask-project-mayhem\VehicularCombat\Saved\Migration\VehicularCombatEditor-20261108-095655.log
+Determining max actions to execute in parallel (4 physical cores, 8 logical cores)
+  Executing up to 4 processes, one per physical core
+Using 'git status' to determine working set for adaptive non-unity build (G:\DEV\mask-project-mayhem\VehicularCombat).
+UbaServer - Listening on 0.0.0.0:1345
+Creating makefile for VehicularCombatEditor (command line arguments changed)
+Available x64 toolchains (1):
+ * G:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231
+    (Family=14.51.36231, FamilyRank=2, Version=14.51.36256, HostArchitecture=x64, ReleaseChannel=Latest, Architecture=x64)
+Visual Studio compiler version 14.51.36256 is newer than latest preferred version 14.50.35717. Please use caution as this compiler has not been heavily tested
+Project 'VehicularCombatEditor' depends on plugin 'RawInput' which was deprecated in 5.8 and will soon be removed. Please update your dependencies.
+Building VehicularCombatEditor...
+===== Toolchain Information =====
+Using ISPC compiler (G:\Program Files\Epic Games\UE_5.8\Engine\Source\ThirdParty\Intel\ISPC\bin\Windows\ispc.exe)
+  Intel(r) Implicit SPMD Program Compiler (Intel(r) ISPC), 1.24.0 (build commit  @ 20250404, LLVM 18.1.2)
+Using Visual Studio 14.51.36256 toolchain (G:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231) and Windows 10.0.26100.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+Warning: Visual Studio compiler 14.51.36256 is not a preferred version
+[Adaptive Build] Excluded from VehicularCombat unity file: VehicleBotController.cpp, HurricanePawn.cpp, MaskDynamicsComponent.cpp, MaskVehicleModeComponent.cpp, RhinoPawn.cpp, ThunderhawkPawn.cpp, PlayerWheeledVehiclePawn.cpp, DynamicsSmoke.cpp, HurricaneSmoke.cpp, MigrationSmoke.cpp, ThunderhawkSmoke.cpp, PlayerHUD.cpp
+=================================
+Using Unreal Build Accelerator local executor to run 4 action(s)
+  CPU 4 physical cores, 8 logical cores
+  Memory 31.94 GB physical, 12.4 GB/39.94 GB committed
+  UBA Storage capacity 40 GB
+[1/4] Compile [x64] ThunderhawkSmoke.cpp
+G:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\Engine\Public\Physics\NetworkPhysicsComponent.h(2073,7): warning C4996: 'FNetworkPhysicsPayload::DoInterpolateData': Temporary virtual function for backwards compatibility with FNetworkPhysicsData. Use the InterpolateData function that passes the LerpAlpha instead - Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+	void DoInterpolateData(const FNetworkPhysicsPayload& MinData, const FNetworkPhysicsPayload& MaxData) override { this->InterpolateData(static_cast<const FNetworkPhysicsData&>(MinData), static_cast<const FNetworkPhysicsData&>(MaxData)); }
+	     ^
+[2/4] Link [x64] UnrealEditor-VehicularCombat.lib
+   Création de la bibliothèque G:/DEV/mask-project-mayhem/VehicularCombat/Intermediate/Build/Win64/x64/UnrealEditor/Development/VehicularCombat/UnrealEditor-VehicularCombat.lib et de l'objet G:/DEV/mask-project-mayhem/VehicularCombat/Intermediate/Build/Win64/x64/UnrealEditor/Development/VehicularCombat/UnrealEditor-VehicularCombat.exp
+[3/4] Link [x64] UnrealEditor-VehicularCombat.dll
+[4/4] WriteMetadata VehicularCombatEditor.target [NoUba]
+
+Total time in Unreal Build Accelerator local executor: 12.63 seconds
+Output binary: G:\Program Files\Epic Games\UE_5.8\Engine\Binaries\Win64\UnrealEditor.exe
+
+Result: Succeeded
+Total execution time: 16.49 seconds
+Trace written to file C:\Users\steph\AppData\Local\UnrealBuildTool\Trace.uba with size 6.6kb

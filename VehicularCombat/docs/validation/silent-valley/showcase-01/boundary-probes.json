@@ -1,0 +1,74 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "actor": "SV_Limit_West",
+      "start_z_cm": 10000.0,
+      "blocked": true
+    },
+    {
+      "actor": "SV_Limit_West",
+      "start_z_cm": 100000.0,
+      "blocked": true
+    },
+    {
+      "actor": "SV_Limit_West",
+      "start_z_cm": 180000.0,
+      "blocked": true
+    },
+    {
+      "actor": "SV_Limit_East",
+      "start_z_cm": 10000.0,
+      "blocked": true
+    },
+    {
+      "actor": "SV_Limit_East",
+      "start_z_cm": 100000.0,
+      "blocked": true
+    },
+    {
+      "actor": "SV_Limit_East",
+      "start_z_cm": 180000.0,
+      "blocked": true
+    },
+    {
+      "actor": "SV_Limit_South",
+      "start_z_cm": 10000.0,
+      "blocked": true
+    },
+    {
+      "actor": "SV_Limit_South",
+      "start_z_cm": 100000.0,
+      "blocked": true
+    },
+    {
+      "actor": "SV_Limit_South",
+      "start_z_cm": 180000.0,
+      "blocked": true
+    },
+    {
+      "actor": "SV_Limit_North",
+      "start_z_cm": 10000.0,
+      "blocked": true
+    },
+    {
+      "actor": "SV_Limit_North",
+      "start_z_cm": 100000.0,
+      "blocked": true
+    },
+    {
+      "actor": "SV_Limit_North",
+      "start_z_cm": 180000.0,
+      "blocked": true
+    },
+    {
+      "actor": "SV_Limit_Ceiling",
+      "start_z_cm": 190000.0,
+      "blocked": true
+    }
+  ],
+  "method": "Editor collision rays against each isolated barrier; not manual flight/driving validation.",
+  "inner_boundary_m": 2011,
+  "ceiling_m": 1995,
+  "placeholder": true
+}

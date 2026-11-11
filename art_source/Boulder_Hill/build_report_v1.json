@@ -1,0 +1,24 @@
+{
+  "objects": 1976,
+  "invalid_drivers": [
+    "BH_ExitGateHinge_1:rotation_euler",
+    "BH_ExitGateHinge_2:rotation_euler",
+    "BH_FallingBoulder:location",
+    "BH_FallingBoulder:location",
+    "BH_FallingBoulder:location"
+  ],
+  "vehicle_measurements": "vehicle_measurements_v1.json",
+  "reference_video": "https://www.youtube.com/watch?v=CYgT9k8lJyY",
+  "interval_inspected": [
+    1,
+    13
+  ],
+  "capacity": 4,
+  "bay_dimensions_m": [
+    10.8,
+    4.5
+  ],
+  "gate_nominal_width_m": 6.0,
+  "gate_nominal_height_m": 5.43,
+  "estimated_kinematics": true
+}

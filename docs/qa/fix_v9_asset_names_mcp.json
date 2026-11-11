@@ -1,0 +1,7 @@
+{
+  "status": "success",
+  "result": {
+    "executed": true,
+    "result": "Infos: Enregistr\u00e9 sous \u00ab\u00a0Thunderhawk_V9.blend\u00a0\u00bb\n{\"renamed\": [[\"THK_CannonGuide_L-0.53\", \"THK_CannonGuide_L_Rear\"], [\"THK_CannonGuide_L0.15\", \"THK_CannonGuide_L_Front\"], [\"THK_CannonSlide_L-0.53\", \"THK_CannonSlide_L_Rear\"], [\"THK_CannonSlide_L0.15\", \"THK_CannonSlide_L_Front\"], [\"THK_RoofHinge_L-0.65\", \"THK_RoofHinge_L_Rear\"], [\"THK_RoofHinge_L0.08\", \"THK_RoofHinge_L_Front\"], [\"THK_CannonGuide_R-0.53\", \"THK_CannonGuide_R_Rear\"], [\"THK_CannonGuide_R0.15\", \"THK_CannonGuide_R_Front\"], [\"THK_CannonSlide_R-0.53\", \"THK_CannonSlide_R_Rear\"], [\"THK_CannonSlide_R0.15\", \"THK_CannonSlide_R_Front\"], [\"THK_RoofHinge_R-0.65\", \"THK_RoofHinge_R_Rear\"], [\"THK_RoofHinge_R0.08\", \"THK_RoofHinge_R_Front\"]]}\n"
+  }
+}

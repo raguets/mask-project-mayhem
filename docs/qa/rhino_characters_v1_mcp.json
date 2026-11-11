@@ -1,0 +1,7 @@
+{
+  "status": "success",
+  "result": {
+    "executed": true,
+    "result": "Infos: Copie enregistrée sous « Rhino_V1_before_characters.blend »\nInfos: Enregistré sous « Rhino_V1.blend »\nRHINO_TWO_DISTINCT_CHARACTERS_SAVED [{\"character\": \"AlexSector_Rig\", \"one_rig\": true, \"head\": \"AS_Head_AnatomicalSurface\", \"head_vertices\": 13600, \"body\": \"AS_ContinuousFlightSuit\", \"body_vertices\": 107480, \"mask_collection\": \"AS_Mask\", \"source\": \"MattTrakker_V5 editable weighted base; independent character-specific meshes/materials/face/garments/mask\", \"seated_location\": [2.0, -0.6000000238418579, 1.3700000047683716], \"interpretation\": \"Supplied drawn/toy character, generic anatomical interpretation; no real-person likeness.\"}, {\"character\": \"BruceSato_Rig\", \"one_rig\": true, \"head\": \"BS_Head_AnatomicalSurface\", \"head_vertices\": 13600, \"body\": \"BS_ContinuousFlightSuit\", \"body_vertices\": 107480, \"mask_collection\": \"BS_Mask\", \"source\": \"MattTrakker_V5 editable weighted base; independent character-specific meshes/materials/face/garments/mask\", \"seated_location\": [2.0, 0.6000000238418579, 1.3700000047683716], \"interpretation\": \"Supplied drawn/toy character, generic anatomical interpretation; no real-person likeness.\"}]\n"
+  }
+}

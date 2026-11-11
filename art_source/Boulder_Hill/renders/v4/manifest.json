@@ -1,0 +1,338 @@
+{
+  "status": "complete",
+  "elapsed_seconds": 239.74,
+  "scene_file": "G:\\DEV\\mask-project-mayhem\\art_source\\Boulder_Hill\\BoulderHill_V4_Assembly.blend",
+  "job": {
+    "rig": "BoulderHill_Control",
+    "rig_properties": [
+      "battle_mode",
+      "gate_open",
+      "thunderhawk_exit",
+      "rhino_exit"
+    ],
+    "output_dir": "G:\\DEV\\mask-project-mayhem\\art_source\\Boulder_Hill\\renders\\v4",
+    "samples": 20,
+    "width": 1300,
+    "height": 900,
+    "device": "GPU",
+    "views": [
+      {
+        "name": "01_station_mountain",
+        "frame": 1,
+        "properties": {},
+        "camera": [
+          63,
+          -82,
+          43
+        ],
+        "target": [
+          0,
+          17,
+          12
+        ],
+        "lens": 46
+      },
+      {
+        "name": "02_defense",
+        "frame": 211,
+        "properties": {},
+        "camera": [
+          33,
+          -43,
+          20
+        ],
+        "target": [
+          0,
+          -2,
+          7
+        ],
+        "lens": 43
+      },
+      {
+        "name": "03_prism_halfway",
+        "frame": 65,
+        "properties": {},
+        "camera": [
+          -20,
+          -29,
+          12
+        ],
+        "target": [
+          -5,
+          -9,
+          3
+        ],
+        "lens": 47
+      },
+      {
+        "name": "04_thunderhawk_exit",
+        "frame": 285,
+        "properties": {},
+        "camera": [
+          24,
+          -31,
+          10.5
+        ],
+        "target": [
+          5,
+          -7,
+          3
+        ],
+        "lens": 45
+      },
+      {
+        "name": "05_rhino_exit",
+        "frame": 510,
+        "properties": {},
+        "camera": [
+          24,
+          -31,
+          10.5
+        ],
+        "target": [
+          5,
+          -7,
+          3.5
+        ],
+        "lens": 45
+      },
+      {
+        "name": "06_hangar_cutaway",
+        "frame": 211,
+        "properties": {},
+        "camera": [
+          29,
+          -6,
+          49
+        ],
+        "target": [
+          0,
+          15,
+          0
+        ],
+        "lens": 40,
+        "hide_collections": [
+          "BH_Rock",
+          "BH_Turret"
+        ],
+        "hide_objects": [
+          "BH_HangarCeiling",
+          "BH_HangarRoofBeam_2",
+          "BH_HangarRoofBeam_9",
+          "BH_HangarRoofBeam_16",
+          "BH_HangarRoofBeam_23",
+          "BH_HangarRoofBeam_30",
+          "BH_HangarRoofBeam_37"
+        ]
+      },
+      {
+        "name": "07_turret_integrated",
+        "frame": 181,
+        "properties": {},
+        "camera": [
+          18,
+          -5,
+          19
+        ],
+        "target": [
+          7,
+          5.5,
+          11.8
+        ],
+        "lens": 55
+      },
+      {
+        "name": "08_left_facade",
+        "frame": 181,
+        "properties": {},
+        "camera": [
+          -24,
+          -32,
+          12
+        ],
+        "target": [
+          -5,
+          -7,
+          5.3
+        ],
+        "lens": 44
+      }
+    ]
+  },
+  "renders": [
+    {
+      "view": {
+        "name": "01_station_mountain",
+        "frame": 1,
+        "properties": {},
+        "camera": [
+          63,
+          -82,
+          43
+        ],
+        "target": [
+          0,
+          17,
+          12
+        ],
+        "lens": 46
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Boulder_Hill\\renders\\v4\\01_station_mountain.png",
+      "size_bytes": 1402877
+    },
+    {
+      "view": {
+        "name": "02_defense",
+        "frame": 211,
+        "properties": {},
+        "camera": [
+          33,
+          -43,
+          20
+        ],
+        "target": [
+          0,
+          -2,
+          7
+        ],
+        "lens": 43
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Boulder_Hill\\renders\\v4\\02_defense.png",
+      "size_bytes": 1472962
+    },
+    {
+      "view": {
+        "name": "03_prism_halfway",
+        "frame": 65,
+        "properties": {},
+        "camera": [
+          -20,
+          -29,
+          12
+        ],
+        "target": [
+          -5,
+          -9,
+          3
+        ],
+        "lens": 47
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Boulder_Hill\\renders\\v4\\03_prism_halfway.png",
+      "size_bytes": 1475517
+    },
+    {
+      "view": {
+        "name": "04_thunderhawk_exit",
+        "frame": 285,
+        "properties": {},
+        "camera": [
+          24,
+          -31,
+          10.5
+        ],
+        "target": [
+          5,
+          -7,
+          3
+        ],
+        "lens": 45
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Boulder_Hill\\renders\\v4\\04_thunderhawk_exit.png",
+      "size_bytes": 1426235
+    },
+    {
+      "view": {
+        "name": "05_rhino_exit",
+        "frame": 510,
+        "properties": {},
+        "camera": [
+          24,
+          -31,
+          10.5
+        ],
+        "target": [
+          5,
+          -7,
+          3.5
+        ],
+        "lens": 45
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Boulder_Hill\\renders\\v4\\05_rhino_exit.png",
+      "size_bytes": 1488402
+    },
+    {
+      "view": {
+        "name": "06_hangar_cutaway",
+        "frame": 211,
+        "properties": {},
+        "camera": [
+          29,
+          -6,
+          49
+        ],
+        "target": [
+          0,
+          15,
+          0
+        ],
+        "lens": 40,
+        "hide_collections": [
+          "BH_Rock",
+          "BH_Turret"
+        ],
+        "hide_objects": [
+          "BH_HangarCeiling",
+          "BH_HangarRoofBeam_2",
+          "BH_HangarRoofBeam_9",
+          "BH_HangarRoofBeam_16",
+          "BH_HangarRoofBeam_23",
+          "BH_HangarRoofBeam_30",
+          "BH_HangarRoofBeam_37"
+        ]
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Boulder_Hill\\renders\\v4\\06_hangar_cutaway.png",
+      "size_bytes": 1367901
+    },
+    {
+      "view": {
+        "name": "07_turret_integrated",
+        "frame": 181,
+        "properties": {},
+        "camera": [
+          18,
+          -5,
+          19
+        ],
+        "target": [
+          7,
+          5.5,
+          11.8
+        ],
+        "lens": 55
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Boulder_Hill\\renders\\v4\\07_turret_integrated.png",
+      "size_bytes": 1326417
+    },
+    {
+      "view": {
+        "name": "08_left_facade",
+        "frame": 181,
+        "properties": {},
+        "camera": [
+          -24,
+          -32,
+          12
+        ],
+        "target": [
+          -5,
+          -7,
+          5.3
+        ],
+        "lens": 44
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Boulder_Hill\\renders\\v4\\08_left_facade.png",
+      "size_bytes": 1492888
+    }
+  ],
+  "retained_previous_views": []
+}

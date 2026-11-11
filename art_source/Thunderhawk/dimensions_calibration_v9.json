@@ -1,0 +1,9 @@
+{
+  "wheelbase_before_m": 2.8200011253356934,
+  "wheelbase_after_m": 2.565398693084717,
+  "pivot_wheelbase_m": 2.5653998851776123,
+  "source_url": "https://news.chevrolet.com/content/dam/company/no_search/heritage-archive-docs/vehicle-information-kits/chevrolet/1985-Chevrolet-Camaro.pdf",
+  "datum": "101 inches, real 1985 Camaro",
+  "cartoon_dimensions_validated": false,
+  "method": "Smooth monotone X remap, rigid translation through wheel and arch regions; X animation offsets updated"
+}

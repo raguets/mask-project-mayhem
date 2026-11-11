@@ -1,0 +1,16 @@
+[
+  {
+    "rig": "AlexSector_Rig",
+    "same_suit_object": "AS_ContinuousFlightSuit",
+    "vertices": 237622,
+    "continuous_knee_union": true,
+    "weight_transfer": "Nearest evaluated rest face, inverse-distance blend of its original vertex weights; normalized."
+  },
+  {
+    "rig": "BruceSato_Rig",
+    "same_suit_object": "BS_ContinuousFlightSuit",
+    "vertices": 237622,
+    "continuous_knee_union": true,
+    "weight_transfer": "Nearest evaluated rest face, inverse-distance blend of its original vertex weights; normalized."
+  }
+]

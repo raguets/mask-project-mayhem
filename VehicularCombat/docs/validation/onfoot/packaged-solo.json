@@ -1,0 +1,214 @@
+{
+	"role": "solo",
+	"passed": true,
+	"complete": true,
+	"phase": 30,
+	"elapsed_seconds": 72.739663101732731,
+	"checks":
+	{
+		"persistent_seated_driver": true,
+		"moving_before_exit_attempt": true,
+		"exit_rejected_while_moving": true,
+		"exit_rejected_when_both_sides_blocked": true,
+		"a_exits_and_possesses_same_driver": true,
+		"parked_vehicle_reserved_without_ai": true,
+		"locomotion_loaded": true,
+		"body_human_scale": true,
+		"walking_animates_legs": true,
+		"left_stick_walks": true,
+		"l3_runs": true,
+		"a_jumps_and_lands": true,
+		"right_stick_rotates_camera_and_aim": true,
+		"y_removes_same_mask_keeps_face": true,
+		"cannot_enter_from_far_away": true,
+		"rb_fires_and_consumes_ammo": true,
+		"rifle_projectiles_damage_enemy": true,
+		"mask_reenabled": true,
+		"x_returns_to_same_car_and_body": true,
+		"rifle_hidden_in_vehicle": true,
+		"second_exit_restores_animator": true,
+		"foot_pause_opens": true,
+		"a_resumes_without_jump": true,
+		"hostile_bullet_hits_driver_capsule": true,
+		"allied_damage_filtered": true,
+		"driver_death_disables_body": true,
+		"death_returns_to_same_healthy_car": true,
+		"roster_0_exit_same_masked_driver": true,
+		"roster_0_reenter": true,
+		"roster_1_exit_same_masked_driver": true,
+		"roster_1_reenter": true,
+		"roster_2_exit_same_masked_driver": true,
+		"roster_2_reenter": true,
+		"roster_3_exit_same_masked_driver": true,
+		"roster_3_reenter": true,
+		"roster_4_exit_same_masked_driver": true,
+		"roster_4_reenter": true,
+		"roster_5_exit_same_masked_driver": true,
+		"roster_5_reenter": true,
+		"no_timeout": true
+	},
+	"telemetry":
+	{
+		"idle":
+		{
+			"location": "X=1364.752 Y=-179.951 Z=20090.000",
+			"velocity": "X=0.000 Y=0.000 Z=0.000",
+			"health": 100,
+			"on_foot": true,
+			"masked": true,
+			"animation_class": "MaskDriverAnimInstance_2147482309",
+			"mesh_bounds_cm": "X=15.331 Y=32.099 Z=88.934",
+			"right_hand": "X=1394.752 Y=-167.952 Z=20131.717",
+			"weapon": "X=1394.752 Y=-167.952 Z=20131.717",
+			"ammo": 30
+		},
+		"walking_cm_s": 150,
+		"walking":
+		{
+			"location": "X=1583.726 Y=-179.947 Z=20090.000",
+			"velocity": "X=150.000 Y=0.003 Z=0.000",
+			"health": 100,
+			"on_foot": true,
+			"masked": true,
+			"animation_class": "MaskDriverAnimInstance_2147482309",
+			"mesh_bounds_cm": "X=15.331 Y=32.099 Z=88.934",
+			"right_hand": "X=1613.726 Y=-167.946 Z=20129.263",
+			"weapon": "X=1613.726 Y=-167.946 Z=20129.263",
+			"ammo": 30
+		},
+		"running_cm_s": 400,
+		"running":
+		{
+			"location": "X=2172.237 Y=-179.935 Z=20090.000",
+			"velocity": "X=400.000 Y=0.008 Z=0.000",
+			"health": 100,
+			"on_foot": true,
+			"masked": true,
+			"animation_class": "MaskDriverAnimInstance_2147482309",
+			"mesh_bounds_cm": "X=15.331 Y=32.099 Z=88.934",
+			"right_hand": "X=2202.236 Y=-167.934 Z=20128.824",
+			"weapon": "X=2202.236 Y=-167.934 Z=20128.824",
+			"ammo": 30
+		},
+		"jump_height_cm": 89.822425842285156,
+		"unmasked":
+		{
+			"location": "X=2500.179 Y=-179.928 Z=20090.150",
+			"velocity": "X=0.000 Y=0.000 Z=0.000",
+			"health": 100,
+			"on_foot": true,
+			"masked": false,
+			"animation_class": "MaskDriverAnimInstance_2147482309",
+			"mesh_bounds_cm": "X=35.526 Y=28.764 Z=88.934",
+			"right_hand": "X=2475.344 Y=-159.260 Z=20131.885",
+			"weapon": "X=2475.344 Y=-159.260 Z=20131.885",
+			"ammo": 30
+		},
+		"firing":
+		{
+			"location": "X=2500.179 Y=-179.928 Z=20090.150",
+			"velocity": "X=0.000 Y=0.000 Z=0.000",
+			"health": 100,
+			"on_foot": true,
+			"masked": true,
+			"animation_class": "MaskDriverAnimInstance_2147482309",
+			"mesh_bounds_cm": "X=15.332 Y=32.099 Z=88.934",
+			"right_hand": "X=2530.180 Y=-167.930 Z=20131.859",
+			"weapon": "X=2530.180 Y=-167.930 Z=20131.859",
+			"ammo": 25
+		},
+		"enemy_health_after_fire": 625,
+		"returned":
+		{
+			"location": "X=1404.745 Y=0.049 Z=20006.076",
+			"velocity": "X=0.000 Y=0.000 Z=0.000",
+			"health": 100,
+			"on_foot": false,
+			"masked": true,
+			"animation_class": "AnimSingleNodeInstance_2147482291",
+			"mesh_bounds_cm": "X=15.578 Y=32.100 Z=88.976",
+			"right_hand": "X=1428.612 Y=-21.963 Z=20089.662",
+			"weapon": "X=1428.612 Y=-21.963 Z=20089.662",
+			"ammo": 25
+		},
+		"roster_0":
+		{
+			"location": "X=160.593 Y=3808.998 Z=20090.000",
+			"velocity": "X=0.000 Y=0.000 Z=0.000",
+			"health": 100,
+			"on_foot": true,
+			"masked": true,
+			"animation_class": "MaskDriverAnimInstance_2147482229",
+			"mesh_bounds_cm": "X=16.017 Y=32.098 Z=89.234",
+			"right_hand": "X=190.593 Y=3820.998 Z=20131.720",
+			"weapon": "X=190.593 Y=3820.998 Z=20131.720",
+			"ammo": 30
+		},
+		"roster_1":
+		{
+			"location": "X=14.056 Y=7308.995 Z=20090.000",
+			"velocity": "X=0.000 Y=0.000 Z=0.000",
+			"health": 100,
+			"on_foot": true,
+			"masked": true,
+			"animation_class": "MaskDriverAnimInstance_2147482188",
+			"mesh_bounds_cm": "X=16.017 Y=32.098 Z=88.934",
+			"right_hand": "X=44.056 Y=7320.995 Z=20131.720",
+			"weapon": "X=44.056 Y=7320.995 Z=20131.720",
+			"ammo": 30
+		},
+		"roster_2":
+		{
+			"location": "X=-50.000 Y=10820.001 Z=20090.000",
+			"velocity": "X=0.000 Y=0.000 Z=0.000",
+			"health": 100,
+			"on_foot": true,
+			"masked": true,
+			"animation_class": "MaskDriverAnimInstance_2147482158",
+			"mesh_bounds_cm": "X=15.320 Y=32.452 Z=89.224",
+			"right_hand": "X=-20.000 Y=10832.000 Z=20131.717",
+			"weapon": "X=-20.000 Y=10832.000 Z=20131.717",
+			"ammo": 30
+		},
+		"roster_3":
+		{
+			"location": "X=-40.190 Y=14319.994 Z=20090.000",
+			"velocity": "X=0.000 Y=0.000 Z=0.000",
+			"health": 100,
+			"on_foot": true,
+			"masked": true,
+			"animation_class": "MaskDriverAnimInstance_2147482138",
+			"mesh_bounds_cm": "X=15.332 Y=32.099 Z=88.934",
+			"right_hand": "X=-10.190 Y=14331.994 Z=20131.717",
+			"weapon": "X=-10.190 Y=14331.994 Z=20131.717",
+			"ammo": 30
+		},
+		"roster_4":
+		{
+			"location": "X=160.579 Y=17808.998 Z=20090.000",
+			"velocity": "X=0.000 Y=0.000 Z=0.000",
+			"health": 100,
+			"on_foot": true,
+			"masked": true,
+			"animation_class": "MaskDriverAnimInstance_2147482061",
+			"mesh_bounds_cm": "X=16.017 Y=32.098 Z=89.234",
+			"right_hand": "X=190.579 Y=17820.998 Z=20131.720",
+			"weapon": "X=190.579 Y=17820.998 Z=20131.720",
+			"ammo": 30
+		},
+		"roster_5":
+		{
+			"location": "X=-50.000 Y=21320.006 Z=20090.000",
+			"velocity": "X=0.000 Y=0.000 Z=0.000",
+			"health": 100,
+			"on_foot": true,
+			"masked": true,
+			"animation_class": "MaskDriverAnimInstance_2147482028",
+			"mesh_bounds_cm": "X=15.320 Y=32.452 Z=89.224",
+			"right_hand": "X=-20.000 Y=21332.005 Z=20131.717",
+			"weapon": "X=-20.000 Y=21332.005 Z=20131.717",
+			"ammo": 30
+		}
+	},
+	"fixture": "Opt-in flat platform at 200m, existing playable pawns, injected Xbox inputs. Solo roster possession/obstacles and enemy placement are explicit fixtures. No physical gamepad/manual play claimed."
+}

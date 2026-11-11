@@ -1,0 +1,7 @@
+{
+  "status": "success",
+  "result": {
+    "executed": true,
+    "result": "Infos: Copie enregistr\u00e9e sous \u00ab\u00a0Thunderhawk_V9_before_dimension_calibration.blend\u00a0\u00bb\nInfos: Enregistr\u00e9 sous \u00ab\u00a0Thunderhawk_V9.blend\u00a0\u00bb\nTHK9_DIMENSION_CALIBRATION {\"wheelbase_before_m\": 2.82, \"wheelbase_after_m\": 2.5653998851776123, \"source_url\": \"https://news.chevrolet.com/content/dam/company/no_search/heritage-archive-docs/vehicle-information-kits/chevrolet/1985-Chevrolet-Camaro.pdf\", \"datum\": \"101 inches, real 1985 Camaro\", \"cartoon_dimensions_validated\": false, \"method\": \"Smooth monotone X remap, rigid translation through wheel and arch regions; X animation offsets updated\"}\n"
+  }
+}

@@ -1,0 +1,22 @@
+﻿[
+    {
+        "id":  0,
+        "description":  "ProjectileActor.cpp",
+        "exit_code":  0
+    },
+    {
+        "id":  1,
+        "description":  "UnrealEditor-VehicularCombat.dll",
+        "exit_code":  0
+    },
+    {
+        "id":  2,
+        "description":  "UnrealEditor-VehicularCombat.lib",
+        "exit_code":  0
+    },
+    {
+        "id":  3,
+        "description":  "VehicularCombatEditor.target",
+        "exit_code":  0
+    }
+]

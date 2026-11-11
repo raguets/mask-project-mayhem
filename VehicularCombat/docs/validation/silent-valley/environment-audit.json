@@ -1,0 +1,138 @@
+{
+  "engine": "5.8.2-56702186+++UE5+Release-5.8",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "vehicles": [
+    {
+      "driver_name": "Matt Trakker",
+      "driver_location": "<Struct 'Vector' (0x000002A12CA1AF20) {x: 0.000000, y: -40.000001, z: 0.000000}>",
+      "chassis": "<Object '/Game/MASK/Thunderhawk/SK_THK_Physics.SK_THK_Physics' (0x000002A12C52B400) Class 'SkeletalMesh'>",
+      "supports_flight": "True",
+      "clearance_extent": "<Struct 'Vector' (0x000002A12CA1B078) {x: 245.000000, y: 175.000000, z: 80.000000}>",
+      "wheels": [],
+      "name": "Thunderhawk",
+      "class": "/Game/MASK/Thunderhawk/BP_Thunderhawk.BP_Thunderhawk_C",
+      "native_parent": "<Object '/Game/MASK/Thunderhawk/BP_Thunderhawk.BP_Thunderhawk_C' (0x000002A12F730000) Class 'BlueprintGeneratedClass'>",
+      "chassis_bounds": "<Struct 'BoxSphereBounds' (0x000002A18D8ECFC0) {origin: {x: 0.000000, y: 0.000000, z: 61.000002}, box_extent: {x: 217.500000, y: 86.000015, z: 28.999998}, sphere_radius: 235.676160}>"
+    },
+    {
+      "driver_name": "Alex Sector",
+      "driver_location": "<Struct 'Vector' (0x000002A12D305820) {x: 200.000000, y: 60.000002, z: 137.000000}>",
+      "chassis": "<Object '/Game/MASK/Rhino/SK_RH_Physics.SK_RH_Physics' (0x000002A12F250000) Class 'SkeletalMesh'>",
+      "supports_flight": "False",
+      "clearance_extent": "<Struct 'Vector' (0x000002A12D305978) {x: 700.000000, y: 450.000000, z: 170.000000}>",
+      "wheels": [
+        {
+          "name": "W0",
+          "center_cm": [
+            345.0000286102295,
+            107.00000524520874,
+            57.999998331069946
+          ]
+        },
+        {
+          "name": "W1",
+          "center_cm": [
+            -188.0000114440918,
+            115.99999666213989,
+            57.999998331069946
+          ]
+        },
+        {
+          "name": "W2",
+          "center_cm": [
+            345.0000286102295,
+            -106.99999332427979,
+            57.999998331069946
+          ]
+        },
+        {
+          "name": "W3",
+          "center_cm": [
+            -188.0000114440918,
+            -115.99999666213989,
+            57.999998331069946
+          ]
+        }
+      ],
+      "name": "Rhino",
+      "class": "/Game/MASK/Rhino/BP_Rhino.BP_Rhino_C",
+      "native_parent": "<Object '/Game/MASK/Rhino/BP_Rhino.BP_Rhino_C' (0x000002A1A6395B00) Class 'BlueprintGeneratedClass'>",
+      "chassis_bounds": "<Struct 'BoxSphereBounds' (0x000002A19D58B5C0) {origin: {x: 129.999985, y: -0.000011, z: 154.999983}, box_extent: {x: 320.000015, y: 117.500019, z: 102.499987}, sphere_radius: 355.967009}>"
+    },
+    {
+      "driver_name": "Hondo MacLean",
+      "driver_location": "<Struct 'Vector' (0x000002A1B0F72820) {x: -10.000000, y: -37.000000, z: 36.000000}>",
+      "chassis": "<Object '/Game/MASK/Hurricane/SK_HU_Physics.SK_HU_Physics' (0x000002A1B09BB400) Class 'SkeletalMesh'>",
+      "supports_flight": "False",
+      "clearance_extent": "<Struct 'Vector' (0x000002A1B0F72978) {x: 300.000000, y: 135.000000, z: 130.000000}>",
+      "wheels": [
+        {
+          "name": "W0",
+          "center_cm": [
+            147.99998998641968,
+            -81.99999928474426,
+            37.99999952316284
+          ]
+        },
+        {
+          "name": "W1",
+          "center_cm": [
+            147.99998998641968,
+            81.99999928474426,
+            37.99999952316284
+          ]
+        },
+        {
+          "name": "W2",
+          "center_cm": [
+            -148.0000138282776,
+            -81.99999928474426,
+            37.99999952316284
+          ]
+        },
+        {
+          "name": "W3",
+          "center_cm": [
+            -148.0000138282776,
+            81.99999928474426,
+            37.99999952316284
+          ]
+        },
+        {
+          "name": "W4",
+          "center_cm": [
+            0.0,
+            -74.00000095367432,
+            38.00000250339508
+          ]
+        },
+        {
+          "name": "W5",
+          "center_cm": [
+            0.0,
+            74.00000095367432,
+            38.00000250339508
+          ]
+        }
+      ],
+      "name": "Hurricane",
+      "class": "/Game/MASK/Hurricane/BP_Hurricane.BP_Hurricane_C",
+      "native_parent": "<Object '/Game/MASK/Hurricane/BP_Hurricane.BP_Hurricane_C' (0x000002A1A3B76900) Class 'BlueprintGeneratedClass'>",
+      "chassis_bounds": "<Struct 'BoxSphereBounds' (0x000002A1A3B925C0) {origin: {x: 0.000000, y: 0.000000, z: 72.000004}, box_extent: {x: 255.000015, y: 90.000023, z: 36.000004}, sphere_radius: 272.802148}>"
+    }
+  ],
+  "fab": [],
+  "maps": [
+    "/Game/Maps/MainMenu",
+    "/Game/Maps/TestMaps/Test"
+  ],
+  "python_classes": {
+    "PCGGraph": true,
+    "PCGComponent": true,
+    "EditorAssetLibrary": true,
+    "EditorLevelLibrary": true,
+    "LevelEditorSubsystem": true,
+    "DynamicMesh": true,
+    "GeometryScript_Primitives": true
+  }
+}

@@ -1,0 +1,14 @@
+﻿G:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\Experimental\Chaos\Public\Chaos\Convex.h(966,23): note: voir la référence à l'instanciation classe modèle 'Chaos::TBox<Chaos::FConvex::FRealType,3>' en cours de compilation
+			TBox<FRealType,3>::SerializeAsAABB(Ar, LocalBoundingBox);
+			                   ^
+[8/10] Link [x64] UnrealEditor-VehicularCombat.lib
+   Création de la bibliothèque G:/DEV/mask-project-mayhem/VehicularCombat/Intermediate/Build/Win64/x64/UnrealEditor/Development/VehicularCombat/UnrealEditor-VehicularCombat.lib et de l'objet G:/DEV/mask-project-mayhem/VehicularCombat/Intermediate/Build/Win64/x64/UnrealEditor/Development/VehicularCombat/UnrealEditor-VehicularCombat.exp
+[9/10] Link [x64] UnrealEditor-VehicularCombat.dll
+[10/10] WriteMetadata VehicularCombatEditor.target [NoUba]
+
+Total time in Unreal Build Accelerator local executor: 38.79 seconds
+Output binary: G:\Program Files\Epic Games\UE_5.8\Engine\Binaries\Win64\UnrealEditor.exe
+
+Result: Succeeded
+Total execution time: 50.25 seconds
+Trace written to file C:\Users\steph\AppData\Local\UnrealBuildTool\Trace.uba with size 10.6kb

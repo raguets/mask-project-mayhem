@@ -1,0 +1,56 @@
+﻿[
+    {
+        "role":  "solo",
+        "point":  "minimum_speed",
+        "actual_kmh":  50.054,
+        "command_kmh":  50.000
+    },
+    {
+        "role":  "solo",
+        "point":  "maximum_speed",
+        "actual_kmh":  299.993,
+        "command_kmh":  300.000
+    },
+    {
+        "role":  "solo",
+        "point":  "minimum_after_full_speed",
+        "actual_kmh":  50.007,
+        "command_kmh":  50.000
+    },
+    {
+        "role":  "host",
+        "point":  "minimum_speed",
+        "actual_kmh":  50.075,
+        "command_kmh":  50.000
+    },
+    {
+        "role":  "host",
+        "point":  "maximum_speed",
+        "actual_kmh":  299.993,
+        "command_kmh":  300.000
+    },
+    {
+        "role":  "host",
+        "point":  "minimum_after_full_speed",
+        "actual_kmh":  50.007,
+        "command_kmh":  50.000
+    },
+    {
+        "role":  "client",
+        "point":  "minimum_speed",
+        "actual_kmh":  50.352,
+        "command_kmh":  50.000
+    },
+    {
+        "role":  "client",
+        "point":  "maximum_speed",
+        "actual_kmh":  303.804,
+        "command_kmh":  300.000
+    },
+    {
+        "role":  "client",
+        "point":  "minimum_after_full_speed",
+        "actual_kmh":  50.003,
+        "command_kmh":  50.000
+    }
+]

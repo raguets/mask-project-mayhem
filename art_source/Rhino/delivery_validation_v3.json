@@ -1,0 +1,12 @@
+{
+  "source": "G:\\DEV\\mask-project-mayhem\\art_source\\Rhino\\Rhino_V3.blend",
+  "reference": "Images de reference/rhino/rhino pare buffle.jpg",
+  "review_images": 5,
+  "outline_matches_grille": true,
+  "closed_outline": true,
+  "vertical_bars": 7,
+  "checked_integer_frames": 241,
+  "bullbar_collision_frames": [],
+  "independent_vehicle_reopened": true,
+  "previous_sources_preserved": true
+}

@@ -1,0 +1,46 @@
+{
+  "opened_session": "G:\\DEV\\mask-project-mayhem\\art_source\\Boulder_Hill\\Session_before_final_seams_v4.blend",
+  "session_backup": "G:\\DEV\\mask-project-mayhem\\art_source\\Boulder_Hill\\Session_before_color_20261105_194241.blend",
+  "source": "BoulderHill_V4_Assembly.blend",
+  "output": "BoulderHill_V5_Assembly.blend",
+  "mesh_geometry_unchanged": true,
+  "meshes_checked": 1667,
+  "old_ramp": [
+    [
+      [
+        0.11999999731779099,
+        0.04100000113248825,
+        0.013000000268220901,
+        1.0
+      ],
+      [
+        0.49000000953674316,
+        0.25,
+        0.10000000149011612,
+        1.0
+      ]
+    ]
+  ],
+  "new_ramp": [
+    [
+      [
+        0.054999999701976776,
+        0.01600000075995922,
+        0.00800000037997961,
+        1.0
+      ],
+      [
+        0.18000000715255737,
+        0.05999999865889549,
+        0.027000000700354576,
+        1.0
+      ]
+    ]
+  ],
+  "diffuse": [
+    0.11749999970197678,
+    0.03799999877810478,
+    0.017500000074505806,
+    1.0
+  ]
+}

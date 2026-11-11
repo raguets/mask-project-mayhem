@@ -1,0 +1,51 @@
+[
+  {
+    "view": "cabin_mask",
+    "drive": true,
+    "mask": true,
+    "frame": 97,
+    "cutaway": true
+  },
+  {
+    "view": "cabin",
+    "drive": true,
+    "mask": false,
+    "frame": 97,
+    "cutaway": true
+  },
+  {
+    "view": "pedals_cutaway",
+    "drive": true,
+    "mask": false,
+    "frame": 97,
+    "cutaway": true
+  },
+  {
+    "view": "road",
+    "drive": true,
+    "mask": true,
+    "frame": 1,
+    "cutaway": false
+  },
+  {
+    "view": "standing",
+    "drive": false,
+    "mask": false,
+    "frame": 1,
+    "cutaway": false
+  },
+  {
+    "view": "standing_mask",
+    "drive": false,
+    "mask": true,
+    "frame": 1,
+    "cutaway": false
+  },
+  {
+    "view": "boots",
+    "drive": false,
+    "mask": false,
+    "frame": 1,
+    "cutaway": false
+  }
+]

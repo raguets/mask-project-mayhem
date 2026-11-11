@@ -1,0 +1,32 @@
+{
+  "method": "Evaluated meshes and curves; surface intersections at every fourth integer frame through 1..241, plus closest hand/control and foot/pedal distances. Intended hinge attachments and stowed housing joins reviewed separately; does not prove continuous absence of collisions or physical steering/cloth simulation.",
+  "samples": [],
+  "fit": {
+    "1": {
+      "hand_L_m": 9.758838359630317e-07,
+      "pedal_L_m": 0.001779407262802124,
+      "hand_R_m": 1.0573788813417195e-06,
+      "pedal_R_m": 0.001780182123184204
+    },
+    "151": {
+      "hand_L_m": 4.2178533476544544e-05,
+      "foot_platform_L_gap_m": -0.0015000104904174805,
+      "hand_R_m": 5.086973760626279e-05,
+      "foot_platform_R_gap_m": -0.0015000104904174805
+    }
+  },
+  "identities": {
+    "same_body_head_rig_all_samples": true,
+    "persistent_road_tires": 6,
+    "tires": [
+      "HU_FrontWheel_L_Tire",
+      "HU_FrontWheel_R_Tire",
+      "HU_RearWheel_L_Tire",
+      "HU_RearWheel_R_Tire",
+      "HU_CentreWheel_L_Tire",
+      "HU_CentreWheel_R_Tire"
+    ]
+  },
+  "invalid_drivers": [],
+  "sample_count": 70
+}

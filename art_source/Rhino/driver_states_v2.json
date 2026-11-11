@@ -1,0 +1,143 @@
+[
+  {
+    "frame": 1,
+    "parts": [
+      {
+        "name": "RH_RearCabinetSlide",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "valid": true
+      },
+      {
+        "name": "RH_MissileLauncherLift",
+        "location": [
+          -0.10000000149011612,
+          -0.30000001192092896,
+          2.740000009536743
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "valid": true
+      },
+      {
+        "name": "RH_RadarRotation",
+        "location": [
+          -0.20000000298023224,
+          0.0,
+          4.150000095367432
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.05235987901687622
+        ],
+        "valid": true
+      }
+    ]
+  },
+  {
+    "frame": 151,
+    "parts": [
+      {
+        "name": "RH_RearCabinetSlide",
+        "location": [
+          -0.800000011920929,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "valid": true
+      },
+      {
+        "name": "RH_MissileLauncherLift",
+        "location": [
+          -0.10000000149011612,
+          -0.30000001192092896,
+          3.640000104904175
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "valid": true
+      },
+      {
+        "name": "RH_RadarRotation",
+        "location": [
+          -0.20000000298023224,
+          0.0,
+          4.150000095367432
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          7.906341552734375
+        ],
+        "valid": true
+      }
+    ]
+  },
+  {
+    "frame": 241,
+    "parts": [
+      {
+        "name": "RH_RearCabinetSlide",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "valid": true
+      },
+      {
+        "name": "RH_MissileLauncherLift",
+        "location": [
+          -0.10000000149011612,
+          -0.30000001192092896,
+          2.740000009536743
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "valid": true
+      },
+      {
+        "name": "RH_RadarRotation",
+        "location": [
+          -0.20000000298023224,
+          0.0,
+          4.150000095367432
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          12.618730545043945
+        ],
+        "valid": true
+      }
+    ]
+  }
+]

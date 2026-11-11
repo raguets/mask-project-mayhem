@@ -1,0 +1,33 @@
+{
+  "version": "V4",
+  "generated_utc": "2026-11-05T18:35:39.927771+00:00",
+  "source": "G:\\DEV\\mask-project-mayhem\\art_source\\Boulder_Hill\\BoulderHill_V4_Assembly.blend",
+  "independent_source": "G:\\DEV\\mask-project-mayhem\\art_source\\Boulder_Hill\\BoulderHill_V4_Base.blend",
+  "native_drivers_valid_after_reopen": true,
+  "parking_bays_tested": 4,
+  "route_samples_per_bay": 241,
+  "gate_phases": 41,
+  "mechanism_phases_per_group": 81,
+  "mechanism_groups": 7,
+  "demonstration_frames_checked": 541,
+  "reported_surface_or_envelope_intersections": 0,
+  "render_views": 8,
+  "renders_visually_reviewed": true,
+  "limitations": [
+    "Sampled surface and envelope checks, not continuous collision proof.",
+    "Dimensions, hidden mechanisms, interior and mountain are interpreted.",
+    "Cap follows an animated path, not rigid body dynamics.",
+    "Demo vehicles do not simulate steering, rolling wheels, suspension or terrain contact.",
+    "No Unreal optimization or integration validation."
+  ],
+  "files": {
+    "BoulderHill_V4_Assembly.blend": {
+      "bytes": 3950979,
+      "sha256": "d252e66915aba82123691a6d132782a4838b96cb1c41f77a06503fac951a0a65"
+    },
+    "BoulderHill_V4_Base.blend": {
+      "bytes": 2923534,
+      "sha256": "96169170a690613e9edf4f01bb10c7d5b1be33d2372872fb98261cb4622e22e0"
+    }
+  }
+}

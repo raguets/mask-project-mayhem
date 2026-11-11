@@ -1,0 +1,10 @@
+{
+  "render_review_queue.py": {
+    "blocked_while_review_active": true,
+    "reason": "Another review is active: {'token': '1793733653733382300', 'output_dir': 'G:\\\\DEV\\\\mask-project-mayhem\\\\art_source\\\\Bruce_Sato\\\\renders\\\\v1_final'}"
+  },
+  "export_components.py": {
+    "blocked_while_review_active": true,
+    "reason": "Finish the active review before component export."
+  }
+}

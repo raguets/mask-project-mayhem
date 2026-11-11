@@ -1,0 +1,420 @@
+{
+  "source": "G:\\DEV\\mask-project-mayhem\\art_source\\Thunderhawk\\Thunderhawk_V9.blend",
+  "frame_range": [
+    1,
+    193
+  ],
+  "fps": 24,
+  "dimensions_estimated": true,
+  "road_bounds_m": {
+    "min": [
+      -2.427199602127075,
+      -1.0019999742507935,
+      0.0
+    ],
+    "max": [
+      2.4298441410064697,
+      1.0019999742507935,
+      1.309000015258789
+    ],
+    "dimensions": [
+      4.857043743133545,
+      2.003999948501587,
+      1.309000015258789
+    ]
+  },
+  "endpoint_max_evaluated_vertex_error_m": 0.0,
+  "pose_samples": [
+    {
+      "frame": 1,
+      "door_L_deg": 0.0,
+      "door_R_deg": 0.0,
+      "rear_Z_m": 0.0,
+      "rear_rotation_rad": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "spoiler_Z_m": 0.0,
+      "cannon_local_Z_m": -1.2999999523162842,
+      "cannon_world_L": [
+        0.04542800039052963,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 25,
+      "door_L_deg": 0.0,
+      "door_R_deg": 0.0,
+      "rear_Z_m": 0.0,
+      "rear_rotation_rad": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "spoiler_Z_m": 0.0,
+      "cannon_local_Z_m": -1.2999999523162842,
+      "cannon_world_L": [
+        0.04542800039052963,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 45,
+      "door_L_deg": 14.90055115555035,
+      "door_R_deg": -14.90055115555035,
+      "rear_Z_m": 0.0,
+      "rear_rotation_rad": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "spoiler_Z_m": 0.12962962687015533,
+      "cannon_local_Z_m": -1.2999999523162842,
+      "cannon_world_L": [
+        0.04542800039052963,
+        0.3385552763938904,
+        0.011057239025831223
+      ]
+    },
+    {
+      "frame": 55,
+      "door_L_deg": 29.71643528614922,
+      "door_R_deg": -29.71643528614922,
+      "rear_Z_m": 0.033593758940696716,
+      "rear_rotation_rad": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "spoiler_Z_m": 0.17499999701976776,
+      "cannon_local_Z_m": -1.2999999523162842,
+      "cannon_world_L": [
+        0.04542800039052963,
+        0.6611219644546509,
+        0.10800886899232864
+      ]
+    },
+    {
+      "frame": 65,
+      "door_L_deg": 46.05625244134112,
+      "door_R_deg": -46.05625244134112,
+      "rear_Z_m": 0.10750002413988113,
+      "rear_rotation_rad": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "spoiler_Z_m": 0.17499999701976776,
+      "cannon_local_Z_m": -1.2999999523162842,
+      "cannon_world_L": [
+        0.04542800039052963,
+        0.9748959541320801,
+        0.3064199388027191
+      ]
+    },
+    {
+      "frame": 85,
+      "door_L_deg": 73.1481499728725,
+      "door_R_deg": -73.1481499728725,
+      "rear_Z_m": 0.2150000035762787,
+      "rear_rotation_rad": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "spoiler_Z_m": 0.17499999701976776,
+      "cannon_local_Z_m": -1.4230469465255737,
+      "cannon_world_L": [
+        0.04542800039052963,
+        1.4521206617355347,
+        0.7659151554107666
+      ]
+    },
+    {
+      "frame": 97,
+      "door_L_deg": 79.00000333674014,
+      "door_R_deg": -79.00000333674014,
+      "rear_Z_m": 0.2150000035762787,
+      "rear_rotation_rad": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "spoiler_Z_m": 0.17499999701976776,
+      "cannon_local_Z_m": -1.4800000190734863,
+      "cannon_world_L": [
+        0.04542800039052963,
+        1.5555754899978638,
+        0.8929360508918762
+      ]
+    },
+    {
+      "frame": 121,
+      "door_L_deg": 79.00000333674014,
+      "door_R_deg": -79.00000333674014,
+      "rear_Z_m": 0.2150000035762787,
+      "rear_rotation_rad": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "spoiler_Z_m": 0.17499999701976776,
+      "cannon_local_Z_m": -1.4800000190734863,
+      "cannon_world_L": [
+        0.04542800039052963,
+        1.5555754899978638,
+        0.8929360508918762
+      ]
+    },
+    {
+      "frame": 151,
+      "door_L_deg": 49.28356805059092,
+      "door_R_deg": -49.28356805059092,
+      "rear_Z_m": 0.03359374403953552,
+      "rear_rotation_rad": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "spoiler_Z_m": 0.17499999701976776,
+      "cannon_local_Z_m": -1.2999999523162842,
+      "cannon_world_L": [
+        0.04542800039052963,
+        1.0294872522354126,
+        0.35573017597198486
+      ]
+    },
+    {
+      "frame": 161,
+      "door_L_deg": 32.94375089539902,
+      "door_R_deg": -32.94375089539902,
+      "rear_Z_m": 0.0,
+      "rear_rotation_rad": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "spoiler_Z_m": 0.17499999701976776,
+      "cannon_local_Z_m": -1.2999999523162842,
+      "cannon_world_L": [
+        0.04542800039052963,
+        0.7273810505867004,
+        0.13996917009353638
+      ]
+    },
+    {
+      "frame": 165,
+      "door_L_deg": 26.55006886995803,
+      "door_R_deg": -26.55006886995803,
+      "rear_Z_m": 0.0,
+      "rear_rotation_rad": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "spoiler_Z_m": 0.17499999701976776,
+      "cannon_local_Z_m": -1.2999999523162842,
+      "cannon_world_L": [
+        0.04542800039052963,
+        0.594466507434845,
+        0.08032616972923279
+      ]
+    },
+    {
+      "frame": 193,
+      "door_L_deg": 0.0,
+      "door_R_deg": 0.0,
+      "rear_Z_m": 0.0,
+      "rear_rotation_rad": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "spoiler_Z_m": 0.0,
+      "cannon_local_Z_m": -1.2999999523162842,
+      "cannon_world_L": [
+        0.04542800039052963,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "geometry": {
+    "base": {
+      "vertices": 23779,
+      "edges": 45053,
+      "faces": 21574,
+      "triangles": 4032,
+      "quads": 17366,
+      "ngons": 176,
+      "boundary_edges": 4158,
+      "edges_over_two_faces": 0,
+      "isolated_vertices": 0,
+      "zero_area_faces": 0
+    },
+    "evaluated": {
+      "vertices": 84208,
+      "faces": 83640,
+      "triangles": 166228,
+      "boundary_edges": 1504,
+      "edges_over_two_faces": 0,
+      "zero_area_faces": 0
+    }
+  },
+  "collision_sample_count": 385,
+  "collision_step_frames": 0.5,
+  "tested_pairs": [
+    [
+      "THK_DoorShell_L",
+      "THK_FrontFenderCrown_L"
+    ],
+    [
+      "THK_DoorShell_L",
+      "THK_FrontQuarterSkin_L"
+    ],
+    [
+      "THK_DoorShell_L",
+      "THK_RearFenderCrown_L"
+    ],
+    [
+      "THK_DoorShell_L",
+      "THK_RearQuarterSkin_L"
+    ],
+    [
+      "THK_DoorShell_L",
+      "THK_C_Pillar_L"
+    ],
+    [
+      "THK_DoorShell_L",
+      "THK_Windshield"
+    ],
+    [
+      "THK_DoorShell_L",
+      "THK_RearGlass"
+    ],
+    [
+      "THK_DoorShell_L",
+      "THK_FrontRoofHeader"
+    ],
+    [
+      "THK_DoorShell_L",
+      "THK_RearRoofHeader"
+    ],
+    [
+      "THK_DoorShell_L",
+      "THK_RoofSpine"
+    ],
+    [
+      "THK_RearPanel",
+      "THK_Reactor_L"
+    ],
+    [
+      "THK_DoorCannon_L",
+      "THK_DoorShell_L"
+    ],
+    [
+      "THK_DoorAFrame_L",
+      "THK_Windshield"
+    ],
+    [
+      "THK_DoorAFrame_L",
+      "THK_WindshieldFrame"
+    ],
+    [
+      "THK_DoorAFrame_L",
+      "THK_FrontRoofHeader"
+    ],
+    [
+      "THK_DoorAFrame_L",
+      "THK_FrontFenderCrown_L"
+    ],
+    [
+      "THK_DoorShell_R",
+      "THK_FrontFenderCrown_R"
+    ],
+    [
+      "THK_DoorShell_R",
+      "THK_FrontQuarterSkin_R"
+    ],
+    [
+      "THK_DoorShell_R",
+      "THK_RearFenderCrown_R"
+    ],
+    [
+      "THK_DoorShell_R",
+      "THK_RearQuarterSkin_R"
+    ],
+    [
+      "THK_DoorShell_R",
+      "THK_C_Pillar_R"
+    ],
+    [
+      "THK_DoorShell_R",
+      "THK_Windshield"
+    ],
+    [
+      "THK_DoorShell_R",
+      "THK_RearGlass"
+    ],
+    [
+      "THK_DoorShell_R",
+      "THK_FrontRoofHeader"
+    ],
+    [
+      "THK_DoorShell_R",
+      "THK_RearRoofHeader"
+    ],
+    [
+      "THK_DoorShell_R",
+      "THK_RoofSpine"
+    ],
+    [
+      "THK_RearPanel",
+      "THK_Reactor_R"
+    ],
+    [
+      "THK_DoorCannon_R",
+      "THK_DoorShell_R"
+    ],
+    [
+      "THK_DoorAFrame_R",
+      "THK_Windshield"
+    ],
+    [
+      "THK_DoorAFrame_R",
+      "THK_WindshieldFrame"
+    ],
+    [
+      "THK_DoorAFrame_R",
+      "THK_FrontRoofHeader"
+    ],
+    [
+      "THK_DoorAFrame_R",
+      "THK_FrontFenderCrown_R"
+    ],
+    [
+      "THK_DoorShell_L",
+      "THK_DoorShell_R"
+    ],
+    [
+      "THK_RearPanel",
+      "THK_FixedTailBand"
+    ],
+    [
+      "THK_RearStabilizer",
+      "THK_RearGlass"
+    ]
+  ],
+  "intersection_rows": 0,
+  "intersection_pair_summary": {},
+  "intersection_examples": [],
+  "limitations": [
+    "Selected pairs only",
+    "Surface triangle intersections, not a solid-volume collision solver",
+    "Half-frame sampling, not mathematically continuous collision detection",
+    "No gameplay physics or multiplayer validation"
+  ]
+}

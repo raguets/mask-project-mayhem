@@ -1,0 +1,17 @@
+{
+  "method": "2D separating-axis test on conservative full vehicle road envelopes at every integer animation frame. Does not simulate steering, wheels, terrain contact or dynamics.",
+  "sampled_frames": 541,
+  "vehicle_overlap_frames": [],
+  "end_positions": {
+    "Thunderhawk": [
+      24.192386627197266,
+      -23.920310974121094,
+      0.0
+    ],
+    "Rhino": [
+      14.292892456054688,
+      -14.020814895629883,
+      0.0
+    ]
+  }
+}

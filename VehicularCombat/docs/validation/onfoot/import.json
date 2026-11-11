@@ -1,0 +1,125 @@
+{
+  "passed": true,
+  "actors": [
+    {
+      "actor": "Matt",
+      "mesh": "/Game/MASK/Thunderhawk/SK_Matt.SK_Matt",
+      "skeleton": "/Game/MASK/Thunderhawk/SK_Matt_Skeleton.SK_Matt_Skeleton",
+      "blend_space": "/Game/MASK/OnFoot/Matt/BS_Locomotion.BS_Locomotion",
+      "jump": "/Game/MASK/OnFoot/Matt/AN_Jump.AN_Jump",
+      "animations": [
+        "/Game/MASK/OnFoot/Matt/AN_Idle",
+        "/Game/MASK/OnFoot/Matt/AN_Jump",
+        "/Game/MASK/OnFoot/Matt/AN_Walk000",
+        "/Game/MASK/OnFoot/Matt/AN_Walk045",
+        "/Game/MASK/OnFoot/Matt/AN_Walk090",
+        "/Game/MASK/OnFoot/Matt/AN_Walk135",
+        "/Game/MASK/OnFoot/Matt/AN_Walk180",
+        "/Game/MASK/OnFoot/Matt/AN_Walk225",
+        "/Game/MASK/OnFoot/Matt/AN_Walk270",
+        "/Game/MASK/OnFoot/Matt/AN_Walk315",
+        "/Game/MASK/OnFoot/Matt/AN_Run000",
+        "/Game/MASK/OnFoot/Matt/AN_Run045",
+        "/Game/MASK/OnFoot/Matt/AN_Run090",
+        "/Game/MASK/OnFoot/Matt/AN_Run135",
+        "/Game/MASK/OnFoot/Matt/AN_Run180",
+        "/Game/MASK/OnFoot/Matt/AN_Run225",
+        "/Game/MASK/OnFoot/Matt/AN_Run270",
+        "/Game/MASK/OnFoot/Matt/AN_Run315"
+      ]
+    },
+    {
+      "actor": "Alex",
+      "mesh": "/Game/MASK/Rhino/SK_Alex.SK_Alex",
+      "skeleton": "/Game/MASK/Rhino/SK_Alex_Skeleton.SK_Alex_Skeleton",
+      "blend_space": "/Game/MASK/OnFoot/Alex/BS_Locomotion.BS_Locomotion",
+      "jump": "/Game/MASK/OnFoot/Alex/AN_Jump.AN_Jump",
+      "animations": [
+        "/Game/MASK/OnFoot/Alex/AN_Idle",
+        "/Game/MASK/OnFoot/Alex/AN_Jump",
+        "/Game/MASK/OnFoot/Alex/AN_Walk000",
+        "/Game/MASK/OnFoot/Alex/AN_Walk045",
+        "/Game/MASK/OnFoot/Alex/AN_Walk090",
+        "/Game/MASK/OnFoot/Alex/AN_Walk135",
+        "/Game/MASK/OnFoot/Alex/AN_Walk180",
+        "/Game/MASK/OnFoot/Alex/AN_Walk225",
+        "/Game/MASK/OnFoot/Alex/AN_Walk270",
+        "/Game/MASK/OnFoot/Alex/AN_Walk315",
+        "/Game/MASK/OnFoot/Alex/AN_Run000",
+        "/Game/MASK/OnFoot/Alex/AN_Run045",
+        "/Game/MASK/OnFoot/Alex/AN_Run090",
+        "/Game/MASK/OnFoot/Alex/AN_Run135",
+        "/Game/MASK/OnFoot/Alex/AN_Run180",
+        "/Game/MASK/OnFoot/Alex/AN_Run225",
+        "/Game/MASK/OnFoot/Alex/AN_Run270",
+        "/Game/MASK/OnFoot/Alex/AN_Run315"
+      ]
+    },
+    {
+      "actor": "Bruce",
+      "mesh": "/Game/MASK/Rhino/SK_Bruce.SK_Bruce",
+      "skeleton": "/Game/MASK/Rhino/SK_Bruce_Skeleton.SK_Bruce_Skeleton",
+      "blend_space": "/Game/MASK/OnFoot/Bruce/BS_Locomotion.BS_Locomotion",
+      "jump": "/Game/MASK/OnFoot/Bruce/AN_Jump.AN_Jump",
+      "animations": [
+        "/Game/MASK/OnFoot/Bruce/AN_Idle",
+        "/Game/MASK/OnFoot/Bruce/AN_Jump",
+        "/Game/MASK/OnFoot/Bruce/AN_Walk000",
+        "/Game/MASK/OnFoot/Bruce/AN_Walk045",
+        "/Game/MASK/OnFoot/Bruce/AN_Walk090",
+        "/Game/MASK/OnFoot/Bruce/AN_Walk135",
+        "/Game/MASK/OnFoot/Bruce/AN_Walk180",
+        "/Game/MASK/OnFoot/Bruce/AN_Walk225",
+        "/Game/MASK/OnFoot/Bruce/AN_Walk270",
+        "/Game/MASK/OnFoot/Bruce/AN_Walk315",
+        "/Game/MASK/OnFoot/Bruce/AN_Run000",
+        "/Game/MASK/OnFoot/Bruce/AN_Run045",
+        "/Game/MASK/OnFoot/Bruce/AN_Run090",
+        "/Game/MASK/OnFoot/Bruce/AN_Run135",
+        "/Game/MASK/OnFoot/Bruce/AN_Run180",
+        "/Game/MASK/OnFoot/Bruce/AN_Run225",
+        "/Game/MASK/OnFoot/Bruce/AN_Run270",
+        "/Game/MASK/OnFoot/Bruce/AN_Run315"
+      ]
+    },
+    {
+      "actor": "Hondo",
+      "mesh": "/Game/MASK/Hurricane/SK_Hondo.SK_Hondo",
+      "skeleton": "/Game/MASK/Hurricane/SK_Hondo_Skeleton.SK_Hondo_Skeleton",
+      "blend_space": "/Game/MASK/OnFoot/Hondo/BS_Locomotion.BS_Locomotion",
+      "jump": "/Game/MASK/OnFoot/Hondo/AN_Jump.AN_Jump",
+      "animations": [
+        "/Game/MASK/OnFoot/Hondo/AN_Idle",
+        "/Game/MASK/OnFoot/Hondo/AN_Jump",
+        "/Game/MASK/OnFoot/Hondo/AN_Walk000",
+        "/Game/MASK/OnFoot/Hondo/AN_Walk045",
+        "/Game/MASK/OnFoot/Hondo/AN_Walk090",
+        "/Game/MASK/OnFoot/Hondo/AN_Walk135",
+        "/Game/MASK/OnFoot/Hondo/AN_Walk180",
+        "/Game/MASK/OnFoot/Hondo/AN_Walk225",
+        "/Game/MASK/OnFoot/Hondo/AN_Walk270",
+        "/Game/MASK/OnFoot/Hondo/AN_Walk315",
+        "/Game/MASK/OnFoot/Hondo/AN_Run000",
+        "/Game/MASK/OnFoot/Hondo/AN_Run045",
+        "/Game/MASK/OnFoot/Hondo/AN_Run090",
+        "/Game/MASK/OnFoot/Hondo/AN_Run135",
+        "/Game/MASK/OnFoot/Hondo/AN_Run180",
+        "/Game/MASK/OnFoot/Hondo/AN_Run225",
+        "/Game/MASK/OnFoot/Hondo/AN_Run270",
+        "/Game/MASK/OnFoot/Hondo/AN_Run315"
+      ]
+    }
+  ],
+  "weapon": [
+    {
+      "component": "Skeletal Mesh",
+      "mesh": "/Game/Art/Meshes/Weapons/SK_Assault_Rifle.SK_Assault_Rifle",
+      "bounds_methods": [
+        "get_bounds",
+        "get_imported_bounds",
+        "negative_bounds_extension",
+        "positive_bounds_extension"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "status": "success",
+  "result": {
+    "executed": true,
+    "result": "BEFORE_PRESENTATION 97 [0.0, 0.4000000059604645, 0.0] {'mask_on': False, 'height_m_estimated': 1.8, 'reference_policy': 'User supplied illustrations, replica photographs and toy photographs inspected. Anatomical realism and hidden surfaces interpreted, not photo scan.', 'asset_type': 'Single character with reusable armature; removable Spectrum accessory', 'driving_pose': 1, 'asset_version': 'Matt Trakker V5 / Spectrum V4', 'reference_fidelity': 'Human interpretation of supplied illustrated portrait explicitly authorized 2026-11-02. No likeness to a specific real person.', 'neck_refinement': 'Head/attachments lowered 35 mm, neck unclamped and smoothly reweighted. Anatomical dimensions estimated.'}\nInfos: Enregistré sous « Thunderhawk_V14.blend »\nV14_ASSEMBLY_PRESENTED_AND_SAVED 97 [0.0, 0.4000000059604645, 0.0]\n"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "passed": true,
+  "geometry_changed": false,
+  "stage": "SAVED",
+  "signs": [
+    {
+      "zone": "Boulder Hill",
+      "distance_m": 45.0,
+      "center": [
+        -133490.05559578,
+        -107390.90653709284,
+        8279.999940395355
+      ],
+      "yaw": 213.66428588066387
+    },
+    {
+      "zone": "Pinewood Road",
+      "distance_m": 702.0,
+      "center": [
+        -76458.86159674672,
+        -76337.80061098194,
+        9271.154789924622
+      ],
+      "yaw": 158.85736269572502
+    },
+    {
+      "zone": "Eagle Pass",
+      "distance_m": 3507.0,
+      "center": [
+        69429.94391404573,
+        22858.98845105306,
+        15780.0
+      ],
+      "yaw": 286.728219492837
+    },
+    {
+      "zone": "Old Quarry",
+      "distance_m": 4667.0,
+      "center": [
+        67012.3543505103,
+        94134.3933727665,
+        10280.0
+      ],
+      "yaw": 1.7604683740230769
+    },
+    {
+      "zone": "North Ridge",
+      "distance_m": 5932.0,
+      "center": [
+        -54025.09821116094,
+        123781.85269954517,
+        16280.0
+      ],
+      "yaw": 320.17093138239386
+    }
+  ],
+  "material": "/Game/MASK/Environment/SilentValley/Materials/M_SV_ValleySurface_v4.M_SV_ValleySurface_v4",
+  "route_length_m": 9550.658125,
+  "visual_validation": "pending; no photorealism claim"
+}

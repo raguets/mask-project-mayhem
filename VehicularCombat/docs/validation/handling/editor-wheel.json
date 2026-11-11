@@ -1,0 +1,29 @@
+﻿{
+    "passed":  true,
+    "exit_code":  0,
+    "report":  {
+                   "passed":  true,
+                   "complete":  true,
+                   "checks":  {
+                                  "two_hurricanes_keep_independent_wheel_modes":  true,
+                                  "rear_contacts_stable_while_driving_on_flat_ground":  true,
+                                  "rear0_rest0_stable":  true,
+                                  "rear0_rest1_stable":  true,
+                                  "rear1_rest0_stable":  true,
+                                  "rear1_rest1_stable":  true
+                              },
+                   "metrics":  {
+                                   "driving_frames":  90,
+                                   "driving_rear_contact_misses":  0,
+                                   "rear0_rest0_range_cm":  0,
+                                   "rear0_rest1_range_cm":  0,
+                                   "rear0_max_rest_offset_step_cm":  0,
+                                   "rear0_max_rest_rotation_step_degrees":  0,
+                                   "rear1_rest0_range_cm":  0,
+                                   "rear1_rest1_range_cm":  0,
+                                   "rear1_max_rest_offset_step_cm":  0,
+                                   "rear1_max_rest_rotation_step_degrees":  0
+                               },
+                   "fixture":  "Flat temporary floor; tested car stays in road mode. Rest, four seconds RT, three seconds handbrake, rest. A second Hurricane deploys/retracts separately. Physics wheel offsets sampled every rendered frame."
+               }
+}

@@ -1,0 +1,100 @@
+{
+  "status": "success",
+  "result": {
+    "name": "Rhino_V2_LowerHood_SlidingCabinet",
+    "object_count": 1104,
+    "objects": [
+      {
+        "name": "Rhino_Control",
+        "type": "EMPTY",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "RH_TruckFrame_-0.59",
+        "type": "MESH",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "RH_TruckFrame_0.59",
+        "type": "MESH",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "RH_FrameCrossmember_-1.35",
+        "type": "MESH",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "RH_FrameCrossmember_-0.5",
+        "type": "MESH",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "RH_FrameCrossmember_0.6",
+        "type": "MESH",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "RH_FrameCrossmember_1.8",
+        "type": "MESH",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "RH_FrameCrossmember_2.8",
+        "type": "MESH",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "RH_FrameCrossmember_3.8",
+        "type": "MESH",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "RH_FrontAxle",
+        "type": "MESH",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "materials_count": 57
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "source": "G:\\DEV\\mask-project-mayhem\\art_source\\Rhino\\Rhino_V2.blend",
+  "outputs": [
+    {
+      "kind": "character",
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Alex_Sector\\AlexSector_V1.blend",
+      "scene": "AlexSector_V1_Independent",
+      "scene_objects": 77
+    },
+    {
+      "kind": "mask",
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Alex_Sector\\AlexSector_Mask_V1.blend",
+      "scene": "AlexSector_Mask_V1_Independent",
+      "scene_objects": 12
+    }
+  ],
+  "expected": 2
+}

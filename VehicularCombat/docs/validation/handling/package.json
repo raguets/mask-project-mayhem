@@ -1,0 +1,10 @@
+﻿{
+    "package":  "MASK-Handling-Development-r1",
+    "binary":  "G:\\DEV\\mask-project-mayhem\\VehicularCombat\\Saved\\Packages\\MASK-Handling-Development-r1\\Windows\\VehicularCombat\\Binaries\\Win64\\VehicularCombat.exe",
+    "bytes":  333861888,
+    "sha256":  "938C9D8867900263B12D770E74B1847E935FF06ED6C6982012A38168F571899F",
+    "engine":  "5.8.2-56702186",
+    "configuration":  "Win64 Development",
+    "build_cook_run_seconds":  116.92,
+    "base_commit":  "cfaf65c"
+}

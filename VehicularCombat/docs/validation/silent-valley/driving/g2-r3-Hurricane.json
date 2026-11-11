@@ -1,0 +1,44 @@
+{
+	"passed": true,
+	"complete": true,
+	"vehicle": "Hurricane",
+	"wall_seconds": 83.179350100457668,
+	"simulated_seconds": 811.57928466796875,
+	"progress_m": 5969,
+	"max_cross_track_m": 1.1805802583694458,
+	"max_speed_kmh": 39.589954101562498,
+	"longest_wheel_contact_loss_s": 0,
+	"checks":
+	{
+		"new_map_loaded": true,
+		"existing_requested_vehicle": true,
+		"starts_inside_existing_base": true,
+		"continuous_ground_probes": true,
+		"road_grade_below_10_percent": true,
+		"reached_zone_0": true,
+		"reached_zone_1": true,
+		"reached_zone_2": true,
+		"reached_zone_3": true,
+		"reached_zone_4": true,
+		"no_stuck_or_departure": true,
+		"wheels_remain_supported": true,
+		"no_unwanted_transformation": true,
+		"route_completed_without_recovery": true
+	},
+	"telemetry":
+	{
+		"probe_count": 2712,
+		"missing_ground_probes": 0,
+		"max_road_grade_percent": 8.4742155075073242,
+		"max_probe_surface_offset_cm": 43.832206726074219,
+		"latest_position": "X=-56403.003 Y=125736.844 Z=16006.060",
+		"rotation": "P=-0.130228 Y=134.303913 R=-0.004804",
+		"requested_steer": -0.52568691968917847,
+		"steering_input": -0.52661609649658203,
+		"throttle": 0.087250910699367523,
+		"brake": 0,
+		"contacts": 4,
+		"speed_cm_s": 260.46881103515625
+	},
+	"method": "Actual Chaos pawn, pure-pursuit controller injecting Xbox steering/throttle/brake. No teleportation or kinematic route following. Collision probe is separate from driving. Screenshots are real game frames."
+}

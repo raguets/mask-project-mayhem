@@ -1,0 +1,739 @@
+{
+  "status": "complete",
+  "elapsed_seconds": 282.27,
+  "scene_file": "G:\\DEV\\mask-project-mayhem\\art_source\\Thunderhawk\\Thunderhawk_V14.blend",
+  "job": {
+    "output_dir": "G:/DEV/mask-project-mayhem/art_source/Thunderhawk/renders/v14",
+    "rig": "MattTrakker_Rig",
+    "rig_properties": [
+      "driving_pose",
+      "mask_on"
+    ],
+    "floor": "Review_Floor",
+    "samples": 24,
+    "width": 900,
+    "height": 1000,
+    "device": "GPU",
+    "reference_limits": "Replica photos images (1),(2), illustrations (5),(7); neck dimensions and flexible shoulder skirt interpreted.",
+    "views": [
+      {
+        "name": "neck_front",
+        "camera": [
+          0.78,
+          0,
+          1.635
+        ],
+        "target": [
+          0,
+          0,
+          1.6
+        ],
+        "lens": 78,
+        "properties": {
+          "driving_pose": 0,
+          "mask_on": false
+        },
+        "rig_location": [
+          0,
+          0,
+          0
+        ],
+        "frame": 1,
+        "hide_collections": [
+          "THK9_Exterior",
+          "THK11_Interior"
+        ],
+        "hide_objects": [],
+        "floor_offset": [
+          0,
+          0,
+          0.016
+        ]
+      },
+      {
+        "name": "neck_profile",
+        "camera": [
+          0,
+          0.78,
+          1.635
+        ],
+        "target": [
+          0,
+          0,
+          1.6
+        ],
+        "lens": 78,
+        "properties": {
+          "driving_pose": 0,
+          "mask_on": false
+        },
+        "rig_location": [
+          0,
+          0,
+          0
+        ],
+        "frame": 1,
+        "hide_collections": [
+          "THK9_Exterior",
+          "THK11_Interior"
+        ],
+        "hide_objects": [],
+        "floor_offset": [
+          0,
+          0,
+          0.016
+        ]
+      },
+      {
+        "name": "spectrum",
+        "camera": [
+          0.75,
+          0.53,
+          1.68
+        ],
+        "target": [
+          0,
+          0,
+          1.625
+        ],
+        "lens": 70,
+        "properties": {
+          "driving_pose": 0,
+          "mask_on": true
+        },
+        "rig_location": [
+          0,
+          0,
+          0
+        ],
+        "frame": 1,
+        "hide_collections": [
+          "THK9_Exterior",
+          "THK11_Interior"
+        ],
+        "hide_objects": [],
+        "floor_offset": [
+          0,
+          0,
+          0.016
+        ]
+      },
+      {
+        "name": "spectrum_front",
+        "camera": [
+          0.95,
+          0,
+          1.64
+        ],
+        "target": [
+          0,
+          0,
+          1.6
+        ],
+        "lens": 75,
+        "properties": {
+          "driving_pose": 0,
+          "mask_on": true
+        },
+        "rig_location": [
+          0,
+          0,
+          0
+        ],
+        "frame": 1,
+        "hide_collections": [
+          "THK9_Exterior",
+          "THK11_Interior"
+        ],
+        "hide_objects": [],
+        "floor_offset": [
+          0,
+          0,
+          0.016
+        ]
+      },
+      {
+        "name": "spectrum_profile",
+        "camera": [
+          0,
+          0.9,
+          1.65
+        ],
+        "target": [
+          -0.02,
+          0,
+          1.6
+        ],
+        "lens": 75,
+        "properties": {
+          "driving_pose": 0,
+          "mask_on": true
+        },
+        "rig_location": [
+          0,
+          0,
+          0
+        ],
+        "frame": 1,
+        "hide_collections": [
+          "THK9_Exterior",
+          "THK11_Interior"
+        ],
+        "hide_objects": [],
+        "floor_offset": [
+          0,
+          0,
+          0.016
+        ]
+      },
+      {
+        "name": "standing",
+        "camera": [
+          3.5,
+          3.4,
+          1.9
+        ],
+        "target": [
+          0,
+          0,
+          0.94
+        ],
+        "lens": 62,
+        "properties": {
+          "driving_pose": 0,
+          "mask_on": false
+        },
+        "rig_location": [
+          0,
+          0,
+          0
+        ],
+        "frame": 1,
+        "hide_collections": [
+          "THK9_Exterior",
+          "THK11_Interior"
+        ],
+        "hide_objects": [],
+        "floor_offset": [
+          0,
+          0,
+          0.016
+        ]
+      },
+      {
+        "name": "standing_mask",
+        "camera": [
+          3.5,
+          3.4,
+          1.9
+        ],
+        "target": [
+          0,
+          0,
+          0.94
+        ],
+        "lens": 62,
+        "properties": {
+          "driving_pose": 0,
+          "mask_on": true
+        },
+        "rig_location": [
+          0,
+          0,
+          0
+        ],
+        "frame": 1,
+        "hide_collections": [
+          "THK9_Exterior",
+          "THK11_Interior"
+        ],
+        "hide_objects": [],
+        "floor_offset": [
+          0,
+          0,
+          0.016
+        ]
+      },
+      {
+        "name": "cabin",
+        "camera": [
+          1.45,
+          1.95,
+          1.45
+        ],
+        "target": [
+          -0.18,
+          0.22,
+          0.78
+        ],
+        "lens": 52,
+        "properties": {
+          "driving_pose": 1,
+          "mask_on": false
+        },
+        "rig_location": [
+          0,
+          0.4,
+          0
+        ],
+        "frame": 97,
+        "hide_collections": [],
+        "hide_objects": [
+          "THK_Windshield"
+        ],
+        "floor_offset": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "cabin_mask",
+        "camera": [
+          1.45,
+          1.95,
+          1.45
+        ],
+        "target": [
+          -0.18,
+          0.22,
+          0.78
+        ],
+        "lens": 52,
+        "properties": {
+          "driving_pose": 1,
+          "mask_on": true
+        },
+        "rig_location": [
+          0,
+          0.4,
+          0
+        ],
+        "frame": 97,
+        "hide_collections": [],
+        "hide_objects": [
+          "THK_Windshield"
+        ],
+        "floor_offset": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "neck_driving_profile",
+        "camera": [
+          -0.4,
+          1.1,
+          1.05
+        ],
+        "target": [
+          -0.56,
+          0,
+          1.02
+        ],
+        "lens": 70,
+        "properties": {
+          "driving_pose": 1,
+          "mask_on": false
+        },
+        "rig_location": [
+          0,
+          0,
+          0
+        ],
+        "frame": 97,
+        "hide_collections": [
+          "THK9_Exterior",
+          "THK11_Interior"
+        ],
+        "hide_objects": [],
+        "floor_offset": [
+          0,
+          0,
+          0.016
+        ]
+      }
+    ]
+  },
+  "renders": [
+    {
+      "view": {
+        "name": "neck_front",
+        "camera": [
+          0.78,
+          0,
+          1.635
+        ],
+        "target": [
+          0,
+          0,
+          1.6
+        ],
+        "lens": 78,
+        "properties": {
+          "driving_pose": 0,
+          "mask_on": false
+        },
+        "rig_location": [
+          0,
+          0,
+          0
+        ],
+        "frame": 1,
+        "hide_collections": [
+          "THK9_Exterior",
+          "THK11_Interior"
+        ],
+        "hide_objects": [],
+        "floor_offset": [
+          0,
+          0,
+          0.016
+        ]
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Thunderhawk\\renders\\v14\\neck_front.png",
+      "size_bytes": 1061598
+    },
+    {
+      "view": {
+        "name": "neck_profile",
+        "camera": [
+          0,
+          0.78,
+          1.635
+        ],
+        "target": [
+          0,
+          0,
+          1.6
+        ],
+        "lens": 78,
+        "properties": {
+          "driving_pose": 0,
+          "mask_on": false
+        },
+        "rig_location": [
+          0,
+          0,
+          0
+        ],
+        "frame": 1,
+        "hide_collections": [
+          "THK9_Exterior",
+          "THK11_Interior"
+        ],
+        "hide_objects": [],
+        "floor_offset": [
+          0,
+          0,
+          0.016
+        ]
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Thunderhawk\\renders\\v14\\neck_profile.png",
+      "size_bytes": 1044512
+    },
+    {
+      "view": {
+        "name": "spectrum",
+        "camera": [
+          0.75,
+          0.53,
+          1.68
+        ],
+        "target": [
+          0,
+          0,
+          1.625
+        ],
+        "lens": 70,
+        "properties": {
+          "driving_pose": 0,
+          "mask_on": true
+        },
+        "rig_location": [
+          0,
+          0,
+          0
+        ],
+        "frame": 1,
+        "hide_collections": [
+          "THK9_Exterior",
+          "THK11_Interior"
+        ],
+        "hide_objects": [],
+        "floor_offset": [
+          0,
+          0,
+          0.016
+        ]
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Thunderhawk\\renders\\v14\\spectrum.png",
+      "size_bytes": 1052332
+    },
+    {
+      "view": {
+        "name": "spectrum_front",
+        "camera": [
+          0.95,
+          0,
+          1.64
+        ],
+        "target": [
+          0,
+          0,
+          1.6
+        ],
+        "lens": 75,
+        "properties": {
+          "driving_pose": 0,
+          "mask_on": true
+        },
+        "rig_location": [
+          0,
+          0,
+          0
+        ],
+        "frame": 1,
+        "hide_collections": [
+          "THK9_Exterior",
+          "THK11_Interior"
+        ],
+        "hide_objects": [],
+        "floor_offset": [
+          0,
+          0,
+          0.016
+        ]
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Thunderhawk\\renders\\v14\\spectrum_front.png",
+      "size_bytes": 1045422
+    },
+    {
+      "view": {
+        "name": "spectrum_profile",
+        "camera": [
+          0,
+          0.9,
+          1.65
+        ],
+        "target": [
+          -0.02,
+          0,
+          1.6
+        ],
+        "lens": 75,
+        "properties": {
+          "driving_pose": 0,
+          "mask_on": true
+        },
+        "rig_location": [
+          0,
+          0,
+          0
+        ],
+        "frame": 1,
+        "hide_collections": [
+          "THK9_Exterior",
+          "THK11_Interior"
+        ],
+        "hide_objects": [],
+        "floor_offset": [
+          0,
+          0,
+          0.016
+        ]
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Thunderhawk\\renders\\v14\\spectrum_profile.png",
+      "size_bytes": 1013470
+    },
+    {
+      "view": {
+        "name": "standing",
+        "camera": [
+          3.5,
+          3.4,
+          1.9
+        ],
+        "target": [
+          0,
+          0,
+          0.94
+        ],
+        "lens": 62,
+        "properties": {
+          "driving_pose": 0,
+          "mask_on": false
+        },
+        "rig_location": [
+          0,
+          0,
+          0
+        ],
+        "frame": 1,
+        "hide_collections": [
+          "THK9_Exterior",
+          "THK11_Interior"
+        ],
+        "hide_objects": [],
+        "floor_offset": [
+          0,
+          0,
+          0.016
+        ]
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Thunderhawk\\renders\\v14\\standing.png",
+      "size_bytes": 918103
+    },
+    {
+      "view": {
+        "name": "standing_mask",
+        "camera": [
+          3.5,
+          3.4,
+          1.9
+        ],
+        "target": [
+          0,
+          0,
+          0.94
+        ],
+        "lens": 62,
+        "properties": {
+          "driving_pose": 0,
+          "mask_on": true
+        },
+        "rig_location": [
+          0,
+          0,
+          0
+        ],
+        "frame": 1,
+        "hide_collections": [
+          "THK9_Exterior",
+          "THK11_Interior"
+        ],
+        "hide_objects": [],
+        "floor_offset": [
+          0,
+          0,
+          0.016
+        ]
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Thunderhawk\\renders\\v14\\standing_mask.png",
+      "size_bytes": 924729
+    },
+    {
+      "view": {
+        "name": "cabin",
+        "camera": [
+          1.45,
+          1.95,
+          1.45
+        ],
+        "target": [
+          -0.18,
+          0.22,
+          0.78
+        ],
+        "lens": 52,
+        "properties": {
+          "driving_pose": 1,
+          "mask_on": false
+        },
+        "rig_location": [
+          0,
+          0.4,
+          0
+        ],
+        "frame": 97,
+        "hide_collections": [],
+        "hide_objects": [
+          "THK_Windshield"
+        ],
+        "floor_offset": [
+          0,
+          0,
+          0
+        ]
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Thunderhawk\\renders\\v14\\cabin.png",
+      "size_bytes": 1214231
+    },
+    {
+      "view": {
+        "name": "cabin_mask",
+        "camera": [
+          1.45,
+          1.95,
+          1.45
+        ],
+        "target": [
+          -0.18,
+          0.22,
+          0.78
+        ],
+        "lens": 52,
+        "properties": {
+          "driving_pose": 1,
+          "mask_on": true
+        },
+        "rig_location": [
+          0,
+          0.4,
+          0
+        ],
+        "frame": 97,
+        "hide_collections": [],
+        "hide_objects": [
+          "THK_Windshield"
+        ],
+        "floor_offset": [
+          0,
+          0,
+          0
+        ]
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Thunderhawk\\renders\\v14\\cabin_mask.png",
+      "size_bytes": 1216545
+    },
+    {
+      "view": {
+        "name": "neck_driving_profile",
+        "camera": [
+          -0.4,
+          1.1,
+          1.05
+        ],
+        "target": [
+          -0.56,
+          0,
+          1.02
+        ],
+        "lens": 70,
+        "properties": {
+          "driving_pose": 1,
+          "mask_on": false
+        },
+        "rig_location": [
+          0,
+          0,
+          0
+        ],
+        "frame": 97,
+        "hide_collections": [
+          "THK9_Exterior",
+          "THK11_Interior"
+        ],
+        "hide_objects": [],
+        "floor_offset": [
+          0,
+          0,
+          0.016
+        ]
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Thunderhawk\\renders\\v14\\neck_driving_profile.png",
+      "size_bytes": 1047894
+    }
+  ]
+}

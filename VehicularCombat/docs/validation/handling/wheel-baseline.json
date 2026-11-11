@@ -1,0 +1,25 @@
+﻿{
+    "passed":  false,
+    "exit_code":  0,
+    "report":  {
+                   "passed":  false,
+                   "complete":  true,
+                   "checks":  {
+                                  "rear0_rest0_stable":  false,
+                                  "rear0_rest1_stable":  false,
+                                  "rear1_rest0_stable":  false,
+                                  "rear1_rest1_stable":  false
+                              },
+                   "metrics":  {
+                                   "rear0_rest0_range_cm":  12,
+                                   "rear0_rest1_range_cm":  12,
+                                   "rear0_max_rest_offset_step_cm":  12,
+                                   "rear0_max_rest_rotation_step_degrees":  1.9156837463378906,
+                                   "rear1_rest0_range_cm":  12,
+                                   "rear1_rest1_range_cm":  12,
+                                   "rear1_max_rest_offset_step_cm":  12,
+                                   "rear1_max_rest_rotation_step_degrees":  1.9148902893066406
+                               },
+                   "fixture":  "Flat temporary floor; road mode throughout. Rest, four seconds RT, three seconds LT, rest. Physics wheel offsets sampled every rendered frame."
+               }
+}

@@ -1,0 +1,7 @@
+{
+  "status": "success",
+  "result": {
+    "executed": true,
+    "result": "{\"frame\": 67, \"file\": \"G:\\\\DEV\\\\mask-project-mayhem\\\\art_source\\\\Rhino\\\\Rhino_V2.blend\", \"parts\": [{\"name\": \"RH_MissileLauncherLift\", \"location\": [-0.10000000149011612, -0.30000001192092896, 2.740000009536743], \"drivers\": [{\"path\": \"location\", \"index\": 2, \"valid\": false, \"simple\": true, \"expression\": \"2.74+0.90*(min(max(v,min(1,max(0,(b-0.85)/0.15))),min(1,max(0,(max(h,min(1,max(0,(b-0.42)/0.36)))-0.92)/0.08)),min(1,max(0,(max(c,min(1,max(0,(b-0.50)/0.33)))-0.95)/0.05))))\", \"variables\": [[\"v\", \"Rhino_Control\", \"[\\\"launcher_up\\\"]\"], [\"h\", \"Rhino_Control\", \"[\\\"rear_open\\\"]\"], [\"c\", \"Rhino_Control\", \"[\\\"cabinet_slide\\\"]\"], [\"b\", \"Rhino_Control\", \"[\\\"battle_mode\\\"]\"]]}]}, {\"name\": \"RH_RearCabinetSlide\", \"location\": [0.0, 0.0, 0.0], \"drivers\": [{\"path\": \"location\", \"index\": 0, \"valid\": false, \"simple\": true, \"expression\": \"-0.80*max(v,min(1,max(0,(b-0.50)/0.33)))\", \"variables\": [[\"v\", \"Rhino_Control\", \"[\\\"cabinet_slide\\\"]\"], [\"b\", \"Rhino_Control\", \"[\\\"battle_mode\\\"]\"]]}]}, {\"name\": \"RH_RadarRotation\", \"location\": [-0.20000000298023224, 0.0, 4.150000095367432], \"drivers\": [{\"path\": \"rotation_euler\", \"index\": 2, \"valid\": false, \"simple\": true, \"expression\": \"frame*0.05235987756*s\", \"variables\": [[\"s\", \"Rhino_Control\", \"[\\\"radar_spin\\\"]\"]]}]}]}\n"
+  }
+}

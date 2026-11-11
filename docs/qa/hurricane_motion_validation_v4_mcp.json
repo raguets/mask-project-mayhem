@@ -1,0 +1,7 @@
+{
+  "status": "success",
+  "result": {
+    "executed": true,
+    "result": "MOTION_QA 70 of 70 frames flagged FIT {'1': {'hand_L_m': 9.758838359630317e-07, 'pedal_L_m': 0.001779407262802124, 'hand_R_m': 1.0573788813417195e-06, 'pedal_R_m': 0.001780182123184204}, '151': {'hand_L_m': 4.218713365844451e-05, 'foot_platform_L_gap_m': -0.0014998912811279297, 'hand_R_m': 5.086058081360534e-05, 'foot_platform_R_gap_m': -0.0014998912811279297}} BAD []\n"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "previous_session_preserved": true,
+  "assets": {
+    "Thunderhawk": {
+      "source": "G:\\DEV\\mask-project-mayhem\\art_source\\Thunderhawk\\Thunderhawk_V14_Vehicle.blend",
+      "bounds_before_centering": [
+        [
+          -2.4570000171661377,
+          -1.0019999742507935,
+          0.0
+        ],
+        [
+          2.4298441410064697,
+          1.0019999742507935,
+          1.309000015258789
+        ]
+      ],
+      "length": 4.886844158172607,
+      "width": 2.003999948501587,
+      "height": 1.309000015258789,
+      "frozen_road_geometry": true,
+      "objects": 478,
+      "original_vehicle_file_unchanged": true
+    },
+    "Rhino": {
+      "source": "G:\\DEV\\mask-project-mayhem\\art_source\\Rhino\\Rhino_V3_Vehicle.blend",
+      "bounds_before_centering": [
+        [
+          -4.190000057220459,
+          -1.5950000286102295,
+          -0.012780909426510334
+        ],
+        [
+          4.989999771118164,
+          1.5950000286102295,
+          4.4723639488220215
+        ]
+      ],
+      "length": 9.179999828338623,
+      "width": 3.190000057220459,
+      "height": 4.485144858248532,
+      "frozen_road_geometry": true,
+      "objects": 911,
+      "original_vehicle_file_unchanged": true
+    }
+  }
+}

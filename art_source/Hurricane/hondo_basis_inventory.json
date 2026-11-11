@@ -1,0 +1,993 @@
+{
+  "objects": [
+    {
+      "name": "HondoMacLean_Rig",
+      "type": "ARMATURE",
+      "vertices": null,
+      "hidden": false,
+      "materials": []
+    },
+    {
+      "name": "HMC_ArmBand_L",
+      "type": "MESH",
+      "vertices": 200,
+      "hidden": false,
+      "materials": [
+        "HMC_BS_Leather"
+      ]
+    },
+    {
+      "name": "HMC_Cuff_L",
+      "type": "MESH",
+      "vertices": 200,
+      "hidden": false,
+      "materials": [
+        "HMC_BS_Leather"
+      ]
+    },
+    {
+      "name": "HMC_KneePatch_L",
+      "type": "MESH",
+      "vertices": 441,
+      "hidden": false,
+      "materials": [
+        "HMC_BS_Leather"
+      ]
+    },
+    {
+      "name": "HMC_ArmBand_R",
+      "type": "MESH",
+      "vertices": 200,
+      "hidden": false,
+      "materials": [
+        "HMC_BS_Leather"
+      ]
+    },
+    {
+      "name": "HMC_Cuff_R",
+      "type": "MESH",
+      "vertices": 200,
+      "hidden": false,
+      "materials": [
+        "HMC_BS_Leather"
+      ]
+    },
+    {
+      "name": "HMC_KneePatch_R",
+      "type": "MESH",
+      "vertices": 441,
+      "hidden": false,
+      "materials": [
+        "HMC_BS_Leather"
+      ]
+    },
+    {
+      "name": "HMC_Belt",
+      "type": "MESH",
+      "vertices": 970,
+      "hidden": false,
+      "materials": [
+        "HMC_BS_MT2_HarnessWebbing.002"
+      ]
+    },
+    {
+      "name": "HMC_BeltBuckle",
+      "type": "MESH",
+      "vertices": 8,
+      "hidden": false,
+      "materials": [
+        "HMC_BS_MT2_BrushedBuckle.002"
+      ]
+    },
+    {
+      "name": "HMC_FabricCollar_1.479",
+      "type": "MESH",
+      "vertices": 650,
+      "hidden": false,
+      "materials": [
+        "HMC_BS_WovenShirt"
+      ]
+    },
+    {
+      "name": "HMC_FabricCollar_1.491",
+      "type": "MESH",
+      "vertices": 650,
+      "hidden": false,
+      "materials": [
+        "HMC_BS_WovenShirt"
+      ]
+    },
+    {
+      "name": "HMC_Head_AnatomicalSurface",
+      "type": "MESH",
+      "vertices": 13600,
+      "hidden": false,
+      "materials": [
+        "HMC_BS_MT4_Skin.002"
+      ]
+    },
+    {
+      "name": "HMC_ContinuousFlightSuit",
+      "type": "MESH",
+      "vertices": 237622,
+      "hidden": false,
+      "materials": [
+        "HMC_BS_WovenShirt",
+        "HMC_BS_TrouserFabric"
+      ]
+    },
+    {
+      "name": "HMC_BootSole_L",
+      "type": "MESH",
+      "vertices": 256,
+      "hidden": false,
+      "materials": [
+        "HMC_BS_Spectrum2_Rubber.002"
+      ]
+    },
+    {
+      "name": "HMC_BootUpper_L",
+      "type": "MESH",
+      "vertices": 704,
+      "hidden": false,
+      "materials": [
+        "HMC_BS_Leather",
+        "HMC_BS_Leather"
+      ]
+    },
+    {
+      "name": "HMC_BootWelt_L",
+      "type": "MESH",
+      "vertices": 192,
+      "hidden": false,
+      "materials": [
+        "HMC_BS_Leather"
+      ]
+    },
+    {
+      "name": "HMC_BootSole_R",
+      "type": "MESH",
+      "vertices": 256,
+      "hidden": false,
+      "materials": [
+        "HMC_BS_Spectrum2_Rubber.002"
+      ]
+    },
+    {
+      "name": "HMC_BootUpper_R",
+      "type": "MESH",
+      "vertices": 704,
+      "hidden": false,
+      "materials": [
+        "HMC_BS_Leather",
+        "HMC_BS_Leather"
+      ]
+    },
+    {
+      "name": "HMC_BootWelt_R",
+      "type": "MESH",
+      "vertices": 192,
+      "hidden": false,
+      "materials": [
+        "HMC_BS_Leather"
+      ]
+    },
+    {
+      "name": "HMC_Hair_NaturalSidePart",
+      "type": "MESH",
+      "vertices": 5760,
+      "hidden": false,
+      "materials": [
+        "HMC_BS_MT4_NaturalBlond.002"
+      ]
+    },
+    {
+      "name": "HMC_Eyeball_L",
+      "type": "MESH",
+      "vertices": 546,
+      "hidden": false,
+      "materials": [
+        "HMC_BS_MT4_Sclera.002"
+      ]
+    },
+    {
+      "name": "HMC_Iris_L",
+      "type": "MESH",
+      "vertices": 2400,
+      "hidden": false,
+      "materials": [
+        "HMC_BS_MT4_IrisFibers.002",
+        "HMC_BS_MT4_Pupil.002"
+      ]
+    },
+    {
+      "name": "HMC_Eyeball_R",
+      "type": "MESH",
+      "vertices": 546,
+      "hidden": false,
+      "materials": [
+        "HMC_BS_MT4_Sclera.002"
+      ]
+    },
+    {
+      "name": "HMC_Iris_R",
+      "type": "MESH",
+      "vertices": 2400,
+      "hidden": false,
+      "materials": [
+        "HMC_BS_MT4_IrisFibers.002",
+        "HMC_BS_MT4_Pupil.002"
+      ]
+    },
+    {
+      "name": "HMC_Hair_DenseGroom",
+      "type": "MESH",
+      "vertices": 224000,
+      "hidden": false,
+      "materials": [
+        "HMC_BS_MT4_NaturalBlond.002",
+        "HMC_BS_MT4_BlondVariation.002"
+      ]
+    },
+    {
+      "name": "HMC_Brow_NaturalFibers",
+      "type": "MESH",
+      "vertices": 6800,
+      "hidden": false,
+      "materials": [
+        "HMC_BS_MT4_BrowHair.002"
+      ]
+    },
+    {
+      "name": "HMC_GloveSkin_L",
+      "type": "MESH",
+      "vertices": 3300,
+      "hidden": false,
+      "materials": [
+        "HMC_Character_HandSkin"
+      ]
+    },
+    {
+      "name": "HMC_GloveSkin_R",
+      "type": "MESH",
+      "vertices": 3300,
+      "hidden": false,
+      "materials": [
+        "HMC_Character_HandSkin"
+      ]
+    },
+    {
+      "name": "HMC_ChestArmorRib_(0, 0)",
+      "type": "MESH",
+      "vertices": 8,
+      "hidden": false,
+      "materials": [
+        "HMC_BS_Vest"
+      ]
+    },
+    {
+      "name": "HMC_ChestArmorRib_(0, 1)",
+      "type": "MESH",
+      "vertices": 8,
+      "hidden": false,
+      "materials": [
+        "HMC_BS_Vest"
+      ]
+    },
+    {
+      "name": "HMC_ChestArmorRib_(0, 2)",
+      "type": "MESH",
+      "vertices": 8,
+      "hidden": false,
+      "materials": [
+        "HMC_BS_Vest"
+      ]
+    },
+    {
+      "name": "HMC_ChestArmorRib_(0, 3)",
+      "type": "MESH",
+      "vertices": 8,
+      "hidden": false,
+      "materials": [
+        "HMC_BS_Vest"
+      ]
+    },
+    {
+      "name": "HMC_ChestArmorRib_(0, 4)",
+      "type": "MESH",
+      "vertices": 8,
+      "hidden": false,
+      "materials": [
+        "HMC_BS_Vest"
+      ]
+    },
+    {
+      "name": "HMC_ChestArmorRib_(1, 0)",
+      "type": "MESH",
+      "vertices": 8,
+      "hidden": false,
+      "materials": [
+        "HMC_BS_Vest"
+      ]
+    },
+    {
+      "name": "HMC_ChestArmorRib_(1, 1)",
+      "type": "MESH",
+      "vertices": 8,
+      "hidden": false,
+      "materials": [
+        "HMC_BS_Vest"
+      ]
+    },
+    {
+      "name": "HMC_ChestArmorRib_(1, 2)",
+      "type": "MESH",
+      "vertices": 8,
+      "hidden": false,
+      "materials": [
+        "HMC_BS_Vest"
+      ]
+    },
+    {
+      "name": "HMC_ChestArmorRib_(1, 3)",
+      "type": "MESH",
+      "vertices": 8,
+      "hidden": false,
+      "materials": [
+        "HMC_BS_Vest"
+      ]
+    },
+    {
+      "name": "HMC_ChestArmorRib_(1, 4)",
+      "type": "MESH",
+      "vertices": 8,
+      "hidden": false,
+      "materials": [
+        "HMC_BS_Vest"
+      ]
+    },
+    {
+      "name": "HMC_OrangeGaiter_L",
+      "type": "MESH",
+      "vertices": 864,
+      "hidden": false,
+      "materials": [
+        "HMC_BS_Leather"
+      ]
+    },
+    {
+      "name": "HMC_OrangeGaiter_R",
+      "type": "MESH",
+      "vertices": 864,
+      "hidden": false,
+      "materials": [
+        "HMC_BS_Leather"
+      ]
+    },
+    {
+      "name": "HMC_VestFront_-1",
+      "type": "MESH",
+      "vertices": 760,
+      "hidden": false,
+      "materials": [
+        "HMC_BS_Vest"
+      ]
+    },
+    {
+      "name": "HMC_VestFront_1",
+      "type": "MESH",
+      "vertices": 760,
+      "hidden": false,
+      "materials": [
+        "HMC_BS_Vest"
+      ]
+    },
+    {
+      "name": "HMC_VestBack",
+      "type": "MESH",
+      "vertices": 760,
+      "hidden": false,
+      "materials": [
+        "HMC_BS_Vest"
+      ]
+    },
+    {
+      "name": "HMC_VestPocket_-1",
+      "type": "MESH",
+      "vertices": 8,
+      "hidden": false,
+      "materials": [
+        "HMC_BS_Vest"
+      ]
+    },
+    {
+      "name": "HMC_VestPocket_1",
+      "type": "MESH",
+      "vertices": 8,
+      "hidden": false,
+      "materials": [
+        "HMC_BS_Vest"
+      ]
+    },
+    {
+      "name": "HMC_ChestArmorSurface",
+      "type": "MESH",
+      "vertices": 4278,
+      "hidden": false,
+      "materials": [
+        "HMC_BS_Vest"
+      ]
+    },
+    {
+      "name": "HMC_SmoothShoulderPlate_L",
+      "type": "MESH",
+      "vertices": 1152,
+      "hidden": false,
+      "materials": [
+        "HMC_BS_Leather"
+      ]
+    },
+    {
+      "name": "HMC_SmoothShoulderPlate_R",
+      "type": "MESH",
+      "vertices": 1152,
+      "hidden": false,
+      "materials": [
+        "HMC_BS_Leather"
+      ]
+    },
+    {
+      "name": "HMC_Suit_Torso",
+      "type": "MESH",
+      "vertices": 4160,
+      "hidden": false,
+      "materials": [
+        "HMC_BS_MT2_WovenGrey.002"
+      ]
+    },
+    {
+      "name": "HMC_ContinuousSleeve_L",
+      "type": "MESH",
+      "vertices": 1960,
+      "hidden": false,
+      "materials": [
+        "HMC_BS_MT2_WovenGrey.002"
+      ]
+    },
+    {
+      "name": "HMC_ContinuousTrouser_L",
+      "type": "MESH",
+      "vertices": 1960,
+      "hidden": false,
+      "materials": [
+        "HMC_BS_MT2_WovenGrey.002"
+      ]
+    },
+    {
+      "name": "HMC_ContinuousSleeve_R",
+      "type": "MESH",
+      "vertices": 1960,
+      "hidden": false,
+      "materials": [
+        "HMC_BS_MT2_WovenGrey.002"
+      ]
+    },
+    {
+      "name": "HMC_ContinuousTrouser_R",
+      "type": "MESH",
+      "vertices": 1960,
+      "hidden": false,
+      "materials": [
+        "HMC_BS_MT2_WovenGrey.002"
+      ]
+    },
+    {
+      "name": "HMC_DeltoidCloth_L",
+      "type": "MESH",
+      "vertices": 1082,
+      "hidden": false,
+      "materials": [
+        "HMC_BS_MT2_WovenGrey.002"
+      ]
+    },
+    {
+      "name": "HMC_DeltoidCloth_R",
+      "type": "MESH",
+      "vertices": 1082,
+      "hidden": false,
+      "materials": [
+        "HMC_BS_MT2_WovenGrey.002"
+      ]
+    },
+    {
+      "name": "HMC_GlovePalm_L",
+      "type": "MESH",
+      "vertices": 1082,
+      "hidden": false,
+      "materials": [
+        "HMC_BS_MT2_RedLeather.002"
+      ]
+    },
+    {
+      "name": "HMC_GloveFinger_L0",
+      "type": "MESH",
+      "vertices": 40,
+      "hidden": false,
+      "materials": [
+        "HMC_BS_MT2_RedLeather.002"
+      ]
+    },
+    {
+      "name": "HMC_GloveKnuckleSeam_L01",
+      "type": "MESH",
+      "vertices": 30,
+      "hidden": false,
+      "materials": [
+        "HMC_BS_MT2_SeamGrey.002"
+      ]
+    },
+    {
+      "name": "HMC_GloveKnuckleSeam_L02",
+      "type": "MESH",
+      "vertices": 30,
+      "hidden": false,
+      "materials": [
+        "HMC_BS_MT2_SeamGrey.002"
+      ]
+    },
+    {
+      "name": "HMC_GloveFinger_L1",
+      "type": "MESH",
+      "vertices": 40,
+      "hidden": false,
+      "materials": [
+        "HMC_BS_MT2_RedLeather.002"
+      ]
+    },
+    {
+      "name": "HMC_GloveKnuckleSeam_L11",
+      "type": "MESH",
+      "vertices": 30,
+      "hidden": false,
+      "materials": [
+        "HMC_BS_MT2_SeamGrey.002"
+      ]
+    },
+    {
+      "name": "HMC_GloveKnuckleSeam_L12",
+      "type": "MESH",
+      "vertices": 30,
+      "hidden": false,
+      "materials": [
+        "HMC_BS_MT2_SeamGrey.002"
+      ]
+    },
+    {
+      "name": "HMC_GloveFinger_L2",
+      "type": "MESH",
+      "vertices": 40,
+      "hidden": false,
+      "materials": [
+        "HMC_BS_MT2_RedLeather.002"
+      ]
+    },
+    {
+      "name": "HMC_GloveKnuckleSeam_L21",
+      "type": "MESH",
+      "vertices": 30,
+      "hidden": false,
+      "materials": [
+        "HMC_BS_MT2_SeamGrey.002"
+      ]
+    },
+    {
+      "name": "HMC_GloveKnuckleSeam_L22",
+      "type": "MESH",
+      "vertices": 30,
+      "hidden": false,
+      "materials": [
+        "HMC_BS_MT2_SeamGrey.002"
+      ]
+    },
+    {
+      "name": "HMC_GloveFinger_L3",
+      "type": "MESH",
+      "vertices": 40,
+      "hidden": false,
+      "materials": [
+        "HMC_BS_MT2_RedLeather.002"
+      ]
+    },
+    {
+      "name": "HMC_GloveKnuckleSeam_L31",
+      "type": "MESH",
+      "vertices": 30,
+      "hidden": false,
+      "materials": [
+        "HMC_BS_MT2_SeamGrey.002"
+      ]
+    },
+    {
+      "name": "HMC_GloveKnuckleSeam_L32",
+      "type": "MESH",
+      "vertices": 30,
+      "hidden": false,
+      "materials": [
+        "HMC_BS_MT2_SeamGrey.002"
+      ]
+    },
+    {
+      "name": "HMC_GloveThumb_L",
+      "type": "MESH",
+      "vertices": 30,
+      "hidden": false,
+      "materials": [
+        "HMC_BS_MT2_RedLeather.002"
+      ]
+    },
+    {
+      "name": "HMC_GlovePalm_R",
+      "type": "MESH",
+      "vertices": 1082,
+      "hidden": false,
+      "materials": [
+        "HMC_BS_MT2_RedLeather.002"
+      ]
+    },
+    {
+      "name": "HMC_GloveFinger_R0",
+      "type": "MESH",
+      "vertices": 40,
+      "hidden": false,
+      "materials": [
+        "HMC_BS_MT2_RedLeather.002"
+      ]
+    },
+    {
+      "name": "HMC_GloveKnuckleSeam_R01",
+      "type": "MESH",
+      "vertices": 30,
+      "hidden": false,
+      "materials": [
+        "HMC_BS_MT2_SeamGrey.002"
+      ]
+    },
+    {
+      "name": "HMC_GloveKnuckleSeam_R02",
+      "type": "MESH",
+      "vertices": 30,
+      "hidden": false,
+      "materials": [
+        "HMC_BS_MT2_SeamGrey.002"
+      ]
+    },
+    {
+      "name": "HMC_GloveFinger_R1",
+      "type": "MESH",
+      "vertices": 40,
+      "hidden": false,
+      "materials": [
+        "HMC_BS_MT2_RedLeather.002"
+      ]
+    },
+    {
+      "name": "HMC_GloveKnuckleSeam_R11",
+      "type": "MESH",
+      "vertices": 30,
+      "hidden": false,
+      "materials": [
+        "HMC_BS_MT2_SeamGrey.002"
+      ]
+    },
+    {
+      "name": "HMC_GloveKnuckleSeam_R12",
+      "type": "MESH",
+      "vertices": 30,
+      "hidden": false,
+      "materials": [
+        "HMC_BS_MT2_SeamGrey.002"
+      ]
+    },
+    {
+      "name": "HMC_GloveFinger_R2",
+      "type": "MESH",
+      "vertices": 40,
+      "hidden": false,
+      "materials": [
+        "HMC_BS_MT2_RedLeather.002"
+      ]
+    },
+    {
+      "name": "HMC_GloveKnuckleSeam_R21",
+      "type": "MESH",
+      "vertices": 30,
+      "hidden": false,
+      "materials": [
+        "HMC_BS_MT2_SeamGrey.002"
+      ]
+    },
+    {
+      "name": "HMC_GloveKnuckleSeam_R22",
+      "type": "MESH",
+      "vertices": 30,
+      "hidden": false,
+      "materials": [
+        "HMC_BS_MT2_SeamGrey.002"
+      ]
+    },
+    {
+      "name": "HMC_GloveFinger_R3",
+      "type": "MESH",
+      "vertices": 40,
+      "hidden": false,
+      "materials": [
+        "HMC_BS_MT2_RedLeather.002"
+      ]
+    },
+    {
+      "name": "HMC_GloveKnuckleSeam_R31",
+      "type": "MESH",
+      "vertices": 30,
+      "hidden": false,
+      "materials": [
+        "HMC_BS_MT2_SeamGrey.002"
+      ]
+    },
+    {
+      "name": "HMC_GloveKnuckleSeam_R32",
+      "type": "MESH",
+      "vertices": 30,
+      "hidden": false,
+      "materials": [
+        "HMC_BS_MT2_SeamGrey.002"
+      ]
+    },
+    {
+      "name": "HMC_GloveThumb_R",
+      "type": "MESH",
+      "vertices": 30,
+      "hidden": false,
+      "materials": [
+        "HMC_BS_MT2_RedLeather.002"
+      ]
+    }
+  ],
+  "bones": {
+    "pelvis": {
+      "head": [
+        0.0,
+        0.0,
+        0.9300000071525574
+      ],
+      "tail": [
+        0.0,
+        0.0,
+        1.059999942779541
+      ]
+    },
+    "spine": {
+      "head": [
+        0.0,
+        0.0,
+        1.059999942779541
+      ],
+      "tail": [
+        -0.012000000104308128,
+        0.0,
+        1.2699999809265137
+      ]
+    },
+    "chest": {
+      "head": [
+        -0.012000000104308128,
+        0.0,
+        1.2699999809265137
+      ],
+      "tail": [
+        -0.017999999225139618,
+        0.0,
+        1.4800000190734863
+      ]
+    },
+    "neck": {
+      "head": [
+        -0.017999999225139618,
+        0.0,
+        1.4800000190734863
+      ],
+      "tail": [
+        -0.00800000037997961,
+        0.0,
+        1.5499999523162842
+      ]
+    },
+    "head": {
+      "head": [
+        -0.00800000037997961,
+        0.0,
+        1.5499999523162842
+      ],
+      "tail": [
+        -0.00800000037997961,
+        0.0,
+        1.7799999713897705
+      ]
+    },
+    "upper_arm.L": {
+      "head": [
+        -0.004999999888241291,
+        0.19499999284744263,
+        1.434999942779541
+      ],
+      "tail": [
+        0.004999999888241291,
+        0.25,
+        1.1549999713897705
+      ]
+    },
+    "forearm.L": {
+      "head": [
+        0.004999999888241291,
+        0.25,
+        1.1549999713897705
+      ],
+      "tail": [
+        0.02500000037252903,
+        0.2849999964237213,
+        0.9150000214576721
+      ]
+    },
+    "hand.L": {
+      "head": [
+        0.02500000037252903,
+        0.2849999964237213,
+        0.9150000214576721
+      ],
+      "tail": [
+        0.04500000178813934,
+        0.29100000858306885,
+        0.824999988079071
+      ]
+    },
+    "upper_arm.R": {
+      "head": [
+        -0.004999999888241291,
+        -0.19499999284744263,
+        1.434999942779541
+      ],
+      "tail": [
+        0.004999999888241291,
+        -0.25,
+        1.1549999713897705
+      ]
+    },
+    "forearm.R": {
+      "head": [
+        0.004999999888241291,
+        -0.25,
+        1.1549999713897705
+      ],
+      "tail": [
+        0.02500000037252903,
+        -0.2849999964237213,
+        0.9150000214576721
+      ]
+    },
+    "hand.R": {
+      "head": [
+        0.02500000037252903,
+        -0.2849999964237213,
+        0.9150000214576721
+      ],
+      "tail": [
+        0.04500000178813934,
+        -0.29100000858306885,
+        0.824999988079071
+      ]
+    },
+    "thigh.L": {
+      "head": [
+        0.0,
+        0.0949999988079071,
+        0.9549999833106995
+      ],
+      "tail": [
+        0.019999999552965164,
+        0.10999999940395355,
+        0.5350000262260437
+      ]
+    },
+    "shin.L": {
+      "head": [
+        0.019999999552965164,
+        0.10999999940395355,
+        0.5350000262260437
+      ],
+      "tail": [
+        0.0,
+        0.10999999940395355,
+        0.11500000208616257
+      ]
+    },
+    "foot.L": {
+      "head": [
+        0.0,
+        0.10999999940395355,
+        0.11500000208616257
+      ],
+      "tail": [
+        0.14000000059604645,
+        0.10999999940395355,
+        0.05999999865889549
+      ]
+    },
+    "thigh.R": {
+      "head": [
+        0.0,
+        -0.0949999988079071,
+        0.9549999833106995
+      ],
+      "tail": [
+        0.019999999552965164,
+        -0.10999999940395355,
+        0.5350000262260437
+      ]
+    },
+    "shin.R": {
+      "head": [
+        0.019999999552965164,
+        -0.10999999940395355,
+        0.5350000262260437
+      ],
+      "tail": [
+        0.0,
+        -0.10999999940395355,
+        0.11500000208616257
+      ]
+    },
+    "foot.R": {
+      "head": [
+        0.0,
+        -0.10999999940395355,
+        0.11500000208616257
+      ],
+      "tail": [
+        0.14000000059604645,
+        -0.10999999940395355,
+        0.05999999865889549
+      ]
+    }
+  },
+  "head_shader_nodes": {
+    "HMC_BS_MT4_Skin.002": [
+      {
+        "type": "BSDF_PRINCIPLED",
+        "attribute": null
+      },
+      {
+        "type": "OUTPUT_MATERIAL",
+        "attribute": null
+      },
+      {
+        "type": "TEX_NOISE",
+        "attribute": null
+      },
+      {
+        "type": "BUMP",
+        "attribute": null
+      },
+      {
+        "type": "TEX_NOISE",
+        "attribute": null
+      },
+      {
+        "type": "VALTORGB",
+        "attribute": null
+      },
+      {
+        "type": "VERTEX_COLOR",
+        "attribute": null
+      }
+    ]
+  }
+}

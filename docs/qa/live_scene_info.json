@@ -1,0 +1,100 @@
+{
+  "status": "success",
+  "result": {
+    "name": "Scene",
+    "object_count": 211,
+    "objects": [
+      {
+        "name": "THK_Root",
+        "type": "EMPTY",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "THK_Body",
+        "type": "MESH",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "THK_ExteriorBlackout",
+        "type": "MESH",
+        "location": [
+          -0.12,
+          0.0,
+          0.53
+        ]
+      },
+      {
+        "name": "THK_Sill_L",
+        "type": "MESH",
+        "location": [
+          -0.12,
+          0.88,
+          0.39
+        ]
+      },
+      {
+        "name": "THK_Sill_R",
+        "type": "MESH",
+        "location": [
+          -0.12,
+          -0.88,
+          0.39
+        ]
+      },
+      {
+        "name": "THK_Hood",
+        "type": "MESH",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "THK_Hood_CentreRaise",
+        "type": "MESH",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "THK_Hood_Grid_Centre",
+        "type": "MESH",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "THK_Hood_Grid_L",
+        "type": "MESH",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "THK_Hood_Lightning_L",
+        "type": "MESH",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "materials_count": 11
+  }
+}

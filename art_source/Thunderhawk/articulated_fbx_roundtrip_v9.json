@@ -1,0 +1,160 @@
+{
+  "fbx": "exports/THK_V9_Articulated.fbx",
+  "checks": [
+    {
+      "frame": 1,
+      "name": "THK_DoorShell_L",
+      "max_bound_error_m": 5.960464477539063e-08
+    },
+    {
+      "frame": 1,
+      "name": "THK_DoorShell_R",
+      "max_bound_error_m": 1.1920928955078125e-07
+    },
+    {
+      "frame": 1,
+      "name": "THK_RearPanel",
+      "max_bound_error_m": 1.7881393432617188e-07
+    },
+    {
+      "frame": 1,
+      "name": "THK_RearStabilizer",
+      "max_bound_error_m": 1.1920928955078125e-07
+    },
+    {
+      "frame": 1,
+      "name": "THK_DoorCannon_L",
+      "max_bound_error_m": 5.960464477539063e-08
+    },
+    {
+      "frame": 1,
+      "name": "THK_DoorCannon_R",
+      "max_bound_error_m": 1.1920928955078125e-07
+    },
+    {
+      "frame": 65,
+      "name": "THK_DoorShell_L",
+      "max_bound_error_m": 3.5762786865234375e-07
+    },
+    {
+      "frame": 65,
+      "name": "THK_DoorShell_R",
+      "max_bound_error_m": 3.5762786865234375e-07
+    },
+    {
+      "frame": 65,
+      "name": "THK_RearPanel",
+      "max_bound_error_m": 1.7881393432617188e-07
+    },
+    {
+      "frame": 65,
+      "name": "THK_RearStabilizer",
+      "max_bound_error_m": 1.1920928955078125e-07
+    },
+    {
+      "frame": 65,
+      "name": "THK_DoorCannon_L",
+      "max_bound_error_m": 3.5762786865234375e-07
+    },
+    {
+      "frame": 65,
+      "name": "THK_DoorCannon_R",
+      "max_bound_error_m": 3.5762786865234375e-07
+    },
+    {
+      "frame": 97,
+      "name": "THK_DoorShell_L",
+      "max_bound_error_m": 2.384185791015625e-07
+    },
+    {
+      "frame": 97,
+      "name": "THK_DoorShell_R",
+      "max_bound_error_m": 1.1920928955078125e-07
+    },
+    {
+      "frame": 97,
+      "name": "THK_RearPanel",
+      "max_bound_error_m": 1.7881393432617188e-07
+    },
+    {
+      "frame": 97,
+      "name": "THK_RearStabilizer",
+      "max_bound_error_m": 1.1920928955078125e-07
+    },
+    {
+      "frame": 97,
+      "name": "THK_DoorCannon_L",
+      "max_bound_error_m": 5.960464477539062e-07
+    },
+    {
+      "frame": 97,
+      "name": "THK_DoorCannon_R",
+      "max_bound_error_m": 5.960464477539062e-07
+    },
+    {
+      "frame": 151,
+      "name": "THK_DoorShell_L",
+      "max_bound_error_m": 3.5762786865234375e-07
+    },
+    {
+      "frame": 151,
+      "name": "THK_DoorShell_R",
+      "max_bound_error_m": 2.384185791015625e-07
+    },
+    {
+      "frame": 151,
+      "name": "THK_RearPanel",
+      "max_bound_error_m": 1.7881393432617188e-07
+    },
+    {
+      "frame": 151,
+      "name": "THK_RearStabilizer",
+      "max_bound_error_m": 1.1920928955078125e-07
+    },
+    {
+      "frame": 151,
+      "name": "THK_DoorCannon_L",
+      "max_bound_error_m": 8.344650268554688e-07
+    },
+    {
+      "frame": 151,
+      "name": "THK_DoorCannon_R",
+      "max_bound_error_m": 8.344650268554688e-07
+    },
+    {
+      "frame": 193,
+      "name": "THK_DoorShell_L",
+      "max_bound_error_m": 5.960464477539063e-08
+    },
+    {
+      "frame": 193,
+      "name": "THK_DoorShell_R",
+      "max_bound_error_m": 1.1920928955078125e-07
+    },
+    {
+      "frame": 193,
+      "name": "THK_RearPanel",
+      "max_bound_error_m": 1.7881393432617188e-07
+    },
+    {
+      "frame": 193,
+      "name": "THK_RearStabilizer",
+      "max_bound_error_m": 1.1920928955078125e-07
+    },
+    {
+      "frame": 193,
+      "name": "THK_DoorCannon_L",
+      "max_bound_error_m": 5.960464477539063e-08
+    },
+    {
+      "frame": 193,
+      "name": "THK_DoorCannon_R",
+      "max_bound_error_m": 1.1920928955078125e-07
+    }
+  ],
+  "tolerance_m": 0.0001,
+  "blender_import_anim_offset": 0.0,
+  "export_simplification": 0.0,
+  "status": "PASS",
+  "limitation": "Evaluated world bounds of six major parts at five poses; not an Unreal skeletal import or a full continuous trajectory comparison."
+}

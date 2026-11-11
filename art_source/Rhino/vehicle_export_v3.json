@@ -1,0 +1,12 @@
+{
+  "source": "G:\\DEV\\mask-project-mayhem\\art_source\\Rhino\\Rhino_V3.blend",
+  "outputs": [
+    {
+      "kind": "vehicle",
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Rhino\\Rhino_V3_Vehicle.blend",
+      "scene": "Rhino_V3_IndependentVehicle",
+      "scene_objects": 916
+    }
+  ],
+  "expected": 1
+}

@@ -1,0 +1,1071 @@
+{
+  "rig": "MattTrakker_Rig",
+  "controls": {
+    "driving_pose": {
+      "0": "standing",
+      "1": "driving"
+    },
+    "mask_on": {
+      "false": "face visible",
+      "true": "Spectrum visible over the same head"
+    }
+  },
+  "rest_bones": {
+    "pelvis": {
+      "head": [
+        0.0,
+        0.0,
+        0.9300000071525574
+      ],
+      "tail": [
+        0.0,
+        0.0,
+        1.059999942779541
+      ]
+    },
+    "spine": {
+      "head": [
+        0.0,
+        0.0,
+        1.059999942779541
+      ],
+      "tail": [
+        -0.012000000104308128,
+        0.0,
+        1.2699999809265137
+      ]
+    },
+    "chest": {
+      "head": [
+        -0.012000000104308128,
+        0.0,
+        1.2699999809265137
+      ],
+      "tail": [
+        -0.017999999225139618,
+        0.0,
+        1.4800000190734863
+      ]
+    },
+    "neck": {
+      "head": [
+        -0.017999999225139618,
+        0.0,
+        1.4800000190734863
+      ],
+      "tail": [
+        -0.00800000037997961,
+        0.0,
+        1.5499999523162842
+      ]
+    },
+    "head": {
+      "head": [
+        -0.00800000037997961,
+        0.0,
+        1.5499999523162842
+      ],
+      "tail": [
+        -0.00800000037997961,
+        0.0,
+        1.7799999713897705
+      ]
+    },
+    "upper_arm.L": {
+      "head": [
+        -0.004999999888241291,
+        0.19499999284744263,
+        1.434999942779541
+      ],
+      "tail": [
+        0.004999999888241291,
+        0.25,
+        1.1549999713897705
+      ]
+    },
+    "forearm.L": {
+      "head": [
+        0.004999999888241291,
+        0.25,
+        1.1549999713897705
+      ],
+      "tail": [
+        0.02500000037252903,
+        0.2849999964237213,
+        0.9150000214576721
+      ]
+    },
+    "hand.L": {
+      "head": [
+        0.02500000037252903,
+        0.2849999964237213,
+        0.9150000214576721
+      ],
+      "tail": [
+        0.04500000178813934,
+        0.29100000858306885,
+        0.824999988079071
+      ]
+    },
+    "upper_arm.R": {
+      "head": [
+        -0.004999999888241291,
+        -0.19499999284744263,
+        1.434999942779541
+      ],
+      "tail": [
+        0.004999999888241291,
+        -0.25,
+        1.1549999713897705
+      ]
+    },
+    "forearm.R": {
+      "head": [
+        0.004999999888241291,
+        -0.25,
+        1.1549999713897705
+      ],
+      "tail": [
+        0.02500000037252903,
+        -0.2849999964237213,
+        0.9150000214576721
+      ]
+    },
+    "hand.R": {
+      "head": [
+        0.02500000037252903,
+        -0.2849999964237213,
+        0.9150000214576721
+      ],
+      "tail": [
+        0.04500000178813934,
+        -0.29100000858306885,
+        0.824999988079071
+      ]
+    },
+    "thigh.L": {
+      "head": [
+        0.0,
+        0.0949999988079071,
+        0.9549999833106995
+      ],
+      "tail": [
+        0.019999999552965164,
+        0.10999999940395355,
+        0.5350000262260437
+      ]
+    },
+    "shin.L": {
+      "head": [
+        0.019999999552965164,
+        0.10999999940395355,
+        0.5350000262260437
+      ],
+      "tail": [
+        0.0,
+        0.10999999940395355,
+        0.11500000208616257
+      ]
+    },
+    "foot.L": {
+      "head": [
+        0.0,
+        0.10999999940395355,
+        0.11500000208616257
+      ],
+      "tail": [
+        0.14000000059604645,
+        0.10999999940395355,
+        0.05999999865889549
+      ]
+    },
+    "thigh.R": {
+      "head": [
+        0.0,
+        -0.0949999988079071,
+        0.9549999833106995
+      ],
+      "tail": [
+        0.019999999552965164,
+        -0.10999999940395355,
+        0.5350000262260437
+      ]
+    },
+    "shin.R": {
+      "head": [
+        0.019999999552965164,
+        -0.10999999940395355,
+        0.5350000262260437
+      ],
+      "tail": [
+        0.0,
+        -0.10999999940395355,
+        0.11500000208616257
+      ]
+    },
+    "foot.R": {
+      "head": [
+        0.0,
+        -0.10999999940395355,
+        0.11500000208616257
+      ],
+      "tail": [
+        0.14000000059604645,
+        -0.10999999940395355,
+        0.05999999865889549
+      ]
+    }
+  },
+  "pose_drivers": [
+    {
+      "data_path": "pose.bones[\"pelvis\"].location",
+      "index": 0,
+      "expression": "0+pose*(-0.389999985695)"
+    },
+    {
+      "data_path": "pose.bones[\"pelvis\"].location",
+      "index": 1,
+      "expression": "0+pose*(-0.420000016689)"
+    },
+    {
+      "data_path": "pose.bones[\"pelvis\"].location",
+      "index": 2,
+      "expression": "0+pose*(0)"
+    },
+    {
+      "data_path": "pose.bones[\"pelvis\"].rotation_quaternion",
+      "index": 0,
+      "expression": "1+pose*(-0.0129125714302)"
+    },
+    {
+      "data_path": "pose.bones[\"pelvis\"].rotation_quaternion",
+      "index": 1,
+      "expression": "0+pose*(6.37881258925e-09)"
+    },
+    {
+      "data_path": "pose.bones[\"pelvis\"].rotation_quaternion",
+      "index": 2,
+      "expression": "0+pose*(0)"
+    },
+    {
+      "data_path": "pose.bones[\"pelvis\"].rotation_quaternion",
+      "index": 3,
+      "expression": "0+pose*(0.160182312131)"
+    },
+    {
+      "data_path": "pose.bones[\"pelvis\"].scale",
+      "index": 0,
+      "expression": "1+pose*(0)"
+    },
+    {
+      "data_path": "pose.bones[\"pelvis\"].scale",
+      "index": 1,
+      "expression": "1+pose*(-0.0269908905029)"
+    },
+    {
+      "data_path": "pose.bones[\"pelvis\"].scale",
+      "index": 2,
+      "expression": "1+pose*(0)"
+    },
+    {
+      "data_path": "pose.bones[\"spine\"].location",
+      "index": 0,
+      "expression": "0+pose*(-2.98023223877e-08)"
+    },
+    {
+      "data_path": "pose.bones[\"spine\"].location",
+      "index": 1,
+      "expression": "0+pose*(0)"
+    },
+    {
+      "data_path": "pose.bones[\"spine\"].location",
+      "index": 2,
+      "expression": "0+pose*(-3.72529029846e-09)"
+    },
+    {
+      "data_path": "pose.bones[\"spine\"].rotation_quaternion",
+      "index": 0,
+      "expression": "1+pose*(-0.000465214252472)"
+    },
+    {
+      "data_path": "pose.bones[\"spine\"].rotation_quaternion",
+      "index": 1,
+      "expression": "0+pose*(-0.00174007040914)"
+    },
+    {
+      "data_path": "pose.bones[\"spine\"].rotation_quaternion",
+      "index": 2,
+      "expression": "0+pose*(-2.56232901563e-09)"
+    },
+    {
+      "data_path": "pose.bones[\"spine\"].rotation_quaternion",
+      "index": 3,
+      "expression": "0+pose*(0.0304510518909)"
+    },
+    {
+      "data_path": "pose.bones[\"spine\"].scale",
+      "index": 0,
+      "expression": "1+pose*(-1.19209289551e-07)"
+    },
+    {
+      "data_path": "pose.bones[\"spine\"].scale",
+      "index": 1,
+      "expression": "1+pose*(-0.106776714325)"
+    },
+    {
+      "data_path": "pose.bones[\"spine\"].scale",
+      "index": 2,
+      "expression": "1+pose*(-5.96046447754e-08)"
+    },
+    {
+      "data_path": "pose.bones[\"chest\"].location",
+      "index": 0,
+      "expression": "0+pose*(8.94069671631e-08)"
+    },
+    {
+      "data_path": "pose.bones[\"chest\"].location",
+      "index": 1,
+      "expression": "0+pose*(0)"
+    },
+    {
+      "data_path": "pose.bones[\"chest\"].location",
+      "index": 2,
+      "expression": "0+pose*(3.72529029846e-09)"
+    },
+    {
+      "data_path": "pose.bones[\"chest\"].rotation_quaternion",
+      "index": 0,
+      "expression": "1+pose*(-0.000342190265656)"
+    },
+    {
+      "data_path": "pose.bones[\"chest\"].rotation_quaternion",
+      "index": 1,
+      "expression": "0+pose*(-0.000747093814425)"
+    },
+    {
+      "data_path": "pose.bones[\"chest\"].rotation_quaternion",
+      "index": 2,
+      "expression": "0+pose*(4.07593070406e-09)"
+    },
+    {
+      "data_path": "pose.bones[\"chest\"].rotation_quaternion",
+      "index": 3,
+      "expression": "0+pose*(0.0261474940926)"
+    },
+    {
+      "data_path": "pose.bones[\"chest\"].scale",
+      "index": 0,
+      "expression": "1+pose*(-1.19209289551e-07)"
+    },
+    {
+      "data_path": "pose.bones[\"chest\"].scale",
+      "index": 1,
+      "expression": "1+pose*(-0.254948198795)"
+    },
+    {
+      "data_path": "pose.bones[\"chest\"].scale",
+      "index": 2,
+      "expression": "1+pose*(-1.19209289551e-07)"
+    },
+    {
+      "data_path": "pose.bones[\"neck\"].location",
+      "index": 0,
+      "expression": "0+pose*(-8.94069671631e-08)"
+    },
+    {
+      "data_path": "pose.bones[\"neck\"].location",
+      "index": 1,
+      "expression": "0+pose*(1.19209289551e-07)"
+    },
+    {
+      "data_path": "pose.bones[\"neck\"].location",
+      "index": 2,
+      "expression": "0+pose*(1.86264514923e-08)"
+    },
+    {
+      "data_path": "pose.bones[\"neck\"].rotation_quaternion",
+      "index": 0,
+      "expression": "1+pose*(-0.0019536614418)"
+    },
+    {
+      "data_path": "pose.bones[\"neck\"].rotation_quaternion",
+      "index": 1,
+      "expression": "0+pose*(0.00883582979441)"
+    },
+    {
+      "data_path": "pose.bones[\"neck\"].rotation_quaternion",
+      "index": 2,
+      "expression": "0+pose*(-1.40263463067e-08)"
+    },
+    {
+      "data_path": "pose.bones[\"neck\"].rotation_quaternion",
+      "index": 3,
+      "expression": "0+pose*(0.0618503652513)"
+    },
+    {
+      "data_path": "pose.bones[\"neck\"].scale",
+      "index": 0,
+      "expression": "1+pose*(-2.38418579102e-07)"
+    },
+    {
+      "data_path": "pose.bones[\"neck\"].scale",
+      "index": 1,
+      "expression": "1+pose*(-0.303579568863)"
+    },
+    {
+      "data_path": "pose.bones[\"neck\"].scale",
+      "index": 2,
+      "expression": "1+pose*(-1.19209289551e-07)"
+    },
+    {
+      "data_path": "pose.bones[\"head\"].location",
+      "index": 0,
+      "expression": "0+pose*(0)"
+    },
+    {
+      "data_path": "pose.bones[\"head\"].location",
+      "index": 1,
+      "expression": "0+pose*(-1.19209289551e-07)"
+    },
+    {
+      "data_path": "pose.bones[\"head\"].location",
+      "index": 2,
+      "expression": "0+pose*(8.29562196714e-10)"
+    },
+    {
+      "data_path": "pose.bones[\"head\"].rotation_quaternion",
+      "index": 0,
+      "expression": "1+pose*(-0.0389614105225)"
+    },
+    {
+      "data_path": "pose.bones[\"head\"].rotation_quaternion",
+      "index": 1,
+      "expression": "0+pose*(-5.1889404773e-08)"
+    },
+    {
+      "data_path": "pose.bones[\"head\"].rotation_quaternion",
+      "index": 2,
+      "expression": "0+pose*(2.14198951909e-08)"
+    },
+    {
+      "data_path": "pose.bones[\"head\"].rotation_quaternion",
+      "index": 3,
+      "expression": "0+pose*(-0.276414304972)"
+    },
+    {
+      "data_path": "pose.bones[\"head\"].scale",
+      "index": 0,
+      "expression": "1+pose*(-5.96046447754e-08)"
+    },
+    {
+      "data_path": "pose.bones[\"head\"].scale",
+      "index": 1,
+      "expression": "1+pose*(0)"
+    },
+    {
+      "data_path": "pose.bones[\"head\"].scale",
+      "index": 2,
+      "expression": "1+pose*(-5.96046447754e-08)"
+    },
+    {
+      "data_path": "pose.bones[\"upper_arm.L\"].location",
+      "index": 0,
+      "expression": "0+pose*(0.0240352153778)"
+    },
+    {
+      "data_path": "pose.bones[\"upper_arm.L\"].location",
+      "index": 1,
+      "expression": "0+pose*(0.0675737857819)"
+    },
+    {
+      "data_path": "pose.bones[\"upper_arm.L\"].location",
+      "index": 2,
+      "expression": "0+pose*(-0.0124150514603)"
+    },
+    {
+      "data_path": "pose.bones[\"upper_arm.L\"].rotation_quaternion",
+      "index": 0,
+      "expression": "1+pose*(-0.0619707107544)"
+    },
+    {
+      "data_path": "pose.bones[\"upper_arm.L\"].rotation_quaternion",
+      "index": 1,
+      "expression": "0+pose*(-0.0265754181892)"
+    },
+    {
+      "data_path": "pose.bones[\"upper_arm.L\"].rotation_quaternion",
+      "index": 2,
+      "expression": "0+pose*(0.0315152406693)"
+    },
+    {
+      "data_path": "pose.bones[\"upper_arm.L\"].rotation_quaternion",
+      "index": 3,
+      "expression": "0+pose*(-0.344095349312)"
+    },
+    {
+      "data_path": "pose.bones[\"upper_arm.L\"].scale",
+      "index": 0,
+      "expression": "1+pose*(0)"
+    },
+    {
+      "data_path": "pose.bones[\"upper_arm.L\"].scale",
+      "index": 1,
+      "expression": "1+pose*(0.296446204185)"
+    },
+    {
+      "data_path": "pose.bones[\"upper_arm.L\"].scale",
+      "index": 2,
+      "expression": "1+pose*(4.05311584473e-06)"
+    },
+    {
+      "data_path": "pose.bones[\"forearm.L\"].location",
+      "index": 0,
+      "expression": "0+pose*(5.96046447754e-08)"
+    },
+    {
+      "data_path": "pose.bones[\"forearm.L\"].location",
+      "index": 1,
+      "expression": "0+pose*(-2.98023223877e-08)"
+    },
+    {
+      "data_path": "pose.bones[\"forearm.L\"].location",
+      "index": 2,
+      "expression": "0+pose*(-8.94069671631e-08)"
+    },
+    {
+      "data_path": "pose.bones[\"forearm.L\"].rotation_quaternion",
+      "index": 0,
+      "expression": "1+pose*(-0.0461387038231)"
+    },
+    {
+      "data_path": "pose.bones[\"forearm.L\"].rotation_quaternion",
+      "index": 1,
+      "expression": "0+pose*(-0.0784915983677)"
+    },
+    {
+      "data_path": "pose.bones[\"forearm.L\"].rotation_quaternion",
+      "index": 2,
+      "expression": "0+pose*(-0.0859408974648)"
+    },
+    {
+      "data_path": "pose.bones[\"forearm.L\"].rotation_quaternion",
+      "index": 3,
+      "expression": "0+pose*(-0.276770561934)"
+    },
+    {
+      "data_path": "pose.bones[\"forearm.L\"].scale",
+      "index": 0,
+      "expression": "1+pose*(-5.96046447754e-08)"
+    },
+    {
+      "data_path": "pose.bones[\"forearm.L\"].scale",
+      "index": 1,
+      "expression": "1+pose*(0.307407140732)"
+    },
+    {
+      "data_path": "pose.bones[\"forearm.L\"].scale",
+      "index": 2,
+      "expression": "1+pose*(0)"
+    },
+    {
+      "data_path": "pose.bones[\"hand.L\"].location",
+      "index": 0,
+      "expression": "0+pose*(1.19209289551e-07)"
+    },
+    {
+      "data_path": "pose.bones[\"hand.L\"].location",
+      "index": 1,
+      "expression": "0+pose*(-2.98023223877e-08)"
+    },
+    {
+      "data_path": "pose.bones[\"hand.L\"].location",
+      "index": 2,
+      "expression": "0+pose*(-1.49011611938e-07)"
+    },
+    {
+      "data_path": "pose.bones[\"hand.L\"].rotation_quaternion",
+      "index": 0,
+      "expression": "1+pose*(-0.020777463913)"
+    },
+    {
+      "data_path": "pose.bones[\"hand.L\"].rotation_quaternion",
+      "index": 1,
+      "expression": "0+pose*(0.0902087315917)"
+    },
+    {
+      "data_path": "pose.bones[\"hand.L\"].rotation_quaternion",
+      "index": 2,
+      "expression": "0+pose*(0.0467678941786)"
+    },
+    {
+      "data_path": "pose.bones[\"hand.L\"].rotation_quaternion",
+      "index": 3,
+      "expression": "0+pose*(0.175494894385)"
+    },
+    {
+      "data_path": "pose.bones[\"hand.L\"].scale",
+      "index": 0,
+      "expression": "1+pose*(1.19209289551e-07)"
+    },
+    {
+      "data_path": "pose.bones[\"hand.L\"].scale",
+      "index": 1,
+      "expression": "1+pose*(-0.0459849834442)"
+    },
+    {
+      "data_path": "pose.bones[\"hand.L\"].scale",
+      "index": 2,
+      "expression": "1+pose*(-2.98023223877e-07)"
+    },
+    {
+      "data_path": "pose.bones[\"upper_arm.R\"].location",
+      "index": 0,
+      "expression": "0+pose*(0.0230882577598)"
+    },
+    {
+      "data_path": "pose.bones[\"upper_arm.R\"].location",
+      "index": 1,
+      "expression": "0+pose*(0.0675737857819)"
+    },
+    {
+      "data_path": "pose.bones[\"upper_arm.R\"].location",
+      "index": 2,
+      "expression": "0+pose*(0.0140980184078)"
+    },
+    {
+      "data_path": "pose.bones[\"upper_arm.R\"].rotation_quaternion",
+      "index": 0,
+      "expression": "1+pose*(-0.0619707107544)"
+    },
+    {
+      "data_path": "pose.bones[\"upper_arm.R\"].rotation_quaternion",
+      "index": 1,
+      "expression": "0+pose*(0.0510546006262)"
+    },
+    {
+      "data_path": "pose.bones[\"upper_arm.R\"].rotation_quaternion",
+      "index": 2,
+      "expression": "0+pose*(-0.0315151885152)"
+    },
+    {
+      "data_path": "pose.bones[\"upper_arm.R\"].rotation_quaternion",
+      "index": 3,
+      "expression": "0+pose*(-0.341322958469)"
+    },
+    {
+      "data_path": "pose.bones[\"upper_arm.R\"].scale",
+      "index": 0,
+      "expression": "1+pose*(-1.78813934326e-07)"
+    },
+    {
+      "data_path": "pose.bones[\"upper_arm.R\"].scale",
+      "index": 1,
+      "expression": "1+pose*(0.296445846558)"
+    },
+    {
+      "data_path": "pose.bones[\"upper_arm.R\"].scale",
+      "index": 2,
+      "expression": "1+pose*(4.64916229248e-06)"
+    },
+    {
+      "data_path": "pose.bones[\"forearm.R\"].location",
+      "index": 0,
+      "expression": "0+pose*(5.96046447754e-08)"
+    },
+    {
+      "data_path": "pose.bones[\"forearm.R\"].location",
+      "index": 1,
+      "expression": "0+pose*(5.96046447754e-08)"
+    },
+    {
+      "data_path": "pose.bones[\"forearm.R\"].location",
+      "index": 2,
+      "expression": "0+pose*(2.08616256714e-07)"
+    },
+    {
+      "data_path": "pose.bones[\"forearm.R\"].rotation_quaternion",
+      "index": 0,
+      "expression": "1+pose*(-0.0461387634277)"
+    },
+    {
+      "data_path": "pose.bones[\"forearm.R\"].rotation_quaternion",
+      "index": 1,
+      "expression": "0+pose*(0.123219124973)"
+    },
+    {
+      "data_path": "pose.bones[\"forearm.R\"].rotation_quaternion",
+      "index": 2,
+      "expression": "0+pose*(0.0859408974648)"
+    },
+    {
+      "data_path": "pose.bones[\"forearm.R\"].rotation_quaternion",
+      "index": 3,
+      "expression": "0+pose*(-0.259961515665)"
+    },
+    {
+      "data_path": "pose.bones[\"forearm.R\"].scale",
+      "index": 0,
+      "expression": "1+pose*(-2.98023223877e-07)"
+    },
+    {
+      "data_path": "pose.bones[\"forearm.R\"].scale",
+      "index": 1,
+      "expression": "1+pose*(0.307407021523)"
+    },
+    {
+      "data_path": "pose.bones[\"forearm.R\"].scale",
+      "index": 2,
+      "expression": "1+pose*(1.19209289551e-07)"
+    },
+    {
+      "data_path": "pose.bones[\"hand.R\"].location",
+      "index": 0,
+      "expression": "0+pose*(-1.19209289551e-07)"
+    },
+    {
+      "data_path": "pose.bones[\"hand.R\"].location",
+      "index": 1,
+      "expression": "0+pose*(0)"
+    },
+    {
+      "data_path": "pose.bones[\"hand.R\"].location",
+      "index": 2,
+      "expression": "0+pose*(1.04308128357e-07)"
+    },
+    {
+      "data_path": "pose.bones[\"hand.R\"].rotation_quaternion",
+      "index": 0,
+      "expression": "1+pose*(-0.0207773447037)"
+    },
+    {
+      "data_path": "pose.bones[\"hand.R\"].rotation_quaternion",
+      "index": 1,
+      "expression": "0+pose*(-0.156045332551)"
+    },
+    {
+      "data_path": "pose.bones[\"hand.R\"].rotation_quaternion",
+      "index": 2,
+      "expression": "0+pose*(-0.0467678830028)"
+    },
+    {
+      "data_path": "pose.bones[\"hand.R\"].rotation_quaternion",
+      "index": 3,
+      "expression": "0+pose*(0.120771355927)"
+    },
+    {
+      "data_path": "pose.bones[\"hand.R\"].scale",
+      "index": 0,
+      "expression": "1+pose*(-5.96046447754e-08)"
+    },
+    {
+      "data_path": "pose.bones[\"hand.R\"].scale",
+      "index": 1,
+      "expression": "1+pose*(-0.0459848046303)"
+    },
+    {
+      "data_path": "pose.bones[\"hand.R\"].scale",
+      "index": 2,
+      "expression": "1+pose*(0)"
+    },
+    {
+      "data_path": "pose.bones[\"thigh.L\"].location",
+      "index": 0,
+      "expression": "0+pose*(-0.00114537775517)"
+    },
+    {
+      "data_path": "pose.bones[\"thigh.L\"].location",
+      "index": 1,
+      "expression": "0+pose*(0.0249557495117)"
+    },
+    {
+      "data_path": "pose.bones[\"thigh.L\"].location",
+      "index": 2,
+      "expression": "0+pose*(-0.000945828855038)"
+    },
+    {
+      "data_path": "pose.bones[\"thigh.L\"].rotation_quaternion",
+      "index": 0,
+      "expression": "1+pose*(-0.185131013393)"
+    },
+    {
+      "data_path": "pose.bones[\"thigh.L\"].rotation_quaternion",
+      "index": 1,
+      "expression": "0+pose*(0.0565479956567)"
+    },
+    {
+      "data_path": "pose.bones[\"thigh.L\"].rotation_quaternion",
+      "index": 2,
+      "expression": "0+pose*(0.00942533556372)"
+    },
+    {
+      "data_path": "pose.bones[\"thigh.L\"].rotation_quaternion",
+      "index": 3,
+      "expression": "0+pose*(-0.576803326607)"
+    },
+    {
+      "data_path": "pose.bones[\"thigh.L\"].scale",
+      "index": 0,
+      "expression": "1+pose*(-2.38418579102e-07)"
+    },
+    {
+      "data_path": "pose.bones[\"thigh.L\"].scale",
+      "index": 1,
+      "expression": "1+pose*(-0.0118637681007)"
+    },
+    {
+      "data_path": "pose.bones[\"thigh.L\"].scale",
+      "index": 2,
+      "expression": "1+pose*(-1.07288360596e-06)"
+    },
+    {
+      "data_path": "pose.bones[\"shin.L\"].location",
+      "index": 0,
+      "expression": "0+pose*(-1.13248825073e-06)"
+    },
+    {
+      "data_path": "pose.bones[\"shin.L\"].location",
+      "index": 1,
+      "expression": "0+pose*(-4.93600964546e-08)"
+    },
+    {
+      "data_path": "pose.bones[\"shin.L\"].location",
+      "index": 2,
+      "expression": "0+pose*(4.91738319397e-07)"
+    },
+    {
+      "data_path": "pose.bones[\"shin.L\"].rotation_quaternion",
+      "index": 0,
+      "expression": "1+pose*(-0.00439250469208)"
+    },
+    {
+      "data_path": "pose.bones[\"shin.L\"].rotation_quaternion",
+      "index": 1,
+      "expression": "0+pose*(-0.00955909304321)"
+    },
+    {
+      "data_path": "pose.bones[\"shin.L\"].rotation_quaternion",
+      "index": 2,
+      "expression": "0+pose*(-0.0395378172398)"
+    },
+    {
+      "data_path": "pose.bones[\"shin.L\"].rotation_quaternion",
+      "index": 3,
+      "expression": "0+pose*(0.0843273028731)"
+    },
+    {
+      "data_path": "pose.bones[\"shin.L\"].scale",
+      "index": 0,
+      "expression": "1+pose*(0)"
+    },
+    {
+      "data_path": "pose.bones[\"shin.L\"].scale",
+      "index": 1,
+      "expression": "1+pose*(-0.0106623768806)"
+    },
+    {
+      "data_path": "pose.bones[\"shin.L\"].scale",
+      "index": 2,
+      "expression": "1+pose*(-4.17232513428e-07)"
+    },
+    {
+      "data_path": "pose.bones[\"foot.L\"].location",
+      "index": 0,
+      "expression": "0+pose*(-4.47034835815e-08)"
+    },
+    {
+      "data_path": "pose.bones[\"foot.L\"].location",
+      "index": 1,
+      "expression": "0+pose*(-5.96046447754e-07)"
+    },
+    {
+      "data_path": "pose.bones[\"foot.L\"].location",
+      "index": 2,
+      "expression": "0+pose*(-3.65078449249e-07)"
+    },
+    {
+      "data_path": "pose.bones[\"foot.L\"].rotation_quaternion",
+      "index": 0,
+      "expression": "1+pose*(-0.231147110462)"
+    },
+    {
+      "data_path": "pose.bones[\"foot.L\"].rotation_quaternion",
+      "index": 1,
+      "expression": "0+pose*(-0.595146596432)"
+    },
+    {
+      "data_path": "pose.bones[\"foot.L\"].rotation_quaternion",
+      "index": 2,
+      "expression": "0+pose*(1.05626611457e-06)"
+    },
+    {
+      "data_path": "pose.bones[\"foot.L\"].rotation_quaternion",
+      "index": 3,
+      "expression": "0+pose*(0.233806699514)"
+    },
+    {
+      "data_path": "pose.bones[\"foot.L\"].scale",
+      "index": 0,
+      "expression": "1+pose*(-3.57627868652e-07)"
+    },
+    {
+      "data_path": "pose.bones[\"foot.L\"].scale",
+      "index": 1,
+      "expression": "1+pose*(-0.0716021060944)"
+    },
+    {
+      "data_path": "pose.bones[\"foot.L\"].scale",
+      "index": 2,
+      "expression": "1+pose*(4.76837158203e-07)"
+    },
+    {
+      "data_path": "pose.bones[\"thigh.R\"].location",
+      "index": 0,
+      "expression": "0+pose*(-0.00123012065887)"
+    },
+    {
+      "data_path": "pose.bones[\"thigh.R\"].location",
+      "index": 1,
+      "expression": "0+pose*(0.0249557495117)"
+    },
+    {
+      "data_path": "pose.bones[\"thigh.R\"].location",
+      "index": 2,
+      "expression": "0+pose*(0.000832691788673)"
+    },
+    {
+      "data_path": "pose.bones[\"thigh.R\"].rotation_quaternion",
+      "index": 0,
+      "expression": "1+pose*(-0.185130953789)"
+    },
+    {
+      "data_path": "pose.bones[\"thigh.R\"].rotation_quaternion",
+      "index": 1,
+      "expression": "0+pose*(-0.00148291501682)"
+    },
+    {
+      "data_path": "pose.bones[\"thigh.R\"].rotation_quaternion",
+      "index": 2,
+      "expression": "0+pose*(-0.00942539796233)"
+    },
+    {
+      "data_path": "pose.bones[\"thigh.R\"].rotation_quaternion",
+      "index": 3,
+      "expression": "0+pose*(-0.579566657543)"
+    },
+    {
+      "data_path": "pose.bones[\"thigh.R\"].scale",
+      "index": 0,
+      "expression": "1+pose*(-2.98023223877e-07)"
+    },
+    {
+      "data_path": "pose.bones[\"thigh.R\"].scale",
+      "index": 1,
+      "expression": "1+pose*(-0.011864066124)"
+    },
+    {
+      "data_path": "pose.bones[\"thigh.R\"].scale",
+      "index": 2,
+      "expression": "1+pose*(-1.01327896118e-06)"
+    },
+    {
+      "data_path": "pose.bones[\"shin.R\"].location",
+      "index": 0,
+      "expression": "0+pose*(-1.13248825073e-06)"
+    },
+    {
+      "data_path": "pose.bones[\"shin.R\"].location",
+      "index": 1,
+      "expression": "0+pose*(2.32830643654e-09)"
+    },
+    {
+      "data_path": "pose.bones[\"shin.R\"].location",
+      "index": 2,
+      "expression": "0+pose*(-2.83122062683e-07)"
+    },
+    {
+      "data_path": "pose.bones[\"shin.R\"].rotation_quaternion",
+      "index": 0,
+      "expression": "1+pose*(-0.00439262390137)"
+    },
+    {
+      "data_path": "pose.bones[\"shin.R\"].rotation_quaternion",
+      "index": 1,
+      "expression": "0+pose*(0.0175291821361)"
+    },
+    {
+      "data_path": "pose.bones[\"shin.R\"].rotation_quaternion",
+      "index": 2,
+      "expression": "0+pose*(0.0395377241075)"
+    },
+    {
+      "data_path": "pose.bones[\"shin.R\"].rotation_quaternion",
+      "index": 3,
+      "expression": "0+pose*(0.0830387026072)"
+    },
+    {
+      "data_path": "pose.bones[\"shin.R\"].scale",
+      "index": 0,
+      "expression": "1+pose*(-5.96046447754e-08)"
+    },
+    {
+      "data_path": "pose.bones[\"shin.R\"].scale",
+      "index": 1,
+      "expression": "1+pose*(-0.0106620788574)"
+    },
+    {
+      "data_path": "pose.bones[\"shin.R\"].scale",
+      "index": 2,
+      "expression": "1+pose*(0)"
+    },
+    {
+      "data_path": "pose.bones[\"foot.R\"].location",
+      "index": 0,
+      "expression": "0+pose*(1.86264514923e-08)"
+    },
+    {
+      "data_path": "pose.bones[\"foot.R\"].location",
+      "index": 1,
+      "expression": "0+pose*(4.76837158203e-07)"
+    },
+    {
+      "data_path": "pose.bones[\"foot.R\"].location",
+      "index": 2,
+      "expression": "0+pose*(1.78813934326e-07)"
+    },
+    {
+      "data_path": "pose.bones[\"foot.R\"].rotation_quaternion",
+      "index": 0,
+      "expression": "1+pose*(-0.231146454811)"
+    },
+    {
+      "data_path": "pose.bones[\"foot.R\"].rotation_quaternion",
+      "index": 1,
+      "expression": "0+pose*(-0.595145761967)"
+    },
+    {
+      "data_path": "pose.bones[\"foot.R\"].rotation_quaternion",
+      "index": 2,
+      "expression": "0+pose*(-6.58954490973e-07)"
+    },
+    {
+      "data_path": "pose.bones[\"foot.R\"].rotation_quaternion",
+      "index": 3,
+      "expression": "0+pose*(0.233807221055)"
+    },
+    {
+      "data_path": "pose.bones[\"foot.R\"].scale",
+      "index": 0,
+      "expression": "1+pose*(5.96046447754e-07)"
+    },
+    {
+      "data_path": "pose.bones[\"foot.R\"].scale",
+      "index": 1,
+      "expression": "1+pose*(-0.0716017484665)"
+    },
+    {
+      "data_path": "pose.bones[\"foot.R\"].scale",
+      "index": 2,
+      "expression": "1+pose*(-4.17232513428e-07)"
+    }
+  ]
+}

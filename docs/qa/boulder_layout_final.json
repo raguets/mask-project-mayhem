@@ -1,0 +1,31 @@
+{
+  "method": "241 samples per route, full 9.18 x 3.19 x 4.485m Rhino road envelope. BVH against evaluated structure; 2D separating-axis test against three occupied bay envelopes. Not a continuous collision or steering simulation.",
+  "bays": [
+    {
+      "y": 15,
+      "path_length_m": 40.234504623169656,
+      "structure_hits": [],
+      "parked_vehicle_hits": []
+    },
+    {
+      "y": 21,
+      "path_length_m": 46.23450454740555,
+      "structure_hits": [],
+      "parked_vehicle_hits": []
+    },
+    {
+      "y": 27,
+      "path_length_m": 52.234504533591775,
+      "structure_hits": [],
+      "parked_vehicle_hits": []
+    },
+    {
+      "y": 33,
+      "path_length_m": 58.23450493967981,
+      "structure_hits": [],
+      "parked_vehicle_hits": []
+    }
+  ],
+  "gate_contacts": [],
+  "invalid_drivers": []
+}

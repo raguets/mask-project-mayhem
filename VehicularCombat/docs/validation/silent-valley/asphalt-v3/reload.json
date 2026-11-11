@@ -1,0 +1,63 @@
+{
+  "passed": true,
+  "checks": {
+    "route_length_preserved": true,
+    "terrain_material_v4": true,
+    "pcg_39_instances_preserved": true,
+    "fill_survives_capture_sun_rotation": true,
+    "fill_no_shadows": true,
+    "ten_sign_posts": true,
+    "road_material_v3": true,
+    "all_road_segments_material_v3": true,
+    "sun_priority_distinct": true,
+    "sign_0_front_aligned": true,
+    "sign_0_back_aligned": true,
+    "sign_0_front_clear_of_board": true,
+    "sign_0_nonblocking": true,
+    "sign_1_front_aligned": true,
+    "sign_1_back_aligned": true,
+    "sign_1_front_clear_of_board": true,
+    "sign_1_nonblocking": true,
+    "sign_2_front_aligned": true,
+    "sign_2_back_aligned": true,
+    "sign_2_front_clear_of_board": true,
+    "sign_2_nonblocking": true,
+    "sign_3_front_aligned": true,
+    "sign_3_back_aligned": true,
+    "sign_3_front_clear_of_board": true,
+    "sign_3_nonblocking": true,
+    "sign_4_front_aligned": true,
+    "sign_4_back_aligned": true,
+    "sign_4_front_clear_of_board": true,
+    "sign_4_nonblocking": true
+  },
+  "signs": [
+    {
+      "name": "Boulder Hill",
+      "front": "<Struct 'Vector' (0x000001A69A64C650) {x: -133503.372393, y: -107399.775749, z: 8279.999940}>",
+      "back": "<Struct 'Vector' (0x000001A69A64C650) {x: -133476.738799, y: -107382.037325, z: 8279.999940}>"
+    },
+    {
+      "name": "Pinewood Road",
+      "front": "<Struct 'Vector' (0x000001A6A91FFC60) {x: -76473.784563, y: -76332.029555, z: 9271.154790}>",
+      "back": "<Struct 'Vector' (0x000001A6A91FFC60) {x: -76443.938631, y: -76343.571667, z: 9271.154790}>"
+    },
+    {
+      "name": "Eagle Pass",
+      "front": "<Struct 'Vector' (0x000001A6A9212BD0) {x: 69434.549230, y: 22843.665558, z: 15780.000000}>",
+      "back": "<Struct 'Vector' (0x000001A6A9212BD0) {x: 69425.338598, y: 22874.311345, z: 15780.000000}>"
+    },
+    {
+      "name": "Old Quarry",
+      "front": "<Struct 'Vector' (0x000001A6A92129F0) {x: 67028.346798, y: 94134.884911, z: 10280.000000}>",
+      "back": "<Struct 'Vector' (0x000001A6A92129F0) {x: 66996.361903, y: 94133.901835, z: 10280.000000}>"
+    },
+    {
+      "name": "North Ridge",
+      "front": "<Struct 'Vector' (0x000001A6A922A950) {x: -54012.810872, y: 123771.604709, z: 16280.000000}>",
+      "back": "<Struct 'Vector' (0x000001A6A922A950) {x: -54037.385550, y: 123792.100690, z: 16280.000000}>"
+    }
+  ],
+  "pcg_instances": 39,
+  "visual_validation": "separate rendered inspection required"
+}

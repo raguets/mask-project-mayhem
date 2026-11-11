@@ -1,0 +1,7 @@
+{
+  "status": "success",
+  "result": {
+    "executed": true,
+    "result": "Infos: Copie enregistrée sous « Session_before_finish_v7.blend »\nInfos: Enregistré sous « Hurricane_V7_Assembly.blend »\nFINISH_V7_SAVED [{'object': 'HU_SweptFlames_L', 'vertices': 172412, 'faces': 168042, 'missed_rays': 4723}, {'object': \"HU_FlameEmber_('L', 0)\", 'vertices': 21817, 'faces': 21384, 'missed_rays': 0}, {'object': \"HU_FlameEmber_('L', 1)\", 'vertices': 21817, 'faces': 21384, 'missed_rays': 0}, {'object': \"HU_FlameEmber_('L', 2)\", 'vertices': 21817, 'faces': 21384, 'missed_rays': 0}, {'object': 'HU_SweptFlames_R', 'vertices': 172412, 'faces': 168042, 'missed_rays': 4723}, {'object': \"HU_FlameEmber_('R', 0)\", 'vertices': 21817, 'faces': 21384, 'missed_rays': 0}, {'object': \"HU_FlameEmber_('R', 1)\", 'vertices': 21817, 'faces': 21384, 'missed_rays': 0}, {'object': \"HU_FlameEmber_('R', 2)\", 'vertices': 21817, 'faces': 21384, 'missed_rays': 0}, {'object': 'HU_HoodFlames', 'vertices': 146557, 'faces': 143856, 'missed_rays': 0}, {'object': 'HU_RoofFlames', 'vertices': 124009, 'faces': 121277, 'missed_rays': 14546}, {'object': 'HU_TrunkFlames', 'vertices': 146557, 'faces': 143856, 'missed_rays': 0}]\n"
+  }
+}

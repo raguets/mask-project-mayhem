@@ -1,0 +1,130 @@
+{
+  "status": "complete",
+  "elapsed_seconds": 48.34,
+  "scene_file": "G:\\DEV\\mask-project-mayhem\\art_source\\Hurricane\\Hurricane_V1_Assembly.blend",
+  "job": {
+    "rig": "Hurricane_Control",
+    "rig_properties": [
+      "battle_mode",
+      "spare_eject"
+    ],
+    "output_dir": "G:\\DEV\\mask-project-mayhem\\art_source\\Hurricane\\renders\\v1_silhouette",
+    "samples": 16,
+    "width": 1200,
+    "height": 800,
+    "device": "GPU",
+    "views": [
+      {
+        "name": "01_road_front",
+        "frame": 1,
+        "properties": {},
+        "camera": [
+          8.1,
+          -7.6,
+          4.2
+        ],
+        "target": [
+          0,
+          0,
+          0.85
+        ],
+        "lens": 52
+      },
+      {
+        "name": "02_road_profile",
+        "frame": 1,
+        "properties": {},
+        "camera": [
+          0.15,
+          -10.5,
+          2.8
+        ],
+        "target": [
+          0,
+          0,
+          0.85
+        ],
+        "lens": 58
+      },
+      {
+        "name": "03_deployed_rear",
+        "frame": 151,
+        "properties": {},
+        "camera": [
+          -8,
+          7.3,
+          4.6
+        ],
+        "target": [
+          0,
+          0,
+          1.3
+        ],
+        "lens": 50
+      }
+    ]
+  },
+  "renders": [
+    {
+      "view": {
+        "name": "01_road_front",
+        "frame": 1,
+        "properties": {},
+        "camera": [
+          8.1,
+          -7.6,
+          4.2
+        ],
+        "target": [
+          0,
+          0,
+          0.85
+        ],
+        "lens": 52
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Hurricane\\renders\\v1_silhouette\\01_road_front.png",
+      "size_bytes": 1133789
+    },
+    {
+      "view": {
+        "name": "02_road_profile",
+        "frame": 1,
+        "properties": {},
+        "camera": [
+          0.15,
+          -10.5,
+          2.8
+        ],
+        "target": [
+          0,
+          0,
+          0.85
+        ],
+        "lens": 58
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Hurricane\\renders\\v1_silhouette\\02_road_profile.png",
+      "size_bytes": 1087937
+    },
+    {
+      "view": {
+        "name": "03_deployed_rear",
+        "frame": 151,
+        "properties": {},
+        "camera": [
+          -8,
+          7.3,
+          4.6
+        ],
+        "target": [
+          0,
+          0,
+          1.3
+        ],
+        "lens": 50
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Hurricane\\renders\\v1_silhouette\\03_deployed_rear.png",
+      "size_bytes": 1155961
+    }
+  ],
+  "retained_previous_views": []
+}

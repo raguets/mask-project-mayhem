@@ -1,0 +1,222 @@
+{
+  "method": "Evaluated obstacle surfaces versus conservative full road-vehicle rectangular envelopes; excludes floor contact, excludes route steering dynamics. Surface-crossing check, with separate parked rectangle and headroom checks.",
+  "route_samples": {
+    "Thunderhawk": {
+      "count": 241,
+      "collisions": [],
+      "start": [
+        -5.599999904632568,
+        15.0,
+        0.0
+      ],
+      "end": [
+        14.292892456054688,
+        -14.020814895629883,
+        0.0
+      ]
+    },
+    "Rhino": {
+      "count": 241,
+      "collisions": [],
+      "start": [
+        -5.599999904632568,
+        33.0,
+        0.0
+      ],
+      "end": [
+        14.292892456054688,
+        -14.020814895629883,
+        0.0
+      ]
+    }
+  },
+  "mechanism_contacts": {
+    "garage_shell": [],
+    "store_armor": [],
+    "cap": [
+      {
+        "mode": 0.7,
+        "pairs": [
+          [
+            "BH_SandstoneCliff_front",
+            "BH_BoulderCapMesh"
+          ],
+          [
+            "BH_SandstoneRoof",
+            "BH_BoulderCapMesh"
+          ]
+        ],
+        "pair_count": 2
+      },
+      {
+        "mode": 0.725,
+        "pairs": [
+          [
+            "BH_SandstoneCliff_front",
+            "BH_BoulderCapMesh"
+          ],
+          [
+            "BH_SandstoneRoof",
+            "BH_BoulderCapMesh"
+          ]
+        ],
+        "pair_count": 2
+      },
+      {
+        "mode": 0.75,
+        "pairs": [
+          [
+            "BH_SandstoneCliff_front",
+            "BH_BoulderCapMesh"
+          ]
+        ],
+        "pair_count": 1
+      },
+      {
+        "mode": 0.775,
+        "pairs": [
+          [
+            "BH_SandstoneCliff_front",
+            "BH_BoulderCapMesh"
+          ]
+        ],
+        "pair_count": 1
+      },
+      {
+        "mode": 0.8,
+        "pairs": [
+          [
+            "BH_SandstoneCliff_front",
+            "BH_BoulderCapMesh"
+          ]
+        ],
+        "pair_count": 1
+      },
+      {
+        "mode": 0.825,
+        "pairs": [
+          [
+            "BH_SandstoneCliff_front",
+            "BH_BoulderCapMesh"
+          ]
+        ],
+        "pair_count": 1
+      },
+      {
+        "mode": 0.85,
+        "pairs": [
+          [
+            "BH_SandstoneCliff_front",
+            "BH_BoulderCapMesh"
+          ]
+        ],
+        "pair_count": 1
+      },
+      {
+        "mode": 0.875,
+        "pairs": [
+          [
+            "BH_SandstoneCliff_front",
+            "BH_BoulderCapMesh"
+          ]
+        ],
+        "pair_count": 1
+      },
+      {
+        "mode": 0.9,
+        "pairs": [
+          [
+            "BH_SandstoneCliff_front",
+            "BH_BoulderCapMesh"
+          ]
+        ],
+        "pair_count": 1
+      },
+      {
+        "mode": 0.925,
+        "pairs": [
+          [
+            "BH_SandstoneCliff_front",
+            "BH_BoulderCapMesh"
+          ]
+        ],
+        "pair_count": 1
+      },
+      {
+        "mode": 0.95,
+        "pairs": [
+          [
+            "BH_SandstoneCliff_front",
+            "BH_BoulderCapMesh"
+          ]
+        ],
+        "pair_count": 1
+      },
+      {
+        "mode": 0.975,
+        "pairs": [
+          [
+            "BH_SandstoneCliff_front",
+            "BH_BoulderCapMesh"
+          ]
+        ],
+        "pair_count": 1
+      },
+      {
+        "mode": 1.0,
+        "pairs": [
+          [
+            "BH_SandstoneCliff_front",
+            "BH_BoulderCapMesh"
+          ]
+        ],
+        "pair_count": 1
+      }
+    ],
+    "turret": [],
+    "pump_gun_1": [],
+    "pump_gun_2": [],
+    "sign_panel": []
+  },
+  "parking_bays": [
+    {
+      "center": [
+        -5.6,
+        15,
+        0
+      ],
+      "vehicle": "Rhino envelope",
+      "collisions": []
+    },
+    {
+      "center": [
+        -5.6,
+        21,
+        0
+      ],
+      "vehicle": "Rhino envelope",
+      "collisions": []
+    },
+    {
+      "center": [
+        -5.6,
+        27,
+        0
+      ],
+      "vehicle": "Rhino envelope",
+      "collisions": []
+    },
+    {
+      "center": [
+        -5.6,
+        33,
+        0
+      ],
+      "vehicle": "Rhino envelope",
+      "collisions": []
+    }
+  ],
+  "parking_pair_clearance_y_m": 2.809999942779541,
+  "nominal_gate_height_margin_m": 0.9448551417514679,
+  "nominal_gate_width_margin_m": 2.809999942779541
+}

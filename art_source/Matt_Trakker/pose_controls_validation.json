@@ -1,0 +1,63 @@
+{
+  "source_vehicle": "G:\\DEV\\mask-project-mayhem\\art_source\\Thunderhawk\\Thunderhawk_V12.blend",
+  "identical_mesh_fingerprints": true,
+  "mesh_count_compared": 270,
+  "one_armature_one_head": true,
+  "four_states": [
+    {
+      "driving_pose": 0,
+      "mask_on": false,
+      "mask_visible_parts": 0,
+      "same_character_meshes": true,
+      "face_retained_under_helmet": true,
+      "head_world": [
+        -0.10037585347890854,
+        -0.07699523121118546,
+        1.550018548965454
+      ]
+    },
+    {
+      "driving_pose": 0,
+      "mask_on": true,
+      "mask_visible_parts": 25,
+      "same_character_meshes": true,
+      "face_retained_under_helmet": true,
+      "head_world": [
+        -0.10037585347890854,
+        -0.07699523121118546,
+        1.550018548965454
+      ]
+    },
+    {
+      "driving_pose": 1,
+      "mask_on": false,
+      "mask_visible_parts": 0,
+      "same_character_meshes": true,
+      "face_retained_under_helmet": true,
+      "head_world": [
+        -0.6923759579658508,
+        -0.07699520140886307,
+        0.9850184917449951
+      ]
+    },
+    {
+      "driving_pose": 1,
+      "mask_on": true,
+      "mask_visible_parts": 25,
+      "same_character_meshes": true,
+      "face_retained_under_helmet": true,
+      "head_world": [
+        -0.6923759579658508,
+        -0.07699520140886307,
+        0.9850184917449951
+      ]
+    }
+  ],
+  "default": "standing, no helmet",
+  "controls": {
+    "driving_pose": "0 debout / 1 assis",
+    "mask_on": "False visage / True casque"
+  },
+  "geometry_changed": false,
+  "character_duplicates_created": 0
+}

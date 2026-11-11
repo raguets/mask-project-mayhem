@@ -1,0 +1,62 @@
+[
+  {
+    "name": "RH_Front_-1_Tire",
+    "owner": "truck",
+    "x": 3.45,
+    "y": -1.07
+  },
+  {
+    "name": "RH_MiddleOuter_Truck_-1_Tire",
+    "owner": "truck",
+    "x": -1.88,
+    "y": -1.16
+  },
+  {
+    "name": "RH_Front_1_Tire",
+    "owner": "truck",
+    "x": 3.45,
+    "y": 1.07
+  },
+  {
+    "name": "RH_MiddleOuter_Truck_1_Tire",
+    "owner": "truck",
+    "x": -1.88,
+    "y": 1.16
+  },
+  {
+    "name": "RH_MiddleInner_Pod_-1_Tire",
+    "owner": "rear_vehicle",
+    "x": -1.88,
+    "y": -0.84
+  },
+  {
+    "name": "RH_RearInner_Pod_-1_Tire",
+    "owner": "rear_vehicle",
+    "x": -3.35,
+    "y": -0.84
+  },
+  {
+    "name": "RH_RearOuter_Pod_-1_Tire",
+    "owner": "rear_vehicle",
+    "x": -3.35,
+    "y": -1.16
+  },
+  {
+    "name": "RH_MiddleInner_Pod_1_Tire",
+    "owner": "rear_vehicle",
+    "x": -1.88,
+    "y": 0.84
+  },
+  {
+    "name": "RH_RearInner_Pod_1_Tire",
+    "owner": "rear_vehicle",
+    "x": -3.35,
+    "y": 0.84
+  },
+  {
+    "name": "RH_RearOuter_Pod_1_Tire",
+    "owner": "rear_vehicle",
+    "x": -3.35,
+    "y": 1.16
+  }
+]

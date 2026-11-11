@@ -1,0 +1,35 @@
+﻿[
+    {
+        "source":  "Saved/Migration/dynamics-editor-01/solo.json",
+        "passed":  false,
+        "failed_checks":  [
+                              "truck_keeps_moving_during_recall",
+                              "rotorcraft_tilts_forward_under_acceleration"
+                          ],
+        "note":  "Rotor tilt and initial recall assertion; corrected and retested."
+    },
+    {
+        "source":  "Saved/Migration/dynamics-network-editor-02/summary.json",
+        "passed":  false,
+        "failed_checks":  [
+                              "same_module_teleports_and_attaches_without_docking",
+                              "moving_truck_keeps_momentum_during_quick_recall"
+                          ],
+        "note":  "Client mounted state lost after ownership transfer; corrected and retested."
+    },
+    {
+        "source":  "Saved/Art/smoke-dynamics-packaged-final/summary.json",
+        "passed":  false,
+        "failed_checks":  [
+                              "airborne_request_starts_automatic_landing",
+                              "no_timeout"
+                          ],
+        "note":  "Legacy Xbox assertion sampled before X event processing; automatic landing sequence retested on large temporary floor."
+    },
+    {
+        "source":  "Saved/Art/hurricane-moving-editor-01",
+        "passed":  false,
+        "exit_code":  3,
+        "note":  "Chaos async wheel array assertion index 4 / size 4. Fixed by keeping six stable wheel slots; no engine source changes."
+    }
+]

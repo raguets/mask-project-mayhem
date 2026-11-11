@@ -1,0 +1,42 @@
+﻿[
+    {
+        "id":  0,
+        "description":  "MaskDriverCharacter.cpp",
+        "exit_code":  0
+    },
+    {
+        "id":  1,
+        "description":  "MaskDriverMovementComponent.cpp",
+        "exit_code":  0
+    },
+    {
+        "id":  2,
+        "description":  "Module.VehicularCombat.cpp",
+        "exit_code":  0
+    },
+    {
+        "id":  3,
+        "description":  "OnFootSmoke.cpp",
+        "exit_code":  0
+    },
+    {
+        "id":  4,
+        "description":  "ThunderhawkPawn.cpp",
+        "exit_code":  0
+    },
+    {
+        "id":  5,
+        "description":  "UnrealEditor-VehicularCombat.dll",
+        "exit_code":  0
+    },
+    {
+        "id":  6,
+        "description":  "UnrealEditor-VehicularCombat.lib",
+        "exit_code":  0
+    },
+    {
+        "id":  7,
+        "description":  "VehicularCombatEditor.target",
+        "exit_code":  0
+    }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "image": "debout",
+    "driving_pose": 0,
+    "mask_on": false,
+    "same_character": true
+  },
+  {
+    "image": "debout_casque",
+    "driving_pose": 0,
+    "mask_on": true,
+    "same_character": true
+  },
+  {
+    "image": "assis",
+    "driving_pose": 1,
+    "mask_on": false,
+    "same_character": true
+  },
+  {
+    "image": "assis_casque",
+    "driving_pose": 1,
+    "mask_on": true,
+    "same_character": true
+  }
+]

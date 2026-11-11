@@ -1,0 +1,3325 @@
+{
+  "scope": "Evaluated triangle surface intersections at all 241 integer frames, curated mechanical pairs; not continuous time or contained volume certification. Intentional joints, fasteners, upholstery contact excluded.",
+  "characters": {
+    "AlexSector_Rig": {
+      "four_states": [
+        {
+          "pose": 0,
+          "mask": false,
+          "visible_mask_parts": 0,
+          "same_body_head_rig": true,
+          "face_retained": true
+        },
+        {
+          "pose": 0,
+          "mask": true,
+          "visible_mask_parts": 6,
+          "same_body_head_rig": true,
+          "face_retained": true
+        },
+        {
+          "pose": 1,
+          "mask": false,
+          "visible_mask_parts": 0,
+          "same_body_head_rig": true,
+          "face_retained": true
+        },
+        {
+          "pose": 1,
+          "mask": true,
+          "visible_mask_parts": 6,
+          "same_body_head_rig": true,
+          "face_retained": true
+        }
+      ],
+      "one_character": true,
+      "masked_cabin_intersections": [
+        {
+          "a": "AS_MaskSilverCrown",
+          "b": "RH_SeatHeadrest_-0.6",
+          "triangles": 18
+        }
+      ],
+      "contacts": {
+        "L": {
+          "pedal_gap_m": 0.0009999275207519531
+        },
+        "R": {
+          "pedal_gap_m": 0.0009999275207519531
+        },
+        "seat": {
+          "Cushion": {
+            "surface_gap_m": 0.0,
+            "surface_pairs": 1662
+          },
+          "Back": {
+            "surface_gap_m": 0.04185080528259277,
+            "surface_pairs": 0
+          }
+        }
+      }
+    },
+    "BruceSato_Rig": {
+      "four_states": [
+        {
+          "pose": 0,
+          "mask": false,
+          "visible_mask_parts": 0,
+          "same_body_head_rig": true,
+          "face_retained": true
+        },
+        {
+          "pose": 0,
+          "mask": true,
+          "visible_mask_parts": 39,
+          "same_body_head_rig": true,
+          "face_retained": true
+        },
+        {
+          "pose": 1,
+          "mask": false,
+          "visible_mask_parts": 0,
+          "same_body_head_rig": true,
+          "face_retained": true
+        },
+        {
+          "pose": 1,
+          "mask": true,
+          "visible_mask_parts": 39,
+          "same_body_head_rig": true,
+          "face_retained": true
+        }
+      ],
+      "one_character": true,
+      "masked_cabin_intersections": [
+        {
+          "a": "BS_MaskOrangeCrown",
+          "b": "RH_SeatHeadrest_0.6",
+          "triangles": 14
+        }
+      ],
+      "contacts": {
+        "L": {
+          "pedal_gap_m": 0.0009999275207519531,
+          "wheel_gap_m": 1.0811303354785196e-06
+        },
+        "R": {
+          "pedal_gap_m": 0.0009999275207519531,
+          "wheel_gap_m": 1.0115243185282452e-06
+        },
+        "seat": {
+          "Cushion": {
+            "surface_gap_m": 0.0,
+            "surface_pairs": 1662
+          },
+          "Back": {
+            "surface_gap_m": 0.04185080528259277,
+            "surface_pairs": 0
+          }
+        }
+      }
+    }
+  },
+  "frames": [
+    {
+      "frame": 1,
+      "battle": 0.0,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 2,
+      "battle": 0.0,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 3,
+      "battle": 0.0,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 4,
+      "battle": 0.0,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 5,
+      "battle": 0.0,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 6,
+      "battle": 0.0,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 7,
+      "battle": 0.0,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 8,
+      "battle": 0.0,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 9,
+      "battle": 0.0,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 10,
+      "battle": 0.0,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 11,
+      "battle": 0.0,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 12,
+      "battle": 0.0,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 13,
+      "battle": 0.0,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 14,
+      "battle": 0.0,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 15,
+      "battle": 0.0,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 16,
+      "battle": 0.0,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 17,
+      "battle": 0.0,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 18,
+      "battle": 0.0,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 19,
+      "battle": 0.0,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 20,
+      "battle": 0.0,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 21,
+      "battle": 0.0,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 22,
+      "battle": 0.0,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 23,
+      "battle": 0.0,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 24,
+      "battle": 0.0,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 25,
+      "battle": 0.0,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 26,
+      "battle": 0.0,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 27,
+      "battle": 0.0,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 28,
+      "battle": 0.0,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 29,
+      "battle": 0.0,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 30,
+      "battle": 0.0,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 31,
+      "battle": 0.0,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 32,
+      "battle": 0.00020717596635222435,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 33,
+      "battle": 0.0008240742026828229,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 34,
+      "battle": 0.0018437501275911927,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 35,
+      "battle": 0.0032592597417533398,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 36,
+      "battle": 0.0050636581145226955,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 37,
+      "battle": 0.007250000257045031,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 38,
+      "battle": 0.009811341762542725,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 39,
+      "battle": 0.012740742415189743,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 40,
+      "battle": 0.01603125035762787,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 41,
+      "battle": 0.019675929099321365,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 42,
+      "battle": 0.023667823523283005,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 43,
+      "battle": 0.02800000086426735,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 44,
+      "battle": 0.03266551345586777,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 45,
+      "battle": 0.03765740618109703,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 46,
+      "battle": 0.04296875,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 47,
+      "battle": 0.04859260097146034,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 48,
+      "battle": 0.054521992802619934,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 49,
+      "battle": 0.060750000178813934,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 50,
+      "battle": 0.06726966798305511,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 51,
+      "battle": 0.07407408207654953,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 52,
+      "battle": 0.08115624636411667,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 53,
+      "battle": 0.08850926160812378,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 54,
+      "battle": 0.09612615406513214,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 55,
+      "battle": 0.10400000214576721,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 56,
+      "battle": 0.11212383955717087,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 57,
+      "battle": 0.12049075216054916,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        -0.005592292174696922,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 58,
+      "battle": 0.129093736410141,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        -0.1036262959241867,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 59,
+      "battle": 0.137925922870636,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        -0.20427215099334717,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 60,
+      "battle": 0.14698031544685364,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        -0.3074501156806946,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 61,
+      "battle": 0.15625,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        -0.41308140754699707,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 62,
+      "battle": 0.16572801768779755,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        -0.5210866928100586,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 63,
+      "battle": 0.17540743947029114,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        -0.6313871145248413,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 64,
+      "battle": 0.18528124690055847,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        -0.7439025640487671,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 65,
+      "battle": 0.19534260034561157,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        -0.8585551977157593,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 66,
+      "battle": 0.20558446645736694,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        -0.975264847278595,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 67,
+      "battle": 0.2160000056028366,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        -1.0939536094665527,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 68,
+      "battle": 0.22658218443393707,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        -1.2145411968231201,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 69,
+      "battle": 0.237324059009552,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        -1.3369486331939697,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 70,
+      "battle": 0.24821874499320984,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        -1.4610973596572876,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 71,
+      "battle": 0.25925928354263306,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        -1.5869081020355225,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 72,
+      "battle": 0.27043867111206055,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        -1.7143011093139648,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 73,
+      "battle": 0.281749963760376,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        -1.843197226524353,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 74,
+      "battle": 0.29318633675575256,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        -1.9735187292099,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 75,
+      "battle": 0.3047407269477844,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        -2.105185031890869,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 76,
+      "battle": 0.31640625,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        -2.2381176948547363,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 77,
+      "battle": 0.3281759023666382,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        -2.372236967086792,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 78,
+      "battle": 0.3400428295135498,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        -2.50746488571167,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 79,
+      "battle": 0.35199999809265137,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        -2.643720865249634,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 80,
+      "battle": 0.3640404939651489,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        -2.780926465988159,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 81,
+      "battle": 0.37615740299224854,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        -2.9190030097961426,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 82,
+      "battle": 0.3883437514305115,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        -3.057870626449585,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 83,
+      "battle": 0.4005926251411438,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        -3.197450876235962,
+        -0.02395789325237274,
+        0.0
+      ]
+    },
+    {
+      "frame": 84,
+      "battle": 0.412896990776062,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        -3.337663412094116,
+        -0.29375460743904114,
+        0.0
+      ]
+    },
+    {
+      "frame": 85,
+      "battle": 0.42524999380111694,
+      "collisions": [],
+      "rear_open_progress": 0.014583315495308447,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        -3.4784302711486816,
+        -0.5646178126335144,
+        0.0
+      ]
+    },
+    {
+      "frame": 86,
+      "battle": 0.43764472007751465,
+      "collisions": [],
+      "rear_open_progress": 0.04901311082046322,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        -3.6196722984313965,
+        -0.8363958597183228,
+        0.0
+      ]
+    },
+    {
+      "frame": 87,
+      "battle": 0.45007404685020447,
+      "collisions": [],
+      "rear_open_progress": 0.08353901999058536,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        -3.7613089084625244,
+        -1.108932614326477,
+        0.0
+      ]
+    },
+    {
+      "frame": 88,
+      "battle": 0.46253126859664917,
+      "collisions": [],
+      "rear_open_progress": 0.1181424097778473,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        -3.9032633304595947,
+        -1.3820810317993164,
+        0.0
+      ]
+    },
+    {
+      "frame": 89,
+      "battle": 0.4750092029571533,
+      "collisions": [],
+      "rear_open_progress": 0.1528033374276363,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        -4.0454535484313965,
+        -1.6556835174560547,
+        0.0
+      ]
+    },
+    {
+      "frame": 90,
+      "battle": 0.4875011444091797,
+      "collisions": [],
+      "rear_open_progress": 0.1875031747943762,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        -4.187803745269775,
+        -1.9295932054519653,
+        0.0
+      ]
+    },
+    {
+      "frame": 91,
+      "battle": 0.5,
+      "collisions": [],
+      "rear_open_progress": 0.22222221629518768,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        -4.330232620239258,
+        -2.2036545276641846,
+        0.0
+      ]
+    },
+    {
+      "frame": 92,
+      "battle": 0.5124988555908203,
+      "collisions": [],
+      "rear_open_progress": 0.25694125779599913,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": 0.037875319831073284,
+      "pod_location": [
+        -4.47266149520874,
+        -2.4777157306671143,
+        0.0
+      ]
+    },
+    {
+      "frame": 93,
+      "battle": 0.5249907970428467,
+      "collisions": [],
+      "rear_open_progress": 0.29164110871540955,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": 0.0757296895608306,
+      "pod_location": [
+        -4.615011215209961,
+        -2.7516255378723145,
+        0.0
+      ]
+    },
+    {
+      "frame": 94,
+      "battle": 0.537468671798706,
+      "collisions": [],
+      "rear_open_progress": 0.3263018737331528,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": 0.11354142799973488,
+      "pod_location": [
+        -4.757201194763184,
+        -3.025226593017578,
+        0.0
+      ]
+    },
+    {
+      "frame": 95,
+      "battle": 0.5499260425567627,
+      "collisions": [],
+      "rear_open_progress": 0.3609056633241939,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": 0.15129104256629944,
+      "pod_location": [
+        -4.8991570472717285,
+        -3.2983782291412354,
+        0.0
+      ]
+    },
+    {
+      "frame": 96,
+      "battle": 0.5623553395271301,
+      "collisions": [],
+      "rear_open_progress": 0.3954314979546284,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": 0.18895557150244713,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 97,
+      "battle": 0.5747500061988831,
+      "collisions": [],
+      "rear_open_progress": 0.42986113572998885,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": 0.22651517763733864,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 98,
+      "battle": 0.587103009223938,
+      "collisions": [],
+      "rear_open_progress": 0.46417500659410066,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": 0.2639485150575638,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 99,
+      "battle": 0.599407434463501,
+      "collisions": [],
+      "rear_open_progress": 0.4983539741762447,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": 0.3012346476316452,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 100,
+      "battle": 0.6116562485694885,
+      "collisions": [],
+      "rear_open_progress": 0.5323784413149055,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": 0.3383522853255272,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 101,
+      "battle": 0.6238425374031067,
+      "collisions": [],
+      "rear_open_progress": 0.5662292716393638,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": 0.3752804175019264,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 102,
+      "battle": 0.6359594464302063,
+      "collisions": [],
+      "rear_open_progress": 0.5998873287789006,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": 0.41199833154678345,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 103,
+      "battle": 0.6480000019073486,
+      "collisions": [],
+      "rear_open_progress": 0.6333333137307507,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": 0.448484867811203,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 104,
+      "battle": 0.6599571704864502,
+      "collisions": [],
+      "rear_open_progress": 0.6665477106494219,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": 0.4847186803817749,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 105,
+      "battle": 0.6718240976333618,
+      "collisions": [],
+      "rear_open_progress": 0.6995113831641947,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": 0.5206790938973427,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 106,
+      "battle": 0.68359375,
+      "collisions": [],
+      "rear_open_progress": 0.7322048696402584,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": 0.5563446879386902,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 107,
+      "battle": 0.6952592134475708,
+      "collisions": [],
+      "rear_open_progress": 0.7646089252855303,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": 0.591694600880146,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 108,
+      "battle": 0.706813633441925,
+      "collisions": [],
+      "rear_open_progress": 0.7967045221506547,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": 0.6267079710960388,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 109,
+      "battle": 0.7182499766349792,
+      "collisions": [],
+      "rear_open_progress": 0.8284721443901392,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": 0.6613636016845703,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 110,
+      "battle": 0.7295613884925842,
+      "collisions": [],
+      "rear_open_progress": 0.8598927640546284,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": 0.6956405937671661,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 111,
+      "battle": 0.7407408356666565,
+      "collisions": [],
+      "rear_open_progress": 0.8909467568772661,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": 0.7295177131891251,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 112,
+      "battle": 0.7517812252044678,
+      "collisions": [],
+      "rear_open_progress": 0.9216145528018773,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": 0.762973427772522,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 113,
+      "battle": 0.762675940990448,
+      "collisions": [],
+      "rear_open_progress": 0.9518776659859263,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": 0.7959876954555511,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 114,
+      "battle": 0.7734178304672241,
+      "collisions": [],
+      "rear_open_progress": 0.9817162011091468,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": 0.8285389095544815,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 115,
+      "battle": 0.7839999198913574,
+      "collisions": [],
+      "rear_open_progress": 0.9999999462230036,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": 0.8606058359146118,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 116,
+      "battle": 0.7944154739379883,
+      "collisions": [],
+      "rear_open_progress": 0.9999999462230036,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": 0.8921681344509125,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 117,
+      "battle": 0.8046573996543884,
+      "collisions": [],
+      "rear_open_progress": 0.9999999462230036,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": 0.9232042729854584,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 118,
+      "battle": 0.8147188425064087,
+      "collisions": [],
+      "rear_open_progress": 0.9999999462230036,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": 0.9536934643983841,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 119,
+      "battle": 0.8245925903320312,
+      "collisions": [],
+      "rear_open_progress": 0.9999999462230036,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": 0.9836138784885406,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 120,
+      "battle": 0.8342719674110413,
+      "collisions": [],
+      "rear_open_progress": 0.9999999462230036,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": 1.0000000149011612,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 121,
+      "battle": 0.84375,
+      "collisions": [],
+      "rear_open_progress": 0.9999999462230036,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": 1.0000000149011612,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 122,
+      "battle": 0.853019654750824,
+      "collisions": [],
+      "rear_open_progress": 0.9999999462230036,
+      "launcher_progress": 0.020131015777587653,
+      "cabinet_slide_progress": 1.0000000149011612,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 123,
+      "battle": 0.8620740175247192,
+      "collisions": [],
+      "rear_open_progress": 0.9999999462230036,
+      "launcher_progress": 0.0804935667249889,
+      "cabinet_slide_progress": 1.0000000149011612,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 124,
+      "battle": 0.8709061741828918,
+      "collisions": [],
+      "rear_open_progress": 0.9999999462230036,
+      "launcher_progress": 0.13937447865804012,
+      "cabinet_slide_progress": 1.0000000149011612,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 125,
+      "battle": 0.8795092105865479,
+      "collisions": [],
+      "rear_open_progress": 0.9999999462230036,
+      "launcher_progress": 0.19672818713717966,
+      "cabinet_slide_progress": 1.0000000149011612,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 126,
+      "battle": 0.8878762125968933,
+      "collisions": [],
+      "rear_open_progress": 0.9999999462230036,
+      "launcher_progress": 0.25250806808471654,
+      "cabinet_slide_progress": 1.0000000149011612,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 127,
+      "battle": 0.8960000276565552,
+      "collisions": [],
+      "rear_open_progress": 0.9999999462230036,
+      "launcher_progress": 0.30666696760389517,
+      "cabinet_slide_progress": 1.0000000149011612,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 128,
+      "battle": 0.9038739204406738,
+      "collisions": [],
+      "rear_open_progress": 0.9999999462230036,
+      "launcher_progress": 0.3591595861646862,
+      "cabinet_slide_progress": 1.0000000149011612,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 129,
+      "battle": 0.9114906787872314,
+      "collisions": [],
+      "rear_open_progress": 0.9999999462230036,
+      "launcher_progress": 0.40993797514173697,
+      "cabinet_slide_progress": 1.0000000149011612,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 130,
+      "battle": 0.9188437461853027,
+      "collisions": [],
+      "rear_open_progress": 0.9999999462230036,
+      "launcher_progress": 0.4589584244622122,
+      "cabinet_slide_progress": 1.0000000149011612,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 131,
+      "battle": 0.9259259700775146,
+      "collisions": [],
+      "rear_open_progress": 0.9999999462230036,
+      "launcher_progress": 0.5061732504102916,
+      "cabinet_slide_progress": 1.0000000149011612,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 132,
+      "battle": 0.9327304363250732,
+      "collisions": [],
+      "rear_open_progress": 0.9999999462230036,
+      "launcher_progress": 0.551536358727349,
+      "cabinet_slide_progress": 1.0000000149011612,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 133,
+      "battle": 0.9392499923706055,
+      "collisions": [],
+      "rear_open_progress": 0.9999999462230036,
+      "launcher_progress": 0.5950000656975638,
+      "cabinet_slide_progress": 1.0000000149011612,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 134,
+      "battle": 0.945478081703186,
+      "collisions": [],
+      "rear_open_progress": 0.9999999462230036,
+      "launcher_progress": 0.6365206612481009,
+      "cabinet_slide_progress": 1.0000000149011612,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 135,
+      "battle": 0.9514075517654419,
+      "collisions": [],
+      "rear_open_progress": 0.9999999462230036,
+      "launcher_progress": 0.67605046166314,
+      "cabinet_slide_progress": 1.0000000149011612,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 136,
+      "battle": 0.95703125,
+      "collisions": [],
+      "rear_open_progress": 0.9999999462230036,
+      "launcher_progress": 0.7135417832268607,
+      "cabinet_slide_progress": 1.0000000149011612,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 137,
+      "battle": 0.9623426198959351,
+      "collisions": [],
+      "rear_open_progress": 0.9999999462230036,
+      "launcher_progress": 0.7489509158664277,
+      "cabinet_slide_progress": 1.0000000149011612,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 138,
+      "battle": 0.9673343896865845,
+      "collisions": [],
+      "rear_open_progress": 0.9999999462230036,
+      "launcher_progress": 0.7822293811374238,
+      "cabinet_slide_progress": 1.0000000149011612,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 139,
+      "battle": 0.972000002861023,
+      "collisions": [],
+      "rear_open_progress": 0.9999999462230036,
+      "launcher_progress": 0.8133334689670136,
+      "cabinet_slide_progress": 1.0000000149011612,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 140,
+      "battle": 0.9763321876525879,
+      "collisions": [],
+      "rear_open_progress": 0.9999999462230036,
+      "launcher_progress": 0.8422147009107799,
+      "cabinet_slide_progress": 1.0000000149011612,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 141,
+      "battle": 0.9803241491317749,
+      "collisions": [],
+      "rear_open_progress": 0.9999999462230036,
+      "launcher_progress": 0.8688277774386933,
+      "cabinet_slide_progress": 1.0000000149011612,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 142,
+      "battle": 0.9839686155319214,
+      "collisions": [],
+      "rear_open_progress": 0.9999999462230036,
+      "launcher_progress": 0.8931242201063365,
+      "cabinet_slide_progress": 1.0000000149011612,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 143,
+      "battle": 0.9872591495513916,
+      "collisions": [],
+      "rear_open_progress": 0.9999999462230036,
+      "launcher_progress": 0.9150611135694713,
+      "cabinet_slide_progress": 1.0000000149011612,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 144,
+      "battle": 0.9901885986328125,
+      "collisions": [],
+      "rear_open_progress": 0.9999999462230036,
+      "launcher_progress": 0.9345907741122773,
+      "cabinet_slide_progress": 1.0000000149011612,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 145,
+      "battle": 0.9927500486373901,
+      "collisions": [],
+      "rear_open_progress": 0.9999999462230036,
+      "launcher_progress": 0.9516671074761283,
+      "cabinet_slide_progress": 1.0000000149011612,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 146,
+      "battle": 0.9949363470077515,
+      "collisions": [],
+      "rear_open_progress": 0.9999999462230036,
+      "launcher_progress": 0.9662424299452037,
+      "cabinet_slide_progress": 1.0000000149011612,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 147,
+      "battle": 0.9967406988143921,
+      "collisions": [],
+      "rear_open_progress": 0.9999999462230036,
+      "launcher_progress": 0.9782714419894746,
+      "cabinet_slide_progress": 1.0000000149011612,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 148,
+      "battle": 0.9981564283370972,
+      "collisions": [],
+      "rear_open_progress": 0.9999999462230036,
+      "launcher_progress": 0.9877096388075084,
+      "cabinet_slide_progress": 1.0000000149011612,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 149,
+      "battle": 0.9991759061813354,
+      "collisions": [],
+      "rear_open_progress": 0.9999999462230036,
+      "launcher_progress": 0.994506157769097,
+      "cabinet_slide_progress": 1.0000000149011612,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 150,
+      "battle": 0.9997929334640503,
+      "collisions": [],
+      "rear_open_progress": 0.9999999462230036,
+      "launcher_progress": 0.9986196729871959,
+      "cabinet_slide_progress": 1.0000000149011612,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 151,
+      "battle": 1.0,
+      "collisions": [],
+      "rear_open_progress": 0.9999999462230036,
+      "launcher_progress": 1.000000116560194,
+      "cabinet_slide_progress": 1.0000000149011612,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 152,
+      "battle": 1.0,
+      "collisions": [],
+      "rear_open_progress": 0.9999999462230036,
+      "launcher_progress": 1.000000116560194,
+      "cabinet_slide_progress": 1.0000000149011612,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 153,
+      "battle": 1.0,
+      "collisions": [],
+      "rear_open_progress": 0.9999999462230036,
+      "launcher_progress": 1.000000116560194,
+      "cabinet_slide_progress": 1.0000000149011612,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 154,
+      "battle": 1.0,
+      "collisions": [],
+      "rear_open_progress": 0.9999999462230036,
+      "launcher_progress": 1.000000116560194,
+      "cabinet_slide_progress": 1.0000000149011612,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 155,
+      "battle": 1.0,
+      "collisions": [],
+      "rear_open_progress": 0.9999999462230036,
+      "launcher_progress": 1.000000116560194,
+      "cabinet_slide_progress": 1.0000000149011612,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 156,
+      "battle": 1.0,
+      "collisions": [],
+      "rear_open_progress": 0.9999999462230036,
+      "launcher_progress": 1.000000116560194,
+      "cabinet_slide_progress": 1.0000000149011612,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 157,
+      "battle": 1.0,
+      "collisions": [],
+      "rear_open_progress": 0.9999999462230036,
+      "launcher_progress": 1.000000116560194,
+      "cabinet_slide_progress": 1.0000000149011612,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 158,
+      "battle": 1.0,
+      "collisions": [],
+      "rear_open_progress": 0.9999999462230036,
+      "launcher_progress": 1.000000116560194,
+      "cabinet_slide_progress": 1.0000000149011612,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 159,
+      "battle": 1.0,
+      "collisions": [],
+      "rear_open_progress": 0.9999999462230036,
+      "launcher_progress": 1.000000116560194,
+      "cabinet_slide_progress": 1.0000000149011612,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 160,
+      "battle": 1.0,
+      "collisions": [],
+      "rear_open_progress": 0.9999999462230036,
+      "launcher_progress": 1.000000116560194,
+      "cabinet_slide_progress": 1.0000000149011612,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 161,
+      "battle": 1.0,
+      "collisions": [],
+      "rear_open_progress": 0.9999999462230036,
+      "launcher_progress": 1.000000116560194,
+      "cabinet_slide_progress": 1.0000000149011612,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 162,
+      "battle": 1.0,
+      "collisions": [],
+      "rear_open_progress": 0.9999999462230036,
+      "launcher_progress": 1.000000116560194,
+      "cabinet_slide_progress": 1.0000000149011612,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 163,
+      "battle": 1.0,
+      "collisions": [],
+      "rear_open_progress": 0.9999999462230036,
+      "launcher_progress": 1.000000116560194,
+      "cabinet_slide_progress": 1.0000000149011612,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 164,
+      "battle": 1.0,
+      "collisions": [],
+      "rear_open_progress": 0.9999999462230036,
+      "launcher_progress": 1.000000116560194,
+      "cabinet_slide_progress": 1.0000000149011612,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 165,
+      "battle": 1.0,
+      "collisions": [],
+      "rear_open_progress": 0.9999999462230036,
+      "launcher_progress": 1.000000116560194,
+      "cabinet_slide_progress": 1.0000000149011612,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 166,
+      "battle": 1.0,
+      "collisions": [],
+      "rear_open_progress": 0.9999999462230036,
+      "launcher_progress": 1.000000116560194,
+      "cabinet_slide_progress": 1.0000000149011612,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 167,
+      "battle": 1.0,
+      "collisions": [],
+      "rear_open_progress": 0.9999999462230036,
+      "launcher_progress": 1.000000116560194,
+      "cabinet_slide_progress": 1.0000000149011612,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 168,
+      "battle": 1.0,
+      "collisions": [],
+      "rear_open_progress": 0.9999999462230036,
+      "launcher_progress": 1.000000116560194,
+      "cabinet_slide_progress": 1.0000000149011612,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 169,
+      "battle": 1.0,
+      "collisions": [],
+      "rear_open_progress": 0.9999999462230036,
+      "launcher_progress": 1.000000116560194,
+      "cabinet_slide_progress": 1.0000000149011612,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 170,
+      "battle": 1.0,
+      "collisions": [],
+      "rear_open_progress": 0.9999999462230036,
+      "launcher_progress": 1.000000116560194,
+      "cabinet_slide_progress": 1.0000000149011612,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 171,
+      "battle": 1.0,
+      "collisions": [],
+      "rear_open_progress": 0.9999999462230036,
+      "launcher_progress": 1.000000116560194,
+      "cabinet_slide_progress": 1.0000000149011612,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 172,
+      "battle": 1.0,
+      "collisions": [],
+      "rear_open_progress": 0.9999999462230036,
+      "launcher_progress": 1.000000116560194,
+      "cabinet_slide_progress": 1.0000000149011612,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 173,
+      "battle": 1.0,
+      "collisions": [],
+      "rear_open_progress": 0.9999999462230036,
+      "launcher_progress": 1.000000116560194,
+      "cabinet_slide_progress": 1.0000000149011612,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 174,
+      "battle": 1.0,
+      "collisions": [],
+      "rear_open_progress": 0.9999999462230036,
+      "launcher_progress": 1.000000116560194,
+      "cabinet_slide_progress": 1.0000000149011612,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 175,
+      "battle": 1.0,
+      "collisions": [],
+      "rear_open_progress": 0.9999999462230036,
+      "launcher_progress": 1.000000116560194,
+      "cabinet_slide_progress": 1.0000000149011612,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 176,
+      "battle": 1.0,
+      "collisions": [],
+      "rear_open_progress": 0.9999999462230036,
+      "launcher_progress": 1.000000116560194,
+      "cabinet_slide_progress": 1.0000000149011612,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 177,
+      "battle": 1.0,
+      "collisions": [],
+      "rear_open_progress": 0.9999999462230036,
+      "launcher_progress": 1.000000116560194,
+      "cabinet_slide_progress": 1.0000000149011612,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 178,
+      "battle": 1.0,
+      "collisions": [],
+      "rear_open_progress": 0.9999999462230036,
+      "launcher_progress": 1.000000116560194,
+      "cabinet_slide_progress": 1.0000000149011612,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 179,
+      "battle": 1.0,
+      "collisions": [],
+      "rear_open_progress": 0.9999999462230036,
+      "launcher_progress": 1.000000116560194,
+      "cabinet_slide_progress": 1.0000000149011612,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 180,
+      "battle": 1.0,
+      "collisions": [],
+      "rear_open_progress": 0.9999999462230036,
+      "launcher_progress": 1.000000116560194,
+      "cabinet_slide_progress": 1.0000000149011612,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 181,
+      "battle": 1.0,
+      "collisions": [],
+      "rear_open_progress": 0.9999999462230036,
+      "launcher_progress": 1.000000116560194,
+      "cabinet_slide_progress": 1.0000000149011612,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 182,
+      "battle": 0.9991759061813354,
+      "collisions": [],
+      "rear_open_progress": 0.9999999462230036,
+      "launcher_progress": 0.994506157769097,
+      "cabinet_slide_progress": 1.0000000149011612,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 183,
+      "battle": 0.9967407584190369,
+      "collisions": [],
+      "rear_open_progress": 0.9999999462230036,
+      "launcher_progress": 0.9782717068990069,
+      "cabinet_slide_progress": 1.0000000149011612,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 184,
+      "battle": 0.9927499890327454,
+      "collisions": [],
+      "rear_open_progress": 0.9999999462230036,
+      "launcher_progress": 0.9516665776570635,
+      "cabinet_slide_progress": 1.0000000149011612,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 185,
+      "battle": 0.9872592687606812,
+      "collisions": [],
+      "rear_open_progress": 0.9999999462230036,
+      "launcher_progress": 0.9150619082980683,
+      "cabinet_slide_progress": 1.0000000149011612,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 186,
+      "battle": 0.9803240895271301,
+      "collisions": [],
+      "rear_open_progress": 0.9999999462230036,
+      "launcher_progress": 0.8688272476196286,
+      "cabinet_slide_progress": 1.0000000149011612,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 187,
+      "battle": 0.972000002861023,
+      "collisions": [],
+      "rear_open_progress": 0.9999999462230036,
+      "launcher_progress": 0.8133334689670136,
+      "cabinet_slide_progress": 1.0000000149011612,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 188,
+      "battle": 0.9623425602912903,
+      "collisions": [],
+      "rear_open_progress": 0.9999999462230036,
+      "launcher_progress": 0.7489503860473631,
+      "cabinet_slide_progress": 1.0000000149011612,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 189,
+      "battle": 0.9514073729515076,
+      "collisions": [],
+      "rear_open_progress": 0.9999999462230036,
+      "launcher_progress": 0.6760491371154783,
+      "cabinet_slide_progress": 1.0000000149011612,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 190,
+      "battle": 0.9392499923706055,
+      "collisions": [],
+      "rear_open_progress": 0.9999999462230036,
+      "launcher_progress": 0.5950000656975638,
+      "cabinet_slide_progress": 1.0000000149011612,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 191,
+      "battle": 0.9259259104728699,
+      "collisions": [],
+      "rear_open_progress": 0.9999999462230036,
+      "launcher_progress": 0.506172720591227,
+      "cabinet_slide_progress": 1.0000000149011612,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 192,
+      "battle": 0.9114907383918762,
+      "collisions": [],
+      "rear_open_progress": 0.9999999462230036,
+      "launcher_progress": 0.4099382400512693,
+      "cabinet_slide_progress": 1.0000000149011612,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 193,
+      "battle": 0.8959999680519104,
+      "collisions": [],
+      "rear_open_progress": 0.9999999462230036,
+      "launcher_progress": 0.3066664377848305,
+      "cabinet_slide_progress": 1.0000000149011612,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 194,
+      "battle": 0.8795092105865479,
+      "collisions": [],
+      "rear_open_progress": 0.9999999462230036,
+      "launcher_progress": 0.19672818713717966,
+      "cabinet_slide_progress": 1.0000000149011612,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 195,
+      "battle": 0.8620741367340088,
+      "collisions": [],
+      "rear_open_progress": 0.9999999462230036,
+      "launcher_progress": 0.08049436145358592,
+      "cabinet_slide_progress": 1.0000000149011612,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 196,
+      "battle": 0.84375,
+      "collisions": [],
+      "rear_open_progress": 0.9999999462230036,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": 1.0000000149011612,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 197,
+      "battle": 0.8245925903320312,
+      "collisions": [],
+      "rear_open_progress": 0.9999999462230036,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": 0.9836138784885406,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 198,
+      "battle": 0.8046573996543884,
+      "collisions": [],
+      "rear_open_progress": 0.9999999462230036,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": 0.9232042729854584,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 199,
+      "battle": 0.784000039100647,
+      "collisions": [],
+      "rear_open_progress": 0.9999999462230036,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": 0.8606062084436417,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 200,
+      "battle": 0.7626758813858032,
+      "collisions": [],
+      "rear_open_progress": 0.9518774491431986,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": 0.7959875464439392,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 201,
+      "battle": 0.7407407164573669,
+      "collisions": [],
+      "rear_open_progress": 0.8909464316131745,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": 0.7295173406600952,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 202,
+      "battle": 0.718250036239624,
+      "collisions": [],
+      "rear_open_progress": 0.828472307022185,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": 0.6613637506961823,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 203,
+      "battle": 0.6952592730522156,
+      "collisions": [],
+      "rear_open_progress": 0.764609087917576,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": 0.591694749891758,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 204,
+      "battle": 0.6718240976333618,
+      "collisions": [],
+      "rear_open_progress": 0.6995113831641947,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": 0.5206790938973427,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 205,
+      "battle": 0.6480000019073486,
+      "collisions": [],
+      "rear_open_progress": 0.6333333137307507,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": 0.448484867811203,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 206,
+      "battle": 0.6238425970077515,
+      "collisions": [],
+      "rear_open_progress": 0.5662294342714096,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": 0.37528060376644135,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 207,
+      "battle": 0.5994073748588562,
+      "collisions": [],
+      "rear_open_progress": 0.49835381154419894,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": 0.3012344613671303,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 208,
+      "battle": 0.5747500061988831,
+      "collisions": [],
+      "rear_open_progress": 0.42986113572998885,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": 0.22651517763733864,
+      "pod_location": [
+        -4.900000095367432,
+        -3.299999952316284,
+        0.0
+      ]
+    },
+    {
+      "frame": 209,
+      "battle": 0.5499259233474731,
+      "collisions": [],
+      "rear_open_progress": 0.3609053380601024,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": 0.15129067935049534,
+      "pod_location": [
+        -4.899156093597412,
+        -3.2983758449554443,
+        0.0
+      ]
+    },
+    {
+      "frame": 210,
+      "battle": 0.5249907970428467,
+      "collisions": [],
+      "rear_open_progress": 0.29164110871540955,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": 0.0757296895608306,
+      "pod_location": [
+        -4.615011215209961,
+        -2.7516255378723145,
+        0.0
+      ]
+    },
+    {
+      "frame": 211,
+      "battle": 0.5,
+      "collisions": [],
+      "rear_open_progress": 0.22222221629518768,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        -4.330232620239258,
+        -2.2036545276641846,
+        0.0
+      ]
+    },
+    {
+      "frame": 212,
+      "battle": 0.4750092327594757,
+      "collisions": [],
+      "rear_open_progress": 0.1528034187436592,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        -4.045454025268555,
+        -1.655684232711792,
+        0.0
+      ]
+    },
+    {
+      "frame": 213,
+      "battle": 0.4500739872455597,
+      "collisions": [],
+      "rear_open_progress": 0.08353885058220434,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        -3.761308193206787,
+        -1.108931303024292,
+        0.0
+      ]
+    },
+    {
+      "frame": 214,
+      "battle": 0.42524999380111694,
+      "collisions": [],
+      "rear_open_progress": 0.014583315495308447,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        -3.4784302711486816,
+        -0.5646178126335144,
+        0.0
+      ]
+    },
+    {
+      "frame": 215,
+      "battle": 0.400592565536499,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        -3.1974501609802246,
+        -0.02395658567547798,
+        0.0
+      ]
+    },
+    {
+      "frame": 216,
+      "battle": 0.3761574625968933,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        -2.91900372505188,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 217,
+      "battle": 0.35199999809265137,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        -2.643720865249634,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 218,
+      "battle": 0.3281759023666382,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        -2.372236967086792,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 219,
+      "battle": 0.3047407865524292,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        -2.1051857471466064,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 220,
+      "battle": 0.28175002336502075,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        -1.8431979417800903,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 221,
+      "battle": 0.2592591643333435,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        -1.5869067907333374,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 222,
+      "battle": 0.237324059009552,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        -1.3369486331939697,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 223,
+      "battle": 0.21600008010864258,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        -1.0939544439315796,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 224,
+      "battle": 0.19534260034561157,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        -0.8585551977157593,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 225,
+      "battle": 0.17540740966796875,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        -0.6313867568969727,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 226,
+      "battle": 0.15625,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        -0.41308140754699707,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 227,
+      "battle": 0.13792598247528076,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        -0.2042728215456009,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 228,
+      "battle": 0.12049078941345215,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        -0.00559271639212966,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 229,
+      "battle": 0.10399997234344482,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 230,
+      "battle": 0.08850932121276855,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 231,
+      "battle": 0.07407402992248535,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 232,
+      "battle": 0.06075000762939453,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 233,
+      "battle": 0.048592448234558105,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 234,
+      "battle": 0.03765738010406494,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 235,
+      "battle": 0.02799999713897705,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 236,
+      "battle": 0.019675850868225098,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 237,
+      "battle": 0.012740850448608398,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 238,
+      "battle": 0.007249951362609863,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 239,
+      "battle": 0.00325930118560791,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 240,
+      "battle": 0.0008240938186645508,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 241,
+      "battle": 0.0,
+      "collisions": [],
+      "rear_open_progress": -0.0,
+      "launcher_progress": 1.0596381056555199e-08,
+      "cabinet_slide_progress": -0.0,
+      "pod_location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "distinct_character_data": true,
+  "collision_frames": [],
+  "launcher_order_ok": true,
+  "tires": [
+    {
+      "name": "RH_Front_-1_Tire",
+      "owner": "truck",
+      "x": 3.45,
+      "y": -1.07
+    },
+    {
+      "name": "RH_MiddleOuter_Truck_-1_Tire",
+      "owner": "truck",
+      "x": -1.88,
+      "y": -1.16
+    },
+    {
+      "name": "RH_Front_1_Tire",
+      "owner": "truck",
+      "x": 3.45,
+      "y": 1.07
+    },
+    {
+      "name": "RH_MiddleOuter_Truck_1_Tire",
+      "owner": "truck",
+      "x": -1.88,
+      "y": 1.16
+    },
+    {
+      "name": "RH_MiddleInner_Pod_-1_Tire",
+      "owner": "rear_vehicle",
+      "x": -1.88,
+      "y": -0.84
+    },
+    {
+      "name": "RH_RearInner_Pod_-1_Tire",
+      "owner": "rear_vehicle",
+      "x": -3.35,
+      "y": -0.84
+    },
+    {
+      "name": "RH_RearOuter_Pod_-1_Tire",
+      "owner": "rear_vehicle",
+      "x": -3.35,
+      "y": -1.16
+    },
+    {
+      "name": "RH_MiddleInner_Pod_1_Tire",
+      "owner": "rear_vehicle",
+      "x": -1.88,
+      "y": 0.84
+    },
+    {
+      "name": "RH_RearInner_Pod_1_Tire",
+      "owner": "rear_vehicle",
+      "x": -3.35,
+      "y": 0.84
+    },
+    {
+      "name": "RH_RearOuter_Pod_1_Tire",
+      "owner": "rear_vehicle",
+      "x": -3.35,
+      "y": 1.16
+    }
+  ],
+  "persistent_tire_count": 10,
+  "elapsed_seconds": 81.3
+}

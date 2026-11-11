@@ -1,0 +1,24 @@
+{
+  "source": "G:\\DEV\\mask-project-mayhem\\art_source\\Hurricane\\Hurricane_V7_Assembly.blend",
+  "outputs": [
+    {
+      "kind": "vehicle",
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Hurricane\\Hurricane_V7_Vehicle.blend",
+      "scene": "Hurricane_V7_Vehicle",
+      "scene_objects": 482
+    },
+    {
+      "kind": "character",
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Hondo_MacLean\\HondoMacLean_V1.blend",
+      "scene": "HondoMacLean_V1",
+      "scene_objects": 77
+    },
+    {
+      "kind": "mask",
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Hondo_MacLean\\HondoMask_V1.blend",
+      "scene": "HondoMask_V1",
+      "scene_objects": 36
+    }
+  ],
+  "expected": 3
+}

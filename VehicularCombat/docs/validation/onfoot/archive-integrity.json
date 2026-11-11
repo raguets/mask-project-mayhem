@@ -1,0 +1,305 @@
+﻿{
+    "passed":  true,
+    "files":  [
+                  {
+                      "path":  "Manifest_DebugFiles_Win64.txt",
+                      "bytes":  447,
+                      "size_equal":  true,
+                      "sha256_equal":  true
+                  },
+                  {
+                      "path":  "Manifest_NonUFSFiles_Win64.txt",
+                      "bytes":  3112,
+                      "size_equal":  true,
+                      "sha256_equal":  true
+                  },
+                  {
+                      "path":  "Manifest_UFSFiles_Win64.txt",
+                      "bytes":  450079,
+                      "size_equal":  true,
+                      "sha256_equal":  true
+                  },
+                  {
+                      "path":  "NOTICES.txt",
+                      "bytes":  111,
+                      "size_equal":  true,
+                      "sha256_equal":  true
+                  },
+                  {
+                      "path":  "VehicularCombat.exe",
+                      "bytes":  265216,
+                      "size_equal":  true,
+                      "sha256_equal":  true
+                  },
+                  {
+                      "path":  "Engine\\Binaries\\ThirdParty\\DbgHelp\\dbghelp.dll",
+                      "bytes":  2232688,
+                      "size_equal":  true,
+                      "sha256_equal":  true
+                  },
+                  {
+                      "path":  "Engine\\Binaries\\ThirdParty\\MsQuic\\v220\\win64\\msquic.dll",
+                      "bytes":  2547080,
+                      "size_equal":  true,
+                      "sha256_equal":  true
+                  },
+                  {
+                      "path":  "Engine\\Binaries\\ThirdParty\\NVIDIA\\NVaftermath\\Win64\\GFSDK_Aftermath_Lib.x64.dll",
+                      "bytes":  5799016,
+                      "size_equal":  true,
+                      "sha256_equal":  true
+                  },
+                  {
+                      "path":  "Engine\\Binaries\\ThirdParty\\Ogg\\Win64\\VS2015\\libogg_64.dll",
+                      "bytes":  59832,
+                      "size_equal":  true,
+                      "sha256_equal":  true
+                  },
+                  {
+                      "path":  "Engine\\Binaries\\ThirdParty\\Steamworks\\Steamv164\\Win64\\steam_api64.dll",
+                      "bytes":  327792,
+                      "size_equal":  true,
+                      "sha256_equal":  true
+                  },
+                  {
+                      "path":  "Engine\\Binaries\\ThirdParty\\Vorbis\\Win64\\VS2015\\libvorbisfile_64.dll",
+                      "bytes":  48568,
+                      "size_equal":  true,
+                      "sha256_equal":  true
+                  },
+                  {
+                      "path":  "Engine\\Binaries\\ThirdParty\\Vorbis\\Win64\\VS2015\\libvorbis_64.dll",
+                      "bytes":  1724856,
+                      "size_equal":  true,
+                      "sha256_equal":  true
+                  },
+                  {
+                      "path":  "Engine\\Binaries\\ThirdParty\\Vulkan\\Win64\\VkLayer_api_dump.dll",
+                      "bytes":  8161680,
+                      "size_equal":  true,
+                      "sha256_equal":  true
+                  },
+                  {
+                      "path":  "Engine\\Binaries\\ThirdParty\\Vulkan\\Win64\\VkLayer_api_dump.json",
+                      "bytes":  13848,
+                      "size_equal":  true,
+                      "sha256_equal":  true
+                  },
+                  {
+                      "path":  "Engine\\Binaries\\ThirdParty\\Vulkan\\Win64\\VkLayer_crash_diagnostic.dll",
+                      "bytes":  2890128,
+                      "size_equal":  true,
+                      "sha256_equal":  true
+                  },
+                  {
+                      "path":  "Engine\\Binaries\\ThirdParty\\Vulkan\\Win64\\VkLayer_crash_diagnostic.json",
+                      "bytes":  23055,
+                      "size_equal":  true,
+                      "sha256_equal":  true
+                  },
+                  {
+                      "path":  "Engine\\Binaries\\ThirdParty\\Vulkan\\Win64\\VkLayer_gfxreconstruct.dll",
+                      "bytes":  8166288,
+                      "size_equal":  true,
+                      "sha256_equal":  true
+                  },
+                  {
+                      "path":  "Engine\\Binaries\\ThirdParty\\Vulkan\\Win64\\VkLayer_gfxreconstruct.json",
+                      "bytes":  28099,
+                      "size_equal":  true,
+                      "sha256_equal":  true
+                  },
+                  {
+                      "path":  "Engine\\Binaries\\ThirdParty\\Vulkan\\Win64\\VkLayer_khronos_profiles.dll",
+                      "bytes":  1485200,
+                      "size_equal":  true,
+                      "sha256_equal":  true
+                  },
+                  {
+                      "path":  "Engine\\Binaries\\ThirdParty\\Vulkan\\Win64\\VkLayer_khronos_profiles.json",
+                      "bytes":  66696,
+                      "size_equal":  true,
+                      "sha256_equal":  true
+                  },
+                  {
+                      "path":  "Engine\\Binaries\\ThirdParty\\Vulkan\\Win64\\VkLayer_khronos_shader_object.dll",
+                      "bytes":  415632,
+                      "size_equal":  true,
+                      "sha256_equal":  true
+                  },
+                  {
+                      "path":  "Engine\\Binaries\\ThirdParty\\Vulkan\\Win64\\VkLayer_khronos_shader_object.json",
+                      "bytes":  4455,
+                      "size_equal":  true,
+                      "sha256_equal":  true
+                  },
+                  {
+                      "path":  "Engine\\Binaries\\ThirdParty\\Vulkan\\Win64\\VkLayer_khronos_synchronization2.dll",
+                      "bytes":  397200,
+                      "size_equal":  true,
+                      "sha256_equal":  true
+                  },
+                  {
+                      "path":  "Engine\\Binaries\\ThirdParty\\Vulkan\\Win64\\VkLayer_khronos_synchronization2.json",
+                      "bytes":  1910,
+                      "size_equal":  true,
+                      "sha256_equal":  true
+                  },
+                  {
+                      "path":  "Engine\\Binaries\\ThirdParty\\Vulkan\\Win64\\VkLayer_khronos_validation.dll",
+                      "bytes":  19509136,
+                      "size_equal":  true,
+                      "sha256_equal":  true
+                  },
+                  {
+                      "path":  "Engine\\Binaries\\ThirdParty\\Vulkan\\Win64\\VkLayer_khronos_validation.json",
+                      "bytes":  95917,
+                      "size_equal":  true,
+                      "sha256_equal":  true
+                  },
+                  {
+                      "path":  "Engine\\Binaries\\ThirdParty\\Windows\\WinPixEventRuntime\\x64\\WinPixEventRuntime.dll",
+                      "bytes":  69056,
+                      "size_equal":  true,
+                      "sha256_equal":  true
+                  },
+                  {
+                      "path":  "Engine\\Binaries\\ThirdParty\\Windows\\XAudio2_9\\x64\\xaudio2_9redist.dll",
+                      "bytes":  858152,
+                      "size_equal":  true,
+                      "sha256_equal":  true
+                  },
+                  {
+                      "path":  "Engine\\Config\\StagedBuild_VehicularCombat.ini",
+                      "bytes":  3,
+                      "size_equal":  true,
+                      "sha256_equal":  true
+                  },
+                  {
+                      "path":  "Engine\\Content\\Renderer\\TessellationTable.bin",
+                      "bytes":  259568,
+                      "size_equal":  true,
+                      "sha256_equal":  true
+                  },
+                  {
+                      "path":  "Engine\\Content\\Slate\\Cursor\\invisible.cur",
+                      "bytes":  326,
+                      "size_equal":  true,
+                      "sha256_equal":  true
+                  },
+                  {
+                      "path":  "Engine\\Content\\SlateDebug\\Fonts\\LastResort.tps",
+                      "bytes":  930,
+                      "size_equal":  true,
+                      "sha256_equal":  true
+                  },
+                  {
+                      "path":  "Engine\\Content\\SlateDebug\\Fonts\\LastResort.ttf",
+                      "bytes":  5395052,
+                      "size_equal":  true,
+                      "sha256_equal":  true
+                  },
+                  {
+                      "path":  "Engine\\Extras\\GPUDumpViewer\\GPUDumpViewer.html",
+                      "bytes":  195428,
+                      "size_equal":  true,
+                      "sha256_equal":  true
+                  },
+                  {
+                      "path":  "Engine\\Extras\\GPUDumpViewer\\OpenGPUDumpViewer.bat",
+                      "bytes":  879,
+                      "size_equal":  true,
+                      "sha256_equal":  true
+                  },
+                  {
+                      "path":  "Engine\\Extras\\GPUDumpViewer\\OpenGPUDumpViewer.sh",
+                      "bytes":  2165,
+                      "size_equal":  true,
+                      "sha256_equal":  true
+                  },
+                  {
+                      "path":  "Engine\\Plugins\\NNE\\NNERuntimeORT\\Binaries\\ThirdParty\\Onnxruntime\\Win64\\onnxruntime.dll",
+                      "bytes":  17339384,
+                      "size_equal":  true,
+                      "sha256_equal":  true
+                  },
+                  {
+                      "path":  "VehicularCombat\\Binaries\\Win64\\tbb12.dll",
+                      "bytes":  342456,
+                      "size_equal":  true,
+                      "sha256_equal":  true
+                  },
+                  {
+                      "path":  "VehicularCombat\\Binaries\\Win64\\tbbmalloc.dll",
+                      "bytes":  117176,
+                      "size_equal":  true,
+                      "sha256_equal":  true
+                  },
+                  {
+                      "path":  "VehicularCombat\\Binaries\\Win64\\VehicularCombat.exe",
+                      "bytes":  333959680,
+                      "size_equal":  true,
+                      "sha256_equal":  true
+                  },
+                  {
+                      "path":  "VehicularCombat\\Binaries\\Win64\\VehicularCombat.pdb",
+                      "bytes":  379531264,
+                      "size_equal":  true,
+                      "sha256_equal":  true
+                  },
+                  {
+                      "path":  "VehicularCombat\\Binaries\\Win64\\D3D12\\x64\\D3D12Core.dll",
+                      "bytes":  4831768,
+                      "size_equal":  true,
+                      "sha256_equal":  true
+                  },
+                  {
+                      "path":  "VehicularCombat\\Binaries\\Win64\\D3D12\\x64\\d3d12SDKLayers.dll",
+                      "bytes":  4943344,
+                      "size_equal":  true,
+                      "sha256_equal":  true
+                  },
+                  {
+                      "path":  "VehicularCombat\\Binaries\\Win64\\DML\\x64\\DirectML.dll",
+                      "bytes":  18538488,
+                      "size_equal":  true,
+                      "sha256_equal":  true
+                  },
+                  {
+                      "path":  "VehicularCombat\\Content\\Movies\\Loading.mp4",
+                      "bytes":  68059,
+                      "size_equal":  true,
+                      "sha256_equal":  true
+                  },
+                  {
+                      "path":  "VehicularCombat\\Content\\Paks\\global.ucas",
+                      "bytes":  3235136,
+                      "size_equal":  true,
+                      "sha256_equal":  true
+                  },
+                  {
+                      "path":  "VehicularCombat\\Content\\Paks\\global.utoc",
+                      "bytes":  794,
+                      "size_equal":  true,
+                      "sha256_equal":  true
+                  },
+                  {
+                      "path":  "VehicularCombat\\Content\\Paks\\VehicularCombat-Windows.pak",
+                      "bytes":  11277732,
+                      "size_equal":  true,
+                      "sha256_equal":  true
+                  },
+                  {
+                      "path":  "VehicularCombat\\Content\\Paks\\VehicularCombat-Windows.ucas",
+                      "bytes":  341422304,
+                      "size_equal":  true,
+                      "sha256_equal":  true
+                  },
+                  {
+                      "path":  "VehicularCombat\\Content\\Paks\\VehicularCombat-Windows.utoc",
+                      "bytes":  373459,
+                      "size_equal":  true,
+                      "sha256_equal":  true
+                  }
+              ]
+}

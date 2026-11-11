@@ -1,0 +1,13 @@
+{
+  "version": "V8 reference-led exterior study",
+  "objects": 183,
+  "frames": [
+    1,
+    193
+  ],
+  "fps": 24,
+  "cockpit_modeled": false,
+  "dimensions": "estimated metres",
+  "references_inspected": 10,
+  "note": "Toy variants mixed in supplied images; cartoon not validated. Object animation FBX, not a validated skeletal rig."
+}

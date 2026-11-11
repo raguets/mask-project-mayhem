@@ -1,0 +1,24 @@
+{
+  "installed": "C:\\Users\\steph\\.codex\\skills\\mask-asset-production",
+  "project_source": "G:\\DEV\\mask-project-mayhem\\.agents\\skills\\mask-asset-production",
+  "all_installed_files_match": true,
+  "script_syntax_passed": [
+    "export_components.py",
+    "mcp_client.py",
+    "render_review_queue.py"
+  ],
+  "shared_helpers_match_tested_project_helpers": true,
+  "structural_validation": "quick_validate.py passed before installation",
+  "live_mcp_client_smoke": "docs/qa/skill_mcp_smoke_v14.json",
+  "export_session_guard_smoke": "docs/qa/export_helper_smoke/validation.json",
+  "sha256": {
+    "SKILL.md": "83eb0f59b687191abf06138b2786534be2dd1cd62cbf880f1872f17d5d8e9999",
+    "references\\blender-operations.md": "383b59c91b310855c7b2d4b9707d447944d868ad4cc817aa0aa6e0dcdfcaa3c2",
+    "references\\characters-masks.md": "6cb99414f497db586e52bb93fb7054188d3ed94d30b5cde254d0ea7ab7c6afc1",
+    "references\\vehicles.md": "e7cb565a47993fd90f71d285f74324899090eb92d5a49e1ba8abcc215b0cfe0d",
+    "references\\verified-lessons.md": "ae0700f846f9439cea662dcab0dbec6c86368bee1fb6b73714b32e23a5e5ae49",
+    "scripts\\export_components.py": "5417dd0581800a70e92e085e869f467982ad63c9bfb24ae2ea9c5716d7cc5fc6",
+    "scripts\\mcp_client.py": "40cfee2bde71b24270dda9bb8eacf43125f4d7b6d90037a35b2536442d2c3b85",
+    "scripts\\render_review_queue.py": "8ac99e4ac04ed0d762154425cbfc613a032ac73887b099be7a9314fb0bd98cbb"
+  }
+}

@@ -1,0 +1,2101 @@
+{
+  "scope": "Every integer vehicle frame, evaluated surface triangles. Not continuous-time or contained-volume certification.",
+  "four_states": [
+    {
+      "drive": 0,
+      "mask": false,
+      "visible_mask_parts": 0,
+      "same_meshes": true,
+      "face_retained": true,
+      "head_bounds": {
+        "min": [
+          -0.08216428011655807,
+          -0.08989071846008301,
+          1.4789998531341553
+        ],
+        "max": [
+          0.1339120864868164,
+          0.08871199935674667,
+          1.7843471765518188
+        ]
+      }
+    },
+    {
+      "drive": 0,
+      "mask": true,
+      "visible_mask_parts": 22,
+      "same_meshes": true,
+      "face_retained": true,
+      "head_bounds": {
+        "min": [
+          -0.08216428011655807,
+          -0.08989071846008301,
+          1.4789998531341553
+        ],
+        "max": [
+          0.1339120864868164,
+          0.08871199935674667,
+          1.7843471765518188
+        ]
+      }
+    },
+    {
+      "drive": 1,
+      "mask": false,
+      "visible_mask_parts": 0,
+      "same_meshes": true,
+      "face_retained": true,
+      "head_bounds": {
+        "min": [
+          -0.6741644144058228,
+          0.31010931730270386,
+          0.9244900941848755
+        ],
+        "max": [
+          -0.45808807015419006,
+          0.48871201276779175,
+          1.2493470907211304
+        ]
+      }
+    },
+    {
+      "drive": 1,
+      "mask": true,
+      "visible_mask_parts": 22,
+      "same_meshes": true,
+      "face_retained": true,
+      "head_bounds": {
+        "min": [
+          -0.6741644144058228,
+          0.31010931730270386,
+          0.9244900941848755
+        ],
+        "max": [
+          -0.45808807015419006,
+          0.48871201276779175,
+          1.2493470907211304
+        ]
+      }
+    }
+  ],
+  "collar_fit": [
+    {
+      "drive": 0,
+      "base_samples": 128,
+      "gap_min_m": 0.0013741111615672708,
+      "gap_mean_m": 0.0033842500706668943,
+      "gap_max_m": 0.003905105171725154,
+      "samples_more_than_2mm_inside_suit": 0
+    },
+    {
+      "drive": 1,
+      "base_samples": 128,
+      "gap_min_m": 0.0003332089981995523,
+      "gap_mean_m": 0.0032966269991447916,
+      "gap_max_m": 0.004629138857126236,
+      "samples_more_than_2mm_inside_suit": 0
+    }
+  ],
+  "frames": [
+    {
+      "frame": 1,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 2,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 3,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 4,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 5,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 6,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 7,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 8,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 9,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 10,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 11,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 12,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 13,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 14,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 15,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 16,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 17,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 18,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 19,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 20,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 21,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 22,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 23,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 24,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 25,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 26,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 27,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 28,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 29,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 30,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 31,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 32,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 33,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 34,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 35,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 36,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 37,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 38,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 39,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 40,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 41,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 42,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 43,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 44,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 45,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 46,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 47,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 48,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 49,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 50,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 51,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 52,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 53,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 54,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 55,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 56,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 57,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 58,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 59,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 60,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 61,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 62,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 63,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 64,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 65,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 66,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 67,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 68,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 69,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 70,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 71,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 72,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 73,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 74,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 75,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 76,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 77,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 78,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 79,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 80,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 81,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 82,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 83,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 84,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 85,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 86,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 87,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 88,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 89,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 90,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 91,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 92,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 93,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 94,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 95,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 96,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 97,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 98,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 99,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 100,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 101,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 102,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 103,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 104,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 105,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 106,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 107,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 108,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 109,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 110,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 111,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 112,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 113,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 114,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 115,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 116,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 117,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 118,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 119,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 120,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 121,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 122,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 123,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 124,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 125,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 126,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 127,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 128,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 129,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 130,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 131,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 132,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 133,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 134,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 135,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 136,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 137,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 138,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 139,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 140,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 141,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 142,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 143,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 144,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 145,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 146,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 147,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 148,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 149,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 150,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 151,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 152,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 153,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 154,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 155,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 156,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 157,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 158,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 159,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 160,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 161,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 162,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 163,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 164,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 165,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 166,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 167,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 168,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 169,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 170,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 171,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 172,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 173,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 174,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 175,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 176,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 177,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 178,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 179,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 180,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 181,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 182,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 183,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 184,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 185,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 186,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 187,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 188,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 189,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 190,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 191,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 192,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    },
+    {
+      "frame": 193,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "shelf_moving_pairs": 0,
+      "plate_cover_pairs": 0,
+      "plate_reactor_pairs": 0,
+      "reactors_after_cover": true,
+      "cover_vertical": true
+    }
+  ],
+  "one_character_one_armature_one_head": true,
+  "interpretation": "Supplied replica photos/illustrations; neck dimensions and flexible collar construction estimated and authorized.",
+  "helmet_headrest_surface_pairs": 0,
+  "contacts": {
+    "R": {
+      "shoe_pedal_gap_m": 0.0004999728407710791,
+      "glove_rim_gap_m": 1.2172524748166325e-06,
+      "glove_rim_surface_pairs": 183
+    },
+    "L": {
+      "shoe_pedal_gap_m": 0.0004999728407710791,
+      "glove_rim_gap_m": 9.848303079706966e-07,
+      "glove_rim_surface_pairs": 183
+    }
+  },
+  "collider_names": [
+    "THK_DoorShell_L",
+    "THK_DoorGlass_L",
+    "THK_DoorRoofInset_L",
+    "THK_DoorReturnFront_L",
+    "THK_DoorReturnRear_L",
+    "THK_DoorSeal_L",
+    "THK_DoorHandleRecess_L",
+    "THK_DoorHandle_L",
+    "THK_CannonMountRail_L",
+    "THK_DoorCannon_L",
+    "THK_CannonSleeve_L",
+    "THK_CannonMuzzle_L",
+    "THK_CannonBoreBack_L",
+    "THK_CannonSlide_L_Rear",
+    "THK_CannonSlide_L_Front",
+    "THK_CannonGuide_L_Rear",
+    "THK_CannonGuide_L_Front",
+    "THK_DoorShell_R",
+    "THK_DoorGlass_R",
+    "THK_DoorRoofInset_R",
+    "THK_DoorReturnFront_R",
+    "THK_DoorReturnRear_R",
+    "THK_DoorSeal_R",
+    "THK_DoorHandleRecess_R",
+    "THK_DoorHandle_R",
+    "THK_CannonMountRail_R",
+    "THK_DoorCannon_R",
+    "THK_CannonSleeve_R",
+    "THK_CannonMuzzle_R",
+    "THK_CannonBoreBack_R",
+    "THK_CannonSlide_R_Rear",
+    "THK_CannonSlide_R_Front",
+    "THK_CannonGuide_R_Rear",
+    "THK_CannonGuide_R_Front",
+    "THK_RoofSpine",
+    "THK_WindshieldFrame",
+    "THK_Windshield",
+    "THK_DoorAFrame_L",
+    "THK_DoorAFrame_R",
+    "THK_FrontRoofHeader",
+    "THK_RearGlass",
+    "THK_RearRoofHeader",
+    "THK_QuarterGlass_L",
+    "THK_QuarterGlass_R",
+    "THK_DoorPaint_L",
+    "THK_DoorLightning_L",
+    "THK_DoorPaint_R",
+    "THK_DoorLightning_R",
+    "THK_InnerDoorCard_L",
+    "THK_InnerDoorCard_R"
+  ],
+  "vehicle_collision_frames": [],
+  "reactor_order_ok": true,
+  "elapsed_seconds": 29.28
+}

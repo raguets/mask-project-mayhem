@@ -1,0 +1,40 @@
+{
+	"passed": true,
+	"complete": true,
+	"elapsed_seconds": 70.158663600683212,
+	"phase": 4,
+	"checks":
+	{
+		"Thunderhawk_starts_up_10_degree_hill": true,
+		"Thunderhawk_low_speed_half_turn_in_10_seconds": true,
+		"Rhino_starts_up_10_degree_hill": true,
+		"Rhino_low_speed_half_turn_in_10_seconds": true,
+		"Hurricane_starts_up_10_degree_hill": true,
+		"Hurricane_low_speed_half_turn_in_10_seconds": true
+	},
+	"telemetry":
+	{
+		"Thunderhawk_hill_travel_cm": "X=4230.853 Y=6.347 Z=746.053",
+		"Thunderhawk_hill_speed_kmh": 33.090496063232422,
+		"Thunderhawk_hill_throttle": 1,
+		"Thunderhawk_hill_rpm": 5198.58349609375,
+		"Thunderhawk_hill_gear": 1,
+		"Thunderhawk_turn_degrees": 330.60159301757812,
+		"Thunderhawk_turn_span_m": 7.9659876823425293,
+		"Rhino_hill_travel_cm": "X=6306.905 Y=-2.794 Z=1113.068",
+		"Rhino_hill_speed_kmh": 53.903007507324219,
+		"Rhino_hill_throttle": 1,
+		"Rhino_hill_rpm": 3377.984619140625,
+		"Rhino_hill_gear": 1,
+		"Rhino_turn_degrees": 164.50761413574219,
+		"Rhino_turn_span_m": 13.930316925048828,
+		"Hurricane_hill_travel_cm": "X=2816.803 Y=1.276 Z=496.929",
+		"Hurricane_hill_speed_kmh": 18.980125427246094,
+		"Hurricane_hill_throttle": 1,
+		"Hurricane_hill_rpm": 2601.9990234375,
+		"Hurricane_hill_gear": 1,
+		"Hurricane_turn_degrees": 246.59353637695312,
+		"Hurricane_turn_span_m": 8.3742866516113281
+	},
+	"fixture": "Three existing playable Blueprint Chaos vehicles on an explicit 10-degree ramp for an 8-second full-throttle hill start, then a flat 10-second full-lock turn at approximately 3m/s. Placement/reset only between scenarios; injected gamepad axes during measurements. Not manual validation."
+}

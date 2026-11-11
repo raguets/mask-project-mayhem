@@ -1,0 +1,725 @@
+{
+  "status": "complete",
+  "elapsed_seconds": 340.74,
+  "scene_file": "G:\\DEV\\mask-project-mayhem\\art_source\\Hurricane\\Hurricane_V6_Assembly.blend",
+  "job": {
+    "rig": "Hurricane_Control",
+    "rig_properties": [
+      "battle_mode",
+      "spare_eject"
+    ],
+    "actors": {
+      "HondoMacLean_Rig": [
+        "driving_pose",
+        "in_vehicle",
+        "mask_on"
+      ]
+    },
+    "output_dir": "G:\\DEV\\mask-project-mayhem\\art_source\\Hurricane\\renders\\v6_review",
+    "samples": 24,
+    "width": 1280,
+    "height": 960,
+    "device": "GPU",
+    "views": [
+      {
+        "name": "01_road",
+        "frame": 1,
+        "properties": {},
+        "object_states": {
+          "HondoMacLean_Rig": {
+            "properties": {
+              "driving_pose": 1,
+              "in_vehicle": 1,
+              "mask_on": false
+            }
+          }
+        },
+        "camera": [
+          8.1,
+          -7.6,
+          4.2
+        ],
+        "target": [
+          0,
+          0,
+          0.85
+        ],
+        "lens": 52
+      },
+      {
+        "name": "02_battle",
+        "frame": 151,
+        "properties": {},
+        "object_states": {
+          "HondoMacLean_Rig": {
+            "properties": {
+              "driving_pose": 1,
+              "in_vehicle": 1,
+              "mask_on": true
+            }
+          }
+        },
+        "camera": [
+          8,
+          -8,
+          5.1
+        ],
+        "target": [
+          0,
+          0,
+          1.45
+        ],
+        "lens": 49
+      },
+      {
+        "name": "03_profile",
+        "frame": 151,
+        "properties": {},
+        "object_states": {
+          "HondoMacLean_Rig": {
+            "properties": {
+              "driving_pose": 1,
+              "in_vehicle": 1,
+              "mask_on": false
+            }
+          }
+        },
+        "camera": [
+          0.15,
+          -11,
+          2.9
+        ],
+        "target": [
+          0,
+          0,
+          1.4
+        ],
+        "lens": 54
+      },
+      {
+        "name": "04_rear_eject",
+        "frame": 191,
+        "properties": {},
+        "object_states": {
+          "HondoMacLean_Rig": {
+            "properties": {
+              "driving_pose": 1,
+              "in_vehicle": 1,
+              "mask_on": true
+            }
+          }
+        },
+        "camera": [
+          -9,
+          7,
+          4.3
+        ],
+        "target": [
+          -1.1,
+          0,
+          1.25
+        ],
+        "lens": 48
+      },
+      {
+        "name": "05_hondo_stand",
+        "frame": 1,
+        "properties": {},
+        "object_states": {
+          "HondoMacLean_Rig": {
+            "properties": {
+              "driving_pose": 0,
+              "in_vehicle": 0,
+              "mask_on": false
+            }
+          }
+        },
+        "camera": [
+          3,
+          -3.6,
+          2.0
+        ],
+        "target": [
+          0,
+          0,
+          0.91
+        ],
+        "lens": 58,
+        "hide_collections": [
+          "HU_Body",
+          "HU_RunningGear",
+          "HU_Interior",
+          "HU_Weapons"
+        ]
+      },
+      {
+        "name": "06_hondo_stand_mask",
+        "frame": 1,
+        "properties": {},
+        "object_states": {
+          "HondoMacLean_Rig": {
+            "properties": {
+              "driving_pose": 0,
+              "in_vehicle": 0,
+              "mask_on": true
+            }
+          }
+        },
+        "camera": [
+          3,
+          -3.6,
+          2.0
+        ],
+        "target": [
+          0,
+          0,
+          0.91
+        ],
+        "lens": 58,
+        "hide_collections": [
+          "HU_Body",
+          "HU_RunningGear",
+          "HU_Interior",
+          "HU_Weapons"
+        ]
+      },
+      {
+        "name": "07_hondo_seated",
+        "frame": 1,
+        "properties": {},
+        "object_states": {
+          "HondoMacLean_Rig": {
+            "properties": {
+              "driving_pose": 1,
+              "in_vehicle": 0,
+              "mask_on": false
+            }
+          }
+        },
+        "camera": [
+          2.8,
+          -3,
+          1.65
+        ],
+        "target": [
+          0.0,
+          0,
+          0.62
+        ],
+        "lens": 58,
+        "hide_collections": [
+          "HU_Body",
+          "HU_RunningGear",
+          "HU_Interior",
+          "HU_Weapons"
+        ]
+      },
+      {
+        "name": "08_hondo_seated_mask",
+        "frame": 1,
+        "properties": {},
+        "object_states": {
+          "HondoMacLean_Rig": {
+            "properties": {
+              "driving_pose": 1,
+              "in_vehicle": 0,
+              "mask_on": true
+            }
+          }
+        },
+        "camera": [
+          2.8,
+          -3,
+          1.65
+        ],
+        "target": [
+          0.0,
+          0,
+          0.62
+        ],
+        "lens": 58,
+        "hide_collections": [
+          "HU_Body",
+          "HU_RunningGear",
+          "HU_Interior",
+          "HU_Weapons"
+        ]
+      },
+      {
+        "name": "09_gunner",
+        "frame": 151,
+        "properties": {},
+        "object_states": {
+          "HondoMacLean_Rig": {
+            "properties": {
+              "driving_pose": 1,
+              "in_vehicle": 1,
+              "mask_on": false
+            }
+          }
+        },
+        "camera": [
+          3.3,
+          -3.5,
+          3.7
+        ],
+        "target": [
+          0.1,
+          0,
+          2.5
+        ],
+        "lens": 55
+      },
+      {
+        "name": "10_gunner_mask",
+        "frame": 151,
+        "properties": {},
+        "object_states": {
+          "HondoMacLean_Rig": {
+            "properties": {
+              "driving_pose": 1,
+              "in_vehicle": 1,
+              "mask_on": true
+            }
+          }
+        },
+        "camera": [
+          -2.3,
+          -3.4,
+          3.5
+        ],
+        "target": [
+          0.1,
+          0,
+          2.5
+        ],
+        "lens": 55
+      },
+      {
+        "name": "11_chassis",
+        "frame": 151,
+        "properties": {},
+        "object_states": {
+          "HondoMacLean_Rig": {
+            "properties": {
+              "driving_pose": 1,
+              "in_vehicle": 1,
+              "mask_on": true
+            }
+          }
+        },
+        "camera": [
+          0.1,
+          -7.3,
+          1.4
+        ],
+        "target": [
+          0,
+          0,
+          0.6
+        ],
+        "lens": 65
+      },
+      {
+        "name": "12_right_cannon",
+        "frame": 151,
+        "properties": {},
+        "object_states": {
+          "HondoMacLean_Rig": {
+            "properties": {
+              "driving_pose": 1,
+              "in_vehicle": 1,
+              "mask_on": true
+            }
+          }
+        },
+        "camera": [
+          4.2,
+          -4.8,
+          2.8
+        ],
+        "target": [
+          1,
+          -0.25,
+          1.4
+        ],
+        "lens": 62
+      }
+    ]
+  },
+  "renders": [
+    {
+      "view": {
+        "name": "01_road",
+        "frame": 1,
+        "properties": {},
+        "object_states": {
+          "HondoMacLean_Rig": {
+            "properties": {
+              "driving_pose": 1,
+              "in_vehicle": 1,
+              "mask_on": false
+            }
+          }
+        },
+        "camera": [
+          8.1,
+          -7.6,
+          4.2
+        ],
+        "target": [
+          0,
+          0,
+          0.85
+        ],
+        "lens": 52
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Hurricane\\renders\\v6_review\\01_road.png",
+      "size_bytes": 1429402
+    },
+    {
+      "view": {
+        "name": "02_battle",
+        "frame": 151,
+        "properties": {},
+        "object_states": {
+          "HondoMacLean_Rig": {
+            "properties": {
+              "driving_pose": 1,
+              "in_vehicle": 1,
+              "mask_on": true
+            }
+          }
+        },
+        "camera": [
+          8,
+          -8,
+          5.1
+        ],
+        "target": [
+          0,
+          0,
+          1.45
+        ],
+        "lens": 49
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Hurricane\\renders\\v6_review\\02_battle.png",
+      "size_bytes": 1495873
+    },
+    {
+      "view": {
+        "name": "03_profile",
+        "frame": 151,
+        "properties": {},
+        "object_states": {
+          "HondoMacLean_Rig": {
+            "properties": {
+              "driving_pose": 1,
+              "in_vehicle": 1,
+              "mask_on": false
+            }
+          }
+        },
+        "camera": [
+          0.15,
+          -11,
+          2.9
+        ],
+        "target": [
+          0,
+          0,
+          1.4
+        ],
+        "lens": 54
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Hurricane\\renders\\v6_review\\03_profile.png",
+      "size_bytes": 1430352
+    },
+    {
+      "view": {
+        "name": "04_rear_eject",
+        "frame": 191,
+        "properties": {},
+        "object_states": {
+          "HondoMacLean_Rig": {
+            "properties": {
+              "driving_pose": 1,
+              "in_vehicle": 1,
+              "mask_on": true
+            }
+          }
+        },
+        "camera": [
+          -9,
+          7,
+          4.3
+        ],
+        "target": [
+          -1.1,
+          0,
+          1.25
+        ],
+        "lens": 48
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Hurricane\\renders\\v6_review\\04_rear_eject.png",
+      "size_bytes": 1409185
+    },
+    {
+      "view": {
+        "name": "05_hondo_stand",
+        "frame": 1,
+        "properties": {},
+        "object_states": {
+          "HondoMacLean_Rig": {
+            "properties": {
+              "driving_pose": 0,
+              "in_vehicle": 0,
+              "mask_on": false
+            }
+          }
+        },
+        "camera": [
+          3,
+          -3.6,
+          2.0
+        ],
+        "target": [
+          0,
+          0,
+          0.91
+        ],
+        "lens": 58,
+        "hide_collections": [
+          "HU_Body",
+          "HU_RunningGear",
+          "HU_Interior",
+          "HU_Weapons"
+        ]
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Hurricane\\renders\\v6_review\\05_hondo_stand.png",
+      "size_bytes": 1266098
+    },
+    {
+      "view": {
+        "name": "06_hondo_stand_mask",
+        "frame": 1,
+        "properties": {},
+        "object_states": {
+          "HondoMacLean_Rig": {
+            "properties": {
+              "driving_pose": 0,
+              "in_vehicle": 0,
+              "mask_on": true
+            }
+          }
+        },
+        "camera": [
+          3,
+          -3.6,
+          2.0
+        ],
+        "target": [
+          0,
+          0,
+          0.91
+        ],
+        "lens": 58,
+        "hide_collections": [
+          "HU_Body",
+          "HU_RunningGear",
+          "HU_Interior",
+          "HU_Weapons"
+        ]
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Hurricane\\renders\\v6_review\\06_hondo_stand_mask.png",
+      "size_bytes": 1286834
+    },
+    {
+      "view": {
+        "name": "07_hondo_seated",
+        "frame": 1,
+        "properties": {},
+        "object_states": {
+          "HondoMacLean_Rig": {
+            "properties": {
+              "driving_pose": 1,
+              "in_vehicle": 0,
+              "mask_on": false
+            }
+          }
+        },
+        "camera": [
+          2.8,
+          -3,
+          1.65
+        ],
+        "target": [
+          0.0,
+          0,
+          0.62
+        ],
+        "lens": 58,
+        "hide_collections": [
+          "HU_Body",
+          "HU_RunningGear",
+          "HU_Interior",
+          "HU_Weapons"
+        ]
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Hurricane\\renders\\v6_review\\07_hondo_seated.png",
+      "size_bytes": 1299524
+    },
+    {
+      "view": {
+        "name": "08_hondo_seated_mask",
+        "frame": 1,
+        "properties": {},
+        "object_states": {
+          "HondoMacLean_Rig": {
+            "properties": {
+              "driving_pose": 1,
+              "in_vehicle": 0,
+              "mask_on": true
+            }
+          }
+        },
+        "camera": [
+          2.8,
+          -3,
+          1.65
+        ],
+        "target": [
+          0.0,
+          0,
+          0.62
+        ],
+        "lens": 58,
+        "hide_collections": [
+          "HU_Body",
+          "HU_RunningGear",
+          "HU_Interior",
+          "HU_Weapons"
+        ]
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Hurricane\\renders\\v6_review\\08_hondo_seated_mask.png",
+      "size_bytes": 1318535
+    },
+    {
+      "view": {
+        "name": "09_gunner",
+        "frame": 151,
+        "properties": {},
+        "object_states": {
+          "HondoMacLean_Rig": {
+            "properties": {
+              "driving_pose": 1,
+              "in_vehicle": 1,
+              "mask_on": false
+            }
+          }
+        },
+        "camera": [
+          3.3,
+          -3.5,
+          3.7
+        ],
+        "target": [
+          0.1,
+          0,
+          2.5
+        ],
+        "lens": 55
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Hurricane\\renders\\v6_review\\09_gunner.png",
+      "size_bytes": 1543501
+    },
+    {
+      "view": {
+        "name": "10_gunner_mask",
+        "frame": 151,
+        "properties": {},
+        "object_states": {
+          "HondoMacLean_Rig": {
+            "properties": {
+              "driving_pose": 1,
+              "in_vehicle": 1,
+              "mask_on": true
+            }
+          }
+        },
+        "camera": [
+          -2.3,
+          -3.4,
+          3.5
+        ],
+        "target": [
+          0.1,
+          0,
+          2.5
+        ],
+        "lens": 55
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Hurricane\\renders\\v6_review\\10_gunner_mask.png",
+      "size_bytes": 1519131
+    },
+    {
+      "view": {
+        "name": "11_chassis",
+        "frame": 151,
+        "properties": {},
+        "object_states": {
+          "HondoMacLean_Rig": {
+            "properties": {
+              "driving_pose": 1,
+              "in_vehicle": 1,
+              "mask_on": true
+            }
+          }
+        },
+        "camera": [
+          0.1,
+          -7.3,
+          1.4
+        ],
+        "target": [
+          0,
+          0,
+          0.6
+        ],
+        "lens": 65
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Hurricane\\renders\\v6_review\\11_chassis.png",
+      "size_bytes": 1552244
+    },
+    {
+      "view": {
+        "name": "12_right_cannon",
+        "frame": 151,
+        "properties": {},
+        "object_states": {
+          "HondoMacLean_Rig": {
+            "properties": {
+              "driving_pose": 1,
+              "in_vehicle": 1,
+              "mask_on": true
+            }
+          }
+        },
+        "camera": [
+          4.2,
+          -4.8,
+          2.8
+        ],
+        "target": [
+          1,
+          -0.25,
+          1.4
+        ],
+        "lens": 62
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Hurricane\\renders\\v6_review\\12_right_cannon.png",
+      "size_bytes": 1743926
+    }
+  ],
+  "retained_previous_views": []
+}

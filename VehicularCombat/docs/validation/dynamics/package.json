@@ -1,0 +1,11 @@
+﻿{
+    "package":  "MASK-Dynamics-Development-r2",
+    "binary":  "G:\\DEV\\mask-project-mayhem\\VehicularCombat\\Saved\\Packages\\MASK-Dynamics-Development-r2\\Windows\\VehicularCombat\\Binaries\\Win64\\VehicularCombat.exe",
+    "bytes":  333848576,
+    "sha256":  "FB4637ACFB051E309BA8EB0EEFADDCF7ED71B0A9798BD11627BAECC6B63160F2",
+    "engine":  "5.8.2-56702186",
+    "configuration":  "Win64 Development",
+    "build_cook_run_seconds":  95.71,
+    "base_commit":  "af3c168",
+    "branch":  "feature/moving-transform-dynamics"
+}

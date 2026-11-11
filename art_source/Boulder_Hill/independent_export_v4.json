@@ -1,0 +1,12 @@
+{
+  "source": "G:\\DEV\\mask-project-mayhem\\art_source\\Boulder_Hill\\BoulderHill_V4_Assembly.blend",
+  "outputs": [
+    {
+      "kind": "environment",
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Boulder_Hill\\BoulderHill_V4_Base.blend",
+      "scene": "BoulderHill_V4_Base",
+      "scene_objects": 559
+    }
+  ],
+  "expected": 1
+}

@@ -1,0 +1,8 @@
+﻿[5/5] WriteMetadata VehicularCombatEditor.target [NoUba]
+
+Total time in Unreal Build Accelerator local executor: 18.48 seconds
+Output binary: G:\Program Files\Epic Games\UE_5.8\Engine\Binaries\Win64\UnrealEditor.exe
+
+Result: Succeeded
+Total execution time: 22.42 seconds
+Trace written to file C:\Users\steph\AppData\Local\UnrealBuildTool\Trace.uba with size 7.3kb

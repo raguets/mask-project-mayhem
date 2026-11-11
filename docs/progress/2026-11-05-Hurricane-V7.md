@@ -1,0 +1,17 @@
+# Hurricane V7 — correction du châssis, Hondo et masque
+
+Le relevage de la carrosserie est limité à une course estimée de 0,30 m. Le haut de la paire centrale demeure partiellement caché. Le soubassement noir comporte un caisson plus haut et quatre montants entre les roues. Le canon unique et son volet sont à droite, conformément à la correction utilisateur. Les versions précédentes sont conservées.
+
+Assemblage : `art_source/Hurricane/Hurricane_V7_Assembly.blend`. Sources séparées : `Hurricane_V7_Vehicle.blend`, `art_source/Hondo_MacLean/HondoMacLean_V1.blend` et `HondoMask_V1.blend`. Toutes sont produites via la connexion MCP de Blender ; les commandes sont décrites dans les README de ces dossiers.
+
+La transformation conserve six pneus réels, ouvre le toit vers l'avant, déploie les doubles canons et la plateforme du même Hondo, escamote les lentilles des phares avant la sortie de leurs canons, déploie les canons bas et le disque denté guidé à l'arrière. La roue de secours carénée possède une éjection distincte vers l'arrière. Route à l'image 1, défense à 151, roue en vol à 191, roue au sol à 211.
+
+Hondo utilise une seule armature, un seul corps et une seule tête dans les états debout, assis et au double canon. Le masque est un asset séparé, affichable ou cachable, avec le visage conservé. L'anatomie et la tenue restent une interprétation humaine des illustrations et photographies de figurine fournies. Les sources anatomiques génériques CC0 restent tracées dans `art_source/AnatomyBase/`.
+
+Le contrôle des surfaces évaluées (`art_source/Hurricane/motion_validation_v7.json`) examine 70 positions : coque contre roues et mécanismes, doubles canons contre toit, tête/masque contre toit et coque. Aucune intersection détectée dans ce périmètre, aucun driver invalide ; les identités du rig, du corps, de la tête et des six pneus restent constantes. Le volet du pare-brise suit maintenant son bord incliné réel. Les réserves du toit prennent en compte les canons pendant le mouvement, au-delà des positions extrêmes. Le changement final de peinture n'altère pas ces surfaces mécaniques contrôlées.
+
+Les rendus inspectés sont dans `art_source/Hurricane/renders/v7_final/`. Les quatre états de Hondo debout/assis, masque caché/visible, se trouvent dans `renders/v6_review/05_hondo_stand.png` à `08_hondo_seated_mask.png` ; sa géométrie est identique en V7. Les flammes des flancs passent par des UV et une texture procédurale empaquetée pour éviter les stries de projection près des passages de roues. Les contours et leur générateur restent éditables.
+
+Les réouvertures des sources séparées sont consignées dans `standalone_validation_v7.json`, avec leurs rendus dans `renders/standalone_v7/`. La source de Hondo conserve ses drivers d'os ; seuls les deux liens vers la voiture sont retirés. Les six états debout/assis/tir, avec/sans masque, sont vérifiés sur les mêmes objets après réouverture.
+
+Limites : courses et mécanismes cachés estimés ; contrôles géométriques par échantillons et périmètre défini, sans certification du mouvement continu ou de toutes les combinaisons manuelles. La prise digitale et les contacts rembourrés restent approximatifs. La finition humaine reste stylisée ; retopologie, UV complets, LOD, fidélité photoréaliste et import Unreal non validés. Les leçons utiles sont ajoutées au skill de production, avec les valeurs Hurricane gardées comme résultats locaux.

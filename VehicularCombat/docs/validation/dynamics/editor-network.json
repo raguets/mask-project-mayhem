@@ -1,0 +1,148 @@
+﻿{
+    "passed":  true,
+    "report_directory":  "G:\\DEV\\mask-project-mayhem\\VehicularCombat\\Saved\\Migration\\dynamics-network-editor-03",
+    "roles":  [
+                  {
+                      "role":  "host",
+                      "exit_code":  0,
+                      "report":  {
+                                     "role":  "host",
+                                     "passed":  true,
+                                     "complete":  true,
+                                     "phase":  1,
+                                     "elapsed_seconds":  76.844351600855589,
+                                     "checks":  {
+                                                    "moving_transform_received_on_server":  true,
+                                                    "automatic_takeoff_on_server":  true,
+                                                    "physical_bank_on_server":  true,
+                                                    "automatic_landing_requested_on_server":  true,
+                                                    "player_controls_ejected_module_on_server":  true,
+                                                    "player_returns_to_truck_and_same_module_attaches_on_server":  true,
+                                                    "no_timeout":  true
+                                                },
+                                     "telemetry":  {
+                                                       "latest_remote":  {
+                                                                             "position":  "X=51187.217 Y=19104.793 Z=20013.194",
+                                                                             "rotation":  "P=0.365522 Y=-2.094518 R=0.001096",
+                                                                             "velocity":  "X=2319.614 Y=-84.785 Z=-0.550",
+                                                                             "energy_kj":  1616.33984375,
+                                                                             "airspeed_command_mps":  0,
+                                                                             "ground_clearance_cm":  0,
+                                                                             "mode":  0
+                                                                         }
+                                                   },
+                                     "fixture":  "Opt-in replicated flat platform at 200m, existing playable pawns, injected Xbox inputs. Brake comparisons use explicit initial velocities. No manual docking fixture. Rotorcraft uses a transient Thunderhawk definition as a physics proxy; no helicopter art claimed."
+                                 }
+                  },
+                  {
+                      "role":  "client",
+                      "exit_code":  0,
+                      "report":  {
+                                     "role":  "client",
+                                     "passed":  true,
+                                     "complete":  true,
+                                     "phase":  182,
+                                     "elapsed_seconds":  48.788970500230789,
+                                     "checks":  {
+                                                    "accelerates_on_road":  true,
+                                                    "transforms_while_accelerating":  true,
+                                                    "automatic_small_takeoff":  true,
+                                                    "same_masked_driver_after_takeoff":  true,
+                                                    "banks_right_when_turning_right":  true,
+                                                    "pitches_up_when_climbing":  true,
+                                                    "coordinated_turn_changes_heading":  true,
+                                                    "plane_brake_keeps_minimum_speed_command":  true,
+                                                    "plane_cannot_hover_with_brake_held":  true,
+                                                    "x_starts_automatic_descent_from_altitude":  true,
+                                                    "folding_starts_only_near_ground":  true,
+                                                    "automatically_returns_to_road_without_manual_descent":  true,
+                                                    "landing_preserves_forward_motion":  true,
+                                                    "ground_powertrain_restored":  true,
+                                                    "rhino_drives_before_deployment":  true,
+                                                    "same_module_ejects_immediately_while_truck_moves":  true,
+                                                    "module_inherits_velocity_with_rearward_kick":  true,
+                                                    "player_drives_same_ejected_module":  true,
+                                                    "recall_returns_player_to_same_truck":  true,
+                                                    "same_module_teleports_and_attaches_without_docking":  true,
+                                                    "moving_truck_keeps_momentum_during_quick_recall":  true,
+                                                    "no_timeout":  true
+                                                },
+                                     "telemetry":  {
+                                                       "road_before_transform":  {
+                                                                                     "position":  "X=436.533 Y=0.053 Z=20006.006",
+                                                                                     "rotation":  "P=-0.006860 Y=-0.000190 R=0.000102",
+                                                                                     "velocity":  "X=464.206 Y=0.099 Z=-0.021",
+                                                                                     "energy_kj":  15.62285327911377,
+                                                                                     "airspeed_command_mps":  0,
+                                                                                     "ground_clearance_cm":  0,
+                                                                                     "mode":  0
+                                                                                 },
+                                                       "takeoff":  {
+                                                                       "position":  "X=4275.800 Y=3.941 Z=20234.233",
+                                                                       "rotation":  "P=2.650667 Y=0.000000 R=-0.000000",
+                                                                       "velocity":  "X=1903.943 Y=2.008 Z=106.777",
+                                                                       "energy_kj":  263.6392822265625,
+                                                                       "airspeed_command_mps":  30.490238189697266,
+                                                                       "ground_clearance_cm":  236.61671447753906,
+                                                                       "mode":  2
+                                                                   },
+                                                       "bank_and_climb":  {
+                                                                              "position":  "X=9096.892 Y=412.538 Z=20755.486",
+                                                                              "rotation":  "P=7.031250 Y=11.469584 R=22.500001",
+                                                                              "velocity":  "X=2555.466 Y=550.712 Z=340.634",
+                                                                              "energy_kj":  503.85494995117188,
+                                                                              "airspeed_command_mps":  31.02488899230957,
+                                                                              "ground_clearance_cm":  744.43072509765625,
+                                                                              "mode":  2
+                                                                          },
+                                                       "minimum_speed":  {
+                                                                             "position":  "X=18780.939 Y=5029.636 Z=21672.259",
+                                                                             "rotation":  "P=-0.000043 Y=33.749980 R=-0.000057",
+                                                                             "velocity":  "X=1999.055 Y=1244.751 Z=8.135",
+                                                                             "energy_kj":  402.06253051757812,
+                                                                             "airspeed_command_mps":  18,
+                                                                             "ground_clearance_cm":  1679.572509765625,
+                                                                             "mode":  2
+                                                                         },
+                                                       "landed":  {
+                                                                      "position":  "X=35939.868 Y=16115.520 Z=20005.940",
+                                                                      "rotation":  "P=-0.005955 Y=33.747723 R=-0.020926",
+                                                                      "velocity":  "X=3506.503 Y=2281.395 Z=-0.024",
+                                                                      "energy_kj":  1268.77392578125,
+                                                                      "airspeed_command_mps":  50.975933074951172,
+                                                                      "ground_clearance_cm":  7.0534729957580566,
+                                                                      "mode":  0
+                                                                  },
+                                                       "rhino_ejection":  {
+                                                                              "position":  "X=39304.492 Y=19447.885 Z=20013.429",
+                                                                              "rotation":  "P=0.008627 Y=0.000168 R=0.001535",
+                                                                              "velocity":  "X=615.650 Y=-0.006 Z=-0.269",
+                                                                              "energy_kj":  113.70753479003906,
+                                                                              "airspeed_command_mps":  0,
+                                                                              "ground_clearance_cm":  0,
+                                                                              "mode":  1
+                                                                          },
+                                                       "rhino_recalled":  {
+                                                                              "position":  "X=42005.283 Y=19439.894 Z=20013.167",
+                                                                              "rotation":  "P=0.038542 Y=-1.405756 R=0.000280",
+                                                                              "velocity":  "X=55.724 Y=-1.545 Z=0.205",
+                                                                              "energy_kj":  0.93227601051330566,
+                                                                              "airspeed_command_mps":  0,
+                                                                              "ground_clearance_cm":  0,
+                                                                              "mode":  3
+                                                                          },
+                                                       "moving_truck_recall":  {
+                                                                                   "position":  "X=46704.453 Y=19269.490 Z=20013.296",
+                                                                                   "rotation":  "P=0.045671 Y=-1.401999 R=0.000981",
+                                                                                   "velocity":  "X=1791.350 Y=-65.236 Z=0.075",
+                                                                                   "energy_kj":  963.95721435546875,
+                                                                                   "airspeed_command_mps":  0,
+                                                                                   "ground_clearance_cm":  0,
+                                                                                   "mode":  3
+                                                                               }
+                                                   },
+                                     "fixture":  "Opt-in replicated flat platform at 200m, existing playable pawns, injected Xbox inputs. Brake comparisons use explicit initial velocities. No manual docking fixture. Rotorcraft uses a transient Thunderhawk definition as a physics proxy; no helicopter art claimed."
+                                 }
+                  }
+              ]
+}

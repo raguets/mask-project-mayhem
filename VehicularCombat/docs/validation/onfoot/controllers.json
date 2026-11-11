@@ -1,0 +1,22 @@
+﻿[
+    {
+        "slot":  0,
+        "return_code":  0,
+        "connected":  true
+    },
+    {
+        "slot":  1,
+        "return_code":  1167,
+        "connected":  false
+    },
+    {
+        "slot":  2,
+        "return_code":  1167,
+        "connected":  false
+    },
+    {
+        "slot":  3,
+        "return_code":  1167,
+        "connected":  false
+    }
+]

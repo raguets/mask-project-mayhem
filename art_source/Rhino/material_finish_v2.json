@@ -1,0 +1,17 @@
+{
+  "canonical_material": "Rhino_DeepBurgundy.002",
+  "corrected_objects": [
+    "RH_RearCabinetWing_-1",
+    "RH_RearCabinetWing_1",
+    "RH_UpperWindowFrame_(-1, 0)",
+    "RH_UpperWindowFrame_(-1, 1)",
+    "RH_UpperWindowFrame_(-1, 2)",
+    "RH_UpperWindowFrame_(-1, 3)",
+    "RH_UpperWindowFrame_(1, 0)",
+    "RH_UpperWindowFrame_(1, 1)",
+    "RH_UpperWindowFrame_(1, 2)",
+    "RH_UpperWindowFrame_(1, 3)",
+    "RH_CabinetFrontJamb_-1",
+    "RH_CabinetFrontJamb_1"
+  ]
+}

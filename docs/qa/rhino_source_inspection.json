@@ -1,0 +1,1161 @@
+{
+  "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Thunderhawk\\Thunderhawk_V14.blend",
+  "scene": "THK_V14_ShortNeck_ShoulderFlaredSpectrum",
+  "collections": [
+    "Collection",
+    "MT10_References",
+    "MT11_Character",
+    "MT_EditableLoftCages",
+    "MT_PreviousHandSources",
+    "Spectrum11_Asset",
+    "THK11_Interior",
+    "THK9_Exterior",
+    "THK9_Reference",
+    "THK9_Review"
+  ],
+  "rig": {
+    "location": [
+      0.0,
+      0.4000000059604645,
+      0.0
+    ],
+    "properties": {
+      "mask_on": false,
+      "height_m_estimated": 1.8,
+      "reference_policy": "User supplied illustrations, replica photographs and toy photographs inspected. Anatomical realism and hidden surfaces interpreted, not photo scan.",
+      "asset_type": "Single character with reusable armature; removable Spectrum accessory",
+      "driving_pose": 1,
+      "asset_version": "Matt Trakker V5 / Spectrum V4",
+      "reference_fidelity": "Human interpretation of supplied illustrated portrait explicitly authorized 2026-11-02. No likeness to a specific real person.",
+      "neck_refinement": "Head/attachments lowered 35 mm, neck unclamped and smoothly reweighted. Anatomical dimensions estimated."
+    },
+    "bones": [
+      {
+        "name": "pelvis",
+        "head": [
+          0.0,
+          0.0,
+          0.9300000071525574
+        ],
+        "tail": [
+          0.0,
+          0.0,
+          1.059999942779541
+        ]
+      },
+      {
+        "name": "spine",
+        "head": [
+          0.0,
+          0.0,
+          1.059999942779541
+        ],
+        "tail": [
+          -0.012000000104308128,
+          0.0,
+          1.2699999809265137
+        ]
+      },
+      {
+        "name": "chest",
+        "head": [
+          -0.012000000104308128,
+          0.0,
+          1.2699999809265137
+        ],
+        "tail": [
+          -0.017999999225139618,
+          0.0,
+          1.4800000190734863
+        ]
+      },
+      {
+        "name": "neck",
+        "head": [
+          -0.017999999225139618,
+          0.0,
+          1.4800000190734863
+        ],
+        "tail": [
+          -0.00800000037997961,
+          0.0,
+          1.5499999523162842
+        ]
+      },
+      {
+        "name": "head",
+        "head": [
+          -0.00800000037997961,
+          0.0,
+          1.5499999523162842
+        ],
+        "tail": [
+          -0.00800000037997961,
+          0.0,
+          1.7799999713897705
+        ]
+      },
+      {
+        "name": "upper_arm.L",
+        "head": [
+          -0.004999999888241291,
+          0.19499999284744263,
+          1.434999942779541
+        ],
+        "tail": [
+          0.004999999888241291,
+          0.25,
+          1.1549999713897705
+        ]
+      },
+      {
+        "name": "forearm.L",
+        "head": [
+          0.004999999888241291,
+          0.25,
+          1.1549999713897705
+        ],
+        "tail": [
+          0.02500000037252903,
+          0.2849999964237213,
+          0.9150000214576721
+        ]
+      },
+      {
+        "name": "hand.L",
+        "head": [
+          0.02500000037252903,
+          0.2849999964237213,
+          0.9150000214576721
+        ],
+        "tail": [
+          0.04500000178813934,
+          0.29100000858306885,
+          0.824999988079071
+        ]
+      },
+      {
+        "name": "upper_arm.R",
+        "head": [
+          -0.004999999888241291,
+          -0.19499999284744263,
+          1.434999942779541
+        ],
+        "tail": [
+          0.004999999888241291,
+          -0.25,
+          1.1549999713897705
+        ]
+      },
+      {
+        "name": "forearm.R",
+        "head": [
+          0.004999999888241291,
+          -0.25,
+          1.1549999713897705
+        ],
+        "tail": [
+          0.02500000037252903,
+          -0.2849999964237213,
+          0.9150000214576721
+        ]
+      },
+      {
+        "name": "hand.R",
+        "head": [
+          0.02500000037252903,
+          -0.2849999964237213,
+          0.9150000214576721
+        ],
+        "tail": [
+          0.04500000178813934,
+          -0.29100000858306885,
+          0.824999988079071
+        ]
+      },
+      {
+        "name": "thigh.L",
+        "head": [
+          0.0,
+          0.0949999988079071,
+          0.9549999833106995
+        ],
+        "tail": [
+          0.019999999552965164,
+          0.10999999940395355,
+          0.5350000262260437
+        ]
+      },
+      {
+        "name": "shin.L",
+        "head": [
+          0.019999999552965164,
+          0.10999999940395355,
+          0.5350000262260437
+        ],
+        "tail": [
+          0.0,
+          0.10999999940395355,
+          0.11500000208616257
+        ]
+      },
+      {
+        "name": "foot.L",
+        "head": [
+          0.0,
+          0.10999999940395355,
+          0.11500000208616257
+        ],
+        "tail": [
+          0.14000000059604645,
+          0.10999999940395355,
+          0.05999999865889549
+        ]
+      },
+      {
+        "name": "thigh.R",
+        "head": [
+          0.0,
+          -0.0949999988079071,
+          0.9549999833106995
+        ],
+        "tail": [
+          0.019999999552965164,
+          -0.10999999940395355,
+          0.5350000262260437
+        ]
+      },
+      {
+        "name": "shin.R",
+        "head": [
+          0.019999999552965164,
+          -0.10999999940395355,
+          0.5350000262260437
+        ],
+        "tail": [
+          0.0,
+          -0.10999999940395355,
+          0.11500000208616257
+        ]
+      },
+      {
+        "name": "foot.R",
+        "head": [
+          0.0,
+          -0.10999999940395355,
+          0.11500000208616257
+        ],
+        "tail": [
+          0.14000000059604645,
+          -0.10999999940395355,
+          0.05999999865889549
+        ]
+      }
+    ]
+  },
+  "character_objects": [
+    {
+      "name": "MattTrakker_Rig",
+      "type": "ARMATURE",
+      "parent": null,
+      "vertices": null,
+      "materials": []
+    },
+    {
+      "name": "MT_ArmBand_L",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 200,
+      "materials": [
+        "MT2_RedLeather"
+      ]
+    },
+    {
+      "name": "MT_Cuff_L",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 200,
+      "materials": [
+        "MT2_RedLeather"
+      ]
+    },
+    {
+      "name": "MT_CargoPocket_L",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 8,
+      "materials": [
+        "MT2_WovenGrey"
+      ]
+    },
+    {
+      "name": "MT_PocketFlap_L",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 8,
+      "materials": [
+        "MT2_SeamGrey"
+      ]
+    },
+    {
+      "name": "MT_KneePatch_L",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 437,
+      "materials": [
+        "MT2_RedLeather"
+      ]
+    },
+    {
+      "name": "MT_Harness_L_Front",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 10,
+      "materials": [
+        "MT2_HarnessWebbing"
+      ]
+    },
+    {
+      "name": "MT_Harness_L_Back",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 10,
+      "materials": [
+        "MT2_HarnessWebbing"
+      ]
+    },
+    {
+      "name": "MT_ArmBand_R",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 200,
+      "materials": [
+        "MT2_RedLeather"
+      ]
+    },
+    {
+      "name": "MT_Cuff_R",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 200,
+      "materials": [
+        "MT2_RedLeather"
+      ]
+    },
+    {
+      "name": "MT_CargoPocket_R",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 8,
+      "materials": [
+        "MT2_WovenGrey"
+      ]
+    },
+    {
+      "name": "MT_PocketFlap_R",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 8,
+      "materials": [
+        "MT2_SeamGrey"
+      ]
+    },
+    {
+      "name": "MT_KneePatch_R",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 437,
+      "materials": [
+        "MT2_RedLeather"
+      ]
+    },
+    {
+      "name": "MT_Harness_R_Front",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 10,
+      "materials": [
+        "MT2_HarnessWebbing"
+      ]
+    },
+    {
+      "name": "MT_Harness_R_Back",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 10,
+      "materials": [
+        "MT2_HarnessWebbing"
+      ]
+    },
+    {
+      "name": "MT_Belt",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 970,
+      "materials": [
+        "MT2_HarnessWebbing"
+      ]
+    },
+    {
+      "name": "MT_BeltBuckle",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 8,
+      "materials": [
+        "MT2_BrushedBuckle"
+      ]
+    },
+    {
+      "name": "MT_HarnessCenterBuckle",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 96,
+      "materials": [
+        "MT2_BrushedBuckle"
+      ]
+    },
+    {
+      "name": "MT_FrontZip",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 40,
+      "materials": [
+        "MT2_SeamGrey"
+      ]
+    },
+    {
+      "name": "MT_ZipTooth_0",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 8,
+      "materials": [
+        "MT2_BrushedBuckle"
+      ]
+    },
+    {
+      "name": "MT_ZipTooth_1",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 8,
+      "materials": [
+        "MT2_BrushedBuckle"
+      ]
+    },
+    {
+      "name": "MT_ZipTooth_2",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 8,
+      "materials": [
+        "MT2_BrushedBuckle"
+      ]
+    },
+    {
+      "name": "MT_ZipTooth_3",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 8,
+      "materials": [
+        "MT2_BrushedBuckle"
+      ]
+    },
+    {
+      "name": "MT_ZipTooth_4",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 8,
+      "materials": [
+        "MT2_BrushedBuckle"
+      ]
+    },
+    {
+      "name": "MT_ZipTooth_5",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 8,
+      "materials": [
+        "MT2_BrushedBuckle"
+      ]
+    },
+    {
+      "name": "MT_ZipTooth_6",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 8,
+      "materials": [
+        "MT2_BrushedBuckle"
+      ]
+    },
+    {
+      "name": "MT_ZipTooth_7",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 8,
+      "materials": [
+        "MT2_BrushedBuckle"
+      ]
+    },
+    {
+      "name": "MT_ZipTooth_8",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 8,
+      "materials": [
+        "MT2_BrushedBuckle"
+      ]
+    },
+    {
+      "name": "MT_ZipTooth_9",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 8,
+      "materials": [
+        "MT2_BrushedBuckle"
+      ]
+    },
+    {
+      "name": "MT_ZipTooth_10",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 8,
+      "materials": [
+        "MT2_BrushedBuckle"
+      ]
+    },
+    {
+      "name": "MT_ZipTooth_11",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 8,
+      "materials": [
+        "MT2_BrushedBuckle"
+      ]
+    },
+    {
+      "name": "MT_ZipTooth_12",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 8,
+      "materials": [
+        "MT2_BrushedBuckle"
+      ]
+    },
+    {
+      "name": "MT_ZipTooth_13",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 8,
+      "materials": [
+        "MT2_BrushedBuckle"
+      ]
+    },
+    {
+      "name": "MT_ZipTooth_14",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 8,
+      "materials": [
+        "MT2_BrushedBuckle"
+      ]
+    },
+    {
+      "name": "MT_ZipTooth_15",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 8,
+      "materials": [
+        "MT2_BrushedBuckle"
+      ]
+    },
+    {
+      "name": "MT_ZipTooth_16",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 8,
+      "materials": [
+        "MT2_BrushedBuckle"
+      ]
+    },
+    {
+      "name": "MT_ZipTooth_17",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 8,
+      "materials": [
+        "MT2_BrushedBuckle"
+      ]
+    },
+    {
+      "name": "MT_ZipTooth_18",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 8,
+      "materials": [
+        "MT2_BrushedBuckle"
+      ]
+    },
+    {
+      "name": "MT_ZipTooth_19",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 8,
+      "materials": [
+        "MT2_BrushedBuckle"
+      ]
+    },
+    {
+      "name": "MT_ZipTooth_20",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 8,
+      "materials": [
+        "MT2_BrushedBuckle"
+      ]
+    },
+    {
+      "name": "MT_ZipTooth_21",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 8,
+      "materials": [
+        "MT2_BrushedBuckle"
+      ]
+    },
+    {
+      "name": "MT_ZipTooth_22",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 8,
+      "materials": [
+        "MT2_BrushedBuckle"
+      ]
+    },
+    {
+      "name": "MT_ZipTooth_23",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 8,
+      "materials": [
+        "MT2_BrushedBuckle"
+      ]
+    },
+    {
+      "name": "MT_ZipTooth_24",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 8,
+      "materials": [
+        "MT2_BrushedBuckle"
+      ]
+    },
+    {
+      "name": "MT_ZipTooth_25",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 8,
+      "materials": [
+        "MT2_BrushedBuckle"
+      ]
+    },
+    {
+      "name": "MT_ZipTooth_26",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 8,
+      "materials": [
+        "MT2_BrushedBuckle"
+      ]
+    },
+    {
+      "name": "MT_FabricCollar_1.479",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 650,
+      "materials": [
+        "MT2_WovenGrey"
+      ]
+    },
+    {
+      "name": "MT_FabricCollar_1.491",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 650,
+      "materials": [
+        "MT2_WovenGrey"
+      ]
+    },
+    {
+      "name": "MT_Head_AnatomicalSurface",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 13600,
+      "materials": [
+        "MT4_Skin"
+      ]
+    },
+    {
+      "name": "MT_ContinuousFlightSuit",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 107480,
+      "materials": [
+        "MT2_WovenGrey"
+      ]
+    },
+    {
+      "name": "MT_BootSole_L",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 256,
+      "materials": [
+        "Spectrum2_Rubber"
+      ]
+    },
+    {
+      "name": "MT_BootUpper_L",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 704,
+      "materials": [
+        "MT3_BootBlackLeather",
+        "MT2_RedLeather"
+      ]
+    },
+    {
+      "name": "MT_BootWelt_L",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 192,
+      "materials": [
+        "MT3_BootBlackLeather"
+      ]
+    },
+    {
+      "name": "MT_BootSole_R",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 256,
+      "materials": [
+        "Spectrum2_Rubber"
+      ]
+    },
+    {
+      "name": "MT_BootUpper_R",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 704,
+      "materials": [
+        "MT3_BootBlackLeather",
+        "MT2_RedLeather"
+      ]
+    },
+    {
+      "name": "MT_BootWelt_R",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 192,
+      "materials": [
+        "MT3_BootBlackLeather"
+      ]
+    },
+    {
+      "name": "MT_Hair_NaturalSidePart",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 5760,
+      "materials": [
+        "MT4_NaturalBlond"
+      ]
+    },
+    {
+      "name": "MT_Eyeball_L",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 546,
+      "materials": [
+        "MT4_Sclera"
+      ]
+    },
+    {
+      "name": "MT_Iris_L",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 2400,
+      "materials": [
+        "MT4_IrisFibers",
+        "MT4_Pupil"
+      ]
+    },
+    {
+      "name": "MT_Eyeball_R",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 546,
+      "materials": [
+        "MT4_Sclera"
+      ]
+    },
+    {
+      "name": "MT_Iris_R",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 2400,
+      "materials": [
+        "MT4_IrisFibers",
+        "MT4_Pupil"
+      ]
+    },
+    {
+      "name": "MT_Hair_DenseGroom",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 224000,
+      "materials": [
+        "MT4_NaturalBlond",
+        "MT4_BlondVariation"
+      ]
+    },
+    {
+      "name": "MT_Brow_NaturalFibers",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 6800,
+      "materials": [
+        "MT4_BrowHair"
+      ]
+    },
+    {
+      "name": "MT_GloveSkin_L",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 3300,
+      "materials": [
+        "MT2_RedLeather"
+      ]
+    },
+    {
+      "name": "MT_GloveSkin_R",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 3300,
+      "materials": [
+        "MT2_RedLeather"
+      ]
+    },
+    {
+      "name": "MT_Suit_Torso",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 4160,
+      "materials": [
+        "MT2_WovenGrey"
+      ]
+    },
+    {
+      "name": "MT_ContinuousSleeve_L",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 1960,
+      "materials": [
+        "MT2_WovenGrey"
+      ]
+    },
+    {
+      "name": "MT_ContinuousTrouser_L",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 1960,
+      "materials": [
+        "MT2_WovenGrey"
+      ]
+    },
+    {
+      "name": "MT_ContinuousSleeve_R",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 1960,
+      "materials": [
+        "MT2_WovenGrey"
+      ]
+    },
+    {
+      "name": "MT_ContinuousTrouser_R",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 1960,
+      "materials": [
+        "MT2_WovenGrey"
+      ]
+    },
+    {
+      "name": "MT_DeltoidCloth_L",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 1082,
+      "materials": [
+        "MT2_WovenGrey"
+      ]
+    },
+    {
+      "name": "MT_DeltoidCloth_R",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 1082,
+      "materials": [
+        "MT2_WovenGrey"
+      ]
+    },
+    {
+      "name": "MT_GlovePalm_L",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 1082,
+      "materials": [
+        "MT2_RedLeather"
+      ]
+    },
+    {
+      "name": "MT_GloveFinger_L0",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 40,
+      "materials": [
+        "MT2_RedLeather"
+      ]
+    },
+    {
+      "name": "MT_GloveKnuckleSeam_L01",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 30,
+      "materials": [
+        "MT2_SeamGrey"
+      ]
+    },
+    {
+      "name": "MT_GloveKnuckleSeam_L02",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 30,
+      "materials": [
+        "MT2_SeamGrey"
+      ]
+    },
+    {
+      "name": "MT_GloveFinger_L1",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 40,
+      "materials": [
+        "MT2_RedLeather"
+      ]
+    },
+    {
+      "name": "MT_GloveKnuckleSeam_L11",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 30,
+      "materials": [
+        "MT2_SeamGrey"
+      ]
+    },
+    {
+      "name": "MT_GloveKnuckleSeam_L12",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 30,
+      "materials": [
+        "MT2_SeamGrey"
+      ]
+    },
+    {
+      "name": "MT_GloveFinger_L2",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 40,
+      "materials": [
+        "MT2_RedLeather"
+      ]
+    },
+    {
+      "name": "MT_GloveKnuckleSeam_L21",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 30,
+      "materials": [
+        "MT2_SeamGrey"
+      ]
+    },
+    {
+      "name": "MT_GloveKnuckleSeam_L22",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 30,
+      "materials": [
+        "MT2_SeamGrey"
+      ]
+    },
+    {
+      "name": "MT_GloveFinger_L3",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 40,
+      "materials": [
+        "MT2_RedLeather"
+      ]
+    },
+    {
+      "name": "MT_GloveKnuckleSeam_L31",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 30,
+      "materials": [
+        "MT2_SeamGrey"
+      ]
+    },
+    {
+      "name": "MT_GloveKnuckleSeam_L32",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 30,
+      "materials": [
+        "MT2_SeamGrey"
+      ]
+    },
+    {
+      "name": "MT_GloveThumb_L",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 30,
+      "materials": [
+        "MT2_RedLeather"
+      ]
+    },
+    {
+      "name": "MT_GlovePalm_R",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 1082,
+      "materials": [
+        "MT2_RedLeather"
+      ]
+    },
+    {
+      "name": "MT_GloveFinger_R0",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 40,
+      "materials": [
+        "MT2_RedLeather"
+      ]
+    },
+    {
+      "name": "MT_GloveKnuckleSeam_R01",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 30,
+      "materials": [
+        "MT2_SeamGrey"
+      ]
+    },
+    {
+      "name": "MT_GloveKnuckleSeam_R02",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 30,
+      "materials": [
+        "MT2_SeamGrey"
+      ]
+    },
+    {
+      "name": "MT_GloveFinger_R1",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 40,
+      "materials": [
+        "MT2_RedLeather"
+      ]
+    },
+    {
+      "name": "MT_GloveKnuckleSeam_R11",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 30,
+      "materials": [
+        "MT2_SeamGrey"
+      ]
+    },
+    {
+      "name": "MT_GloveKnuckleSeam_R12",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 30,
+      "materials": [
+        "MT2_SeamGrey"
+      ]
+    },
+    {
+      "name": "MT_GloveFinger_R2",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 40,
+      "materials": [
+        "MT2_RedLeather"
+      ]
+    },
+    {
+      "name": "MT_GloveKnuckleSeam_R21",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 30,
+      "materials": [
+        "MT2_SeamGrey"
+      ]
+    },
+    {
+      "name": "MT_GloveKnuckleSeam_R22",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 30,
+      "materials": [
+        "MT2_SeamGrey"
+      ]
+    },
+    {
+      "name": "MT_GloveFinger_R3",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 40,
+      "materials": [
+        "MT2_RedLeather"
+      ]
+    },
+    {
+      "name": "MT_GloveKnuckleSeam_R31",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 30,
+      "materials": [
+        "MT2_SeamGrey"
+      ]
+    },
+    {
+      "name": "MT_GloveKnuckleSeam_R32",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 30,
+      "materials": [
+        "MT2_SeamGrey"
+      ]
+    },
+    {
+      "name": "MT_GloveThumb_R",
+      "type": "MESH",
+      "parent": "MattTrakker_Rig",
+      "vertices": 30,
+      "materials": [
+        "MT2_RedLeather"
+      ]
+    }
+  ]
+}

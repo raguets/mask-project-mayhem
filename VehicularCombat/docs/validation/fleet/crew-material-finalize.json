@@ -1,0 +1,45 @@
+{
+  "passed": true,
+  "meshes": [
+    {
+      "mesh": "/Game/MASK/Thunderhawk/SK_Matt.SK_Matt",
+      "assigned_slots": 12
+    },
+    {
+      "mesh": "/Game/MASK/Thunderhawk/SK_MattHair.SK_MattHair",
+      "assigned_slots": 2
+    },
+    {
+      "mesh": "/Game/MASK/Thunderhawk/SK_Spectrum.SK_Spectrum",
+      "assigned_slots": 5
+    },
+    {
+      "mesh": "/Game/MASK/Rhino/SK_Alex.SK_Alex",
+      "assigned_slots": 15
+    },
+    {
+      "mesh": "/Game/MASK/Rhino/SK_AlexMask.SK_AlexMask",
+      "assigned_slots": 3
+    },
+    {
+      "mesh": "/Game/MASK/Rhino/SK_Bruce.SK_Bruce",
+      "assigned_slots": 13
+    },
+    {
+      "mesh": "/Game/MASK/Rhino/SK_BruceHair.SK_BruceHair",
+      "assigned_slots": 2
+    },
+    {
+      "mesh": "/Game/MASK/Rhino/SK_BruceMask.SK_BruceMask",
+      "assigned_slots": 6
+    },
+    {
+      "mesh": "/Game/MASK/Hurricane/SK_Hondo.SK_Hondo",
+      "assigned_slots": 12
+    },
+    {
+      "mesh": "/Game/MASK/Hurricane/SK_HondoMask.SK_HondoMask",
+      "assigned_slots": 4
+    }
+  ]
+}

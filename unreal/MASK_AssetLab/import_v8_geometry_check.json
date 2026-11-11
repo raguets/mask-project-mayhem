@@ -1,0 +1,741 @@
+{
+  "checked_meshes": 183,
+  "tolerance_cm": 0.1,
+  "max_bound_error_cm": 3.0517578125e-05,
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "THK_Body",
+      "max_bound_error_cm": 7.62939453125e-06
+    },
+    {
+      "name": "THK_C_Pillar_L_0",
+      "max_bound_error_cm": 7.62939453125e-06
+    },
+    {
+      "name": "THK_C_Pillar_L_1",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_C_Pillar_L_2",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_C_Pillar_R_0",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_C_Pillar_R_1",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_C_Pillar_R_2",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_CannonBracket_L",
+      "max_bound_error_cm": 9.5367431640625e-06
+    },
+    {
+      "name": "THK_CannonBracket_R",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_CannonSlide_L",
+      "max_bound_error_cm": 7.62939453125e-06
+    },
+    {
+      "name": "THK_CannonSlide_R",
+      "max_bound_error_cm": 7.62939453125e-06
+    },
+    {
+      "name": "THK_CannonTelescopicGuide_L",
+      "max_bound_error_cm": 9.5367431640625e-06
+    },
+    {
+      "name": "THK_CannonTelescopicGuide_R",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_DoorCannonBore_L",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_DoorCannonBore_R",
+      "max_bound_error_cm": 7.62939453125e-06
+    },
+    {
+      "name": "THK_DoorCannonMuzzle_L",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_DoorCannonMuzzle_R",
+      "max_bound_error_cm": 7.62939453125e-06
+    },
+    {
+      "name": "THK_DoorCannon_L",
+      "max_bound_error_cm": 9.5367431640625e-06
+    },
+    {
+      "name": "THK_DoorCannon_R",
+      "max_bound_error_cm": 7.62939453125e-06
+    },
+    {
+      "name": "THK_DoorGlass_L",
+      "max_bound_error_cm": 7.62939453125e-06
+    },
+    {
+      "name": "THK_DoorGlass_R",
+      "max_bound_error_cm": 7.62939453125e-06
+    },
+    {
+      "name": "THK_DoorLightning_L",
+      "max_bound_error_cm": 7.62939453125e-06
+    },
+    {
+      "name": "THK_DoorLightning_R",
+      "max_bound_error_cm": 7.62939453125e-06
+    },
+    {
+      "name": "THK_DoorPurple_L",
+      "max_bound_error_cm": 7.62939453125e-06
+    },
+    {
+      "name": "THK_DoorPurple_R",
+      "max_bound_error_cm": 7.62939453125e-06
+    },
+    {
+      "name": "THK_DoorRoofInset_L",
+      "max_bound_error_cm": 5.7220458984375e-06
+    },
+    {
+      "name": "THK_DoorRoofInset_R",
+      "max_bound_error_cm": 7.62939453125e-06
+    },
+    {
+      "name": "THK_ExteriorBlackout",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_FixedRearBridge",
+      "max_bound_error_cm": 2.288818359375e-05
+    },
+    {
+      "name": "THK_FixedRearTailBand",
+      "max_bound_error_cm": 3.0517578125e-05
+    },
+    {
+      "name": "THK_FrontLowerBumper",
+      "max_bound_error_cm": 2.288818359375e-05
+    },
+    {
+      "name": "THK_FrontLowerIntake_L",
+      "max_bound_error_cm": 2.002716064453125e-05
+    },
+    {
+      "name": "THK_FrontLowerIntake_R",
+      "max_bound_error_cm": 2.002716064453125e-05
+    },
+    {
+      "name": "THK_HeadlampRecess_L",
+      "max_bound_error_cm": 1.9073486328125e-05
+    },
+    {
+      "name": "THK_HeadlampRecess_R",
+      "max_bound_error_cm": 2.288818359375e-05
+    },
+    {
+      "name": "THK_Headlamp_L_A",
+      "max_bound_error_cm": 2.288818359375e-05
+    },
+    {
+      "name": "THK_Headlamp_L_B",
+      "max_bound_error_cm": 2.288818359375e-05
+    },
+    {
+      "name": "THK_Headlamp_R_A",
+      "max_bound_error_cm": 2.288818359375e-05
+    },
+    {
+      "name": "THK_Headlamp_R_B",
+      "max_bound_error_cm": 2.288818359375e-05
+    },
+    {
+      "name": "THK_Hood",
+      "max_bound_error_cm": 2.288818359375e-05
+    },
+    {
+      "name": "THK_Hood_CentreRaise",
+      "max_bound_error_cm": 9.5367431640625e-06
+    },
+    {
+      "name": "THK_Hood_GridLine_L_00",
+      "max_bound_error_cm": 7.62939453125e-06
+    },
+    {
+      "name": "THK_Hood_GridLine_L_01",
+      "max_bound_error_cm": 7.62939453125e-06
+    },
+    {
+      "name": "THK_Hood_GridLine_L_02",
+      "max_bound_error_cm": 1.1444091796875e-05
+    },
+    {
+      "name": "THK_Hood_GridLine_L_03",
+      "max_bound_error_cm": 1.1444091796875e-05
+    },
+    {
+      "name": "THK_Hood_GridLine_L_04",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_Hood_GridLine_L_05",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_Hood_GridLine_L_06",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_Hood_GridLine_L_07",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_Hood_GridLine_L_08",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_Hood_GridLine_L_09",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_Hood_GridLine_L_10",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_Hood_GridLine_L_11",
+      "max_bound_error_cm": 1.9073486328125e-05
+    },
+    {
+      "name": "THK_Hood_GridLine_R_00",
+      "max_bound_error_cm": 1.1444091796875e-05
+    },
+    {
+      "name": "THK_Hood_GridLine_R_01",
+      "max_bound_error_cm": 1.1444091796875e-05
+    },
+    {
+      "name": "THK_Hood_GridLine_R_02",
+      "max_bound_error_cm": 1.1444091796875e-05
+    },
+    {
+      "name": "THK_Hood_GridLine_R_03",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_Hood_GridLine_R_04",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_Hood_GridLine_R_05",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_Hood_GridLine_R_06",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_Hood_GridLine_R_07",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_Hood_GridLine_R_08",
+      "max_bound_error_cm": 1.9073486328125e-05
+    },
+    {
+      "name": "THK_Hood_GridLine_R_09",
+      "max_bound_error_cm": 1.9073486328125e-05
+    },
+    {
+      "name": "THK_Hood_GridLine_R_10",
+      "max_bound_error_cm": 1.9073486328125e-05
+    },
+    {
+      "name": "THK_Hood_GridLine_R_11",
+      "max_bound_error_cm": 1.9073486328125e-05
+    },
+    {
+      "name": "THK_Hood_Grid_Centre",
+      "max_bound_error_cm": 9.5367431640625e-06
+    },
+    {
+      "name": "THK_Hood_Grid_L",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_Hood_Grid_R",
+      "max_bound_error_cm": 1.9073486328125e-05
+    },
+    {
+      "name": "THK_Hood_Lightning_L",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_Hood_Lightning_R",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_Hub_FL",
+      "max_bound_error_cm": 7.62939453125e-06
+    },
+    {
+      "name": "THK_Hub_FR",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_Hub_RL",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_Hub_RR",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_Indicator_L",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_Indicator_R",
+      "max_bound_error_cm": 2.288818359375e-05
+    },
+    {
+      "name": "THK_MirrorGlass_L",
+      "max_bound_error_cm": 1.1444091796875e-05
+    },
+    {
+      "name": "THK_MirrorGlass_R",
+      "max_bound_error_cm": 1.1444091796875e-05
+    },
+    {
+      "name": "THK_MirrorStalk_L",
+      "max_bound_error_cm": 7.62939453125e-06
+    },
+    {
+      "name": "THK_MirrorStalk_R",
+      "max_bound_error_cm": 7.62939453125e-06
+    },
+    {
+      "name": "THK_Mirror_L",
+      "max_bound_error_cm": 7.62939453125e-06
+    },
+    {
+      "name": "THK_Mirror_R",
+      "max_bound_error_cm": 7.62939453125e-06
+    },
+    {
+      "name": "THK_QuarterGlass_L",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_QuarterGlass_R",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_ReactorCavity_L",
+      "max_bound_error_cm": 2.288818359375e-05
+    },
+    {
+      "name": "THK_ReactorCavity_R",
+      "max_bound_error_cm": 1.9073486328125e-05
+    },
+    {
+      "name": "THK_ReactorVane_L_0",
+      "max_bound_error_cm": 1.9073486328125e-05
+    },
+    {
+      "name": "THK_ReactorVane_L_1",
+      "max_bound_error_cm": 1.9073486328125e-05
+    },
+    {
+      "name": "THK_ReactorVane_L_2",
+      "max_bound_error_cm": 1.9073486328125e-05
+    },
+    {
+      "name": "THK_ReactorVane_R_0",
+      "max_bound_error_cm": 1.9073486328125e-05
+    },
+    {
+      "name": "THK_ReactorVane_R_1",
+      "max_bound_error_cm": 2.288818359375e-05
+    },
+    {
+      "name": "THK_ReactorVane_R_2",
+      "max_bound_error_cm": 2.288818359375e-05
+    },
+    {
+      "name": "THK_Reactor_L",
+      "max_bound_error_cm": 2.09808349609375e-05
+    },
+    {
+      "name": "THK_Reactor_R",
+      "max_bound_error_cm": 2.288818359375e-05
+    },
+    {
+      "name": "THK_RearFasciaMoulding",
+      "max_bound_error_cm": 2.288818359375e-05
+    },
+    {
+      "name": "THK_RearGlass",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_RearGlass_Frame_0",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_RearGlass_Frame_1",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_RearGlass_Frame_2",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_RearGlass_Frame_3",
+      "max_bound_error_cm": 2.288818359375e-05
+    },
+    {
+      "name": "THK_RearLowerTrim",
+      "max_bound_error_cm": 2.288818359375e-05
+    },
+    {
+      "name": "THK_RearPanel",
+      "max_bound_error_cm": 2.288818359375e-05
+    },
+    {
+      "name": "THK_RearPanel_TopAndSides",
+      "max_bound_error_cm": 2.288818359375e-05
+    },
+    {
+      "name": "THK_RearPlate",
+      "max_bound_error_cm": 2.09808349609375e-05
+    },
+    {
+      "name": "THK_RearStabilizer",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_RimPocket_FL_0",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_RimPocket_FL_1",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_RimPocket_FL_2",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_RimPocket_FL_3",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_RimPocket_FL_4",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_RimPocket_FR_0",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_RimPocket_FR_1",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_RimPocket_FR_2",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_RimPocket_FR_3",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_RimPocket_FR_4",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_RimPocket_RL_0",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_RimPocket_RL_1",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_RimPocket_RL_2",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_RimPocket_RL_3",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_RimPocket_RL_4",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_RimPocket_RR_0",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_RimPocket_RR_1",
+      "max_bound_error_cm": 7.62939453125e-06
+    },
+    {
+      "name": "THK_RimPocket_RR_2",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_RimPocket_RR_3",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_RimPocket_RR_4",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_Rim_FL",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_Rim_FR",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_Rim_RL",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_Rim_RR",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_RoofSpine",
+      "max_bound_error_cm": 7.62939453125e-06
+    },
+    {
+      "name": "THK_Sill_L",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_Sill_R",
+      "max_bound_error_cm": 7.62939453125e-06
+    },
+    {
+      "name": "THK_SpoilerCentralPost",
+      "max_bound_error_cm": 1.71661376953125e-05
+    },
+    {
+      "name": "THK_SpoilerGridX_00",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_SpoilerGridX_01",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_SpoilerGridX_02",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_SpoilerGridX_03",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_SpoilerGridX_04",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_SpoilerGridX_05",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_SpoilerGridY_00",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_SpoilerGridY_01",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_SpoilerGridY_02",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_SpoilerGridY_03",
+      "max_bound_error_cm": 1.9073486328125e-05
+    },
+    {
+      "name": "THK_SpoilerGridY_04",
+      "max_bound_error_cm": 1.9073486328125e-05
+    },
+    {
+      "name": "THK_SpoilerGridY_05",
+      "max_bound_error_cm": 1.9073486328125e-05
+    },
+    {
+      "name": "THK_SpoilerGridY_06",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_SpoilerGridY_07",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_SpoilerGridY_08",
+      "max_bound_error_cm": 1.9073486328125e-05
+    },
+    {
+      "name": "THK_SpoilerGridY_09",
+      "max_bound_error_cm": 1.71661376953125e-05
+    },
+    {
+      "name": "THK_SpoilerGridY_10",
+      "max_bound_error_cm": 1.71661376953125e-05
+    },
+    {
+      "name": "THK_SpoilerGridY_11",
+      "max_bound_error_cm": 1.811981201171875e-05
+    },
+    {
+      "name": "THK_SpoilerGridY_12",
+      "max_bound_error_cm": 1.9073486328125e-05
+    },
+    {
+      "name": "THK_SpoilerGridY_13",
+      "max_bound_error_cm": 1.811981201171875e-05
+    },
+    {
+      "name": "THK_SpoilerGridY_14",
+      "max_bound_error_cm": 1.8358230590820312e-05
+    },
+    {
+      "name": "THK_SpoilerGridY_15",
+      "max_bound_error_cm": 1.811981201171875e-05
+    },
+    {
+      "name": "THK_SpoilerGridY_16",
+      "max_bound_error_cm": 1.9073486328125e-05
+    },
+    {
+      "name": "THK_SpoilerGridY_17",
+      "max_bound_error_cm": 1.9073486328125e-05
+    },
+    {
+      "name": "THK_SpoilerGridY_18",
+      "max_bound_error_cm": 1.9073486328125e-05
+    },
+    {
+      "name": "THK_SpoilerGridY_19",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_SpoilerGridY_20",
+      "max_bound_error_cm": 1.9073486328125e-05
+    },
+    {
+      "name": "THK_SpoilerGridY_21",
+      "max_bound_error_cm": 1.9073486328125e-05
+    },
+    {
+      "name": "THK_SpoilerGridY_22",
+      "max_bound_error_cm": 1.9073486328125e-05
+    },
+    {
+      "name": "THK_SpoilerGridY_23",
+      "max_bound_error_cm": 1.9073486328125e-05
+    },
+    {
+      "name": "THK_SpoilerGridY_24",
+      "max_bound_error_cm": 1.9073486328125e-05
+    },
+    {
+      "name": "THK_SpoilerGridY_25",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_SpoilerGridY_26",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_SpoilerGridY_27",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_SpoilerPurple",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_TaillampRecess_L",
+      "max_bound_error_cm": 2.288818359375e-05
+    },
+    {
+      "name": "THK_TaillampRecess_R",
+      "max_bound_error_cm": 2.288818359375e-05
+    },
+    {
+      "name": "THK_Taillamp_L",
+      "max_bound_error_cm": 2.288818359375e-05
+    },
+    {
+      "name": "THK_Taillamp_R",
+      "max_bound_error_cm": 2.288818359375e-05
+    },
+    {
+      "name": "THK_Wheel_FL",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_Wheel_FR",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_Wheel_RL",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_Wheel_RR",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_Windshield",
+      "max_bound_error_cm": 7.62939453125e-06
+    },
+    {
+      "name": "THK_Windshield_Frame_0",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_Windshield_Frame_1",
+      "max_bound_error_cm": 7.62939453125e-06
+    },
+    {
+      "name": "THK_Windshield_Frame_2",
+      "max_bound_error_cm": 7.62939453125e-06
+    },
+    {
+      "name": "THK_Windshield_Frame_3",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_Wing_L",
+      "max_bound_error_cm": 7.62939453125e-06
+    },
+    {
+      "name": "THK_Wing_R",
+      "max_bound_error_cm": 1.52587890625e-05
+    }
+  ],
+  "limitation": "Axis/scale/rest bounding boxes; does not prove UV quality, shading or visual equivalence."
+}

@@ -1,0 +1,187 @@
+﻿{
+    "engine":  "5.8.2-56702186",
+    "branch":  "migration/ue58",
+    "original_commit":  "8d56e16",
+    "captured_utc":  "2026-11-06T18:54:41.9895236Z",
+    "editor_build":  {
+                         "seconds":  21.17,
+                         "result":  "Succeeded",
+                         "log":  "Saved/Migration/VehicularCombatEditor-20261106-194415.log"
+                     },
+    "game_build":  {
+                       "seconds":  32.03,
+                       "result":  "Succeeded",
+                       "log":  "Saved/Migration/VehicularCombat-20261106-194626.log"
+                   },
+    "blueprints":  {
+                       "exit_code":  0,
+                       "log":  "Saved/Migration/Blueprints-20261106-194107.log",
+                       "errors":  0,
+                       "compiled":  28,
+                       "warnings":  0,
+                       "failed_loads":  0
+                   },
+    "assets":  {
+                   "valid":  545,
+                   "log":  "Saved/Migration/Assets-20261106-194050.log",
+                   "exit_code":  0
+               },
+    "editor_open":  {
+                        "mapcheck_errors":  0,
+                        "exit_code":  0,
+                        "initialization_seconds":  14.49,
+                        "log":  "Saved/Migration/editor-open-en.log",
+                        "rhi":  "NullRHI",
+                        "mapcheck_warnings":  0,
+                        "culture":  "en"
+                    },
+    "engine_smoke":  {
+                         "french_failures":  [
+                                                 "FUnifiedErrorTest_CreateErrorMessage",
+                                                 "FUnifiedErrorTest_CreateErrorMessageWithContext",
+                                                 "FStructuredLogFormatTest"
+                                             ],
+                         "culture":  "en",
+                         "automation_errors":  0,
+                         "failed":  0,
+                         "passed":  429
+                     },
+    "graphical_editor":  {
+                             "mapcheck_errors":  0,
+                             "exit_code":  null,
+                             "initialization_seconds":  22.17,
+                             "note":  "Startup and shutdown logged; direct PowerShell GUI launch did not capture process exit code.",
+                             "mapcheck_warnings":  0,
+                             "log":  "Saved/Migration/editor-open-visible.log"
+                         },
+    "network":  {
+                    "passed":  true,
+                    "report_directory":  "Saved/Migration/runs/grounded-render",
+                    "roles":  [
+                                  {
+                                      "role":  "host",
+                                      "exit_code":  0,
+                                      "configured_local_impact_events":  17,
+                                      "configured_expiry_effect_events":  1,
+                                      "report":  {
+                                                     "role":  "Host",
+                                                     "method":  "Two real game processes; public session API, injected PlayerController key events, evaluated Chaos/replicated actors. Flag files synchronize test phases only, never gameplay state.",
+                                                     "checks":  {
+                                                                    "original_game_instance":  true,
+                                                                    "two_players_connected":  true,
+                                                                    "session_create_or_discovery_join":  true,
+                                                                    "original_vehicle_possessed":  true,
+                                                                    "four_chaos_wheels":  true,
+                                                                    "vehicle_simulates_physics":  true,
+                                                                    "original_hud_exists":  true,
+                                                                    "viewport_ui_exists":  true,
+                                                                    "local_input_drives_vehicle":  true,
+                                                                    "wheel_ground_contact":  true,
+                                                                    "client_movement_received_on_server":  true,
+                                                                    "client_fire_received_on_server":  true,
+                                                                    "original_weapon_equipped":  true,
+                                                                    "impact_fixture_clear_ground":  true,
+                                                                    "impact_fixture_stays_grounded":  true,
+                                                                    "impact_fixture_stays_upright":  true,
+                                                                    "host_weapon_consumes_ammo":  true,
+                                                                    "weapon_projectile_causes_damage":  true,
+                                                                    "launcher_explosive_data_configured":  true,
+                                                                    "launcher_consumes_ammo":  true,
+                                                                    "server_destroyed_and_respawned_vehicle":  true,
+                                                                    "launcher_projectile_spawned":  true,
+                                                                    "completed_without_timeout":  true
+                                                                },
+                                                     "started_utc":  "2026-11-06T18:45:10.638Z",
+                                                     "phase":  6,
+                                                     "complete":  true,
+                                                     "elapsed_seconds":  46.765914503484964,
+                                                     "passed":  true,
+                                                     "local_distance_cm":  5505.00830078125,
+                                                     "remote_distance_cm":  4670.25,
+                                                     "max_local_speed_cm_s":  1794.176025390625,
+                                                     "max_remote_speed_cm_s":  1661.8118896484375,
+                                                     "max_grounded_wheels":  4,
+                                                     "max_projectiles_seen":  1,
+                                                     "projectiles_spawned":  18,
+                                                     "rocket_projectiles_spawned":  1,
+                                                     "map":  "/Game/Maps/TestMaps/Test",
+                                                     "pawn_class":  "/Game/Blueprints/Pawns/BP_PlayerVehicle.BP_PlayerVehicle_C",
+                                                     "host_weapon_class":  "/Game/Blueprints/Pickups/Weapons/BP_Weapon_AssaultRifle.BP_Weapon_AssaultRifle_C",
+                                                     "host_initial_magazine":  30,
+                                                     "impact_fixture":  "Listen host moved near stationary client; controlled muzzle aim; original server fire RPC, projectile collision and damage path. Manual reticle aim is a separate visual check.",
+                                                     "target_min_health_during_fire":  925,
+                                                     "target_health_before_fire":  1000,
+                                                     "target_health_after_fire":  925
+                                                 }
+                                  },
+                                  {
+                                      "role":  "client",
+                                      "exit_code":  0,
+                                      "configured_local_impact_events":  17,
+                                      "configured_expiry_effect_events":  1,
+                                      "report":  {
+                                                     "role":  "Client",
+                                                     "method":  "Two real game processes; public session API, injected PlayerController key events, evaluated Chaos/replicated actors. Flag files synchronize test phases only, never gameplay state.",
+                                                     "checks":  {
+                                                                    "original_game_instance":  true,
+                                                                    "two_players_connected":  true,
+                                                                    "session_create_or_discovery_join":  true,
+                                                                    "original_vehicle_possessed":  true,
+                                                                    "four_chaos_wheels":  true,
+                                                                    "vehicle_simulates_physics":  true,
+                                                                    "original_hud_exists":  true,
+                                                                    "viewport_ui_exists":  true,
+                                                                    "host_movement_replicated_to_client":  true,
+                                                                    "local_input_drives_vehicle":  true,
+                                                                    "wheel_ground_contact":  true,
+                                                                    "client_fire_ammo_authoritatively_replicated":  true,
+                                                                    "damage_replicated_to_victim":  true,
+                                                                    "host_projectiles_seen_on_client":  true,
+                                                                    "launcher_explosive_data_configured":  true,
+                                                                    "destruction_and_respawn_replicated":  true,
+                                                                    "respawn_restores_health":  true,
+                                                                    "launcher_projectile_spawned":  true,
+                                                                    "completed_without_timeout":  true
+                                                                },
+                                                     "started_utc":  "2026-11-06T18:45:24.274Z",
+                                                     "phase":  7,
+                                                     "complete":  true,
+                                                     "elapsed_seconds":  33.109280399978161,
+                                                     "passed":  true,
+                                                     "local_distance_cm":  4672.93408203125,
+                                                     "remote_distance_cm":  5504.7685546875,
+                                                     "max_local_speed_cm_s":  1634.5087890625,
+                                                     "max_remote_speed_cm_s":  1766.09033203125,
+                                                     "max_grounded_wheels":  4,
+                                                     "max_projectiles_seen":  1,
+                                                     "projectiles_spawned":  18,
+                                                     "rocket_projectiles_spawned":  1,
+                                                     "map":  "/Game/Maps/TestMaps/Test",
+                                                     "pawn_class":  "/Game/Blueprints/Pawns/BP_PlayerVehicle.BP_PlayerVehicle_C",
+                                                     "client_initial_magazine":  30
+                                                 }
+                                  }
+                              ]
+                },
+    "visual_review":  {
+                          "observations":  [
+                                               "Vehicle upright on ground before and after fire",
+                                               "Original map and HUD visible",
+                                               "Assault rifle 30/120 then 24/120",
+                                               "No unbuilt reflection capture warning"
+                                           ],
+                          "inspected":  true,
+                          "files":  [
+                                        "ue58-host-ready.png",
+                                        "ue58-host-after-fire.png"
+                                    ],
+                          "manual_playthrough":  false
+                      },
+    "limits":  [
+                   "Impact fixture controls host placement and muzzle aim; not manual reticle aim",
+                   "Death path uses separate explicit authoritative damage injection",
+                   "Audio disabled during tests",
+                   "Rocket radial damage radius not separately tested",
+                   "Steam/Internet, dedicated server, packet loss, packaging, mobile and exhaustive pickups/menu acceptance not tested"
+               ]
+}

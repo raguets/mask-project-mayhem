@@ -1,0 +1,17 @@
+{
+  "objects": [
+    "THK_DoorGlass_L",
+    "THK_DoorRoofInset_L",
+    "THK_DoorGlass_R",
+    "THK_DoorRoofInset_R",
+    "THK_Windshield",
+    "THK_RearGlass",
+    "THK_QuarterGlass_L",
+    "THK_QuarterGlass_R"
+  ],
+  "IOR": 1.5,
+  "roughness": 0.025,
+  "viewport_before": "SOLID, grey opaque diffuse display",
+  "viewport_after": "MATERIAL",
+  "tint": "light green-grey, estimated"
+}

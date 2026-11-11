@@ -1,0 +1,657 @@
+{
+  "head_drop_m_estimated": 0.035,
+  "collar_base_half_width_m_estimated": 0.176,
+  "collar_top_half_width_m_estimated": 0.151,
+  "shoulder_samples": [
+    {
+      "angle": 0.0,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.425
+    },
+    {
+      "angle": 0.04908738521234052,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.425
+    },
+    {
+      "angle": 0.09817477042468103,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.425
+    },
+    {
+      "angle": 0.14726215563702155,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.425
+    },
+    {
+      "angle": 0.19634954084936207,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.425
+    },
+    {
+      "angle": 0.2454369260617026,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.425
+    },
+    {
+      "angle": 0.2945243112740431,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.425
+    },
+    {
+      "angle": 0.3436116964863836,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.425
+    },
+    {
+      "angle": 0.39269908169872414,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.425
+    },
+    {
+      "angle": 0.44178646691106466,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.425
+    },
+    {
+      "angle": 0.4908738521234052,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.425
+    },
+    {
+      "angle": 0.5399612373357456,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.425
+    },
+    {
+      "angle": 0.5890486225480862,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.425
+    },
+    {
+      "angle": 0.6381360077604268,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.425
+    },
+    {
+      "angle": 0.6872233929727672,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.425
+    },
+    {
+      "angle": 0.7363107781851077,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.425
+    },
+    {
+      "angle": 0.7853981633974483,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.425
+    },
+    {
+      "angle": 0.8344855486097889,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.425
+    },
+    {
+      "angle": 0.8835729338221293,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.425
+    },
+    {
+      "angle": 0.9326603190344698,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.4286641035079957
+    },
+    {
+      "angle": 0.9817477042468103,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.445401445388794
+    },
+    {
+      "angle": 1.030835089459151,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.4613771591186524
+    },
+    {
+      "angle": 1.0799224746714913,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.4725518379211426
+    },
+    {
+      "angle": 1.1290098598838318,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.4791654500961304
+    },
+    {
+      "angle": 1.1780972450961724,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.4814764413833619
+    },
+    {
+      "angle": 1.227184630308513,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.4825207147598267
+    },
+    {
+      "angle": 1.2762720155208536,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.4828097972869874
+    },
+    {
+      "angle": 1.325359400733194,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.482696071624756
+    },
+    {
+      "angle": 1.3744467859455345,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.4823715839385987
+    },
+    {
+      "angle": 1.423534171157875,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.4819501791000367
+    },
+    {
+      "angle": 1.4726215563702154,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.4815737161636353
+    },
+    {
+      "angle": 1.521708941582556,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.4813174161911011
+    },
+    {
+      "angle": 1.5707963267948966,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.481167808532715
+    },
+    {
+      "angle": 1.6198837120072371,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.4811809215545655
+    },
+    {
+      "angle": 1.6689710972195777,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.481342926979065
+    },
+    {
+      "angle": 1.718058482431918,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.4816215190887452
+    },
+    {
+      "angle": 1.7671458676442586,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.481897011756897
+    },
+    {
+      "angle": 1.8162332528565992,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.4821728620529175
+    },
+    {
+      "angle": 1.8653206380689396,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.4822349700927735
+    },
+    {
+      "angle": 1.9144080232812801,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.481961265563965
+    },
+    {
+      "angle": 1.9634954084936207,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.4810952100753785
+    },
+    {
+      "angle": 2.012582793705961,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.4793526086807252
+    },
+    {
+      "angle": 2.061670178918302,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.4746297750473023
+    },
+    {
+      "angle": 2.110757564130642,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.466130867958069
+    },
+    {
+      "angle": 2.1598449493429825,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.4552155885696412
+    },
+    {
+      "angle": 2.2089323345553233,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.4384602460861207
+    },
+    {
+      "angle": 2.2580197197676637,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.4289820346832276
+    },
+    {
+      "angle": 2.3071071049800045,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.4275303039550782
+    },
+    {
+      "angle": 2.356194490192345,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.4372111711502076
+    },
+    {
+      "angle": 2.405281875404685,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.4380752000808716
+    },
+    {
+      "angle": 2.454369260617026,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.438228741645813
+    },
+    {
+      "angle": 2.5034566458293663,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.43837286567688
+    },
+    {
+      "angle": 2.552544031041707,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.4384179267883301
+    },
+    {
+      "angle": 2.6016314162540475,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.4383585605621338
+    },
+    {
+      "angle": 2.650718801466388,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.438286081314087
+    },
+    {
+      "angle": 2.6998061866787286,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.4382248077392579
+    },
+    {
+      "angle": 2.748893571891069,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.4382245693206788
+    },
+    {
+      "angle": 2.7979809571034093,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.43837286567688
+    },
+    {
+      "angle": 2.84706834231575,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.4385972175598145
+    },
+    {
+      "angle": 2.8961557275280905,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.438721791267395
+    },
+    {
+      "angle": 2.945243112740431,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.4388204965591431
+    },
+    {
+      "angle": 2.9943304979527716,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.4388246688842774
+    },
+    {
+      "angle": 3.043417883165112,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.4388461265563965
+    },
+    {
+      "angle": 3.0925052683774528,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.438872829437256
+    },
+    {
+      "angle": 3.141592653589793,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.4388599548339844
+    },
+    {
+      "angle": 3.1906800388021335,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.438772216796875
+    },
+    {
+      "angle": 3.2397674240144743,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.438599482536316
+    },
+    {
+      "angle": 3.2888548092268146,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.4384027872085572
+    },
+    {
+      "angle": 3.3379421944391554,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.438205376625061
+    },
+    {
+      "angle": 3.3870295796514958,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.438022032737732
+    },
+    {
+      "angle": 3.436116964863836,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.437924877166748
+    },
+    {
+      "angle": 3.485204350076177,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.4378976974487305
+    },
+    {
+      "angle": 3.5342917352885173,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.4379587326049805
+    },
+    {
+      "angle": 3.5833791205008576,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.438114658355713
+    },
+    {
+      "angle": 3.6324665057131984,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.438286319732666
+    },
+    {
+      "angle": 3.6815538909255388,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.4383983764648438
+    },
+    {
+      "angle": 3.730641276137879,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.4384608421325684
+    },
+    {
+      "angle": 3.77972866135022,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.4384465370178223
+    },
+    {
+      "angle": 3.8288160465625602,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.4383663091659546
+    },
+    {
+      "angle": 3.877903431774901,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.4382305297851563
+    },
+    {
+      "angle": 3.9269908169872414,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.4378242645263672
+    },
+    {
+      "angle": 3.9760782021995817,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.4270904216766358
+    },
+    {
+      "angle": 4.025165587411922,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.427090898513794
+    },
+    {
+      "angle": 4.074252972624263,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.4346130046844483
+    },
+    {
+      "angle": 4.123340357836604,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.4522341642379761
+    },
+    {
+      "angle": 4.172427743048944,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.4638872299194337
+    },
+    {
+      "angle": 4.221515128261284,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.4727444801330567
+    },
+    {
+      "angle": 4.270602513473625,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.4785860929489136
+    },
+    {
+      "angle": 4.319689898685965,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.4804769906997681
+    },
+    {
+      "angle": 4.368777283898306,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.4814806137084962
+    },
+    {
+      "angle": 4.417864669110647,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.4818132076263428
+    },
+    {
+      "angle": 4.466952054322987,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.4818400297164918
+    },
+    {
+      "angle": 4.516039439535327,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.4815800342559815
+    },
+    {
+      "angle": 4.565126824747668,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.4813602123260499
+    },
+    {
+      "angle": 4.614214209960009,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.481112853050232
+    },
+    {
+      "angle": 4.663301595172349,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.4809761199951172
+    },
+    {
+      "angle": 4.71238898038469,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.4810164127349854
+    },
+    {
+      "angle": 4.76147636559703,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.4812791500091553
+    },
+    {
+      "angle": 4.81056375080937,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.4816622886657715
+    },
+    {
+      "angle": 4.859651136021712,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.482140079498291
+    },
+    {
+      "angle": 4.908738521234052,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.482627049446106
+    },
+    {
+      "angle": 4.957825906446392,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.4830215129852296
+    },
+    {
+      "angle": 5.006913291658733,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.4832292947769166
+    },
+    {
+      "angle": 5.056000676871073,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.4829983863830567
+    },
+    {
+      "angle": 5.105088062083414,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.4820408973693848
+    },
+    {
+      "angle": 5.154175447295755,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.4799965772628785
+    },
+    {
+      "angle": 5.203262832508095,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.4744227085113526
+    },
+    {
+      "angle": 5.252350217720435,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.4637185487747193
+    },
+    {
+      "angle": 5.301437602932776,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.4486336860656739
+    },
+    {
+      "angle": 5.350524988145116,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.4323113117218018
+    },
+    {
+      "angle": 5.399612373357457,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.425
+    },
+    {
+      "angle": 5.448699758569798,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.425
+    },
+    {
+      "angle": 5.497787143782138,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.425
+    },
+    {
+      "angle": 5.546874528994478,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.425
+    },
+    {
+      "angle": 5.595961914206819,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.425
+    },
+    {
+      "angle": 5.64504929941916,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.425
+    },
+    {
+      "angle": 5.6941366846315,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.425
+    },
+    {
+      "angle": 5.743224069843841,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.425
+    },
+    {
+      "angle": 5.792311455056181,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.425
+    },
+    {
+      "angle": 5.841398840268521,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.425
+    },
+    {
+      "angle": 5.890486225480862,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.425
+    },
+    {
+      "angle": 5.939573610693203,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.425
+    },
+    {
+      "angle": 5.988660995905543,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.425
+    },
+    {
+      "angle": 6.037748381117884,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.425
+    },
+    {
+      "angle": 6.086835766330224,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.425
+    },
+    {
+      "angle": 6.135923151542564,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.425
+    },
+    {
+      "angle": 6.1850105367549055,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.425
+    },
+    {
+      "angle": 6.234097921967246,
+      "shoulder_ray_hit": true,
+      "edge_z": 1.425
+    }
+  ],
+  "same_head_object_and_suit": true,
+  "reference_categories": "replica photographs and illustrations, not an official human costume scan",
+  "scope": "Preliminary first build measurements/samples, superseded by final neck/collar rebuild and validation_v14.json",
+  "final_validation": "validation_v14.json",
+  "final_changes": {
+    "rest_head_drop_m_estimated": 0.035,
+    "rigid_mask_drop_m_estimated": 0.045,
+    "driving_head_control_raise_vs_previous_m": 0.03,
+    "collar_base_width_m_estimated": 0.352
+  }
+}

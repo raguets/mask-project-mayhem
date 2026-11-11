@@ -1,0 +1,71 @@
+{
+  "status": "success",
+  "result": {
+    "success": true,
+    "width": 1600,
+    "height": 1192,
+    "filepath": "G:/DEV/mask-project-mayhem/art_source/Thunderhawk/renders/v9/mcp_viewport.png",
+    "method": "offscreen",
+    "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Thunderhawk\\Thunderhawk_V9.blend",
+    "scene": "THK_V9_Exterior_Study",
+    "scene_count": 1,
+    "view": {
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Thunderhawk\\Thunderhawk_V9.blend",
+      "scene": "THK_V9_Exterior_Study",
+      "view_matrix": [
+        [
+          0.6698698997497559,
+          0.7424784898757935,
+          -9.632302067075216e-08,
+          -0.03349343314766884
+        ],
+        [
+          -0.23568719625473022,
+          0.2126389592885971,
+          0.9482806324958801,
+          -0.6140808463096619
+        ],
+        [
+          0.7040780186653137,
+          -0.6352245807647705,
+          0.31743311882019043,
+          -6.744710445404053
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "window_matrix": [
+        [
+          1.3888888359069824,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.8631967306137085,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0000200271606445,
+          -0.02000020071864128
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ]
+      ],
+      "width": 1600,
+      "height": 1192
+    }
+  }
+}

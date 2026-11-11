@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "actor_count": 31,
+  "instances": 39,
+  "components": [
+    {
+      "instances": 39,
+      "mesh": "/Game/Fab/Megascans/3D/Small_Beach_Rock_wd4kfdx/Medium/wd4kfdx_tier_2/StaticMeshes/wd4kfdx_tier_2.wd4kfdx_tier_2",
+      "material": "/Game/MASK/Environment/SilentValley/Materials/MI_SV_BeachRock_Instanced_0_v1.MI_SV_BeachRock_Instanced_0_v1",
+      "collision": "<CollisionEnabled.NO_COLLISION: 0>",
+      "editor_only": false
+    }
+  ],
+  "method": "Reload saved map in an independent editor process; no PCG generate request.",
+  "checks": {
+    "saved_39_instances": true,
+    "no_decorative_collision": true,
+    "available_in_game": true,
+    "isolated_instanced_material": true,
+    "original_road_length": true,
+    "landscape_material": true
+  }
+}

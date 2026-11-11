@@ -1,0 +1,212 @@
+{
+  "independent": {
+    "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Boulder_Hill\\BoulderHill_V6_Base.blend",
+    "scene_objects": 560,
+    "demo_objects": 0,
+    "linked_libraries": [],
+    "missing_driver_targets": [],
+    "states": [
+      {
+        "frame": 1,
+        "prism_angle_x": 0.0,
+        "garage_angle_z": 0.0,
+        "cap_location": [
+          7.0,
+          6.0,
+          13.220000267028809
+        ],
+        "turret_z": 9.699999809265137,
+        "invalid_drivers": []
+      },
+      {
+        "frame": 65,
+        "prism_angle_x": 0.7928781509399414,
+        "garage_angle_z": -1.1126474142074585,
+        "cap_location": [
+          7.0,
+          6.0,
+          13.220000267028809
+        ],
+        "turret_z": 9.699999809265137,
+        "invalid_drivers": []
+      },
+      {
+        "frame": 181,
+        "prism_angle_x": 1.5707963705062866,
+        "garage_angle_z": -1.5707963705062866,
+        "cap_location": [
+          26.0,
+          -7.0,
+          0.8500000238418579
+        ],
+        "turret_z": 12.100000381469727,
+        "invalid_drivers": []
+      },
+      {
+        "frame": 211,
+        "prism_angle_x": 1.5707963705062866,
+        "garage_angle_z": -1.5707963705062866,
+        "cap_location": [
+          26.0,
+          -7.0,
+          0.8500000238418579
+        ],
+        "turret_z": 12.100000381469727,
+        "invalid_drivers": []
+      },
+      {
+        "frame": 285,
+        "prism_angle_x": 1.5707963705062866,
+        "garage_angle_z": -1.5707963705062866,
+        "cap_location": [
+          26.0,
+          -7.0,
+          0.8500000238418579
+        ],
+        "turret_z": 12.100000381469727,
+        "invalid_drivers": []
+      },
+      {
+        "frame": 510,
+        "prism_angle_x": 1.5707963705062866,
+        "garage_angle_z": -1.5707963705062866,
+        "cap_location": [
+          26.0,
+          -7.0,
+          0.8500000238418579
+        ],
+        "turret_z": 12.100000381469727,
+        "invalid_drivers": []
+      },
+      {
+        "frame": 541,
+        "prism_angle_x": 1.5707963705062866,
+        "garage_angle_z": -1.5707963705062866,
+        "cap_location": [
+          26.0,
+          -7.0,
+          0.8500000238418579
+        ],
+        "turret_z": 12.100000381469727,
+        "invalid_drivers": []
+      },
+      {
+        "frame": 211,
+        "prism_angle_x": 1.5707963705062866,
+        "garage_angle_z": -1.5707963705062866,
+        "cap_location": [
+          26.0,
+          -7.0,
+          0.8500000238418579
+        ],
+        "turret_z": 12.100000381469727,
+        "invalid_drivers": []
+      }
+    ]
+  },
+  "assembly": {
+    "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Boulder_Hill\\BoulderHill_V6_Assembly.blend",
+    "scene_objects": 1955,
+    "demo_objects": 1389,
+    "linked_libraries": [],
+    "missing_driver_targets": [],
+    "states": [
+      {
+        "frame": 1,
+        "prism_angle_x": 0.0,
+        "garage_angle_z": 0.0,
+        "cap_location": [
+          7.0,
+          6.0,
+          13.220000267028809
+        ],
+        "turret_z": 9.699999809265137,
+        "invalid_drivers": []
+      },
+      {
+        "frame": 65,
+        "prism_angle_x": 0.7928781509399414,
+        "garage_angle_z": -1.1126474142074585,
+        "cap_location": [
+          7.0,
+          6.0,
+          13.220000267028809
+        ],
+        "turret_z": 9.699999809265137,
+        "invalid_drivers": []
+      },
+      {
+        "frame": 181,
+        "prism_angle_x": 1.5707963705062866,
+        "garage_angle_z": -1.5707963705062866,
+        "cap_location": [
+          26.0,
+          -7.0,
+          0.8500000238418579
+        ],
+        "turret_z": 12.100000381469727,
+        "invalid_drivers": []
+      },
+      {
+        "frame": 211,
+        "prism_angle_x": 1.5707963705062866,
+        "garage_angle_z": -1.5707963705062866,
+        "cap_location": [
+          26.0,
+          -7.0,
+          0.8500000238418579
+        ],
+        "turret_z": 12.100000381469727,
+        "invalid_drivers": []
+      },
+      {
+        "frame": 285,
+        "prism_angle_x": 1.5707963705062866,
+        "garage_angle_z": -1.5707963705062866,
+        "cap_location": [
+          26.0,
+          -7.0,
+          0.8500000238418579
+        ],
+        "turret_z": 12.100000381469727,
+        "invalid_drivers": []
+      },
+      {
+        "frame": 510,
+        "prism_angle_x": 1.5707963705062866,
+        "garage_angle_z": -1.5707963705062866,
+        "cap_location": [
+          26.0,
+          -7.0,
+          0.8500000238418579
+        ],
+        "turret_z": 12.100000381469727,
+        "invalid_drivers": []
+      },
+      {
+        "frame": 541,
+        "prism_angle_x": 1.5707963705062866,
+        "garage_angle_z": -1.5707963705062866,
+        "cap_location": [
+          26.0,
+          -7.0,
+          0.8500000238418579
+        ],
+        "turret_z": 12.100000381469727,
+        "invalid_drivers": []
+      },
+      {
+        "frame": 211,
+        "prism_angle_x": 1.5707963705062866,
+        "garage_angle_z": -1.5707963705062866,
+        "cap_location": [
+          26.0,
+          -7.0,
+          0.8500000238418579
+        ],
+        "turret_z": 12.100000381469727,
+        "invalid_drivers": []
+      }
+    ]
+  }
+}

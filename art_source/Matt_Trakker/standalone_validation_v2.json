@@ -1,0 +1,37 @@
+{
+  "MattTrakker_V2.blend": {
+    "reopened": true,
+    "armatures": 1,
+    "single_head": true,
+    "states": [
+      {
+        "drive": 0,
+        "mask": false,
+        "visible_mask_parts": 0
+      },
+      {
+        "drive": 0,
+        "mask": true,
+        "visible_mask_parts": 25
+      },
+      {
+        "drive": 1,
+        "mask": false,
+        "visible_mask_parts": 0
+      },
+      {
+        "drive": 1,
+        "mask": true,
+        "visible_mask_parts": 25
+      }
+    ],
+    "vehicle_dependency": false
+  },
+  "Spectrum_V2.blend": {
+    "reopened": true,
+    "standalone_socket": true,
+    "objects": 26,
+    "character_dependency": false,
+    "vehicle_dependency": false
+  }
+}

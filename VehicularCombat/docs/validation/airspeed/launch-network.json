@@ -1,0 +1,42 @@
+﻿[
+    {
+        "role":  "host",
+        "pid":  14328,
+        "executable":  "G:\\DEV\\mask-project-mayhem\\VehicularCombat\\Saved\\Packages\\MASK-Airspeed-Development-r3\\Windows\\VehicularCombat\\Binaries\\Win64\\VehicularCombat.exe",
+        "arguments":  [
+                          "/Game/Maps/TestMaps/Test?Vehicle=Thunderhawk?listen",
+                          "-unattended",
+                          "-nosound",
+                          "-nosteam",
+                          "-nosplash",
+                          "-windowed",
+                          "-ResX=1280",
+                          "-ResY=720",
+                          "-NoVSync",
+                          "-ExecCmds=\"t.MaxFPS 30,MASK.DynamicsSmoke host\"",
+                          "-MigrationReportDir=\"G:\\DEV\\mask-project-mayhem\\VehicularCombat\\Saved\\Migration\\dynamics-airspeed-network-r3\"",
+                          "-AbsLog=\"G:\\DEV\\mask-project-mayhem\\VehicularCombat\\Saved\\Migration\\dynamics-airspeed-network-r3\\host.log\"",
+                          "-RenderOffscreen"
+                      ]
+    },
+    {
+        "role":  "client",
+        "pid":  3588,
+        "executable":  "G:\\DEV\\mask-project-mayhem\\VehicularCombat\\Saved\\Packages\\MASK-Airspeed-Development-r3\\Windows\\VehicularCombat\\Binaries\\Win64\\VehicularCombat.exe",
+        "arguments":  [
+                          "127.0.0.1",
+                          "-unattended",
+                          "-nosound",
+                          "-nosteam",
+                          "-nosplash",
+                          "-windowed",
+                          "-ResX=1280",
+                          "-ResY=720",
+                          "-NoVSync",
+                          "-ExecCmds=\"t.MaxFPS 30,MASK.DynamicsSmoke client\"",
+                          "-MigrationReportDir=\"G:\\DEV\\mask-project-mayhem\\VehicularCombat\\Saved\\Migration\\dynamics-airspeed-network-r3\"",
+                          "-AbsLog=\"G:\\DEV\\mask-project-mayhem\\VehicularCombat\\Saved\\Migration\\dynamics-airspeed-network-r3\\client.log\"",
+                          "-RenderOffscreen"
+                      ]
+    }
+]

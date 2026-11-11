@@ -1,0 +1,7 @@
+{
+  "status": "success",
+  "result": {
+    "executed": true,
+    "result": "{\n  \"file\": \"G:\\\\DEV\\\\mask-project-mayhem\\\\art_source\\\\Boulder_Hill\\\\Session_before_final_seams_v4.blend\",\n  \"scene\": \"BoulderHill_V4_Assembly\",\n  \"frame\": 147,\n  \"render_job\": null,\n  \"stone_materials\": [\n    {\n      \"name\": \"BH_Sandstone\",\n      \"diffuse\": [\n        0.3100000023841858,\n        0.10499999672174454,\n        0.03700000047683716,\n        1.0\n      ],\n      \"ramps\": [\n        [\n          [\n            0.0,\n            [\n              0.11999999731779099,\n              0.04100000113248825,\n              0.013000000268220901,\n              1.0\n            ]\n          ],\n          [\n            1.0,\n            [\n              0.49000000953674316,\n              0.25,\n              0.10000000149011612,\n              1.0\n            ]\n          ]\n        ]\n      ]\n    }\n  ]\n}\n"
+  }
+}

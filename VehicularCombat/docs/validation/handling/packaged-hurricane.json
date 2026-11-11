@@ -1,0 +1,38 @@
+﻿{
+    "passed":  true,
+    "exit_code":  0,
+    "report":  {
+                   "passed":  true,
+                   "complete":  true,
+                   "checks":  {
+                                  "hondo_with_blaster_mask":  true,
+                                  "hondo_and_mask_atlas_materials_assigned":  true,
+                                  "four_road_supports_middle_pair_inactive":  true,
+                                  "six_persistent_tire_parts":  true,
+                                  "no_flight_or_jump":  true,
+                                  "no_proxy_depth_blocks":  true,
+                                  "transform_twice_as_fast":  true,
+                                  "one_spare_initially_mounted":  true,
+                                  "xbox_road_driving":  true,
+                                  "six_chaos_wheels_in_combat":  true,
+                                  "same_hondo_gunner_masked":  true,
+                                  "moving_transformation_preserves_driving":  true,
+                                  "still_ground_physics":  true,
+                                  "weapon_projectiles":  true,
+                                  "lb_y_ejects_same_spare_actor":  true,
+                                  "spare_projects_rearward":  true,
+                                  "no_duplicate_spare":  true,
+                                  "returns_to_four_supports_without_rebuilding_wheel_arrays":  true,
+                                  "same_hondo_driving_again":  true,
+                                  "dpad_up_switches_away_ai_takes_hurricane":  true,
+                                  "dpad_down_returns_same_masked_hondo":  true,
+                                  "pause_contains_controls":  true,
+                                  "no_timeout":  true
+                              },
+                   "phase":  11,
+                   "elapsed_seconds":  19.720175798982382,
+                   "drive_frames":  60,
+                   "projectiles":  33,
+                   "input_method":  "Real game with injected Xbox keys/axes; no physical controller test claimed."
+               }
+}

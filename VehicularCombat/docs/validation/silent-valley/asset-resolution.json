@@ -1,0 +1,20 @@
+[
+  {
+    "path": "/Game/Core/BP_CustomGameMode",
+    "direct": "/Game/Core/BP_CustomGameMode.BP_CustomGameMode",
+    "class": "Blueprint",
+    "registry": true
+  },
+  {
+    "path": "/Game/Core/BP_CustomPlayerController",
+    "direct": "/Game/Core/BP_CustomPlayerController.BP_CustomPlayerController",
+    "class": "Blueprint",
+    "registry": true
+  },
+  {
+    "path": "/Game/Fab/Megascans/3D/Small_Beach_Rock_wd4kfdx/Medium/wd4kfdx_tier_2/StaticMeshes/wd4kfdx_tier_2",
+    "direct": "/Game/Fab/Megascans/3D/Small_Beach_Rock_wd4kfdx/Medium/wd4kfdx_tier_2/StaticMeshes/wd4kfdx_tier_2.wd4kfdx_tier_2",
+    "class": "StaticMesh",
+    "registry": true
+  }
+]

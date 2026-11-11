@@ -1,0 +1,395 @@
+[
+  {
+    "frame": 1,
+    "battle": 0.0,
+    "parts": [
+      {
+        "name": "RH_BullbarSlide",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "drivers": [
+          {
+            "valid": true,
+            "simple": true,
+            "expression": "0.80*max(v,min(1,max(0,b/0.25))) + 0.0"
+          }
+        ]
+      },
+      {
+        "name": "RH_RearCockpitHatchPivot",
+        "location": [
+          -0.7200000286102295,
+          0.0,
+          1.2899999618530273
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "drivers": [
+          {
+            "valid": true,
+            "simple": true,
+            "expression": "-1.99*max(v,min(1,max(0,(b-0.42)/0.36))) + 0.0"
+          }
+        ]
+      },
+      {
+        "name": "RH_MissileLauncherLift",
+        "location": [
+          0.019999999552965164,
+          -0.30000001192092896,
+          2.7200000286102295
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "drivers": [
+          {
+            "valid": true,
+            "simple": true,
+            "expression": "2.72+0.70*min(max(v,min(1,max(0,(b-0.80)/0.20))),min(1,max(0,(max(h,min(1,max(0,(b-0.42)/0.36)))-0.92)/0.08))) + 0.0"
+          }
+        ]
+      },
+      {
+        "name": "RH_ExhaustCannonPivot_-1",
+        "location": [
+          0.9399999976158142,
+          -1.2899999618530273,
+          1.4700000286102295
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "drivers": [
+          {
+            "valid": true,
+            "simple": true,
+            "expression": "1.57079632679*max(v,min(1,max(0,(b-0.05)/0.36))) + 0.0"
+          }
+        ]
+      },
+      {
+        "name": "RH_ExhaustCannonPivot_1",
+        "location": [
+          0.9399999976158142,
+          1.2899999618530273,
+          1.4700000286102295
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "drivers": [
+          {
+            "valid": true,
+            "simple": true,
+            "expression": "1.57079632679*max(v,min(1,max(0,(b-0.05)/0.36))) + 0.0"
+          }
+        ]
+      },
+      {
+        "name": "Rhino_RearVehicle_Root",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "drivers": [
+          {
+            "valid": true,
+            "simple": true,
+            "expression": "-4.9*max(d,min(1,max(0,(b-0.12)/0.43))) + 0.0"
+          },
+          {
+            "valid": true,
+            "simple": true,
+            "expression": "-3.3*min(1,max(0,(max(d,min(1,max(0,(b-0.12)/0.43)))-0.65)/0.35)) + 0.0"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "frame": 151,
+    "battle": 1.0,
+    "parts": [
+      {
+        "name": "RH_BullbarSlide",
+        "location": [
+          0.800000011920929,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "drivers": [
+          {
+            "valid": true,
+            "simple": true,
+            "expression": "0.80*max(v,min(1,max(0,b/0.25))) + 0.0"
+          }
+        ]
+      },
+      {
+        "name": "RH_RearCockpitHatchPivot",
+        "location": [
+          -0.7200000286102295,
+          0.0,
+          1.2899999618530273
+        ],
+        "rotation": [
+          0.0,
+          -1.9900000095367432,
+          0.0
+        ],
+        "drivers": [
+          {
+            "valid": true,
+            "simple": true,
+            "expression": "-1.99*max(v,min(1,max(0,(b-0.42)/0.36))) + 0.0"
+          }
+        ]
+      },
+      {
+        "name": "RH_MissileLauncherLift",
+        "location": [
+          0.019999999552965164,
+          -0.30000001192092896,
+          3.4200000762939453
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "drivers": [
+          {
+            "valid": true,
+            "simple": true,
+            "expression": "2.72+0.70*min(max(v,min(1,max(0,(b-0.80)/0.20))),min(1,max(0,(max(h,min(1,max(0,(b-0.42)/0.36)))-0.92)/0.08))) + 0.0"
+          }
+        ]
+      },
+      {
+        "name": "RH_ExhaustCannonPivot_-1",
+        "location": [
+          0.9399999976158142,
+          -1.2899999618530273,
+          1.4700000286102295
+        ],
+        "rotation": [
+          0.0,
+          1.5707963705062866,
+          0.0
+        ],
+        "drivers": [
+          {
+            "valid": true,
+            "simple": true,
+            "expression": "1.57079632679*max(v,min(1,max(0,(b-0.05)/0.36))) + 0.0"
+          }
+        ]
+      },
+      {
+        "name": "RH_ExhaustCannonPivot_1",
+        "location": [
+          0.9399999976158142,
+          1.2899999618530273,
+          1.4700000286102295
+        ],
+        "rotation": [
+          0.0,
+          1.5707963705062866,
+          0.0
+        ],
+        "drivers": [
+          {
+            "valid": true,
+            "simple": true,
+            "expression": "1.57079632679*max(v,min(1,max(0,(b-0.05)/0.36))) + 0.0"
+          }
+        ]
+      },
+      {
+        "name": "Rhino_RearVehicle_Root",
+        "location": [
+          -4.900000095367432,
+          -3.299999952316284,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "drivers": [
+          {
+            "valid": true,
+            "simple": true,
+            "expression": "-4.9*max(d,min(1,max(0,(b-0.12)/0.43))) + 0.0"
+          },
+          {
+            "valid": true,
+            "simple": true,
+            "expression": "-3.3*min(1,max(0,(max(d,min(1,max(0,(b-0.12)/0.43)))-0.65)/0.35)) + 0.0"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "frame": 241,
+    "battle": 0.0,
+    "parts": [
+      {
+        "name": "RH_BullbarSlide",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "drivers": [
+          {
+            "valid": true,
+            "simple": true,
+            "expression": "0.80*max(v,min(1,max(0,b/0.25))) + 0.0"
+          }
+        ]
+      },
+      {
+        "name": "RH_RearCockpitHatchPivot",
+        "location": [
+          -0.7200000286102295,
+          0.0,
+          1.2899999618530273
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "drivers": [
+          {
+            "valid": true,
+            "simple": true,
+            "expression": "-1.99*max(v,min(1,max(0,(b-0.42)/0.36))) + 0.0"
+          }
+        ]
+      },
+      {
+        "name": "RH_MissileLauncherLift",
+        "location": [
+          0.019999999552965164,
+          -0.30000001192092896,
+          2.7200000286102295
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "drivers": [
+          {
+            "valid": true,
+            "simple": true,
+            "expression": "2.72+0.70*min(max(v,min(1,max(0,(b-0.80)/0.20))),min(1,max(0,(max(h,min(1,max(0,(b-0.42)/0.36)))-0.92)/0.08))) + 0.0"
+          }
+        ]
+      },
+      {
+        "name": "RH_ExhaustCannonPivot_-1",
+        "location": [
+          0.9399999976158142,
+          -1.2899999618530273,
+          1.4700000286102295
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "drivers": [
+          {
+            "valid": true,
+            "simple": true,
+            "expression": "1.57079632679*max(v,min(1,max(0,(b-0.05)/0.36))) + 0.0"
+          }
+        ]
+      },
+      {
+        "name": "RH_ExhaustCannonPivot_1",
+        "location": [
+          0.9399999976158142,
+          1.2899999618530273,
+          1.4700000286102295
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "drivers": [
+          {
+            "valid": true,
+            "simple": true,
+            "expression": "1.57079632679*max(v,min(1,max(0,(b-0.05)/0.36))) + 0.0"
+          }
+        ]
+      },
+      {
+        "name": "Rhino_RearVehicle_Root",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "drivers": [
+          {
+            "valid": true,
+            "simple": true,
+            "expression": "-4.9*max(d,min(1,max(0,(b-0.12)/0.43))) + 0.0"
+          },
+          {
+            "valid": true,
+            "simple": true,
+            "expression": "-3.3*min(1,max(0,(max(d,min(1,max(0,(b-0.12)/0.43)))-0.65)/0.35)) + 0.0"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "bundle_url": "https://download.blender.org/demo/asset-bundles/human-base-meshes/human-base-meshes-bundle-v1.2.0.zip",
+  "license": "CC0",
+  "hand_author": "Dan Ulrich",
+  "purpose": "Generic anatomy adaptation for user-authorized interpretation, not a specific real-person likeness",
+  "existing_head_object_retained": true,
+  "existing_suit_and_rig_retained": true
+}

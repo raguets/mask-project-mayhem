@@ -1,0 +1,7 @@
+{
+  "status": "success",
+  "result": {
+    "executed": true,
+    "result": "Infos: Enregistré sous « BoulderHill_V1_Assembly.blend »\nBOULDER_HILL_V1_BUILT 1976 invalid drivers ['BH_ExitGateHinge_1:rotation_euler', 'BH_ExitGateHinge_2:rotation_euler', 'BH_FallingBoulder:location', 'BH_FallingBoulder:location', 'BH_FallingBoulder:location']\n"
+  }
+}

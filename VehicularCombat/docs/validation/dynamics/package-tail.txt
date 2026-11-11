@@ -1,0 +1,28 @@
+﻿DumpManifest: C:\Users\steph\AppData\Roaming\Unreal Engine\AutomationTool\Logs\G+Program+Files+Epic+Games+UE_5.8\PrePak_Windows_NonUFSFiles.txt, NumItems: 36
+DumpManifest: C:\Users\steph\AppData\Roaming\Unreal Engine\AutomationTool\Logs\G+Program+Files+Epic+Games+UE_5.8\PrePak_Windows_NonUFSFilesDebug.txt, NumItems: 6
+DumpManifest: C:\Users\steph\AppData\Roaming\Unreal Engine\AutomationTool\Logs\G+Program+Files+Epic+Games+UE_5.8\PrePak_Windows_UFSFiles.txt, NumItems: 4511
+No matching platform for PakFileRules for Section ExcludeContentForMobile : Windows
+Using 0 pak order files:
+Running UnrealPak with arguments: "G:\DEV\mask-project-mayhem\VehicularCombat\VehicularCombat.uproject"  -cryptokeys="G:\DEV\mask-project-mayhem\VehicularCombat\Saved\Cooked\Windows\VehicularCombat\Metadata\Crypto.json" -unattended -patchpaddingalign=2048 -compressionformats=Oodle -compresslevel=4 -compressmethod=Kraken  -platform=Windows  -CreateMultiple="C:\Users\steph\AppData\Roaming\Unreal Engine\AutomationTool\Logs\G+Program+Files+Epic+Games+UE_5.8\PakCommands.txt"
+Running: G:\Program Files\Epic Games\UE_5.8\Engine\Binaries\Win64\UnrealPak.exe "G:\DEV\mask-project-mayhem\VehicularCombat\VehicularCombat.uproject"  -cryptokeys="G:\DEV\mask-project-mayhem\VehicularCombat\Saved\Cooked\Windows\VehicularCombat\Metadata\Crypto.json" -unattended -patchpaddingalign=2048 -compressionformats=Oodle -compresslevel=4 -compressmethod=Kraken  -platform=Windows  -CreateMultiple="C:\Users\steph\AppData\Roaming\Unreal Engine\AutomationTool\Logs\G+Program+Files+Epic+Games+UE_5.8\PakCommands.txt"
+OodleDataCompression: Display: Oodle v2.9.16 format for pak/iostore with method=Kraken, level=4=Normal
+Took 0,67s to run UnrealPak.exe, ExitCode=0
+Running UnrealPak with arguments: "G:\DEV\mask-project-mayhem\VehicularCombat\VehicularCombat.uproject" G:\DEV\mask-project-mayhem\VehicularCombat\VehicularCombat.uproject -CreateGlobalContainer="G:\DEV\mask-project-mayhem\VehicularCombat\Saved\StagedBuilds\Windows\VehicularCombat\Content\Paks\global.utoc" -PackageStoreManifest="G:\DEV\mask-project-mayhem\VehicularCombat\Saved\Cooked\Windows\VehicularCombat\Metadata\packagestore.manifest" -CookedDirectory="G:\DEV\mask-project-mayhem\VehicularCombat\Saved\Cooked\Windows" -Commands="C:\Users\steph\AppData\Roaming\Unreal Engine\AutomationTool\Logs\G+Program+Files+Epic+Games+UE_5.8\IoStoreCommands.txt" -ScriptObjects="G:\DEV\mask-project-mayhem\VehicularCombat\Saved\Cooked\Windows\VehicularCombat\Metadata\scriptobjects.bin" -patchpaddingalign=2048 -compressionformats=Oodle -compresslevel=4 -compressmethod=Kraken   -cryptokeys="G:\DEV\mask-project-mayhem\VehicularCombat\Saved\Cooked\Windows\VehicularCombat\Metadata\Crypto.json" -compressionMinBytesSaved=1024 -compressionMinPercentSaved=5 -WriteBackMetadataToAssetRegistry=Disabled -platform=Windows  -unattended
+Running: G:\Program Files\Epic Games\UE_5.8\Engine\Binaries\Win64\UnrealPak.exe "G:\DEV\mask-project-mayhem\VehicularCombat\VehicularCombat.uproject" G:\DEV\mask-project-mayhem\VehicularCombat\VehicularCombat.uproject -CreateGlobalContainer="G:\DEV\mask-project-mayhem\VehicularCombat\Saved\StagedBuilds\Windows\VehicularCombat\Content\Paks\global.utoc" -PackageStoreManifest="G:\DEV\mask-project-mayhem\VehicularCombat\Saved\Cooked\Windows\VehicularCombat\Metadata\packagestore.manifest" -CookedDirectory="G:\DEV\mask-project-mayhem\VehicularCombat\Saved\Cooked\Windows" -Commands="C:\Users\steph\AppData\Roaming\Unreal Engine\AutomationTool\Logs\G+Program+Files+Epic+Games+UE_5.8\IoStoreCommands.txt" -ScriptObjects="G:\DEV\mask-project-mayhem\VehicularCombat\Saved\Cooked\Windows\VehicularCombat\Metadata\scriptobjects.bin" -patchpaddingalign=2048 -compressionformats=Oodle -compresslevel=4 -compressmethod=Kraken   -cryptokeys="G:\DEV\mask-project-mayhem\VehicularCombat\Saved\Cooked\Windows\VehicularCombat\Metadata\Crypto.json" -compressionMinBytesSaved=1024 -compressionMinPercentSaved=5 -WriteBackMetadataToAssetRegistry=Disabled -platform=Windows  -unattended
+OodleDataCompression: Display: Oodle v2.9.16 format for pak/iostore with method=Kraken, level=4=Normal
+Took 5,73s to run UnrealPak.exe, ExitCode=0
+DumpManifest: C:\Users\steph\AppData\Roaming\Unreal Engine\AutomationTool\Logs\G+Program+Files+Epic+Games+UE_5.8\FinalCopyWin64_UFSFiles.txt, NumItems: 4512
+DumpManifest: C:\Users\steph\AppData\Roaming\Unreal Engine\AutomationTool\Logs\G+Program+Files+Epic+Games+UE_5.8\FinalCopyWin64_NonUFSFiles.txt, NumItems: 36
+DumpManifest: C:\Users\steph\AppData\Roaming\Unreal Engine\AutomationTool\Logs\G+Program+Files+Epic+Games+UE_5.8\FinalCopyWin64_NonUFSFilesDebug.txt, NumItems: 6
+Copying NonUFSFiles to staging directory: G:\DEV\mask-project-mayhem\VehicularCombat\Saved\StagedBuilds\Windows
+Copying DebugFiles to staging directory: G:\DEV\mask-project-mayhem\VehicularCombat\Saved\StagedBuilds\Windows
+Stage command time: 9.23 s
+********** STAGE COMMAND COMPLETED **********
+********** ARCHIVE COMMAND STARTED **********
+Archiving to G:\DEV\mask-project-mayhem\VehicularCombat\Saved\Packages\MASK-Dynamics-Development-r2
+Archive command time: 8.17 s
+********** ARCHIVE COMMAND COMPLETED **********
+BuildCookRun time: 95.71 s
+BUILD SUCCESSFUL
+AutomationTool executed for 0h 1m 36s
+AutomationTool exiting with ExitCode=0 (Success)

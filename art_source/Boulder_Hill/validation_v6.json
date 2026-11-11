@@ -1,0 +1,20 @@
+{
+  "version": "V6",
+  "date_utc": "2026-11-05T18:47:56.243559+00:00",
+  "scope": "Warm intermediate brown and brighter daylight, following user rejection of V4 beige and V5 excessive darkness.",
+  "geometry_unchanged_from_v4": true,
+  "geometry_validation": "validation_v4.json",
+  "render_views_inspected": 2,
+  "appearance_report": "color_light_v6.json",
+  "reopen_report": "../../docs/qa/boulder_standalone_v6.json",
+  "sources": {
+    "BoulderHill_V6_Assembly.blend": {
+      "bytes": 3943591,
+      "sha256": "5179be5e905ee3a9b0a30043f01f52c8f464ba69d8c3c03f7db7edcb24df9420"
+    },
+    "BoulderHill_V6_Base.blend": {
+      "bytes": 2930103,
+      "sha256": "1546d51263abb0807f9fc2aa6261404e34b9ef9a6e8a584839dd0b14105c092c"
+    }
+  }
+}

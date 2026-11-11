@@ -1,0 +1,132 @@
+{
+  "status": "complete",
+  "elapsed_seconds": 73.39,
+  "scene_file": "G:\\DEV\\mask-project-mayhem\\art_source\\Boulder_Hill\\BoulderHill_V3_Assembly.blend",
+  "job": {
+    "rig": "BoulderHill_Control",
+    "rig_properties": [
+      "battle_mode",
+      "gate_open",
+      "thunderhawk_exit",
+      "rhino_exit"
+    ],
+    "output_dir": "G:\\DEV\\mask-project-mayhem\\docs\\qa\\boulder_v3_first",
+    "samples": 16,
+    "width": 1250,
+    "height": 900,
+    "device": "GPU",
+    "views": [
+      {
+        "name": "01_station_mountain",
+        "frame": 1,
+        "properties": {},
+        "camera": [
+          72,
+          -95,
+          56
+        ],
+        "target": [
+          0,
+          28,
+          16
+        ],
+        "lens": 45
+      },
+      {
+        "name": "02_defense_prism",
+        "frame": 211,
+        "properties": {},
+        "camera": [
+          34,
+          -43,
+          19
+        ],
+        "target": [
+          0,
+          -3,
+          7
+        ],
+        "lens": 43
+      },
+      {
+        "name": "03_prism_halfway",
+        "frame": 65,
+        "properties": {},
+        "camera": [
+          -19,
+          -29,
+          11
+        ],
+        "target": [
+          -5,
+          -9,
+          3
+        ],
+        "lens": 47
+      }
+    ]
+  },
+  "renders": [
+    {
+      "view": {
+        "name": "01_station_mountain",
+        "frame": 1,
+        "properties": {},
+        "camera": [
+          72,
+          -95,
+          56
+        ],
+        "target": [
+          0,
+          28,
+          16
+        ],
+        "lens": 45
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\docs\\qa\\boulder_v3_first\\01_station_mountain.png",
+      "size_bytes": 1409368
+    },
+    {
+      "view": {
+        "name": "02_defense_prism",
+        "frame": 211,
+        "properties": {},
+        "camera": [
+          34,
+          -43,
+          19
+        ],
+        "target": [
+          0,
+          -3,
+          7
+        ],
+        "lens": 43
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\docs\\qa\\boulder_v3_first\\02_defense_prism.png",
+      "size_bytes": 1429813
+    },
+    {
+      "view": {
+        "name": "03_prism_halfway",
+        "frame": 65,
+        "properties": {},
+        "camera": [
+          -19,
+          -29,
+          11
+        ],
+        "target": [
+          -5,
+          -9,
+          3
+        ],
+        "lens": 47
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\docs\\qa\\boulder_v3_first\\03_prism_halfway.png",
+      "size_bytes": 1419137
+    }
+  ],
+  "retained_previous_views": []
+}

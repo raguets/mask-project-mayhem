@@ -1,0 +1,233 @@
+{
+	"role": "solo",
+	"passed": true,
+	"complete": true,
+	"phase": 24,
+	"elapsed_seconds": 132.27843689918518,
+	"checks":
+	{
+		"accelerates_on_road": true,
+		"transforms_while_accelerating": true,
+		"automatic_small_takeoff": true,
+		"same_masked_driver_after_takeoff": true,
+		"banks_right_when_turning_right": true,
+		"pitches_up_when_climbing": true,
+		"coordinated_turn_changes_heading": true,
+		"plane_brake_keeps_minimum_speed_command": true,
+		"plane_cannot_hover_with_brake_held": true,
+		"plane_reaches_50_kmh_under_braking": true,
+		"acceleration_to_300_is_progressive": true,
+		"maximum_airspeed_command_is_300_kmh": true,
+		"level_flight_reaches_300_kmh": true,
+		"high_speed_turn_exceeds_60_degrees_in_3_seconds": true,
+		"high_speed_trajectory_follows_heading": true,
+		"braking_from_300_is_progressive": true,
+		"braking_from_300_returns_to_50_kmh": true,
+		"x_starts_automatic_descent_from_altitude": true,
+		"automatic_descent_without_ground_in_probe_range": true,
+		"folding_starts_only_near_ground": true,
+		"automatically_returns_to_road_without_manual_descent": true,
+		"landing_preserves_forward_motion": true,
+		"ground_powertrain_restored": true,
+		"doubling_speed_quadruples_kinetic_energy": true,
+		"higher_speed_requires_longer_braking_distance": true,
+		"rhino_drives_before_deployment": true,
+		"same_module_ejects_immediately_while_truck_moves": true,
+		"module_inherits_velocity_with_rearward_kick": true,
+		"player_drives_same_ejected_module": true,
+		"recall_returns_player_to_same_truck": true,
+		"same_module_teleports_and_attaches_without_docking": true,
+		"moving_truck_keeps_momentum_during_quick_recall": true,
+		"rotorcraft_can_hover": true,
+		"rotorcraft_tilts_forward_under_acceleration": true,
+		"rotorcraft_returns_to_hover_after_braking": true,
+		"rotorcraft_lands_and_returns_to_road": true,
+		"no_timeout": true
+	},
+	"telemetry":
+	{
+		"road_before_transform":
+		{
+			"position": "X=483.537 Y=0.012 Z=20006.016",
+			"rotation": "P=-0.101006 Y=0.007490 R=-0.000891",
+			"velocity": "X=505.412 Y=0.032 Z=-0.611",
+			"energy_kj": 18.519491195678711,
+			"airspeed_command_mps": 0,
+			"ground_clearance_cm": 0,
+			"mode": 0
+		},
+		"takeoff":
+		{
+			"position": "X=4251.979 Y=0.582 Z=20248.509",
+			"rotation": "P=3.274706 Y=0.010980 R=0.000043",
+			"velocity": "X=1799.903 Y=0.330 Z=102.257",
+			"energy_kj": 235.63273620605469,
+			"airspeed_command_mps": 26.95606803894043,
+			"ground_clearance_cm": 245.03898620605469,
+			"mode": 2
+		},
+		"bank_and_climb":
+		{
+			"position": "X=8093.948 Y=1928.728 Z=20738.118",
+			"rotation": "P=7.172400 Y=49.680839 R=22.610861",
+			"velocity": "X=1544.785 Y=1927.981 Z=316.996",
+			"energy_kj": 449.78692626953125,
+			"airspeed_command_mps": 26.95606803894043,
+			"ground_clearance_cm": 727.56488037109375,
+			"mode": 2
+		},
+		"minimum_speed":
+		{
+			"position": "X=17940.741 Y=15305.562 Z=20917.995",
+			"rotation": "P=0.009635 Y=54.513828 R=-0.006873",
+			"velocity": "X=807.807 Y=1132.499 Z=0.002",
+			"energy_kj": 140.29524230957031,
+			"airspeed_command_mps": 13.888889312744141,
+			"ground_clearance_cm": 917.99542236328125,
+			"mode": 2
+		},
+		"acceleration_ramp":
+		{
+			"position": "X=19302.593 Y=17215.218 Z=20918.024",
+			"rotation": "P=0.009491 Y=54.513828 R=-0.006767",
+			"velocity": "X=1079.369 Y=1513.763 Z=0.041",
+			"energy_kj": 250.597412109375,
+			"airspeed_command_mps": 25.889297485351562,
+			"ground_clearance_cm": 918.0228271484375,
+			"mode": 2
+		},
+		"maximum_speed":
+		{
+			"position": "X=132774.293 Y=176377.562 Z=20919.581",
+			"rotation": "P=0.009201 Y=54.513828 R=-0.006560",
+			"velocity": "X=4837.503 Y=6785.385 Z=0.043",
+			"energy_kj": 5034.609375,
+			"airspeed_command_mps": 83.333335876464844,
+			"ground_clearance_cm": 919.5791015625,
+			"mode": 2
+		},
+		"high_speed_turn":
+		{
+			"position": "X=130159.658 Y=199092.584 Z=21108.260",
+			"rotation": "P=0.011904 Y=136.393716 R=42.057102",
+			"velocity": "X=-6357.287 Y=5456.756 Z=74.853",
+			"energy_kj": 5089.27392578125,
+			"airspeed_command_mps": 83.333335876464844,
+			"ground_clearance_cm": 1105.76318359375,
+			"mode": 2
+		},
+		"braking_ramp":
+		{
+			"position": "X=120699.063 Y=206920.403 Z=21103.273",
+			"rotation": "P=0.097219 Y=143.967328 R=0.540619",
+			"velocity": "X=-6166.224 Y=4897.656 Z=-12.370",
+			"energy_kj": 4495.6884765625,
+			"airspeed_command_mps": 71.333015441894531,
+			"ground_clearance_cm": 1103.6925048828125,
+			"mode": 2
+		},
+		"minimum_after_full_speed":
+		{
+			"position": "X=60954.105 Y=251004.008 Z=21095.911",
+			"rotation": "P=0.007027 Y=143.970864 R=0.009661",
+			"velocity": "X=-1123.454 Y=817.111 Z=0.002",
+			"energy_kj": 139.911865234375,
+			"airspeed_command_mps": 13.888889312744141,
+			"ground_clearance_cm": 1095.9111328125,
+			"mode": 2
+		},
+		"high_altitude_descent":
+		{
+			"position": "X=56363.292 Y=254343.033 Z=79737.740",
+			"rotation": "P=-12.090271 Y=143.970310 R=-0.000004",
+			"velocity": "X=-2176.599 Y=1583.113 Z=-586.051",
+			"energy_kj": 550.0782470703125,
+			"airspeed_command_mps": 37.889495849609375,
+			"ground_clearance_cm": 50000,
+			"mode": 5
+		},
+		"landed":
+		{
+			"position": "X=44432.514 Y=263020.690 Z=20005.944",
+			"rotation": "P=-0.112630 Y=143.970367 R=0.001738",
+			"velocity": "X=-3270.630 Y=2378.836 Z=-0.697",
+			"energy_kj": 1185.8016357421875,
+			"airspeed_command_mps": 54.425159454345703,
+			"ground_clearance_cm": 10.240866661071777,
+			"mode": 0
+		},
+		"braking_10mps_cm": 811.45135498046875,
+		"braking_20mps_cm": 3222.01318359375,
+		"rhino_ejection":
+		{
+			"position": "X=3754.826 Y=1499.974 Z=20013.059",
+			"rotation": "P=0.374002 Y=-0.008095 R=0.001551",
+			"velocity": "X=636.812 Y=-0.058 Z=-0.808",
+			"energy_kj": 121.65913391113281,
+			"airspeed_command_mps": 0,
+			"ground_clearance_cm": 0,
+			"mode": 1
+		},
+		"rhino_recalled":
+		{
+			"position": "X=6514.935 Y=1480.387 Z=20013.006",
+			"rotation": "P=0.376176 Y=-5.098547 R=0.001356",
+			"velocity": "X=86.807 Y=-7.745 Z=0.453",
+			"energy_kj": 2.2787017822265625,
+			"airspeed_command_mps": 0,
+			"ground_clearance_cm": 0,
+			"mode": 3
+		},
+		"moving_truck_recall":
+		{
+			"position": "X=11339.253 Y=1049.181 Z=20013.140",
+			"rotation": "P=0.374813 Y=-5.112271 R=0.001357",
+			"velocity": "X=1808.453 Y=-161.742 Z=0.397",
+			"energy_kj": 988.99945068359375,
+			"airspeed_command_mps": 0,
+			"ground_clearance_cm": 0,
+			"mode": 3
+		},
+		"rotorcraft_hover":
+		{
+			"position": "X=-0.376 Y=9999.809 Z=20271.134",
+			"rotation": "P=0.004178 Y=-0.000011 R=-0.002233",
+			"velocity": "X=0.070 Y=-0.146 Z=0.306",
+			"energy_kj": 8.6689005911466666e-06,
+			"airspeed_command_mps": 0,
+			"ground_clearance_cm": 271.12356567382812,
+			"mode": 2
+		},
+		"rotorcraft_accelerating":
+		{
+			"position": "X=296.170 Y=9999.613 Z=20277.777",
+			"rotation": "P=-22.277359 Y=-0.004123 R=0.001620",
+			"velocity": "X=474.069 Y=-0.044 Z=0.011",
+			"energy_kj": 16.293746948242188,
+			"airspeed_command_mps": 16.000434875488281,
+			"ground_clearance_cm": 277.76956176757812,
+			"mode": 2
+		},
+		"rotorcraft_braked_to_hover":
+		{
+			"position": "X=2790.735 Y=9999.431 Z=20271.270",
+			"rotation": "P=0.341581 Y=-0.004287 R=0.000001",
+			"velocity": "X=-41.243 Y=0.003 Z=0.000",
+			"energy_kj": 0.12332139164209366,
+			"airspeed_command_mps": 0,
+			"ground_clearance_cm": 271.23519897460938,
+			"mode": 2
+		},
+		"rotorcraft_landed":
+		{
+			"position": "X=2763.991 Y=9999.434 Z=20005.821",
+			"rotation": "P=-0.182722 Y=-0.004278 R=-0.001253",
+			"velocity": "X=0.000 Y=0.000 Z=0.000",
+			"energy_kj": 0,
+			"airspeed_command_mps": 0,
+			"ground_clearance_cm": 10.838973045349121,
+			"mode": 0
+		}
+	},
+	"fixture": "Opt-in replicated flat platform at 200m, existing playable pawns, injected Xbox inputs. Brake comparisons use explicit initial velocities. No manual docking fixture. Rotorcraft uses a transient Thunderhawk definition as a physics proxy; no helicopter art claimed."
+}

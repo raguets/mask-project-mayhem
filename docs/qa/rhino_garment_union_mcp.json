@@ -1,0 +1,7 @@
+{
+  "status": "success",
+  "result": {
+    "executed": true,
+    "result": "Infos: Copie enregistrée sous « Rhino_V1_before_garment_union.blend »\nInfos: Enregistré sous « Rhino_V1.blend »\nRHINO_GARMENTS_UNIFIED [{\"rig\": \"AlexSector_Rig\", \"same_suit_object\": \"AS_ContinuousFlightSuit\", \"vertices\": 237622, \"continuous_knee_union\": true, \"weight_transfer\": \"Nearest evaluated rest face, inverse-distance blend of its original vertex weights; normalized.\"}, {\"rig\": \"BruceSato_Rig\", \"same_suit_object\": \"BS_ContinuousFlightSuit\", \"vertices\": 237622, \"continuous_knee_union\": true, \"weight_transfer\": \"Nearest evaluated rest face, inverse-distance blend of its original vertex weights; normalized.\"}]\n"
+  }
+}

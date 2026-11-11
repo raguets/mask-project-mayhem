@@ -1,0 +1,83 @@
+{
+  "method": "Evaluated obstacle surfaces versus conservative full road-vehicle rectangular envelopes; excludes floor contact, excludes route steering dynamics. Surface-crossing check, with separate parked rectangle and headroom checks.",
+  "route_samples": {
+    "Thunderhawk": {
+      "count": 241,
+      "collisions": [],
+      "start": [
+        -5.599999904632568,
+        15.0,
+        0.0
+      ],
+      "end": [
+        19.24264144897461,
+        -18.970561981201172,
+        0.0
+      ]
+    },
+    "Rhino": {
+      "count": 241,
+      "collisions": [],
+      "start": [
+        -5.599999904632568,
+        33.0,
+        0.0
+      ],
+      "end": [
+        19.24264144897461,
+        -18.970561981201172,
+        0.0
+      ]
+    }
+  },
+  "mechanism_contacts": {
+    "garage_shell": [],
+    "store_armor": [],
+    "cap": [],
+    "turret": [],
+    "pump_gun_1": [],
+    "pump_gun_2": [],
+    "sign_panel": []
+  },
+  "parking_bays": [
+    {
+      "center": [
+        -5.6,
+        15,
+        0
+      ],
+      "vehicle": "Rhino envelope",
+      "collisions": []
+    },
+    {
+      "center": [
+        -5.6,
+        21,
+        0
+      ],
+      "vehicle": "Rhino envelope",
+      "collisions": []
+    },
+    {
+      "center": [
+        -5.6,
+        27,
+        0
+      ],
+      "vehicle": "Rhino envelope",
+      "collisions": []
+    },
+    {
+      "center": [
+        -5.6,
+        33,
+        0
+      ],
+      "vehicle": "Rhino envelope",
+      "collisions": []
+    }
+  ],
+  "parking_pair_clearance_y_m": 2.809999942779541,
+  "nominal_gate_height_margin_m": 0.9448551417514679,
+  "nominal_gate_width_margin_m": 2.809999942779541
+}

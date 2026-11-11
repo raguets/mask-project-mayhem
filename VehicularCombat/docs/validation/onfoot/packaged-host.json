@@ -1,0 +1,24 @@
+{
+	"role": "host",
+	"passed": true,
+	"complete": true,
+	"phase": 1,
+	"elapsed_seconds": 36.006471797823906,
+	"checks":
+	{
+		"remote_exit_authority": true,
+		"same_remote_body_authority": true,
+		"remote_walking_authority": true,
+		"remote_running_authority": true,
+		"remote_jump_authority": true,
+		"remote_mask_hidden_authority": true,
+		"remote_fire_authority": true,
+		"remote_projectile_damage_authority": true,
+		"remote_return_authority": true,
+		"no_timeout": true
+	},
+	"telemetry":
+	{
+	},
+	"fixture": "Opt-in flat platform at 200m, existing playable pawns, injected Xbox inputs. Solo roster possession/obstacles and enemy placement are explicit fixtures. No physical gamepad/manual play claimed."
+}

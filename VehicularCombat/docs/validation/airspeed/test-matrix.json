@@ -1,0 +1,23 @@
+﻿[
+    {
+        "suite":  "solo",
+        "role":  "solo",
+        "passed":  true,
+        "checks":  35,
+        "exit_code":  0
+    },
+    {
+        "suite":  "network",
+        "role":  "host",
+        "passed":  true,
+        "checks":  10,
+        "exit_code":  0
+    },
+    {
+        "suite":  "network",
+        "role":  "client",
+        "passed":  true,
+        "checks":  28,
+        "exit_code":  0
+    }
+]

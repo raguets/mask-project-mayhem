@@ -1,0 +1,19 @@
+﻿{
+    "note":  "First measurement, not final release. Initial maximum tolerance +/-6 km/h accepted about 296. Body damping compensation added for r2; final tolerance +/-1 km/h.",
+    "runs":  [
+                 {
+                     "role":  "solo",
+                     "source":  "Saved/Migration/dynamics-airspeed-packaged/solo.json",
+                     "initial_loose_checks_passed":  true,
+                     "actual_maximum_kmh":  295.76958004901365,
+                     "command_kmh":  300.0000091552734384
+                 },
+                 {
+                     "role":  "client",
+                     "source":  "Saved/Migration/dynamics-airspeed-network-packaged/client.json",
+                     "initial_loose_checks_passed":  true,
+                     "actual_maximum_kmh":  296.70748328923793,
+                     "command_kmh":  300.0000091552734384
+                 }
+             ]
+}

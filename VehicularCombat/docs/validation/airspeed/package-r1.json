@@ -1,0 +1,15 @@
+﻿{
+    "package":  "MASK-Airspeed-Development-r1",
+    "executable":  "G:\\DEV\\mask-project-mayhem\\VehicularCombat\\Saved\\Packages\\MASK-Airspeed-Development-r1\\Windows\\VehicularCombat\\Binaries\\Win64\\VehicularCombat.exe",
+    "sha256":  "6E141D990A5E1D41386840DE6979509927D6DC1D5818FA56BE1B5103CE4E4D9D",
+    "bytes":  333867008,
+    "engine":  "5.8.2-56702186",
+    "build_cook_run_seconds":  114.33,
+    "base_commit":  "872a295",
+    "aircraft_minimum_kmh":  50,
+    "aircraft_maximum_kmh":  300,
+    "rotorcraft_maximum_kmh":  108,
+    "speed_command_rate_mps2":  8,
+    "flight_power_kw":  600,
+    "maximum_thrust_n":  10000
+}

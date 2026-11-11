@@ -1,0 +1,192 @@
+{
+  "status": "complete",
+  "elapsed_seconds": 196.0,
+  "scene_file": "G:\\DEV\\mask-project-mayhem\\art_source\\Boulder_Hill\\BoulderHill_V1_Assembly.blend",
+  "job": {
+    "rig": "BoulderHill_Control",
+    "rig_properties": [
+      "battle_mode",
+      "gate_open",
+      "thunderhawk_exit",
+      "rhino_exit"
+    ],
+    "output_dir": "G:\\DEV\\mask-project-mayhem\\docs\\qa\\boulder_v1",
+    "samples": 24,
+    "width": 1400,
+    "height": 1000,
+    "device": "GPU",
+    "views": [
+      {
+        "name": "01_station",
+        "frame": 1,
+        "properties": {},
+        "camera": [
+          39,
+          -48,
+          30
+        ],
+        "target": [
+          1,
+          0,
+          5
+        ],
+        "lens": 47
+      },
+      {
+        "name": "02_defense",
+        "frame": 181,
+        "properties": {},
+        "camera": [
+          39,
+          -48,
+          30
+        ],
+        "target": [
+          1,
+          0,
+          5
+        ],
+        "lens": 47
+      },
+      {
+        "name": "03_gate_open",
+        "frame": 211,
+        "properties": {},
+        "camera": [
+          29,
+          -35,
+          16
+        ],
+        "target": [
+          2,
+          -3,
+          3.8
+        ],
+        "lens": 45
+      },
+      {
+        "name": "04_interior",
+        "frame": 211,
+        "properties": {},
+        "camera": [
+          23,
+          2,
+          46
+        ],
+        "target": [
+          0,
+          16,
+          0
+        ],
+        "lens": 41,
+        "hide_collections": [
+          "BH_Rock"
+        ],
+        "hide_objects": [
+          "BH_HangarCeiling",
+          "BH_HangarRoofBeam_2",
+          "BH_HangarRoofBeam_9",
+          "BH_HangarRoofBeam_16",
+          "BH_HangarRoofBeam_23",
+          "BH_HangarRoofBeam_30",
+          "BH_HangarRoofBeam_37"
+        ]
+      }
+    ]
+  },
+  "renders": [
+    {
+      "view": {
+        "name": "01_station",
+        "frame": 1,
+        "properties": {},
+        "camera": [
+          39,
+          -48,
+          30
+        ],
+        "target": [
+          1,
+          0,
+          5
+        ],
+        "lens": 47
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\docs\\qa\\boulder_v1\\01_station.png",
+      "size_bytes": 1675057
+    },
+    {
+      "view": {
+        "name": "02_defense",
+        "frame": 181,
+        "properties": {},
+        "camera": [
+          39,
+          -48,
+          30
+        ],
+        "target": [
+          1,
+          0,
+          5
+        ],
+        "lens": 47
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\docs\\qa\\boulder_v1\\02_defense.png",
+      "size_bytes": 1691126
+    },
+    {
+      "view": {
+        "name": "03_gate_open",
+        "frame": 211,
+        "properties": {},
+        "camera": [
+          29,
+          -35,
+          16
+        ],
+        "target": [
+          2,
+          -3,
+          3.8
+        ],
+        "lens": 45
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\docs\\qa\\boulder_v1\\03_gate_open.png",
+      "size_bytes": 1692696
+    },
+    {
+      "view": {
+        "name": "04_interior",
+        "frame": 211,
+        "properties": {},
+        "camera": [
+          23,
+          2,
+          46
+        ],
+        "target": [
+          0,
+          16,
+          0
+        ],
+        "lens": 41,
+        "hide_collections": [
+          "BH_Rock"
+        ],
+        "hide_objects": [
+          "BH_HangarCeiling",
+          "BH_HangarRoofBeam_2",
+          "BH_HangarRoofBeam_9",
+          "BH_HangarRoofBeam_16",
+          "BH_HangarRoofBeam_23",
+          "BH_HangarRoofBeam_30",
+          "BH_HangarRoofBeam_37"
+        ]
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\docs\\qa\\boulder_v1\\04_interior.png",
+      "size_bytes": 1370625
+    }
+  ],
+  "retained_previous_views": []
+}

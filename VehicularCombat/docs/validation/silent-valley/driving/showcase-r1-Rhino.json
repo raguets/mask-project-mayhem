@@ -1,0 +1,46 @@
+﻿{
+    "passed":  true,
+    "exit_code":  0,
+    "report":  {
+                   "passed":  true,
+                   "complete":  true,
+                   "vehicle":  "Rhino",
+                   "wall_seconds":  125.17918169870973,
+                   "simulated_seconds":  1186.129638671875,
+                   "progress_m":  9548,
+                   "max_cross_track_m":  0.83882218599319458,
+                   "max_speed_kmh":  39.627465820312494,
+                   "longest_wheel_contact_loss_s":  0,
+                   "checks":  {
+                                  "new_map_loaded":  true,
+                                  "existing_requested_vehicle":  true,
+                                  "starts_inside_existing_base":  true,
+                                  "continuous_ground_probes":  true,
+                                  "road_grade_below_10_percent":  true,
+                                  "reached_zone_0":  true,
+                                  "reached_zone_1":  true,
+                                  "reached_zone_2":  true,
+                                  "reached_zone_3":  true,
+                                  "reached_zone_4":  true,
+                                  "no_stuck_or_departure":  true,
+                                  "wheels_remain_supported":  true,
+                                  "no_unwanted_transformation":  true,
+                                  "route_completed_without_recovery":  true
+                              },
+                   "telemetry":  {
+                                     "probe_count":  2868,
+                                     "missing_ground_probes":  0,
+                                     "max_road_grade_percent":  8.4742155075073242,
+                                     "max_probe_surface_offset_cm":  43.872024536132812,
+                                     "latest_position":  "X=-129147.889 Y=-106568.176 Z=8013.116",
+                                     "rotation":  "P=0.381404 Y=-165.205728 R=-0.006483",
+                                     "requested_steer":  0.060279227793216705,
+                                     "steering_input":  0.083175100386142731,
+                                     "throttle":  0.27279201149940491,
+                                     "brake":  0,
+                                     "contacts":  4,
+                                     "speed_cm_s":  822.40887451171875
+                                 },
+                   "method":  "Actual Chaos pawn, pure-pursuit controller injecting Xbox steering/throttle/brake. No teleportation or kinematic route following. Collision probe is separate from driving. Screenshots are real game frames."
+               }
+}

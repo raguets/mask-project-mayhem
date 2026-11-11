@@ -1,0 +1,113 @@
+{
+  "source_blend": "G:/DEV/mask-project-mayhem/art_source/Thunderhawk/Thunderhawk_V14.blend",
+  "rig": "MattTrakker_Rig",
+  "floor": "Review_Floor",
+  "manifest": "G:/DEV/mask-project-mayhem/art_source/Thunderhawk/independent_assets_v14.json",
+  "components": [
+    {
+      "kind": "character",
+      "output": "G:/DEV/mask-project-mayhem/art_source/Matt_Trakker/MattTrakker_V5.blend",
+      "scene_name": "MattTrakker_V5_Independent",
+      "collections": [
+        "MT11_Character",
+        "Spectrum11_Asset"
+      ],
+      "properties": {
+        "driving_pose": 0,
+        "mask_on": false
+      },
+      "frame": 1,
+      "ground_z": 0.006,
+      "presentation": {
+        "camera": [
+          3.5,
+          3.4,
+          1.9
+        ],
+        "target": [
+          0,
+          0,
+          0.94
+        ],
+        "lens": 62,
+        "focus": [
+          0,
+          0,
+          0.92
+        ],
+        "distance": 3.1
+      },
+      "help_text": "MATT V5 / SPECTRUM V4\nUn seul personnage, une armature, une tete conservee sous le masque.\nMattTrakker_Rig > Proprietes personnalisees : driving_pose=0 debout / 1 assis ; mask_on=False visage / True masque.\nCou raccourci et surface reconstruite ; collerette basse evasee ajustee aux epaules.\nDimensions et liaison souple interpretees a partir des references fournies.\nSources et poids editables preserves. Les cages de construction masquees ne sont pas des variantes de personnages.\n"
+    },
+    {
+      "kind": "vehicle",
+      "output": "G:/DEV/mask-project-mayhem/art_source/Thunderhawk/Thunderhawk_V14_Vehicle.blend",
+      "scene_name": "Thunderhawk_V14_Vehicle_Independent",
+      "collections": [
+        "THK9_Exterior",
+        "THK11_Interior"
+      ],
+      "properties": {
+        "driving_pose": 1,
+        "mask_on": false
+      },
+      "frame": 1,
+      "presentation": {
+        "camera": [
+          5,
+          5,
+          2.8
+        ],
+        "target": [
+          0,
+          0,
+          0.7
+        ],
+        "lens": 44,
+        "focus": [
+          0,
+          0,
+          0.7
+        ],
+        "distance": 6
+      }
+    },
+    {
+      "kind": "mask",
+      "output": "G:/DEV/mask-project-mayhem/art_source/Matt_Trakker/Spectrum_V4.blend",
+      "scene_name": "Spectrum_V4_Independent",
+      "collections": [
+        "Spectrum11_Asset"
+      ],
+      "properties": {
+        "driving_pose": 0,
+        "mask_on": true
+      },
+      "frame": 1,
+      "detach_mask": true,
+      "origin_bone": "head",
+      "socket": "Spectrum_HeadSocket",
+      "ground_z": "asset_min",
+      "presentation": {
+        "camera": [
+          0.85,
+          0.67,
+          0.4
+        ],
+        "target": [
+          0.02,
+          0,
+          0.12
+        ],
+        "lens": 70,
+        "focus": [
+          0,
+          0,
+          0.12
+        ],
+        "distance": 0.9
+      },
+      "help_text": "SPECTRUM V4 INDEPENDANT\nCoque rigide liee a la tete ; collerette evasee avec poids conserves pour les epaules.\nAucune dependance a un personnage ni au vehicule dans ce fichier.\nLe modele attache et ses commandes sont dans MattTrakker_V5.blend.\nPour un remontage deforme, restaurer le rest_bind_origin du socket dans le repere de repos puis reconnecter les groupes nommes au rig. Une simple parente tete suffit pour la coque rigide, pas pour la jupe souple.\nConstruction souple et mesures estimees, references de repliques et illustrations.\n"
+    }
+  ]
+}

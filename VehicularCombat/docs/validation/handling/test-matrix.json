@@ -1,0 +1,37 @@
+﻿[
+    {
+        "suite":  "wheel",
+        "role":  "solo",
+        "passed":  true,
+        "checks":  6,
+        "exit_code":  0
+    },
+    {
+        "suite":  "hurricane",
+        "role":  "solo",
+        "passed":  true,
+        "checks":  23,
+        "exit_code":  0
+    },
+    {
+        "suite":  "dynamics",
+        "role":  "solo",
+        "passed":  true,
+        "checks":  31,
+        "exit_code":  0
+    },
+    {
+        "suite":  "network",
+        "role":  "host",
+        "passed":  true,
+        "checks":  7,
+        "exit_code":  0
+    },
+    {
+        "suite":  "network",
+        "role":  "client",
+        "passed":  true,
+        "checks":  24,
+        "exit_code":  0
+    }
+]

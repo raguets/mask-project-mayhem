@@ -1,0 +1,56 @@
+{
+  "source": "G:\\DEV\\mask-project-mayhem\\art_source\\Thunderhawk\\Thunderhawk_V9.blend",
+  "samples": 32,
+  "views": [
+    {
+      "view": "perspective",
+      "frame": 1,
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Thunderhawk\\renders\\v9\\perspective.png"
+    },
+    {
+      "view": "front",
+      "frame": 1,
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Thunderhawk\\renders\\v9\\front.png"
+    },
+    {
+      "view": "rear",
+      "frame": 1,
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Thunderhawk\\renders\\v9\\rear.png"
+    },
+    {
+      "view": "side",
+      "frame": 1,
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Thunderhawk\\renders\\v9\\side.png"
+    },
+    {
+      "view": "top",
+      "frame": 1,
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Thunderhawk\\renders\\v9\\top.png"
+    },
+    {
+      "view": "rear_road",
+      "frame": 1,
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Thunderhawk\\renders\\v9\\rear_road.png"
+    },
+    {
+      "view": "flight",
+      "frame": 97,
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Thunderhawk\\renders\\v9\\flight.png"
+    },
+    {
+      "view": "rear_flight",
+      "frame": 97,
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Thunderhawk\\renders\\v9\\rear_flight.png"
+    },
+    {
+      "view": "mid_open",
+      "frame": 65,
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Thunderhawk\\renders\\v9\\mid_open.png"
+    },
+    {
+      "view": "mid_return",
+      "frame": 151,
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Thunderhawk\\renders\\v9\\mid_return.png"
+    }
+  ]
+}

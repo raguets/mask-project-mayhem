@@ -1,0 +1,29 @@
+{
+  "phase_count": 81,
+  "method": "BVH surface intersections of evaluated meshes, sampled at battle_mode increments 0.0125. Floors, own rigid assembly joins and designed rim contact excluded; no continuous or dynamics guarantee.",
+  "groups": {
+    "garage_shell": {
+      "contacts": []
+    },
+    "store_armor": {
+      "contacts": [],
+      "lowest_sampled_surface_z_m": 0.015807989984750748
+    },
+    "cap": {
+      "contacts": []
+    },
+    "turret": {
+      "contacts": []
+    },
+    "pump_gun_1": {
+      "contacts": []
+    },
+    "pump_gun_2": {
+      "contacts": []
+    },
+    "sign_panel": {
+      "contacts": []
+    }
+  },
+  "invalid_drivers": []
+}

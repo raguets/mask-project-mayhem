@@ -1,0 +1,59 @@
+{
+  "source": "BoulderHill_V5_Assembly.blend",
+  "output": "BoulderHill_V6_Assembly.blend",
+  "geometry_unchanged": true,
+  "meshes_compared": 1667,
+  "diffuse": [
+    0.20999999344348907,
+    0.07500000298023224,
+    0.03200000151991844,
+    1.0
+  ],
+  "world_strength": 0.85,
+  "sun_strength": 3.0,
+  "key_power_w": 5000,
+  "soft_fill_power_w": 14000,
+  "exposure_stops": 0.25,
+  "viewport": [
+    {
+      "scene_lights": true,
+      "scene_world": true
+    },
+    {
+      "scene_lights": true,
+      "scene_world": true
+    },
+    {
+      "scene_lights": true,
+      "scene_world": true
+    },
+    {
+      "scene_lights": true,
+      "scene_world": true
+    },
+    {
+      "scene_lights": true,
+      "scene_world": true
+    },
+    {
+      "scene_lights": true,
+      "scene_world": true
+    },
+    {
+      "scene_lights": true,
+      "scene_world": true
+    },
+    {
+      "scene_lights": true,
+      "scene_world": true
+    },
+    {
+      "scene_lights": true,
+      "scene_world": true
+    },
+    {
+      "scene_lights": true,
+      "scene_world": true
+    }
+  ]
+}

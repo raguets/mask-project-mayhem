@@ -1,0 +1,6 @@
+﻿{
+    "same_game_binary":  true,
+    "r1_sha256":  "024AB030BAC59238784AA92006BBDBD59B0E54615AFBB92789CC7DBCB6D7F48C",
+    "r2_sha256":  "024AB030BAC59238784AA92006BBDBD59B0E54615AFBB92789CC7DBCB6D7F48C",
+    "changes_r2":  "Only thin-pane refraction material/cook; no gameplay changes"
+}

@@ -1,0 +1,1476 @@
+{
+  "frame_sampling": "All integer frames 1..193; no continuous-time or watertight-volume collision certification.",
+  "reference_limits": "Toy/replica photographs and illustrated portrait. Footwear dimensions, anatomy and cockpit interpreted.",
+  "four_states": [
+    {
+      "driving_pose": 0,
+      "mask_on": false,
+      "visible_mask_parts": 0,
+      "same_meshes": true
+    },
+    {
+      "driving_pose": 0,
+      "mask_on": true,
+      "visible_mask_parts": 25,
+      "same_meshes": true
+    },
+    {
+      "driving_pose": 1,
+      "mask_on": false,
+      "visible_mask_parts": 0,
+      "same_meshes": true
+    },
+    {
+      "driving_pose": 1,
+      "mask_on": true,
+      "visible_mask_parts": 25,
+      "same_meshes": true
+    }
+  ],
+  "frames": [
+    {
+      "frame": 1,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 2,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 3,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 4,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 5,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 6,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 7,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 8,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 9,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 10,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 11,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 12,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 13,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 14,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 15,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 16,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 17,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 18,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 19,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 20,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 21,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 22,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 23,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 24,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 25,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 26,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 27,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 28,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 29,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 30,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 31,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 32,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 33,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 34,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 35,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 36,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 37,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 38,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 39,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 40,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 41,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 42,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 43,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 44,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 45,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 46,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 47,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 48,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 49,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 50,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 51,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 52,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 53,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 54,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 55,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 56,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 57,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 58,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 59,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 60,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 61,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 62,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 63,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 64,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 65,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 66,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 67,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 68,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 69,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 70,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 71,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 72,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 73,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 74,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 75,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 76,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 77,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 78,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 79,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 80,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 81,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 82,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 83,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 84,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 85,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 86,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 87,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 88,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 89,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 90,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 91,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 92,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 93,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 94,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 95,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 96,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 97,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 98,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 99,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 100,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 101,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 102,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 103,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 104,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 105,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 106,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 107,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 108,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 109,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 110,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 111,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 112,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 113,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 114,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 115,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 116,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 117,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 118,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 119,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 120,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 121,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 122,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 123,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 124,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 125,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 126,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 127,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 128,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 129,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 130,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 131,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 132,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 133,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 134,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 135,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 136,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 137,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 138,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 139,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 140,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 141,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 142,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 143,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 144,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 145,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 146,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 147,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 148,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 149,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 150,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 151,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 152,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 153,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 154,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 155,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 156,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 157,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 158,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 159,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 160,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 161,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 162,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 163,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 164,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 165,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 166,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 167,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 168,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 169,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 170,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 171,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 172,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 173,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 174,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 175,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 176,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 177,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 178,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 179,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 180,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 181,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 182,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 183,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 184,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 185,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 186,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 187,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 188,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 189,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 190,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 191,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 192,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    },
+    {
+      "frame": 193,
+      "helmet_pairs": 0,
+      "body_pairs": 0,
+      "reactor_order_ok": true,
+      "cover_translation_vertical": true
+    }
+  ],
+  "one_armature_one_head": true,
+  "separate_door_cannons": [
+    "THK_DoorCannon_L",
+    "THK_DoorCannon_R"
+  ],
+  "spoiler_independent_of_rear_cover": true,
+  "colliders": [
+    "THK_DoorShell_L",
+    "THK_DoorGlass_L",
+    "THK_DoorRoofInset_L",
+    "THK_DoorReturnFront_L",
+    "THK_DoorReturnRear_L",
+    "THK_DoorSeal_L",
+    "THK_DoorHandleRecess_L",
+    "THK_DoorHandle_L",
+    "THK_CannonMountRail_L",
+    "THK_DoorCannon_L",
+    "THK_CannonSleeve_L",
+    "THK_CannonMuzzle_L",
+    "THK_CannonBoreBack_L",
+    "THK_CannonSlide_L_Rear",
+    "THK_CannonSlide_L_Front",
+    "THK_CannonGuide_L_Rear",
+    "THK_CannonGuide_L_Front",
+    "THK_DoorShell_R",
+    "THK_DoorGlass_R",
+    "THK_DoorRoofInset_R",
+    "THK_DoorReturnFront_R",
+    "THK_DoorReturnRear_R",
+    "THK_DoorSeal_R",
+    "THK_DoorHandleRecess_R",
+    "THK_DoorHandle_R",
+    "THK_CannonMountRail_R",
+    "THK_DoorCannon_R",
+    "THK_CannonSleeve_R",
+    "THK_CannonMuzzle_R",
+    "THK_CannonBoreBack_R",
+    "THK_CannonSlide_R_Rear",
+    "THK_CannonSlide_R_Front",
+    "THK_CannonGuide_R_Rear",
+    "THK_CannonGuide_R_Front",
+    "THK_DoorAFrame_L",
+    "THK_DoorAFrame_R",
+    "THK_DoorPaint_L",
+    "THK_DoorLightning_L",
+    "THK_DoorPaint_R",
+    "THK_DoorLightning_R",
+    "THK_InnerDoorCard_L",
+    "THK_InnerDoorCard_R",
+    "THK_RoofSpine",
+    "THK_WindshieldFrame",
+    "THK_Windshield",
+    "THK_FrontRoofHeader",
+    "THK_RearGlass",
+    "THK_RearRoofHeader",
+    "THK_QuarterGlass_L",
+    "THK_QuarterGlass_R"
+  ],
+  "contacts": {
+    "R": {
+      "upper_to_pedal_gap_m": 0.0004999728407710791,
+      "upper_pedal_surface_pairs": 0,
+      "sole_to_footwell_gap_m": 0.001453697681427002,
+      "sole_floor_surface_pairs": 0
+    },
+    "L": {
+      "upper_to_pedal_gap_m": 0.0004999728407710791,
+      "upper_pedal_surface_pairs": 0,
+      "sole_to_footwell_gap_m": 0.0014540255069732666,
+      "sole_floor_surface_pairs": 0
+    },
+    "hand_L": {
+      "to_rim_gap_m": 3.9588703657500446e-05,
+      "surface_pairs": 58
+    },
+    "hand_R": {
+      "to_rim_gap_m": 3.969251338276081e-05,
+      "surface_pairs": 58
+    },
+    "seat": {
+      "suit_to_cushion_back_gap_m": 4.157425064477138e-05,
+      "surface_pairs": 578,
+      "note": "Surface contact/penetration requires visual assessment; upholstered compression is not simulated."
+    }
+  },
+  "contact_tolerances_m": {
+    "pedal": 0.001,
+    "floor": 0.002
+  },
+  "foot_contact_within_tolerance": true,
+  "elapsed_seconds": 21.18,
+  "collision_frames": [],
+  "reactor_order_ok": true
+}

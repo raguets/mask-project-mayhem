@@ -1,0 +1,114 @@
+[
+  {
+    "view": "spectrum",
+    "driving_pose": 0,
+    "mask_on": true,
+    "frame": 1,
+    "windshield_hidden": false
+  },
+  {
+    "view": "spectrum_front",
+    "driving_pose": 0,
+    "mask_on": true,
+    "frame": 1,
+    "windshield_hidden": false
+  },
+  {
+    "view": "spectrum_profile",
+    "driving_pose": 0,
+    "mask_on": true,
+    "frame": 1,
+    "windshield_hidden": false
+  },
+  {
+    "view": "road",
+    "driving_pose": 1,
+    "mask_on": false,
+    "frame": 1,
+    "windshield_hidden": false
+  },
+  {
+    "view": "glass",
+    "driving_pose": 1,
+    "mask_on": false,
+    "frame": 1,
+    "windshield_hidden": false
+  },
+  {
+    "view": "rear_road",
+    "driving_pose": 1,
+    "mask_on": false,
+    "frame": 1,
+    "windshield_hidden": false
+  },
+  {
+    "view": "rear_flight",
+    "driving_pose": 1,
+    "mask_on": true,
+    "frame": 97,
+    "windshield_hidden": false
+  },
+  {
+    "view": "rear_plate",
+    "driving_pose": 1,
+    "mask_on": false,
+    "frame": 97,
+    "windshield_hidden": false
+  },
+  {
+    "view": "shelf_cutaway",
+    "driving_pose": 1,
+    "mask_on": false,
+    "frame": 1,
+    "windshield_hidden": false
+  },
+  {
+    "view": "face_front",
+    "driving_pose": 0,
+    "mask_on": false,
+    "frame": 1,
+    "windshield_hidden": false
+  },
+  {
+    "view": "face",
+    "driving_pose": 0,
+    "mask_on": false,
+    "frame": 1,
+    "windshield_hidden": false
+  },
+  {
+    "view": "face_profile",
+    "driving_pose": 0,
+    "mask_on": false,
+    "frame": 1,
+    "windshield_hidden": false
+  },
+  {
+    "view": "standing",
+    "driving_pose": 0,
+    "mask_on": false,
+    "frame": 1,
+    "windshield_hidden": false
+  },
+  {
+    "view": "standing_mask",
+    "driving_pose": 0,
+    "mask_on": true,
+    "frame": 1,
+    "windshield_hidden": false
+  },
+  {
+    "view": "cabin",
+    "driving_pose": 1,
+    "mask_on": false,
+    "frame": 97,
+    "windshield_hidden": true
+  },
+  {
+    "view": "cabin_mask",
+    "driving_pose": 1,
+    "mask_on": true,
+    "frame": 97,
+    "windshield_hidden": true
+  }
+]

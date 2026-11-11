@@ -1,0 +1,7 @@
+{
+  "status": "success",
+  "result": {
+    "executed": true,
+    "result": "Infos: Copie enregistr\u00e9e sous \u00ab\u00a0Thunderhawk_V12_before_work.blend\u00a0\u00bb\nInfos: Enregistr\u00e9 sous \u00ab\u00a0Thunderhawk_V12.blend\u00a0\u00bb\nV12_FOOTWEAR_AND_PEDAL_ALIGNMENT_SAVED [{\"pedal\": \"THK_Pedal0\", \"boot\": \"R\", \"toe_estimate\": [0.6054601073265076, 0.2849997282028198, 0.3603559136390686], \"shift\": [0.018459975719451904, -0.005000323057174683, -0.06164410710334778]}, {\"pedal\": \"THK_Pedal2\", \"boot\": \"L\", \"toe_estimate\": [0.6054604053497314, 0.5149994492530823, 0.36035656929016113], \"shift\": [0.01846027374267578, -0.005000591278076172, -0.06164345145225525]}]\n"
+  }
+}

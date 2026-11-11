@@ -1,0 +1,9 @@
+﻿{
+    "engine":  "5.8.2-56702186",
+    "blueprints":  "Compiling Completed with 0 errors and 0 warnings and 0 blueprints that failed to load.",
+    "blueprint_log":  "Saved/Migration/handling-blueprints.txt",
+    "editor_build_log":  "Saved/Migration/handling-fix-build-02.txt",
+    "initial_build_failure":  "Saved/Migration/handling-fix-build-01.txt: LNK2019, missing direct ChaosVehiclesCore dependency",
+    "base_commit":  "cfaf65c",
+    "branch":  "fix/hurricane-wheel-flight-speed"
+}

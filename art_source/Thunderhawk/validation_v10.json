@@ -1,0 +1,61 @@
+{
+  "frames_checked": 193,
+  "clearance_timing_pass": true,
+  "reactor_travel_m_estimated": 0.085,
+  "character_objects": 64,
+  "reference_images_packed": 8,
+  "interior_complete": false,
+  "production_rig": false,
+  "samples": [
+    {
+      "frame": 1,
+      "reactor_x": 0.0,
+      "panel_z": 0.0
+    },
+    {
+      "frame": 45,
+      "reactor_x": 0.0,
+      "panel_z": 0.0
+    },
+    {
+      "frame": 85,
+      "reactor_x": 0.0,
+      "panel_z": 0.2150000035762787
+    },
+    {
+      "frame": 91,
+      "reactor_x": -0.042500000447034836,
+      "panel_z": 0.2150000035762787
+    },
+    {
+      "frame": 97,
+      "reactor_x": -0.08500000089406967,
+      "panel_z": 0.2150000035762787
+    },
+    {
+      "frame": 121,
+      "reactor_x": -0.08500000089406967,
+      "panel_z": 0.2150000035762787
+    },
+    {
+      "frame": 127,
+      "reactor_x": -0.042500000447034836,
+      "panel_z": 0.2150000035762787
+    },
+    {
+      "frame": 133,
+      "reactor_x": 0.0,
+      "panel_z": 0.2150000035762787
+    },
+    {
+      "frame": 173,
+      "reactor_x": 0.0,
+      "panel_z": 0.0
+    },
+    {
+      "frame": 193,
+      "reactor_x": 0.0,
+      "panel_z": 0.0
+    }
+  ]
+}

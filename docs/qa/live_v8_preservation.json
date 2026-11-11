@@ -1,0 +1,7 @@
+{
+  "status": "success",
+  "result": {
+    "executed": true,
+    "result": "Infos: Copie enregistr\u00e9e sous \u00ab\u00a0Thunderhawk_V8_live_before_rebuild.blend\u00a0\u00bb\n{\"original_path\": \"G:\\\\DEV\\\\mask-project-mayhem\\\\art_source\\\\Thunderhawk\\\\Thunderhawk_V8.blend\", \"dirty_before\": true, \"frame\": 161, \"copy\": \"G:\\\\DEV\\\\mask-project-mayhem\\\\art_source\\\\Thunderhawk\\\\Thunderhawk_V8_live_before_rebuild.blend\", \"bytes\": 209772, \"active_path_after\": \"G:\\\\DEV\\\\mask-project-mayhem\\\\art_source\\\\Thunderhawk\\\\Thunderhawk_V8.blend\"}\n"
+  }
+}

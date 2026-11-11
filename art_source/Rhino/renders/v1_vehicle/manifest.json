@@ -1,0 +1,207 @@
+{
+  "status": "complete",
+  "elapsed_seconds": 124.22,
+  "scene_file": "G:\\DEV\\mask-project-mayhem\\art_source\\Rhino\\Rhino_V1.blend",
+  "job": {
+    "output_dir": "G:\\DEV\\mask-project-mayhem\\art_source\\Rhino\\renders\\v1_vehicle",
+    "rig": "Rhino_Control",
+    "rig_properties": [
+      "battle_mode",
+      "rear_detach",
+      "bullbar",
+      "cannons",
+      "rear_open",
+      "launcher_up"
+    ],
+    "floor": "Review_Floor",
+    "samples": 24,
+    "width": 1200,
+    "height": 850,
+    "device": "GPU",
+    "views": [
+      {
+        "name": "road_front",
+        "camera": [
+          12,
+          11,
+          7
+        ],
+        "target": [
+          0.3,
+          0,
+          2
+        ],
+        "lens": 52,
+        "frame": 1,
+        "properties": {}
+      },
+      {
+        "name": "road_profile",
+        "camera": [
+          0,
+          16,
+          6
+        ],
+        "target": [
+          0.3,
+          0,
+          2
+        ],
+        "lens": 54,
+        "frame": 1,
+        "properties": {}
+      },
+      {
+        "name": "road_rear",
+        "camera": [
+          -10,
+          10,
+          7
+        ],
+        "target": [
+          0,
+          0,
+          2
+        ],
+        "lens": 52,
+        "frame": 1,
+        "properties": {}
+      },
+      {
+        "name": "transformed",
+        "camera": [
+          12,
+          16,
+          11
+        ],
+        "target": [
+          -1.9,
+          -0.9,
+          1.9
+        ],
+        "lens": 46,
+        "frame": 151,
+        "properties": {}
+      },
+      {
+        "name": "transformed_rear",
+        "camera": [
+          -13,
+          12,
+          10
+        ],
+        "target": [
+          -1.9,
+          -0.9,
+          1.9
+        ],
+        "lens": 48,
+        "frame": 151,
+        "properties": {}
+      }
+    ]
+  },
+  "renders": [
+    {
+      "view": {
+        "name": "road_front",
+        "camera": [
+          12,
+          11,
+          7
+        ],
+        "target": [
+          0.3,
+          0,
+          2
+        ],
+        "lens": 52,
+        "frame": 1,
+        "properties": {}
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Rhino\\renders\\v1_vehicle\\road_front.png",
+      "size_bytes": 1320862
+    },
+    {
+      "view": {
+        "name": "road_profile",
+        "camera": [
+          0,
+          16,
+          6
+        ],
+        "target": [
+          0.3,
+          0,
+          2
+        ],
+        "lens": 54,
+        "frame": 1,
+        "properties": {}
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Rhino\\renders\\v1_vehicle\\road_profile.png",
+      "size_bytes": 1219605
+    },
+    {
+      "view": {
+        "name": "road_rear",
+        "camera": [
+          -10,
+          10,
+          7
+        ],
+        "target": [
+          0,
+          0,
+          2
+        ],
+        "lens": 52,
+        "frame": 1,
+        "properties": {}
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Rhino\\renders\\v1_vehicle\\road_rear.png",
+      "size_bytes": 1281842
+    },
+    {
+      "view": {
+        "name": "transformed",
+        "camera": [
+          12,
+          16,
+          11
+        ],
+        "target": [
+          -1.9,
+          -0.9,
+          1.9
+        ],
+        "lens": 46,
+        "frame": 151,
+        "properties": {}
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Rhino\\renders\\v1_vehicle\\transformed.png",
+      "size_bytes": 1149759
+    },
+    {
+      "view": {
+        "name": "transformed_rear",
+        "camera": [
+          -13,
+          12,
+          10
+        ],
+        "target": [
+          -1.9,
+          -0.9,
+          1.9
+        ],
+        "lens": 48,
+        "frame": 151,
+        "properties": {}
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Rhino\\renders\\v1_vehicle\\transformed_rear.png",
+      "size_bytes": 1180513
+    }
+  ],
+  "retained_previous_views": []
+}

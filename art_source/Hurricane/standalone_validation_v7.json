@@ -1,0 +1,282 @@
+{
+  "reopened": [
+    {
+      "kind": "vehicle",
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Hurricane\\Hurricane_V7_Vehicle.blend",
+      "objects": 482,
+      "armatures": [],
+      "invalid_drivers": [],
+      "missing_driver_targets": [],
+      "lift_m": 0.29999998211860657,
+      "windshield_barrel_y": [
+        -0.5729999542236328,
+        -0.4869999885559082
+      ],
+      "tires": [
+        "HU_FrontWheel_L_Tire",
+        "HU_FrontWheel_R_Tire",
+        "HU_RearWheel_L_Tire",
+        "HU_RearWheel_R_Tire",
+        "HU_CentreWheel_L_Tire",
+        "HU_CentreWheel_R_Tire"
+      ],
+      "reopened_render": "G:\\DEV\\mask-project-mayhem\\art_source\\Hurricane\\renders\\standalone_v7\\vehicle.png",
+      "status": "passed"
+    },
+    {
+      "kind": "character",
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Hondo_MacLean\\HondoMacLean_V1.blend",
+      "objects": 77,
+      "armatures": [
+        "HondoMacLean_Rig"
+      ],
+      "invalid_drivers": [],
+      "missing_driver_targets": [],
+      "states": [
+        {
+          "driving_pose": 0,
+          "gunner_pose": 0,
+          "mask_on": false,
+          "same_body_head_rig": true,
+          "mask_visibility_correct": true,
+          "bounds": {
+            "HMC_Head_AnatomicalSurface": [
+              [
+                -0.08778303861618042,
+                0.12371400743722916
+              ],
+              [
+                -0.09276825934648514,
+                0.09248648583889008
+              ],
+              [
+                1.4747544527053833,
+                1.7643470764160156
+              ]
+            ],
+            "HMC_ContinuousFlightSuit": [
+              [
+                -0.12843450903892517,
+                0.10536421835422516
+              ],
+              [
+                -0.31860801577568054,
+                0.31860771775245667
+              ],
+              [
+                0.11883390694856644,
+                1.499389410018921
+              ]
+            ]
+          }
+        },
+        {
+          "driving_pose": 0,
+          "gunner_pose": 0,
+          "mask_on": true,
+          "same_body_head_rig": true,
+          "mask_visibility_correct": true,
+          "bounds": {
+            "HMC_Head_AnatomicalSurface": [
+              [
+                -0.08778303861618042,
+                0.12371400743722916
+              ],
+              [
+                -0.09276825934648514,
+                0.09248648583889008
+              ],
+              [
+                1.4747544527053833,
+                1.7643470764160156
+              ]
+            ],
+            "HMC_ContinuousFlightSuit": [
+              [
+                -0.12843450903892517,
+                0.10536421835422516
+              ],
+              [
+                -0.31860801577568054,
+                0.31860771775245667
+              ],
+              [
+                0.11883390694856644,
+                1.499389410018921
+              ]
+            ]
+          }
+        },
+        {
+          "driving_pose": 1,
+          "gunner_pose": 0,
+          "mask_on": false,
+          "same_body_head_rig": true,
+          "mask_visibility_correct": true,
+          "bounds": {
+            "HMC_Head_AnatomicalSurface": [
+              [
+                -0.6797831654548645,
+                -0.4682861268520355
+              ],
+              [
+                -0.09276820719242096,
+                0.09248653799295425
+              ],
+              [
+                0.9232348203659058,
+                1.2293471097946167
+              ]
+            ],
+            "HMC_ContinuousFlightSuit": [
+              [
+                -0.6430484056472778,
+                0.27057284116744995
+              ],
+              [
+                -0.26809942722320557,
+                0.268132746219635
+              ],
+              [
+                0.13697083294391632,
+                0.9711268544197083
+              ]
+            ]
+          }
+        },
+        {
+          "driving_pose": 1,
+          "gunner_pose": 0,
+          "mask_on": true,
+          "same_body_head_rig": true,
+          "mask_visibility_correct": true,
+          "bounds": {
+            "HMC_Head_AnatomicalSurface": [
+              [
+                -0.6797831654548645,
+                -0.4682861268520355
+              ],
+              [
+                -0.09276820719242096,
+                0.09248653799295425
+              ],
+              [
+                0.9232348203659058,
+                1.2293471097946167
+              ]
+            ],
+            "HMC_ContinuousFlightSuit": [
+              [
+                -0.6430484056472778,
+                0.27057284116744995
+              ],
+              [
+                -0.26809942722320557,
+                0.268132746219635
+              ],
+              [
+                0.13697083294391632,
+                0.9711268544197083
+              ]
+            ]
+          }
+        },
+        {
+          "driving_pose": 0,
+          "gunner_pose": 1,
+          "mask_on": false,
+          "same_body_head_rig": true,
+          "mask_visibility_correct": true,
+          "bounds": {
+            "HMC_Head_AnatomicalSurface": [
+              [
+                -0.08778303861618042,
+                0.12371400743722916
+              ],
+              [
+                -0.09276825934648514,
+                0.09248648583889008
+              ],
+              [
+                1.4747544527053833,
+                1.7643470764160156
+              ]
+            ],
+            "HMC_ContinuousFlightSuit": [
+              [
+                -0.12843450903892517,
+                0.3958093523979187
+              ],
+              [
+                -0.27307188510894775,
+                0.2731046676635742
+              ],
+              [
+                0.11883390694856644,
+                1.50221848487854
+              ]
+            ]
+          }
+        },
+        {
+          "driving_pose": 0,
+          "gunner_pose": 1,
+          "mask_on": true,
+          "same_body_head_rig": true,
+          "mask_visibility_correct": true,
+          "bounds": {
+            "HMC_Head_AnatomicalSurface": [
+              [
+                -0.08778303861618042,
+                0.12371400743722916
+              ],
+              [
+                -0.09276825934648514,
+                0.09248648583889008
+              ],
+              [
+                1.4747544527053833,
+                1.7643470764160156
+              ]
+            ],
+            "HMC_ContinuousFlightSuit": [
+              [
+                -0.12843450903892517,
+                0.3958093523979187
+              ],
+              [
+                -0.27307188510894775,
+                0.2731046676635742
+              ],
+              [
+                0.11883390694856644,
+                1.50221848487854
+              ]
+            ]
+          }
+        }
+      ],
+      "pose_drivers_retained": 173,
+      "reopened_render": "G:\\DEV\\mask-project-mayhem\\art_source\\Hurricane\\renders\\standalone_v7\\character.png",
+      "status": "passed"
+    },
+    {
+      "kind": "mask",
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Hondo_MacLean\\HondoMask_V1.blend",
+      "objects": 36,
+      "armatures": [],
+      "invalid_drivers": [],
+      "missing_driver_targets": [],
+      "rest_bind_origin": [
+        -0.00800000037997961,
+        0.0,
+        1.5499999523162842
+      ],
+      "mask_meshes": 29,
+      "reopened_render": "G:\\DEV\\mask-project-mayhem\\art_source\\Hurricane\\renders\\standalone_v7\\mask.png",
+      "status": "passed"
+    }
+  ],
+  "expected": 3,
+  "method": "Actual live Blender reopen of each ordinary-saved source; native driver targets, object identities, six character states, wheel count, lift and right-side cannon checked."
+}

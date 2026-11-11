@@ -1,0 +1,42 @@
+﻿[
+    {
+        "role":  "host",
+        "pid":  23344,
+        "executable":  "G:\\DEV\\mask-project-mayhem\\VehicularCombat\\Saved\\Packages\\MASK-Handling-Development-r1\\Windows\\VehicularCombat\\Binaries\\Win64\\VehicularCombat.exe",
+        "arguments":  [
+                          "/Game/Maps/TestMaps/Test?Vehicle=Thunderhawk?listen",
+                          "-unattended",
+                          "-nosound",
+                          "-nosteam",
+                          "-nosplash",
+                          "-windowed",
+                          "-ResX=1280",
+                          "-ResY=720",
+                          "-NoVSync",
+                          "-ExecCmds=\"t.MaxFPS 30,MASK.DynamicsSmoke host\"",
+                          "-MigrationReportDir=\"G:\\DEV\\mask-project-mayhem\\VehicularCombat\\Saved\\Migration\\dynamics-handling-network-packaged\"",
+                          "-AbsLog=\"G:\\DEV\\mask-project-mayhem\\VehicularCombat\\Saved\\Migration\\dynamics-handling-network-packaged\\host.log\"",
+                          "-RenderOffscreen"
+                      ]
+    },
+    {
+        "role":  "client",
+        "pid":  19332,
+        "executable":  "G:\\DEV\\mask-project-mayhem\\VehicularCombat\\Saved\\Packages\\MASK-Handling-Development-r1\\Windows\\VehicularCombat\\Binaries\\Win64\\VehicularCombat.exe",
+        "arguments":  [
+                          "127.0.0.1",
+                          "-unattended",
+                          "-nosound",
+                          "-nosteam",
+                          "-nosplash",
+                          "-windowed",
+                          "-ResX=1280",
+                          "-ResY=720",
+                          "-NoVSync",
+                          "-ExecCmds=\"t.MaxFPS 30,MASK.DynamicsSmoke client\"",
+                          "-MigrationReportDir=\"G:\\DEV\\mask-project-mayhem\\VehicularCombat\\Saved\\Migration\\dynamics-handling-network-packaged\"",
+                          "-AbsLog=\"G:\\DEV\\mask-project-mayhem\\VehicularCombat\\Saved\\Migration\\dynamics-handling-network-packaged\\client.log\"",
+                          "-RenderOffscreen"
+                      ]
+    }
+]

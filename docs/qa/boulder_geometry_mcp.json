@@ -1,0 +1,7 @@
+{
+  "status": "success",
+  "result": {
+    "executed": true,
+    "result": "GEOMETRY_QA {\"Thunderhawk\": 0, \"Rhino\": 0} MECHANISM_STAGES {'garage_shell': 0, 'store_armor': 0, 'cap': 0, 'turret': 0, 'pump_gun_1': 26, 'pump_gun_2': 26, 'sign_panel': 10}\n"
+  }
+}

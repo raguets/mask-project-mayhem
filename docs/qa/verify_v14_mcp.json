@@ -1,0 +1,7 @@
+{
+  "status": "success",
+  "result": {
+    "executed": true,
+    "result": "V14_INDEPENDENT_ASSETS_REOPENED {\"MattTrakker_V5.blend\": {\"reopened\": true, \"scene_objects\": 127, \"one_character_one_armature_one_head\": true, \"four_states\": [{\"drive\": 0, \"mask\": false, \"visible_mask_parts\": 0, \"same_head\": true}, {\"drive\": 0, \"mask\": true, \"visible_mask_parts\": 22, \"same_head\": true}, {\"drive\": 1, \"mask\": false, \"visible_mask_parts\": 0, \"same_head\": true}, {\"drive\": 1, \"mask\": true, \"visible_mask_parts\": 22, \"same_head\": true}], \"no_vehicle_dependency\": true}, \"Thunderhawk_V14_Vehicle.blend\": {\"reopened\": true, \"scene_objects\": 483, \"no_character_dependency\": true, \"previous_vehicle_parts_retained\": true}, \"Spectrum_V4.blend\": {\"reopened\": true, \"scene_objects\": 28, \"no_character_or_vehicle_dependency\": true, \"head_socket\": true, \"flexible_collar_weights_retained\": true, \"bind_origin\": [-0.00800000037997961, 0.0, 1.5499999523162842]}}\n"
+  }
+}

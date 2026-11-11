@@ -1,0 +1,8 @@
+﻿Stacktrace:    at AutomationTool.InternalUtils.SafeCopyFile(String SourceName, String TargetName, Boolean bQuiet, OverrideCopyDelegate OverrideCopyHandler, List`1 IniKeyDenyList, List`1 IniSectionDenyList, List`1 IniSectionAllowList, Boolean bSafeCreateDirectory)
+Failed to copy G:\DEV\mask-project-mayhem\VehicularCombat\Saved\StagedBuilds\Windows\VehicularCombat\Content\Paks\VehicularCombat-Windows.ucas to G:\DEV\mask-project-mayhem\VehicularCombat\Saved\Packages\MASK-Airspeed-Development-r3\Windows\VehicularCombat\Content\Paks\VehicularCombat-Windows.ucas, deleting, waiting 10s and retrying.
+Archive command time: 141.13 s
+********** ARCHIVE COMMAND COMPLETED **********
+BuildCookRun time: 226.67 s
+BUILD SUCCESSFUL
+AutomationTool executed for 0h 3m 47s
+AutomationTool exiting with ExitCode=0 (Success)

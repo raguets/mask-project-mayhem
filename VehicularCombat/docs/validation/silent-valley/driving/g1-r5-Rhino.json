@@ -1,0 +1,44 @@
+{
+	"passed": false,
+	"complete": true,
+	"vehicle": "Rhino",
+	"wall_seconds": 32.515641197562218,
+	"simulated_seconds": 277.059814453125,
+	"progress_m": 3482,
+	"max_cross_track_m": 13.001330375671387,
+	"max_speed_kmh": 54.328992187499999,
+	"longest_wheel_contact_loss_s": 0,
+	"checks":
+	{
+		"new_map_loaded": true,
+		"existing_requested_vehicle": true,
+		"starts_inside_existing_base": true,
+		"continuous_ground_probes": true,
+		"road_grade_below_10_percent": true,
+		"reached_zone_0": true,
+		"reached_zone_1": true,
+		"reached_zone_2": true,
+		"no_stuck_or_departure": false,
+		"route_completed_without_recovery": false
+	},
+	"telemetry":
+	{
+		"probe_count": 2658,
+		"missing_ground_probes": 0,
+		"max_road_grade_percent": 6.508824348449707,
+		"max_probe_surface_offset_cm": 29.0848388671875,
+		"latest_position": "X=69826.636 Y=25371.417 Z=15501.831",
+		"rotation": "P=-0.537345 Y=113.380386 R=-2.462790",
+		"requested_steer": -1,
+		"steering_input": -1,
+		"throttle": 0.80000001192092896,
+		"brake": 0,
+		"contacts": 4,
+		"speed_cm_s": 846.06451416015625,
+		"failure_position": "X=69893.595 Y=26620.392 Z=15440.219",
+		"failure_rotation": "P=-4.423993 Y=59.301605 R=2.204378",
+		"failure_speed_cm_s": 981.953857421875,
+		"failure_contacts": 3
+	},
+	"method": "Actual Chaos pawn, pure-pursuit controller injecting Xbox steering/throttle/brake. No teleportation or kinematic route following. Collision probe is separate from driving. Screenshots are real game frames."
+}

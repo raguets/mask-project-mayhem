@@ -1,0 +1,53 @@
+{
+  "art_source\\Matt_Trakker\\MattTrakker_V3.blend": {
+    "reopened": true,
+    "scene": "MattTrakker_V3_Independent",
+    "objects": 276,
+    "one_rig_one_head": true,
+    "four_states": [
+      {
+        "drive": 0,
+        "mask": false,
+        "visible_mask_parts": 0
+      },
+      {
+        "drive": 0,
+        "mask": true,
+        "visible_mask_parts": 25
+      },
+      {
+        "drive": 1,
+        "mask": false,
+        "visible_mask_parts": 0
+      },
+      {
+        "drive": 1,
+        "mask": true,
+        "visible_mask_parts": 25
+      }
+    ],
+    "vehicle_dependency": false,
+    "foot_pose_changes": true,
+    "regular_main_file_saved": true,
+    "reopened_after_regular_save": true
+  },
+  "art_source\\Thunderhawk\\Thunderhawk_V12_Vehicle.blend": {
+    "reopened": true,
+    "scene": "Thunderhawk_V12_Vehicle_Independent",
+    "objects": 469,
+    "character_dependency": false,
+    "reactor_order_frames_checked": 193,
+    "two_named_cannons": true,
+    "regular_main_file_saved": true,
+    "reopened_after_regular_save": true
+  },
+  "art_source\\Matt_Trakker\\Spectrum_V2.blend": {
+    "reopened": true,
+    "scene": "Spectrum_V2_Independent",
+    "objects": 31,
+    "character_dependency": false,
+    "vehicle_dependency": false,
+    "standalone_socket": true,
+    "unchanged_version": "V2"
+  }
+}

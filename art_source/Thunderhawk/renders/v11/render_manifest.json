@@ -1,0 +1,74 @@
+[
+  {
+    "view": "standing",
+    "driving": false,
+    "mask": false,
+    "frame": 1
+  },
+  {
+    "view": "standing_mask",
+    "driving": false,
+    "mask": true,
+    "frame": 1
+  },
+  {
+    "view": "face",
+    "driving": false,
+    "mask": false,
+    "frame": 1
+  },
+  {
+    "view": "spectrum",
+    "driving": false,
+    "mask": true,
+    "frame": 1
+  },
+  {
+    "view": "cabin",
+    "driving": true,
+    "mask": false,
+    "frame": 97
+  },
+  {
+    "view": "cabin_mask",
+    "driving": true,
+    "mask": true,
+    "frame": 97
+  },
+  {
+    "view": "road",
+    "driving": true,
+    "mask": false,
+    "frame": 1
+  },
+  {
+    "view": "rear_flight",
+    "driving": true,
+    "mask": true,
+    "frame": 97
+  },
+  {
+    "view": "dashboard",
+    "driving": true,
+    "mask": false,
+    "frame": 97
+  },
+  {
+    "view": "face_front",
+    "driving": false,
+    "mask": false,
+    "frame": 1
+  },
+  {
+    "view": "face_profile",
+    "driving": false,
+    "mask": false,
+    "frame": 1
+  },
+  {
+    "view": "interior",
+    "driving": true,
+    "mask": false,
+    "frame": 97
+  }
+]

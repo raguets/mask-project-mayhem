@@ -1,0 +1,5 @@
+Toutes ces transformations se font en même temps :
+- Les patins d'atterissage sortent sous la bas de la moto à l'endroit du fauteuil, qui descend d'autant
+- La structure qui supporte les hélices, qui se trouve, contre le corps arrière de la moto, montent à la verticale (le point de bascule est vers le bas de la moto, près de l'arrière du siège), puis les hélices se déploient
+- La roue arrière pivote vers l'arrière pour se retrouver en position de rotor de queue
+- Un petit canon sort du phare avant

@@ -1,0 +1,7 @@
+{
+  "same_suit_object": "HMC_ContinuousFlightSuit",
+  "suit_vertices": 180636,
+  "neck_rig_refit": true,
+  "head_shape_preserved": true,
+  "helmet_forehead_refit": true
+}

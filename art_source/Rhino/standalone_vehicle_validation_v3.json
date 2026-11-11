@@ -1,0 +1,35 @@
+{
+  "file": "Rhino_V3_Vehicle.blend",
+  "reopened": true,
+  "no_character_dependency": true,
+  "same_ten_tires": true,
+  "vertical_bars": 7,
+  "closed_frame": true,
+  "invalid_drivers": [],
+  "states": [
+    {
+      "frame": 1,
+      "bullbar_slide_x": 0.0,
+      "cabinet_x": 0.0,
+      "launcher_z": 2.740000009536743
+    },
+    {
+      "frame": 91,
+      "bullbar_slide_x": 0.800000011920929,
+      "cabinet_x": 0.0,
+      "launcher_z": 2.740000009536743
+    },
+    {
+      "frame": 151,
+      "bullbar_slide_x": 0.800000011920929,
+      "cabinet_x": -0.800000011920929,
+      "launcher_z": 3.640000104904175
+    },
+    {
+      "frame": 241,
+      "bullbar_slide_x": 0.0,
+      "cabinet_x": 0.0,
+      "launcher_z": 2.740000009536743
+    }
+  ]
+}

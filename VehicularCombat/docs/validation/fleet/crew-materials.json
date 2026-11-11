@@ -1,0 +1,368 @@
+{
+  "Thunderhawk/SK_Matt": [
+    {
+      "slot": "M_Game_MT2_RedLeather",
+      "material": "/Game/MASK/Thunderhawk/Materials/MI2_MattBody_M_Game_MT2_RedLeather.MI2_MattBody_M_Game_MT2_RedLeather",
+      "atlas": "/Game/MASK/Thunderhawk/Textures/MattBody_BaseColor.MattBody_BaseColor"
+    },
+    {
+      "slot": "M_Game_MT2_WovenGrey",
+      "material": "/Game/MASK/Thunderhawk/Materials/MI2_MattBody_M_Game_MT2_WovenGrey.MI2_MattBody_M_Game_MT2_WovenGrey",
+      "atlas": "/Game/MASK/Thunderhawk/Textures/MattBody_BaseColor.MattBody_BaseColor"
+    },
+    {
+      "slot": "M_Game_MT2_SeamGrey",
+      "material": "/Game/MASK/Thunderhawk/Materials/MI2_MattBody_M_Game_MT2_SeamGrey.MI2_MattBody_M_Game_MT2_SeamGrey",
+      "atlas": "/Game/MASK/Thunderhawk/Textures/MattBody_BaseColor.MattBody_BaseColor"
+    },
+    {
+      "slot": "M_Game_MT2_HarnessWebbing",
+      "material": "/Game/MASK/Thunderhawk/Materials/MI2_MattBody_M_Game_MT2_HarnessWebbing.MI2_MattBody_M_Game_MT2_HarnessWebbing",
+      "atlas": "/Game/MASK/Thunderhawk/Textures/MattBody_BaseColor.MattBody_BaseColor"
+    },
+    {
+      "slot": "M_Game_MT2_BrushedBuckle",
+      "material": "/Game/MASK/Thunderhawk/Materials/MI2_MattBody_M_Game_MT2_BrushedBuckle.MI2_MattBody_M_Game_MT2_BrushedBuckle",
+      "atlas": "/Game/MASK/Thunderhawk/Textures/MattBody_BaseColor.MattBody_BaseColor"
+    },
+    {
+      "slot": "M_Game_MT4_Skin",
+      "material": "/Game/MASK/Thunderhawk/Materials/MI2_MattBody_M_Game_MT4_Skin.MI2_MattBody_M_Game_MT4_Skin",
+      "atlas": "/Game/MASK/Thunderhawk/Textures/MattBody_BaseColor.MattBody_BaseColor"
+    },
+    {
+      "slot": "M_Game_Spectrum2_Rubber",
+      "material": "/Game/MASK/Thunderhawk/Materials/MI2_MattBody_M_Game_Spectrum2_Rubber.MI2_MattBody_M_Game_Spectrum2_Rubber",
+      "atlas": "/Game/MASK/Thunderhawk/Textures/MattBody_BaseColor.MattBody_BaseColor"
+    },
+    {
+      "slot": "M_Game_MT3_BootBlackLeather",
+      "material": "/Game/MASK/Thunderhawk/Materials/MI2_MattBody_M_Game_MT3_BootBlackLeather.MI2_MattBody_M_Game_MT3_BootBlackLeather",
+      "atlas": "/Game/MASK/Thunderhawk/Textures/MattBody_BaseColor.MattBody_BaseColor"
+    },
+    {
+      "slot": "M_Game_MT4_Sclera",
+      "material": "/Game/MASK/Thunderhawk/Materials/MI2_MattBody_M_Game_MT4_Sclera.MI2_MattBody_M_Game_MT4_Sclera",
+      "atlas": "/Game/MASK/Thunderhawk/Textures/MattBody_BaseColor.MattBody_BaseColor"
+    },
+    {
+      "slot": "M_Game_MT4_IrisFibers",
+      "material": "/Game/MASK/Thunderhawk/Materials/MI2_MattBody_M_Game_MT4_IrisFibers.MI2_MattBody_M_Game_MT4_IrisFibers",
+      "atlas": "/Game/MASK/Thunderhawk/Textures/MattBody_BaseColor.MattBody_BaseColor"
+    },
+    {
+      "slot": "M_Game_MT4_Pupil",
+      "material": "/Game/MASK/Thunderhawk/Materials/MI2_MattBody_M_Game_MT4_Pupil.MI2_MattBody_M_Game_MT4_Pupil",
+      "atlas": "/Game/MASK/Thunderhawk/Textures/MattBody_BaseColor.MattBody_BaseColor"
+    },
+    {
+      "slot": "M_Game_MT4_BrowHair",
+      "material": "/Game/MASK/Thunderhawk/Materials/MI2_MattBody_M_Game_MT4_BrowHair.MI2_MattBody_M_Game_MT4_BrowHair",
+      "atlas": "/Game/MASK/Thunderhawk/Textures/MattBody_BaseColor.MattBody_BaseColor"
+    }
+  ],
+  "Thunderhawk/SK_Spectrum": [
+    {
+      "slot": "M_Game_Spectrum3_BrushedSilver",
+      "material": "/Game/MASK/Thunderhawk/Materials/MI2_Spectrum_M_Game_Spectrum3_BrushedSilver.MI2_Spectrum_M_Game_Spectrum3_BrushedSilver",
+      "atlas": "/Game/MASK/Thunderhawk/Textures/Spectrum_BaseColor.Spectrum_BaseColor"
+    },
+    {
+      "slot": "M_Game_Spectrum3_SmokedVisor",
+      "material": "/Game/MASK/Thunderhawk/Materials/MI2_Spectrum_M_Game_Spectrum3_SmokedVisor.MI2_Spectrum_M_Game_Spectrum3_SmokedVisor",
+      "atlas": "/Game/MASK/Thunderhawk/Textures/Spectrum_BaseColor.Spectrum_BaseColor"
+    },
+    {
+      "slot": "M_Game_Spectrum3_Rubber",
+      "material": "/Game/MASK/Thunderhawk/Materials/MI2_Spectrum_M_Game_Spectrum3_Rubber.MI2_Spectrum_M_Game_Spectrum3_Rubber",
+      "atlas": "/Game/MASK/Thunderhawk/Textures/Spectrum_BaseColor.Spectrum_BaseColor"
+    },
+    {
+      "slot": "M_Game_Spectrum3_DeepRedLacquer",
+      "material": "/Game/MASK/Thunderhawk/Materials/MI2_Spectrum_M_Game_Spectrum3_DeepRedLacquer.MI2_Spectrum_M_Game_Spectrum3_DeepRedLacquer",
+      "atlas": "/Game/MASK/Thunderhawk/Textures/Spectrum_BaseColor.Spectrum_BaseColor"
+    },
+    {
+      "slot": "M_Game_Spectrum3_VentMetal",
+      "material": "/Game/MASK/Thunderhawk/Materials/MI2_Spectrum_M_Game_Spectrum3_VentMetal.MI2_Spectrum_M_Game_Spectrum3_VentMetal",
+      "atlas": "/Game/MASK/Thunderhawk/Textures/Spectrum_BaseColor.Spectrum_BaseColor"
+    }
+  ],
+  "Rhino/SK_Alex": [
+    {
+      "slot": "M_Game_AS_WovenShirt",
+      "material": "/Game/MASK/Rhino/Materials/MI2_AlexBody_M_Game_AS_WovenShirt.MI2_AlexBody_M_Game_AS_WovenShirt",
+      "atlas": "/Game/MASK/Rhino/Textures/AlexBody_BaseColor.AlexBody_BaseColor"
+    },
+    {
+      "slot": "M_Game_AS_MT2_HarnessWebbing",
+      "material": "/Game/MASK/Rhino/Materials/MI2_AlexBody_M_Game_AS_MT2_HarnessWebbing.MI2_AlexBody_M_Game_AS_MT2_HarnessWebbing",
+      "atlas": "/Game/MASK/Rhino/Textures/AlexBody_BaseColor.AlexBody_BaseColor"
+    },
+    {
+      "slot": "M_Game_AS_MT2_BrushedBuckle",
+      "material": "/Game/MASK/Rhino/Materials/MI2_AlexBody_M_Game_AS_MT2_BrushedBuckle.MI2_AlexBody_M_Game_AS_MT2_BrushedBuckle",
+      "atlas": "/Game/MASK/Rhino/Textures/AlexBody_BaseColor.AlexBody_BaseColor"
+    },
+    {
+      "slot": "M_Game_AS_MT4_Skin",
+      "material": "/Game/MASK/Rhino/Materials/MI2_AlexBody_M_Game_AS_MT4_Skin.MI2_AlexBody_M_Game_AS_MT4_Skin",
+      "atlas": "/Game/MASK/Rhino/Textures/AlexBody_BaseColor.AlexBody_BaseColor"
+    },
+    {
+      "slot": "M_Game_AS_TrouserFabric",
+      "material": "/Game/MASK/Rhino/Materials/MI2_AlexBody_M_Game_AS_TrouserFabric.MI2_AlexBody_M_Game_AS_TrouserFabric",
+      "atlas": "/Game/MASK/Rhino/Textures/AlexBody_BaseColor.AlexBody_BaseColor"
+    },
+    {
+      "slot": "M_Game_AS_Spectrum2_Rubber",
+      "material": "/Game/MASK/Rhino/Materials/MI2_AlexBody_M_Game_AS_Spectrum2_Rubber.MI2_AlexBody_M_Game_AS_Spectrum2_Rubber",
+      "atlas": "/Game/MASK/Rhino/Textures/AlexBody_BaseColor.AlexBody_BaseColor"
+    },
+    {
+      "slot": "M_Game_AS_Leather",
+      "material": "/Game/MASK/Rhino/Materials/MI2_AlexBody_M_Game_AS_Leather.MI2_AlexBody_M_Game_AS_Leather",
+      "atlas": "/Game/MASK/Rhino/Textures/AlexBody_BaseColor.AlexBody_BaseColor"
+    },
+    {
+      "slot": "M_Game_AS_MT4_Sclera",
+      "material": "/Game/MASK/Rhino/Materials/MI2_AlexBody_M_Game_AS_MT4_Sclera.MI2_AlexBody_M_Game_AS_MT4_Sclera",
+      "atlas": "/Game/MASK/Rhino/Textures/AlexBody_BaseColor.AlexBody_BaseColor"
+    },
+    {
+      "slot": "M_Game_AS_MT4_IrisFibers",
+      "material": "/Game/MASK/Rhino/Materials/MI2_AlexBody_M_Game_AS_MT4_IrisFibers.MI2_AlexBody_M_Game_AS_MT4_IrisFibers",
+      "atlas": "/Game/MASK/Rhino/Textures/AlexBody_BaseColor.AlexBody_BaseColor"
+    },
+    {
+      "slot": "M_Game_AS_MT4_Pupil",
+      "material": "/Game/MASK/Rhino/Materials/MI2_AlexBody_M_Game_AS_MT4_Pupil.MI2_AlexBody_M_Game_AS_MT4_Pupil",
+      "atlas": "/Game/MASK/Rhino/Textures/AlexBody_BaseColor.AlexBody_BaseColor"
+    },
+    {
+      "slot": "M_Game_AS_MT4_BrowHair",
+      "material": "/Game/MASK/Rhino/Materials/MI2_AlexBody_M_Game_AS_MT4_BrowHair.MI2_AlexBody_M_Game_AS_MT4_BrowHair",
+      "atlas": "/Game/MASK/Rhino/Textures/AlexBody_BaseColor.AlexBody_BaseColor"
+    },
+    {
+      "slot": "M_Game_Character_HandSkin",
+      "material": "/Game/MASK/Rhino/Materials/MI2_AlexBody_M_Game_Character_HandSkin.MI2_AlexBody_M_Game_Character_HandSkin",
+      "atlas": "/Game/MASK/Rhino/Textures/AlexBody_BaseColor.AlexBody_BaseColor"
+    },
+    {
+      "slot": "M_Game_AS_Vest",
+      "material": "/Game/MASK/Rhino/Materials/MI2_AlexBody_M_Game_AS_Vest.MI2_AlexBody_M_Game_AS_Vest",
+      "atlas": "/Game/MASK/Rhino/Textures/AlexBody_BaseColor.AlexBody_BaseColor"
+    },
+    {
+      "slot": "M_Game_AS_BeardFiberSurface",
+      "material": "/Game/MASK/Rhino/Materials/MI2_AlexBody_M_Game_AS_BeardFiberSurface.MI2_AlexBody_M_Game_AS_BeardFiberSurface",
+      "atlas": "/Game/MASK/Rhino/Textures/AlexBody_BaseColor.AlexBody_BaseColor"
+    },
+    {
+      "slot": "M_Game_AS_RedBeard",
+      "material": "/Game/MASK/Rhino/Materials/MI2_AlexBody_M_Game_AS_RedBeard.MI2_AlexBody_M_Game_AS_RedBeard",
+      "atlas": "/Game/MASK/Rhino/Textures/AlexBody_BaseColor.AlexBody_BaseColor"
+    }
+  ],
+  "Rhino/SK_AlexMask": [
+    {
+      "slot": "M_Game_AS_MaskNavy",
+      "material": "/Game/MASK/Rhino/Materials/MI2_AlexMask_M_Game_AS_MaskNavy.MI2_AlexMask_M_Game_AS_MaskNavy",
+      "atlas": "/Game/MASK/Rhino/Textures/AlexMask_BaseColor.AlexMask_BaseColor"
+    },
+    {
+      "slot": "M_Game_AS_MaskPalePanels",
+      "material": "/Game/MASK/Rhino/Materials/MI2_AlexMask_M_Game_AS_MaskPalePanels.MI2_AlexMask_M_Game_AS_MaskPalePanels",
+      "atlas": "/Game/MASK/Rhino/Textures/AlexMask_BaseColor.AlexMask_BaseColor"
+    },
+    {
+      "slot": "M_Game_AS_MaskBlueVisor",
+      "material": "/Game/MASK/Rhino/Materials/MI2_AlexMask_M_Game_AS_MaskBlueVisor.MI2_AlexMask_M_Game_AS_MaskBlueVisor",
+      "atlas": "/Game/MASK/Rhino/Textures/AlexMask_BaseColor.AlexMask_BaseColor"
+    }
+  ],
+  "Rhino/SK_Bruce": [
+    {
+      "slot": "M_Game_BS_Leather",
+      "material": "/Game/MASK/Rhino/Materials/MI2_BruceBody_M_Game_BS_Leather.MI2_BruceBody_M_Game_BS_Leather",
+      "atlas": "/Game/MASK/Rhino/Textures/BruceBody_BaseColor.BruceBody_BaseColor"
+    },
+    {
+      "slot": "M_Game_BS_MT2_HarnessWebbing",
+      "material": "/Game/MASK/Rhino/Materials/MI2_BruceBody_M_Game_BS_MT2_HarnessWebbing.MI2_BruceBody_M_Game_BS_MT2_HarnessWebbing",
+      "atlas": "/Game/MASK/Rhino/Textures/BruceBody_BaseColor.BruceBody_BaseColor"
+    },
+    {
+      "slot": "M_Game_BS_MT2_BrushedBuckle",
+      "material": "/Game/MASK/Rhino/Materials/MI2_BruceBody_M_Game_BS_MT2_BrushedBuckle.MI2_BruceBody_M_Game_BS_MT2_BrushedBuckle",
+      "atlas": "/Game/MASK/Rhino/Textures/BruceBody_BaseColor.BruceBody_BaseColor"
+    },
+    {
+      "slot": "M_Game_BS_WovenShirt",
+      "material": "/Game/MASK/Rhino/Materials/MI2_BruceBody_M_Game_BS_WovenShirt.MI2_BruceBody_M_Game_BS_WovenShirt",
+      "atlas": "/Game/MASK/Rhino/Textures/BruceBody_BaseColor.BruceBody_BaseColor"
+    },
+    {
+      "slot": "M_Game_BS_MT4_Skin",
+      "material": "/Game/MASK/Rhino/Materials/MI2_BruceBody_M_Game_BS_MT4_Skin.MI2_BruceBody_M_Game_BS_MT4_Skin",
+      "atlas": "/Game/MASK/Rhino/Textures/BruceBody_BaseColor.BruceBody_BaseColor"
+    },
+    {
+      "slot": "M_Game_BS_TrouserFabric",
+      "material": "/Game/MASK/Rhino/Materials/MI2_BruceBody_M_Game_BS_TrouserFabric.MI2_BruceBody_M_Game_BS_TrouserFabric",
+      "atlas": "/Game/MASK/Rhino/Textures/BruceBody_BaseColor.BruceBody_BaseColor"
+    },
+    {
+      "slot": "M_Game_BS_Spectrum2_Rubber",
+      "material": "/Game/MASK/Rhino/Materials/MI2_BruceBody_M_Game_BS_Spectrum2_Rubber.MI2_BruceBody_M_Game_BS_Spectrum2_Rubber",
+      "atlas": "/Game/MASK/Rhino/Textures/BruceBody_BaseColor.BruceBody_BaseColor"
+    },
+    {
+      "slot": "M_Game_BS_MT4_Sclera",
+      "material": "/Game/MASK/Rhino/Materials/MI2_BruceBody_M_Game_BS_MT4_Sclera.MI2_BruceBody_M_Game_BS_MT4_Sclera",
+      "atlas": "/Game/MASK/Rhino/Textures/BruceBody_BaseColor.BruceBody_BaseColor"
+    },
+    {
+      "slot": "M_Game_BS_MT4_IrisFibers",
+      "material": "/Game/MASK/Rhino/Materials/MI2_BruceBody_M_Game_BS_MT4_IrisFibers.MI2_BruceBody_M_Game_BS_MT4_IrisFibers",
+      "atlas": "/Game/MASK/Rhino/Textures/BruceBody_BaseColor.BruceBody_BaseColor"
+    },
+    {
+      "slot": "M_Game_BS_MT4_Pupil",
+      "material": "/Game/MASK/Rhino/Materials/MI2_BruceBody_M_Game_BS_MT4_Pupil.MI2_BruceBody_M_Game_BS_MT4_Pupil",
+      "atlas": "/Game/MASK/Rhino/Textures/BruceBody_BaseColor.BruceBody_BaseColor"
+    },
+    {
+      "slot": "M_Game_BS_MT4_BrowHair",
+      "material": "/Game/MASK/Rhino/Materials/MI2_BruceBody_M_Game_BS_MT4_BrowHair.MI2_BruceBody_M_Game_BS_MT4_BrowHair",
+      "atlas": "/Game/MASK/Rhino/Textures/BruceBody_BaseColor.BruceBody_BaseColor"
+    },
+    {
+      "slot": "M_Game_Character_HandSkin",
+      "material": "/Game/MASK/Rhino/Materials/MI2_BruceBody_M_Game_Character_HandSkin.MI2_BruceBody_M_Game_Character_HandSkin",
+      "atlas": "/Game/MASK/Rhino/Textures/BruceBody_BaseColor.BruceBody_BaseColor"
+    },
+    {
+      "slot": "M_Game_BS_Vest",
+      "material": "/Game/MASK/Rhino/Materials/MI2_BruceBody_M_Game_BS_Vest.MI2_BruceBody_M_Game_BS_Vest",
+      "atlas": "/Game/MASK/Rhino/Textures/BruceBody_BaseColor.BruceBody_BaseColor"
+    }
+  ],
+  "Rhino/SK_BruceMask": [
+    {
+      "slot": "M_Game_BS_MaskOrange",
+      "material": "/Game/MASK/Rhino/Materials/MI2_BruceMask_M_Game_BS_MaskOrange.MI2_BruceMask_M_Game_BS_MaskOrange",
+      "atlas": "/Game/MASK/Rhino/Textures/BruceMask_BaseColor.BruceMask_BaseColor"
+    },
+    {
+      "slot": "M_Game_BS_MaskRespirator",
+      "material": "/Game/MASK/Rhino/Materials/MI2_BruceMask_M_Game_BS_MaskRespirator.MI2_BruceMask_M_Game_BS_MaskRespirator",
+      "atlas": "/Game/MASK/Rhino/Textures/BruceMask_BaseColor.BruceMask_BaseColor"
+    },
+    {
+      "slot": "M_Game_BS_MaskAmberLenses",
+      "material": "/Game/MASK/Rhino/Materials/MI2_BruceMask_M_Game_BS_MaskAmberLenses.MI2_BruceMask_M_Game_BS_MaskAmberLenses",
+      "atlas": "/Game/MASK/Rhino/Textures/BruceMask_BaseColor.BruceMask_BaseColor"
+    },
+    {
+      "slot": "M_Game_Rhino_Recess",
+      "material": "/Game/MASK/Rhino/Materials/MI2_BruceMask_M_Game_Rhino_Recess.MI2_BruceMask_M_Game_Rhino_Recess",
+      "atlas": "/Game/MASK/Rhino/Textures/BruceMask_BaseColor.BruceMask_BaseColor"
+    },
+    {
+      "slot": "M_Game_Rhino_ChassisGraphite",
+      "material": "/Game/MASK/Rhino/Materials/MI2_BruceMask_M_Game_Rhino_ChassisGraphite.MI2_BruceMask_M_Game_Rhino_ChassisGraphite",
+      "atlas": "/Game/MASK/Rhino/Textures/BruceMask_BaseColor.BruceMask_BaseColor"
+    },
+    {
+      "slot": "M_Game_Rhino_SatinAluminium",
+      "material": "/Game/MASK/Rhino/Materials/MI2_BruceMask_M_Game_Rhino_SatinAluminium.MI2_BruceMask_M_Game_Rhino_SatinAluminium",
+      "atlas": "/Game/MASK/Rhino/Textures/BruceMask_BaseColor.BruceMask_BaseColor"
+    }
+  ],
+  "Hurricane/SK_Hondo": [
+    {
+      "slot": "M_Game_HMC_DeepPurpleFabric",
+      "material": "/Game/MASK/Hurricane/Materials/MI2_HondoBody_M_Game_HMC_DeepPurpleFabric.MI2_HondoBody_M_Game_HMC_DeepPurpleFabric",
+      "atlas": "/Game/MASK/Hurricane/Textures/HondoBody_BaseColor.HondoBody_BaseColor"
+    },
+    {
+      "slot": "M_Game_HMC_GoldenArmor",
+      "material": "/Game/MASK/Hurricane/Materials/MI2_HondoBody_M_Game_HMC_GoldenArmor.MI2_HondoBody_M_Game_HMC_GoldenArmor",
+      "atlas": "/Game/MASK/Hurricane/Textures/HondoBody_BaseColor.HondoBody_BaseColor"
+    },
+    {
+      "slot": "M_Game_HMC_DeepBlueEquipment",
+      "material": "/Game/MASK/Hurricane/Materials/MI2_HondoBody_M_Game_HMC_DeepBlueEquipment.MI2_HondoBody_M_Game_HMC_DeepBlueEquipment",
+      "atlas": "/Game/MASK/Hurricane/Textures/HondoBody_BaseColor.HondoBody_BaseColor"
+    },
+    {
+      "slot": "M_Game_HMC_GoldFasteners",
+      "material": "/Game/MASK/Hurricane/Materials/MI2_HondoBody_M_Game_HMC_GoldFasteners.MI2_HondoBody_M_Game_HMC_GoldFasteners",
+      "atlas": "/Game/MASK/Hurricane/Textures/HondoBody_BaseColor.HondoBody_BaseColor"
+    },
+    {
+      "slot": "M_Game_HMC_BrownSkin",
+      "material": "/Game/MASK/Hurricane/Materials/MI2_HondoBody_M_Game_HMC_BrownSkin.MI2_HondoBody_M_Game_HMC_BrownSkin",
+      "atlas": "/Game/MASK/Hurricane/Textures/HondoBody_BaseColor.HondoBody_BaseColor"
+    },
+    {
+      "slot": "M_Game_HMC_LipTint",
+      "material": "/Game/MASK/Hurricane/Materials/MI2_HondoBody_M_Game_HMC_LipTint.MI2_HondoBody_M_Game_HMC_LipTint",
+      "atlas": "/Game/MASK/Hurricane/Textures/HondoBody_BaseColor.HondoBody_BaseColor"
+    },
+    {
+      "slot": "M_Game_HMC_BS_Spectrum2_Rubber",
+      "material": "/Game/MASK/Hurricane/Materials/MI2_HondoBody_M_Game_HMC_BS_Spectrum2_Rubber.MI2_HondoBody_M_Game_HMC_BS_Spectrum2_Rubber",
+      "atlas": "/Game/MASK/Hurricane/Textures/HondoBody_BaseColor.HondoBody_BaseColor"
+    },
+    {
+      "slot": "M_Game_HMC_YellowBootLeather",
+      "material": "/Game/MASK/Hurricane/Materials/MI2_HondoBody_M_Game_HMC_YellowBootLeather.MI2_HondoBody_M_Game_HMC_YellowBootLeather",
+      "atlas": "/Game/MASK/Hurricane/Textures/HondoBody_BaseColor.HondoBody_BaseColor"
+    },
+    {
+      "slot": "M_Game_HMC_BS_MT4_Sclera",
+      "material": "/Game/MASK/Hurricane/Materials/MI2_HondoBody_M_Game_HMC_BS_MT4_Sclera.MI2_HondoBody_M_Game_HMC_BS_MT4_Sclera",
+      "atlas": "/Game/MASK/Hurricane/Textures/HondoBody_BaseColor.HondoBody_BaseColor"
+    },
+    {
+      "slot": "M_Game_HMC_BS_MT4_IrisFibers",
+      "material": "/Game/MASK/Hurricane/Materials/MI2_HondoBody_M_Game_HMC_BS_MT4_IrisFibers.MI2_HondoBody_M_Game_HMC_BS_MT4_IrisFibers",
+      "atlas": "/Game/MASK/Hurricane/Textures/HondoBody_BaseColor.HondoBody_BaseColor"
+    },
+    {
+      "slot": "M_Game_HMC_BS_MT4_Pupil",
+      "material": "/Game/MASK/Hurricane/Materials/MI2_HondoBody_M_Game_HMC_BS_MT4_Pupil.MI2_HondoBody_M_Game_HMC_BS_MT4_Pupil",
+      "atlas": "/Game/MASK/Hurricane/Textures/HondoBody_BaseColor.HondoBody_BaseColor"
+    },
+    {
+      "slot": "M_Game_HMC_ShortBlackHair",
+      "material": "/Game/MASK/Hurricane/Materials/MI2_HondoBody_M_Game_HMC_ShortBlackHair.MI2_HondoBody_M_Game_HMC_ShortBlackHair",
+      "atlas": "/Game/MASK/Hurricane/Textures/HondoBody_BaseColor.HondoBody_BaseColor"
+    }
+  ],
+  "Hurricane/SK_HondoMask": [
+    {
+      "slot": "M_Game_HMC_MaskTurquoise",
+      "material": "/Game/MASK/Hurricane/Materials/MI2_HondoMask_M_Game_HMC_MaskTurquoise.MI2_HondoMask_M_Game_HMC_MaskTurquoise",
+      "atlas": "/Game/MASK/Hurricane/Textures/HondoMask_BaseColor.HondoMask_BaseColor"
+    },
+    {
+      "slot": "M_Game_HMC_BlackVisor",
+      "material": "/Game/MASK/Hurricane/Materials/MI2_HondoMask_M_Game_HMC_BlackVisor.MI2_HondoMask_M_Game_HMC_BlackVisor",
+      "atlas": "/Game/MASK/Hurricane/Textures/HondoMask_BaseColor.HondoMask_BaseColor"
+    },
+    {
+      "slot": "M_Game_HMC_MaskRed",
+      "material": "/Game/MASK/Hurricane/Materials/MI2_HondoMask_M_Game_HMC_MaskRed.MI2_HondoMask_M_Game_HMC_MaskRed",
+      "atlas": "/Game/MASK/Hurricane/Textures/HondoMask_BaseColor.HondoMask_BaseColor"
+    },
+    {
+      "slot": "M_Game_HMC_Recess",
+      "material": "/Game/MASK/Hurricane/Materials/MI2_HondoMask_M_Game_HMC_Recess.MI2_HondoMask_M_Game_HMC_Recess",
+      "atlas": "/Game/MASK/Hurricane/Textures/HondoMask_BaseColor.HondoMask_BaseColor"
+    }
+  ]
+}

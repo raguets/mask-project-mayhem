@@ -1,0 +1,67 @@
+﻿[
+    {
+        "file":  "SourceArt/MASK/Editable/Rhino/AlexSector_Mask_V1.blend",
+        "sha256":  "62892069DE675DD3E3AC2ACA5B9E89C76914A42A3A9D497443FAD52FA04B0F8F",
+        "bytes":  289153
+    },
+    {
+        "file":  "SourceArt/MASK/Editable/Rhino/AlexSector_V1.blend",
+        "sha256":  "E1F3CD4B59967A8A1D704AE2308B0CBED89773EE8FE643A0A2C1F79BA518F12B",
+        "bytes":  12252843
+    },
+    {
+        "file":  "SourceArt/MASK/Editable/Rhino/BruceSato_Mask_V1.blend",
+        "sha256":  "100DC7D79CAC6FF59B742D25A63B992CFEC7E174783ED78EEF7030953348957B",
+        "bytes":  321476
+    },
+    {
+        "file":  "SourceArt/MASK/Editable/Rhino/BruceSato_V1.blend",
+        "sha256":  "0CE5B2EF7A5D67479820EFC90F1E004BBB1C9E1AA2D6F13FDC47FC5FCD1AC63E",
+        "bytes":  19016982
+    },
+    {
+        "file":  "SourceArt/MASK/Editable/Rhino/Rhino_GameReady_v3.blend",
+        "sha256":  "E58B7730DF2319923D76023AA30ABB0BCCA0B0270263E9DA8C9E76B0F43F6BBE",
+        "bytes":  54047027
+    },
+    {
+        "file":  "SourceArt/MASK/Editable/Rhino/Rhino_RearVehicle_V1.blend",
+        "sha256":  "60A88AEDD43F4659073A569E903943100B7651CDAA4BD97F58EF33CEC532DACB",
+        "bytes":  416809
+    },
+    {
+        "file":  "SourceArt/MASK/Editable/Rhino/Rhino_V3_Assembly.blend",
+        "sha256":  "40128A9470C50E4317AA964041FAE45C811AA7C2019F8378949076D829C567F2",
+        "bytes":  30896815
+    },
+    {
+        "file":  "SourceArt/MASK/Editable/Rhino/Rhino_V3_Vehicle.blend",
+        "sha256":  "C5FC4BDFEFFB98F3EEF6CC88E52E69AD6BB41794A1614961029286483D845E6A",
+        "bytes":  659852
+    },
+    {
+        "file":  "SourceArt/MASK/Editable/Hurricane/HondoMacLean_V1.blend",
+        "sha256":  "01BB1F00302E26E41BCDA31E66300F0747D6579448ED39CE24D690F133B6EEB8",
+        "bytes":  9738718
+    },
+    {
+        "file":  "SourceArt/MASK/Editable/Hurricane/HondoMask_V1.blend",
+        "sha256":  "3AD4C9EAE8BB3D0309DEFBF6235CCEE6B66E273B3C31E1DBAA243BA0ED7BBF5C",
+        "bytes":  366953
+    },
+    {
+        "file":  "SourceArt/MASK/Editable/Hurricane/Hurricane_GameReady.blend",
+        "sha256":  "6B7374BC4FCBECBE57BEAA1FA592520BEB8B1586B43AA54CDAD6959D253A2B49",
+        "bytes":  36259594
+    },
+    {
+        "file":  "SourceArt/MASK/Editable/Hurricane/Hurricane_V7_Assembly.blend",
+        "sha256":  "B9A35C5136021317838488D6FF2BAA515D6772AEB5D21A31D57F68915F04E529",
+        "bytes":  27125003
+    },
+    {
+        "file":  "SourceArt/MASK/Editable/Hurricane/Hurricane_V7_Vehicle.blend",
+        "sha256":  "298148833EBBBC03C6D80D52C65171440F8D83044E7A7181EE2FA9CF313BB33A",
+        "bytes":  17588618
+    }
+]

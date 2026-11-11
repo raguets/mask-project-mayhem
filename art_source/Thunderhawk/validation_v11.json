@@ -1,0 +1,157 @@
+{
+  "one_character_one_head": true,
+  "reference_fidelity": "Interpretation, visual review required; no claim of ultra-faithful photorealism",
+  "reactor_timing_frames_checked": 193,
+  "four_states": [
+    {
+      "driving_pose": 0,
+      "mask_on": false,
+      "visible_mask_parts": 0,
+      "same_character_meshes": true
+    },
+    {
+      "driving_pose": 0,
+      "mask_on": true,
+      "visible_mask_parts": 25,
+      "same_character_meshes": true
+    },
+    {
+      "driving_pose": 1,
+      "mask_on": false,
+      "visible_mask_parts": 0,
+      "same_character_meshes": true
+    },
+    {
+      "driving_pose": 1,
+      "mask_on": true,
+      "visible_mask_parts": 25,
+      "same_character_meshes": true
+    }
+  ],
+  "sampled_door_surface_intersections": [
+    {
+      "frame": 1,
+      "helmet_door_surface_pairs": 0,
+      "suit_door_surface_pairs": 0
+    },
+    {
+      "frame": 25,
+      "helmet_door_surface_pairs": 0,
+      "suit_door_surface_pairs": 0
+    },
+    {
+      "frame": 45,
+      "helmet_door_surface_pairs": 0,
+      "suit_door_surface_pairs": 0
+    },
+    {
+      "frame": 65,
+      "helmet_door_surface_pairs": 0,
+      "suit_door_surface_pairs": 0
+    },
+    {
+      "frame": 85,
+      "helmet_door_surface_pairs": 0,
+      "suit_door_surface_pairs": 0
+    },
+    {
+      "frame": 97,
+      "helmet_door_surface_pairs": 0,
+      "suit_door_surface_pairs": 0
+    },
+    {
+      "frame": 121,
+      "helmet_door_surface_pairs": 0,
+      "suit_door_surface_pairs": 0
+    },
+    {
+      "frame": 133,
+      "helmet_door_surface_pairs": 0,
+      "suit_door_surface_pairs": 0
+    },
+    {
+      "frame": 151,
+      "helmet_door_surface_pairs": 0,
+      "suit_door_surface_pairs": 0
+    },
+    {
+      "frame": 173,
+      "helmet_door_surface_pairs": 0,
+      "suit_door_surface_pairs": 0
+    },
+    {
+      "frame": 193,
+      "helmet_door_surface_pairs": 0,
+      "suit_door_surface_pairs": 0
+    }
+  ],
+  "driving_fit": {
+    "MT_BootSole_L": {
+      "min": [
+        0.3791230320930481,
+        0.4584994316101074,
+        0.3289978504180908
+      ],
+      "max": [
+        0.5948538184165955,
+        0.5714995861053467,
+        0.35981184244155884
+      ]
+    },
+    "MT_GlovePalm_L": {
+      "min": [
+        0.12856817245483398,
+        0.4983726441860199,
+        0.7611631155014038
+      ],
+      "max": [
+        0.22943133115768433,
+        0.5826244950294495,
+        0.8188360929489136
+      ]
+    },
+    "MT_GlovePalm_R": {
+      "min": [
+        0.1285683512687683,
+        0.2173755019903183,
+        0.7611634731292725
+      ],
+      "max": [
+        0.22943156957626343,
+        0.30162742733955383,
+        0.8188363313674927
+      ]
+    },
+    "Spectrum_SilverHelmetShell": {
+      "min": [
+        -0.7378435134887695,
+        0.28108495473861694,
+        0.9650000333786011
+      ],
+      "max": [
+        -0.47884151339530945,
+        0.5189151167869568,
+        1.281250238418579
+      ]
+    },
+    "THK_RecessedFootwell_L": {
+      "min": [
+        0.13499996066093445,
+        0.0949999988079071,
+        0.3009999990463257
+      ],
+      "max": [
+        0.9249999523162842,
+        0.7050000429153442,
+        0.3190000057220459
+      ]
+    }
+  },
+  "single_suit_mesh_vertices": 107480,
+  "limitations": [
+    "Portrait is an illustration; photographic references are toys and helmet replicas.",
+    "Semi-realistic artistic interpretation, not validated photoreal likeness.",
+    "Voxel cloth sculpt retains source cages; shipping retopology/UV and animation-quality deform polish remain.",
+    "Collision samples cover moving door surfaces versus helmet and suit, not an exhaustive physical collision certification."
+  ]
+}

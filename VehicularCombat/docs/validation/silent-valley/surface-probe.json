@@ -1,0 +1,80 @@
+{
+  "segments": [
+    {
+      "mesh": "<Object '/Game/MASK/Environment/SilentValley/Roads/SM_SV_RoadRibbon.SM_SV_RoadRibbon' (0x000001B3A8779000) Class 'StaticMesh'>",
+      "material": "<Object '/Game/MASK/Environment/SilentValley/Materials/M_SV_Asphalt_Blockout.M_SV_Asphalt_Blockout' (0x000001B3945F0000) Class 'Material'>",
+      "visible": true,
+      "start": "<Struct 'Vector' (0x000001B3BFB9CE20) {x: -132991.162431, y: -108139.976367, z: 7999.999940}>",
+      "end": "<Struct 'Vector' (0x000001B3BFB9CE20) {x: -131269.091100, y: -107141.864203, z: 8000.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000001B3BFB9CE20) {x: -50.000000, y: -50.000000, z: 0.000000}>, <Struct 'Vector' (0x000001B3BFB9D2D0) {x: 50.000000, y: 50.000000, z: 0.000000}>)"
+    },
+    {
+      "mesh": "<Object '/Game/MASK/Environment/SilentValley/Roads/SM_SV_RoadRibbon.SM_SV_RoadRibbon' (0x000001B3A8779000) Class 'StaticMesh'>",
+      "material": "<Object '/Game/MASK/Environment/SilentValley/Materials/M_SV_Asphalt_Blockout.M_SV_Asphalt_Blockout' (0x000001B3945F0000) Class 'Material'>",
+      "visible": true,
+      "start": "<Struct 'Vector' (0x000001B3BFB9CE20) {x: -131269.091100, y: -107141.864203, z: 8000.000000}>",
+      "end": "<Struct 'Vector' (0x000001B3BFB9CE20) {x: -129379.537354, y: -106605.871113, z: 8000.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000001B3BFB9CE20) {x: -50.000000, y: -50.000000, z: 0.000000}>, <Struct 'Vector' (0x000001B3BFB9D2D0) {x: 50.000000, y: 50.000000, z: 0.000000}>)"
+    },
+    {
+      "mesh": "<Object '/Game/MASK/Environment/SilentValley/Roads/SM_SV_RoadRibbon.SM_SV_RoadRibbon' (0x000001B3A8779000) Class 'StaticMesh'>",
+      "material": "<Object '/Game/MASK/Environment/SilentValley/Materials/M_SV_Asphalt_Blockout.M_SV_Asphalt_Blockout' (0x000001B3945F0000) Class 'Material'>",
+      "visible": true,
+      "start": "<Struct 'Vector' (0x000001B3BFB9CE20) {x: -129379.537354, y: -106605.871113, z: 8000.000000}>",
+      "end": "<Struct 'Vector' (0x000001B3BFB9CE20) {x: -127627.725309, y: -105678.888974, z: 8000.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000001B3BFB9CE20) {x: -50.000000, y: -50.000000, z: 0.000000}>, <Struct 'Vector' (0x000001B3BFB9D2D0) {x: 50.000000, y: 50.000000, z: 0.000000}>)"
+    },
+    {
+      "mesh": "<Object '/Game/MASK/Environment/SilentValley/Roads/SM_SV_RoadRibbon.SM_SV_RoadRibbon' (0x000001B3A8779000) Class 'StaticMesh'>",
+      "material": "<Object '/Game/MASK/Environment/SilentValley/Materials/M_SV_Asphalt_Blockout.M_SV_Asphalt_Blockout' (0x000001B3945F0000) Class 'Material'>",
+      "visible": true,
+      "start": "<Struct 'Vector' (0x000001B3BFB9CE20) {x: -127627.725309, y: -105678.888974, z: 8000.000000}>",
+      "end": "<Struct 'Vector' (0x000001B3BFB9CE20) {x: -125964.295137, y: -104635.158485, z: 8000.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000001B3BFB9CE20) {x: -50.000000, y: -50.000000, z: 0.000000}>, <Struct 'Vector' (0x000001B3BFB9D2D0) {x: 50.000000, y: 50.000000, z: 0.000000}>)"
+    }
+  ],
+  "rays": [
+    {
+      "distance": 6000.0,
+      "point": "<Struct 'Vector' (0x000001B3BFB9CE20) {x: -131702.949680, y: -107375.021525, z: 8000.000000}>",
+      "hits": [
+        "(True, False, 0.5, 1000.0, <Struct 'Vector' (0x000001B3BFB9D0F0) {x: -131702.949680, y: -107375.021525, z: 8000.000000}>, <Struct 'Vector' (0x000001B3BFB9D1E0) {x: -131702.949680, y: -107375.021525, z: 8000.000000}>, <Struct 'Vector' (0x000001B3BFB9D2D0) {x: 0.000000, y: 0.000000, z: 1.000000}>, <Struct 'Vector' (0x000001B3B2812400) {x: 0.000000, y: 0.000000, z: 1.000000}>, None, <Object '/Game/MASK/Maps/SilentValley/L_SilentValley_Blockout.L_SilentValley_Blockout:PersistentLevel.SilentValleyRoad_0' (0x000001B3C22D9600) Class 'SilentValleyRoad'>, <Object '/Game/MASK/Maps/SilentValley/L_SilentValley_Blockout.L_SilentValley_Blockout:PersistentLevel.SilentValleyRoad_0.SplineMeshComponent_438' (0x000001B3C3290000) Class 'SplineMeshComponent'>, Name(\"None\"), Name(\"None\"), -1, 0, 24, <Struct 'Vector' (0x000001B3B28111E0) {x: -131702.949680, y: -107375.021525, z: 9000.000000}>, <Struct 'Vector' (0x000001B3B287CB50) {x: -131702.949680, y: -107375.021525, z: 7000.000000}>)"
+      ]
+    },
+    {
+      "distance": 10000.0,
+      "point": "<Struct 'Vector' (0x000001B3BFB9D0F0) {x: -128059.379071, y: -105932.326272, z: 8000.000000}>",
+      "hits": [
+        "(True, False, 0.5, 1000.0, <Struct 'Vector' (0x000001B3BFB9D2D0) {x: -128059.379071, y: -105932.326272, z: 8000.000000}>, <Struct 'Vector' (0x000001B3BFB9D1E0) {x: -128059.379071, y: -105932.326272, z: 8000.000000}>, <Struct 'Vector' (0x000001B3BFB9CE20) {x: 0.000000, y: 0.000000, z: 1.000000}>, <Struct 'Vector' (0x000001B3B2812400) {x: 0.000000, y: 0.000000, z: 1.000000}>, None, <Object '/Game/MASK/Maps/SilentValley/L_SilentValley_Blockout.L_SilentValley_Blockout:PersistentLevel.SilentValleyRoad_0' (0x000001B3C22D9600) Class 'SilentValleyRoad'>, <Object '/Game/MASK/Maps/SilentValley/L_SilentValley_Blockout.L_SilentValley_Blockout:PersistentLevel.SilentValleyRoad_0.SplineMeshComponent_440' (0x000001B3C3291400) Class 'SplineMeshComponent'>, Name(\"None\"), Name(\"None\"), -1, 0, 23, <Struct 'Vector' (0x000001B3B28111E0) {x: -128059.379071, y: -105932.326272, z: 9000.000000}>, <Struct 'Vector' (0x000001B3B287CB50) {x: -128059.379071, y: -105932.326272, z: 7000.000000}>)"
+      ]
+    },
+    {
+      "distance": 50000.0,
+      "point": "<Struct 'Vector' (0x000001B3BFB9D2D0) {x: -95187.128603, y: -83098.053515, z: 8499.917448}>",
+      "hits": [
+        "(True, False, 0.5001323223114014, 1000.2646484375, <Struct 'Vector' (0x000001B3BFB9CE20) {x: -95187.128603, y: -83098.053515, z: 8499.652803}>, <Struct 'Vector' (0x000001B3BFB9D1E0) {x: -95187.128603, y: -83098.053515, z: 8499.652783}>, <Struct 'Vector' (0x000001B3BFB9D0F0) {x: -0.001105, y: -0.000589, z: 0.999999}>, <Struct 'Vector' (0x000001B3B2812400) {x: -0.001105, y: -0.000589, z: 0.999999}>, None, <Object '/Game/MASK/Maps/SilentValley/L_SilentValley_Blockout.L_SilentValley_Blockout:PersistentLevel.SilentValleyRoad_0' (0x000001B3C22D9600) Class 'SilentValleyRoad'>, <Object '/Game/MASK/Maps/SilentValley/L_SilentValley_Blockout.L_SilentValley_Blockout:PersistentLevel.SilentValleyRoad_0.SplineMeshComponent_460' (0x000001B3C329DC00) Class 'SplineMeshComponent'>, Name(\"None\"), Name(\"None\"), -1, 0, 24, <Struct 'Vector' (0x000001B3B28111E0) {x: -95187.128603, y: -83098.053515, z: 9499.917448}>, <Struct 'Vector' (0x000001B3B287CB50) {x: -95187.128603, y: -83098.053515, z: 7499.917448}>)"
+      ]
+    },
+    {
+      "distance": 100000.0,
+      "point": "<Struct 'Vector' (0x000001B3BFB9CE20) {x: -57582.631752, y: -99578.245670, z: 9742.962301}>",
+      "hits": [
+        "(True, False, 0.5000004768371582, 1000.0009765625, <Struct 'Vector' (0x000001B3BFB9D0F0) {x: -57582.631752, y: -99578.245670, z: 9742.961347}>, <Struct 'Vector' (0x000001B3BFB9D1E0) {x: -57582.631752, y: -99578.245670, z: 9742.961310}>, <Struct 'Vector' (0x000001B3BFB9D2D0) {x: -0.018214, y: 0.023118, z: 0.999567}>, <Struct 'Vector' (0x000001B3B2812400) {x: -0.018214, y: 0.023118, z: 0.999567}>, None, <Object '/Game/MASK/Maps/SilentValley/L_SilentValley_Blockout.L_SilentValley_Blockout:PersistentLevel.SilentValleyRoad_0' (0x000001B3C22D9600) Class 'SilentValleyRoad'>, <Object '/Game/MASK/Maps/SilentValley/L_SilentValley_Blockout.L_SilentValley_Blockout:PersistentLevel.SilentValleyRoad_0.SplineMeshComponent_485' (0x000001B3C32ADC00) Class 'SplineMeshComponent'>, Name(\"None\"), Name(\"None\"), -1, 0, 25, <Struct 'Vector' (0x000001B3B28111E0) {x: -57582.631752, y: -99578.245670, z: 10742.962301}>, <Struct 'Vector' (0x000001B3B287CB50) {x: -57582.631752, y: -99578.245670, z: 8742.962301}>)"
+      ]
+    },
+    {
+      "distance": 200000.0,
+      "point": "<Struct 'Vector' (0x000001B3BFB9D0F0) {x: 30562.541045, y: -74368.921723, z: 11633.362018}>",
+      "hits": [
+        "(True, False, 0.49999770522117615, 999.9954223632812, <Struct 'Vector' (0x000001B3BFB9D2D0) {x: 30562.541045, y: -74368.921723, z: 11633.366607}>, <Struct 'Vector' (0x000001B3BFB9D1E0) {x: 30562.541045, y: -74368.921723, z: 11633.366569}>, <Struct 'Vector' (0x000001B3BFB9CE20) {x: -0.026899, y: -0.011853, z: 0.999568}>, <Struct 'Vector' (0x000001B3B2812400) {x: -0.026899, y: -0.011853, z: 0.999568}>, None, <Object '/Game/MASK/Maps/SilentValley/L_SilentValley_Blockout.L_SilentValley_Blockout:PersistentLevel.SilentValleyRoad_0' (0x000001B3C22D9600) Class 'SilentValleyRoad'>, <Object '/Game/MASK/Maps/SilentValley/L_SilentValley_Blockout.L_SilentValley_Blockout:PersistentLevel.SilentValleyRoad_0.SplineMeshComponent_535' (0x000001B3C32FE600) Class 'SplineMeshComponent'>, Name(\"None\"), Name(\"None\"), -1, 0, 27, <Struct 'Vector' (0x000001B3B28111E0) {x: 30562.541045, y: -74368.921723, z: 12633.362018}>, <Struct 'Vector' (0x000001B3B287CB50) {x: 30562.541045, y: -74368.921723, z: 10633.362018}>)"
+      ]
+    },
+    {
+      "distance": 400000.0,
+      "point": "<Struct 'Vector' (0x000001B3BFB9D2D0) {x: 104910.994768, y: 54718.148649, z: 12500.619054}>",
+      "hits": [
+        "(True, False, 0.49998739361763, 999.9747924804688, <Struct 'Vector' (0x000001B3BFB9CE20) {x: 104910.994768, y: 54718.148649, z: 12500.644267}>, <Struct 'Vector' (0x000001B3BFB9D1E0) {x: 104910.994768, y: 54718.148649, z: 12500.644254}>, <Struct 'Vector' (0x000001B3BFB9D0F0) {x: 0.001534, y: 0.004602, z: 0.999988}>, <Struct 'Vector' (0x000001B3B2812400) {x: 0.001534, y: 0.004602, z: 0.999988}>, None, <Object '/Game/MASK/Maps/SilentValley/L_SilentValley_Blockout.L_SilentValley_Blockout:PersistentLevel.SilentValleyRoad_0' (0x000001B3C22D9600) Class 'SilentValleyRoad'>, <Object '/Game/MASK/Maps/SilentValley/L_SilentValley_Blockout.L_SilentValley_Blockout:PersistentLevel.SilentValleyRoad_0.SplineMeshComponent_635' (0x000001B3C335DC00) Class 'SplineMeshComponent'>, Name(\"None\"), Name(\"None\"), -1, 0, 31, <Struct 'Vector' (0x000001B3B28111E0) {x: 104910.994768, y: 54718.148649, z: 13500.619054}>, <Struct 'Vector' (0x000001B3B287CB50) {x: 104910.994768, y: 54718.148649, z: 11500.619054}>)"
+      ]
+    }
+  ]
+}

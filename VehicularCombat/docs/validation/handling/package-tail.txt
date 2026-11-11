@@ -1,0 +1,15 @@
+﻿DumpManifest: C:\Users\steph\AppData\Roaming\Unreal Engine\AutomationTool\Logs\G+Program+Files+Epic+Games+UE_5.8\FinalCopyWin64_UFSFiles.txt, NumItems: 4512
+DumpManifest: C:\Users\steph\AppData\Roaming\Unreal Engine\AutomationTool\Logs\G+Program+Files+Epic+Games+UE_5.8\FinalCopyWin64_NonUFSFiles.txt, NumItems: 36
+DumpManifest: C:\Users\steph\AppData\Roaming\Unreal Engine\AutomationTool\Logs\G+Program+Files+Epic+Games+UE_5.8\FinalCopyWin64_NonUFSFilesDebug.txt, NumItems: 6
+Copying NonUFSFiles to staging directory: G:\DEV\mask-project-mayhem\VehicularCombat\Saved\StagedBuilds\Windows
+Copying DebugFiles to staging directory: G:\DEV\mask-project-mayhem\VehicularCombat\Saved\StagedBuilds\Windows
+Stage command time: 9.44 s
+********** STAGE COMMAND COMPLETED **********
+********** ARCHIVE COMMAND STARTED **********
+Archiving to G:\DEV\mask-project-mayhem\VehicularCombat\Saved\Packages\MASK-Handling-Development-r1
+Archive command time: 2.22 s
+********** ARCHIVE COMMAND COMPLETED **********
+BuildCookRun time: 116.92 s
+BUILD SUCCESSFUL
+AutomationTool executed for 0h 1m 58s
+AutomationTool exiting with ExitCode=0 (Success)

@@ -1,0 +1,18 @@
+{
+  "source": "G:\\DEV\\mask-project-mayhem\\art_source\\Rhino\\Rhino_V2.blend",
+  "outputs": [
+    {
+      "kind": "character",
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Bruce_Sato\\BruceSato_V1.blend",
+      "scene": "BruceSato_V1_Independent",
+      "scene_objects": 127
+    },
+    {
+      "kind": "mask",
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Bruce_Sato\\BruceSato_Mask_V1.blend",
+      "scene": "BruceSato_Mask_V1_Independent",
+      "scene_objects": 45
+    }
+  ],
+  "expected": 2
+}

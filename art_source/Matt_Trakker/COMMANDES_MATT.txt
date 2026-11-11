@@ -1,0 +1,22 @@
+MATT TRAKKER — UN SEUL PERSONNAGE
+
+Ce fichier reprend les maillages du Matt de Thunderhawk V12, sans reconstruction.
+Une seule armature, un seul corps et une seule tête conservée sous Spectrum.
+
+Sélectionner MattTrakker_Rig. Propriétés de l'objet > Propriétés personnalisées :
+
+  driving_pose = 0 : DEBOUT
+  driving_pose = 1 : ASSIS / CONDUITE
+  mask_on décoché : VISAGE VISIBLE
+  mask_on coché   : CASQUE SPECTRUM VISIBLE
+
+Les deux commandes sont indépendantes : les quatre combinaisons sont possibles.
+Le casque reste attaché à l'os de tête ; les cheveux s'effacent sous le casque.
+Pour revenir à l'état de présentation : driving_pose=0, mask_on=False.
+
+La pose assise correspond aux dimensions du véhicule source ; elle ne crée pas
+une seconde instance de Matt. Les cages de vêtements masquées sont des sources
+techniques conservées, pas des personnages de remplacement.
+
+Références : portrait dessiné et photos de figurines/répliques fournis.
+Finition artistique, déformations et contacts siège/combinaison restent à affiner.

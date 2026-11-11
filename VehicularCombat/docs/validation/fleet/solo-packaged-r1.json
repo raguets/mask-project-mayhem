@@ -1,0 +1,36 @@
+﻿{
+    "passed":  true,
+    "exit_code":  0,
+    "report":  {
+                   "checks":  {
+                                  "original_menu_has_native_extension":  true,
+                                  "solo_button_present":  true,
+                                  "host_name_prefilled":  true,
+                                  "original_join_button_present":  true,
+                                  "empty_lan_search_explains_result":  true,
+                                  "thunderhawk_selection_present":  true,
+                                  "solo_map_loaded":  true,
+                                  "human_vehicle_controllable":  true,
+                                  "three_bots_spawned":  true,
+                                  "bots_possess_real_vehicles":  true,
+                                  "bots_have_player_states":  true,
+                                  "solo_has_no_network_session":  true,
+                                  "bots_drive_with_chaos":  true,
+                                  "bots_fire_original_projectiles":  true,
+                                  "bot_projectiles_damage_human":  true,
+                                  "human_fire_input_spawns_projectile":  true,
+                                  "destroyed_bot_respawns":  true,
+                                  "f10_returns_to_menu":  true,
+                                  "solo_can_be_restarted_without_duplicate_bots":  true,
+                                  "completed_without_timeout":  true
+                              },
+                   "method":  "One real game process; original Blueprint menu and native UMG button delegates; real Chaos AI inputs, projectiles and health. Separate explicit death injection verifies bot respawn.",
+                   "passed":  true,
+                   "complete":  true,
+                   "phase":  8,
+                   "elapsed_seconds":  36.875250697135925,
+                   "bot_projectiles":  6,
+                   "player_projectiles":  2,
+                   "min_human_health":  825
+               }
+}

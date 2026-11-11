@@ -1,0 +1,419 @@
+{
+  "status": "complete",
+  "elapsed_seconds": 177.96,
+  "scene_file": "G:\\DEV\\mask-project-mayhem\\art_source\\Rhino\\Rhino_V2.blend",
+  "job": {
+    "output_dir": "G:\\DEV\\mask-project-mayhem\\art_source\\Rhino\\renders\\v2_final",
+    "rig": "Rhino_Control",
+    "rig_properties": [
+      "battle_mode",
+      "rear_detach",
+      "bullbar",
+      "cannons",
+      "rear_open",
+      "launcher_up",
+      "cabinet_slide",
+      "radar_spin"
+    ],
+    "actors": {
+      "AlexSector_Rig": [
+        "driving_pose",
+        "mask_on"
+      ],
+      "BruceSato_Rig": [
+        "driving_pose",
+        "mask_on"
+      ]
+    },
+    "floor": "Review_Floor",
+    "samples": 20,
+    "width": 1100,
+    "height": 800,
+    "device": "GPU",
+    "views": [
+      {
+        "name": "road_front",
+        "camera": [
+          12,
+          11,
+          7
+        ],
+        "target": [
+          0.3,
+          0,
+          2
+        ],
+        "lens": 52,
+        "frame": 1,
+        "properties": {}
+      },
+      {
+        "name": "road_profile",
+        "camera": [
+          0,
+          16,
+          5
+        ],
+        "target": [
+          0.3,
+          0,
+          2
+        ],
+        "lens": 54,
+        "frame": 1,
+        "properties": {}
+      },
+      {
+        "name": "mid_transform",
+        "camera": [
+          13,
+          16,
+          10
+        ],
+        "target": [
+          -1.9,
+          -0.9,
+          1.9
+        ],
+        "lens": 47,
+        "frame": 101,
+        "properties": {}
+      },
+      {
+        "name": "transformed",
+        "camera": [
+          13,
+          16,
+          10
+        ],
+        "target": [
+          -1.9,
+          -0.9,
+          1.9
+        ],
+        "lens": 47,
+        "frame": 151,
+        "properties": {}
+      },
+      {
+        "name": "transformed_rear",
+        "camera": [
+          -14,
+          12,
+          9
+        ],
+        "target": [
+          -1.9,
+          -0.9,
+          1.9
+        ],
+        "lens": 48,
+        "frame": 151,
+        "properties": {}
+      },
+      {
+        "name": "launcher",
+        "camera": [
+          -6.3,
+          4.5,
+          5.8
+        ],
+        "target": [
+          -0.8,
+          0,
+          3.15
+        ],
+        "lens": 56,
+        "frame": 151,
+        "properties": {}
+      },
+      {
+        "name": "cabin_mask",
+        "camera": [
+          4.8,
+          2.8,
+          4.8
+        ],
+        "target": [
+          1.65,
+          0,
+          2.02
+        ],
+        "lens": 56,
+        "frame": 1,
+        "properties": {},
+        "hide_objects": [
+          "RH_CabRoof",
+          "RH_CabVisor",
+          "RH_CabLowerFront",
+          "RH_Windshield_-1",
+          "RH_Windshield_1",
+          "RH_WindshieldCenter",
+          "RH_DoorGlass_1",
+          "RH_DoorGlass_-1",
+          "RH_DoorAFrame_1",
+          "RH_DoorAFrame_-1",
+          "RH_MirrorHousing_1",
+          "RH_MirrorHousing_-1"
+        ],
+        "object_states": {
+          "AlexSector_Rig": {
+            "properties": {
+              "driving_pose": 1,
+              "mask_on": true
+            }
+          },
+          "BruceSato_Rig": {
+            "properties": {
+              "driving_pose": 1,
+              "mask_on": true
+            }
+          }
+        }
+      },
+      {
+        "name": "crew_fit",
+        "camera": [
+          4.2,
+          3.2,
+          3.7
+        ],
+        "target": [
+          1.65,
+          0,
+          2.05
+        ],
+        "lens": 62,
+        "frame": 1,
+        "properties": {},
+        "hide_collections": [
+          "Rhino_Truck",
+          "Rhino_RearVehicle"
+        ],
+        "object_states": {
+          "AlexSector_Rig": {
+            "properties": {
+              "driving_pose": 1,
+              "mask_on": false
+            }
+          },
+          "BruceSato_Rig": {
+            "properties": {
+              "driving_pose": 1,
+              "mask_on": false
+            }
+          }
+        }
+      }
+    ]
+  },
+  "renders": [
+    {
+      "view": {
+        "name": "road_front",
+        "camera": [
+          12,
+          11,
+          7
+        ],
+        "target": [
+          0.3,
+          0,
+          2
+        ],
+        "lens": 52,
+        "frame": 1,
+        "properties": {}
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Rhino\\renders\\v2_final\\road_front.png",
+      "size_bytes": 1144565
+    },
+    {
+      "view": {
+        "name": "road_profile",
+        "camera": [
+          0,
+          16,
+          5
+        ],
+        "target": [
+          0.3,
+          0,
+          2
+        ],
+        "lens": 54,
+        "frame": 1,
+        "properties": {}
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Rhino\\renders\\v2_final\\road_profile.png",
+      "size_bytes": 1033836
+    },
+    {
+      "view": {
+        "name": "mid_transform",
+        "camera": [
+          13,
+          16,
+          10
+        ],
+        "target": [
+          -1.9,
+          -0.9,
+          1.9
+        ],
+        "lens": 47,
+        "frame": 101,
+        "properties": {}
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Rhino\\renders\\v2_final\\mid_transform.png",
+      "size_bytes": 1014111
+    },
+    {
+      "view": {
+        "name": "transformed",
+        "camera": [
+          13,
+          16,
+          10
+        ],
+        "target": [
+          -1.9,
+          -0.9,
+          1.9
+        ],
+        "lens": 47,
+        "frame": 151,
+        "properties": {}
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Rhino\\renders\\v2_final\\transformed.png",
+      "size_bytes": 1015543
+    },
+    {
+      "view": {
+        "name": "transformed_rear",
+        "camera": [
+          -14,
+          12,
+          9
+        ],
+        "target": [
+          -1.9,
+          -0.9,
+          1.9
+        ],
+        "lens": 48,
+        "frame": 151,
+        "properties": {}
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Rhino\\renders\\v2_final\\transformed_rear.png",
+      "size_bytes": 1048640
+    },
+    {
+      "view": {
+        "name": "launcher",
+        "camera": [
+          -6.3,
+          4.5,
+          5.8
+        ],
+        "target": [
+          -0.8,
+          0,
+          3.15
+        ],
+        "lens": 56,
+        "frame": 151,
+        "properties": {}
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Rhino\\renders\\v2_final\\launcher.png",
+      "size_bytes": 1154996
+    },
+    {
+      "view": {
+        "name": "cabin_mask",
+        "camera": [
+          4.8,
+          2.8,
+          4.8
+        ],
+        "target": [
+          1.65,
+          0,
+          2.02
+        ],
+        "lens": 56,
+        "frame": 1,
+        "properties": {},
+        "hide_objects": [
+          "RH_CabRoof",
+          "RH_CabVisor",
+          "RH_CabLowerFront",
+          "RH_Windshield_-1",
+          "RH_Windshield_1",
+          "RH_WindshieldCenter",
+          "RH_DoorGlass_1",
+          "RH_DoorGlass_-1",
+          "RH_DoorAFrame_1",
+          "RH_DoorAFrame_-1",
+          "RH_MirrorHousing_1",
+          "RH_MirrorHousing_-1"
+        ],
+        "object_states": {
+          "AlexSector_Rig": {
+            "properties": {
+              "driving_pose": 1,
+              "mask_on": true
+            }
+          },
+          "BruceSato_Rig": {
+            "properties": {
+              "driving_pose": 1,
+              "mask_on": true
+            }
+          }
+        }
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Rhino\\renders\\v2_final\\cabin_mask.png",
+      "size_bytes": 1393369
+    },
+    {
+      "view": {
+        "name": "crew_fit",
+        "camera": [
+          4.2,
+          3.2,
+          3.7
+        ],
+        "target": [
+          1.65,
+          0,
+          2.05
+        ],
+        "lens": 62,
+        "frame": 1,
+        "properties": {},
+        "hide_collections": [
+          "Rhino_Truck",
+          "Rhino_RearVehicle"
+        ],
+        "object_states": {
+          "AlexSector_Rig": {
+            "properties": {
+              "driving_pose": 1,
+              "mask_on": false
+            }
+          },
+          "BruceSato_Rig": {
+            "properties": {
+              "driving_pose": 1,
+              "mask_on": false
+            }
+          }
+        }
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Rhino\\renders\\v2_final\\crew_fit.png",
+      "size_bytes": 1097032
+    }
+  ],
+  "retained_previous_views": []
+}

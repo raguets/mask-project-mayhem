@@ -1,0 +1,18 @@
+[
+  {
+    "file": "art_source\\Matt_Trakker\\MattTrakker_V3.blend",
+    "scene": "MattTrakker_V3_Independent",
+    "collections": [
+      "MT11_Character",
+      "Spectrum11_Asset"
+    ]
+  },
+  {
+    "file": "art_source\\Thunderhawk\\Thunderhawk_V12_Vehicle.blend",
+    "scene": "Thunderhawk_V12_Vehicle_Independent",
+    "collections": [
+      "THK9_Exterior",
+      "THK11_Interior"
+    ]
+  }
+]

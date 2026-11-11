@@ -1,0 +1,163 @@
+{
+  "anim_pose_api": {
+    "AnimPoseExtensions": {
+      "evaluate_animation_blueprint_with_input_pose": "X.evaluate_animation_blueprint_with_input_pose(input_pose, target_skeletal_mesh, animation_blueprint) -> AnimPose\r\nEvaluates an Animation Blueprint instance, using the provided Anim Pose and its Input Pose value, generating a valid Anim Pose using the result. Warning this function may cause performance issues.\r\n\r\nArgs:\r\n    input_pose (AnimPose): Anim Pose used to populate the input pose node value inside of the Animation Blueprint\r\n    target_skeletal_mesh (SkeletalMesh): USkeletalMesh object used as the target skeletal mesh, should have same USkeleton as InputPose and Animation Blueprint\r\n    animation_blueprint (AnimBlueprint): Animation Blueprint to generate an AnimInstance with, used to evaluate the output Anim Pose\r\n\r\nReturns:\r\n    AnimPose: \r\n\r\n    out_pose (AnimPose): Anim pose to hold the data from evaluating the Animation Blueprint instance",
+      "get_anim_pose_at_frame": "X.get_anim_pose_at_frame(animation_sequence_base, frame_index, evaluation_options) -> AnimPose\r\nEvaluates an Animation Sequence Base to generate a valid Anim Pose instance\r\n\r\nArgs:\r\n    animation_sequence_base (AnimSequenceBase): Animation sequence base to evaluate the pose from\r\n    frame_index (int32): Exact frame at which the pose should be evaluated\r\n    evaluation_options (AnimPoseEvaluationOptions): Options determining the way the pose should be evaluated\r\n\r\nReturns:\r\n    AnimPose: \r\n\r\n    pose (AnimPose): Anim Pose to hold the evaluated data",
+      "get_anim_pose_at_time": "X.get_anim_pose_at_time(animation_sequence_base, time, evaluation_options) -> AnimPose\r\nEvaluates an Animation Sequence Base to generate a valid Anim Pose instance\r\n\r\nArgs:\r\n    animation_sequence_base (AnimSequenceBase): Animation sequence base to evaluate the pose from\r\n    time (double): Time at which the pose should be evaluated\r\n    evaluation_options (AnimPoseEvaluationOptions): Options determining the way the pose should be evaluated\r\n\r\nReturns:\r\n    AnimPose: \r\n\r\n    pose (AnimPose): Anim Pose to hold the evaluated data",
+      "get_bone_names": "X.get_bone_names(pose) -> Array[Name]\r\nReturns an array of bone names contained by the pose\r\n\r\nArgs:\r\n    pose (AnimPose): Anim Pose to retrieve the names from\r\n\r\nReturns:\r\n    Array[Name]: \r\n\r\n    bones (Array[Name]): Array to be populated with the bone names",
+      "get_bone_pose": "X.get_bone_pose(pose, bone_name, space=AnimPoseSpaces.LOCAL) -> Transform\r\nRetrieves the transform for the provided bone name from a pose\r\n\r\nArgs:\r\n    pose (AnimPose): Anim Pose to retrieve the transform from\r\n    bone_name (Name): Name of the bone to retrieve\r\n    space (AnimPoseSpaces): Space in which the transform should be retrieved\r\n\r\nReturns:\r\n    Transform: Transform in requested space for bone if found, otherwise return identity transform",
+      "get_ref_bone_pose": "X.get_ref_bone_pose(pose, bone_name, space=AnimPoseSpaces.LOCAL) -> Transform\r\nRetrieves the reference pose transform for the provided bone name\r\n\r\nArgs:\r\n    pose (AnimPose): Anim Pose to retrieve the transform from\r\n    bone_name (Name): Name of the bone to retrieve\r\n    space (AnimPoseSpaces): Space in which the transform should be retrieved\r\n\r\nReturns:\r\n    Transform: Transform in requested space for bone if found, otherwise return identity transform",
+      "get_reference_pose": "X.get_reference_pose(skeleton) -> AnimPose\r\nPopulates an Anim Pose with the reference poses stored for the provided USkeleton\r\n\r\nArgs:\r\n    skeleton (Skeleton): USkeleton object to retrieve the reference pose from\r\n\r\nReturns:\r\n    AnimPose: \r\n\r\n    out_pose (AnimPose): Anim pose to hold the reference pose",
+      "set_bone_pose": "X.set_bone_pose(pose, transform, bone_name, space=AnimPoseSpaces.LOCAL) -> AnimPose\r\nSets the transform for the provided bone name for a pose\r\n\r\nArgs:\r\n    pose (AnimPose): Anim Pose to set transform in\r\n    transform (Transform): Transform to set the bone to\r\n    bone_name (Name): Name of the bone to set\r\n    space (AnimPoseSpaces): Space in which the transform should be set\r\n\r\nReturns:\r\n    AnimPose: \r\n\r\n    pose (AnimPose): Anim Pose to set transform in"
+    },
+    "AnimPoseEvaluationOptions": {
+      "evaluate_curves": "(bool):  [Read-Write] Whether or not to evaluate Animation Curves"
+    },
+    "AnimPose": {
+      "evaluate_animation_blueprint_with_input_pose": "x.evaluate_animation_blueprint_with_input_pose(target_skeletal_mesh, animation_blueprint) -> AnimPose\r\nEvaluates an Animation Blueprint instance, using the provided Anim Pose and its Input Pose value, generating a valid Anim Pose using the result. Warning this function may cause performance issues.\r\n\r\nArgs:\r\n    target_skeletal_mesh (SkeletalMesh): USkeletalMesh object used as the target skeletal mesh, should have same USkeleton as InputPose and Animation Blueprint\r\n    animation_blueprint (AnimBlueprint): Animation Blueprint to generate an AnimInstance with, used to evaluate the output Anim Pose\r\n\r\nReturns:\r\n    AnimPose: \r\n\r\n    out_pose (AnimPose): Anim pose to hold the data from evaluating the Animation Blueprint instance",
+      "get_bone_names": "x.get_bone_names() -> Array[Name]\r\nReturns an array of bone names contained by the pose\r\n\r\nReturns:\r\n    Array[Name]: \r\n\r\n    bones (Array[Name]): Array to be populated with the bone names",
+      "get_bone_pose": "x.get_bone_pose(bone_name, space=AnimPoseSpaces.LOCAL) -> Transform\r\nRetrieves the transform for the provided bone name from a pose\r\n\r\nArgs:\r\n    bone_name (Name): Name of the bone to retrieve\r\n    space (AnimPoseSpaces): Space in which the transform should be retrieved\r\n\r\nReturns:\r\n    Transform: Transform in requested space for bone if found, otherwise return identity transform",
+      "get_ref_bone_pose": "x.get_ref_bone_pose(bone_name, space=AnimPoseSpaces.LOCAL) -> Transform\r\nRetrieves the reference pose transform for the provided bone name\r\n\r\nArgs:\r\n    bone_name (Name): Name of the bone to retrieve\r\n    space (AnimPoseSpaces): Space in which the transform should be retrieved\r\n\r\nReturns:\r\n    Transform: Transform in requested space for bone if found, otherwise return identity transform",
+      "set_bone_pose": "x.set_bone_pose(transform, bone_name, space=AnimPoseSpaces.LOCAL) -> None\r\nSets the transform for the provided bone name for a pose\r\n\r\nArgs:\r\n    transform (Transform): Transform to set the bone to\r\n    bone_name (Name): Name of the bone to set\r\n    space (AnimPoseSpaces): Space in which the transform should be set"
+    },
+    "AnimPoseSpaces": {}
+  },
+  "meshes": [
+    {
+      "actor": "Matt",
+      "bounds": "<Struct 'BoxSphereBounds' (0x0000016D6749CD40) {origin: {x: 2.469260, y: 0.000000, z: 89.533833}, box_extent: {x: 15.330743, y: 32.098305, z: 88.933833}, sphere_radius: 95.783921}>",
+      "skeleton_api": [
+        "copy_bones_from_skeleton",
+        "get_reference_pose"
+      ],
+      "pose": {
+        "Matt_GameRig": "<Struct 'Transform' (0x0000016D68C9EB20) {rotation: {x: 0.000000, y: -0.000000, z: 0.000000, w: 1.000000}, translation: {x: 0.000000, y: 0.000000, z: 0.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+        "pelvis": "<Struct 'Transform' (0x0000016D68C9EB20) {rotation: {x: -0.707080, y: 0.006171, z: 0.006171, w: 0.707080}, translation: {x: 0.000000, y: 0.000000, z: 92.199997}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+        "foot_L": "<Struct 'Transform' (0x0000016D68C9EB20) {rotation: {x: 0.249832, y: 0.000000, z: 0.635937, w: 0.730184}, translation: {x: 0.000013, y: -10.999983, z: 11.499995}, scale3d: {x: 0.999999, y: 1.000000, z: 1.000000}}>",
+        "foot_R": "<Struct 'Transform' (0x0000016D68C9EB20) {rotation: {x: -0.266993, y: -0.000000, z: -0.679620, w: -0.683251}, translation: {x: 0.000012, y: 10.999985, z: 11.499998}, scale3d: {x: 1.000001, y: 1.000000, z: 1.000000}}>"
+      },
+      "retarget_modes": [
+        "<BoneTranslationRetargetingMode.ANIMATION: 0>",
+        "<BoneTranslationRetargetingMode.ANIMATION: 0>",
+        "<BoneTranslationRetargetingMode.ANIMATION: 0>",
+        "<BoneTranslationRetargetingMode.ANIMATION: 0>",
+        "<BoneTranslationRetargetingMode.ANIMATION: 0>",
+        "<BoneTranslationRetargetingMode.ANIMATION: 0>",
+        "<BoneTranslationRetargetingMode.ANIMATION: 0>",
+        "<BoneTranslationRetargetingMode.ANIMATION: 0>",
+        "<BoneTranslationRetargetingMode.ANIMATION: 0>",
+        "<BoneTranslationRetargetingMode.ANIMATION: 0>",
+        "<BoneTranslationRetargetingMode.ANIMATION: 0>",
+        "<BoneTranslationRetargetingMode.ANIMATION: 0>",
+        "<BoneTranslationRetargetingMode.ANIMATION: 0>",
+        "<BoneTranslationRetargetingMode.ANIMATION: 0>",
+        "<BoneTranslationRetargetingMode.ANIMATION: 0>",
+        "<BoneTranslationRetargetingMode.ANIMATION: 0>",
+        "<BoneTranslationRetargetingMode.ANIMATION: 0>",
+        "<BoneTranslationRetargetingMode.ANIMATION: 0>"
+      ]
+    },
+    {
+      "actor": "Alex",
+      "bounds": "<Struct 'BoxSphereBounds' (0x0000016D6E290F00) {origin: {x: 1.782750, y: 0.000000, z: 89.833836}, box_extent: {x: 16.017253, y: 32.098305, z: 89.233836}, sphere_radius: 96.174483}>",
+      "skeleton_api": [
+        "copy_bones_from_skeleton",
+        "get_reference_pose"
+      ],
+      "pose": {
+        "Alex_GameRig_CM": "<Struct 'Transform' (0x0000016D68C9EB20) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: 0.000000, y: 0.000000, z: 0.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+        "pelvis": "<Struct 'Transform' (0x0000016D68C9EB20) {rotation: {x: -0.707080, y: 0.006171, z: 0.006171, w: 0.707080}, translation: {x: 0.000000, y: 0.000000, z: 92.199997}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+        "foot_L": "<Struct 'Transform' (0x0000016D68C9EB20) {rotation: {x: 0.249832, y: 0.000000, z: 0.635937, w: 0.730184}, translation: {x: 0.000013, y: -10.999983, z: 11.499995}, scale3d: {x: 0.999999, y: 1.000000, z: 1.000000}}>",
+        "foot_R": "<Struct 'Transform' (0x0000016D68C9EB20) {rotation: {x: -0.266993, y: -0.000000, z: -0.679620, w: -0.683251}, translation: {x: 0.000012, y: 10.999985, z: 11.499998}, scale3d: {x: 1.000001, y: 1.000000, z: 1.000000}}>"
+      },
+      "retarget_modes": [
+        "<BoneTranslationRetargetingMode.ANIMATION: 0>",
+        "<BoneTranslationRetargetingMode.ANIMATION: 0>",
+        "<BoneTranslationRetargetingMode.ANIMATION: 0>",
+        "<BoneTranslationRetargetingMode.ANIMATION: 0>",
+        "<BoneTranslationRetargetingMode.ANIMATION: 0>",
+        "<BoneTranslationRetargetingMode.ANIMATION: 0>",
+        "<BoneTranslationRetargetingMode.ANIMATION: 0>",
+        "<BoneTranslationRetargetingMode.ANIMATION: 0>",
+        "<BoneTranslationRetargetingMode.ANIMATION: 0>",
+        "<BoneTranslationRetargetingMode.ANIMATION: 0>",
+        "<BoneTranslationRetargetingMode.ANIMATION: 0>",
+        "<BoneTranslationRetargetingMode.ANIMATION: 0>",
+        "<BoneTranslationRetargetingMode.ANIMATION: 0>",
+        "<BoneTranslationRetargetingMode.ANIMATION: 0>",
+        "<BoneTranslationRetargetingMode.ANIMATION: 0>",
+        "<BoneTranslationRetargetingMode.ANIMATION: 0>",
+        "<BoneTranslationRetargetingMode.ANIMATION: 0>",
+        "<BoneTranslationRetargetingMode.ANIMATION: 0>"
+      ]
+    },
+    {
+      "actor": "Bruce",
+      "bounds": "<Struct 'BoxSphereBounds' (0x0000016D6E2927C0) {origin: {x: 1.782750, y: 0.000000, z: 89.533833}, box_extent: {x: 16.017253, y: 32.098305, z: 88.933833}, sphere_radius: 95.896195}>",
+      "skeleton_api": [
+        "copy_bones_from_skeleton",
+        "get_reference_pose"
+      ],
+      "pose": {
+        "Bruce_GameRig_CM": "<Struct 'Transform' (0x0000016D68C9EB20) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: 0.000000, y: 0.000000, z: 0.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+        "pelvis": "<Struct 'Transform' (0x0000016D68C9EB20) {rotation: {x: -0.707080, y: 0.006171, z: 0.006171, w: 0.707080}, translation: {x: 0.000000, y: 0.000000, z: 92.199997}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+        "foot_L": "<Struct 'Transform' (0x0000016D68C9EB20) {rotation: {x: 0.249832, y: 0.000000, z: 0.635937, w: 0.730184}, translation: {x: 0.000013, y: -10.999983, z: 11.499995}, scale3d: {x: 0.999999, y: 1.000000, z: 1.000000}}>",
+        "foot_R": "<Struct 'Transform' (0x0000016D68C9EB20) {rotation: {x: -0.266993, y: -0.000000, z: -0.679620, w: -0.683251}, translation: {x: 0.000012, y: 10.999985, z: 11.499998}, scale3d: {x: 1.000001, y: 1.000000, z: 1.000000}}>"
+      },
+      "retarget_modes": [
+        "<BoneTranslationRetargetingMode.ANIMATION: 0>",
+        "<BoneTranslationRetargetingMode.ANIMATION: 0>",
+        "<BoneTranslationRetargetingMode.ANIMATION: 0>",
+        "<BoneTranslationRetargetingMode.ANIMATION: 0>",
+        "<BoneTranslationRetargetingMode.ANIMATION: 0>",
+        "<BoneTranslationRetargetingMode.ANIMATION: 0>",
+        "<BoneTranslationRetargetingMode.ANIMATION: 0>",
+        "<BoneTranslationRetargetingMode.ANIMATION: 0>",
+        "<BoneTranslationRetargetingMode.ANIMATION: 0>",
+        "<BoneTranslationRetargetingMode.ANIMATION: 0>",
+        "<BoneTranslationRetargetingMode.ANIMATION: 0>",
+        "<BoneTranslationRetargetingMode.ANIMATION: 0>",
+        "<BoneTranslationRetargetingMode.ANIMATION: 0>",
+        "<BoneTranslationRetargetingMode.ANIMATION: 0>",
+        "<BoneTranslationRetargetingMode.ANIMATION: 0>",
+        "<BoneTranslationRetargetingMode.ANIMATION: 0>",
+        "<BoneTranslationRetargetingMode.ANIMATION: 0>",
+        "<BoneTranslationRetargetingMode.ANIMATION: 0>"
+      ]
+    },
+    {
+      "actor": "Hondo",
+      "bounds": "<Struct 'BoxSphereBounds' (0x0000016D6E293680) {origin: {x: 2.479760, y: 0.000366, z: 89.823659}, box_extent: {x: 15.320243, y: 32.451508, z: 89.223659}, sphere_radius: 96.170013}>",
+      "skeleton_api": [
+        "copy_bones_from_skeleton",
+        "get_reference_pose"
+      ],
+      "pose": {
+        "Hondo_GameRig_CM": "<Struct 'Transform' (0x0000016D68C9EB20) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: 0.000000, y: 0.000000, z: 0.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+        "pelvis": "<Struct 'Transform' (0x0000016D68C9EB20) {rotation: {x: -0.707080, y: 0.006171, z: 0.006171, w: 0.707080}, translation: {x: 0.000000, y: 0.000000, z: 92.199997}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+        "foot_L": "<Struct 'Transform' (0x0000016D68C9EB20) {rotation: {x: 0.249832, y: 0.000000, z: 0.635937, w: 0.730184}, translation: {x: 0.000013, y: -10.999983, z: 11.499995}, scale3d: {x: 0.999999, y: 1.000000, z: 1.000000}}>",
+        "foot_R": "<Struct 'Transform' (0x0000016D68C9EB20) {rotation: {x: -0.266993, y: -0.000000, z: -0.679620, w: -0.683251}, translation: {x: 0.000012, y: 10.999985, z: 11.499998}, scale3d: {x: 1.000001, y: 1.000000, z: 1.000000}}>"
+      },
+      "retarget_modes": [
+        "<BoneTranslationRetargetingMode.ANIMATION: 0>",
+        "<BoneTranslationRetargetingMode.ANIMATION: 0>",
+        "<BoneTranslationRetargetingMode.ANIMATION: 0>",
+        "<BoneTranslationRetargetingMode.ANIMATION: 0>",
+        "<BoneTranslationRetargetingMode.ANIMATION: 0>",
+        "<BoneTranslationRetargetingMode.ANIMATION: 0>",
+        "<BoneTranslationRetargetingMode.ANIMATION: 0>",
+        "<BoneTranslationRetargetingMode.ANIMATION: 0>",
+        "<BoneTranslationRetargetingMode.ANIMATION: 0>",
+        "<BoneTranslationRetargetingMode.ANIMATION: 0>",
+        "<BoneTranslationRetargetingMode.ANIMATION: 0>",
+        "<BoneTranslationRetargetingMode.ANIMATION: 0>",
+        "<BoneTranslationRetargetingMode.ANIMATION: 0>",
+        "<BoneTranslationRetargetingMode.ANIMATION: 0>",
+        "<BoneTranslationRetargetingMode.ANIMATION: 0>",
+        "<BoneTranslationRetargetingMode.ANIMATION: 0>",
+        "<BoneTranslationRetargetingMode.ANIMATION: 0>",
+        "<BoneTranslationRetargetingMode.ANIMATION: 0>"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "path": "renders\\v9\\transformation.avi",
+    "frames": 97,
+    "fps": 12,
+    "size_bytes": 2656382,
+    "codec": "MJPG",
+    "media_player_playback": "NOT_RUN"
+  },
+  {
+    "path": "renders\\v9\\turntable.avi",
+    "frames": 72,
+    "fps": 12,
+    "size_bytes": 1958422,
+    "codec": "MJPG",
+    "media_player_playback": "NOT_RUN"
+  }
+]

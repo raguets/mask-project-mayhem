@@ -1,0 +1,7 @@
+{
+  "status": "success",
+  "result": {
+    "executed": true,
+    "result": "V12_GEOMETRIC_AUDIT_STARTED {\"R\": {\"upper_to_pedal_gap_m\": 0.0004999728407710791, \"upper_pedal_surface_pairs\": 0, \"sole_to_footwell_gap_m\": 0.001453697681427002, \"sole_floor_surface_pairs\": 0}, \"L\": {\"upper_to_pedal_gap_m\": 0.0004999728407710791, \"upper_pedal_surface_pairs\": 0, \"sole_to_footwell_gap_m\": 0.0014540255069732666, \"sole_floor_surface_pairs\": 0}, \"hand_L\": {\"to_rim_gap_m\": 3.9588703657500446e-05, \"surface_pairs\": 58}, \"hand_R\": {\"to_rim_gap_m\": 3.969251338276081e-05, \"surface_pairs\": 58}, \"seat\": {\"suit_to_cushion_back_gap_m\": 4.157425064477138e-05, \"surface_pairs\": 578, \"note\": \"Surface contact/penetration requires visual assessment; upholstered compression is not simulated.\"}}\n"
+  }
+}

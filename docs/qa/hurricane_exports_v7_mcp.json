@@ -1,0 +1,7 @@
+{
+  "status": "success",
+  "result": {
+    "executed": true,
+    "result": "Infos: Copie enregistrée sous « Session_before_export_20261105_220529_928967.blend »\nInfos: Enregistré sous « Hurricane_V7_Vehicle.blend »\nInfos: Enregistré sous « HondoMacLean_V1.blend »\nInfos: Enregistré sous « HondoMask_V1.blend »\nCOMPONENT_EXPORTS_SAVED [{\"kind\": \"vehicle\", \"file\": \"G:\\\\DEV\\\\mask-project-mayhem\\\\art_source\\\\Hurricane\\\\Hurricane_V7_Vehicle.blend\", \"scene\": \"Hurricane_V7_Vehicle\", \"scene_objects\": 482}, {\"kind\": \"character\", \"file\": \"G:\\\\DEV\\\\mask-project-mayhem\\\\art_source\\\\Hondo_MacLean\\\\HondoMacLean_V1.blend\", \"scene\": \"HondoMacLean_V1\", \"scene_objects\": 77}, {\"kind\": \"mask\", \"file\": \"G:\\\\DEV\\\\mask-project-mayhem\\\\art_source\\\\Hondo_MacLean\\\\HondoMask_V1.blend\", \"scene\": \"HondoMask_V1\", \"scene_objects\": 36}]\n"
+  }
+}

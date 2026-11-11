@@ -1,0 +1,6 @@
+Switchblade avant transformation est un hélicoptère et il se transforme en avion.
+Les transformations se font en même temps :
+- les 2 hélices se superposent l'une sur l'autre pour se ranger sur le dessus de la queue de l'avion puiq la partie à l'arrière qui sert de rotor de queue et qui est pointée vers le bas pivote pour se retrouver vers le haut en position de dérive
+- les ailes qui sont colées contre les parois latérales de la queue de l'avion de déploient vers l'avant en faisant une rotation pour former les ailes de l'avion
+- Les patins d'atterissage de relève pour former des canons sur les ailes
+- des petits canons sortent par les côtés qui se trouvent vers l'avant du cockpit

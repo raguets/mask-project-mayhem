@@ -1,0 +1,19 @@
+﻿{
+    "executable":  "G:\\DEV\\mask-project-mayhem\\VehicularCombat\\Saved\\Packages\\MASK-Dynamics-Development-r2\\Windows\\VehicularCombat\\Binaries\\Win64\\VehicularCombat.exe",
+    "arguments":  [
+                      "/Game/Maps/TestMaps/Test?Vehicle=Hurricane",
+                      "-unattended",
+                      "-nosound",
+                      "-nosteam",
+                      "-nosplash",
+                      "-windowed",
+                      "-ResX=1280",
+                      "-ResY=720",
+                      "-NoVSync",
+                      "-ExecCmds=\"t.MaxFPS 30,MASK.HurricaneSmoke\"",
+                      "-MigrationReportDir=\"G:\\DEV\\mask-project-mayhem\\VehicularCombat\\Saved\\Art\\hurricane-moving-packaged-r2\"",
+                      "-AbsLog=\"G:\\DEV\\mask-project-mayhem\\VehicularCombat\\Saved\\Art\\hurricane-moving-packaged-r2\\game.log\"",
+                      "-RenderOffscreen"
+                  ],
+    "pid":  4196
+}

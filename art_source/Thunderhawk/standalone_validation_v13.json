@@ -1,0 +1,54 @@
+{
+  "MattTrakker_V4.blend": {
+    "reopened": true,
+    "objects": 127,
+    "one_character_one_rig_one_head": true,
+    "four_states": [
+      {
+        "driving_pose": 0,
+        "mask_on": false,
+        "visible_mask_parts": 0,
+        "same_head": true
+      },
+      {
+        "driving_pose": 0,
+        "mask_on": true,
+        "visible_mask_parts": 22,
+        "same_head": true
+      },
+      {
+        "driving_pose": 1,
+        "mask_on": false,
+        "visible_mask_parts": 0,
+        "same_head": true
+      },
+      {
+        "driving_pose": 1,
+        "mask_on": true,
+        "visible_mask_parts": 22,
+        "same_head": true
+      }
+    ],
+    "vehicle_dependency": false,
+    "regular_main_file_saved": true,
+    "reopened_after_save": true
+  },
+  "Thunderhawk_V13_Vehicle.blend": {
+    "reopened": true,
+    "objects": 503,
+    "character_dependency": false,
+    "parcel_shelf_and_MASK_plate": true,
+    "tinted_glazing": true,
+    "regular_main_file_saved": true,
+    "reopened_after_save": true
+  },
+  "Spectrum_V3.blend": {
+    "reopened": true,
+    "objects": 28,
+    "character_dependency": false,
+    "vehicle_dependency": false,
+    "standalone_socket": true,
+    "regular_main_file_saved": true,
+    "reopened_after_save": true
+  }
+}

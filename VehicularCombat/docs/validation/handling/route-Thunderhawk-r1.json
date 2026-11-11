@@ -1,0 +1,44 @@
+{
+	"passed": true,
+	"complete": true,
+	"vehicle": "Thunderhawk",
+	"wall_seconds": 111.94810689985752,
+	"simulated_seconds": 1147.2471923828125,
+	"progress_m": 9548,
+	"max_cross_track_m": 1.329342246055603,
+	"max_speed_kmh": 36.043890380859374,
+	"longest_wheel_contact_loss_s": 0,
+	"checks":
+	{
+		"new_map_loaded": true,
+		"existing_requested_vehicle": true,
+		"starts_inside_existing_base": true,
+		"continuous_ground_probes": true,
+		"road_grade_below_10_percent": true,
+		"reached_zone_0": true,
+		"reached_zone_1": true,
+		"reached_zone_2": true,
+		"reached_zone_3": true,
+		"reached_zone_4": true,
+		"no_stuck_or_departure": true,
+		"wheels_remain_supported": true,
+		"no_unwanted_transformation": true,
+		"route_completed_without_recovery": true
+	},
+	"telemetry":
+	{
+		"probe_count": 2868,
+		"missing_ground_probes": 0,
+		"max_road_grade_percent": 8.4742155075073242,
+		"max_probe_surface_offset_cm": 43.872024536132812,
+		"latest_position": "X=-129693.902 Y=-106692.228 Z=8006.022",
+		"rotation": "P=-0.147175 Y=-164.311901 R=0.005456",
+		"requested_steer": 0.006484178826212883,
+		"steering_input": 0.0063596167601644993,
+		"throttle": 0.20735311508178711,
+		"brake": 0,
+		"contacts": 4,
+		"speed_cm_s": 881.82330322265625
+	},
+	"method": "Actual Chaos pawn, pure-pursuit controller injecting Xbox steering/throttle/brake. No teleportation or kinematic route following. Collision probe is separate from driving. Screenshots are real game frames."
+}

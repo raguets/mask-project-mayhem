@@ -1,0 +1,7 @@
+{
+  "status": "success",
+  "result": {
+    "executed": true,
+    "result": "Infos: Copie enregistrée sous « Session_before_bullbar_V3_20261103_204629.blend »\nInfos: Enregistré sous « Rhino_V3.blend »\nRHINO_V3_BULLBAR_SAVED {\"source\": \"Rhino_V2.blend\", \"reference\": \"Images de reference/rhino/rhino pare buffle.jpg\", \"reference_category\": \"User-supplied toy photograph, inspected\", \"dimensions_from_existing_model_m\": {\"width\": 1.7599999904632568, \"height\": 1.4537222385406494, \"lower_z\": 1.0581388473510742, \"upper_z\": 2.5118610858917236}, \"estimated_construction\": {\"frame_band_width_m\": 0.055, \"frame_depth_m\": 0.07, \"vertical_bars\": 7, \"bar_width_m\": 0.025}, \"same_slide_control\": \"RH_BullbarSlide\", \"removed_old_parts\": [\"RH_BullbarCross\", \"RH_BullbarLower\", \"RH_BullbarPostCap_-1\", \"RH_BullbarPostCap_1\", \"RH_BullbarUpright_-1\", \"RH_BullbarUpright_1\"], \"new_frame\": \"RH_BullbarFrame\", \"new_bars\": [\"RH_BullbarVertical_01\", \"RH_BullbarVertical_02\", \"RH_BullbarVertical_03\", \"RH_BullbarVertical_04\", \"RH_BullbarVertical_05\", \"RH_BullbarVertical_06\", \"RH_BullbarVertical_07\"], \"limits\": \"Exact toy dimensions and hidden mount geometry are not documented; physical outline matched to current model grille.\"}\n"
+  }
+}

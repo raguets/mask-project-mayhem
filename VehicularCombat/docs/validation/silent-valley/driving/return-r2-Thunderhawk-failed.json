@@ -1,0 +1,49 @@
+{
+	"passed": false,
+	"complete": true,
+	"vehicle": "Thunderhawk",
+	"wall_seconds": 101.32596080005169,
+	"simulated_seconds": 1178.06884765625,
+	"progress_m": 9515,
+	"max_cross_track_m": 2.6682350635528564,
+	"max_speed_kmh": 36.025701416015622,
+	"longest_wheel_contact_loss_s": 17.949897766113281,
+	"checks":
+	{
+		"new_map_loaded": true,
+		"existing_requested_vehicle": true,
+		"starts_inside_existing_base": true,
+		"continuous_ground_probes": true,
+		"road_grade_below_10_percent": true,
+		"reached_zone_0": true,
+		"reached_zone_1": true,
+		"reached_zone_2": true,
+		"reached_zone_3": true,
+		"reached_zone_4": true,
+		"no_stuck_or_departure": false,
+		"route_completed_without_recovery": false
+	},
+	"telemetry":
+	{
+		"probe_count": 2901,
+		"missing_ground_probes": 0,
+		"max_road_grade_percent": 8.4742155075073242,
+		"max_probe_surface_offset_cm": 43.7755126953125,
+		"latest_position": "X=-120096.206 Y=-101095.982 Z=8054.858",
+		"rotation": "P=2.227939 Y=125.659272 R=92.876833",
+		"requested_steer": 0.28441843390464783,
+		"steering_input": 0.28113481402397156,
+		"throttle": 0.80000001192092896,
+		"brake": 0,
+		"contacts": 0,
+		"speed_cm_s": 6.0530438423156738,
+		"blocking_actor": "SilentValleyRoad_0",
+		"blocking_location": "X=-120039.953 Y=-101317.844 Z=8000.000",
+		"blocking_material": "M_SV_RoadMarked_v2",
+		"failure_position": "X=-120096.268 Y=-101094.852 Z=8055.307",
+		"failure_rotation": "P=2.251600 Y=125.832154 R=93.308522",
+		"failure_speed_cm_s": 2.5207955837249756,
+		"failure_contacts": 0
+	},
+	"method": "Actual Chaos pawn, pure-pursuit controller injecting Xbox steering/throttle/brake. No teleportation or kinematic route following. Collision probe is separate from driving. Screenshots are real game frames."
+}

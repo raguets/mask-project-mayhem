@@ -1,0 +1,7 @@
+{
+  "status": "success",
+  "result": {
+    "executed": true,
+    "result": "V14_GEOMETRIC_AUDIT_STARTED [{\"drive\": 0, \"base_samples\": 128, \"gap_min_m\": 0.0013741111615672708, \"gap_mean_m\": 0.0033842500706668943, \"gap_max_m\": 0.003905105171725154, \"samples_more_than_2mm_inside_suit\": 0}, {\"drive\": 1, \"base_samples\": 128, \"gap_min_m\": 0.0003332089981995523, \"gap_mean_m\": 0.0032966269991447916, \"gap_max_m\": 0.004629138857126236, \"samples_more_than_2mm_inside_suit\": 0}]\n"
+  }
+}

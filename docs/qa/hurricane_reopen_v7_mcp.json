@@ -1,0 +1,7 @@
+{
+  "status": "success",
+  "result": {
+    "executed": true,
+    "result": "STANDALONE_REOPEN_PASSED [('vehicle', 482), ('character', 77), ('mask', 36)]\n"
+  }
+}

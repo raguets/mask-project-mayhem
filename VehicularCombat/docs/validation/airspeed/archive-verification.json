@@ -1,0 +1,6 @@
+﻿{
+    "package":  "MASK-Airspeed-Development-r3",
+    "all_stage_files_match_archive":  true,
+    "sha256_verified_file_count":  50,
+    "repair":  "UAT archive ran out of disk. Missing executable copied from completed staging after lossless NTFS compression of generated binaries/symbols. No files deleted."
+}

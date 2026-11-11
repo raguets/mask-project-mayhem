@@ -1,0 +1,985 @@
+{
+  "checked_meshes": 244,
+  "tolerance_cm": 0.1,
+  "max_bound_error_cm": 2.288818359375e-05,
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "THK_BrakeDisc_FL",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_BrakeDisc_FR",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_BrakeDisc_RL",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_BrakeDisc_RR",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_C_Pillar_L",
+      "max_bound_error_cm": 7.62939453125e-06
+    },
+    {
+      "name": "THK_C_Pillar_R",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_CannonBoreBack_L",
+      "max_bound_error_cm": 7.62939453125e-06
+    },
+    {
+      "name": "THK_CannonBoreBack_R",
+      "max_bound_error_cm": 7.62939453125e-06
+    },
+    {
+      "name": "THK_CannonGuide_L_Front",
+      "max_bound_error_cm": 8.58306884765625e-06
+    },
+    {
+      "name": "THK_CannonGuide_L_Rear",
+      "max_bound_error_cm": 7.62939453125e-06
+    },
+    {
+      "name": "THK_CannonGuide_R_Front",
+      "max_bound_error_cm": 8.58306884765625e-06
+    },
+    {
+      "name": "THK_CannonGuide_R_Rear",
+      "max_bound_error_cm": 1.1444091796875e-05
+    },
+    {
+      "name": "THK_CannonMountRail_L",
+      "max_bound_error_cm": 7.62939453125e-06
+    },
+    {
+      "name": "THK_CannonMountRail_R",
+      "max_bound_error_cm": 7.62939453125e-06
+    },
+    {
+      "name": "THK_CannonMuzzle_L",
+      "max_bound_error_cm": 7.62939453125e-06
+    },
+    {
+      "name": "THK_CannonMuzzle_R",
+      "max_bound_error_cm": 7.62939453125e-06
+    },
+    {
+      "name": "THK_CannonSleeve_L",
+      "max_bound_error_cm": 9.5367431640625e-06
+    },
+    {
+      "name": "THK_CannonSleeve_R",
+      "max_bound_error_cm": 7.62939453125e-06
+    },
+    {
+      "name": "THK_CannonSlide_L_Front",
+      "max_bound_error_cm": 9.5367431640625e-06
+    },
+    {
+      "name": "THK_CannonSlide_L_Rear",
+      "max_bound_error_cm": 1.1444091796875e-05
+    },
+    {
+      "name": "THK_CannonSlide_R_Front",
+      "max_bound_error_cm": 7.62939453125e-06
+    },
+    {
+      "name": "THK_CannonSlide_R_Rear",
+      "max_bound_error_cm": 7.62939453125e-06
+    },
+    {
+      "name": "THK_Cowl",
+      "max_bound_error_cm": 7.62939453125e-06
+    },
+    {
+      "name": "THK_DoorAFrame_L",
+      "max_bound_error_cm": 7.62939453125e-06
+    },
+    {
+      "name": "THK_DoorAFrame_R",
+      "max_bound_error_cm": 7.62939453125e-06
+    },
+    {
+      "name": "THK_DoorCannon_L",
+      "max_bound_error_cm": 7.62939453125e-06
+    },
+    {
+      "name": "THK_DoorCannon_R",
+      "max_bound_error_cm": 7.62939453125e-06
+    },
+    {
+      "name": "THK_DoorGlass_L",
+      "max_bound_error_cm": 7.62939453125e-06
+    },
+    {
+      "name": "THK_DoorGlass_R",
+      "max_bound_error_cm": 7.62939453125e-06
+    },
+    {
+      "name": "THK_DoorHandleRecess_L",
+      "max_bound_error_cm": 1.1444091796875e-05
+    },
+    {
+      "name": "THK_DoorHandleRecess_R",
+      "max_bound_error_cm": 7.62939453125e-06
+    },
+    {
+      "name": "THK_DoorHandle_L",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_DoorHandle_R",
+      "max_bound_error_cm": 7.62939453125e-06
+    },
+    {
+      "name": "THK_DoorLightning_L",
+      "max_bound_error_cm": 7.62939453125e-06
+    },
+    {
+      "name": "THK_DoorLightning_R",
+      "max_bound_error_cm": 7.62939453125e-06
+    },
+    {
+      "name": "THK_DoorPaint_L",
+      "max_bound_error_cm": 7.62939453125e-06
+    },
+    {
+      "name": "THK_DoorPaint_R",
+      "max_bound_error_cm": 7.62939453125e-06
+    },
+    {
+      "name": "THK_DoorReturnFront_L",
+      "max_bound_error_cm": 7.62939453125e-06
+    },
+    {
+      "name": "THK_DoorReturnFront_R",
+      "max_bound_error_cm": 7.62939453125e-06
+    },
+    {
+      "name": "THK_DoorReturnRear_L",
+      "max_bound_error_cm": 7.62939453125e-06
+    },
+    {
+      "name": "THK_DoorReturnRear_R",
+      "max_bound_error_cm": 7.62939453125e-06
+    },
+    {
+      "name": "THK_DoorRoofInset_L",
+      "max_bound_error_cm": 7.62939453125e-06
+    },
+    {
+      "name": "THK_DoorRoofInset_R",
+      "max_bound_error_cm": 7.62939453125e-06
+    },
+    {
+      "name": "THK_DoorSeal_L",
+      "max_bound_error_cm": 7.62939453125e-06
+    },
+    {
+      "name": "THK_DoorSeal_R",
+      "max_bound_error_cm": 7.62939453125e-06
+    },
+    {
+      "name": "THK_DoorShell_L",
+      "max_bound_error_cm": 7.62939453125e-06
+    },
+    {
+      "name": "THK_DoorShell_R",
+      "max_bound_error_cm": 7.62939453125e-06
+    },
+    {
+      "name": "THK_ExteriorBlackout",
+      "max_bound_error_cm": 7.62939453125e-06
+    },
+    {
+      "name": "THK_FixedTailBand",
+      "max_bound_error_cm": 2.288818359375e-05
+    },
+    {
+      "name": "THK_FrontAirDam",
+      "max_bound_error_cm": 2.288818359375e-05
+    },
+    {
+      "name": "THK_FrontArchLip_L",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_FrontArchLip_R",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_FrontBulkhead",
+      "max_bound_error_cm": 7.62939453125e-06
+    },
+    {
+      "name": "THK_FrontBumper",
+      "max_bound_error_cm": 2.288818359375e-05
+    },
+    {
+      "name": "THK_FrontFenderCrown_L",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_FrontFenderCrown_R",
+      "max_bound_error_cm": 2.288818359375e-05
+    },
+    {
+      "name": "THK_FrontQuarterSkin_L",
+      "max_bound_error_cm": 2.288818359375e-05
+    },
+    {
+      "name": "THK_FrontQuarterSkin_R",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_FrontRoofHeader",
+      "max_bound_error_cm": 3.814697265625e-06
+    },
+    {
+      "name": "THK_FrontSideMarker_L",
+      "max_bound_error_cm": 2.288818359375e-05
+    },
+    {
+      "name": "THK_FrontSideMarker_R",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_FrontWheelhouse_L",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_FrontWheelhouse_R",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_HatchFrame",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_HeadlampBack_L",
+      "max_bound_error_cm": 1.9073486328125e-05
+    },
+    {
+      "name": "THK_HeadlampBack_R",
+      "max_bound_error_cm": 2.288818359375e-05
+    },
+    {
+      "name": "THK_HeadlampHousing_L0",
+      "max_bound_error_cm": 1.9073486328125e-05
+    },
+    {
+      "name": "THK_HeadlampHousing_L1",
+      "max_bound_error_cm": 1.9073486328125e-05
+    },
+    {
+      "name": "THK_HeadlampHousing_R0",
+      "max_bound_error_cm": 2.288818359375e-05
+    },
+    {
+      "name": "THK_HeadlampHousing_R1",
+      "max_bound_error_cm": 2.288818359375e-05
+    },
+    {
+      "name": "THK_HeadlampLens_L0",
+      "max_bound_error_cm": 1.9073486328125e-05
+    },
+    {
+      "name": "THK_HeadlampLens_L1",
+      "max_bound_error_cm": 1.9073486328125e-05
+    },
+    {
+      "name": "THK_HeadlampLens_R0",
+      "max_bound_error_cm": 2.288818359375e-05
+    },
+    {
+      "name": "THK_HeadlampLens_R1",
+      "max_bound_error_cm": 2.288818359375e-05
+    },
+    {
+      "name": "THK_HeadlampRecess_L",
+      "max_bound_error_cm": 1.9073486328125e-05
+    },
+    {
+      "name": "THK_HeadlampRecess_R",
+      "max_bound_error_cm": 2.288818359375e-05
+    },
+    {
+      "name": "THK_Hood",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_HoodLightning_L",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_HoodLightning_R",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_HoodPaintCentre",
+      "max_bound_error_cm": 1.9073486328125e-05
+    },
+    {
+      "name": "THK_HoodPaint_L",
+      "max_bound_error_cm": 1.9073486328125e-05
+    },
+    {
+      "name": "THK_HoodPaint_R",
+      "max_bound_error_cm": 1.9073486328125e-05
+    },
+    {
+      "name": "THK_Hub_FL",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_Hub_FR",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_Hub_RL",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_Hub_RR",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_IntakeBack_L",
+      "max_bound_error_cm": 2.09808349609375e-05
+    },
+    {
+      "name": "THK_IntakeBack_R",
+      "max_bound_error_cm": 2.09808349609375e-05
+    },
+    {
+      "name": "THK_IntakeRecess_L",
+      "max_bound_error_cm": 2.288818359375e-05
+    },
+    {
+      "name": "THK_IntakeRecess_R",
+      "max_bound_error_cm": 2.09808349609375e-05
+    },
+    {
+      "name": "THK_IntakeVane_L0",
+      "max_bound_error_cm": 2.288818359375e-05
+    },
+    {
+      "name": "THK_IntakeVane_L1",
+      "max_bound_error_cm": 2.288818359375e-05
+    },
+    {
+      "name": "THK_IntakeVane_L2",
+      "max_bound_error_cm": 2.288818359375e-05
+    },
+    {
+      "name": "THK_IntakeVane_R0",
+      "max_bound_error_cm": 2.09808349609375e-05
+    },
+    {
+      "name": "THK_IntakeVane_R1",
+      "max_bound_error_cm": 2.09808349609375e-05
+    },
+    {
+      "name": "THK_IntakeVane_R2",
+      "max_bound_error_cm": 2.09808349609375e-05
+    },
+    {
+      "name": "THK_LensFlute_L0_1",
+      "max_bound_error_cm": 1.9073486328125e-05
+    },
+    {
+      "name": "THK_LensFlute_L0_2",
+      "max_bound_error_cm": 1.9073486328125e-05
+    },
+    {
+      "name": "THK_LensFlute_L0_3",
+      "max_bound_error_cm": 2.288818359375e-05
+    },
+    {
+      "name": "THK_LensFlute_L0_4",
+      "max_bound_error_cm": 1.9073486328125e-05
+    },
+    {
+      "name": "THK_LensFlute_L0_5",
+      "max_bound_error_cm": 2.288818359375e-05
+    },
+    {
+      "name": "THK_LensFlute_L0_6",
+      "max_bound_error_cm": 1.9073486328125e-05
+    },
+    {
+      "name": "THK_LensFlute_L1_1",
+      "max_bound_error_cm": 2.288818359375e-05
+    },
+    {
+      "name": "THK_LensFlute_L1_2",
+      "max_bound_error_cm": 2.288818359375e-05
+    },
+    {
+      "name": "THK_LensFlute_L1_3",
+      "max_bound_error_cm": 2.288818359375e-05
+    },
+    {
+      "name": "THK_LensFlute_L1_4",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_LensFlute_L1_5",
+      "max_bound_error_cm": 2.288818359375e-05
+    },
+    {
+      "name": "THK_LensFlute_L1_6",
+      "max_bound_error_cm": 2.288818359375e-05
+    },
+    {
+      "name": "THK_LensFlute_R0_1",
+      "max_bound_error_cm": 2.288818359375e-05
+    },
+    {
+      "name": "THK_LensFlute_R0_2",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_LensFlute_R0_3",
+      "max_bound_error_cm": 2.288818359375e-05
+    },
+    {
+      "name": "THK_LensFlute_R0_4",
+      "max_bound_error_cm": 2.288818359375e-05
+    },
+    {
+      "name": "THK_LensFlute_R0_5",
+      "max_bound_error_cm": 2.288818359375e-05
+    },
+    {
+      "name": "THK_LensFlute_R0_6",
+      "max_bound_error_cm": 2.288818359375e-05
+    },
+    {
+      "name": "THK_LensFlute_R1_1",
+      "max_bound_error_cm": 2.288818359375e-05
+    },
+    {
+      "name": "THK_LensFlute_R1_2",
+      "max_bound_error_cm": 1.9073486328125e-05
+    },
+    {
+      "name": "THK_LensFlute_R1_3",
+      "max_bound_error_cm": 1.9073486328125e-05
+    },
+    {
+      "name": "THK_LensFlute_R1_4",
+      "max_bound_error_cm": 1.9073486328125e-05
+    },
+    {
+      "name": "THK_LensFlute_R1_5",
+      "max_bound_error_cm": 2.288818359375e-05
+    },
+    {
+      "name": "THK_LensFlute_R1_6",
+      "max_bound_error_cm": 2.288818359375e-05
+    },
+    {
+      "name": "THK_Lug_FL0",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_Lug_FL1",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_Lug_FL2",
+      "max_bound_error_cm": 7.62939453125e-06
+    },
+    {
+      "name": "THK_Lug_FL3",
+      "max_bound_error_cm": 7.62939453125e-06
+    },
+    {
+      "name": "THK_Lug_FL4",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_Lug_FR0",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_Lug_FR1",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_Lug_FR2",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_Lug_FR3",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_Lug_FR4",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_Lug_RL0",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_Lug_RL1",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_Lug_RL2",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_Lug_RL3",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_Lug_RL4",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_Lug_RR0",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_Lug_RR1",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_Lug_RR2",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_Lug_RR3",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_Lug_RR4",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_MirrorGlass_L",
+      "max_bound_error_cm": 7.62939453125e-06
+    },
+    {
+      "name": "THK_MirrorGlass_R",
+      "max_bound_error_cm": 7.62939453125e-06
+    },
+    {
+      "name": "THK_MirrorHousing_L",
+      "max_bound_error_cm": 7.62939453125e-06
+    },
+    {
+      "name": "THK_MirrorHousing_R",
+      "max_bound_error_cm": 7.62939453125e-06
+    },
+    {
+      "name": "THK_MirrorStalk_L",
+      "max_bound_error_cm": 7.62939453125e-06
+    },
+    {
+      "name": "THK_MirrorStalk_R",
+      "max_bound_error_cm": 7.62939453125e-06
+    },
+    {
+      "name": "THK_NoseFascia",
+      "max_bound_error_cm": 2.288818359375e-05
+    },
+    {
+      "name": "THK_NoseUpperBridge",
+      "max_bound_error_cm": 2.288818359375e-05
+    },
+    {
+      "name": "THK_QuarterBeltTrim_L",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_QuarterBeltTrim_R",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_QuarterGlass_L",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_QuarterGlass_R",
+      "max_bound_error_cm": 7.62939453125e-06
+    },
+    {
+      "name": "THK_ReactorHousingCap_L-1",
+      "max_bound_error_cm": 1.9073486328125e-05
+    },
+    {
+      "name": "THK_ReactorHousingCap_L1",
+      "max_bound_error_cm": 1.9073486328125e-05
+    },
+    {
+      "name": "THK_ReactorHousingCap_R-1",
+      "max_bound_error_cm": 2.288818359375e-05
+    },
+    {
+      "name": "THK_ReactorHousingCap_R1",
+      "max_bound_error_cm": 2.288818359375e-05
+    },
+    {
+      "name": "THK_ReactorHousingSide_L-1",
+      "max_bound_error_cm": 1.9073486328125e-05
+    },
+    {
+      "name": "THK_ReactorHousingSide_L1",
+      "max_bound_error_cm": 2.288818359375e-05
+    },
+    {
+      "name": "THK_ReactorHousingSide_R-1",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_ReactorHousingSide_R1",
+      "max_bound_error_cm": 2.09808349609375e-05
+    },
+    {
+      "name": "THK_ReactorThroat_L",
+      "max_bound_error_cm": 2.288818359375e-05
+    },
+    {
+      "name": "THK_ReactorThroat_R",
+      "max_bound_error_cm": 1.9073486328125e-05
+    },
+    {
+      "name": "THK_ReactorVane_L0",
+      "max_bound_error_cm": 1.9073486328125e-05
+    },
+    {
+      "name": "THK_ReactorVane_L1",
+      "max_bound_error_cm": 1.9073486328125e-05
+    },
+    {
+      "name": "THK_ReactorVane_L2",
+      "max_bound_error_cm": 2.288818359375e-05
+    },
+    {
+      "name": "THK_ReactorVane_L3",
+      "max_bound_error_cm": 2.288818359375e-05
+    },
+    {
+      "name": "THK_ReactorVane_R0",
+      "max_bound_error_cm": 2.288818359375e-05
+    },
+    {
+      "name": "THK_ReactorVane_R1",
+      "max_bound_error_cm": 1.9073486328125e-05
+    },
+    {
+      "name": "THK_ReactorVane_R2",
+      "max_bound_error_cm": 1.9073486328125e-05
+    },
+    {
+      "name": "THK_ReactorVane_R3",
+      "max_bound_error_cm": 1.9073486328125e-05
+    },
+    {
+      "name": "THK_Reactor_L",
+      "max_bound_error_cm": 2.288818359375e-05
+    },
+    {
+      "name": "THK_Reactor_R",
+      "max_bound_error_cm": 2.288818359375e-05
+    },
+    {
+      "name": "THK_RearArchLip_L",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_RearArchLip_R",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_RearBulkhead",
+      "max_bound_error_cm": 7.62939453125e-06
+    },
+    {
+      "name": "THK_RearBumperReturn_L",
+      "max_bound_error_cm": 2.288818359375e-05
+    },
+    {
+      "name": "THK_RearBumperReturn_R",
+      "max_bound_error_cm": 2.288818359375e-05
+    },
+    {
+      "name": "THK_RearBumperRubStrip",
+      "max_bound_error_cm": 2.288818359375e-05
+    },
+    {
+      "name": "THK_RearDeck",
+      "max_bound_error_cm": 2.288818359375e-05
+    },
+    {
+      "name": "THK_RearFenderCrown_L",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_RearFenderCrown_R",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_RearGlass",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_RearPanel",
+      "max_bound_error_cm": 2.288818359375e-05
+    },
+    {
+      "name": "THK_RearPlate",
+      "max_bound_error_cm": 2.09808349609375e-05
+    },
+    {
+      "name": "THK_RearPlateRecess",
+      "max_bound_error_cm": 2.09808349609375e-05
+    },
+    {
+      "name": "THK_RearQuarterSkin_L",
+      "max_bound_error_cm": 2.288818359375e-05
+    },
+    {
+      "name": "THK_RearQuarterSkin_R",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_RearRoofHeader",
+      "max_bound_error_cm": 7.62939453125e-06
+    },
+    {
+      "name": "THK_RearStabilizer",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_RearValance",
+      "max_bound_error_cm": 2.288818359375e-05
+    },
+    {
+      "name": "THK_RearWheelhouse_L",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_RearWheelhouse_R",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_RimLip_FL",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_RimLip_FR",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_RimLip_RL",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_RimLip_RR",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_Rim_FL",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_Rim_FR",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_Rim_RL",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_Rim_RR",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_RockerRubStrip_L",
+      "max_bound_error_cm": 7.62939453125e-06
+    },
+    {
+      "name": "THK_RockerRubStrip_R",
+      "max_bound_error_cm": 7.62939453125e-06
+    },
+    {
+      "name": "THK_Rocker_L",
+      "max_bound_error_cm": 7.62939453125e-06
+    },
+    {
+      "name": "THK_Rocker_R",
+      "max_bound_error_cm": 7.62939453125e-06
+    },
+    {
+      "name": "THK_RoofHinge_L_Front",
+      "max_bound_error_cm": 1.9073486328125e-06
+    },
+    {
+      "name": "THK_RoofHinge_L_Rear",
+      "max_bound_error_cm": 5.7220458984375e-06
+    },
+    {
+      "name": "THK_RoofHinge_R_Front",
+      "max_bound_error_cm": 2.86102294921875e-06
+    },
+    {
+      "name": "THK_RoofHinge_R_Rear",
+      "max_bound_error_cm": 5.7220458984375e-06
+    },
+    {
+      "name": "THK_RoofSpine",
+      "max_bound_error_cm": 6.67572021484375e-06
+    },
+    {
+      "name": "THK_SidewallBead_FL",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_SidewallBead_FR",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_SidewallBead_RL",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_SidewallBead_RR",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_SpoilerBase",
+      "max_bound_error_cm": 1.811981201171875e-05
+    },
+    {
+      "name": "THK_SpoilerPaint",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_SpoilerTelescopicPost",
+      "max_bound_error_cm": 1.811981201171875e-05
+    },
+    {
+      "name": "THK_SpoilerUpperPost",
+      "max_bound_error_cm": 1.811981201171875e-05
+    },
+    {
+      "name": "THK_TailLampBezel_L",
+      "max_bound_error_cm": 2.288818359375e-05
+    },
+    {
+      "name": "THK_TailLampBezel_R",
+      "max_bound_error_cm": 2.09808349609375e-05
+    },
+    {
+      "name": "THK_TailLens_L00",
+      "max_bound_error_cm": 2.09808349609375e-05
+    },
+    {
+      "name": "THK_TailLens_L01",
+      "max_bound_error_cm": 2.09808349609375e-05
+    },
+    {
+      "name": "THK_TailLens_L10",
+      "max_bound_error_cm": 2.288818359375e-05
+    },
+    {
+      "name": "THK_TailLens_L11",
+      "max_bound_error_cm": 2.288818359375e-05
+    },
+    {
+      "name": "THK_TailLens_L20",
+      "max_bound_error_cm": 2.288818359375e-05
+    },
+    {
+      "name": "THK_TailLens_L21",
+      "max_bound_error_cm": 2.288818359375e-05
+    },
+    {
+      "name": "THK_TailLens_L30",
+      "max_bound_error_cm": 2.288818359375e-05
+    },
+    {
+      "name": "THK_TailLens_L31",
+      "max_bound_error_cm": 2.288818359375e-05
+    },
+    {
+      "name": "THK_TailLens_R00",
+      "max_bound_error_cm": 2.09808349609375e-05
+    },
+    {
+      "name": "THK_TailLens_R01",
+      "max_bound_error_cm": 2.09808349609375e-05
+    },
+    {
+      "name": "THK_TailLens_R10",
+      "max_bound_error_cm": 2.09808349609375e-05
+    },
+    {
+      "name": "THK_TailLens_R11",
+      "max_bound_error_cm": 2.09808349609375e-05
+    },
+    {
+      "name": "THK_TailLens_R20",
+      "max_bound_error_cm": 1.9073486328125e-05
+    },
+    {
+      "name": "THK_TailLens_R21",
+      "max_bound_error_cm": 1.9073486328125e-05
+    },
+    {
+      "name": "THK_TailLens_R30",
+      "max_bound_error_cm": 2.288818359375e-05
+    },
+    {
+      "name": "THK_TailLens_R31",
+      "max_bound_error_cm": 2.288818359375e-05
+    },
+    {
+      "name": "THK_TailSideLens_L",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_TailSideLens_R",
+      "max_bound_error_cm": 2.288818359375e-05
+    },
+    {
+      "name": "THK_Tire_FL",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_Tire_FR",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_Tire_RL",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_Tire_RR",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_Undertray",
+      "max_bound_error_cm": 1.52587890625e-05
+    },
+    {
+      "name": "THK_Windshield",
+      "max_bound_error_cm": 7.62939453125e-06
+    },
+    {
+      "name": "THK_WindshieldFrame",
+      "max_bound_error_cm": 1.52587890625e-05
+    }
+  ],
+  "limitation": "Axis/scale/rest bounding boxes; does not prove UV quality, shading or visual equivalence."
+}

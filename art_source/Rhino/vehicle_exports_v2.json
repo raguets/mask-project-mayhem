@@ -1,0 +1,18 @@
+{
+  "source": "G:\\DEV\\mask-project-mayhem\\art_source\\Rhino\\Rhino_V2.blend",
+  "outputs": [
+    {
+      "kind": "vehicle",
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Rhino\\Rhino_V2_Vehicle.blend",
+      "scene": "Rhino_V2_IndependentVehicle",
+      "scene_objects": 910
+    },
+    {
+      "kind": "rear_vehicle",
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Rhino\\Rhino_RearVehicle_V1.blend",
+      "scene": "Rhino_RearVehicle_V1_Independent",
+      "scene_objects": 181
+    }
+  ],
+  "expected": 2
+}

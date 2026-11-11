@@ -1,0 +1,111 @@
+{
+  "characters": {
+    "AlexSector_Rig": {
+      "four_states": [
+        {
+          "pose": 0,
+          "mask": false,
+          "visible_mask_parts": 0,
+          "same_body_head_rig": true,
+          "face_retained": true
+        },
+        {
+          "pose": 0,
+          "mask": true,
+          "visible_mask_parts": 6,
+          "same_body_head_rig": true,
+          "face_retained": true
+        },
+        {
+          "pose": 1,
+          "mask": false,
+          "visible_mask_parts": 0,
+          "same_body_head_rig": true,
+          "face_retained": true
+        },
+        {
+          "pose": 1,
+          "mask": true,
+          "visible_mask_parts": 6,
+          "same_body_head_rig": true,
+          "face_retained": true
+        }
+      ],
+      "one_character": true,
+      "masked_cabin_intersections": [],
+      "contacts": {
+        "L": {
+          "pedal_gap_m": 0.0009999275207519531
+        },
+        "R": {
+          "pedal_gap_m": 0.0009999275207519531
+        },
+        "seat": {
+          "Cushion": {
+            "surface_gap_m": 2.1457672119140625e-06,
+            "surface_pairs": 541
+          },
+          "Back": {
+            "surface_gap_m": 0.006850838661193848,
+            "surface_pairs": 0
+          }
+        }
+      }
+    },
+    "BruceSato_Rig": {
+      "four_states": [
+        {
+          "pose": 0,
+          "mask": false,
+          "visible_mask_parts": 0,
+          "same_body_head_rig": true,
+          "face_retained": true
+        },
+        {
+          "pose": 0,
+          "mask": true,
+          "visible_mask_parts": 39,
+          "same_body_head_rig": true,
+          "face_retained": true
+        },
+        {
+          "pose": 1,
+          "mask": false,
+          "visible_mask_parts": 0,
+          "same_body_head_rig": true,
+          "face_retained": true
+        },
+        {
+          "pose": 1,
+          "mask": true,
+          "visible_mask_parts": 39,
+          "same_body_head_rig": true,
+          "face_retained": true
+        }
+      ],
+      "one_character": true,
+      "masked_cabin_intersections": [],
+      "contacts": {
+        "L": {
+          "pedal_gap_m": 0.0009999275207519531,
+          "wheel_gap_m": 1.0811303354785196e-06
+        },
+        "R": {
+          "pedal_gap_m": 0.0009999275207519531,
+          "wheel_gap_m": 1.0115243185282452e-06
+        },
+        "seat": {
+          "Cushion": {
+            "surface_gap_m": 2.1457672119140625e-06,
+            "surface_pairs": 541
+          },
+          "Back": {
+            "surface_gap_m": 0.006850838661193848,
+            "surface_pairs": 0
+          }
+        }
+      }
+    }
+  },
+  "distinct_character_data": true
+}

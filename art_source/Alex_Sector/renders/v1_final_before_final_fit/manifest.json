@@ -1,0 +1,419 @@
+{
+  "status": "complete",
+  "elapsed_seconds": 112.88,
+  "scene_file": "G:\\DEV\\mask-project-mayhem\\art_source\\Rhino\\Rhino_V1.blend",
+  "job": {
+    "output_dir": "G:\\DEV\\mask-project-mayhem\\art_source\\Alex_Sector\\renders\\v1_final",
+    "rig": "AlexSector_Rig",
+    "rig_properties": [
+      "driving_pose",
+      "mask_on"
+    ],
+    "floor": "Review_Floor",
+    "samples": 24,
+    "width": 900,
+    "height": 1000,
+    "device": "GPU",
+    "views": [
+      {
+        "name": "standing",
+        "camera": [
+          3.4,
+          2.9,
+          2.0
+        ],
+        "target": [
+          0,
+          0,
+          0.94
+        ],
+        "lens": 65,
+        "frame": 1,
+        "properties": {
+          "driving_pose": 0,
+          "mask_on": false
+        },
+        "rig_location": [
+          0,
+          0,
+          0
+        ],
+        "hide_collections": [
+          "Rhino_Truck",
+          "Rhino_RearVehicle",
+          "Rhino_Interior",
+          "BS_Character",
+          "BS_Mask"
+        ]
+      },
+      {
+        "name": "portrait",
+        "camera": [
+          0.88,
+          0.49,
+          1.69
+        ],
+        "target": [
+          0.01,
+          0,
+          1.645
+        ],
+        "lens": 78,
+        "frame": 1,
+        "properties": {
+          "driving_pose": 0,
+          "mask_on": false
+        },
+        "rig_location": [
+          0,
+          0,
+          0
+        ],
+        "hide_collections": [
+          "Rhino_Truck",
+          "Rhino_RearVehicle",
+          "Rhino_Interior",
+          "BS_Character",
+          "BS_Mask"
+        ]
+      },
+      {
+        "name": "mask_front",
+        "camera": [
+          0.91,
+          0.06,
+          1.68
+        ],
+        "target": [
+          0.01,
+          0,
+          1.635
+        ],
+        "lens": 78,
+        "frame": 1,
+        "properties": {
+          "driving_pose": 0,
+          "mask_on": true
+        },
+        "rig_location": [
+          0,
+          0,
+          0
+        ],
+        "hide_collections": [
+          "Rhino_Truck",
+          "Rhino_RearVehicle",
+          "Rhino_Interior",
+          "BS_Character",
+          "BS_Mask"
+        ]
+      },
+      {
+        "name": "mask_profile",
+        "camera": [
+          0.25,
+          0.89,
+          1.69
+        ],
+        "target": [
+          0.01,
+          0,
+          1.64
+        ],
+        "lens": 78,
+        "frame": 1,
+        "properties": {
+          "driving_pose": 0,
+          "mask_on": true
+        },
+        "rig_location": [
+          0,
+          0,
+          0
+        ],
+        "hide_collections": [
+          "Rhino_Truck",
+          "Rhino_RearVehicle",
+          "Rhino_Interior",
+          "BS_Character",
+          "BS_Mask"
+        ]
+      },
+      {
+        "name": "seated",
+        "camera": [
+          2.6,
+          2.7,
+          1.7
+        ],
+        "target": [
+          0,
+          0,
+          0.65
+        ],
+        "lens": 62,
+        "frame": 1,
+        "properties": {
+          "driving_pose": 1,
+          "mask_on": false
+        },
+        "rig_location": [
+          0,
+          0,
+          0
+        ],
+        "hide_collections": [
+          "Rhino_Truck",
+          "Rhino_RearVehicle",
+          "Rhino_Interior",
+          "BS_Character",
+          "BS_Mask"
+        ]
+      },
+      {
+        "name": "seated_mask",
+        "camera": [
+          2.6,
+          2.7,
+          1.7
+        ],
+        "target": [
+          0,
+          0,
+          0.65
+        ],
+        "lens": 62,
+        "frame": 1,
+        "properties": {
+          "driving_pose": 1,
+          "mask_on": true
+        },
+        "rig_location": [
+          0,
+          0,
+          0
+        ],
+        "hide_collections": [
+          "Rhino_Truck",
+          "Rhino_RearVehicle",
+          "Rhino_Interior",
+          "BS_Character",
+          "BS_Mask"
+        ]
+      }
+    ]
+  },
+  "renders": [
+    {
+      "view": {
+        "name": "standing",
+        "camera": [
+          3.4,
+          2.9,
+          2.0
+        ],
+        "target": [
+          0,
+          0,
+          0.94
+        ],
+        "lens": 65,
+        "frame": 1,
+        "properties": {
+          "driving_pose": 0,
+          "mask_on": false
+        },
+        "rig_location": [
+          0,
+          0,
+          0
+        ],
+        "hide_collections": [
+          "Rhino_Truck",
+          "Rhino_RearVehicle",
+          "Rhino_Interior",
+          "BS_Character",
+          "BS_Mask"
+        ]
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Alex_Sector\\renders\\v1_final\\standing.png",
+      "size_bytes": 931167
+    },
+    {
+      "view": {
+        "name": "portrait",
+        "camera": [
+          0.88,
+          0.49,
+          1.69
+        ],
+        "target": [
+          0.01,
+          0,
+          1.645
+        ],
+        "lens": 78,
+        "frame": 1,
+        "properties": {
+          "driving_pose": 0,
+          "mask_on": false
+        },
+        "rig_location": [
+          0,
+          0,
+          0
+        ],
+        "hide_collections": [
+          "Rhino_Truck",
+          "Rhino_RearVehicle",
+          "Rhino_Interior",
+          "BS_Character",
+          "BS_Mask"
+        ]
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Alex_Sector\\renders\\v1_final\\portrait.png",
+      "size_bytes": 942431
+    },
+    {
+      "view": {
+        "name": "mask_front",
+        "camera": [
+          0.91,
+          0.06,
+          1.68
+        ],
+        "target": [
+          0.01,
+          0,
+          1.635
+        ],
+        "lens": 78,
+        "frame": 1,
+        "properties": {
+          "driving_pose": 0,
+          "mask_on": true
+        },
+        "rig_location": [
+          0,
+          0,
+          0
+        ],
+        "hide_collections": [
+          "Rhino_Truck",
+          "Rhino_RearVehicle",
+          "Rhino_Interior",
+          "BS_Character",
+          "BS_Mask"
+        ]
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Alex_Sector\\renders\\v1_final\\mask_front.png",
+      "size_bytes": 995608
+    },
+    {
+      "view": {
+        "name": "mask_profile",
+        "camera": [
+          0.25,
+          0.89,
+          1.69
+        ],
+        "target": [
+          0.01,
+          0,
+          1.64
+        ],
+        "lens": 78,
+        "frame": 1,
+        "properties": {
+          "driving_pose": 0,
+          "mask_on": true
+        },
+        "rig_location": [
+          0,
+          0,
+          0
+        ],
+        "hide_collections": [
+          "Rhino_Truck",
+          "Rhino_RearVehicle",
+          "Rhino_Interior",
+          "BS_Character",
+          "BS_Mask"
+        ]
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Alex_Sector\\renders\\v1_final\\mask_profile.png",
+      "size_bytes": 977915
+    },
+    {
+      "view": {
+        "name": "seated",
+        "camera": [
+          2.6,
+          2.7,
+          1.7
+        ],
+        "target": [
+          0,
+          0,
+          0.65
+        ],
+        "lens": 62,
+        "frame": 1,
+        "properties": {
+          "driving_pose": 1,
+          "mask_on": false
+        },
+        "rig_location": [
+          0,
+          0,
+          0
+        ],
+        "hide_collections": [
+          "Rhino_Truck",
+          "Rhino_RearVehicle",
+          "Rhino_Interior",
+          "BS_Character",
+          "BS_Mask"
+        ]
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Alex_Sector\\renders\\v1_final\\seated.png",
+      "size_bytes": 942529
+    },
+    {
+      "view": {
+        "name": "seated_mask",
+        "camera": [
+          2.6,
+          2.7,
+          1.7
+        ],
+        "target": [
+          0,
+          0,
+          0.65
+        ],
+        "lens": 62,
+        "frame": 1,
+        "properties": {
+          "driving_pose": 1,
+          "mask_on": true
+        },
+        "rig_location": [
+          0,
+          0,
+          0
+        ],
+        "hide_collections": [
+          "Rhino_Truck",
+          "Rhino_RearVehicle",
+          "Rhino_Interior",
+          "BS_Character",
+          "BS_Mask"
+        ]
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Alex_Sector\\renders\\v1_final\\seated_mask.png",
+      "size_bytes": 954857
+    }
+  ],
+  "retained_previous_views": []
+}

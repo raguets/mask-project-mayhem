@@ -1,0 +1,496 @@
+﻿LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogProfilingDebugging: Loading WinPixEventRuntime.dll for PIX profiling (from ../../../Engine/Binaries/ThirdParty/Windows/WinPixEventRuntime/x64).
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogWindows: Started CrashReportClient (pid=16356)
+LogWindows: Custom abort handler registered for crash reporting.
+LogInit: Running DelayedAutoRegister Phase StartOfEnginePreInit
+LogInit: Display: Running engine for game: VehicularCombat
+LogCore: UTS: Unreal Trace Server launched successfully
+LogTrace: Initializing trace...
+LogCore: Display: Requested channels: 'cpu,gpu,frame,log,bookmark,screenshot,region'
+LogCore: No trace connection. Tracing to in-memory cache.
+LogTrace: Display: Control listening on port 36234
+LogTrace: Finished trace initialization.
+LogCsvProfiler: Display: Metadata set : platform="Windows"
+LogCsvProfiler: Display: Metadata set : config="Development"
+LogCsvProfiler: Display: Metadata set : buildversion="++UE5+Release-5.8-CL-56702186"
+LogCsvProfiler: Display: Metadata set : engineversion="5.8.2-56702186+++UE5+Release-5.8"
+LogCsvProfiler: Display: Metadata set : enginereleaseversion="5.8.2"
+LogCsvProfiler: Display: Metadata set : os="Windows 11 (25H2) [10.0.26200.9711] "
+LogCsvProfiler: Display: Metadata set : cpu="GenuineIntel|Intel(R) Core(TM) i7-4770 CPU @ 3.40GHz"
+LogCsvProfiler: Display: Metadata set : pgoenabled="0"
+LogCsvProfiler: Display: Metadata set : pgoprofilingenabled="0"
+LogCsvProfiler: Display: Metadata set : ltoenabled="0"
+LogCsvProfiler: Display: Metadata set : asan="0"
+LogCsvProfiler: Display: Metadata set : mergedmodules="0"
+LogCsvProfiler: Display: Metadata set : compacttset="0"
+LogCsvProfiler: Display: Metadata set : commandline="" G:\DEV\mask-project-mayhem\VehicularCombat\VehicularCombat.uproject -NullRHI -Unattended -NoSound -NoSplash -NoShaderCompile -stdout -FullStdOutLogOutput -run=CompileAllBlueprints -AllowListFile=Tools/Migration/project-assets.allowlist -AbsLog=G:\DEV\mask-project-mayhem\VehicularCombat\Saved\Migration\Blueprints-20261108-093433.log""
+LogCsvProfiler: Display: Metadata set : loginid="03a0636f7450464cb4b12c365f14aeaf"
+LogCsvProfiler: Display: Metadata set : llm="0"
+LogModuleManager: InternalLoadLibrary: 'StorageServerClient' ('G:/Program Files/Epic Games/UE_5.8/Engine/Binaries/Win64/UnrealEditor-StorageServerClient.dll')
+LogModuleManager: InternalLoadLibrary: 'CookOnTheFly' ('G:/Program Files/Epic Games/UE_5.8/Engine/Binaries/Win64/UnrealEditor-CookOnTheFly.dll')
+LogModuleManager: InternalLoadLibrary: 'StreamingFile' ('G:/Program Files/Epic Games/UE_5.8/Engine/Binaries/Win64/UnrealEditor-StreamingFile.dll')
+LogModuleManager: InternalLoadLibrary: 'NetworkFile' ('G:/Program Files/Epic Games/UE_5.8/Engine/Binaries/Win64/UnrealEditor-NetworkFile.dll')
+LogModuleManager: InternalLoadLibrary: 'PakFile' ('G:/Program Files/Epic Games/UE_5.8/Engine/Binaries/Win64/UnrealEditor-PakFile.dll')
+LogModuleManager: InternalLoadLibrary: 'RSA' ('G:/Program Files/Epic Games/UE_5.8/Engine/Binaries/Win64/UnrealEditor-RSA.dll')
+LogModuleManager: InternalLoadLibrary: 'SandboxFile' ('G:/Program Files/Epic Games/UE_5.8/Engine/Binaries/Win64/UnrealEditor-SandboxFile.dll')
+LogCsvProfiler: Display: Metadata set : zenstreaming="0"
+LogInit: Running DelayedAutoRegister Phase FileSystemReady
+LogInit: Running DelayedAutoRegister Phase TaskGraphSystemReady
+LogStats: Stats thread started at 0.514244
+LogInit: Running DelayedAutoRegister Phase StatSystemReady
+LogModuleManager: InternalLoadLibrary: 'CoreUObject' ('G:/Program Files/Epic Games/UE_5.8/Engine/Binaries/Win64/UnrealEditor-CoreUObject.dll')
+LogCsvProfiler: Display: Metadata set : systemresolution.resx="1280"
+LogCsvProfiler: Display: Metadata set : systemresolution.resy="720"
+LogModuleManager: InternalLoadLibrary: 'Engine' ('G:/Program Files/Epic Games/UE_5.8/Engine/Binaries/Win64/UnrealEditor-Engine.dll')
+LogModuleManager: InternalLoadLibrary: 'UniversalObjectLocator' ('G:/Program Files/Epic Games/UE_5.8/Engine/Binaries/Win64/UnrealEditor-UniversalObjectLocator.dll')
+LogModuleManager: InternalLoadLibrary: 'Renderer' ('G:/Program Files/Epic Games/UE_5.8/Engine/Binaries/Win64/UnrealEditor-Renderer.dll')
+LogModuleManager: InternalLoadLibrary: 'AnimGraphRuntime' ('G:/Program Files/Epic Games/UE_5.8/Engine/Binaries/Win64/UnrealEditor-AnimGraphRuntime.dll')
+LogModuleManager: InternalLoadLibrary: 'SlateRHIRenderer' ('G:/Program Files/Epic Games/UE_5.8/Engine/Binaries/Win64/UnrealEditor-SlateRHIRenderer.dll')
+LogModuleManager: InternalLoadLibrary: 'Landscape' ('G:/Program Files/Epic Games/UE_5.8/Engine/Binaries/Win64/UnrealEditor-Landscape.dll')
+LogModuleManager: InternalLoadLibrary: 'RHICore' ('G:/Program Files/Epic Games/UE_5.8/Engine/Binaries/Win64/UnrealEditor-RHICore.dll')
+LogModuleManager: InternalLoadLibrary: 'RenderCore' ('G:/Program Files/Epic Games/UE_5.8/Engine/Binaries/Win64/UnrealEditor-RenderCore.dll')
+LogModuleManager: InternalLoadLibrary: 'TextureCompressor' ('G:/Program Files/Epic Games/UE_5.8/Engine/Binaries/Win64/UnrealEditor-TextureCompressor.dll')
+LogModuleManager: InternalLoadLibrary: 'OpenColorIOWrapper' ('G:/Program Files/Epic Games/UE_5.8/Engine/Binaries/Win64/UnrealEditor-OpenColorIOWrapper.dll')
+LogModuleManager: InternalLoadLibrary: 'Virtualization' ('G:/Program Files/Epic Games/UE_5.8/Engine/Binaries/Win64/UnrealEditor-Virtualization.dll')
+LogModuleManager: InternalLoadLibrary: 'MessageLog' ('G:/Program Files/Epic Games/UE_5.8/Engine/Binaries/Win64/UnrealEditor-MessageLog.dll')
+LogModuleManager: InternalLoadLibrary: 'AudioEditor' ('G:/Program Files/Epic Games/UE_5.8/Engine/Binaries/Win64/UnrealEditor-AudioEditor.dll')
+LogModuleManager: InternalLoadLibrary: 'PropertyEditor' ('G:/Program Files/Epic Games/UE_5.8/Engine/Binaries/Win64/UnrealEditor-PropertyEditor.dll')
+LogModuleManager: InternalLoadLibrary: 'AudioExtensions' ('G:/Program Files/Epic Games/UE_5.8/Engine/Binaries/Win64/UnrealEditor-AudioExtensions.dll')
+LogModuleManager: InternalLoadLibrary: 'SignalProcessing' ('G:/Program Files/Epic Games/UE_5.8/Engine/Binaries/Win64/UnrealEditor-SignalProcessing.dll')
+LogModuleManager: InternalLoadLibrary: 'AudioMixerCore' ('G:/Program Files/Epic Games/UE_5.8/Engine/Binaries/Win64/UnrealEditor-AudioMixerCore.dll')
+LogModuleManager: InternalLoadLibrary: 'AnimationModifiers' ('G:/Program Files/Epic Games/UE_5.8/Engine/Binaries/Win64/UnrealEditor-AnimationModifiers.dll')
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogInit: Session CrashGUID >====================================================
+         Session CrashGUID >   UECC-Windows-ACCAE09545F6AC472FDDFDBCC86B53CE
+         Session CrashGUID >====================================================
+LogConfig: No local boot hotfix file found at: [../../../../../../DEV/mask-project-mayhem/VehicularCombat/Saved/PersistentDownloadDir/HotfixForNextBoot.txt]
+LogInit: Running DelayedAutoRegister Phase IniSystemReady
+LogModuleManager: InternalLoadLibrary: 'TargetPlatform' ('G:/Program Files/Epic Games/UE_5.8/Engine/Binaries/Win64/UnrealEditor-TargetPlatform.dll')
+LogModuleManager: InternalLoadLibrary: 'DesktopPlatform' ('G:/Program Files/Epic Games/UE_5.8/Engine/Binaries/Win64/UnrealEditor-DesktopPlatform.dll')
+Launching UnrealBuildTool... [G:/Program Files/Epic Games/UE_5.8/Engine/Build/BatchFiles/Build.bat -Mode=ValidatePlatforms -OutputSDKs  -AllPlatforms  -project="G:/DEV/mask-project-mayhem/VehicularCombat/VehicularCombat.uproject" -log="G:/DEV/mask-project-mayhem/VehicularCombat/Saved/Logs/AutoSDKInfo.txt" -verbose -timestamps]
+LogAudio: Display: Audio Device Manager not initializing due to all audio being disabled. If this is not intentional, please check command line arguments for "-nosound".
+LogModuleManager: InternalLoadLibrary: 'TelemetryUtils' ('G:/Program Files/Epic Games/UE_5.8/Engine/Binaries/Win64/UnrealEditor-TelemetryUtils.dll')
+LogPluginManager: Looking for build plugins target receipt
+LogConfig: Display: Loading Mac ini files took 0.07 seconds
+LogConfig: Display: Loading Android ini files took 0.07 seconds
+LogConfig: Display: Loading IOS ini files took 0.07 seconds
+LogPluginManager: Found matching target receipt: ../../../../../../DEV/mask-project-mayhem/VehicularCombat/Binaries/Win64/VehicularCombatEditor.target
+LogPluginManager: Looking for enabled plugins target receipt
+Using bundled DotNet SDK version: 10.0 win-x64
+Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -Mode=ValidatePlatforms -OutputSDKs  -AllPlatforms  -project="G:/DEV/mask-project-mayhem/VehicularCombat/VehicularCombat.uproject" -log="G:/DEV/mask-project-mayhem/VehicularCombat/Saved/Logs/AutoSDKInfo.txt" -verbose -timestamps
+LogConfig: Display: Loading Linux ini files took 0.12 seconds
+LogConfig: Display: Loading VulkanPC ini files took 0.07 seconds
+LogPluginManager: Found matching target receipt: ../../../../../../DEV/mask-project-mayhem/VehicularCombat/Binaries/Win64/VehicularCombatEditor.target
+LogConfig: Display: Loading TVOS ini files took 0.10 seconds
+LogConfig: Display: Loading Unix ini files took 0.11 seconds
+LogConfig: Display: Loading Windows ini files took 0.09 seconds
+LogPluginManager: Mounting Engine plugin AudioInsights
+LogPluginManager: Mounting Engine plugin AudioInsightsRuntime
+LogPluginManager: Mounting Engine plugin AudioModulationInsights
+LogPluginManager: Mounting Engine plugin BaseMaterial
+LogPluginManager: Mounting Engine plugin Bridge
+LogPluginManager: Mounting Engine plugin ChaosCloth
+LogPluginManager: Mounting Engine plugin ChaosInsights
+LogPluginManager: Mounting Engine plugin ChaosVD
+LogPluginManager: Mounting Engine plugin CmdLinkServer
+LogPluginManager: Mounting Engine plugin Dataflow
+LogPluginManager: Mounting Engine plugin DerivedDataBuildController
+LogPluginManager: Mounting Engine plugin EnhancedInput
+LogPluginManager: Mounting Engine plugin Fab
+LogPluginManager: Mounting Engine plugin IoStoreInsights
+LogPluginManager: Mounting Engine plugin MassInsights
+LogConfig: Display: Loading VisionOS ini files took 0.08 seconds
+LogPluginManager: Mounting Engine plugin MeshPainting
+LogPluginManager: Mounting Engine plugin Mutable
+LogPluginManager: Mounting Engine plugin PCG
+LogPluginManager: Mounting Engine plugin RenderGraphInsights
+LogPluginManager: Mounting Engine plugin RenderTraceInsights
+LogPluginManager: Mounting Engine plugin TraceUtilities
+LogPluginManager: Mounting Engine plugin UbaController
+LogPluginManager: Mounting Engine plugin WorldMetrics
+LogPluginManager: Mounting Engine plugin XGEController
+LogPluginManager: Mounting Engine plugin AdvancedRenamer
+LogPluginManager: Mounting Engine plugin AutomationUtils
+LogPluginManager: Mounting Engine plugin Buoyancy
+LogPluginManager: Mounting Engine plugin ChaosEditor
+LogPluginManager: Mounting Engine plugin BackChannel
+LogPluginManager: Mounting Engine plugin ChaosNiagara
+LogPluginManager: Mounting Engine plugin ChaosVehiclesPlugin
+LogPluginManager: Mounting Engine plugin CharacterAI
+LogPluginManager: Mounting Engine plugin ControlRigPhysics
+LogPluginManager: Mounting Engine plugin EditorDataStorage
+LogPluginManager: Mounting Engine plugin EditorDataStorageFeatures
+LogPluginManager: Mounting Engine plugin EditorPerformance
+LogPluginManager: Mounting Engine plugin EditorTelemetry
+LogPluginManager: Mounting Engine plugin EditorTRSGizmo
+LogPluginManager: Mounting Engine plugin Fracture
+LogPluginManager: Mounting Engine plugin FullBodyIK
+LogPluginManager: Mounting Engine plugin GeometryCollectionPlugin
+LogPluginManager: Mounting Engine plugin GeometryDataflow
+LogPluginManager: Mounting Engine plugin GeometryFlow
+LogPluginManager: Mounting Engine plugin GizmoFramework
+LogPluginManager: Mounting Engine plugin GlobalConfigurationData
+LogPluginManager: Mounting Engine plugin HttpInsights
+LogPluginManager: Mounting Engine plugin ChaosCaching
+LogPluginManager: Mounting Engine plugin ChaosSolverPlugin
+LogPluginManager: Mounting Engine plugin LevelSequenceNavigatorBridge
+LogPluginManager: Mounting Engine plugin LowLevelNetTrace
+LogPluginManager: Mounting Engine plugin LocalizableMessage
+LogPluginManager: Mounting Engine plugin MeshModelingToolsetExp
+LogPluginManager: Mounting Engine plugin MutableAssetUserData
+LogPluginManager: Mounting Engine plugin NFORDenoise
+LogPluginManager: Mounting Engine plugin Landmass
+LogPluginManager: Mounting Engine plugin PlanarCut
+LogPluginManager: Mounting Engine plugin PlatformCrypto
+LogPluginManager: Mounting Engine plugin PythonScriptPlugin
+LogPluginManager: Mounting Engine plugin RawInput
+LogPluginManager: Display: The Plugin RawInput has been marked deprecated for 5.8 and will be removed soon. Please update your dependencies.
+LogPluginManager: Mounting Engine plugin RuntimeTelemetry
+LogPluginManager: Mounting Engine plugin SequenceNavigator
+LogPluginManager: Mounting Engine plugin SkeletalReduction
+LogPluginManager: Mounting Engine plugin ChaosUserDataPT
+LogPluginManager: Mounting Engine plugin ToolPresets
+LogPluginManager: Mounting Engine plugin Water
+LogPluginManager: Mounting Engine plugin AndroidMedia
+LogPluginManager: Mounting Engine plugin AvfMedia
+LogPluginManager: Mounting Engine plugin ImgMedia
+LogPluginManager: Mounting Engine plugin MediaCompositing
+LogPluginManager: Mounting Engine plugin MediaPlate
+LogPluginManager: Mounting Engine plugin MediaPlayerEditor
+LogPluginManager: Mounting Engine plugin MP4Utilities
+LogPluginManager: Mounting Engine plugin TmvMedia
+LogPluginManager: Mounting Engine plugin WebMMedia
+LogPluginManager: Mounting Engine plugin WmfMedia
+LogPluginManager: Mounting Engine plugin EOSShared
+LogPluginManager: Mounting Engine plugin OnlineBase
+LogPluginManager: Mounting Engine plugin OnlineServices
+LogPluginManager: Mounting Engine plugin OnlineSubsystem
+LogPluginManager: Mounting Engine plugin OnlineSubsystemNull
+LogPluginManager: Mounting Engine plugin OnlineSubsystemSteam
+LogPluginManager: Mounting Engine plugin OnlineSubsystemUtils
+LogPluginManager: Mounting Engine plugin InterchangeTests
+LogPluginManager: Mounting Engine plugin Takes
+LogPluginManager: Mounting Engine plugin AssetManagerEditor
+LogPluginManager: Mounting Engine plugin OodleNetwork
+LogPluginManager: Mounting Engine plugin BlueprintHeaderView
+LogPluginManager: Mounting Engine plugin BlueprintMaterialTextureNodes
+LogPluginManager: Mounting Engine plugin ChangelistReview
+LogPluginManager: Mounting Engine plugin ColorGrading
+LogPluginManager: Mounting Engine plugin ConsoleVariables
+LogPluginManager: Mounting Engine plugin CryptoKeys
+LogPluginManager: Mounting Engine plugin CurveEditorTools
+LogPluginManager: Mounting Engine plugin DataValidation
+LogPluginManager: Mounting Engine plugin EditorDebugTools
+LogPluginManager: Mounting Engine plugin EditorScriptingUtilities
+LogPluginManager: Mounting Engine plugin FacialAnimation
+LogPluginManager: Mounting Engine plugin EngineAssetDefinitions
+LogPluginManager: Mounting Engine plugin GameplayTagsEditor
+LogPluginManager: Mounting Engine plugin GeometryMode
+LogPluginManager: Mounting Engine plugin MacGraphicsSwitching
+LogPluginManager: Mounting Engine plugin MaterialAnalyzer
+LogPluginManager: Mounting Engine plugin MaterialAssetWizard
+LogPluginManager: Mounting Engine plugin MeshLODToolset
+LogPluginManager: Mounting Engine plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting Engine plugin ModelingToolsEditorMode
+LogPluginManager: Mounting Engine plugin ProxyLODPlugin
+LogPluginManager: Mounting Engine plugin PluginBrowser
+LogPluginManager: Mounting Engine plugin SequencerAnimTools
+LogPluginManager: Mounting Engine plugin SpeedTreeImporter
+LogPluginManager: Mounting Engine plugin StylusInput
+LogPluginManager: Mounting Engine plugin UMGWidgetPreview
+LogPluginManager: Mounting Engine plugin UVEditor
+LogPluginManager: Mounting Engine plugin WorldPartitionHLODUtilities
+LogPluginManager: Mounting Engine plugin UdpMessaging
+LogPluginManager: Mounting Engine plugin TcpMessaging
+LogPluginManager: Mounting Engine plugin InterchangeEditor
+LogPluginManager: Mounting Engine plugin InterchangeAssets
+LogPluginManager: Mounting Engine plugin Interchange
+LogPluginManager: Mounting Engine plugin ActorSequence
+LogPluginManager: Mounting Engine plugin LevelSequenceEditor
+LogPluginManager: Mounting Engine plugin SequencerScripting
+LogPluginManager: Mounting Engine plugin SequenceValidator
+LogPluginManager: Mounting Engine plugin ActorLayerUtilities
+LogPluginManager: Mounting Engine plugin TemplateSequence
+LogPluginManager: Mounting Engine plugin LauncherChunkInstaller
+LogPluginManager: Mounting Engine plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin AndroidFileServer
+LogPluginManager: Mounting Engine plugin AndroidPermission
+LogPluginManager: Mounting Engine plugin AndroidMoviePlayer
+LogPluginManager: Mounting Engine plugin AppleImageUtils
+LogPluginManager: Mounting Engine plugin AppleMoviePlayer
+LogPluginManager: Mounting Engine plugin ArchVisCharacter
+LogPluginManager: Mounting Engine plugin AudioCapture
+LogPluginManager: Mounting Engine plugin AssetTags
+LogPluginManager: Mounting Engine plugin AudioSynesthesia
+LogPluginManager: Mounting Engine plugin AudioWidgets
+LogPluginManager: Mounting Engine plugin ChunkDownloader
+LogPluginManager: Mounting Engine plugin CableComponent
+LogPluginManager: Mounting Engine plugin ComputeFramework
+LogPluginManager: Mounting Engine plugin CustomMeshComponent
+LogPluginManager: Mounting Engine plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin GeometryCache
+LogPluginManager: Mounting Engine plugin GeometryProcessing
+LogPluginManager: Mounting Engine plugin GeometryScripting
+LogPluginManager: Mounting Engine plugin GoogleCloudMessaging
+LogPluginManager: Mounting Engine plugin GooglePAD
+LogPluginManager: Mounting Engine plugin HairStrands
+LogPluginManager: Mounting Engine plugin InputDebugging
+LogPluginManager: Mounting Engine plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin LocationServicesBPLibrary
+LogPluginManager: Mounting Engine plugin MeshModelingToolset
+LogPluginManager: Mounting Engine plugin Metasound
+LogPluginManager: Mounting Engine plugin MobilePatchingUtils
+LogPluginManager: Mounting Engine plugin ModelViewViewModel
+LogPluginManager: Mounting Engine plugin MsQuic
+LogPluginManager: Mounting Engine plugin ProceduralMeshComponent
+LogPluginManager: Mounting Engine plugin PropertyAccessEditor
+LogPluginManager: Mounting Engine plugin PropertyBindingUtils
+LogPluginManager: Mounting Engine plugin ResonanceAudio
+LogPluginManager: Mounting Engine plugin RigVM
+LogPluginManager: Mounting Engine plugin SignificanceManager
+LogPluginManager: Mounting Engine plugin SkeletalMerging
+LogPluginManager: Mounting Engine plugin SoundFields
+LogPluginManager: Mounting Engine plugin StateTree
+LogPluginManager: Mounting Engine plugin Synthesis
+LogPluginManager: Mounting Engine plugin WaveTable
+LogPluginManager: Mounting Engine plugin WebMMoviePlayer
+LogPluginManager: Mounting Engine plugin WindowsMoviePlayer
+LogPluginManager: Mounting Engine plugin WindowsDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin Paper2D
+LogPluginManager: Mounting Engine plugin AISupport
+LogPluginManager: Mounting Engine plugin EnvironmentQueryEditor
+LogPluginManager: Mounting Engine plugin AnimationData
+LogPluginManager: Mounting Engine plugin ACLPlugin
+LogPluginManager: Mounting Engine plugin AnimationModifierLibrary
+LogPluginManager: Mounting Engine plugin AnimatorKit
+LogPluginManager: Mounting Engine plugin BlendSpaceMotionAnalysis
+LogPluginManager: Mounting Engine plugin ControlRig
+LogPluginManager: Mounting Engine plugin ControlRigModules
+LogPluginManager: Mounting Engine plugin ControlRigSpline
+LogPluginManager: Mounting Engine plugin DeformerGraph
+LogPluginManager: Mounting Engine plugin EaseCurveTool
+LogPluginManager: Mounting Engine plugin GameplayInsights
+LogPluginManager: Mounting Engine plugin IKRig
+LogPluginManager: Mounting Engine plugin PhysicsControl
+LogPluginManager: Mounting Engine plugin RigLogic
+LogPluginManager: Mounting Engine plugin SkeletalMeshModelingTools
+LogPluginManager: Mounting Engine plugin TweeningUtils
+LogPluginManager: Mounting Engine plugin EngineCameras
+LogPluginManager: Mounting Engine plugin CameraShakePreviewer
+LogPluginManager: Mounting Engine plugin GameplayCameras
+LogPluginManager: Mounting Engine plugin CompositeCore
+LogPluginManager: Mounting Engine plugin AnimationSharing
+LogPluginManager: Mounting Engine plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting Engine plugin CLionSourceCodeAccess
+LogPluginManager: Mounting Engine plugin DumpGPUServices
+LogPluginManager: Mounting Engine plugin GitSourceControl
+LogPluginManager: Mounting Engine plugin GPUReshape
+LogPluginManager: Mounting Engine plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting Engine plugin NullSourceCodeAccess
+LogPluginManager: Mounting Engine plugin N10XSourceCodeAccess
+LogPluginManager: Mounting Engine plugin NamingTokens
+LogPluginManager: Mounting Engine plugin PerforceSourceControl
+LogPluginManager: Mounting Engine plugin PixWinPlugin
+LogPluginManager: Mounting Engine plugin PluginUtils
+LogPluginManager: Mounting Engine plugin PlasticSourceControl
+LogPluginManager: Mounting Engine plugin ProjectLauncher
+LogPluginManager: Mounting Engine plugin PropertyAccessNode
+LogPluginManager: Mounting Engine plugin RiderSourceCodeAccess
+LogPluginManager: Mounting Engine plugin RenderDocPlugin
+LogPluginManager: Mounting Engine plugin SubversionSourceControl
+LogPluginManager: Mounting Engine plugin UObjectPlugin
+LogPluginManager: Mounting Engine plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting Engine plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting Engine plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting Engine plugin DatasmithContent
+LogPluginManager: Mounting Engine plugin GLTFExporter
+LogPluginManager: Mounting Engine plugin VariantManager
+LogPluginManager: Mounting Engine plugin VariantManagerContent
+LogPluginManager: Mounting Engine plugin Cascade
+LogPluginManager: Mounting Engine plugin Niagara
+LogPluginManager: Mounting Engine plugin NiagaraInsights
+LogPluginManager: Mounting Engine plugin NiagaraPreviewContent
+LogPluginManager: Mounting Engine plugin NiagaraSimCaching
+LogPluginManager: Mounting Engine plugin AlembicImporter
+LogPluginManager: Mounting Engine plugin MetaHumanSDK
+LogPluginManager: Mounting Engine plugin NNERuntimeORT
+LogPluginManager: Mounting Engine plugin NNEDenoiser
+LogPluginManager: Mounting Engine plugin AutomatedPerfTestTools
+LogPluginManager: Mounting Engine plugin InterchangeAxfAssets
+LogPluginManager: Mounting Engine plugin PortableObjectFileDataSource
+LogPluginManager: Mounting Engine plugin SteamShared
+LogPluginManager: Mounting Engine plugin XInputDevice
+LogPluginManager: Mounting Engine plugin FileSandbox
+LogPluginManager: Mounting Engine plugin BaseCharacterFXEditor
+LogPluginManager: Mounting Engine plugin ContentBrowserAssetDataSource
+LogPluginManager: Mounting Engine plugin ContentBrowserClassDataSource
+LogPluginManager: Mounting Engine plugin ContentBrowserFileDataSource
+LogPluginManager: Mounting Engine plugin Scribble
+LogPluginManager: Mounting Engine plugin LightMixer
+LogPluginManager: Mounting Engine plugin ObjectMixer
+LogPluginManager: Mounting Engine plugin ConcertMain
+LogPluginManager: Mounting Engine plugin SQLiteCore
+LogPluginManager: Mounting Engine plugin ConcertSyncClient
+LogPluginManager: Mounting Engine plugin ConcertSyncCore
+LogPluginManager: Mounting Engine plugin ConcertSharedSlate
+LogModuleManager: InternalLoadLibrary: 'DerivedDataBuildController' ('G:/Program Files/Epic Games/UE_5.8/Engine/Plugins/DerivedDataBuildController/Binaries/Win64/UnrealEditor-DerivedDataBuildController.dll')
+LogModuleManager: InternalLoadLibrary: 'UbaController' ('G:/Program Files/Epic Games/UE_5.8/Engine/Plugins/UbaController/Binaries/Win64/UnrealEditor-UbaController.dll')
+LogModuleManager: InternalLoadLibrary: 'XGEController' ('G:/Program Files/Epic Games/UE_5.8/Engine/Plugins/XGEController/Binaries/Win64/UnrealEditor-XGEController.dll')
+LogModuleManager: InternalLoadLibrary: 'PlatformCrypto' ('G:/Program Files/Epic Games/UE_5.8/Engine/Plugins/Experimental/PlatformCrypto/Binaries/Win64/UnrealEditor-PlatformCrypto.dll')
+LogModuleManager: InternalLoadLibrary: 'PlatformCryptoTypes' ('G:/Program Files/Epic Games/UE_5.8/Engine/Plugins/Experimental/PlatformCrypto/Binaries/Win64/UnrealEditor-PlatformCryptoTypes.dll')
+LogModuleManager: InternalLoadLibrary: 'PlatformCryptoContext' ('G:/Program Files/Epic Games/UE_5.8/Engine/Plugins/Experimental/PlatformCrypto/Binaries/Win64/UnrealEditor-PlatformCryptoContext.dll')
+LogModuleManager: InternalLoadLibrary: 'PythonScriptPluginPreload' ('G:/Program Files/Epic Games/UE_5.8/Engine/Plugins/Experimental/PythonScriptPlugin/Binaries/Win64/UnrealEditor-PythonScriptPluginPreload.dll')
+LogModuleManager: InternalLoadLibrary: 'PerforceSourceControl' ('G:/Program Files/Epic Games/UE_5.8/Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UnrealEditor-PerforceSourceControl.dll')
+LogModuleManager: InternalLoadLibrary: 'SourceControl' ('G:/Program Files/Epic Games/UE_5.8/Engine/Binaries/Win64/UnrealEditor-SourceControl.dll')
+SourceControl: Revision control is disabled
+SourceControl: Revision control is disabled
+LogModuleManager: InternalLoadLibrary: 'PlasticSourceControl' ('G:/Program Files/Epic Games/UE_5.8/Engine/Plugins/Developer/PlasticSourceControl/Binaries/Win64/UnrealEditor-PlasticSourceControl.dll')
+SourceControl: Revision control is disabled
+LogInit: Running DelayedAutoRegister Phase EarliestPossiblePluginsLoaded
+LogHAL: Log category LogOnline verbosity has been raised to VeryVerbose.
+Log file: G:\DEV\mask-project-mayhem\VehicularCombat\Saved\Logs\AutoSDKInfo.txt
+LogOnline: Verbose: OSS: Created thread (ID:21500).
+LogOnline: OSS: Created online subsystem instance for: Null
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [Null]
+[2026.11.08-08.34.35:230][  0]LogMemory: Platform Memory Stats for WindowsEditor
+[2026.11.08-08.34.35:230][  0]LogMemory: Process Physical Memory: 565.77 MB used, 565.77 MB peak
+[2026.11.08-08.34.35:230][  0]LogMemory: Process Virtual Memory: 527.29 MB used, 527.29 MB peak
+[2026.11.08-08.34.35:230][  0]LogMemory: Physical Memory: 11431.77 MB used,  21271.70 MB free, 32703.47 MB total
+[2026.11.08-08.34.35:230][  0]LogMemory: Virtual Memory: 12449.27 MB used,  28446.20 MB free, 40895.47 MB total
+##PlatformValidate: Win64 VALID 10.0.22621.0
+##PlatformValidate: Mac INVALID 26.1.1
+##PlatformValidate: IOS INVALID 26.1.1
+##PlatformValidate: Android INVALID r27c
+##PlatformValidate: Linux INVALID v26_clang-20.1.8-rockylinux8
+##PlatformValidate: LinuxArm64 INVALID <UNKNOWN>
+##PlatformValidate: TVOS INVALID 26.1.1
+##PlatformValidate: VisionOS INVALID <UNKNOWN>
+Unable to find required SDK version 'MainVersion' for platform LinuxArm64. Check your SDK.json files
+Unable to find required SDK version 'MainVersion' for platform VisionOS. Check your SDK.json files
+Trace written to file C:\Users\steph\AppData\Local\UnrealBuildTool\Trace.uba with size 314b
+[2026.11.08-08.34.43:091][  0]SourceControl: Le contrôle de révision est désactivé.
+[2026.11.08-08.34.43:112][  0]SourceControl: Le contrôle de révision est désactivé.
+[2026.11.08-08.34.45:901][  0]LogAutomationTest: Skipping unit tests for the cooked build and commandlet.
+[2026.11.08-08.34.46:004][  0]LogCompileAllBlueprintsCommandlet: Display: Loading Kismit Blueprint Compiler...
+[2026.11.08-08.34.46:004][  0]LogCompileAllBlueprintsCommandlet: Display: Finished Loading Kismit Blueprint Compiler...
+[2026.11.08-08.34.46:004][  0]LogCompileAllBlueprintsCommandlet: Display: Loading Asset Registry...
+[2026.11.08-08.34.47:135][  0]LogCompileAllBlueprintsCommandlet: Display: Finished Loading Asset Registry.
+[2026.11.08-08.34.47:135][  0]LogCompileAllBlueprintsCommandlet: Display: Gathering All Blueprints From Asset Registry...
+[2026.11.08-08.34.47:135][  0]LogCompileAllBlueprintsCommandlet: Display: Loading and Compiling: '/Game/MASK/Thunderhawk/BP_Thunderhawk.BP_Thunderhawk'...
+[2026.11.08-08.34.48:750][  0]LogBlueprint: Compiling Blueprint '/Game/MASK/Thunderhawk/BP_Thunderhawk.BP_Thunderhawk'
+[2026.11.08-08.34.48:952][  0]LogCompileAllBlueprintsCommandlet: Display: [0015,32] La compilation de BP_Thunderhawk a réussi ! [en 202 ms] (/Game/MASK/Thunderhawk/BP_Thunderhawk.BP_Thunderhawk)
+[2026.11.08-08.34.48:952][  0]LogCompileAllBlueprintsCommandlet: Display: Loading and Compiling: '/Game/MASK/Rhino/BP_Rhino.BP_Rhino'...
+[2026.11.08-08.34.50:564][  0]LogBlueprint: Compiling Blueprint '/Game/MASK/Rhino/BP_Rhino.BP_Rhino'
+[2026.11.08-08.34.50:614][  0]LogCompileAllBlueprintsCommandlet: Display: [0016,99] La compilation de BP_Rhino a réussi ! [en 50 ms] (/Game/MASK/Rhino/BP_Rhino.BP_Rhino)
+[2026.11.08-08.34.50:614][  0]LogCompileAllBlueprintsCommandlet: Display: Loading and Compiling: '/Game/MASK/Rhino/BP_RhinoRear.BP_RhinoRear'...
+[2026.11.08-08.34.50:695][  0]LogBlueprint: Compiling Blueprint '/Game/MASK/Rhino/BP_RhinoRear.BP_RhinoRear'
+[2026.11.08-08.34.50:747][  0]LogCompileAllBlueprintsCommandlet: Display: [0017,12] La compilation de BP_RhinoRear a réussi ! [en 51 ms] (/Game/MASK/Rhino/BP_RhinoRear.BP_RhinoRear)
+[2026.11.08-08.34.50:747][  0]LogCompileAllBlueprintsCommandlet: Display: Loading and Compiling: '/Game/MASK/Hurricane/BP_Hurricane.BP_Hurricane'...
+[2026.11.08-08.34.51:422][  0]LogBlueprint: Compiling Blueprint '/Game/MASK/Hurricane/BP_Hurricane.BP_Hurricane'
+[2026.11.08-08.34.51:471][  0]LogCompileAllBlueprintsCommandlet: Display: [0017,84] La compilation de BP_Hurricane a réussi ! [en 48 ms] (/Game/MASK/Hurricane/BP_Hurricane.BP_Hurricane)
+[2026.11.08-08.34.51:471][  0]LogCompileAllBlueprintsCommandlet: Display: Loading and Compiling: '/Game/UI/BP_PlayerHUD.BP_PlayerHUD'...
+[2026.11.08-08.34.51:603][  0]LogBlueprint: Compiling Blueprint '/Game/UI/BP_PlayerHUD.BP_PlayerHUD'
+[2026.11.08-08.34.51:641][  0]LogCompileAllBlueprintsCommandlet: Display: [0018,01] La compilation de BP_PlayerHUD a réussi ! [en 37 ms] (/Game/UI/BP_PlayerHUD.BP_PlayerHUD)
+[2026.11.08-08.34.51:641][  0]LogCompileAllBlueprintsCommandlet: Display: Loading and Compiling: '/Game/UI/BP_HUD_MainMenu.BP_HUD_MainMenu'...
+[2026.11.08-08.34.51:747][  0]LogBlueprint: Compiling Blueprint '/Game/UI/BP_HUD_MainMenu.BP_HUD_MainMenu'
+[2026.11.08-08.34.51:754][  0]LogCompileAllBlueprintsCommandlet: Display: [0018,13] La compilation de BP_HUD_MainMenu a réussi ! [en 7 ms] (/Game/UI/BP_HUD_MainMenu.BP_HUD_MainMenu)
+[2026.11.08-08.34.51:754][  0]LogCompileAllBlueprintsCommandlet: Display: Loading and Compiling: '/Game/Core/BP_GameMode_MainMenu.BP_GameMode_MainMenu'...
+[2026.11.08-08.34.51:760][  0]LogBlueprint: Compiling Blueprint '/Game/Core/BP_GameMode_MainMenu.BP_GameMode_MainMenu'
+[2026.11.08-08.34.51:763][  0]LogCompileAllBlueprintsCommandlet: Display: [0018,14] La compilation de BP_GameMode_MainMenu a réussi ! [en 3 ms] (/Game/Core/BP_GameMode_MainMenu.BP_GameMode_MainMenu)
+[2026.11.08-08.34.51:763][  0]LogCompileAllBlueprintsCommandlet: Display: Loading and Compiling: '/Game/Core/BP_CustomPlayerController.BP_CustomPlayerController'...
+[2026.11.08-08.34.51:892][  0]LogBlueprint: Compiling Blueprint '/Game/Core/BP_CustomPlayerController.BP_CustomPlayerController'
+[2026.11.08-08.34.51:951][  0]LogCompileAllBlueprintsCommandlet: Display: [0018,32] La compilation de BP_CustomPlayerController a réussi ! [en 59 ms] (/Game/Core/BP_CustomPlayerController.BP_CustomPlayerController)
+[2026.11.08-08.34.51:951][  0]LogCompileAllBlueprintsCommandlet: Display: Loading and Compiling: '/Game/Core/BP_CustomGameMode.BP_CustomGameMode'...
+[2026.11.08-08.34.51:985][  0]LogBlueprint: Compiling Blueprint '/Game/Core/BP_CustomGameMode.BP_CustomGameMode'
+[2026.11.08-08.34.51:992][  0]LogCompileAllBlueprintsCommandlet: Display: [0018,36] La compilation de BP_CustomGameMode a réussi ! [en 5 ms] (/Game/Core/BP_CustomGameMode.BP_CustomGameMode)
+[2026.11.08-08.34.51:992][  0]LogCompileAllBlueprintsCommandlet: Display: Loading and Compiling: '/Game/Blueprints/Pawns/BP_PlayerVehicle.BP_PlayerVehicle'...
+[2026.11.08-08.34.51:992][  0]LogBlueprint: Compiling Blueprint '/Game/Blueprints/Pawns/BP_PlayerVehicle.BP_PlayerVehicle'
+[2026.11.08-08.34.52:015][  0]LogCompileAllBlueprintsCommandlet: Display: [0018,39] La compilation de BP_PlayerVehicle a réussi ! [en 23 ms] (/Game/Blueprints/Pawns/BP_PlayerVehicle.BP_PlayerVehicle)
+[2026.11.08-08.34.52:015][  0]LogCompileAllBlueprintsCommandlet: Display: Loading and Compiling: '/Game/Blueprints/Pawns/WheelFront.WheelFront'...
+[2026.11.08-08.34.52:015][  0]LogBlueprint: Compiling Blueprint '/Game/Blueprints/Pawns/WheelFront.WheelFront'
+[2026.11.08-08.34.52:016][  0]LogCompileAllBlueprintsCommandlet: Display: [0018,39] La compilation de WheelFront a réussi ! [en 1 ms] (/Game/Blueprints/Pawns/WheelFront.WheelFront)
+[2026.11.08-08.34.52:017][  0]LogCompileAllBlueprintsCommandlet: Display: Loading and Compiling: '/Game/Blueprints/Pawns/WheelRear.WheelRear'...
+[2026.11.08-08.34.52:017][  0]LogBlueprint: Compiling Blueprint '/Game/Blueprints/Pawns/WheelRear.WheelRear'
+[2026.11.08-08.34.52:018][  0]LogCompileAllBlueprintsCommandlet: Display: [0018,39] La compilation de WheelRear a réussi ! [en 1 ms] (/Game/Blueprints/Pawns/WheelRear.WheelRear)
+[2026.11.08-08.34.52:019][  0]LogCompileAllBlueprintsCommandlet: Display: Loading and Compiling: '/Game/Blueprints/Pickups/BP_Pickup_Ammo_AssaultRifle.BP_Pickup_Ammo_AssaultRifle'...
+[2026.11.08-08.34.52:036][  0]LogBlueprint: Compiling Blueprint '/Game/Blueprints/Pickups/BP_Pickup_Ammo_AssaultRifle.BP_Pickup_Ammo_AssaultRifle'
+[2026.11.08-08.34.52:045][  0]LogCompileAllBlueprintsCommandlet: Display: [0018,42] La compilation de BP_Pickup_Ammo_AssaultRifle a réussi ! [en 9 ms] (/Game/Blueprints/Pickups/BP_Pickup_Ammo_AssaultRifle.BP_Pickup_Ammo_AssaultRifle)
+[2026.11.08-08.34.52:045][  0]LogCompileAllBlueprintsCommandlet: Display: Loading and Compiling: '/Game/Blueprints/Pickups/BP_Pickup_Ammo_Rocket.BP_Pickup_Ammo_Rocket'...
+[2026.11.08-08.34.52:052][  0]LogBlueprint: Compiling Blueprint '/Game/Blueprints/Pickups/BP_Pickup_Ammo_Rocket.BP_Pickup_Ammo_Rocket'
+[2026.11.08-08.34.52:061][  0]LogCompileAllBlueprintsCommandlet: Display: [0018,43] La compilation de BP_Pickup_Ammo_Rocket a réussi ! [en 7 ms] (/Game/Blueprints/Pickups/BP_Pickup_Ammo_Rocket.BP_Pickup_Ammo_Rocket)
+[2026.11.08-08.34.52:061][  0]LogCompileAllBlueprintsCommandlet: Display: Loading and Compiling: '/Game/Blueprints/Pickups/BP_Pickup_Health.BP_Pickup_Health'...
+[2026.11.08-08.34.52:067][  0]LogBlueprint: Compiling Blueprint '/Game/Blueprints/Pickups/BP_Pickup_Health.BP_Pickup_Health'
+[2026.11.08-08.34.52:074][  0]LogCompileAllBlueprintsCommandlet: Display: [0018,45] La compilation de BP_Pickup_Health a réussi ! [en 7 ms] (/Game/Blueprints/Pickups/BP_Pickup_Health.BP_Pickup_Health)
+[2026.11.08-08.34.52:075][  0]LogCompileAllBlueprintsCommandlet: Display: Loading and Compiling: '/Game/Blueprints/Pickups/BP_Pickup_SpeedBoost.BP_Pickup_SpeedBoost'...
+[2026.11.08-08.34.52:079][  0]LogBlueprint: Compiling Blueprint '/Game/Blueprints/Pickups/BP_Pickup_SpeedBoost.BP_Pickup_SpeedBoost'
+[2026.11.08-08.34.52:089][  0]LogCompileAllBlueprintsCommandlet: Display: [0018,46] La compilation de BP_Pickup_SpeedBoost a réussi ! [en 10 ms] (/Game/Blueprints/Pickups/BP_Pickup_SpeedBoost.BP_Pickup_SpeedBoost)
+[2026.11.08-08.34.52:089][  0]LogCompileAllBlueprintsCommandlet: Display: Loading and Compiling: '/Game/Blueprints/Pickups/BP_SpawnManager.BP_SpawnManager'...
+[2026.11.08-08.34.52:106][  0]LogBlueprint: Compiling Blueprint '/Game/Blueprints/Pickups/BP_SpawnManager.BP_SpawnManager'
+[2026.11.08-08.34.52:117][  0]LogCompileAllBlueprintsCommandlet: Display: [0018,49] La compilation de BP_SpawnManager a réussi ! [en 12 ms] (/Game/Blueprints/Pickups/BP_SpawnManager.BP_SpawnManager)
+[2026.11.08-08.34.52:118][  0]LogCompileAllBlueprintsCommandlet: Display: Loading and Compiling: '/Game/Blueprints/Projectiles/BP_Projectile_AssaultRifle.BP_Projectile_AssaultRifle'...
+[2026.11.08-08.34.52:118][  0]LogBlueprint: Compiling Blueprint '/Game/Blueprints/Projectiles/BP_Projectile_AssaultRifle.BP_Projectile_AssaultRifle'
+[2026.11.08-08.34.52:126][  0]LogCompileAllBlueprintsCommandlet: Display: [0018,50] La compilation de BP_Projectile_AssaultRifle a réussi ! [en 8 ms] (/Game/Blueprints/Projectiles/BP_Projectile_AssaultRifle.BP_Projectile_AssaultRifle)
+[2026.11.08-08.34.52:126][  0]LogCompileAllBlueprintsCommandlet: Display: Loading and Compiling: '/Game/Blueprints/Projectiles/BP_Projectile_Rocket.BP_Projectile_Rocket'...
+[2026.11.08-08.34.52:126][  0]LogBlueprint: Compiling Blueprint '/Game/Blueprints/Projectiles/BP_Projectile_Rocket.BP_Projectile_Rocket'
+[2026.11.08-08.34.52:141][  0]LogCompileAllBlueprintsCommandlet: Display: [0018,51] La compilation de BP_Projectile_Rocket a réussi ! [en 14 ms] (/Game/Blueprints/Projectiles/BP_Projectile_Rocket.BP_Projectile_Rocket)
+[2026.11.08-08.34.52:141][  0]LogCompileAllBlueprintsCommandlet: Display: Loading and Compiling: '/Game/Blueprints/Projectiles/DamageTypeBP_Bullet.DamageTypeBP_Bullet'...
+[2026.11.08-08.34.52:141][  0]LogBlueprint: Compiling Blueprint '/Game/Blueprints/Projectiles/DamageTypeBP_Bullet.DamageTypeBP_Bullet'
+[2026.11.08-08.34.52:144][  0]LogCompileAllBlueprintsCommandlet: Display: [0018,52] La compilation de DamageTypeBP_Bullet a réussi ! [en 2 ms] (/Game/Blueprints/Projectiles/DamageTypeBP_Bullet.DamageTypeBP_Bullet)
+[2026.11.08-08.34.52:144][  0]LogCompileAllBlueprintsCommandlet: Display: Loading and Compiling: '/Game/Blueprints/Projectiles/DamageTypeBP_Explosion.DamageTypeBP_Explosion'...
+[2026.11.08-08.34.52:144][  0]LogBlueprint: Compiling Blueprint '/Game/Blueprints/Projectiles/DamageTypeBP_Explosion.DamageTypeBP_Explosion'
+[2026.11.08-08.34.52:145][  0]LogCompileAllBlueprintsCommandlet: Display: [0018,52] La compilation de DamageTypeBP_Explosion a réussi ! [en 1 ms] (/Game/Blueprints/Projectiles/DamageTypeBP_Explosion.DamageTypeBP_Explosion)
+[2026.11.08-08.34.52:145][  0]LogCompileAllBlueprintsCommandlet: Display: Loading and Compiling: '/Game/Blueprints/Pickups/Weapons/BP_Weapon_AssaultRifle.BP_Weapon_AssaultRifle'...
+[2026.11.08-08.34.52:146][  0]LogBlueprint: Compiling Blueprint '/Game/Blueprints/Pickups/Weapons/BP_Weapon_AssaultRifle.BP_Weapon_AssaultRifle'
+[2026.11.08-08.34.52:154][  0]LogCompileAllBlueprintsCommandlet: Display: [0018,53] La compilation de BP_Weapon_AssaultRifle a réussi ! [en 8 ms] (/Game/Blueprints/Pickups/Weapons/BP_Weapon_AssaultRifle.BP_Weapon_AssaultRifle)
+[2026.11.08-08.34.52:154][  0]LogCompileAllBlueprintsCommandlet: Display: Loading and Compiling: '/Game/Blueprints/Pickups/Weapons/BP_Weapon_Launcher.BP_Weapon_Launcher'...
+[2026.11.08-08.34.52:154][  0]LogBlueprint: Compiling Blueprint '/Game/Blueprints/Pickups/Weapons/BP_Weapon_Launcher.BP_Weapon_Launcher'
+[2026.11.08-08.34.52:166][  0]LogCompileAllBlueprintsCommandlet: Display: [0018,54] La compilation de BP_Weapon_Launcher a réussi ! [en 11 ms] (/Game/Blueprints/Pickups/Weapons/BP_Weapon_Launcher.BP_Weapon_Launcher)
+[2026.11.08-08.34.52:166][  0]LogCompileAllBlueprintsCommandlet: Display: Loading and Compiling: '/Game/UI/WBP_ServerSlot.WBP_ServerSlot'...
+[2026.11.08-08.34.52:166][  0]LogBlueprint: Compiling Blueprint '/Game/UI/WBP_ServerSlot.WBP_ServerSlot'
+[2026.11.08-08.34.52:183][  0]LogCompileAllBlueprintsCommandlet: Display: [0018,55] La compilation de WBP_ServerSlot a réussi ! [en 16 ms] (/Game/UI/WBP_ServerSlot.WBP_ServerSlot)
+[2026.11.08-08.34.52:183][  0]LogCompileAllBlueprintsCommandlet: Display: Loading and Compiling: '/Game/UI/WBP_PlayerUI.WBP_PlayerUI'...
+[2026.11.08-08.34.52:183][  0]LogBlueprint: Compiling Blueprint '/Game/UI/WBP_PlayerUI.WBP_PlayerUI'
+[2026.11.08-08.34.52:208][  0]LogCompileAllBlueprintsCommandlet: Display: [0018,58] La compilation de WBP_PlayerUI a réussi ! [en 24 ms] (/Game/UI/WBP_PlayerUI.WBP_PlayerUI)
+[2026.11.08-08.34.52:208][  0]LogCompileAllBlueprintsCommandlet: Display: Loading and Compiling: '/Game/UI/WBP_MainMenu.WBP_MainMenu'...
+[2026.11.08-08.34.52:208][  0]LogBlueprint: Compiling Blueprint '/Game/UI/WBP_MainMenu.WBP_MainMenu'
+[2026.11.08-08.34.52:223][  0]LogCompileAllBlueprintsCommandlet: Display: [0018,59] La compilation de WBP_MainMenu a réussi ! [en 15 ms] (/Game/UI/WBP_MainMenu.WBP_MainMenu)
+[2026.11.08-08.34.52:223][  0]LogCompileAllBlueprintsCommandlet: Display: Loading and Compiling: '/Game/UI/WBP_JoinSession.WBP_JoinSession'...
+[2026.11.08-08.34.52:223][  0]LogBlueprint: Compiling Blueprint '/Game/UI/WBP_JoinSession.WBP_JoinSession'
+[2026.11.08-08.34.52:313][  0]LogCompileAllBlueprintsCommandlet: Display: [0018,68] La compilation de WBP_JoinSession a réussi ! [en 89 ms] (/Game/UI/WBP_JoinSession.WBP_JoinSession)
+[2026.11.08-08.34.52:314][  0]LogCompileAllBlueprintsCommandlet: Display: Loading and Compiling: '/Game/UI/WBP_HostSession.WBP_HostSession'...
+[2026.11.08-08.34.52:314][  0]LogBlueprint: Compiling Blueprint '/Game/UI/WBP_HostSession.WBP_HostSession'
+[2026.11.08-08.34.52:417][  0]LogCompileAllBlueprintsCommandlet: Display: [0018,79] La compilation de WBP_HostSession a réussi ! [en 103 ms] (/Game/UI/WBP_HostSession.WBP_HostSession)
+[2026.11.08-08.34.52:417][  0]LogCompileAllBlueprintsCommandlet: Display: Loading and Compiling: '/Game/UI/WBP_Guide.WBP_Guide'...
+[2026.11.08-08.34.52:444][  0]LogBlueprint: Compiling Blueprint '/Game/UI/WBP_Guide.WBP_Guide'
+[2026.11.08-08.34.52:458][  0]LogCompileAllBlueprintsCommandlet: Display: [0018,83] La compilation de WBP_Guide a réussi ! [en 12 ms] (/Game/UI/WBP_Guide.WBP_Guide)
+[2026.11.08-08.34.52:458][  0]LogCompileAllBlueprintsCommandlet: Display: Loading and Compiling: '/Game/UI/WBP_CarOutside.WBP_CarOutside'...
+[2026.11.08-08.34.52:458][  0]LogBlueprint: Compiling Blueprint '/Game/UI/WBP_CarOutside.WBP_CarOutside'
+[2026.11.08-08.34.52:470][  0]LogCompileAllBlueprintsCommandlet: Display: [0018,84] La compilation de WBP_CarOutside a réussi ! [en 12 ms] (/Game/UI/WBP_CarOutside.WBP_CarOutside)
+[2026.11.08-08.34.52:470][  0]LogCompileAllBlueprintsCommandlet: Display: Loading and Compiling: '/Game/UI/WBP_CarInside.WBP_CarInside'...
+[2026.11.08-08.34.52:470][  0]LogBlueprint: Compiling Blueprint '/Game/UI/WBP_CarInside.WBP_CarInside'
+[2026.11.08-08.34.52:483][  0]LogCompileAllBlueprintsCommandlet: Display: [0018,85] La compilation de WBP_CarInside a réussi ! [en 13 ms] (/Game/UI/WBP_CarInside.WBP_CarInside)
+[2026.11.08-08.34.52:483][  0]LogCompileAllBlueprintsCommandlet: Display: Loading and Compiling: '/Game/Animations/ABP_Vehicle.ABP_Vehicle'...
+[2026.11.08-08.34.52:483][  0]LogBlueprint: Compiling Blueprint '/Game/Animations/ABP_Vehicle.ABP_Vehicle'
+[2026.11.08-08.34.52:533][  0]LogCompileAllBlueprintsCommandlet: Display: [0018,91] La compilation de ABP_Vehicle a réussi ! [en 49 ms] (/Game/Animations/ABP_Vehicle.ABP_Vehicle)
+[2026.11.08-08.34.52:534][  0]LogCompileAllBlueprintsCommandlet: Display:
+
+
+===================================================================================
+Compiling Completed with 0 errors and 0 warnings and 0 blueprints that failed to load.
+===================================================================================
+
+
+
+[2026.11.08-08.34.52:606][  0]MassEntity: Nouvelle page : MassEntity
+[2026.11.08-08.34.53:377][  0]LogOnline: VeryVerbose: OSS: FOnlineSubsystemNull::Shutdown()
+[2026.11.08-08.34.53:377][  0]LogOnline: VeryVerbose: OSS: FOnlineAsyncTaskManager::Stop() ActiveSerialTask:0000000000000000 Tasks[0/0]
+[2026.11.08-08.34.53:377][  0]LogOnline: VeryVerbose: OSS: FOnlineAsyncTaskManager::Exit() started
+[2026.11.08-08.34.53:377][  0]LogOnline: VeryVerbose: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2026.11.08-08.34.53:380][  0]LogOnline: Verbose: OSS: Unloading online subsystem: NULL
+[2026.11.08-08.34.53:380][  0]LogOnline: Verbose: OSS: Unloading online subsystem: STEAM

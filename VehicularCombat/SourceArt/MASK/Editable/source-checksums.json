@@ -1,0 +1,27 @@
+﻿[
+    {
+        "file":  "Thunderhawk_V14_Vehicle.blend",
+        "sha256":  "87EF881C850AE12FA955DEE75C71C4EF726CC20D736CD7A5B35F2D890AC83BD9",
+        "bytes":  785902
+    },
+    {
+        "file":  "MattTrakker_V5.blend",
+        "sha256":  "1C8BFA16D2B7EC9623F71C7B884B0A088A1D747506D93801B3DD3EDACE30EC09",
+        "bytes":  13926342
+    },
+    {
+        "file":  "Spectrum_V4.blend",
+        "sha256":  "D8E5D08AD56F5E3C34708E81489927825D0A40FB34164C69FF5D6724878F9807",
+        "bytes":  692024
+    },
+    {
+        "file":  "Thunderhawk_GameReady.blend",
+        "sha256":  "6C33213401E894009BA5CDAE26EAFA0915AF6F5D9E812EAA011E4F5E65617003",
+        "bytes":  29757524
+    },
+    {
+        "file":  "anatomy_provenance_v4.json",
+        "sha256":  "ACFADDC4D430420BC9763CC814A47DE9431391A1843D099BEAE612D28C3BA0AF",
+        "bytes":  379
+    }
+]

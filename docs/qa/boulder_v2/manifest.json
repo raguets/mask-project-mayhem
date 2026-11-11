@@ -1,0 +1,302 @@
+{
+  "status": "complete",
+  "elapsed_seconds": 203.6,
+  "scene_file": "G:\\DEV\\mask-project-mayhem\\art_source\\Boulder_Hill\\BoulderHill_V2_Assembly.blend",
+  "job": {
+    "rig": "BoulderHill_Control",
+    "rig_properties": [
+      "battle_mode",
+      "gate_open",
+      "thunderhawk_exit",
+      "rhino_exit"
+    ],
+    "output_dir": "G:\\DEV\\mask-project-mayhem\\docs\\qa\\boulder_v2",
+    "samples": 20,
+    "width": 1300,
+    "height": 900,
+    "device": "GPU",
+    "views": [
+      {
+        "name": "01_station",
+        "frame": 1,
+        "properties": {},
+        "camera": [
+          37,
+          -52,
+          23
+        ],
+        "target": [
+          1,
+          -1,
+          5.7
+        ],
+        "lens": 49
+      },
+      {
+        "name": "02_defense",
+        "frame": 211,
+        "properties": {},
+        "camera": [
+          37,
+          -52,
+          28
+        ],
+        "target": [
+          1,
+          0,
+          5.4
+        ],
+        "lens": 47
+      },
+      {
+        "name": "03_thunderhawk_exit",
+        "frame": 293,
+        "properties": {},
+        "camera": [
+          25,
+          -34,
+          10.5
+        ],
+        "target": [
+          5,
+          -7,
+          3
+        ],
+        "lens": 45
+      },
+      {
+        "name": "04_rhino_exit",
+        "frame": 490,
+        "properties": {},
+        "camera": [
+          27,
+          -34,
+          11
+        ],
+        "target": [
+          6,
+          -7,
+          3.5
+        ],
+        "lens": 45
+      },
+      {
+        "name": "05_hangar_cutaway",
+        "frame": 211,
+        "properties": {},
+        "camera": [
+          29,
+          -6,
+          49
+        ],
+        "target": [
+          0,
+          15,
+          0
+        ],
+        "lens": 40,
+        "hide_collections": [
+          "BH_Rock",
+          "BH_Turret"
+        ],
+        "hide_objects": [
+          "BH_HangarCeiling",
+          "BH_HangarRoofBeam_2",
+          "BH_HangarRoofBeam_9",
+          "BH_HangarRoofBeam_16",
+          "BH_HangarRoofBeam_23",
+          "BH_HangarRoofBeam_30",
+          "BH_HangarRoofBeam_37"
+        ]
+      },
+      {
+        "name": "06_facade_mechanisms",
+        "frame": 181,
+        "properties": {},
+        "camera": [
+          -22,
+          -37,
+          12
+        ],
+        "target": [
+          -5,
+          -10,
+          5
+        ],
+        "lens": 48
+      },
+      {
+        "name": "07_turret",
+        "frame": 181,
+        "properties": {},
+        "camera": [
+          15,
+          -5,
+          18
+        ],
+        "target": [
+          7,
+          5.5,
+          12.2
+        ],
+        "lens": 58
+      }
+    ]
+  },
+  "renders": [
+    {
+      "view": {
+        "name": "01_station",
+        "frame": 1,
+        "properties": {},
+        "camera": [
+          37,
+          -52,
+          23
+        ],
+        "target": [
+          1,
+          -1,
+          5.7
+        ],
+        "lens": 49
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\docs\\qa\\boulder_v2\\01_station.png",
+      "size_bytes": 1389962
+    },
+    {
+      "view": {
+        "name": "02_defense",
+        "frame": 211,
+        "properties": {},
+        "camera": [
+          37,
+          -52,
+          28
+        ],
+        "target": [
+          1,
+          0,
+          5.4
+        ],
+        "lens": 47
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\docs\\qa\\boulder_v2\\02_defense.png",
+      "size_bytes": 1398428
+    },
+    {
+      "view": {
+        "name": "03_thunderhawk_exit",
+        "frame": 293,
+        "properties": {},
+        "camera": [
+          25,
+          -34,
+          10.5
+        ],
+        "target": [
+          5,
+          -7,
+          3
+        ],
+        "lens": 45
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\docs\\qa\\boulder_v2\\03_thunderhawk_exit.png",
+      "size_bytes": 1387576
+    },
+    {
+      "view": {
+        "name": "04_rhino_exit",
+        "frame": 490,
+        "properties": {},
+        "camera": [
+          27,
+          -34,
+          11
+        ],
+        "target": [
+          6,
+          -7,
+          3.5
+        ],
+        "lens": 45
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\docs\\qa\\boulder_v2\\04_rhino_exit.png",
+      "size_bytes": 1415117
+    },
+    {
+      "view": {
+        "name": "05_hangar_cutaway",
+        "frame": 211,
+        "properties": {},
+        "camera": [
+          29,
+          -6,
+          49
+        ],
+        "target": [
+          0,
+          15,
+          0
+        ],
+        "lens": 40,
+        "hide_collections": [
+          "BH_Rock",
+          "BH_Turret"
+        ],
+        "hide_objects": [
+          "BH_HangarCeiling",
+          "BH_HangarRoofBeam_2",
+          "BH_HangarRoofBeam_9",
+          "BH_HangarRoofBeam_16",
+          "BH_HangarRoofBeam_23",
+          "BH_HangarRoofBeam_30",
+          "BH_HangarRoofBeam_37"
+        ]
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\docs\\qa\\boulder_v2\\05_hangar_cutaway.png",
+      "size_bytes": 1373850
+    },
+    {
+      "view": {
+        "name": "06_facade_mechanisms",
+        "frame": 181,
+        "properties": {},
+        "camera": [
+          -22,
+          -37,
+          12
+        ],
+        "target": [
+          -5,
+          -10,
+          5
+        ],
+        "lens": 48
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\docs\\qa\\boulder_v2\\06_facade_mechanisms.png",
+      "size_bytes": 1478387
+    },
+    {
+      "view": {
+        "name": "07_turret",
+        "frame": 181,
+        "properties": {},
+        "camera": [
+          15,
+          -5,
+          18
+        ],
+        "target": [
+          7,
+          5.5,
+          12.2
+        ],
+        "lens": 58
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\docs\\qa\\boulder_v2\\07_turret.png",
+      "size_bytes": 1350302
+    }
+  ],
+  "retained_previous_views": []
+}

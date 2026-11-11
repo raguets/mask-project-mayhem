@@ -1,0 +1,253 @@
+{
+  "frame_range": [
+    1,
+    193
+  ],
+  "pairs_per_frame": 19,
+  "overlap_rows": 0,
+  "endpoint_max_vertex_error_m": 0.0,
+  "road_world_bounds_m": {
+    "min": [
+      -2.4240000247955322,
+      -1.0214999914169312,
+      0.013000003062188625
+    ],
+    "max": [
+      2.375,
+      1.0214999914169312,
+      1.3079999685287476
+    ],
+    "dimensions": [
+      4.799000024795532,
+      2.0429999828338623,
+      1.294999965466559
+    ]
+  },
+  "pose_samples": [
+    {
+      "frame": 1,
+      "door_L_deg": 0.0,
+      "door_R_deg": 0.0,
+      "rear_panel_Z_m": 0.0,
+      "rear_panel_rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "spoiler_Z_m": 0.0,
+      "cannon_deploy_L_local_Z_m": -0.7539999485015869,
+      "cannon_deploy_R_local_Z_m": -0.7539999485015869
+    },
+    {
+      "frame": 25,
+      "door_L_deg": 0.0,
+      "door_R_deg": 0.0,
+      "rear_panel_Z_m": 0.0,
+      "rear_panel_rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "spoiler_Z_m": 0.0,
+      "cannon_deploy_L_local_Z_m": -0.7539999485015869,
+      "cannon_deploy_R_local_Z_m": -0.7539999485015869
+    },
+    {
+      "frame": 45,
+      "door_L_deg": 14.90055115555035,
+      "door_R_deg": -14.90055115555035,
+      "rear_panel_Z_m": 0.0,
+      "rear_panel_rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "spoiler_Z_m": 0.15925927460193634,
+      "cannon_deploy_L_local_Z_m": -0.7539999485015869,
+      "cannon_deploy_R_local_Z_m": -0.7539999485015869
+    },
+    {
+      "frame": 55,
+      "door_L_deg": 29.71643528614922,
+      "door_R_deg": -29.71643528614922,
+      "rear_panel_Z_m": 0.03671875596046448,
+      "rear_panel_rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "spoiler_Z_m": 0.2150000035762787,
+      "cannon_deploy_L_local_Z_m": -0.7539999485015869,
+      "cannon_deploy_R_local_Z_m": -0.7539999485015869
+    },
+    {
+      "frame": 85,
+      "door_L_deg": 73.1481499728725,
+      "door_R_deg": -73.1481499728725,
+      "rear_panel_Z_m": 0.23499999940395355,
+      "rear_panel_rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "spoiler_Z_m": 0.2150000035762787,
+      "cannon_deploy_L_local_Z_m": -0.8770468235015869,
+      "cannon_deploy_R_local_Z_m": -0.8770468235015869
+    },
+    {
+      "frame": 97,
+      "door_L_deg": 79.00000333674014,
+      "door_R_deg": -79.00000333674014,
+      "rear_panel_Z_m": 0.23499999940395355,
+      "rear_panel_rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "spoiler_Z_m": 0.2150000035762787,
+      "cannon_deploy_L_local_Z_m": -0.9339999556541443,
+      "cannon_deploy_R_local_Z_m": -0.9339999556541443
+    },
+    {
+      "frame": 121,
+      "door_L_deg": 79.00000333674014,
+      "door_R_deg": -79.00000333674014,
+      "rear_panel_Z_m": 0.23499999940395355,
+      "rear_panel_rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "spoiler_Z_m": 0.2150000035762787,
+      "cannon_deploy_L_local_Z_m": -0.9339999556541443,
+      "cannon_deploy_R_local_Z_m": -0.9339999556541443
+    },
+    {
+      "frame": 161,
+      "door_L_deg": 32.94375089539902,
+      "door_R_deg": -32.94375089539902,
+      "rear_panel_Z_m": 0.0,
+      "rear_panel_rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "spoiler_Z_m": 0.2150000035762787,
+      "cannon_deploy_L_local_Z_m": -0.7539999485015869,
+      "cannon_deploy_R_local_Z_m": -0.7539999485015869
+    },
+    {
+      "frame": 165,
+      "door_L_deg": 26.55006886995803,
+      "door_R_deg": -26.55006886995803,
+      "rear_panel_Z_m": 0.0,
+      "rear_panel_rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "spoiler_Z_m": 0.2150000035762787,
+      "cannon_deploy_L_local_Z_m": -0.7539999485015869,
+      "cannon_deploy_R_local_Z_m": -0.7539999485015869
+    },
+    {
+      "frame": 193,
+      "door_L_deg": 0.0,
+      "door_R_deg": 0.0,
+      "rear_panel_Z_m": 0.0,
+      "rear_panel_rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "spoiler_Z_m": 0.0,
+      "cannon_deploy_L_local_Z_m": -0.7539999485015869,
+      "cannon_deploy_R_local_Z_m": -0.7539999485015869
+    }
+  ],
+  "tested_pairs": [
+    [
+      "THK_Wing_L",
+      "THK_Body"
+    ],
+    [
+      "THK_Wing_L",
+      "THK_Windshield"
+    ],
+    [
+      "THK_Wing_L",
+      "THK_RearGlass"
+    ],
+    [
+      "THK_DoorCannon_L",
+      "THK_Body"
+    ],
+    [
+      "THK_RearPanel",
+      "THK_Reactor_L"
+    ],
+    [
+      "THK_Wing_R",
+      "THK_Body"
+    ],
+    [
+      "THK_Wing_R",
+      "THK_Windshield"
+    ],
+    [
+      "THK_Wing_R",
+      "THK_RearGlass"
+    ],
+    [
+      "THK_DoorCannon_R",
+      "THK_Body"
+    ],
+    [
+      "THK_RearPanel",
+      "THK_Reactor_R"
+    ],
+    [
+      "THK_Wing_L",
+      "THK_Wing_R"
+    ],
+    [
+      "THK_RearPanel_TopAndSides",
+      "THK_Body"
+    ],
+    [
+      "THK_RearPanel",
+      "THK_RearStabilizer"
+    ],
+    [
+      "THK_RearPanel",
+      "THK_FixedRearTailBand"
+    ],
+    [
+      "THK_RearPanel_TopAndSides",
+      "THK_FixedRearTailBand"
+    ],
+    [
+      "THK_RearPanel_TopAndSides",
+      "THK_Reactor_L"
+    ],
+    [
+      "THK_DoorCannon_L",
+      "THK_Wing_L"
+    ],
+    [
+      "THK_RearPanel_TopAndSides",
+      "THK_Reactor_R"
+    ],
+    [
+      "THK_DoorCannon_R",
+      "THK_Wing_R"
+    ]
+  ],
+  "overlap_examples": [],
+  "limitations": [
+    "Selected pairs only",
+    "Integer frames only",
+    "Triangle surface intersection does not detect full containment",
+    "Contacts at assembly seams may be reported"
+  ]
+}

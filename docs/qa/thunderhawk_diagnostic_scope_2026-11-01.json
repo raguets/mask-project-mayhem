@@ -1,0 +1,67 @@
+{
+  "task": "Read-only Thunderhawk diagnosis; no model changes authorized",
+  "live_window_observation": {
+    "method": "Windows Computer Use sky.get_window_state",
+    "file_title": "Thunderhawk_V8.blend",
+    "frame": 161,
+    "unsaved_changes_indicator": true,
+    "mcp_connection": "FAILED: localhost:9876 refused connection, WinError 10061",
+    "live_mesh_inspection_via_mcp": "NOT_EXECUTED",
+    "user_connection_request": "Pending; user asked to start existing Blender MCP connection",
+    "model_edits": false,
+    "save_executed": false,
+    "ui_action": "Opened sidebar with N to inspect connection tabs; no scene frame, selection, geometry or transform edits"
+  },
+  "saved_file_audit": {
+    "source": "art_source/Thunderhawk/Thunderhawk_V8.blend",
+    "method": "Separate Blender background process, read-only bpy inspection and independent bmesh copies",
+    "script": "art_source/Thunderhawk/scripts/audit_geometry_readonly.py",
+    "report": "docs/qa/thunderhawk_v8_saved_geometry_audit.json",
+    "log": "docs/qa/thunderhawk_v8_saved_geometry_audit.log",
+    "frame": 1,
+    "mesh_count_vehicle": 183,
+    "base_vertices": 3860,
+    "base_faces": 2149,
+    "body_ngons": 40,
+    "body_max_face_sides": 30,
+    "body_max_ngon_nonplanarity_m": 0.000000285104697,
+    "base_zero_area_faces": 0,
+    "base_isolated_vertices": 0,
+    "base_edges_over_two_faces": 0,
+    "evaluated_triangles": 28568,
+    "evaluated_faces_area_below_1e-12_m2": 481,
+    "evaluated_boundary_edges": 336,
+    "degenerate_faces_note": "440 of 481 are on black rim-pocket and cannon-bore disks. Others occur on small decorative panels and glazing. Body, main door shells and reactor rings do not have zero-area faces at this threshold.",
+    "boundary_note": "Most boundary edges are on intentionally open overlay sheets and reactor cavity faces; do not interpret the aggregate as 336 accidental holes in the body.",
+    "geometry_and_transform_hash_unchanged": true,
+    "live_unsaved_edits_included": false
+  },
+  "visual_review": {
+    "new_references_opened": ["Images reference/camaro.jpg", "Images reference/camaro-rear.jpg"],
+    "toy_references_reopened": ["Images reference/images (4).jpg", "Images reference/images (6).jpg", "Images reference/images (9).jpg"],
+    "v8_renders_opened": ["side.png", "perspective.png", "front.png", "top.png", "rear_road.png", "rear_flight.png"],
+    "cartoon_frames": "NOT_VALIDATED: web image search found candidate captures, but image retrieval failed. Search-result captions were not used as visual evidence.",
+    "exact_photo_to_mesh_error": "NOT_MEASURED: photographs are perspective views, not calibrated orthographic drawings",
+    "reference_priority_proposed": "Authenticated 1985 cartoon design first; real Camaro for body surfacing; explicitly identified toy edition for mechanical interpretation"
+  },
+  "diagnostic": [
+    {"priority": "P0", "subject": "Primary body surfaces", "finding": "Body uses sparse longitudinal sections and planar bands. Hood is one base quad, doors three base quads each. Missing compound curvature, sculpted fender shoulders and coherent transitions.", "decision": "Rebuild surfaces from calibrated master sections and consistent orthographic views"},
+    {"priority": "P0", "subject": "Reference target and proportions", "finding": "Toy editions differ. Current dimensions are estimates; two real-car photos cannot establish exact wheelbase, taper and overhang errors.", "decision": "Select cartoon design and matching Camaro/trim evidence; calibrate wheel centers, width, roof height and overhangs before detail"},
+    {"priority": "P1", "subject": "Door/cabin fit", "finding": "Correct roof-to-side bend concept, but flat wall-like surfaces, rod-like pillars and broad black assembly gaps. Window overlays are not developed frame/aperture assemblies.", "decision": "Retain hierarchy as proxy; rebuild skins, outer pillars, window frames, returns and hinge attachments; no cockpit"},
+    {"priority": "P1", "subject": "Front and rear assemblies", "finding": "Front is too vertical and block-like, lamp recesses shallow/simplistic, lower intakes protrude as black blocks. Tail lamps are thin strips and rear fascia is an assembled slab. Reactor rings are recognizable outlines but not developed nozzle volumes.", "decision": "Rebuild assemblies and reassess travel clearances after body redesign"},
+    {"priority": "P1", "subject": "Topology", "finding": "Body is closed and has no measured zero-area faces, but boolean-generated planar n-gons are not a controlled car-surface cage. Small-part bevels create degenerate evaluated faces.", "decision": "Controlled quad patches for curved surfaces, stable n-gons only where planar; inspect bevel limits and triangulation. Avoid indiscriminate global subdivision/remesh"},
+    {"priority": "P2", "subject": "Secondary geometry", "finding": "Wheel holes are black disk overlays; guns, mirrors, spoiler support and trim remain simplified primitives.", "decision": "Retain semantic names and attachment roles, rebuild/refine visible meshes after primary shape acceptance"}
+  ],
+  "cleanup_iterations_1_to_7": {
+    "authorized_by_user": true,
+    "status": "NOT_EXECUTED",
+    "reason": "PowerShell script execution policy blocked the script. Subsequent direct shell deletion request was rejected by automatic approval policy: approval required but granular sandbox_approval is false.",
+    "old_files_deleted": 0,
+    "prepared_script": "art_source/Thunderhawk/scripts/cleanup_iterations_1_to_7.ps1",
+    "script_validation": "NOT_EXECUTED",
+    "current_model_and_references_retained": true
+  },
+  "unreal_or_vehicularcombat_changes": false,
+  "new_animation_or_collision_tests": false,
+  "new_renders": false
+}
