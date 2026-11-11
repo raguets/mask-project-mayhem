@@ -15,6 +15,8 @@
 #include "Engine/World.h"
 #include "EngineUtils.h"
 #include "GameFramework/PlayerController.h"
+#include "GameFramework/ProjectileMovementComponent.h"
+#include "UObject/UnrealType.h"
 #include "HAL/FileManager.h"
 #include "HAL/IConsoleManager.h"
 #include "InputKeyEventArgs.h"
@@ -56,9 +58,30 @@ class FRun
         const auto* PC=Cast<APlayerController>(Car->GetController());const auto* State=PC?Cast<ACustomPlayerState>(PC->PlayerState):nullptr;
         AWeaponPickupActor* Weapon=State?State->PrimaryWeapon:nullptr;
         if(!Weapon){return;}auto* Mesh=Weapon->FindComponentByClass<USkeletalMeshComponent>();if(!Mesh){return;}
-        const FVector Center=Target->GetMesh()->Bounds.Origin;
+        // Aim at the upper chassis and account for the real projectile's drop.
+        // A straight ray to low mesh bounds can hit the quarry apron instead.
+        const FVector Center=Target->GetMesh()->Bounds.Origin+FVector(0,0,Target->GetMesh()->Bounds.BoxExtent.Z*.3);
+        const auto* ClassProperty=FindFProperty<FClassProperty>(Weapon->GetClass(),TEXT("ProjectileClass"));
+        const auto* ProjectileClass=ClassProperty?Cast<UClass>(ClassProperty->GetObjectPropertyValue_InContainer(Weapon)):nullptr;
+        const auto* ProjectileDefault=ProjectileClass?Cast<AProjectileActor>(ProjectileClass->GetDefaultObject()):nullptr;
+        const auto* Movement=ProjectileDefault?ProjectileDefault->FindComponentByClass<UProjectileMovementComponent>():nullptr;
+        FVector Direction;
         for(int32 I=0;I<2;++I)
-        { const auto Muzzle=Mesh->GetSocketTransform(TEXT("MuzzleSocket"));const FQuat Relative=Weapon->GetActorQuat().Inverse()*Muzzle.GetRotation();Weapon->SetActorRotation((Center-Muzzle.GetLocation()).ToOrientationQuat()*Relative.Inverse()); }
+        {
+            const auto Muzzle=Mesh->GetSocketTransform(TEXT("MuzzleSocket"));const FQuat Relative=Weapon->GetActorQuat().Inverse()*Muzzle.GetRotation();
+            const FVector Delta=Center-Muzzle.GetLocation();Direction=Delta.GetSafeNormal();
+            if(Movement && Movement->InitialSpeed>0)
+            {
+                const double G=FMath::Abs(Weapon->GetWorld()->GetGravityZ()*Movement->ProjectileGravityScale),D=Delta.Size2D(),V2=FMath::Square(double(Movement->InitialSpeed));
+                const double Disc=V2*V2-G*(G*D*D+2*Delta.Z*V2);
+                if(G>UE_SMALL_NUMBER && D>UE_SMALL_NUMBER && Disc>=0)
+                { const double Tangent=(V2-FMath::Sqrt(Disc))/(G*D);Direction=(Delta.GetSafeNormal2D()+FVector(0,0,Tangent)).GetSafeNormal(); }
+                Telemetry->SetNumberField(TEXT("projectile_speed"),Movement->InitialSpeed);Telemetry->SetNumberField(TEXT("projectile_gravity"),G);
+            }
+            Weapon->SetActorRotation(Direction.ToOrientationQuat()*Relative.Inverse());
+        }
+        Telemetry->SetStringField(TEXT("enemy_bounds_extent"),Target->GetMesh()->Bounds.BoxExtent.ToString());
+        Telemetry->SetStringField(TEXT("enemy_location"),Target->GetActorLocation().ToString());
         Telemetry->SetStringField(TEXT("aim_weapon"),Weapon->GetName());Telemetry->SetStringField(TEXT("muzzle"),Mesh->GetSocketLocation(TEXT("MuzzleSocket")).ToString());Telemetry->SetStringField(TEXT("target"),Center.ToString());
         Telemetry->SetNumberField(TEXT("aim_dot"),FVector::DotProduct(Mesh->GetSocketRotation(TEXT("MuzzleSocket")).Vector(),(Center-Mesh->GetSocketLocation(TEXT("MuzzleSocket"))).GetSafeNormal()));
     }

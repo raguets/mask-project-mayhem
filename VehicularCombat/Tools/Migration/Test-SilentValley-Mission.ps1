@@ -2,6 +2,8 @@ param([string]$RunName=(Get-Date -Format 'yyyyMMdd-HHmmss'),[switch]$Render,[str
 $ErrorActionPreference='Stop'
 if($RunName -notmatch '^[A-Za-z0-9_-]+$'){throw 'Simple unique RunName required'}
 $repo=[IO.Path]::GetFullPath((Join-Path $PSScriptRoot '../..'))
+$env:DOTNET_EnableDiagnostics='0'
+$env:DOTNET_CLI_HOME=Join-Path $repo 'Intermediate/DotNetHome'
 $out=Join-Path $repo ('Saved/SilentValley/mission-'+$RunName)
 $slot='SV_MissionTest_'+$RunName
 if((Test-Path $out) -or (Test-Path (Join-Path $repo ('Saved/SaveGames/'+$slot+'.sav')))){throw 'Previous run preserved; choose another RunName'}
@@ -10,6 +12,8 @@ $cacheDirectory=if($CacheRoot){[IO.Path]::GetFullPath($CacheRoot)}else{Join-Path
 $shaderDirectory=if($CacheRoot){Join-Path $cacheDirectory 'Shaders/WorkingDirectory'}else{Join-Path $repo 'Intermediate/Shaders/WorkingDirectory'}
 $arguments=@(('"'+(Join-Path $repo 'VehicularCombat.uproject')+'"'),'/Game/MASK/Maps/SilentValley/L_SilentValley_Blockout?Vehicle=Thunderhawk','-game','-unattended','-nosound','-nosteam','-nosplash','-windowed','-ResX=1600','-ResY=900','-ExecCmds="t.MaxFPS 30,MASK.SilentValleyMissionTest"',('-MigrationReportDir="'+$out+'"'),('-SVMissionSaveSlot='+$slot),('-AbsLog="'+(Join-Path $out 'game.log')+'"'),'-DDC=InstalledNoZenLocalFallback',('-LocalDataCachePath="'+$cacheDirectory+'"'),('-ShaderWorkingDir="'+$shaderDirectory+'"'))
 if($Render){$arguments+='-RenderOffscreen'}else{$arguments+=@('-NullRHI','-NoShaderCompile')}
+$arguments+='-Multiprocess'
+$arguments+='-LogCmds="LogTemp Log"'
 $p=Start-Process -FilePath (Join-Path $EngineRoot 'Engine/Binaries/Win64/UnrealEditor.exe') -ArgumentList $arguments -WorkingDirectory $repo -WindowStyle Hidden -PassThru
 try{
     @{pid=$p.Id;arguments=$arguments;save_slot=$slot}|ConvertTo-Json -Depth 5|Set-Content (Join-Path $out 'launch.json') -Encoding UTF8

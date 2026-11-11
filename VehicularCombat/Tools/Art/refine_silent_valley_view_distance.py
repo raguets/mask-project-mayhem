@@ -1,5 +1,5 @@
 """Preserve collision heights; retain terrain detail and fade grass at distance."""
-import unreal,json,datetime,shutil
+import unreal,json,datetime,shutil,math
 from pathlib import Path
 root=Path(unreal.Paths.project_dir());out=root/'Saved/SilentValley/environment-v1'
 source=root/'Content/MASK/Maps/SilentValley/L_SilentValley_Blockout.umap'
@@ -12,6 +12,16 @@ before={n:land.get_editor_property(n) for n in ['lod0_screen_size','lod_distribu
 land.set_editor_property('lod0_screen_size',.2)
 land.set_editor_property('lod_distribution_setting',3.5)
 land.set_editor_property('max_lod_level',2)
+road=next(a for a in actors if isinstance(a,unreal.SilentValleyRoad))
+route=[road.route_location(d) for d in range(0,int(road.route_length_cm()),2000)]
+locked=0
+for component in land.get_components_by_class(unreal.LandscapeComponent):
+    # This map uses two 63-quad subsections at 2 m spacing (252 m/component).
+    origin=component.get_world_location();half=12600
+    x,y=origin.x+half,origin.y+half
+    near=min(math.hypot(x-p.x,y-p.y) for p in route)<33000
+    component.set_forced_lod(0 if near else -1)
+    locked+=int(near)
 edit=unreal.MaterialEditingLibrary;lib=unreal.EditorAssetLibrary;masters=set();groups=[]
 for actor in actors:
     if not actor.get_actor_label().startswith('SV_Natural_Grass_'):continue
@@ -36,4 +46,4 @@ for actor in actors:
     groups.append(actor.get_actor_label())
 if not groups:raise RuntimeError('Planting must be saved before view-distance refinement')
 if not levels.save_current_level():raise RuntimeError('Save failed')
-(out/'view-distance.json').write_text(json.dumps({'passed':True,'terrain_before':before,'terrain_after':{'lod0_screen_size':.2,'lod_distribution_setting':3.5,'max_lod_level':2},'grass_fade_m':[100,180],'groups':groups,'visual_validation':'pending rendered comparison'},indent=2))
+(out/'view-distance.json').write_text(json.dumps({'passed':True,'terrain_before':before,'terrain_after':{'lod0_screen_size':.2,'lod_distribution_setting':3.5,'max_lod_level':2},'road_components_lod0':locked,'grass_fade_m':[100,180],'groups':groups,'visual_validation':'pending rendered comparison'},indent=2))

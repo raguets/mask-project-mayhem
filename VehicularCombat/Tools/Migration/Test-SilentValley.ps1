@@ -12,6 +12,8 @@ param(
 $ErrorActionPreference='Stop'
 if($RunName -notmatch '^[A-Za-z0-9_-]+$'){throw 'Simple RunName required'}
 $repo=[IO.Path]::GetFullPath((Join-Path $PSScriptRoot '..\..'));$out=Join-Path $repo "Saved\SilentValley\drive-$RunName-$Vehicle"
+$env:DOTNET_EnableDiagnostics='0'
+$env:DOTNET_CLI_HOME=Join-Path $repo 'Intermediate/DotNetHome'
 if(Test-Path -LiteralPath $out){throw 'Previous run preserved; choose another RunName'}
 New-Item -ItemType Directory -Path $out|Out-Null
 if(!(Test-Path -LiteralPath (Join-Path $repo 'Content/MASK/Environment/SilentValley/Structures/BP_SilentValleyGameMode.uasset'))){throw 'New GameMode not created; finish the editor build before testing driving.'}
@@ -20,6 +22,7 @@ $arguments=@(('"'+(Join-Path $repo 'VehicularCombat.uproject')+'"'),('/Game/MASK
 if($Render){$arguments+='-RenderOffscreen'}else{$arguments+=@('-NullRHI','-NoShaderCompile')}
 if($Fast){$arguments+=@('-benchmark','-fps=60','-usefixedtimestep')}
 if($FullRoute){$arguments+='-SVFullRoute'}
+$arguments+='-Multiprocess'
 if($WorkspaceCache){
     # Opt-in for restricted sessions; keep the user's global caches/settings intact.
     $cacheDirectory=if($CacheRoot){[IO.Path]::GetFullPath($CacheRoot)}else{Join-Path $repo 'DerivedDataCache'}

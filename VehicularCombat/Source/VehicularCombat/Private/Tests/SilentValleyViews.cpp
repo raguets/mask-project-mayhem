@@ -10,6 +10,7 @@
 #include "EngineUtils.h"
 #include "GameFramework/PlayerController.h"
 #include "GameFramework/HUD.h"
+#include "Blueprint/WidgetLayoutLibrary.h"
 #include "Containers/Ticker.h"
 #include "HAL/IConsoleManager.h"
 #include "HAL/FileManager.h"
@@ -54,6 +55,7 @@ bool Tick(float)
             }
         }
         if(PC->GetHUD()) { PC->GetHUD()->bShowHUD=false; }
+        UWidgetLayoutLibrary::RemoveAllWidgets(World);
     }
     Camera->SetActorLocationAndRotation(CameraPosition,(Target-CameraPosition).Rotation());PC->SetViewTarget(Camera.Get());
     for(TActorIterator<ADirectionalLight> It(World);It;++It) { if(!It->ActorHasTag(TEXT("SV_AMBIENT_FILL"))) { It->SetActorRotation(Index<5?FRotator(-40,-35,0):FRotator(-12,-35,0)); } }
@@ -64,6 +66,40 @@ FAutoConsoleCommand Command(TEXT("MASK.SilentValleyViews"),TEXT("Capture the fiv
 {
     FParse::Value(FCommandLine::Get(),TEXT("MigrationReportDir="),Folder);if(Folder.IsEmpty()) { Folder=FPaths::ProjectSavedDir()/TEXT("SilentValley/views"); }
     IFileManager::Get().MakeDirectory(*Folder,true);FTSTicker::GetCoreTicker().AddTicker(FTickerDelegate::CreateStatic(&Tick));
+}));
+
+// A continuous camera traversal catches distance-dependent render popping.
+// It intentionally makes no claim about vehicle physics or player input.
+double MotionStart=0;int32 MotionImage=0;
+bool MotionTick(float)
+{
+    UWorld* World=nullptr;for(const auto& C:GEngine->GetWorldContexts()) { if(C.WorldType==EWorldType::Game) { World=C.World();break; } }
+    if(!World || World->GetTimeSeconds()<5 || (GShaderCompilingManager && GShaderCompilingManager->IsCompiling())) { return true; }
+    auto* PC=World->GetFirstPlayerController();if(!PC) { return true; }
+    ASilentValleyRoad* Road=nullptr;for(TActorIterator<ASilentValleyRoad> It(World);It;++It) { Road=*It;break; }if(!Road) { return true; }
+    const double Now=FPlatformTime::Seconds();
+    if(MotionStart==0)
+    {
+        MotionStart=Now;Camera=World->SpawnActor<ACameraActor>();Camera->GetCameraComponent()->SetFieldOfView(75);PC->SetViewTarget(Camera.Get());
+        UWidgetLayoutLibrary::RemoveAllWidgets(World);if(PC->GetHUD()) { PC->GetHUD()->bShowHUD=false; }
+        for(const TCHAR* Name:{TEXT("r.ForceLOD"),TEXT("r.AllowOcclusionQueries"),TEXT("r.AntiAliasingMethod")})
+        { if(auto* Var=IConsoleManager::Get().FindConsoleVariable(Name)) { UE_LOG(LogTemp,Display,TEXT("SV_MOTION_RENDER %s=%d"),Name,Var->GetInt()); } }
+    }
+    const float Distance=55000.f+float(Now-MotionStart)*3000.f;
+    const FVector P=Road->RouteLocation(Distance)+FVector(0,0,200),Target=Road->RouteLocation(Distance+6000)+FVector(0,0,150);
+    Camera->SetActorLocationAndRotation(P,(Target-P).Rotation());
+    if(Now-MotionStart>=MotionImage)
+    {
+        FScreenshotRequest::RequestScreenshot(Folder/FString::Printf(TEXT("motion-%02d.png"),MotionImage),false,false);
+        UE_LOG(LogTemp,Display,TEXT("SV_MOTION_CAPTURE index=%d route_m=%.2f camera_only=1"),MotionImage,Distance/100);
+        if(++MotionImage>=20) { Next=Now+1;FTSTicker::GetCoreTicker().AddTicker(FTickerDelegate::CreateLambda([PC](float) { PC->ConsoleCommand(TEXT("quit"));return false; }),1);return false; }
+    }
+    return true;
+}
+FAutoConsoleCommand MotionCommand(TEXT("MASK.SilentValleyMotion"),TEXT("Continuous camera traversal at 30 m/s with 20 diagnostic frames; no driving validation."),FConsoleCommandDelegate::CreateLambda([]()
+{
+    FParse::Value(FCommandLine::Get(),TEXT("MigrationReportDir="),Folder);if(Folder.IsEmpty()) { Folder=FPaths::ProjectSavedDir()/TEXT("SilentValley/motion"); }
+    IFileManager::Get().MakeDirectory(*Folder,true);FTSTicker::GetCoreTicker().AddTicker(FTickerDelegate::CreateStatic(&MotionTick));
 }));
 }
 #endif

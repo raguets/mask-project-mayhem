@@ -17,4 +17,6 @@ public:
     UFUNCTION(BlueprintCallable) static int32 RefineNaturalLandscape(class ASilentValleyRoad* Road,FVector LakeCenter,FVector2D LakeRadii,float WaterHeight);
     /** Persistent native instances of imported scenery; no collision or source mutation. */
     UFUNCTION(BlueprintCallable) static AActor* PlaceSceneryInstances(const FString& Label,UObject* Mesh,const TArray<FTransform>& Transforms);
+    /** Original, non-playable terrain ring joined to the saved landscape edge. */
+    UFUNCTION(BlueprintCallable) static class UStaticMesh* CreateDistantTerrain(const FString& AssetPath);
 };
