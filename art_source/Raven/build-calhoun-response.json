@@ -1,0 +1,4 @@
+{
+  "status": "error",
+  "message": "{\"exception_type\": \"NameError\", \"message\": \"name 'tau' is not defined\", \"traceback\": \"Traceback (most recent call last):\\n  File \\\"C:\\\\Users\\\\steph\\\\AppData\\\\Roaming\\\\Blender Foundation\\\\Blender\\\\5.2\\\\scripts\\\\addons\\\\blender_mcp.py\\\", line 2333, in execute_code\\n    exec(code, namespace)\\n    ~~~~^^^^^^^^^^^^^^^^^\\n  File \\\"<string>\\\", line 129, in <module>\\nNameError: name 'tau' is not defined\\n\"}"
+}

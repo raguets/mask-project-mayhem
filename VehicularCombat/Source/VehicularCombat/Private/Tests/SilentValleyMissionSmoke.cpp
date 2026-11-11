@@ -2,6 +2,7 @@
 #include "SilentValley/SilentValleyMission.h"
 #include "SilentValley/SilentValleyCheckpoint.h"
 #include "MASK/ThunderhawkPawn.h"
+#include "MASK/RhinoPawn.h"
 #include "AI/VehicleBotController.h"
 #include "Actors/ProjectileActor.h"
 #include "Actors/WeaponPickupActor.h"
@@ -15,6 +16,7 @@
 #include "Engine/World.h"
 #include "EngineUtils.h"
 #include "GameFramework/PlayerController.h"
+#include "GameFramework/GameModeBase.h"
 #include "GameFramework/ProjectileMovementComponent.h"
 #include "UObject/UnrealType.h"
 #include "HAL/FileManager.h"
@@ -32,7 +34,14 @@ namespace SVMissionSmoke
 class FRun
 {
     FString Directory,Slot;int32 Stage=0,Shots=0;double Started=FPlatformTime::Seconds();float StageAt=0,EnemyHealth=0;
-    TArray<FVector> Zones;FGuid FirstRun;bool bFire=false;
+    TArray<FVector> Zones;FGuid FirstRun;bool bFire=false;int32 InitialBots=0;
+    int32 CompanionCount(UWorld* World) const
+    {
+        int32 Count=0;
+        for(TActorIterator<AVehicleBotController> It(World);It;++It)
+        { if(Cast<AThunderhawkPawn>(It->GetPawn()) && !Cast<ARhinoRearModule>(It->GetPawn())) { ++Count; } }
+        return Count;
+    }
     TSharedRef<FJsonObject> Checks=MakeShared<FJsonObject>(),Telemetry=MakeShared<FJsonObject>();
     void Check(const TCHAR* Name,bool Value){Checks->SetBoolField(Name,Value);}
     void Save(bool Complete)
@@ -98,6 +107,9 @@ public:
         {
             Check(TEXT("authority_and_real_map"),M->HasAuthority() && W->GetMapName().Contains(TEXT("SilentValley")));Zones.Init(FVector::ZeroVector,5);
             for(TActorIterator<ASilentValleyCheckpoint> It(W);It;++It){if(Zones.IsValidIndex(It->ZoneIndex)){Zones[It->ZoneIndex]=It->GetActorLocation();}}
+            InitialBots=FMath::Clamp(UGameplayStatics::GetIntOption(W->GetAuthGameMode()->OptionsString,TEXT("Bots"),0),0,6);
+            Check(TEXT("initial_companion_count"),CompanionCount(W)==InitialBots);
+            Telemetry->SetNumberField(TEXT("initial_bots"),CompanionCount(W));
             FirstRun=M->RunId;Move(Car,Zones[4]);Next(1,W);
         }
         else if(Stage==1 && Age>.5){Check(TEXT("out_of_order_extraction_ignored"),M->Phase==ESVPhase::Departure);Move(Car,Zones[0]);Next(2,W);}
@@ -154,9 +166,11 @@ public:
             auto* Data=Cast<USilentValleyProgress>(UGameplayStatics::LoadGameFromSlot(Slot,0));Check(TEXT("reward_not_repeated"),Data && Data->RewardedRuns.Num()==1 && Data->TechComponents==M->Reward);
             Car->ServerRetryMission();Next(11,W);
         }
-        else if(Stage==11 && M->RunId!=FirstRun)
+        else if(Stage==11 && M->RunId!=FirstRun && W->GetTimeSeconds()>4)
         {
             Check(TEXT("retry_rebuilds_clean_mission"),!IsValid(M->Enemy) && M->Phase!=ESVPhase::Success);
+            Check(TEXT("retry_preserves_companion_count"),CompanionCount(W)==InitialBots);
+            Telemetry->SetNumberField(TEXT("retry_bots"),CompanionCount(W));
             UGameplayStatics::ApplyDamage(Car,100000,PC,Car,nullptr);Next(12,W);
         }
         else if(Stage==12 && M->Phase==ESVPhase::Failed){Check(TEXT("all_players_down_fails"),true);Check(TEXT("no_timeout"),true);return Finish();}

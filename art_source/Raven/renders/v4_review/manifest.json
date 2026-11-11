@@ -1,0 +1,897 @@
+{
+  "status": "complete",
+  "elapsed_seconds": 109.48,
+  "scene_file": "G:\\DEV\\mask-project-mayhem\\art_source\\Raven\\Raven_V4_Assembly.blend",
+  "job": {
+    "rig": "Raven_Control",
+    "rig_properties": [
+      "transform",
+      "hover_height",
+      "disc_launch"
+    ],
+    "floor": "RV_ReviewFloor",
+    "actors": {
+      "CalhounBurns_Rig": [
+        "driving_pose",
+        "in_vehicle",
+        "mask_on"
+      ]
+    },
+    "output_dir": "G:\\DEV\\mask-project-mayhem\\art_source\\Raven\\renders\\v4_review",
+    "samples": 24,
+    "width": 1200,
+    "height": 900,
+    "device": "GPU",
+    "views": [
+      {
+        "name": "01_road_front",
+        "frame": 1,
+        "properties": {
+          "hover_height": 0
+        },
+        "object_states": {
+          "CalhounBurns_Rig": {
+            "properties": {
+              "driving_pose": 1,
+              "in_vehicle": 1,
+              "mask_on": false
+            }
+          }
+        },
+        "camera": [
+          6,
+          -6,
+          3.0
+        ],
+        "target": [
+          0,
+          0,
+          0.65
+        ],
+        "lens": 53
+      },
+      {
+        "name": "02_deployed_front",
+        "frame": 151,
+        "properties": {
+          "hover_height": 0.6
+        },
+        "object_states": {
+          "CalhounBurns_Rig": {
+            "properties": {
+              "driving_pose": 1,
+              "in_vehicle": 1,
+              "mask_on": true
+            }
+          }
+        },
+        "camera": [
+          6,
+          -6,
+          4.0
+        ],
+        "target": [
+          0,
+          0,
+          1.0
+        ],
+        "lens": 51
+      },
+      {
+        "name": "03_road_rear",
+        "frame": 1,
+        "properties": {
+          "hover_height": 0
+        },
+        "object_states": {
+          "CalhounBurns_Rig": {
+            "properties": {
+              "driving_pose": 1,
+              "in_vehicle": 1,
+              "mask_on": false
+            }
+          }
+        },
+        "camera": [
+          -6,
+          6,
+          2.6
+        ],
+        "target": [
+          -0.2,
+          0,
+          0.65
+        ],
+        "lens": 55
+      },
+      {
+        "name": "04_deployed_rear",
+        "frame": 151,
+        "properties": {
+          "hover_height": 0.6
+        },
+        "object_states": {
+          "CalhounBurns_Rig": {
+            "properties": {
+              "driving_pose": 1,
+              "in_vehicle": 1,
+              "mask_on": true
+            }
+          }
+        },
+        "camera": [
+          -6,
+          6,
+          3.0
+        ],
+        "target": [
+          -0.2,
+          0,
+          1.0
+        ],
+        "lens": 54
+      },
+      {
+        "name": "05_calhoun_standing",
+        "frame": 1,
+        "properties": {},
+        "object_states": {
+          "CalhounBurns_Rig": {
+            "properties": {
+              "driving_pose": 0,
+              "in_vehicle": 0,
+              "mask_on": false
+            }
+          }
+        },
+        "camera": [
+          2.8,
+          -3.7,
+          1.95
+        ],
+        "target": [
+          0,
+          0,
+          0.93
+        ],
+        "lens": 61,
+        "hide_collections": [
+          "RV_Body",
+          "RV_RunningGear",
+          "RV_Interior",
+          "RV_Weapons"
+        ]
+      },
+      {
+        "name": "06_calhoun_mask",
+        "frame": 1,
+        "properties": {},
+        "object_states": {
+          "CalhounBurns_Rig": {
+            "properties": {
+              "driving_pose": 0,
+              "in_vehicle": 0,
+              "mask_on": true
+            }
+          }
+        },
+        "camera": [
+          2.8,
+          -3.7,
+          1.95
+        ],
+        "target": [
+          0,
+          0,
+          0.93
+        ],
+        "lens": 61,
+        "hide_collections": [
+          "RV_Body",
+          "RV_RunningGear",
+          "RV_Interior",
+          "RV_Weapons"
+        ]
+      },
+      {
+        "name": "07_calhoun_driving",
+        "frame": 1,
+        "properties": {},
+        "object_states": {
+          "CalhounBurns_Rig": {
+            "properties": {
+              "driving_pose": 1,
+              "in_vehicle": 0,
+              "mask_on": false
+            }
+          }
+        },
+        "camera": [
+          2.8,
+          -3.7,
+          1.5
+        ],
+        "target": [
+          0,
+          0,
+          0.65
+        ],
+        "lens": 67,
+        "hide_collections": [
+          "RV_Body",
+          "RV_RunningGear",
+          "RV_Interior",
+          "RV_Weapons"
+        ]
+      },
+      {
+        "name": "08_calhoun_driving_mask",
+        "frame": 1,
+        "properties": {},
+        "object_states": {
+          "CalhounBurns_Rig": {
+            "properties": {
+              "driving_pose": 1,
+              "in_vehicle": 0,
+              "mask_on": true
+            }
+          }
+        },
+        "camera": [
+          2.8,
+          -3.7,
+          1.5
+        ],
+        "target": [
+          0,
+          0,
+          0.65
+        ],
+        "lens": 67,
+        "hide_collections": [
+          "RV_Body",
+          "RV_RunningGear",
+          "RV_Interior",
+          "RV_Weapons"
+        ]
+      },
+      {
+        "name": "09_mask_detail",
+        "frame": 1,
+        "properties": {},
+        "object_states": {
+          "CalhounBurns_Rig": {
+            "properties": {
+              "driving_pose": 0,
+              "in_vehicle": 0,
+              "mask_on": true
+            }
+          }
+        },
+        "camera": [
+          1.0,
+          -1.3,
+          1.85
+        ],
+        "target": [
+          0.02,
+          0,
+          1.69
+        ],
+        "lens": 74,
+        "hide_collections": [
+          "RV_Body",
+          "RV_RunningGear",
+          "RV_Interior",
+          "RV_Weapons"
+        ]
+      },
+      {
+        "name": "10_cockpit_cutaway",
+        "frame": 1,
+        "properties": {},
+        "object_states": {
+          "CalhounBurns_Rig": {
+            "properties": {
+              "driving_pose": 1,
+              "in_vehicle": 1,
+              "mask_on": true
+            }
+          }
+        },
+        "camera": [
+          2.3,
+          3.0,
+          1.9
+        ],
+        "target": [
+          -0.15,
+          0.35,
+          0.68
+        ],
+        "lens": 65,
+        "hide_objects": [
+          "RV_RoofTarga",
+          "RV_Windshield",
+          "RV_DoorWing_Glass_L",
+          "RV_DoorWing_Panel_L",
+          "RV_DoorWing_InnerSkin_L",
+          "RV_RearHatchGlass"
+        ]
+      },
+      {
+        "name": "11_half_transform",
+        "frame": 76,
+        "properties": {
+          "hover_height": 0.6
+        },
+        "object_states": {
+          "CalhounBurns_Rig": {
+            "properties": {
+              "driving_pose": 1,
+              "in_vehicle": 1,
+              "mask_on": true
+            }
+          }
+        },
+        "camera": [
+          5.7,
+          -6.5,
+          3.8
+        ],
+        "target": [
+          0,
+          0,
+          1.0
+        ],
+        "lens": 51
+      },
+      {
+        "name": "12_disc_launch",
+        "frame": 151,
+        "properties": {
+          "hover_height": 0.6,
+          "disc_launch": 0.25
+        },
+        "object_states": {
+          "CalhounBurns_Rig": {
+            "properties": {
+              "driving_pose": 1,
+              "in_vehicle": 1,
+              "mask_on": true
+            }
+          }
+        },
+        "camera": [
+          6.4,
+          -6.2,
+          3.4
+        ],
+        "target": [
+          0.55,
+          0,
+          0.95
+        ],
+        "lens": 51
+      },
+      {
+        "name": "13_wheel_cannon",
+        "frame": 151,
+        "properties": {
+          "hover_height": 0.6
+        },
+        "object_states": {
+          "CalhounBurns_Rig": {
+            "properties": {
+              "driving_pose": 1,
+              "in_vehicle": 1,
+              "mask_on": true
+            }
+          }
+        },
+        "camera": [
+          2.8,
+          -3.6,
+          3.2
+        ],
+        "target": [
+          1.1,
+          -0.4,
+          1.45
+        ],
+        "lens": 75
+      },
+      {
+        "name": "14_rear_slide",
+        "frame": 151,
+        "properties": {
+          "hover_height": 0.6
+        },
+        "object_states": {
+          "CalhounBurns_Rig": {
+            "properties": {
+              "driving_pose": 1,
+              "in_vehicle": 1,
+              "mask_on": true
+            }
+          }
+        },
+        "camera": [
+          -4.5,
+          3.1,
+          2.2
+        ],
+        "target": [
+          -1.75,
+          0,
+          1.35
+        ],
+        "lens": 72
+      }
+    ]
+  },
+  "renders": [
+    {
+      "view": {
+        "name": "01_road_front",
+        "frame": 1,
+        "properties": {
+          "hover_height": 0
+        },
+        "object_states": {
+          "CalhounBurns_Rig": {
+            "properties": {
+              "driving_pose": 1,
+              "in_vehicle": 1,
+              "mask_on": false
+            }
+          }
+        },
+        "camera": [
+          6,
+          -6,
+          3.0
+        ],
+        "target": [
+          0,
+          0,
+          0.65
+        ],
+        "lens": 53
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Raven\\renders\\v4_review\\01_road_front.png",
+      "size_bytes": 1216646
+    },
+    {
+      "view": {
+        "name": "02_deployed_front",
+        "frame": 151,
+        "properties": {
+          "hover_height": 0.6
+        },
+        "object_states": {
+          "CalhounBurns_Rig": {
+            "properties": {
+              "driving_pose": 1,
+              "in_vehicle": 1,
+              "mask_on": true
+            }
+          }
+        },
+        "camera": [
+          6,
+          -6,
+          4.0
+        ],
+        "target": [
+          0,
+          0,
+          1.0
+        ],
+        "lens": 51
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Raven\\renders\\v4_review\\02_deployed_front.png",
+      "size_bytes": 1273627
+    },
+    {
+      "view": {
+        "name": "03_road_rear",
+        "frame": 1,
+        "properties": {
+          "hover_height": 0
+        },
+        "object_states": {
+          "CalhounBurns_Rig": {
+            "properties": {
+              "driving_pose": 1,
+              "in_vehicle": 1,
+              "mask_on": false
+            }
+          }
+        },
+        "camera": [
+          -6,
+          6,
+          2.6
+        ],
+        "target": [
+          -0.2,
+          0,
+          0.65
+        ],
+        "lens": 55
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Raven\\renders\\v4_review\\03_road_rear.png",
+      "size_bytes": 1214642
+    },
+    {
+      "view": {
+        "name": "04_deployed_rear",
+        "frame": 151,
+        "properties": {
+          "hover_height": 0.6
+        },
+        "object_states": {
+          "CalhounBurns_Rig": {
+            "properties": {
+              "driving_pose": 1,
+              "in_vehicle": 1,
+              "mask_on": true
+            }
+          }
+        },
+        "camera": [
+          -6,
+          6,
+          3.0
+        ],
+        "target": [
+          -0.2,
+          0,
+          1.0
+        ],
+        "lens": 54
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Raven\\renders\\v4_review\\04_deployed_rear.png",
+      "size_bytes": 1265235
+    },
+    {
+      "view": {
+        "name": "05_calhoun_standing",
+        "frame": 1,
+        "properties": {},
+        "object_states": {
+          "CalhounBurns_Rig": {
+            "properties": {
+              "driving_pose": 0,
+              "in_vehicle": 0,
+              "mask_on": false
+            }
+          }
+        },
+        "camera": [
+          2.8,
+          -3.7,
+          1.95
+        ],
+        "target": [
+          0,
+          0,
+          0.93
+        ],
+        "lens": 61,
+        "hide_collections": [
+          "RV_Body",
+          "RV_RunningGear",
+          "RV_Interior",
+          "RV_Weapons"
+        ]
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Raven\\renders\\v4_review\\05_calhoun_standing.png",
+      "size_bytes": 1137591
+    },
+    {
+      "view": {
+        "name": "06_calhoun_mask",
+        "frame": 1,
+        "properties": {},
+        "object_states": {
+          "CalhounBurns_Rig": {
+            "properties": {
+              "driving_pose": 0,
+              "in_vehicle": 0,
+              "mask_on": true
+            }
+          }
+        },
+        "camera": [
+          2.8,
+          -3.7,
+          1.95
+        ],
+        "target": [
+          0,
+          0,
+          0.93
+        ],
+        "lens": 61,
+        "hide_collections": [
+          "RV_Body",
+          "RV_RunningGear",
+          "RV_Interior",
+          "RV_Weapons"
+        ]
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Raven\\renders\\v4_review\\06_calhoun_mask.png",
+      "size_bytes": 1149845
+    },
+    {
+      "view": {
+        "name": "07_calhoun_driving",
+        "frame": 1,
+        "properties": {},
+        "object_states": {
+          "CalhounBurns_Rig": {
+            "properties": {
+              "driving_pose": 1,
+              "in_vehicle": 0,
+              "mask_on": false
+            }
+          }
+        },
+        "camera": [
+          2.8,
+          -3.7,
+          1.5
+        ],
+        "target": [
+          0,
+          0,
+          0.65
+        ],
+        "lens": 67,
+        "hide_collections": [
+          "RV_Body",
+          "RV_RunningGear",
+          "RV_Interior",
+          "RV_Weapons"
+        ]
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Raven\\renders\\v4_review\\07_calhoun_driving.png",
+      "size_bytes": 1156588
+    },
+    {
+      "view": {
+        "name": "08_calhoun_driving_mask",
+        "frame": 1,
+        "properties": {},
+        "object_states": {
+          "CalhounBurns_Rig": {
+            "properties": {
+              "driving_pose": 1,
+              "in_vehicle": 0,
+              "mask_on": true
+            }
+          }
+        },
+        "camera": [
+          2.8,
+          -3.7,
+          1.5
+        ],
+        "target": [
+          0,
+          0,
+          0.65
+        ],
+        "lens": 67,
+        "hide_collections": [
+          "RV_Body",
+          "RV_RunningGear",
+          "RV_Interior",
+          "RV_Weapons"
+        ]
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Raven\\renders\\v4_review\\08_calhoun_driving_mask.png",
+      "size_bytes": 1169984
+    },
+    {
+      "view": {
+        "name": "09_mask_detail",
+        "frame": 1,
+        "properties": {},
+        "object_states": {
+          "CalhounBurns_Rig": {
+            "properties": {
+              "driving_pose": 0,
+              "in_vehicle": 0,
+              "mask_on": true
+            }
+          }
+        },
+        "camera": [
+          1.0,
+          -1.3,
+          1.85
+        ],
+        "target": [
+          0.02,
+          0,
+          1.69
+        ],
+        "lens": 74,
+        "hide_collections": [
+          "RV_Body",
+          "RV_RunningGear",
+          "RV_Interior",
+          "RV_Weapons"
+        ]
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Raven\\renders\\v4_review\\09_mask_detail.png",
+      "size_bytes": 1191210
+    },
+    {
+      "view": {
+        "name": "10_cockpit_cutaway",
+        "frame": 1,
+        "properties": {},
+        "object_states": {
+          "CalhounBurns_Rig": {
+            "properties": {
+              "driving_pose": 1,
+              "in_vehicle": 1,
+              "mask_on": true
+            }
+          }
+        },
+        "camera": [
+          2.3,
+          3.0,
+          1.9
+        ],
+        "target": [
+          -0.15,
+          0.35,
+          0.68
+        ],
+        "lens": 65,
+        "hide_objects": [
+          "RV_RoofTarga",
+          "RV_Windshield",
+          "RV_DoorWing_Glass_L",
+          "RV_DoorWing_Panel_L",
+          "RV_DoorWing_InnerSkin_L",
+          "RV_RearHatchGlass"
+        ]
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Raven\\renders\\v4_review\\10_cockpit_cutaway.png",
+      "size_bytes": 1538445
+    },
+    {
+      "view": {
+        "name": "11_half_transform",
+        "frame": 76,
+        "properties": {
+          "hover_height": 0.6
+        },
+        "object_states": {
+          "CalhounBurns_Rig": {
+            "properties": {
+              "driving_pose": 1,
+              "in_vehicle": 1,
+              "mask_on": true
+            }
+          }
+        },
+        "camera": [
+          5.7,
+          -6.5,
+          3.8
+        ],
+        "target": [
+          0,
+          0,
+          1.0
+        ],
+        "lens": 51
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Raven\\renders\\v4_review\\11_half_transform.png",
+      "size_bytes": 1274310
+    },
+    {
+      "view": {
+        "name": "12_disc_launch",
+        "frame": 151,
+        "properties": {
+          "hover_height": 0.6,
+          "disc_launch": 0.25
+        },
+        "object_states": {
+          "CalhounBurns_Rig": {
+            "properties": {
+              "driving_pose": 1,
+              "in_vehicle": 1,
+              "mask_on": true
+            }
+          }
+        },
+        "camera": [
+          6.4,
+          -6.2,
+          3.4
+        ],
+        "target": [
+          0.55,
+          0,
+          0.95
+        ],
+        "lens": 51
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Raven\\renders\\v4_review\\12_disc_launch.png",
+      "size_bytes": 1251293
+    },
+    {
+      "view": {
+        "name": "13_wheel_cannon",
+        "frame": 151,
+        "properties": {
+          "hover_height": 0.6
+        },
+        "object_states": {
+          "CalhounBurns_Rig": {
+            "properties": {
+              "driving_pose": 1,
+              "in_vehicle": 1,
+              "mask_on": true
+            }
+          }
+        },
+        "camera": [
+          2.8,
+          -3.6,
+          3.2
+        ],
+        "target": [
+          1.1,
+          -0.4,
+          1.45
+        ],
+        "lens": 75
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Raven\\renders\\v4_review\\13_wheel_cannon.png",
+      "size_bytes": 1462506
+    },
+    {
+      "view": {
+        "name": "14_rear_slide",
+        "frame": 151,
+        "properties": {
+          "hover_height": 0.6
+        },
+        "object_states": {
+          "CalhounBurns_Rig": {
+            "properties": {
+              "driving_pose": 1,
+              "in_vehicle": 1,
+              "mask_on": true
+            }
+          }
+        },
+        "camera": [
+          -4.5,
+          3.1,
+          2.2
+        ],
+        "target": [
+          -1.75,
+          0,
+          1.35
+        ],
+        "lens": 72
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Raven\\renders\\v4_review\\14_rear_slide.png",
+      "size_bytes": 1288574
+    }
+  ],
+  "retained_previous_views": []
+}

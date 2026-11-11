@@ -1,0 +1,100 @@
+{
+  "status": "success",
+  "result": {
+    "name": "Raven_V1_ReferenceStudy",
+    "object_count": 867,
+    "objects": [
+      {
+        "name": "Raven_Control",
+        "type": "EMPTY",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "RV_InnerWheelArch_L_-1.22",
+        "type": "MESH",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "RV_InnerWheelArch_L_1.22",
+        "type": "MESH",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "RV_RockerSill_L",
+        "type": "MESH",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "RV_DoorWing_Hinge_L",
+        "type": "EMPTY",
+        "location": [
+          0.0,
+          0.87,
+          0.31
+        ]
+      },
+      {
+        "name": "RV_DoorHandle_L",
+        "type": "MESH",
+        "location": [
+          0.0,
+          0.08,
+          0.0
+        ]
+      },
+      {
+        "name": "RV_MirrorHousing_L",
+        "type": "MESH",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "RV_MirrorGlass_L",
+        "type": "MESH",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "RV_RearPinstripe_L_0",
+        "type": "CURVE",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "RV_RearPinstripe_L_0.015",
+        "type": "CURVE",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "materials_count": 28
+  }
+}

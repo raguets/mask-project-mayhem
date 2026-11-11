@@ -1,0 +1,475 @@
+{
+  "status": "complete",
+  "elapsed_seconds": 75.97,
+  "scene_file": "G:\\DEV\\mask-project-mayhem\\art_source\\Raven\\Raven_V16_Assembly.blend",
+  "job": {
+    "rig": "Raven_Control",
+    "rig_properties": [
+      "transform",
+      "hover_height",
+      "disc_launch"
+    ],
+    "floor": "RV_ReviewFloor",
+    "actors": {
+      "CalhounBurns_Rig": [
+        "driving_pose",
+        "in_vehicle",
+        "mask_on"
+      ]
+    },
+    "output_dir": "G:\\DEV\\mask-project-mayhem\\art_source\\Raven\\renders\\v16_review",
+    "samples": 28,
+    "width": 1280,
+    "height": 960,
+    "device": "GPU",
+    "views": [
+      {
+        "name": "01_road_front",
+        "frame": 1,
+        "properties": {},
+        "object_states": {
+          "CalhounBurns_Rig": {
+            "properties": {
+              "driving_pose": 1,
+              "in_vehicle": 1,
+              "mask_on": false
+            }
+          }
+        },
+        "camera": [
+          6,
+          -6,
+          3.0
+        ],
+        "target": [
+          0,
+          0,
+          0.65
+        ],
+        "lens": 53
+      },
+      {
+        "name": "02_road_rear",
+        "frame": 1,
+        "properties": {},
+        "object_states": {
+          "CalhounBurns_Rig": {
+            "properties": {
+              "driving_pose": 1,
+              "in_vehicle": 1,
+              "mask_on": false
+            }
+          }
+        },
+        "camera": [
+          -6,
+          6,
+          2.6
+        ],
+        "target": [
+          -0.2,
+          0,
+          0.65
+        ],
+        "lens": 55
+      },
+      {
+        "name": "03_deployed_front",
+        "frame": 151,
+        "properties": {
+          "hover_height": 0.6
+        },
+        "object_states": {
+          "CalhounBurns_Rig": {
+            "properties": {
+              "driving_pose": 1,
+              "in_vehicle": 1,
+              "mask_on": true
+            }
+          }
+        },
+        "camera": [
+          6,
+          -6,
+          4.0
+        ],
+        "target": [
+          0,
+          0,
+          1.0
+        ],
+        "lens": 51
+      },
+      {
+        "name": "04_deployed_rear",
+        "frame": 151,
+        "properties": {
+          "hover_height": 0.6
+        },
+        "object_states": {
+          "CalhounBurns_Rig": {
+            "properties": {
+              "driving_pose": 1,
+              "in_vehicle": 1,
+              "mask_on": true
+            }
+          }
+        },
+        "camera": [
+          -6,
+          6,
+          3.0
+        ],
+        "target": [
+          -0.2,
+          0,
+          1.0
+        ],
+        "lens": 54
+      },
+      {
+        "name": "06_canopy_flow",
+        "frame": 1,
+        "properties": {},
+        "object_states": {
+          "CalhounBurns_Rig": {
+            "properties": {
+              "driving_pose": 1,
+              "in_vehicle": 1,
+              "mask_on": false
+            }
+          }
+        },
+        "camera": [
+          1.6,
+          -3.2,
+          2.1
+        ],
+        "target": [
+          -0.35,
+          0,
+          1.0
+        ],
+        "lens": 60
+      },
+      {
+        "name": "14_roof_thirds_top",
+        "frame": 1,
+        "properties": {},
+        "object_states": {
+          "CalhounBurns_Rig": {
+            "properties": {
+              "driving_pose": 1,
+              "in_vehicle": 1,
+              "mask_on": false
+            }
+          }
+        },
+        "camera": [
+          0.8,
+          -0.15,
+          6.8
+        ],
+        "target": [
+          -0.45,
+          0,
+          0.72
+        ],
+        "lens": 60
+      },
+      {
+        "name": "15_dark_hatch_and_pillars",
+        "frame": 1,
+        "properties": {},
+        "object_states": {
+          "CalhounBurns_Rig": {
+            "properties": {
+              "driving_pose": 1,
+              "in_vehicle": 1,
+              "mask_on": false
+            }
+          }
+        },
+        "camera": [
+          -3.7,
+          -3.5,
+          2.7
+        ],
+        "target": [
+          -0.8,
+          0,
+          0.9
+        ],
+        "lens": 65
+      },
+      {
+        "name": "16_roof_winglets",
+        "frame": 151,
+        "properties": {
+          "hover_height": 0.6
+        },
+        "object_states": {
+          "CalhounBurns_Rig": {
+            "properties": {
+              "driving_pose": 1,
+              "in_vehicle": 1,
+              "mask_on": true
+            }
+          }
+        },
+        "camera": [
+          1.6,
+          -4.8,
+          3.6
+        ],
+        "target": [
+          -0.35,
+          0,
+          1.0
+        ],
+        "lens": 58
+      }
+    ]
+  },
+  "renders": [
+    {
+      "view": {
+        "name": "01_road_front",
+        "frame": 1,
+        "properties": {},
+        "object_states": {
+          "CalhounBurns_Rig": {
+            "properties": {
+              "driving_pose": 1,
+              "in_vehicle": 1,
+              "mask_on": false
+            }
+          }
+        },
+        "camera": [
+          6,
+          -6,
+          3.0
+        ],
+        "target": [
+          0,
+          0,
+          0.65
+        ],
+        "lens": 53
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Raven\\renders\\v16_review\\01_road_front.png",
+      "size_bytes": 1351283
+    },
+    {
+      "view": {
+        "name": "02_road_rear",
+        "frame": 1,
+        "properties": {},
+        "object_states": {
+          "CalhounBurns_Rig": {
+            "properties": {
+              "driving_pose": 1,
+              "in_vehicle": 1,
+              "mask_on": false
+            }
+          }
+        },
+        "camera": [
+          -6,
+          6,
+          2.6
+        ],
+        "target": [
+          -0.2,
+          0,
+          0.65
+        ],
+        "lens": 55
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Raven\\renders\\v16_review\\02_road_rear.png",
+      "size_bytes": 1349404
+    },
+    {
+      "view": {
+        "name": "03_deployed_front",
+        "frame": 151,
+        "properties": {
+          "hover_height": 0.6
+        },
+        "object_states": {
+          "CalhounBurns_Rig": {
+            "properties": {
+              "driving_pose": 1,
+              "in_vehicle": 1,
+              "mask_on": true
+            }
+          }
+        },
+        "camera": [
+          6,
+          -6,
+          4.0
+        ],
+        "target": [
+          0,
+          0,
+          1.0
+        ],
+        "lens": 51
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Raven\\renders\\v16_review\\03_deployed_front.png",
+      "size_bytes": 1373609
+    },
+    {
+      "view": {
+        "name": "04_deployed_rear",
+        "frame": 151,
+        "properties": {
+          "hover_height": 0.6
+        },
+        "object_states": {
+          "CalhounBurns_Rig": {
+            "properties": {
+              "driving_pose": 1,
+              "in_vehicle": 1,
+              "mask_on": true
+            }
+          }
+        },
+        "camera": [
+          -6,
+          6,
+          3.0
+        ],
+        "target": [
+          -0.2,
+          0,
+          1.0
+        ],
+        "lens": 54
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Raven\\renders\\v16_review\\04_deployed_rear.png",
+      "size_bytes": 1393522
+    },
+    {
+      "view": {
+        "name": "06_canopy_flow",
+        "frame": 1,
+        "properties": {},
+        "object_states": {
+          "CalhounBurns_Rig": {
+            "properties": {
+              "driving_pose": 1,
+              "in_vehicle": 1,
+              "mask_on": false
+            }
+          }
+        },
+        "camera": [
+          1.6,
+          -3.2,
+          2.1
+        ],
+        "target": [
+          -0.35,
+          0,
+          1.0
+        ],
+        "lens": 60
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Raven\\renders\\v16_review\\06_canopy_flow.png",
+      "size_bytes": 1455058
+    },
+    {
+      "view": {
+        "name": "14_roof_thirds_top",
+        "frame": 1,
+        "properties": {},
+        "object_states": {
+          "CalhounBurns_Rig": {
+            "properties": {
+              "driving_pose": 1,
+              "in_vehicle": 1,
+              "mask_on": false
+            }
+          }
+        },
+        "camera": [
+          0.8,
+          -0.15,
+          6.8
+        ],
+        "target": [
+          -0.45,
+          0,
+          0.72
+        ],
+        "lens": 60
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Raven\\renders\\v16_review\\14_roof_thirds_top.png",
+      "size_bytes": 1399316
+    },
+    {
+      "view": {
+        "name": "15_dark_hatch_and_pillars",
+        "frame": 1,
+        "properties": {},
+        "object_states": {
+          "CalhounBurns_Rig": {
+            "properties": {
+              "driving_pose": 1,
+              "in_vehicle": 1,
+              "mask_on": false
+            }
+          }
+        },
+        "camera": [
+          -3.7,
+          -3.5,
+          2.7
+        ],
+        "target": [
+          -0.8,
+          0,
+          0.9
+        ],
+        "lens": 65
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Raven\\renders\\v16_review\\15_dark_hatch_and_pillars.png",
+      "size_bytes": 1487499
+    },
+    {
+      "view": {
+        "name": "16_roof_winglets",
+        "frame": 151,
+        "properties": {
+          "hover_height": 0.6
+        },
+        "object_states": {
+          "CalhounBurns_Rig": {
+            "properties": {
+              "driving_pose": 1,
+              "in_vehicle": 1,
+              "mask_on": true
+            }
+          }
+        },
+        "camera": [
+          1.6,
+          -4.8,
+          3.6
+        ],
+        "target": [
+          -0.35,
+          0,
+          1.0
+        ],
+        "lens": 58
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Raven\\renders\\v16_review\\16_roof_winglets.png",
+      "size_bytes": 1563944
+    }
+  ],
+  "retained_previous_views": []
+}

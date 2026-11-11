@@ -1,0 +1,13 @@
+{
+  "source": "G:\\DEV\\mask-project-mayhem\\art_source\\Raven\\Raven_V13_Assembly.blend",
+  "cassette_lift_m": 0.197,
+  "cassette_roof_z_m": 0.79,
+  "fixed_rear_fascia_top_m": 0.78,
+  "nozzle_center_closed_z_m": 0.68,
+  "windshield_fillet_x_range_m": [
+    -0.24,
+    -0.1
+  ],
+  "gun_width_m": 0.09,
+  "validation": "pending final renders and checks"
+}

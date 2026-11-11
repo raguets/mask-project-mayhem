@@ -5,8 +5,9 @@ param(
     [switch]$Network,
     [switch]$Render,
     [switch]$WorkspaceCache,
+    [string]$CacheRoot,
     [switch]$Terrain,
-    [ValidateSet('Thunderhawk','Rhino','Hurricane')][string]$Vehicle='Thunderhawk',
+    [ValidateSet('Thunderhawk','Rhino','Hurricane','Raven')][string]$Vehicle='Thunderhawk',
     [int]$TimeoutSeconds=360
 )
 $ErrorActionPreference='Stop'
@@ -28,7 +29,11 @@ try {
             ('-ExecCmds="t.MaxFPS 30,MASK.OnFootSmoke '+$role+'"'),('-MigrationReportDir="'+$report+'"'),('-AbsLog="'+(Join-Path $report ($role+'.log'))+'"'))
         if(!$GameExecutable) { $arguments=@(('"'+(Join-Path $repo 'VehicularCombat.uproject')+'"'),'-game')+$arguments }
         if($Render) { $arguments+='-RenderOffscreen' } else { $arguments+=@('-NullRHI','-NoShaderCompile') }
-        if($WorkspaceCache) { $arguments+=@('-DDC=InstalledNoZenLocalFallback',('-LocalDataCachePath="'+(Join-Path $repo 'DerivedDataCache')+'"'),('-ShaderWorkingDir="'+(Join-Path $repo 'Intermediate/Shaders/WorkingDirectory')+'"')) }
+        $arguments+='-Multiprocess'
+        if($WorkspaceCache -or $CacheRoot) {
+            $cacheDirectory=if($CacheRoot){[IO.Path]::GetFullPath($CacheRoot)}else{Join-Path $repo 'DerivedDataCache'}
+            $arguments+=@('-DDC=InstalledNoZenLocalFallback',('-LocalDataCachePath="'+$cacheDirectory+'"'),('-ShaderWorkingDir="'+(Join-Path $cacheDirectory 'Shaders/WorkingDirectory')+'"'))
+        }
         if($Terrain) { $arguments+='-OnFootTerrain' }
         $p=Start-Process -FilePath $exe -ArgumentList $arguments -WorkingDirectory $repo -WindowStyle Hidden -PassThru
         $processes+=$p;$launch+=[ordered]@{role=$role;pid=$p.Id;executable=$exe;arguments=$arguments}

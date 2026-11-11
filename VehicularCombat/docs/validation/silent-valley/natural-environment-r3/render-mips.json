@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "changed_source_heights": 0,
+  "native_base_mip_crc_assertions": "passed for every heightmap texture",
+  "road_collision_probes": 95,
+  "max_collision_delta_cm": 0.0,
+  "render_mip_tag": true,
+  "visual_validation": "requires capture with default culling and automatic LOD"
+}

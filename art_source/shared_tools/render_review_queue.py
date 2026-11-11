@@ -16,7 +16,7 @@ floor=bpy.data.objects.get(job.get('floor','Review_Floor'))
 actors={name:{'object':bpy.data.objects[name],'properties':{key:bpy.data.objects[name][key] for key in keys},'location':bpy.data.objects[name].location.copy()} for name,keys in job.get('actors',{}).items()}
 saved={'rig_props':{name:r[name] for name in job['rig_properties']},'rig_location':r.location.copy(),'frame':s.frame_current,
        'camera_matrix':camera.matrix_world.copy(),'camera_lens':camera.data.lens,'camera_type':camera.data.type,
-       'hidden':{o.name:o.hide_render for o in s.objects},'filepath':s.render.filepath,
+       'hidden':{o.name:o.hide_render for o in s.objects},'collection_hidden':{c.name:c.hide_render for c in bpy.data.collections},'filepath':s.render.filepath,
        'resolution':(s.render.resolution_x,s.render.resolution_y,s.render.resolution_percentage),
        'floor':floor.location.copy() if floor else None,'shading':[(ar.spaces.active,ar.spaces.active.shading.type) for screen in bpy.data.screens for ar in screen.areas if ar.type=='VIEW_3D'],
        'engine':s.render.engine,'samples':s.cycles.samples,'device':s.cycles.device}
@@ -31,6 +31,9 @@ if job.get('retain_unrequested_views') and (out/'manifest.json').exists():
     retained=[item for item in previous['renders'] if item['view']['name'] not in requested]
     assert all(Path(item['file']).exists() for item in retained),'A retained render is missing'
 def reset_visibility():
+    for name,val in saved['collection_hidden'].items():
+        collection=bpy.data.collections.get(name)
+        if collection:collection.hide_render=val
     for name,val in saved['hidden'].items():
         ob=bpy.data.objects.get(name)
         if ob:ob.hide_render=val
@@ -57,9 +60,15 @@ def step():
             restore();manifest={'status':'complete','elapsed_seconds':round(time.time()-started,2),'scene_file':bpy.data.filepath,'job':job,'renders':retained+results,'retained_previous_views':[v['view']['name'] for v in retained]}
             (out/'manifest.json').write_text(json.dumps(manifest,indent=2),encoding='utf-8');(out/'COMPLETE').write_text('Scene restored after completed review renders.');return None
         view=views.pop(0);reset_visibility();reset_actors(view.get('object_states'))
+        for name,val in saved['rig_props'].items():r[name]=val
         for name,val in view['properties'].items():r[name]=val
-        r.location=view.get('rig_location',[0,0,0]);r.update_tag();s.frame_set(view.get('frame',1));bpy.context.view_layer.update()
+        # Preserve driven transforms unless a view explicitly requests a location.
+        if 'rig_location' in view:r.location=view['rig_location']
+        r.update_tag();s.frame_set(view.get('frame',1));bpy.context.view_layer.update()
         for collection in view.get('hide_collections',[]):
+            # A driven object hide_render can override a direct assignment.
+            # Collection visibility hides the whole actor, including its groom.
+            bpy.data.collections[collection].hide_render=True
             for ob in bpy.data.collections[collection].all_objects:ob.hide_render=True
         for name in view.get('hide_objects',[]):bpy.data.objects[name].hide_render=True
         if floor:floor.location=saved['floor']+Vector(view.get('floor_offset',[0,0,0]))

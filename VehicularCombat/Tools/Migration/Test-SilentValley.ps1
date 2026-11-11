@@ -1,5 +1,5 @@
 param(
-    [ValidateSet('Thunderhawk','Rhino','Hurricane')][string]$Vehicle='Thunderhawk',
+    [ValidateSet('Thunderhawk','Rhino','Hurricane','Raven')][string]$Vehicle='Thunderhawk',
     [string]$RunName=(Get-Date -Format 'yyyyMMdd-HHmmss'),
     [switch]$Render,
     [switch]$Fast,

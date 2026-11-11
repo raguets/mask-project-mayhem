@@ -1,0 +1,4 @@
+{
+  "status": "error",
+  "message": "{\"exception_type\": \"TypeError\", \"message\": \"bpy_struct: item.attr = val: enum \\\"OBJECT\\\" not found in ('TOOL', 'RENDER', 'OUTPUT', 'VIEW_LAYER', 'SCENE', 'WORLD')\", \"traceback\": \"Traceback (most recent call last):\\n  File \\\"C:\\\\Users\\\\steph\\\\AppData\\\\Roaming\\\\Blender Foundation\\\\Blender\\\\5.2\\\\scripts\\\\addons\\\\blender_mcp.py\\\", line 2333, in execute_code\\n    exec(code, namespace)\\n    ~~~~^^^^^^^^^^^^^^^^^\\n  File \\\"<string>\\\", line 3, in <module>\\n  File \\\"<exports-v11>\\\", line 5, in <module>\\n  File \\\"<exports-v10>\\\", line 10, in <module>\\n  File \\\"<exports>\\\", line 107, in <module>\\n  File \\\"<exports>\\\", line 64, in present\\nTypeError: bpy_struct: item.attr = val: enum \\\"OBJECT\\\" not found in ('TOOL', 'RENDER', 'OUTPUT', 'VIEW_LAYER', 'SCENE', 'WORLD')\\n\"}"
+}

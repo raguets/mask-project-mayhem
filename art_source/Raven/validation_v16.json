@@ -1,0 +1,159 @@
+{
+  "passed": true,
+  "checks": {
+    "whole_front_retained": true,
+    "fixed_floor_stops_before_front": true,
+    "fixed_tunnel_stops_before_front": true,
+    "projecting_dashboard_removed": true,
+    "hood_level_with_shoulders": true,
+    "rounded_black_shell_is_single_mesh": true,
+    "reactors_share_moving_cassette": true,
+    "four_guns_width_doubled": true,
+    "nozzles_hidden_below_fascia_at_rest": true,
+    "roof_side_thirds_follow_doors": true,
+    "fixed_roof_is_middle_third": true,
+    "rear_glass_extends_to_cassette": true,
+    "black_rear_door_pillars_present": true,
+    "rear_glass_very_dark_separate_material": true,
+    "nozzles_behind_bowed_fascia_at_rest": true,
+    "cassette_top_horizontal": true,
+    "compact_reactor_lift": true,
+    "complete_nozzle_row_just_above_fascia": true,
+    "cassette_never_tilts": true,
+    "hood_rigid_through_motion": true,
+    "sampled_tire_body_pairs_clear": true,
+    "rounded_door_glass_roof_bends": true,
+    "roof_wings_narrower_at_front": true,
+    "new_roof_parts_clear_fixed_glass_during_sampled_motion": true
+  },
+  "data": {
+    "hood_edge_max_level_difference_m": 0.00034928321838378906,
+    "front_fixed_limits": {
+      "RV_CabinFloor": {
+        "min": [
+          -1.1050000190734863,
+          -0.7200000286102295,
+          0.06000000238418579
+        ],
+        "max": [
+          0.42500001192092896,
+          0.7200000286102295,
+          0.1600000113248825
+        ]
+      },
+      "RV_TransmissionTunnel": {
+        "min": [
+          -0.8849999904632568,
+          -0.11999999731779099,
+          0.23000000417232513
+        ],
+        "max": [
+          0.4050000011920929,
+          0.11999999731779099,
+          0.5299999713897705
+        ]
+      },
+      "RV_Dashboard": {
+        "min": [
+          0.24400000274181366,
+          -0.6800000071525574,
+          0.6800000071525574
+        ],
+        "max": [
+          0.421999990940094,
+          0.6800000071525574,
+          0.7839999794960022
+        ]
+      }
+    },
+    "gun_width_m": {
+      "FrontL": 0.0899999737739563,
+      "FrontR": 0.0899999737739563,
+      "RearL": 0.0899999737739563,
+      "RearR": 0.0899999737739563
+    },
+    "nozzle_rest_depth_clearance_min_m": 0.007619476566855354,
+    "rear": {
+      "rest_nozzles": {
+        "min": [
+          -2.199000120162964,
+          -0.5580000281333923,
+          0.5920000076293945
+        ],
+        "max": [
+          -2.184000015258789,
+          0.5580000281333923,
+          0.7680000066757202
+        ]
+      },
+      "deployed_nozzles": {
+        "min": [
+          -2.199000120162964,
+          -0.5580000281333923,
+          0.7890000343322754
+        ],
+        "max": [
+          -2.184000015258789,
+          0.5580000281333923,
+          0.9650000333786011
+        ]
+      },
+      "rest_shell": {
+        "min": [
+          -2.2279999256134033,
+          -0.861302375793457,
+          0.6369999051094055
+        ],
+        "max": [
+          -1.8497599363327026,
+          0.861302375793457,
+          0.7900000214576721
+        ]
+      },
+      "deployed_shell": {
+        "min": [
+          -2.2279999256134033,
+          -0.861302375793457,
+          0.8339998722076416
+        ],
+        "max": [
+          -1.8497599363327026,
+          0.861302375793457,
+          0.9869999885559082
+        ]
+      },
+      "lift_m": 0.19699999690055847,
+      "clearance_above_fascia_m": 0.009000034332275364
+    },
+    "hood_rigid_max_distance_error_m": 1.861932035218672e-07,
+    "sampled_motion_contacts": [],
+    "footwell_driving_bounds": {
+      "CB_BootUpper_L": {
+        "min": [
+          0.15091827511787415,
+          0.4309994876384735,
+          0.12642087042331696
+        ],
+        "max": [
+          0.3957206904888153,
+          0.5389994978904724,
+          0.31188613176345825
+        ]
+      },
+      "CB_BootUpper_R": {
+        "min": [
+          0.15091729164123535,
+          0.20099987089633942,
+          0.12642090022563934
+        ],
+        "max": [
+          0.3957202434539795,
+          0.3089998662471771,
+          0.31188589334487915
+        ]
+      }
+    },
+    "new_roof_motion_contacts": []
+  },
+  "method": "Evaluated meshes:33 tire/body motion states;31 moving-roof/fixed-glass states (rest mating edges excluded). Rigid hood distances, limits and parent relationships. Rendered inspection separate; not an exhaustive swept-volume check."
+}

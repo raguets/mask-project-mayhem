@@ -1,4 +1,4 @@
-param([string]$RunName=(Get-Date -Format 'yyyyMMdd-HHmmss'),[switch]$Render,[string]$CacheRoot,[int]$TimeoutSeconds=240,[string]$EngineRoot='G:/Program Files/Epic Games/UE_5.8')
+param([string]$RunName=(Get-Date -Format 'yyyyMMdd-HHmmss'),[switch]$Render,[string]$CacheRoot,[int]$TimeoutSeconds=240,[ValidateRange(0,6)][int]$Bots=0,[ValidateSet('Thunderhawk','Rhino','Hurricane','Raven')][string]$Vehicle='Thunderhawk',[string]$EngineRoot='G:/Program Files/Epic Games/UE_5.8')
 $ErrorActionPreference='Stop'
 if($RunName -notmatch '^[A-Za-z0-9_-]+$'){throw 'Simple unique RunName required'}
 $repo=[IO.Path]::GetFullPath((Join-Path $PSScriptRoot '../..'))
@@ -11,6 +11,8 @@ New-Item -ItemType Directory -Path $out|Out-Null
 $cacheDirectory=if($CacheRoot){[IO.Path]::GetFullPath($CacheRoot)}else{Join-Path $repo 'DerivedDataCache'}
 $shaderDirectory=if($CacheRoot){Join-Path $cacheDirectory 'Shaders/WorkingDirectory'}else{Join-Path $repo 'Intermediate/Shaders/WorkingDirectory'}
 $arguments=@(('"'+(Join-Path $repo 'VehicularCombat.uproject')+'"'),'/Game/MASK/Maps/SilentValley/L_SilentValley_Blockout?Vehicle=Thunderhawk','-game','-unattended','-nosound','-nosteam','-nosplash','-windowed','-ResX=1600','-ResY=900','-ExecCmds="t.MaxFPS 30,MASK.SilentValleyMissionTest"',('-MigrationReportDir="'+$out+'"'),('-SVMissionSaveSlot='+$slot),('-AbsLog="'+(Join-Path $out 'game.log')+'"'),'-DDC=InstalledNoZenLocalFallback',('-LocalDataCachePath="'+$cacheDirectory+'"'),('-ShaderWorkingDir="'+$shaderDirectory+'"'))
+$arguments[1]+='?Bots='+$Bots
+$arguments[1]=$arguments[1].Replace('Vehicle=Thunderhawk','Vehicle='+$Vehicle)
 if($Render){$arguments+='-RenderOffscreen'}else{$arguments+=@('-NullRHI','-NoShaderCompile')}
 $arguments+='-Multiprocess'
 $arguments+='-LogCmds="LogTemp Log"'

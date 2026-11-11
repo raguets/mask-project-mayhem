@@ -1,5 +1,11 @@
 # M.A.S.K. Project Mayhem
 
+Entrée de jeu : **`Jouer-MASK.cmd` à la racine** (Unreal Engine 5.8). Elle lance Pinewood / Silent Valley avec Thunderhawk et trois équipiers : Rhino, Hurricane et Raven. L'essai Raven vérifie leur présence et le changement de contrôle sur cette carte. Les anciens raccourcis sont archivés comme texte ; les scripts `Tools/Migration/Test-*` sont des diagnostics.
+
+Raven utilise Calhoun Burns et son masque séparé, avec conduite au sol et vol de type avion comme Thunderhawk : vitesse commandée50–300km/h, sans stationnaire, puis atterrissage et rétraction. Source artistique préservée : `art_source/Raven/Raven_V16_Assembly.blend`. Intégration : `/Game/MASK/Raven/BP_Raven`, contrôles et réplication communs aux autres véhicules. Le mode de navigation sur l'eau n'est pas implémenté.
+
+Le projet Unreal reste provisoirement dans `VehicularCombat`. Le regroupement à la racine et les transitions de l'ancien menu sont en cours d'audit : [consolidation](VehicularCombat/docs/levels/PINEWOOD_CONSOLIDATION.md). État exact et reprise : [HANDOFF.md](HANDOFF.md).
+
 ## Hurricane V7 — Hondo MacLean
 
 Assemblage : `art_source/Hurricane/Hurricane_V7_Assembly.blend`. Véhicule indépendant : `art_source/Hurricane/Hurricane_V7_Vehicle.blend`. Hondo et son masque : `art_source/Hondo_MacLean/HondoMacLean_V1.blend` et `HondoMask_V1.blend`.

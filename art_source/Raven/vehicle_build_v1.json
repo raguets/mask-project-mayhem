@@ -1,0 +1,11 @@
+{
+  "objects": 679,
+  "tire_objects": [
+    "RV_FrontTire_L",
+    "RV_FrontTire_R",
+    "RV_RearTire_L",
+    "RV_RearTire_R"
+  ],
+  "source": "G:\\DEV\\mask-project-mayhem\\art_source\\Raven\\Raven_V1_VehicleStudy.blend",
+  "validation": "pending actual renders and collision review"
+}

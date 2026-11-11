@@ -87,3 +87,8 @@ bool UMaskAssetEditorLibrary::ConfigureHurricaneChassis(USkeletalMesh* Mesh)
 {
 	return ConfigureMaskChassis(Mesh,TEXT("/Game/MASK/Hurricane/"),FVector(0,0,72),FVector(510,180,72),FVector(40,0,225));
 }
+
+bool UMaskAssetEditorLibrary::ConfigureRavenChassis(USkeletalMesh* Mesh)
+{
+	return ConfigureMaskChassis(Mesh,TEXT("/Game/MASK/Raven/"),FVector(0,0,52),FVector(435,170,52),FVector(215,0,55));
+}

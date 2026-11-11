@@ -13,6 +13,7 @@
 #include "Engine/World.h"
 #include "EngineUtils.h"
 #include "GameFramework/PlayerController.h"
+#include "GameFramework/GameModeBase.h"
 #include "Kismet/GameplayStatics.h"
 #include "Misc/CommandLine.h"
 #include "Net/UnrealNetwork.h"
@@ -131,8 +132,11 @@ void ASilentValleyMission::Retry(APlayerController* Requester)
     FString Vehicle=TEXT("Thunderhawk");const auto* Driver=Cast<AMaskDriverCharacter>(Requester->GetPawn());
     const auto* Car=Driver?Cast<AThunderhawkPawn>(Driver->SourceVehicle):Cast<AThunderhawkPawn>(Requester->GetPawn());
     if(Car && Car->Definition) { Vehicle=Car->Definition->VehicleName; }
-    if(Vehicle!=TEXT("Rhino") && Vehicle!=TEXT("Hurricane")) { Vehicle=TEXT("Thunderhawk"); }
-    GetWorld()->ServerTravel(FString(TEXT("/Game/MASK/Maps/SilentValley/L_SilentValley_Blockout?Vehicle="))+Vehicle+(GetNetMode()==NM_ListenServer?TEXT("?listen"):TEXT("")));
+    if(Vehicle!=TEXT("Rhino") && Vehicle!=TEXT("Hurricane") && Vehicle!=TEXT("Raven")) { Vehicle=TEXT("Thunderhawk"); }
+    // Recreate the configured companion fleet, including an explicit solo run.
+    const auto* GameMode=GetWorld()->GetAuthGameMode();
+    const int32 Bots=FMath::Clamp(UGameplayStatics::GetIntOption(GameMode?GameMode->OptionsString:FString(),TEXT("Bots"),0),0,6);
+    GetWorld()->ServerTravel(FString::Printf(TEXT("/Game/MASK/Maps/SilentValley/L_SilentValley_Blockout?Vehicle=%s?Bots=%d"),*Vehicle,Bots)+(GetNetMode()==NM_ListenServer?TEXT("?listen"):TEXT("")));
 }
 FString ASilentValleyMission::Objective() const
 {

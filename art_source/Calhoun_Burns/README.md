@@ -1,0 +1,11 @@
+# Calhoun Burns — première version éditable
+
+Sources indépendantes courantes : `CalhounBurns_V2.blend` (personnage et masque, pose de jambes adaptée au plancher court de Raven), `CalhounMask_V1.blend` (masque seul inchangé). V1 conservée. Réouvertures et identité des meshes dans les quatre états, poids/drivers de pose et absence de dépendance au véhicule : `../Raven/standalone_validation_v16.json`.
+
+Le personnage conserve un seul rig `CalhounBurns_Rig`, une seule tête et le même vêtement continu pondéré dans les poses debout/conduite. `driving_pose`0/1 ; `mask_on`faux/vrai. Laisser `in_vehicle=0` pour le fichier autonome. Le visage reste sous le masque ; pas de corps de substitution. Les drivers de pose restent éditables ; seule la liaison de hauteur avec Raven est retirée pour l'export indépendant.
+
+Références : figurine bleu nuit/orange/cyan et portrait illustré fournis dans `Images de reference/Raven et Calhous Burns`. Interprétation humaine réaliste expressément autorisée le11 novembre2026, sans ressemblance avec une personne réelle. Base anatomique générique CC0 du projet (voir `../AnatomyBase`), reprise par copie indépendante de l'asset Hondo conservé, puis modification du visage, de la coiffure, des vêtements et création d'un nouveau masque. Cette provenance ne fait pas du résultat un scan ni une représentation définitive du personnage.
+
+Masque autonome : le socket `CalhounMask_HeadSocket` stocke `rest_bind_origin`. Pour remonter, restaurer cette origine dans les sommets et remettre les modificateurs d'armature vers CalhounBurns_Rig avec les groupes de poids conservés. Coque orange, visière sombre, respirateur effilé, boîtiers latéraux et sillons moulés. Aucun personnage caché nécessaire au fichier du masque.
+
+Limites de première passe : peau/cheveux et plis encore stylisés, accessoires rigides, doigts et prise au volant à raffiner, fidélité du visage/du masque à poursuivre par comparaison avec les images. Contact pied/plancher non validé : le bas des dessus de bottes descend sous le haut du plancher, à reprendre en coupe dédiée. Voir les quatre états historiques sous `../Raven/renders/v11_review`, les poses assises V14 et le rapport `../../docs/progress/2026-11-11-Raven-canopy-and-cassette.md`. Pas de retopologie/UV ni d'intégration Unreal revendiquée.

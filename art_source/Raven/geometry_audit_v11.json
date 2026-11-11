@@ -1,0 +1,341 @@
+{
+  "method": "Evaluated mesh triangle intersections, with separate state/identity/bounds measurements; no full volume containment certification.",
+  "frames": [
+    {
+      "frame": 1,
+      "transform": 0.0,
+      "intersections": []
+    },
+    {
+      "frame": 31,
+      "transform": 0.0,
+      "intersections": []
+    },
+    {
+      "frame": 34,
+      "transform": 0.03333333507180214,
+      "intersections": []
+    },
+    {
+      "frame": 37,
+      "transform": 0.06666667014360428,
+      "intersections": []
+    },
+    {
+      "frame": 40,
+      "transform": 0.10000000149011612,
+      "intersections": []
+    },
+    {
+      "frame": 43,
+      "transform": 0.13333334028720856,
+      "intersections": []
+    },
+    {
+      "frame": 46,
+      "transform": 0.1666666716337204,
+      "intersections": []
+    },
+    {
+      "frame": 49,
+      "transform": 0.20000000298023224,
+      "intersections": []
+    },
+    {
+      "frame": 52,
+      "transform": 0.23333333432674408,
+      "intersections": []
+    },
+    {
+      "frame": 55,
+      "transform": 0.2666666805744171,
+      "intersections": []
+    },
+    {
+      "frame": 58,
+      "transform": 0.30000001192092896,
+      "intersections": []
+    },
+    {
+      "frame": 61,
+      "transform": 0.3333333432674408,
+      "intersections": []
+    },
+    {
+      "frame": 64,
+      "transform": 0.36666667461395264,
+      "intersections": []
+    },
+    {
+      "frame": 67,
+      "transform": 0.4000000059604645,
+      "intersections": []
+    },
+    {
+      "frame": 70,
+      "transform": 0.4333333373069763,
+      "intersections": []
+    },
+    {
+      "frame": 73,
+      "transform": 0.46666666865348816,
+      "intersections": []
+    },
+    {
+      "frame": 76,
+      "transform": 0.5,
+      "intersections": []
+    },
+    {
+      "frame": 79,
+      "transform": 0.5333333611488342,
+      "intersections": []
+    },
+    {
+      "frame": 82,
+      "transform": 0.5666666626930237,
+      "intersections": []
+    },
+    {
+      "frame": 85,
+      "transform": 0.6000000238418579,
+      "intersections": []
+    },
+    {
+      "frame": 88,
+      "transform": 0.6333333253860474,
+      "intersections": []
+    },
+    {
+      "frame": 91,
+      "transform": 0.6666666865348816,
+      "intersections": []
+    },
+    {
+      "frame": 94,
+      "transform": 0.699999988079071,
+      "intersections": []
+    },
+    {
+      "frame": 97,
+      "transform": 0.7333333492279053,
+      "intersections": []
+    },
+    {
+      "frame": 100,
+      "transform": 0.7666666507720947,
+      "intersections": []
+    },
+    {
+      "frame": 103,
+      "transform": 0.800000011920929,
+      "intersections": []
+    },
+    {
+      "frame": 106,
+      "transform": 0.8333333134651184,
+      "intersections": []
+    },
+    {
+      "frame": 109,
+      "transform": 0.8666666746139526,
+      "intersections": []
+    },
+    {
+      "frame": 112,
+      "transform": 0.8999999761581421,
+      "intersections": []
+    },
+    {
+      "frame": 115,
+      "transform": 0.9333333373069763,
+      "intersections": []
+    },
+    {
+      "frame": 118,
+      "transform": 0.9666666388511658,
+      "intersections": []
+    },
+    {
+      "frame": 121,
+      "transform": 1.0,
+      "intersections": []
+    },
+    {
+      "frame": 151,
+      "transform": 1.0,
+      "intersections": []
+    }
+  ],
+  "states": [
+    {
+      "driving": 0,
+      "mask": false,
+      "head_mesh": "CB_Head_AnatomicalSurface_Editable",
+      "suit_mesh": "CB_ContinuousFlightSuit_Editable",
+      "head_bounds": {
+        "min": [
+          -0.08778303861618042,
+          -0.0964369848370552,
+          1.4747544527053833
+        ],
+        "max": [
+          0.12429744750261307,
+          0.09645011276006699,
+          1.7643470764160156
+        ]
+      },
+      "helmet_bounds": {
+        "min": [
+          -0.664754331111908,
+          0.21900007128715515,
+          0.7715357542037964
+        ],
+        "max": [
+          -0.30966728925704956,
+          0.5210000276565552,
+          1.1204651594161987
+        ]
+      },
+      "roof_bounds": {
+        "min": [
+          -0.580000638961792,
+          -0.6970001459121704,
+          1.1500471830368042
+        ],
+        "max": [
+          -0.13999950885772705,
+          0.6970001459121704,
+          1.1949509382247925
+        ]
+      }
+    },
+    {
+      "driving": 0,
+      "mask": true,
+      "head_mesh": "CB_Head_AnatomicalSurface_Editable",
+      "suit_mesh": "CB_ContinuousFlightSuit_Editable",
+      "head_bounds": {
+        "min": [
+          -0.08778303861618042,
+          -0.0964369848370552,
+          1.4747544527053833
+        ],
+        "max": [
+          0.12429744750261307,
+          0.09645011276006699,
+          1.7643470764160156
+        ]
+      },
+      "helmet_bounds": {
+        "min": [
+          -0.17499999701976776,
+          -0.1509999781847,
+          1.5149998664855957
+        ],
+        "max": [
+          0.1850000023841858,
+          0.1510000079870224,
+          1.841999888420105
+        ]
+      },
+      "roof_bounds": {
+        "min": [
+          -0.580000638961792,
+          -0.6970001459121704,
+          1.1500471830368042
+        ],
+        "max": [
+          -0.13999950885772705,
+          0.6970001459121704,
+          1.1949509382247925
+        ]
+      }
+    },
+    {
+      "driving": 1,
+      "mask": false,
+      "head_mesh": "CB_Head_AnatomicalSurface_Editable",
+      "suit_mesh": "CB_ContinuousFlightSuit_Editable",
+      "head_bounds": {
+        "min": [
+          -0.586042582988739,
+          0.27356308698654175,
+          0.7369125485420227
+        ],
+        "max": [
+          -0.3644401431083679,
+          0.46645018458366394,
+          1.0446031093597412
+        ]
+      },
+      "helmet_bounds": {
+        "min": [
+          -0.17499999701976776,
+          -0.1509999781847,
+          1.5149998664855957
+        ],
+        "max": [
+          0.1850000023841858,
+          0.1510000079870224,
+          1.841999888420105
+        ]
+      },
+      "roof_bounds": {
+        "min": [
+          -0.580000638961792,
+          -0.6970001459121704,
+          1.1500471830368042
+        ],
+        "max": [
+          -0.13999950885772705,
+          0.6970001459121704,
+          1.1949509382247925
+        ]
+      }
+    },
+    {
+      "driving": 1,
+      "mask": true,
+      "head_mesh": "CB_Head_AnatomicalSurface_Editable",
+      "suit_mesh": "CB_ContinuousFlightSuit_Editable",
+      "head_bounds": {
+        "min": [
+          -0.586042582988739,
+          0.27356308698654175,
+          0.7369125485420227
+        ],
+        "max": [
+          -0.3644401431083679,
+          0.46645018458366394,
+          1.0446031093597412
+        ]
+      },
+      "helmet_bounds": {
+        "min": [
+          -0.664754331111908,
+          0.21900007128715515,
+          0.7715357542037964
+        ],
+        "max": [
+          -0.30966728925704956,
+          0.5210000276565552,
+          1.1204651594161987
+        ]
+      },
+      "roof_bounds": {
+        "min": [
+          -0.580000638961792,
+          -0.6970001459121704,
+          1.1500471830368042
+        ],
+        "max": [
+          -0.13999950885772705,
+          0.6970001459121704,
+          1.1949509382247925
+        ]
+      }
+    }
+  ],
+  "remaining_intersection_frames": []
+}

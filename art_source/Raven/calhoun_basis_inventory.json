@@ -1,0 +1,645 @@
+{
+  "objects": [
+    {
+      "name": "HondoMacLean_Rig",
+      "type": "ARMATURE",
+      "hidden": false,
+      "materials": []
+    },
+    {
+      "name": "HMC_ArmBand_L",
+      "type": "MESH",
+      "hidden": false,
+      "materials": [
+        "HMC_DeepPurpleFabric"
+      ]
+    },
+    {
+      "name": "HMC_Cuff_L",
+      "type": "MESH",
+      "hidden": false,
+      "materials": [
+        "HMC_GoldenArmor"
+      ]
+    },
+    {
+      "name": "HMC_ArmBand_R",
+      "type": "MESH",
+      "hidden": false,
+      "materials": [
+        "HMC_DeepPurpleFabric"
+      ]
+    },
+    {
+      "name": "HMC_Cuff_R",
+      "type": "MESH",
+      "hidden": false,
+      "materials": [
+        "HMC_GoldenArmor"
+      ]
+    },
+    {
+      "name": "HMC_Belt",
+      "type": "MESH",
+      "hidden": false,
+      "materials": [
+        "HMC_DeepBlueEquipment"
+      ]
+    },
+    {
+      "name": "HMC_BeltBuckle",
+      "type": "MESH",
+      "hidden": false,
+      "materials": [
+        "HMC_GoldFasteners"
+      ]
+    },
+    {
+      "name": "HMC_FabricCollar_1.479",
+      "type": "MESH",
+      "hidden": false,
+      "materials": [
+        "HMC_DeepPurpleFabric"
+      ]
+    },
+    {
+      "name": "HMC_FabricCollar_1.491",
+      "type": "MESH",
+      "hidden": false,
+      "materials": [
+        "HMC_DeepPurpleFabric"
+      ]
+    },
+    {
+      "name": "HMC_Head_AnatomicalSurface",
+      "type": "MESH",
+      "hidden": false,
+      "materials": [
+        "HMC_BrownSkin",
+        "HMC_LipTint"
+      ]
+    },
+    {
+      "name": "HMC_ContinuousFlightSuit",
+      "type": "MESH",
+      "hidden": false,
+      "materials": [
+        "HMC_DeepPurpleFabric"
+      ]
+    },
+    {
+      "name": "HMC_BootSole_L",
+      "type": "MESH",
+      "hidden": false,
+      "materials": [
+        "HMC_BS_Spectrum2_Rubber.002"
+      ]
+    },
+    {
+      "name": "HMC_BootUpper_L",
+      "type": "MESH",
+      "hidden": false,
+      "materials": [
+        "HMC_YellowBootLeather",
+        "HMC_YellowBootLeather"
+      ]
+    },
+    {
+      "name": "HMC_BootWelt_L",
+      "type": "MESH",
+      "hidden": false,
+      "materials": [
+        "HMC_YellowBootLeather"
+      ]
+    },
+    {
+      "name": "HMC_BootSole_R",
+      "type": "MESH",
+      "hidden": false,
+      "materials": [
+        "HMC_BS_Spectrum2_Rubber.002"
+      ]
+    },
+    {
+      "name": "HMC_BootUpper_R",
+      "type": "MESH",
+      "hidden": false,
+      "materials": [
+        "HMC_YellowBootLeather",
+        "HMC_YellowBootLeather"
+      ]
+    },
+    {
+      "name": "HMC_BootWelt_R",
+      "type": "MESH",
+      "hidden": false,
+      "materials": [
+        "HMC_YellowBootLeather"
+      ]
+    },
+    {
+      "name": "HMC_Eyeball_L",
+      "type": "MESH",
+      "hidden": false,
+      "materials": [
+        "HMC_BS_MT4_Sclera.002"
+      ]
+    },
+    {
+      "name": "HMC_Iris_L",
+      "type": "MESH",
+      "hidden": false,
+      "materials": [
+        "HMC_BS_MT4_IrisFibers.002",
+        "HMC_BS_MT4_Pupil.002"
+      ]
+    },
+    {
+      "name": "HMC_Eyeball_R",
+      "type": "MESH",
+      "hidden": false,
+      "materials": [
+        "HMC_BS_MT4_Sclera.002"
+      ]
+    },
+    {
+      "name": "HMC_Iris_R",
+      "type": "MESH",
+      "hidden": false,
+      "materials": [
+        "HMC_BS_MT4_IrisFibers.002",
+        "HMC_BS_MT4_Pupil.002"
+      ]
+    },
+    {
+      "name": "HMC_Brow_NaturalFibers",
+      "type": "MESH",
+      "hidden": false,
+      "materials": [
+        "HMC_ShortBlackHair"
+      ]
+    },
+    {
+      "name": "HMC_GloveSkin_L",
+      "type": "MESH",
+      "hidden": false,
+      "materials": [
+        "HMC_BrownSkin"
+      ]
+    },
+    {
+      "name": "HMC_GloveSkin_R",
+      "type": "MESH",
+      "hidden": false,
+      "materials": [
+        "HMC_BrownSkin"
+      ]
+    },
+    {
+      "name": "HMC_OrangeGaiter_L",
+      "type": "MESH",
+      "hidden": false,
+      "materials": [
+        "HMC_GoldenArmor"
+      ]
+    },
+    {
+      "name": "HMC_OrangeGaiter_R",
+      "type": "MESH",
+      "hidden": false,
+      "materials": [
+        "HMC_GoldenArmor"
+      ]
+    },
+    {
+      "name": "HMC_BlueChestPanel",
+      "type": "MESH",
+      "hidden": false,
+      "materials": [
+        "HMC_DeepBlueEquipment"
+      ]
+    },
+    {
+      "name": "HMC_ChestIndicator_0",
+      "type": "MESH",
+      "hidden": false,
+      "materials": [
+        "HMC_GoldenArmor"
+      ]
+    },
+    {
+      "name": "HMC_ChestIndicator_1",
+      "type": "MESH",
+      "hidden": false,
+      "materials": [
+        "HMC_GoldenArmor"
+      ]
+    },
+    {
+      "name": "HMC_ChestIndicator_2",
+      "type": "MESH",
+      "hidden": false,
+      "materials": [
+        "HMC_GoldenArmor"
+      ]
+    },
+    {
+      "name": "HMC_ChestMedallion",
+      "type": "MESH",
+      "hidden": false,
+      "materials": [
+        "HMC_GoldFasteners"
+      ]
+    },
+    {
+      "name": "HMC_RightHipHolster",
+      "type": "MESH",
+      "hidden": false,
+      "materials": [
+        "HMC_DeepBlueEquipment"
+      ]
+    },
+    {
+      "name": "HMC_CloseCropScalp",
+      "type": "MESH",
+      "hidden": false,
+      "materials": [
+        "HMC_ShortBlackHair"
+      ]
+    },
+    {
+      "name": "HMC_ShortCurlGroom",
+      "type": "MESH",
+      "hidden": false,
+      "materials": [
+        "HMC_ShortBlackHair"
+      ]
+    },
+    {
+      "name": "HMC_FittedKneeGuard_L",
+      "type": "MESH",
+      "hidden": false,
+      "materials": [
+        "HMC_GoldenArmor"
+      ]
+    },
+    {
+      "name": "HMC_FittedKneeGuard_R",
+      "type": "MESH",
+      "hidden": false,
+      "materials": [
+        "HMC_GoldenArmor"
+      ]
+    },
+    {
+      "name": "HMC_FittedYellowBracer_L",
+      "type": "MESH",
+      "hidden": false,
+      "materials": [
+        "HMC_GoldenArmor"
+      ]
+    },
+    {
+      "name": "HMC_FittedYellowBracer_R",
+      "type": "MESH",
+      "hidden": false,
+      "materials": [
+        "HMC_GoldenArmor"
+      ]
+    },
+    {
+      "name": "HMC_SculptedPauldron_L",
+      "type": "MESH",
+      "hidden": false,
+      "materials": [
+        "HMC_GoldenArmor"
+      ]
+    },
+    {
+      "name": "HMC_FormedChestYoke_L",
+      "type": "MESH",
+      "hidden": false,
+      "materials": [
+        "HMC_GoldenArmor"
+      ]
+    },
+    {
+      "name": "HMC_SculptedPauldron_R",
+      "type": "MESH",
+      "hidden": false,
+      "materials": [
+        "HMC_GoldenArmor"
+      ]
+    },
+    {
+      "name": "HMC_FormedChestYoke_R",
+      "type": "MESH",
+      "hidden": false,
+      "materials": [
+        "HMC_GoldenArmor"
+      ]
+    }
+  ],
+  "rig": "HondoMacLean_Rig",
+  "properties": {
+    "mask_on": false,
+    "height_m_estimated": 1.8,
+    "reference_policy": "User supplied illustrations, replica photographs and toy photographs inspected. Anatomical realism and hidden surfaces interpreted, not photo scan.",
+    "asset_type": "Single character with reusable armature; removable Spectrum accessory",
+    "driving_pose": 0.0,
+    "asset_version": "Hondo MacLean V1",
+    "reference_fidelity": "Interpretation of supplied cartoon portraits and toy photos, no specific real-person likeness.",
+    "neck_refinement": "Continuous repaired neck retained; reviewed in standing and truck seated pose.",
+    "gunner_pose": 0.0,
+    "in_vehicle": 0.0,
+    "vehicle_lift": 0.0,
+    "reference_note": "Generic anatomical interpretation of supplied Hondo toy photographs and illustrated portrait. Hurricane purple/yellow outfit; not the red/green variant. Same head/body/rig in standing, driving and gunner poses.",
+    "anatomy_provenance": "Blender Human Base Meshes CC0, inherited editable anatomy via Bruce Sato source; copied into independent Hondo meshes, materials and skeleton, reshaped facial proportions and close-cropped hair."
+  },
+  "drivers": [
+    [
+      "location",
+      [
+        [
+          "a",
+          [
+            [
+              "<bpy_struct, Object(\"HondoMacLean_Rig\") at 0x0000016400C84F20>",
+              "[\"in_vehicle\"]"
+            ]
+          ]
+        ],
+        [
+          "g",
+          [
+            [
+              "<bpy_struct, Object(\"HondoMacLean_Rig\") at 0x0000016400C84F20>",
+              "[\"gunner_pose\"]"
+            ]
+          ]
+        ]
+      ]
+    ],
+    [
+      "location",
+      [
+        [
+          "a",
+          [
+            [
+              "<bpy_struct, Object(\"HondoMacLean_Rig\") at 0x0000016400C84F20>",
+              "[\"in_vehicle\"]"
+            ]
+          ]
+        ],
+        [
+          "g",
+          [
+            [
+              "<bpy_struct, Object(\"HondoMacLean_Rig\") at 0x0000016400C84F20>",
+              "[\"gunner_pose\"]"
+            ]
+          ]
+        ]
+      ]
+    ],
+    [
+      "location",
+      [
+        [
+          "a",
+          [
+            [
+              "<bpy_struct, Object(\"HondoMacLean_Rig\") at 0x0000016400C84F20>",
+              "[\"in_vehicle\"]"
+            ]
+          ]
+        ],
+        [
+          "g",
+          [
+            [
+              "<bpy_struct, Object(\"HondoMacLean_Rig\") at 0x0000016400C84F20>",
+              "[\"gunner_pose\"]"
+            ]
+          ]
+        ],
+        [
+          "l",
+          [
+            [
+              "<bpy_struct, Object(\"HondoMacLean_Rig\") at 0x0000016400C84F20>",
+              "[\"vehicle_lift\"]"
+            ]
+          ]
+        ]
+      ]
+    ]
+  ],
+  "bones": {
+    "pelvis": {
+      "head": [
+        0.0,
+        0.0,
+        0.9300000071525574
+      ],
+      "tail": [
+        0.0,
+        0.0,
+        1.059999942779541
+      ]
+    },
+    "spine": {
+      "head": [
+        0.0,
+        0.0,
+        1.059999942779541
+      ],
+      "tail": [
+        -0.012000000104308128,
+        0.0,
+        1.2699999809265137
+      ]
+    },
+    "chest": {
+      "head": [
+        -0.012000000104308128,
+        0.0,
+        1.2699999809265137
+      ],
+      "tail": [
+        -0.017999999225139618,
+        0.0,
+        1.4800000190734863
+      ]
+    },
+    "neck": {
+      "head": [
+        -0.017999999225139618,
+        0.0,
+        1.4800000190734863
+      ],
+      "tail": [
+        -0.00800000037997961,
+        0.0,
+        1.5499999523162842
+      ]
+    },
+    "head": {
+      "head": [
+        -0.00800000037997961,
+        0.0,
+        1.5499999523162842
+      ],
+      "tail": [
+        -0.00800000037997961,
+        0.0,
+        1.7799999713897705
+      ]
+    },
+    "upper_arm.L": {
+      "head": [
+        -0.004999999888241291,
+        0.19499999284744263,
+        1.434999942779541
+      ],
+      "tail": [
+        0.004999999888241291,
+        0.25,
+        1.1549999713897705
+      ]
+    },
+    "forearm.L": {
+      "head": [
+        0.004999999888241291,
+        0.25,
+        1.1549999713897705
+      ],
+      "tail": [
+        0.02500000037252903,
+        0.2849999964237213,
+        0.9150000214576721
+      ]
+    },
+    "hand.L": {
+      "head": [
+        0.02500000037252903,
+        0.2849999964237213,
+        0.9150000214576721
+      ],
+      "tail": [
+        0.04500000178813934,
+        0.29100000858306885,
+        0.824999988079071
+      ]
+    },
+    "upper_arm.R": {
+      "head": [
+        -0.004999999888241291,
+        -0.19499999284744263,
+        1.434999942779541
+      ],
+      "tail": [
+        0.004999999888241291,
+        -0.25,
+        1.1549999713897705
+      ]
+    },
+    "forearm.R": {
+      "head": [
+        0.004999999888241291,
+        -0.25,
+        1.1549999713897705
+      ],
+      "tail": [
+        0.02500000037252903,
+        -0.2849999964237213,
+        0.9150000214576721
+      ]
+    },
+    "hand.R": {
+      "head": [
+        0.02500000037252903,
+        -0.2849999964237213,
+        0.9150000214576721
+      ],
+      "tail": [
+        0.04500000178813934,
+        -0.29100000858306885,
+        0.824999988079071
+      ]
+    },
+    "thigh.L": {
+      "head": [
+        0.0,
+        0.0949999988079071,
+        0.9549999833106995
+      ],
+      "tail": [
+        0.019999999552965164,
+        0.10999999940395355,
+        0.5350000262260437
+      ]
+    },
+    "shin.L": {
+      "head": [
+        0.019999999552965164,
+        0.10999999940395355,
+        0.5350000262260437
+      ],
+      "tail": [
+        0.0,
+        0.10999999940395355,
+        0.11500000208616257
+      ]
+    },
+    "foot.L": {
+      "head": [
+        0.0,
+        0.10999999940395355,
+        0.11500000208616257
+      ],
+      "tail": [
+        0.14000000059604645,
+        0.10999999940395355,
+        0.05999999865889549
+      ]
+    },
+    "thigh.R": {
+      "head": [
+        0.0,
+        -0.0949999988079071,
+        0.9549999833106995
+      ],
+      "tail": [
+        0.019999999552965164,
+        -0.10999999940395355,
+        0.5350000262260437
+      ]
+    },
+    "shin.R": {
+      "head": [
+        0.019999999552965164,
+        -0.10999999940395355,
+        0.5350000262260437
+      ],
+      "tail": [
+        0.0,
+        -0.10999999940395355,
+        0.11500000208616257
+      ]
+    },
+    "foot.R": {
+      "head": [
+        0.0,
+        -0.10999999940395355,
+        0.11500000208616257
+      ],
+      "tail": [
+        0.14000000059604645,
+        -0.10999999940395355,
+        0.05999999865889549
+      ]
+    }
+  }
+}

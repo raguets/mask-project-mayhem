@@ -1,0 +1,24 @@
+{
+  "source": "G:\\DEV\\mask-project-mayhem\\art_source\\Raven\\Raven_V11_Assembly.blend",
+  "outputs": [
+    {
+      "kind": "vehicle",
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Raven\\Raven_V11_Vehicle.blend",
+      "scene": "Raven_V11_Vehicle",
+      "scene_objects": 717
+    },
+    {
+      "kind": "character",
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Calhoun_Burns\\CalhounBurns_V1.blend",
+      "scene": "CalhounBurns_V1",
+      "scene_objects": 122
+    },
+    {
+      "kind": "mask",
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Calhoun_Burns\\CalhounMask_V1.blend",
+      "scene": "CalhounMask_V1",
+      "scene_objects": 24
+    }
+  ],
+  "expected": 3
+}

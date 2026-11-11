@@ -1,0 +1,161 @@
+{
+  "passed": true,
+  "checks": {
+    "route_length_preserved": true,
+    "road_material_preserved": true,
+    "old_pcg_39_preserved": true,
+    "terrain_natural_tag": true,
+    "render_mips_rebuilt": true,
+    "terrain_material": true,
+    "single_lake": true,
+    "water_nonblocking": true,
+    "water_single_layer": true,
+    "cloud_layer": true,
+    "five_objectives": true,
+    "planting_report_passed": true,
+    "temporal_antialiasing": true,
+    "terrain_lod_cap": true,
+    "physical_luminance_histogram": true,
+    "daylight_intensity": true,
+    "water_v2": true,
+    "vistas_report_passed": true,
+    "distant_ridges_nonblocking": true,
+    "distant_ridges_material": true,
+    "SV_Natural_Trees_A_count": true,
+    "SV_Natural_Trees_A_nonblocking": true,
+    "SV_Natural_Trees_B_count": true,
+    "SV_Natural_Trees_B_nonblocking": true,
+    "SV_Natural_Trees_C_count": true,
+    "SV_Natural_Trees_C_nonblocking": true,
+    "SV_Natural_Trees_D_count": true,
+    "SV_Natural_Trees_D_nonblocking": true,
+    "SV_Natural_Grass_A_count": true,
+    "SV_Natural_Grass_A_nonblocking": true,
+    "SV_Natural_Grass_B_count": true,
+    "SV_Natural_Grass_B_nonblocking": true,
+    "SV_Natural_Grass_C_count": true,
+    "SV_Natural_Grass_C_nonblocking": true,
+    "SV_Natural_Grass_D_count": true,
+    "SV_Natural_Grass_D_nonblocking": true,
+    "SV_Natural_Grass_E_count": true,
+    "SV_Natural_Grass_E_nonblocking": true,
+    "SV_Natural_Grass_F_count": true,
+    "SV_Natural_Grass_F_nonblocking": true,
+    "SV_Natural_Grass_G_count": true,
+    "SV_Natural_Grass_G_nonblocking": true,
+    "SV_Natural_Grass_H_count": true,
+    "SV_Natural_Grass_H_nonblocking": true,
+    "SV_Natural_Shore_Rocks_count": true,
+    "SV_Natural_Shore_Rocks_nonblocking": true,
+    "SV_Natural_Grove_A_count": true,
+    "SV_Natural_Grove_A_nonblocking": true,
+    "SV_Natural_Grove_B_count": true,
+    "SV_Natural_Grove_B_nonblocking": true,
+    "SV_Natural_Grove_C_count": true,
+    "SV_Natural_Grove_C_nonblocking": true,
+    "SV_Natural_Grove_D_count": true,
+    "SV_Natural_Grove_D_nonblocking": true,
+    "514_trees": true,
+    "actual_basin_under_water": true,
+    "eight_shore_samples_above_water": true
+  },
+  "groups": [
+    {
+      "actor": "SV_Natural_Trees_A",
+      "count": 64,
+      "skinned": true
+    },
+    {
+      "actor": "SV_Natural_Trees_B",
+      "count": 84,
+      "skinned": true
+    },
+    {
+      "actor": "SV_Natural_Trees_C",
+      "count": 73,
+      "skinned": true
+    },
+    {
+      "actor": "SV_Natural_Trees_D",
+      "count": 77,
+      "skinned": true
+    },
+    {
+      "actor": "SV_Natural_Grass_A",
+      "count": 1353,
+      "skinned": false
+    },
+    {
+      "actor": "SV_Natural_Grass_B",
+      "count": 1361,
+      "skinned": false
+    },
+    {
+      "actor": "SV_Natural_Grass_C",
+      "count": 1401,
+      "skinned": false
+    },
+    {
+      "actor": "SV_Natural_Grass_D",
+      "count": 1323,
+      "skinned": false
+    },
+    {
+      "actor": "SV_Natural_Grass_E",
+      "count": 1330,
+      "skinned": false
+    },
+    {
+      "actor": "SV_Natural_Grass_F",
+      "count": 1363,
+      "skinned": false
+    },
+    {
+      "actor": "SV_Natural_Grass_G",
+      "count": 1354,
+      "skinned": false
+    },
+    {
+      "actor": "SV_Natural_Grass_H",
+      "count": 1341,
+      "skinned": false
+    },
+    {
+      "actor": "SV_Natural_Shore_Rocks",
+      "count": 115,
+      "skinned": false
+    },
+    {
+      "actor": "SV_Natural_Grove_A",
+      "count": 49,
+      "skinned": true
+    },
+    {
+      "actor": "SV_Natural_Grove_B",
+      "count": 53,
+      "skinned": true
+    },
+    {
+      "actor": "SV_Natural_Grove_C",
+      "count": 46,
+      "skinned": true
+    },
+    {
+      "actor": "SV_Natural_Grove_D",
+      "count": 68,
+      "skinned": true
+    }
+  ],
+  "lake_depth_m": 6.5,
+  "shore_z_cm": [
+    7793.719052796223,
+    6349.346362296681,
+    5648.417830167076,
+    5839.213447824455,
+    5649.979495689331,
+    5648.895756794227,
+    6493.741416800185,
+    5658.446487887122
+  ],
+  "visual_inspection": "separate rendered gate; this is structural validation only"
+}

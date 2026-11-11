@@ -1,5 +1,14 @@
 # Art production instructions
 
+## Raven glazing and roof corrections — 2026-11-11
+
+- Roof width is approximately three equal parts: left door roof wing, fixed center, right door roof wing. The side roof parts follow their doors and become winglets when opened.
+- Inspect `Images de reference/Raven et Calhous Burns/s-l500.jpg` for the curved trapezoidal windshield outline; do not substitute a rectangle.
+- Rear hatch glass has a rounded outline, is very dark, and extends down/back to the reactor cassette. Keep a black structural pillar between each door rear edge and this glass. Preserve the gentler windshield/roof transition and horizontal rear cassette roof.
+- Round the transition between each door window and its roof wing. The wing becomes slightly narrower towards the front, producing a taper; keep it integral to the same door hinge.
+
+User instruction recorded 2026-11-11: each vehicle/character/mask reference folder now contains `Fiche transformation.txt`. Read this file FIRST, before inspecting the images or defining the asset's transformation. Treat it as the user's mechanism specification and still inspect the supplied images for visible geometry.
+
 User preference recorded 2026-11-01:
 
 - Before modeling any subsequent vehicle, character or environment, request visual references from the user if adequate images have not already been supplied. Inspect the images before defining the silhouette or mechanisms.
@@ -64,6 +73,15 @@ User request recorded 2026-11-03: retain the successful vehicle, character and m
 - The black lower structural block must be substantially taller, with structural uprights between the wheels. Do not leave a thin skeletal frame beneath a body lifted too high.
 - Windshield cannon is on the RIGHT side of the vehicle (-Y in the +X-forward project coordinates), superseding the initial left-side instruction. Front headlights telescope as cannons; additional lower front cannons deploy after clearance.
 - Rear toothed disc and ejected covered spare wheel are distinct persistent assemblies. Spare launches rearward, as shown in the supplied video; do not duplicate the wheel or confuse it with the saw.
+
+## Raven requirements recorded 2026-11-11
+
+- Read `Images de reference/Raven et Calhous Burns/Fiche transformation.txt` FIRST. Use the inspected Raven toy images, Corvette C4 photographs and Calhoun illustration/figurine as distinct reference categories.
+- User explicitly authorizes realistic interpretation of Calhoun's anatomy/face and unshown cockpit geometry, without likeness to a real person. Keep one articulated character/head for standing/driving, with a separately visible mask and independent editable sources.
+- All transformation mechanisms move simultaneously: doors fold down on their lower hinges as wings; hood flips around its longitudinal axis; front wheels fold onto the hood, rear wheels under the trunk; four reactors are revealed above the fixed rear lamps. The orange serrated front disc is an independent weapon. Air/water use is intended, not a validated simulation.
+- User corrections: only a SHORT rear section moves VERTICALLY, without hinging/tilting. Doors must be visibly curved, not flat boards. The small black wheel cannons lie in the rim planes as diametric bars, not axle-aligned stubs; deployment is slight.
+- Later corrections supersede the separate-hood interpretation: the ENTIRE FRONT UNIT rotates longitudinally, carrying front bodywork/bumper/lamps AND wheels. The front wheels then only need a secondary tilt onto the inverted unit. Rim cannons are RECESSED at rest and rise45degrees on deployment, pointing forward; do not leave them floating above the wheel face.
+- Finishing corrections: the COMPLETE four-reactor cassette rises only enough to reveal the jets; its black body skin is just the HORIZONTAL top and side walls with rounded transitions, not an independent lifting lid over fixed jets. Do not end the tail with a sloping panel. Keep the hood rigid, smooth and flush with the fender shoulders; remove the fixed projecting cowl ahead of the windscreen and shorten the fixed cabin floor before the rolling front. Close unintended panel slits while preserving functional joints. Double all four rim-gun widths and their recesses. Windshield/roof/rear glass need gentle continuity, with a small front fillet rather than a strongly rounded bubble.
 
 ## Session handoff requirements
 

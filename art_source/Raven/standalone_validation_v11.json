@@ -1,0 +1,183 @@
+{
+  "files": [
+    {
+      "kind": "vehicle",
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Raven\\Raven_V11_Vehicle.blend",
+      "objects": 717,
+      "states": [
+        {
+          "frame": 1,
+          "transform": 0.0,
+          "cover_rotation": [
+            0.0,
+            -0.0,
+            0.0
+          ],
+          "cover_location": [
+            -1.7200000286102295,
+            0.0,
+            0.8450000286102295
+          ]
+        },
+        {
+          "frame": 76,
+          "transform": 0.5,
+          "cover_rotation": [
+            0.0,
+            -0.0,
+            0.0
+          ],
+          "cover_location": [
+            -1.7200000286102295,
+            0.0,
+            1.0049999952316284
+          ]
+        },
+        {
+          "frame": 151,
+          "transform": 1.0,
+          "cover_rotation": [
+            0.0,
+            -0.0,
+            0.0
+          ],
+          "cover_location": [
+            -1.7200000286102295,
+            0.0,
+            1.1649999618530273
+          ]
+        }
+      ],
+      "bad_drivers": [],
+      "checks": {
+        "no_character_armature": true,
+        "four_persistent_tires": true,
+        "cover_no_rotation_all_sampled_states": true,
+        "half_transform_is_continuous": true,
+        "cover_vertical_travel_032m": true,
+        "no_invalid_or_missing_driver_targets": true
+      },
+      "passed": true
+    },
+    {
+      "kind": "character",
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Calhoun_Burns\\CalhounBurns_V1.blend",
+      "objects": 122,
+      "states": [
+        {
+          "driving": 0.0,
+          "mask": false,
+          "same_meshes": true,
+          "mask_hidden": true
+        },
+        {
+          "driving": 0.0,
+          "mask": true,
+          "same_meshes": true,
+          "mask_hidden": false
+        },
+        {
+          "driving": 1.0,
+          "mask": false,
+          "same_meshes": true,
+          "mask_hidden": true
+        },
+        {
+          "driving": 1.0,
+          "mask": true,
+          "same_meshes": true,
+          "mask_hidden": false
+        }
+      ],
+      "bad_drivers": [],
+      "checks": {
+        "one_armature": true,
+        "one_face": true,
+        "no_vehicle_control": true,
+        "same_meshes_four_states": true,
+        "mask_visibility_four_states": true,
+        "weights_preserved": true,
+        "bone_pose_drivers_preserved": true,
+        "no_invalid_or_missing_driver_targets": true
+      },
+      "passed": true
+    },
+    {
+      "kind": "mask",
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Calhoun_Burns\\CalhounMask_V1.blend",
+      "objects": 24,
+      "bad_drivers": [],
+      "checks": {
+        "no_armature": true,
+        "no_face_or_vehicle": true,
+        "head_socket_origin": true,
+        "no_rig_modifiers": true,
+        "no_invalid_or_missing_driver_targets": true
+      },
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "user_mechanism_checks": {
+    "whole_front_includes_body_lamps_and_wheels": true,
+    "no_separate_hood_cam_driver": true,
+    "front_roll_180_degrees": true,
+    "all_four_guns_recessed_angle_zero_at_rest": true,
+    "all_four_guns_45_degrees_deployed": true,
+    "slight_gun_normal_travel_18mm": true
+  },
+  "mechanism_states": [
+    {
+      "frame": 1,
+      "front_roll_degrees": 0.0,
+      "guns": [
+        {
+          "wheel": "FrontL",
+          "angle_degrees": 0.0,
+          "normal_location": 0.9850000143051147
+        },
+        {
+          "wheel": "FrontR",
+          "angle_degrees": 0.0,
+          "normal_location": -0.9850000143051147
+        },
+        {
+          "wheel": "RearL",
+          "angle_degrees": 0.0,
+          "normal_location": 0.9850000143051147
+        },
+        {
+          "wheel": "RearR",
+          "angle_degrees": 0.0,
+          "normal_location": -0.9850000143051147
+        }
+      ]
+    },
+    {
+      "frame": 151,
+      "front_roll_degrees": 180.00000500895632,
+      "guns": [
+        {
+          "wheel": "FrontL",
+          "angle_degrees": 45.00000125223908,
+          "normal_location": 1.003000020980835
+        },
+        {
+          "wheel": "FrontR",
+          "angle_degrees": -45.00000125223908,
+          "normal_location": -1.003000020980835
+        },
+        {
+          "wheel": "RearL",
+          "angle_degrees": 45.00000125223908,
+          "normal_location": 1.003000020980835
+        },
+        {
+          "wheel": "RearR",
+          "angle_degrees": -45.00000125223908,
+          "normal_location": -1.003000020980835
+        }
+      ]
+    }
+  ]
+}

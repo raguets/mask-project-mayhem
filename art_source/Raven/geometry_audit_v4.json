@@ -1,0 +1,229 @@
+{
+  "method": "Evaluated mesh triangle intersections, with separate state/identity/bounds measurements; no full volume containment certification.",
+  "frames": [
+    {
+      "frame": 1,
+      "transform": 0.0,
+      "intersections": []
+    },
+    {
+      "frame": 46,
+      "transform": 0.1666666716337204,
+      "intersections": []
+    },
+    {
+      "frame": 61,
+      "transform": 0.3333333432674408,
+      "intersections": []
+    },
+    {
+      "frame": 76,
+      "transform": 0.5,
+      "intersections": []
+    },
+    {
+      "frame": 91,
+      "transform": 0.6666666865348816,
+      "intersections": []
+    },
+    {
+      "frame": 106,
+      "transform": 0.8333333134651184,
+      "intersections": [
+        {
+          "a": "RV_Hood_ReverseArmor",
+          "b": "RV_FrontTire_L",
+          "triangle_pairs": 446
+        },
+        {
+          "a": "RV_Hood_OuterSkin",
+          "b": "RV_FrontTire_L",
+          "triangle_pairs": 590
+        }
+      ]
+    },
+    {
+      "frame": 121,
+      "transform": 1.0,
+      "intersections": []
+    },
+    {
+      "frame": 151,
+      "transform": 1.0,
+      "intersections": []
+    }
+  ],
+  "states": [
+    {
+      "driving": 0,
+      "mask": false,
+      "head_mesh": "CB_Head_AnatomicalSurface_Editable",
+      "suit_mesh": "CB_ContinuousFlightSuit_Editable",
+      "head_bounds": {
+        "min": [
+          -0.08778303861618042,
+          -0.0964369848370552,
+          1.4747544527053833
+        ],
+        "max": [
+          0.12429744750261307,
+          0.09645011276006699,
+          1.7643470764160156
+        ]
+      },
+      "helmet_bounds": {
+        "min": [
+          -0.8447543382644653,
+          0.21900007128715515,
+          0.7715357542037964
+        ],
+        "max": [
+          -0.48966726660728455,
+          0.5210000276565552,
+          1.1204651594161987
+        ]
+      },
+      "roof_bounds": {
+        "min": [
+          -0.580000638961792,
+          -0.6970001459121704,
+          1.1500471830368042
+        ],
+        "max": [
+          -0.13999950885772705,
+          0.6970001459121704,
+          1.1949509382247925
+        ]
+      }
+    },
+    {
+      "driving": 0,
+      "mask": true,
+      "head_mesh": "CB_Head_AnatomicalSurface_Editable",
+      "suit_mesh": "CB_ContinuousFlightSuit_Editable",
+      "head_bounds": {
+        "min": [
+          -0.08778303861618042,
+          -0.0964369848370552,
+          1.4747544527053833
+        ],
+        "max": [
+          0.12429744750261307,
+          0.09645011276006699,
+          1.7643470764160156
+        ]
+      },
+      "helmet_bounds": {
+        "min": [
+          -0.17499999701976776,
+          -0.1509999781847,
+          1.5149998664855957
+        ],
+        "max": [
+          0.1850000023841858,
+          0.1510000079870224,
+          1.841999888420105
+        ]
+      },
+      "roof_bounds": {
+        "min": [
+          -0.580000638961792,
+          -0.6970001459121704,
+          1.1500471830368042
+        ],
+        "max": [
+          -0.13999950885772705,
+          0.6970001459121704,
+          1.1949509382247925
+        ]
+      }
+    },
+    {
+      "driving": 1,
+      "mask": false,
+      "head_mesh": "CB_Head_AnatomicalSurface_Editable",
+      "suit_mesh": "CB_ContinuousFlightSuit_Editable",
+      "head_bounds": {
+        "min": [
+          -0.7660425901412964,
+          0.27356308698654175,
+          0.7369125485420227
+        ],
+        "max": [
+          -0.5444401502609253,
+          0.46645018458366394,
+          1.0446031093597412
+        ]
+      },
+      "helmet_bounds": {
+        "min": [
+          -0.17499999701976776,
+          -0.1509999781847,
+          1.5149998664855957
+        ],
+        "max": [
+          0.1850000023841858,
+          0.1510000079870224,
+          1.841999888420105
+        ]
+      },
+      "roof_bounds": {
+        "min": [
+          -0.580000638961792,
+          -0.6970001459121704,
+          1.1500471830368042
+        ],
+        "max": [
+          -0.13999950885772705,
+          0.6970001459121704,
+          1.1949509382247925
+        ]
+      }
+    },
+    {
+      "driving": 1,
+      "mask": true,
+      "head_mesh": "CB_Head_AnatomicalSurface_Editable",
+      "suit_mesh": "CB_ContinuousFlightSuit_Editable",
+      "head_bounds": {
+        "min": [
+          -0.7660425901412964,
+          0.27356308698654175,
+          0.7369125485420227
+        ],
+        "max": [
+          -0.5444401502609253,
+          0.46645018458366394,
+          1.0446031093597412
+        ]
+      },
+      "helmet_bounds": {
+        "min": [
+          -0.8447543382644653,
+          0.21900007128715515,
+          0.7715357542037964
+        ],
+        "max": [
+          -0.48966726660728455,
+          0.5210000276565552,
+          1.1204651594161987
+        ]
+      },
+      "roof_bounds": {
+        "min": [
+          -0.580000638961792,
+          -0.6970001459121704,
+          1.1500471830368042
+        ],
+        "max": [
+          -0.13999950885772705,
+          0.6970001459121704,
+          1.1949509382247925
+        ]
+      }
+    }
+  ],
+  "remaining_intersection_frames": [
+    106
+  ]
+}

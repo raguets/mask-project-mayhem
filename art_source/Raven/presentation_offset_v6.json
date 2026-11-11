@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "measurements": [
+    {
+      "hover": 0.0,
+      "car_offset_z": 0.0,
+      "pilot_z": -0.14000000059604645
+    },
+    {
+      "hover": 0.6,
+      "car_offset_z": 0.6000000238418579,
+      "pilot_z": 0.46000003814697266
+    }
+  ]
+}

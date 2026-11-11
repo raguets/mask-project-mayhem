@@ -4,6 +4,30 @@ Toutes ces transformations se font en même temps :
 - Les roues basculent pour se retrouver sur la carrosserie du capot (à l'avant) et sous la carrosserie du coffre (à l'arrière). Les pattes noires sur les enjoliveurs sortent légèrement pour faire des petits canons
 - L'arrière du coffre, au dessus des phares, se soulève pour faire apparaître 4 réacteurs
 
+Précisions vitrage et toit utilisateur du 11 novembre 2026 :
+- Le toit est composé d'environ trois tiers : partie de porte gauche, centre fixe, partie de porte droite. Les deux parties latérales prolongent les portes et forment des ailerons une fois ouvertes.
+- Le pare-brise n'est pas rectangulaire : reprendre le contour courbe visible sur s-l500.jpg.
+- La lunette arrière descend jusqu'au bloc des réacteurs ; son contour est plus arrondi et son vitrage très sombre.
+- Un montant noir sépare l'arrière de chaque porte de la lunette arrière.
+- Un raccord arrondi relie la vitre latérale à sa partie de toit/aileron. L'aileron est légèrement plus fin à l'avant, avec une pente progressive.
+
 L'avant de la voiture dispose d'un fente au milieu pour lancer un disque orange denté : ceci ne fait pas partie de la transformation mais est une des armes du véhicule
 
 Note : raven une fois transformé peut aller dans les airs mais aussi sur l'eau
+
+Précisions utilisateur du 11 novembre 2026 :
+- Seule une section COURTE à l'arrière se relève, en TRANSLATION VERTICALE. Elle ne doit pas basculer ni pivoter.
+- Les portes doivent être nettement incurvées, pas plates, y compris lorsqu'elles deviennent les ailes.
+- Les petits canons noirs des roues sont parallèles au plan des jantes : des barres traversant le centre comme un diamètre, et non des embouts dirigés selon l'axe de la roue. Leur sortie reste légère.
+
+Précisions supplémentaires utilisateur, prioritaires :
+- C'est TOUT LE BLOC AVANT qui pivote, pas le seul capot : carrosserie avant, pare-chocs, phares et roues avant. Les roues sont ainsi déjà portées vers le haut par l'avant retourné ; elles n'ont plus qu'à basculer vers le dessus dans un second mouvement relatif.
+- Les canons diamétraux sont INCRUSTÉS dans les jantes au repos, pas posés au-dessus. Au déploiement ils se relèvent à45 degrés pour tirer vers l'avant.
+
+Corrections de finition utilisateur :
+- Le BLOC COMPLET des quatre réacteurs remonte ensemble, juste assez pour les révéler. La carrosserie noire de ce bloc comprend seulement le dessus et les côtés, avec un raccord arrondi entre eux ; ce n'est pas un couvercle séparé qui monte au-dessus de réacteurs fixes.
+- Le dessus de ce bloc et la terminaison arrière doivent être HORIZONTAUX, sans finir en pente.
+- Le capot reste rigide et sans déformation ; il est au même niveau que les bords, pas enfoncé. Supprimer la partie fixe qui dépassait devant le pare-brise.
+- Raccourcir le plancher fixe : il ne doit pas se prolonger sous l'avant pivotant. Reprendre les fentes entre les panneaux.
+- Doubler la largeur des quatre canons de roues, avec des logements conservant leur encastrement.
+- Pare-brise, toit et lunette doivent se raccorder avec une légère continuité arrondie ; éviter tant les cassures anguleuses que l'arrondi trop prononcé entre pare-brise et toit.

@@ -15,7 +15,7 @@ void ACustomGameMode::InitGame(const FString& MapName, const FString& Options, F
 	Super::InitGame(MapName, Options, ErrorMessage);
 	TrainingBotCount = FMath::Clamp(UGameplayStatics::GetIntOption(Options, TEXT("Bots"), 0), 0, 6);
 	const FString Choice=UGameplayStatics::ParseOption(Options,TEXT("Vehicle"));
-	bMaskFleet=Choice==TEXT("Thunderhawk") || Choice==TEXT("Rhino") || Choice==TEXT("Hurricane");
+	bMaskFleet=Choice==TEXT("Thunderhawk") || Choice==TEXT("Rhino") || Choice==TEXT("Hurricane") || Choice==TEXT("Raven");
 	if (bMaskFleet)
 	{
 		const FString Path=FString::Printf(TEXT("/Game/MASK/%s/BP_%s.BP_%s_C"),*Choice,*Choice,*Choice);
@@ -31,9 +31,13 @@ UClass* ACustomGameMode::GetDefaultPawnClassForController_Implementation(AContro
 	{
 		if(const auto* Bot=Cast<AVehicleBotController>(InController))
 		{
-			const TCHAR* Paths[]={TEXT("/Game/MASK/Rhino/BP_Rhino.BP_Rhino_C"),TEXT("/Game/MASK/Hurricane/BP_Hurricane.BP_Hurricane_C"),TEXT("/Game/MASK/Thunderhawk/BP_Thunderhawk.BP_Thunderhawk_C")};
-			const TCHAR* Path=Paths[Bot->TrainingIndex%3];
-			if(auto* Class=LoadClass<APawn>(nullptr,Path)) { return Class; }
+			const TCHAR* Paths[]={TEXT("/Game/MASK/Thunderhawk/BP_Thunderhawk.BP_Thunderhawk_C"),TEXT("/Game/MASK/Rhino/BP_Rhino.BP_Rhino_C"),TEXT("/Game/MASK/Hurricane/BP_Hurricane.BP_Hurricane_C"),TEXT("/Game/MASK/Raven/BP_Raven.BP_Raven_C")};
+			TArray<UClass*> Companions;
+			for(const TCHAR* Path:Paths)
+			{
+				if(auto* Class=LoadClass<APawn>(nullptr,Path);Class && Class!=DefaultPawnClass) { Companions.Add(Class); }
+			}
+			if(!Companions.IsEmpty()) { return Companions[Bot->TrainingIndex%Companions.Num()]; }
 		}
 	}
 	return Super::GetDefaultPawnClassForController_Implementation(InController);

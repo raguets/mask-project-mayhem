@@ -1,0 +1,37 @@
+﻿{
+    "exit_code":  0,
+    "report":  {
+                   "passed":  true,
+                   "complete":  true,
+                   "stage":  12,
+                   "checks":  {
+                                  "authority_and_real_map":  true,
+                                  "out_of_order_extraction_ignored":  true,
+                                  "departure_advances_once":  true,
+                                  "pinewood_targets_eagle":  true,
+                                  "recon_spawns_existing_escort":  true,
+                                  "quarry_activates_ai":  true,
+                                  "real_projectiles_neutralize_escort":  true,
+                                  "stationary_pickup_advances_to_extract":  true,
+                                  "extraction_success_and_save":  true,
+                                  "one_local_reward":  true,
+                                  "reward_not_repeated":  true,
+                                  "retry_rebuilds_clean_mission":  true,
+                                  "all_players_down_fails":  true,
+                                  "no_timeout":  true
+                              },
+                   "telemetry":  {
+                                     "projectile_speed":  2500,
+                                     "projectile_gravity":  196,
+                                     "enemy_bounds_extent":  "X=58.875 Y=80.376 Z=35.851",
+                                     "enemy_location":  "X=66614.969 Y=97265.612 Z=10000.165",
+                                     "aim_weapon":  "BP_Weapon_Launcher_C_0",
+                                     "muzzle":  "X=66794.460 Y=95631.823 Z=10152.509",
+                                     "target":  "X=66614.631 Y=97264.105 Z=10042.949",
+                                     "aim_dot":  0.99966936448867216,
+                                     "enemy_health":  0
+                                 },
+                   "method":  "Actual mission on saved map. Explicit player placement and weapon aim between fixtures, not driven route/manual aim. Xbox fire pulses retain ammo/cooldown/projectile/health code. Enemy navigation frozen only during ballistic aim. Save slot isolated by CLI. Timers, ordering, pickup, extraction, death and retry use production code."
+               },
+    "passed":  true
+}

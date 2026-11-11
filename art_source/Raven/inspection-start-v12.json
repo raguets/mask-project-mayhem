@@ -1,0 +1,100 @@
+{
+  "status": "success",
+  "result": {
+    "name": "Raven_V1_ReferenceStudy",
+    "object_count": 834,
+    "objects": [
+      {
+        "name": "Raven_Control",
+        "type": "EMPTY",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "RV_FrontUpperShoulder_L",
+        "type": "MESH",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "RV_RearUpperShoulder_L",
+        "type": "MESH",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "RV_InnerWheelArch_L_-1.22",
+        "type": "MESH",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "RV_InnerWheelArch_L_1.22",
+        "type": "MESH",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "RV_RockerSill_L",
+        "type": "MESH",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "RV_DoorWing_Hinge_L",
+        "type": "EMPTY",
+        "location": [
+          0.0,
+          0.87,
+          0.34
+        ]
+      },
+      {
+        "name": "RV_DoorWing_Panel_L",
+        "type": "MESH",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "RV_DoorWing_InnerSkin_L",
+        "type": "MESH",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "RV_DoorWing_Glass_L",
+        "type": "MESH",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "materials_count": 43
+  }
+}

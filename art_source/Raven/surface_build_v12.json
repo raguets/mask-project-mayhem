@@ -1,0 +1,11 @@
+{
+  "source": "G:\\DEV\\mask-project-mayhem\\art_source\\Raven\\Raven_V12_Assembly.blend",
+  "session_backup": "G:\\DEV\\mask-project-mayhem\\art_source\\Raven\\Session_before_V12_20261111_195221.blend",
+  "cassette_lift_m": 0.207,
+  "cassette_nozzle_radius_m": 0.088,
+  "black_shell_corner_radius_m": 0.055,
+  "gun_width_m": 0.09,
+  "fixed_floor_xmax_m": 0.425,
+  "fixed_tunnel_xmax_m": 0.405,
+  "validation": "pending evaluated geometry checks and actual renders"
+}

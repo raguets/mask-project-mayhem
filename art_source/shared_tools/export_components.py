@@ -61,7 +61,12 @@ def present(scene,spec,rig):
                 sp=area.spaces.active;sp.shading.type='MATERIAL';sp.overlay.show_extras=False
                 sp.region_3d.view_location=cfg.get('focus',[0,0,.8]);sp.region_3d.view_distance=cfg.get('distance',3)
                 if cfg.get('camera'):sp.region_3d.view_rotation=(Vector(cfg['camera'])-Vector(cfg['target'])).to_track_quat('Z','Y')
-            elif area.type=='PROPERTIES' and rig:area.spaces.active.context='OBJECT';area.spaces.active.pin_id=rig
+            elif area.type=='PROPERTIES' and rig:
+                area.spaces.active.pin_id=rig
+                # Context choices depend on the saved editor pin/selection.
+                # A presentation panel must not abort an otherwise valid export.
+                try:area.spaces.active.context='OBJECT'
+                except TypeError:pass
 try:
     for spec in job['components']:
         bpy.ops.wm.open_mainfile(filepath=str(source));scene=bpy.context.scene
