@@ -31,12 +31,14 @@ struct FMaskDynamicsSettings
 	UPROPERTY(EditAnywhere, meta=(ClampMin="1",ClampMax="90")) float HighSpeedTurnRateDegrees = 30.f;
 	UPROPERTY(EditAnywhere) float MaximumPitchDegrees = 22.f;
 	UPROPERTY(EditAnywhere) float AutomaticTakeoffHeightM = 2.f;
-	UPROPERTY(EditAnywhere) float LandingDescentMPS = 5.f;
+	UPROPERTY(EditAnywhere) float LandingDescentMPS = 8.f;
 	UPROPERTY(EditAnywhere) float RotorcraftClimbMPS = 7.f;
 	/** Zero selects a mass-dependent estimate; Chaos still supplies gears, tires and brakes. */
 	UPROPERTY(EditAnywhere) float RoadPowerKW = 0.f;
 	UPROPERTY(EditAnywhere) float RoadDragAreaM2 = 0.f;
 	UPROPERTY(EditAnywhere) float RollingResistance = .015f;
+	/** Assisted balance for a motorcycle's two actual contact wheels; no hidden extra tires. */
+	UPROPERTY(EditAnywhere) bool bTwoWheelRoadBalance = false;
 };
 
 USTRUCT(BlueprintType)
@@ -58,6 +60,10 @@ struct FMaskVehiclePart
 	UPROPERTY(EditAnywhere, BlueprintReadOnly) TArray<FTransform> Samples;
 	/** FL, FR, RL, RR: animated from the corresponding Chaos wheel, not a duplicate tire. */
 	UPROPERTY(EditAnywhere, BlueprintReadOnly) FName Wheel;
+	/** Continuous rotor rotation at full deployment, in source vehicle centimetres. */
+	UPROPERTY(EditAnywhere) FVector RotorAxis = FVector::ZeroVector;
+	UPROPERTY(EditAnywhere) FVector RotorPivot = FVector::ZeroVector;
+	UPROPERTY(EditAnywhere) float RotorSpeedDegrees = 0.f;
 };
 
 /** Asset-specific geometry, timing and physics; no Thunderhawk mechanisms in the mode protocol. */

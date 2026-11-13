@@ -1,0 +1,7 @@
+{
+  "status": "success",
+  "result": {
+    "executed": true,
+    "result": "Infos: Enregistré sous « Condor_V20_Vehicle.blend »\nInfos: Enregistré sous « BradTurner_V2.blend »\nInfos: Enregistré sous « HocusPocus_V2.blend »\nREOPENED_COMPONENTS [{\"kind\": \"vehicle\", \"file\": \"G:\\\\DEV\\\\mask-project-mayhem\\\\art_source\\\\Condor\\\\Condor_V20_Vehicle.blend\", \"actual_reopened\": true, \"invalid_dependencies\": [], \"armatures\": 0, \"passed\": true}, {\"kind\": \"character\", \"file\": \"G:\\\\DEV\\\\mask-project-mayhem\\\\art_source\\\\Brad_Turner\\\\BradTurner_V2.blend\", \"actual_reopened\": true, \"invalid_dependencies\": [], \"armatures\": 1, \"four_states\": [{\"pose\": 0.0, \"mask\": false, \"same_head_and_body\": true}, {\"pose\": 0.0, \"mask\": true, \"same_head_and_body\": true}, {\"pose\": 1.0, \"mask\": false, \"same_head_and_body\": true}, {\"pose\": 1.0, \"mask\": true, \"same_head_and_body\": true}], \"passed\": true}, {\"kind\": \"mask\", \"file\": \"G:\\\\DEV\\\\mask-project-mayhem\\\\art_source\\\\Brad_Turner\\\\HocusPocus_V2.blend\", \"actual_reopened\": true, \"invalid_dependencies\": [], \"armatures\": 0, \"passed\": true}]\n"
+  }
+}

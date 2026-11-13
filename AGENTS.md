@@ -83,6 +83,30 @@ User request recorded 2026-11-03: retain the successful vehicle, character and m
 - Later corrections supersede the separate-hood interpretation: the ENTIRE FRONT UNIT rotates longitudinally, carrying front bodywork/bumper/lamps AND wheels. The front wheels then only need a secondary tilt onto the inverted unit. Rim cannons are RECESSED at rest and rise45degrees on deployment, pointing forward; do not leave them floating above the wheel face.
 - Finishing corrections: the COMPLETE four-reactor cassette rises only enough to reveal the jets; its black body skin is just the HORIZONTAL top and side walls with rounded transitions, not an independent lifting lid over fixed jets. Do not end the tail with a sloping panel. Keep the hood rigid, smooth and flush with the fender shoulders; remove the fixed projecting cowl ahead of the windscreen and shorten the fixed cabin floor before the rolling front. Close unintended panel slits while preserving functional joints. Double all four rim-gun widths and their recesses. Windshield/roof/rear glass need gentle continuity, with a small front fillet rather than a strongly rounded bubble.
 
+## Condor requirements recorded 2026-11-12
+
+- Read `Images de reference/Condor et Brad Turner/Fiche transformation.txt` before the images. Original toy, modern reissue, cartoon captures and illustrated Brad portrait are distinct reference categories.
+- Condor is road / helicopter: maximum airborne braking permits stationary hover; forward flight pitches the nose slightly down. Rhino/Hurricane are road / road, Thunderhawk/Raven road / airplane with no stationary hover. Asset controls describe this intent; gameplay integration needs separate validation.
+- Major transformations start simultaneously: skids deploy while seat descends, side rotor supports pivot upward from low behind the seat and then blades unfold, rear wheel pivots aft into the tail rotor, cannon extends from the front opening.
+- Rear cowl is one continuous block with planar/chamfered faces, narrower and thinner aft; lower edge slopes down toward the seat base. No tubular tail. Blades fold against that block alongside their pivoting supports, never extending aft as stored blades.
+- Front has slightly pronounced planar faces and a single square opening for the retractable cannon; no twin headlights. Windshield has a central facet and two angled side returns extending down to the green chassis.
+- Brad realistic anatomy/face interpretation explicitly authorized 2026-11-12 without likeness to a real person. Keep one editable character/head/rig for standing/riding with independent removable Hocus Pocus mask. Black visor belongs to the mask and completely closes the eye opening; retain the face beneath.
+- Further corrections: front nose tapers more; rear road wheel sits slightly farther forward. The rear wheel fork must stay attached to a fixed chassis pivot throughout deployment. Hocus Pocus covers the WHOLE face; mouth/chin shell must be compact and closely fitted, not a bulky open frame.
+- Shorten the whole green rear block and adapt rotor storage/supports accordingly. Seat and landing skids belong to the same descending block. Nose must be short and follow the windshield's descending profile.
+- Hocus Pocus must be one continuous piece, including a diving-goggle-shaped black visor and a flared lower part fitting the upper shoulders. Preserve head/shoulder weighting for both poses; no open eye or mouth frame.
+- Rear block must narrow progressively aft, allowing rotor-support arms to converge instead of staying parallel. A central rotating hub at their top must visibly carry both blades. Whole front/windshield must be narrower and finer. Mask neck must not pinch; provide an integrated raised vocal grille before the mouth, in the spirit of Darth Vader's mask.
+- Front weapon-opening face tilts slightly upward (lower edge farther forward). Helmet front/side transition is squarer with softened corners; diving-goggle visor stays ONLY on front face, never wraps onto the yellow sides.
+- Latest correction supersedes simultaneous wheel start: rear wheel must tuck well under the green tail in road mode; raise the rotor support partially BEFORE swinging the wheel aft, with geometric wheel/support clearance checks. All visible wheel meshes must follow the actual wheel hub, not merely an empty controller.
+- Landing skids must sit directly below the seat cassette and remain rigidly attached to that same moving block; no independent lateral spread. Reduce helmet posterior bulk and add raised vertical black rods on both yellow sides, keeping one connected mask mesh.
+- Rear wheel swing arms are TWO wider, flat bars mounted INBOARD beneath the rear chassis, hidden externally when stored. Keep their hinges below the body skin, not as external rods or exposed upper mounts.
+
+## Condor gameplay corrections — 2026-11-12
+
+- Allow conversion while driving, with mechanism clearance still checked. Do not require a stop for Condor.
+- Road/airplane and road/helicopter return must descend directly and promptly, with a short near-ground flare. Condor must brake promptly when returning to road and accelerate more readily in flight.
+- Retain motorcycle cornering lean but damp left/right oscillations. Check alternating turns, not only straight driving.
+- User reports folded rotor support entering the road. Check actual ground clearance under suspension, pitch and lean; a static source bounding box alone is insufficient evidence of a fix.
+
 ## Session handoff requirements
 
 User preference recorded 2026-11-09:

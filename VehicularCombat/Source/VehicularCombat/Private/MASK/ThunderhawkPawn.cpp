@@ -16,6 +16,7 @@
 #include "Engine/World.h"
 #include "Engine/SkeletalMesh.h"
 #include "GameFramework/PlayerController.h"
+#include "GameFramework/GameStateBase.h"
 #include "GameFramework/SpringArmComponent.h"
 
 UThunderhawkFrontWheel::UThunderhawkFrontWheel()
@@ -83,6 +84,11 @@ void AThunderhawkPawn::OnConstruction(const FTransform& Transform)
 	// Keep full lock for recovery/parking; progressively soften it at road speed.
 	auto* Steering=Movement->SteeringSetup.SteeringCurve.GetRichCurve();Steering->Reset();
 	Steering->AddKey(0.f,1.f);Steering->AddKey(20.f,1.f);Steering->AddKey(60.f,.65f);Steering->AddKey(120.f,.3f);
+	if(Definition->Dynamics.bTwoWheelRoadBalance)
+	{
+		Movement->SteeringInputRate.RiseRate=2.f;Movement->SteeringInputRate.FallRate=3.f;
+		Steering->Reset();Steering->AddKey(0.f,.7f);Steering->AddKey(20.f,.5f);Steering->AddKey(60.f,.2f);Steering->AddKey(120.f,.08f);
+	}
 	Movement->TransmissionSetup.ForwardGearRatios={3.8f,2.4f,1.6f,1.15f,.85f};
 	Movement->TransmissionSetup.ReverseGearRatios={3.8f};
 	Movement->TransmissionSetup.FinalRatio=3.4f;
@@ -243,6 +249,7 @@ int32 AThunderhawkPawn::FleetSelectionGroup() const
 	if(Definition->VehicleName.StartsWith(TEXT("Rhino"))) { return 11; }
 	if(Definition->VehicleName==TEXT("Hurricane")) { return 20; }
 	if(Definition->VehicleName==TEXT("Raven")) { return 30; }
+	if(Definition->VehicleName==TEXT("Condor")) { return 40; }
 	return 100;
 }
 const UChaosVehicleWheel* AThunderhawkPawn::AnimationWheel(FName Name) const
@@ -294,7 +301,7 @@ void AThunderhawkPawn::Tick(float DeltaSeconds)
 			const float Frame=Progress*(Part.Samples.Num()-1);const int32 A=FMath::FloorToInt(Frame),B=FMath::Min(A+1,Part.Samples.Num()-1);
 			Transform.Blend(Part.Samples[A],Part.Samples[B],Frame-A);
 		}
-		if (!Part.Wheel.IsNone())
+		if (!Part.Wheel.IsNone() && !(Part.RotorSpeedDegrees>0.f && Progress>.01f))
 		{
 			const int32 Index=Definition->Wheels.IsEmpty()?(Part.Wheel==TEXT("FL") ? 0 : Part.Wheel==TEXT("FR") ? 1 : Part.Wheel==TEXT("RL") ? 2 : 3):Definition->Wheels.IndexOfByPredicate([&Part](const FMaskWheelDefinition& W){return W.Name==Part.Wheel;});
 			if (const auto* Wheel=AnimationWheel(Part.Wheel);Index!=INDEX_NONE && Wheel)
@@ -305,6 +312,12 @@ void AThunderhawkPawn::Tick(float DeltaSeconds)
 				// from its stowed position to the deployed physics-wheel centres.
 				Transform=Transform*FTransform(Rotation,Pivot+FVector(0,0,Wheel->GetSuspensionOffset())-Rotation.RotateVector(Pivot));
 			}
+		}
+		if(Part.RotorSpeedDegrees>0.f && Progress>.98f)
+		{
+			const double Now=GetWorld()->GetGameState()?GetWorld()->GetGameState()->GetServerWorldTimeSeconds():GetWorld()->GetTimeSeconds();
+			const FQuat Rotation(Part.RotorAxis.GetSafeNormal(),FMath::DegreesToRadians(FMath::Fmod(static_cast<float>(Now)*Part.RotorSpeedDegrees,360.f)));
+			Transform=Transform*FTransform(Rotation,Part.RotorPivot-Rotation.RotateVector(Part.RotorPivot));
 		}
 		Transform.AddToTranslation(Definition->VisualOriginOffset);VisualParts[I]->SetRelativeTransform(Transform);
 	}

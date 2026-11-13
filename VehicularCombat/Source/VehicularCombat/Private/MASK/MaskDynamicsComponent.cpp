@@ -68,6 +68,20 @@ void UMaskDynamicsComponent::Simulate(float DeltaSeconds)
 		if(Car->HasAuthority() && Move->bMechanicalSimEnabled)
 		{
 			bool Contact=false;for(int32 I=0;I<Move->Wheels.Num();++I) { Contact|=Move->GetWheelState(I).bInContact; }
+			if(Contact && Tune.bTwoWheelRoadBalance)
+			{
+				const FQuat Orientation=Body->GetComponentQuat();
+				FRotator Balanced=Body->GetComponentRotation();
+				Balanced.Roll=Move->GetSteeringInput()*8.f*FMath::Clamp(static_cast<float>(Velocity.Size2D())/8.f,0.f,1.f);
+				// A narrow two-contact motorcycle needs a critically damped roll
+				// controller, independent of the slower aircraft attitude response.
+				// Unreal's positive FRotator roll is a NEGATIVE local-X
+				// quaternion rotation. Match the physical torque convention.
+				const float RollError=-FMath::DegreesToRadians(FMath::FindDeltaAngleDegrees(Body->GetComponentRotation().Roll,Balanced.Roll));
+				const float RollRate=Orientation.UnrotateVector(Body->GetPhysicsAngularVelocityInRadians()).X;
+				const float RollAcceleration=FMath::Clamp(RollError*36.f-RollRate*12.f,-20.f,20.f);
+				Body->AddTorqueInRadians(Orientation.RotateVector(FVector(RollAcceleration*Body->GetInertiaTensor().X,0,0)));
+			}
 			if(Contact && Velocity.Size2D()>.1f)
 			{
 				const float Area=Tune.RoadDragAreaM2>0?Tune.RoadDragAreaM2:(Mass>4000.f?4.5f:.8f);
@@ -89,11 +103,18 @@ void UMaskDynamicsComponent::Simulate(float DeltaSeconds)
 	if(Height>=Tune.AutomaticTakeoffHeightM && Velocity.Z>=0.f) { bTakeoffAssist=false; }
 	if(Landing) { bTakeoffAssist=false; }
 	const float Minimum=Rotor?0.f:FMath::Max(5.f,Tune.MinimumAirspeedMPS);
-	TargetAirspeedMPS=FMath::Clamp(TargetAirspeedMPS+PilotInput.X*Tune.SpeedCommandRateMPS2*DeltaSeconds,Minimum,FMath::Max(Minimum,Maximum));
-	if(Landing && Rotor) { TargetAirspeedMPS=FMath::Max(0.f,TargetAirspeedMPS-Tune.SpeedCommandRateMPS2*DeltaSeconds); }
+	TargetAirspeedMPS=FMath::Clamp(TargetAirspeedMPS+(Landing?0.f:PilotInput.X)*Tune.SpeedCommandRateMPS2*DeltaSeconds,Minimum,FMath::Max(Minimum,Maximum));
+	if(Landing) { TargetAirspeedMPS=FMath::Max(Minimum,TargetAirspeedMPS-FMath::Max(10.f,Tune.SpeedCommandRateMPS2)*DeltaSeconds); }
 	float DesiredVZ=Rotor?PilotInput.Z*Tune.RotorcraftClimbMPS:Velocity.Size2D()*FMath::Sin(FMath::DegreesToRadians(PilotInput.Z*Tune.MaximumPitchDegrees));
 	if(bTakeoffAssist && FoundGround) { DesiredVZ=FMath::Max(DesiredVZ,FMath::Clamp((Tune.AutomaticTakeoffHeightM-Height)*2.f,.3f,2.5f)); }
-	if(Landing) { DesiredVZ=FoundGround?-FMath::Clamp((Height-.10f)*.9f,.3f,FMath::Max(.3f,Tune.LandingDescentMPS)):-FMath::Max(.3f,Tune.LandingDescentMPS); }
+	if(Landing)
+	{
+		// Descend decisively at height; a braking-distance profile reserves the
+		// final metres for a continuous flare rather than a long slow crawl.
+		const float BrakingAcceleration=Rotor?3.f:4.f;
+		const float FlareSpeed=FMath::Sqrt(2.f*BrakingAcceleration*FMath::Max(0.f,Height-.06f));
+		DesiredVZ=FoundGround?-FMath::Clamp(FlareSpeed,.4f,FMath::Max(.4f,Tune.LandingDescentMPS)):-FMath::Max(.4f,Tune.LandingDescentMPS);
+	}
 	// Powered lift/flight assistance is intentional for M.A.S.K. conversions.
 	// All changes act through bounded forces: no SetVelocity/SetRotation in flight.
 	const float Gravity=-GetWorld()->GetGravityZ()*.01f;
@@ -108,7 +129,7 @@ void UMaskDynamicsComponent::Simulate(float DeltaSeconds)
 		// requested endpoints rather than settling a few km/h below the target.
 		const float DragCompensation=.5f*1.225f*Tune.AirDragAreaM2*FMath::Square(ForwardSpeed)+Mass*Body->GetLinearDamping()*ForwardSpeed;
 		const float AvailableThrust=FMath::Min(Tune.MaximumThrustN,Tune.FlightPowerKW*1000.f/FMath::Max(ForwardSpeed,8.f));
-		const float Thrust=FMath::Clamp((TargetAirspeedMPS-ForwardSpeed)*Mass*.7f+DragCompensation,-Mass*3.f,AvailableThrust);
+		const float Thrust=FMath::Clamp((TargetAirspeedMPS-ForwardSpeed)*Mass*.7f+DragCompensation,-Mass*(Landing?5.f:3.f),AvailableThrust);
 		Force+=Car->GetActorForwardVector()*Thrust;
 		// Assisted M.A.S.K. flight keeps a usable U-turn even at maximum speed.
 		// The matching lateral force below turns the trajectory as well as the nose.
@@ -127,8 +148,14 @@ void UMaskDynamicsComponent::Simulate(float DeltaSeconds)
 	{
 		const FVector Heading=Car->GetActorForwardVector().GetSafeNormal2D();
 		const FVector DesiredHorizontal=Heading*TargetAirspeedMPS;
-		const FVector Acceleration=FVector(DesiredHorizontal.X-Velocity.X,DesiredHorizontal.Y-Velocity.Y,0).GetClampedToMaxSize(4.f);
-		const FVector DesiredUp=FVector(Acceleration.X,Acceleration.Y,Gravity+VerticalAcceleration).GetSafeNormal();
+		const float TiltLimit=FMath::Max(.1f,Gravity+VerticalAcceleration)*FMath::Tan(FMath::DegreesToRadians(FMath::Clamp(Landing?30.f:Tune.MaximumPitchDegrees,1.f,35.f)));
+		const FVector DampingCompensation=FVector(Velocity.X,Velocity.Y,0)*Body->GetLinearDamping();
+		const FVector Acceleration=((DesiredHorizontal-FVector(Velocity.X,Velocity.Y,0))*2.f+DampingCompensation).GetClampedToMaxSize(FMath::Min(Landing?6.f:4.5f,TiltLimit));
+		FVector DesiredUp=FVector(Acceleration.X,Acceleration.Y,Gravity+VerticalAcceleration).GetSafeNormal();
+		if(Landing && FoundGround && Height<2.5f && Ground.ImpactNormal.Z>.82f)
+		{
+			DesiredUp=FMath::Lerp(DesiredUp,Ground.ImpactNormal,FMath::Clamp((2.5f-Height)/2.f,0.f,1.f)).GetSafeNormal();
+		}
 		// Preserve the rotor thrust axis first; prioritizing heading would flatten
 		// the commanded forward tilt and prevent horizontal acceleration.
 		Attitude=FRotationMatrix::MakeFromZX(DesiredUp,Heading).Rotator();DesiredYawRate=PilotInput.Y*FMath::DegreesToRadians(Tune.LowSpeedTurnRateDegrees);
@@ -145,6 +172,12 @@ void UMaskDynamicsComponent::Simulate(float DeltaSeconds)
 	}
 	Body->AddForce(Force*100.f);
 	ApplyAttitude(Body,Attitude.Quaternion(),FVector::UpVector*DesiredYawRate);
-	if(Landing && FoundGround && Height<.12f && FMath::Abs(Velocity.Z)<2.f && FVector::DotProduct(Car->GetActorUpVector(),Ground.ImpactNormal)>.96f)
+	// A motorcycle remains balanced upright across a hillside rather than
+	// laying its frame parallel to the slope. Requiring the latter can leave
+	// a stopped, grounded Condor in Landing forever.
+	const bool TouchdownAligned=Rotor?
+		(Car->GetActorUpVector().Z>.94f && Ground.ImpactNormal.Z>.65f):
+		FVector::DotProduct(Car->GetActorUpVector(),Ground.ImpactNormal)>.96f;
+	if(Landing && FoundGround && Height<.12f && FMath::Abs(Velocity.Z)<2.f && TouchdownAligned)
 	{ Car->Modes->NotifyTouchdown(); }
 }

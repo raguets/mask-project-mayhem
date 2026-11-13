@@ -1,0 +1,879 @@
+{
+  "source": "G:\\DEV\\mask-project-mayhem\\art_source\\Condor\\Condor_V18_Assembly.blend",
+  "scope": "61 phases: actual wheel surfaces vs support/blades/rear cowl plus support-edge samples against conservative wheel cylinder. Rigid skid transforms relative to seat block. Not all vehicle/floor collisions.",
+  "samples": [
+    {
+      "frame": 1,
+      "transform": 0.0,
+      "wheel_phase": 0.0,
+      "mast_angle_deg": 0.0,
+      "wheel_center": [
+        -1.0499999523162842,
+        0.0,
+        0.35499998927116394
+      ],
+      "wheel_support_triangles": 0,
+      "wheel_support_cylinder_samples": 0,
+      "wheel_body_triangles": 0
+    },
+    {
+      "frame": 3,
+      "transform": 0.0008240742026828229,
+      "wheel_phase": 0.0,
+      "mast_angle_deg": 0.10300925117360268,
+      "wheel_center": [
+        -1.0499999523162842,
+        0.0,
+        0.35499998927116394
+      ],
+      "wheel_support_triangles": 0,
+      "wheel_support_cylinder_samples": 0,
+      "wheel_body_triangles": 0
+    },
+    {
+      "frame": 5,
+      "transform": 0.0032592597417533398,
+      "wheel_phase": 0.0,
+      "mast_angle_deg": 0.40740739041718504,
+      "wheel_center": [
+        -1.0499999523162842,
+        0.0,
+        0.35499998927116394
+      ],
+      "wheel_support_triangles": 0,
+      "wheel_support_cylinder_samples": 0,
+      "wheel_body_triangles": 0
+    },
+    {
+      "frame": 7,
+      "transform": 0.007250000257045031,
+      "wheel_phase": 0.0,
+      "mast_angle_deg": 0.906249882923096,
+      "wheel_center": [
+        -1.0499999523162842,
+        0.0,
+        0.35499998927116394
+      ],
+      "wheel_support_triangles": 0,
+      "wheel_support_cylinder_samples": 0,
+      "wheel_body_triangles": 0
+    },
+    {
+      "frame": 9,
+      "transform": 0.012740742415189743,
+      "wheel_phase": 0.0,
+      "mast_angle_deg": 1.5925924340075228,
+      "wheel_center": [
+        -1.0499999523162842,
+        0.0,
+        0.35499998927116394
+      ],
+      "wheel_support_triangles": 0,
+      "wheel_support_cylinder_samples": 0,
+      "wheel_body_triangles": 0
+    },
+    {
+      "frame": 11,
+      "transform": 0.019675929099321365,
+      "wheel_phase": 0.0,
+      "mast_angle_deg": 2.4594907156361194,
+      "wheel_center": [
+        -1.0499999523162842,
+        0.0,
+        0.35499998927116394
+      ],
+      "wheel_support_triangles": 0,
+      "wheel_support_cylinder_samples": 0,
+      "wheel_body_triangles": 0
+    },
+    {
+      "frame": 13,
+      "transform": 0.02800000086426735,
+      "wheel_phase": 0.0,
+      "mast_angle_deg": 3.4999993859183345,
+      "wheel_center": [
+        -1.0499999523162842,
+        0.0,
+        0.35499998927116394
+      ],
+      "wheel_support_triangles": 0,
+      "wheel_support_cylinder_samples": 0,
+      "wheel_body_triangles": 0
+    },
+    {
+      "frame": 15,
+      "transform": 0.03765740618109703,
+      "wheel_phase": 0.0,
+      "mast_angle_deg": 4.707174703789205,
+      "wheel_center": [
+        -1.0499999523162842,
+        0.0,
+        0.35499998927116394
+      ],
+      "wheel_support_triangles": 0,
+      "wheel_support_cylinder_samples": 0,
+      "wheel_body_triangles": 0
+    },
+    {
+      "frame": 17,
+      "transform": 0.04859260097146034,
+      "wheel_phase": 0.0,
+      "mast_angle_deg": 6.0740739954008225,
+      "wheel_center": [
+        -1.0499999523162842,
+        0.0,
+        0.35499998927116394
+      ],
+      "wheel_support_triangles": 0,
+      "wheel_support_cylinder_samples": 0,
+      "wheel_body_triangles": 0
+    },
+    {
+      "frame": 19,
+      "transform": 0.060750000178813934,
+      "wheel_phase": 0.0,
+      "mast_angle_deg": 7.59374882393317,
+      "wheel_center": [
+        -1.0499999523162842,
+        0.0,
+        0.35499998927116394
+      ],
+      "wheel_support_triangles": 0,
+      "wheel_support_cylinder_samples": 0,
+      "wheel_body_triangles": 0
+    },
+    {
+      "frame": 21,
+      "transform": 0.07407408207654953,
+      "wheel_phase": 0.0,
+      "mast_angle_deg": 9.259258009642222,
+      "wheel_center": [
+        -1.0499999523162842,
+        0.0,
+        0.35499998927116394
+      ],
+      "wheel_support_triangles": 0,
+      "wheel_support_cylinder_samples": 0,
+      "wheel_body_triangles": 0
+    },
+    {
+      "frame": 23,
+      "transform": 0.08850926160812378,
+      "wheel_phase": 0.0,
+      "mast_angle_deg": 11.063655677028898,
+      "wheel_center": [
+        -1.0499999523162842,
+        0.0,
+        0.35499998927116394
+      ],
+      "wheel_support_triangles": 0,
+      "wheel_support_cylinder_samples": 0,
+      "wheel_body_triangles": 0
+    },
+    {
+      "frame": 25,
+      "transform": 0.10400000214576721,
+      "wheel_phase": 0.0,
+      "mast_angle_deg": 12.999997231254588,
+      "wheel_center": [
+        -1.0499999523162842,
+        0.0,
+        0.35499998927116394
+      ],
+      "wheel_support_triangles": 0,
+      "wheel_support_cylinder_samples": 0,
+      "wheel_body_triangles": 0
+    },
+    {
+      "frame": 27,
+      "transform": 0.12049075216054916,
+      "wheel_phase": 0.0,
+      "mast_angle_deg": 15.061340638801619,
+      "wheel_center": [
+        -1.0499999523162842,
+        0.0,
+        0.35499998927116394
+      ],
+      "wheel_support_triangles": 0,
+      "wheel_support_cylinder_samples": 0,
+      "wheel_body_triangles": 0
+    },
+    {
+      "frame": 29,
+      "transform": 0.137925922870636,
+      "wheel_phase": 0.0,
+      "mast_angle_deg": 17.240734474642213,
+      "wheel_center": [
+        -1.0499999523162842,
+        0.0,
+        0.35499998927116394
+      ],
+      "wheel_support_triangles": 0,
+      "wheel_support_cylinder_samples": 0,
+      "wheel_body_triangles": 0
+    },
+    {
+      "frame": 31,
+      "transform": 0.15625,
+      "wheel_phase": 0.0,
+      "mast_angle_deg": 19.53124524299516,
+      "wheel_center": [
+        -1.0499999523162842,
+        0.0,
+        0.35499998927116394
+      ],
+      "wheel_support_triangles": 0,
+      "wheel_support_cylinder_samples": 0,
+      "wheel_body_triangles": 0
+    },
+    {
+      "frame": 33,
+      "transform": 0.17540743947029114,
+      "wheel_phase": 0.0,
+      "mast_angle_deg": 21.925924933927263,
+      "wheel_center": [
+        -1.0499999523162842,
+        0.0,
+        0.35499998927116394
+      ],
+      "wheel_support_triangles": 0,
+      "wheel_support_cylinder_samples": 0,
+      "wheel_body_triangles": 0
+    },
+    {
+      "frame": 35,
+      "transform": 0.19534260034561157,
+      "wheel_phase": 0.0,
+      "mast_angle_deg": 24.41782041486345,
+      "wheel_center": [
+        -1.0499999523162842,
+        0.0,
+        0.35499998927116394
+      ],
+      "wheel_support_triangles": 0,
+      "wheel_support_cylinder_samples": 0,
+      "wheel_body_triangles": 0
+    },
+    {
+      "frame": 37,
+      "transform": 0.2160000056028366,
+      "wheel_phase": 0.0,
+      "mast_angle_deg": 26.999995628701573,
+      "wheel_center": [
+        -1.0499999523162842,
+        0.0,
+        0.35499998927116394
+      ],
+      "wheel_support_triangles": 0,
+      "wheel_support_cylinder_samples": 0,
+      "wheel_body_triangles": 0
+    },
+    {
+      "frame": 39,
+      "transform": 0.237324059009552,
+      "wheel_phase": 0.0,
+      "mast_angle_deg": 29.665502565508437,
+      "wheel_center": [
+        -1.0499999523162842,
+        0.0,
+        0.35499998927116394
+      ],
+      "wheel_support_triangles": 0,
+      "wheel_support_cylinder_samples": 0,
+      "wheel_body_triangles": 0
+    },
+    {
+      "frame": 41,
+      "transform": 0.25925928354263306,
+      "wheel_phase": 0.0,
+      "mast_angle_deg": 32.4074034606346,
+      "wheel_center": [
+        -1.0499999523162842,
+        0.0,
+        0.35499998927116394
+      ],
+      "wheel_support_triangles": 0,
+      "wheel_support_cylinder_samples": 0,
+      "wheel_body_triangles": 0
+    },
+    {
+      "frame": 43,
+      "transform": 0.281749963760376,
+      "wheel_phase": 0.0,
+      "mast_angle_deg": 35.21873664376853,
+      "wheel_center": [
+        -1.0499999523162842,
+        0.0,
+        0.35499998927116394
+      ],
+      "wheel_support_triangles": 0,
+      "wheel_support_cylinder_samples": 0,
+      "wheel_body_triangles": 0
+    },
+    {
+      "frame": 45,
+      "transform": 0.3047407269477844,
+      "wheel_phase": 0.0,
+      "mast_angle_deg": 38.092586548375586,
+      "wheel_center": [
+        -1.0499999523162842,
+        0.0,
+        0.35499998927116394
+      ],
+      "wheel_support_triangles": 0,
+      "wheel_support_cylinder_samples": 0,
+      "wheel_body_triangles": 0
+    },
+    {
+      "frame": 47,
+      "transform": 0.3281759023666382,
+      "wheel_phase": 0.0,
+      "mast_angle_deg": 41.02197955131318,
+      "wheel_center": [
+        -1.0499999523162842,
+        0.0,
+        0.35499998927116394
+      ],
+      "wheel_support_triangles": 0,
+      "wheel_support_cylinder_samples": 0,
+      "wheel_body_triangles": 0
+    },
+    {
+      "frame": 49,
+      "transform": 0.35199999809265137,
+      "wheel_phase": 0.0,
+      "mast_angle_deg": 43.99998984076293,
+      "wheel_center": [
+        -1.0499999523162842,
+        0.0,
+        0.35499998927116394
+      ],
+      "wheel_support_triangles": 0,
+      "wheel_support_cylinder_samples": 0,
+      "wheel_body_triangles": 0
+    },
+    {
+      "frame": 51,
+      "transform": 0.37615740299224854,
+      "wheel_phase": 0.025245942175388336,
+      "mast_angle_deg": 47.01966428414976,
+      "wheel_center": [
+        -1.0519264936447144,
+        0.0,
+        0.3533497154712677
+      ],
+      "wheel_support_triangles": 0,
+      "wheel_support_cylinder_samples": 0,
+      "wheel_body_triangles": 0
+    },
+    {
+      "frame": 53,
+      "transform": 0.4005926251411438,
+      "wheel_phase": 0.06342598050832748,
+      "mast_angle_deg": 50.07406682437151,
+      "wheel_center": [
+        -1.0619521141052246,
+        0.0,
+        0.3449801504611969
+      ],
+      "wheel_support_triangles": 0,
+      "wheel_support_cylinder_samples": 0,
+      "wheel_body_triangles": 0
+    },
+    {
+      "frame": 55,
+      "transform": 0.42524999380111694,
+      "wheel_phase": 0.10195311903953552,
+      "mast_angle_deg": 53.15623749866396,
+      "wheel_center": [
+        -1.0805294513702393,
+        0.0,
+        0.33039146661758423
+      ],
+      "wheel_support_triangles": 0,
+      "wheel_support_cylinder_samples": 0,
+      "wheel_body_triangles": 0
+    },
+    {
+      "frame": 57,
+      "transform": 0.45007404685020447,
+      "wheel_phase": 0.14074069261550903,
+      "mast_angle_deg": 56.259243665019525,
+      "wheel_center": [
+        -1.1077616214752197,
+        0.0,
+        0.31098341941833496
+      ],
+      "wheel_support_triangles": 0,
+      "wheel_support_cylinder_samples": 0,
+      "wheel_body_triangles": 0
+    },
+    {
+      "frame": 59,
+      "transform": 0.4750092029571533,
+      "wheel_phase": 0.17970187962055206,
+      "mast_angle_deg": 59.37613902105232,
+      "wheel_center": [
+        -1.1437406539916992,
+        0.0,
+        0.28855830430984497
+      ],
+      "wheel_support_triangles": 0,
+      "wheel_support_cylinder_samples": 0,
+      "wheel_body_triangles": 0
+    },
+    {
+      "frame": 61,
+      "transform": 0.5,
+      "wheel_phase": 0.2187499850988388,
+      "mast_angle_deg": 62.49998750966018,
+      "wheel_center": [
+        -1.1883902549743652,
+        0.0,
+        0.2652158737182617
+      ],
+      "wheel_support_triangles": 0,
+      "wheel_support_cylinder_samples": 0,
+      "wheel_body_triangles": 18
+    },
+    {
+      "frame": 63,
+      "transform": 0.5249907970428467,
+      "wheel_phase": 0.25779813528060913,
+      "mast_angle_deg": 65.62383599826804,
+      "wheel_center": [
+        -1.2413215637207031,
+        0.0,
+        0.24321720004081726
+      ],
+      "wheel_support_triangles": 0,
+      "wheel_support_cylinder_samples": 0,
+      "wheel_body_triangles": 40
+    },
+    {
+      "frame": 65,
+      "transform": 0.5499260425567627,
+      "wheel_phase": 0.29675939679145813,
+      "mast_angle_deg": 68.74073818449,
+      "wheel_center": [
+        -1.3017288446426392,
+        0.0,
+        0.22481867671012878
+      ],
+      "wheel_support_triangles": 0,
+      "wheel_support_cylinder_samples": 0,
+      "wheel_body_triangles": 30
+    },
+    {
+      "frame": 67,
+      "transform": 0.5747500061988831,
+      "wheel_phase": 0.3355468809604645,
+      "mast_angle_deg": 71.84373410556181,
+      "wheel_center": [
+        -1.3683454990386963,
+        0.0,
+        0.2120874673128128
+      ],
+      "wheel_support_triangles": 0,
+      "wheel_support_cylinder_samples": 0,
+      "wheel_body_triangles": 38
+    },
+    {
+      "frame": 69,
+      "transform": 0.599407434463501,
+      "wheel_phase": 0.3740741014480591,
+      "mast_angle_deg": 74.92591161004343,
+      "wheel_center": [
+        -1.4394726753234863,
+        0.0,
+        0.20671848952770233
+      ],
+      "wheel_support_triangles": 0,
+      "wheel_support_cylinder_samples": 0,
+      "wheel_body_triangles": 6
+    },
+    {
+      "frame": 71,
+      "transform": 0.6238425374031067,
+      "wheel_phase": 0.4122539758682251,
+      "mast_angle_deg": 77.98030390498143,
+      "wheel_center": [
+        -1.5130754709243774,
+        0.0,
+        0.20987984538078308
+      ],
+      "wheel_support_triangles": 0,
+      "wheel_support_cylinder_samples": 0,
+      "wheel_body_triangles": 0
+    },
+    {
+      "frame": 73,
+      "transform": 0.6480000019073486,
+      "wheel_phase": 0.44999998807907104,
+      "mast_angle_deg": 80.99998517855742,
+      "wheel_center": [
+        -1.586940050125122,
+        0.0,
+        0.22210997343063354
+      ],
+      "wheel_support_triangles": 0,
+      "wheel_support_cylinder_samples": 0,
+      "wheel_body_triangles": 0
+    },
+    {
+      "frame": 75,
+      "transform": 0.6718240976333618,
+      "wheel_phase": 0.48722514510154724,
+      "mast_angle_deg": 83.97799546800718,
+      "wheel_center": [
+        -1.6588581800460815,
+        0.0,
+        0.2432822287082672
+      ],
+      "wheel_support_triangles": 0,
+      "wheel_support_cylinder_samples": 0,
+      "wheel_body_triangles": 0
+    },
+    {
+      "frame": 77,
+      "transform": 0.6952592134475708,
+      "wheel_phase": 0.5238425135612488,
+      "mast_angle_deg": 86.9073816407556,
+      "wheel_center": [
+        -1.726817011833191,
+        0.0,
+        0.2726450562477112
+      ],
+      "wheel_support_triangles": 0,
+      "wheel_support_cylinder_samples": 0,
+      "wheel_body_triangles": 0
+    },
+    {
+      "frame": 79,
+      "transform": 0.7182499766349792,
+      "wheel_phase": 0.5597655773162842,
+      "mast_angle_deg": 89.78123154536266,
+      "wheel_center": [
+        -1.789159893989563,
+        0.0,
+        0.30892688035964966
+      ],
+      "wheel_support_triangles": 0,
+      "wheel_support_cylinder_samples": 0,
+      "wheel_body_triangles": 0
+    },
+    {
+      "frame": 81,
+      "transform": 0.7407408356666565,
+      "wheel_phase": 0.5949075818061829,
+      "mast_angle_deg": 89.99998201391065,
+      "wheel_center": [
+        -1.844693899154663,
+        0.0,
+        0.3504876494407654
+      ],
+      "wheel_support_triangles": 0,
+      "wheel_support_cylinder_samples": 0,
+      "wheel_body_triangles": 0
+    },
+    {
+      "frame": 83,
+      "transform": 0.762675940990448,
+      "wheel_phase": 0.6291811466217041,
+      "mast_angle_deg": 89.99998201391065,
+      "wheel_center": [
+        -1.8927395343780518,
+        0.0,
+        0.3954923152923584
+      ],
+      "wheel_support_triangles": 0,
+      "wheel_support_cylinder_samples": 0,
+      "wheel_body_triangles": 0
+    },
+    {
+      "frame": 85,
+      "transform": 0.7839999198913574,
+      "wheel_phase": 0.6624999642372131,
+      "mast_angle_deg": 89.99998201391065,
+      "wheel_center": [
+        -1.9331183433532715,
+        0.0,
+        0.44208216667175293
+      ],
+      "wheel_support_triangles": 0,
+      "wheel_support_cylinder_samples": 0,
+      "wheel_body_triangles": 0
+    },
+    {
+      "frame": 87,
+      "transform": 0.8046573996543884,
+      "wheel_phase": 0.694777250289917,
+      "mast_angle_deg": 89.99998201391065,
+      "wheel_center": [
+        -1.9660872220993042,
+        0.0,
+        0.48851948976516724
+      ],
+      "wheel_support_triangles": 0,
+      "wheel_support_cylinder_samples": 0,
+      "wheel_body_triangles": 0
+    },
+    {
+      "frame": 89,
+      "transform": 0.8245925903320312,
+      "wheel_phase": 0.7259259223937988,
+      "mast_angle_deg": 89.99998201391065,
+      "wheel_center": [
+        -1.9922409057617188,
+        0.0,
+        0.5332947373390198
+      ],
+      "wheel_support_triangles": 0,
+      "wheel_support_cylinder_samples": 0,
+      "wheel_body_triangles": 0
+    },
+    {
+      "frame": 91,
+      "transform": 0.84375,
+      "wheel_phase": 0.755859375,
+      "mast_angle_deg": 89.99998201391065,
+      "wheel_center": [
+        -2.0124008655548096,
+        0.0,
+        0.5751930475234985
+      ],
+      "wheel_support_triangles": 0,
+      "wheel_support_cylinder_samples": 0,
+      "wheel_body_triangles": 0
+    },
+    {
+      "frame": 93,
+      "transform": 0.8620740175247192,
+      "wheel_phase": 0.7844906449317932,
+      "mast_angle_deg": 89.99998201391065,
+      "wheel_center": [
+        -2.0275020599365234,
+        0.0,
+        0.6133200526237488
+      ],
+      "wheel_support_triangles": 0,
+      "wheel_support_cylinder_samples": 0,
+      "wheel_body_triangles": 0
+    },
+    {
+      "frame": 95,
+      "transform": 0.8795092105865479,
+      "wheel_phase": 0.8117331266403198,
+      "mast_angle_deg": 89.99998201391065,
+      "wheel_center": [
+        -2.0384976863861084,
+        0.0,
+        0.6470969319343567
+      ],
+      "wheel_support_triangles": 0,
+      "wheel_support_cylinder_samples": 0,
+      "wheel_body_triangles": 0
+    },
+    {
+      "frame": 97,
+      "transform": 0.8960000276565552,
+      "wheel_phase": 0.8375000357627869,
+      "mast_angle_deg": 89.99998201391065,
+      "wheel_center": [
+        -2.0462849140167236,
+        0.0,
+        0.676231324672699
+      ],
+      "wheel_support_triangles": 0,
+      "wheel_support_cylinder_samples": 0,
+      "wheel_body_triangles": 0
+    },
+    {
+      "frame": 99,
+      "transform": 0.9114906787872314,
+      "wheel_phase": 0.8617041707038879,
+      "mast_angle_deg": 89.99998201391065,
+      "wheel_center": [
+        -2.0516538619995117,
+        0.0,
+        0.7006779909133911
+      ],
+      "wheel_support_triangles": 0,
+      "wheel_support_cylinder_samples": 0,
+      "wheel_body_triangles": 0
+    },
+    {
+      "frame": 101,
+      "transform": 0.9259259700775146,
+      "wheel_phase": 0.8842593431472778,
+      "mast_angle_deg": 89.99998201391065,
+      "wheel_center": [
+        -2.0552632808685303,
+        0.0,
+        0.7205943465232849
+      ],
+      "wheel_support_triangles": 0,
+      "wheel_support_cylinder_samples": 0,
+      "wheel_body_triangles": 0
+    },
+    {
+      "frame": 103,
+      "transform": 0.9392499923706055,
+      "wheel_phase": 0.905078113079071,
+      "mast_angle_deg": 89.99998201391065,
+      "wheel_center": [
+        -2.057633399963379,
+        0.0,
+        0.7362945079803467
+      ],
+      "wheel_support_triangles": 0,
+      "wheel_support_cylinder_samples": 0,
+      "wheel_body_triangles": 0
+    },
+    {
+      "frame": 105,
+      "transform": 0.9514075517654419,
+      "wheel_phase": 0.9240742921829224,
+      "mast_angle_deg": 89.99998201391065,
+      "wheel_center": [
+        -2.0591561794281006,
+        0.0,
+        0.74820876121521
+      ],
+      "wheel_support_triangles": 0,
+      "wheel_support_cylinder_samples": 0,
+      "wheel_body_triangles": 0
+    },
+    {
+      "frame": 107,
+      "transform": 0.9623426198959351,
+      "wheel_phase": 0.9411603212356567,
+      "mast_angle_deg": 89.99998201391065,
+      "wheel_center": [
+        -2.0601119995117188,
+        0.0,
+        0.7568461298942566
+      ],
+      "wheel_support_triangles": 0,
+      "wheel_support_cylinder_samples": 0,
+      "wheel_body_triangles": 0
+    },
+    {
+      "frame": 109,
+      "transform": 0.972000002861023,
+      "wheel_phase": 0.956250011920929,
+      "mast_angle_deg": 89.99998201391065,
+      "wheel_center": [
+        -2.060695171356201,
+        0.0,
+        0.7627602815628052
+      ],
+      "wheel_support_triangles": 0,
+      "wheel_support_cylinder_samples": 0,
+      "wheel_body_triangles": 0
+    },
+    {
+      "frame": 111,
+      "transform": 0.9803241491317749,
+      "wheel_phase": 0.9692564606666565,
+      "mast_angle_deg": 89.99998201391065,
+      "wheel_center": [
+        -2.0610361099243164,
+        0.0,
+        0.7665200233459473
+      ],
+      "wheel_support_triangles": 0,
+      "wheel_support_cylinder_samples": 0,
+      "wheel_body_triangles": 0
+    },
+    {
+      "frame": 113,
+      "transform": 0.9872591495513916,
+      "wheel_phase": 0.9800924062728882,
+      "mast_angle_deg": 89.99998201391065,
+      "wheel_center": [
+        -2.06122088432312,
+        0.0,
+        0.7686767578125
+      ],
+      "wheel_support_triangles": 0,
+      "wheel_support_cylinder_samples": 0,
+      "wheel_body_triangles": 0
+    },
+    {
+      "frame": 115,
+      "transform": 0.9927500486373901,
+      "wheel_phase": 0.9886719584465027,
+      "mast_angle_deg": 89.99998201391065,
+      "wheel_center": [
+        -2.061309337615967,
+        0.0,
+        0.7697404623031616
+      ],
+      "wheel_support_triangles": 0,
+      "wheel_support_cylinder_samples": 0,
+      "wheel_body_triangles": 0
+    },
+    {
+      "frame": 117,
+      "transform": 0.9967406988143921,
+      "wheel_phase": 0.9949073195457458,
+      "mast_angle_deg": 89.99998201391065,
+      "wheel_center": [
+        -2.061342716217041,
+        0.0,
+        0.7701500654220581
+      ],
+      "wheel_support_triangles": 0,
+      "wheel_support_cylinder_samples": 0,
+      "wheel_body_triangles": 0
+    },
+    {
+      "frame": 119,
+      "transform": 0.9991759061813354,
+      "wheel_phase": 0.9987123608589172,
+      "mast_angle_deg": 89.99998201391065,
+      "wheel_center": [
+        -2.0613505840301514,
+        0.0,
+        0.7702475786209106
+      ],
+      "wheel_support_triangles": 0,
+      "wheel_support_cylinder_samples": 0,
+      "wheel_body_triangles": 0
+    },
+    {
+      "frame": 121,
+      "transform": 1.0,
+      "wheel_phase": 1.0,
+      "mast_angle_deg": 89.99998201391065,
+      "wheel_center": [
+        -2.0613515377044678,
+        0.0,
+        0.7702544331550598
+      ],
+      "wheel_support_triangles": 0,
+      "wheel_support_cylinder_samples": 0,
+      "wheel_body_triangles": 0
+    }
+  ],
+  "first_wheel_motion": {
+    "frame": 51,
+    "transform": 0.37615740299224854,
+    "wheel_phase": 0.025245942175388336,
+    "mast_angle_deg": 47.01966428414976,
+    "wheel_center": [
+      -1.0519264936447144,
+      0.0,
+      0.3533497154712677
+    ],
+    "wheel_support_triangles": 0,
+    "wheel_support_cylinder_samples": 0,
+    "wheel_body_triangles": 0
+  },
+  "max_skid_relative_transform_error": 0.0,
+  "mask_head_triangle_pairs_standing": 0,
+  "passed_wheel_support": true,
+  "passed_wheel_body": false,
+  "passed_rigid_skids": true
+}

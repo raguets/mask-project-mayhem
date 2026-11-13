@@ -1,0 +1,441 @@
+{
+  "status": "complete",
+  "elapsed_seconds": 77.94,
+  "scene_file": "G:\\DEV\\mask-project-mayhem\\art_source\\Condor\\Condor_V15_Assembly.blend",
+  "job": {
+    "rig": "Condor_Control",
+    "rig_properties": [
+      "transform",
+      "rotor_angle",
+      "forward_flight",
+      "hover_height"
+    ],
+    "actors": {
+      "BradTurner_Rig": [
+        "driving_pose",
+        "mask_on",
+        "in_vehicle"
+      ]
+    },
+    "output_dir": "G:\\DEV\\mask-project-mayhem\\art_source\\Condor\\renders\\v15_review",
+    "width": 1100,
+    "height": 900,
+    "samples": 24,
+    "device": "GPU",
+    "views": [
+      {
+        "name": "road",
+        "frame": 1,
+        "properties": {},
+        "camera": [
+          3.8,
+          -4.5,
+          2.6
+        ],
+        "target": [
+          -0.2,
+          0,
+          0.85
+        ],
+        "lens": 48
+      },
+      {
+        "name": "flight",
+        "frame": 121,
+        "properties": {},
+        "camera": [
+          3.8,
+          -4.5,
+          2.8
+        ],
+        "target": [
+          -0.2,
+          0,
+          0.85
+        ],
+        "lens": 48
+      },
+      {
+        "name": "flight_side",
+        "frame": 121,
+        "properties": {},
+        "camera": [
+          -0.3,
+          -7,
+          1.8
+        ],
+        "target": [
+          -0.2,
+          0,
+          0.85
+        ],
+        "lens": 48
+      },
+      {
+        "name": "transition",
+        "frame": 61,
+        "properties": {},
+        "camera": [
+          3,
+          -4,
+          2.6
+        ],
+        "target": [
+          -0.2,
+          0,
+          0.85
+        ],
+        "lens": 48
+      },
+      {
+        "name": "brad_standing_False",
+        "frame": 1,
+        "properties": {},
+        "camera": [
+          3,
+          -3,
+          1.7
+        ],
+        "target": [
+          0,
+          0,
+          0.94
+        ],
+        "lens": 58,
+        "hide_collections": [
+          "Condor_Vehicle"
+        ],
+        "object_states": {
+          "BradTurner_Rig": {
+            "properties": {
+              "driving_pose": 0.0,
+              "mask_on": false,
+              "in_vehicle": 0.0
+            }
+          }
+        }
+      },
+      {
+        "name": "brad_standing_True",
+        "frame": 1,
+        "properties": {},
+        "camera": [
+          3,
+          -3,
+          1.7
+        ],
+        "target": [
+          0,
+          0,
+          0.94
+        ],
+        "lens": 58,
+        "hide_collections": [
+          "Condor_Vehicle"
+        ],
+        "object_states": {
+          "BradTurner_Rig": {
+            "properties": {
+              "driving_pose": 0.0,
+              "mask_on": true,
+              "in_vehicle": 0.0
+            }
+          }
+        }
+      },
+      {
+        "name": "riding_face",
+        "frame": 1,
+        "properties": {},
+        "camera": [
+          2.9,
+          -3.5,
+          2.3
+        ],
+        "target": [
+          0,
+          0,
+          1.02
+        ],
+        "lens": 58,
+        "object_states": {
+          "BradTurner_Rig": {
+            "properties": {
+              "mask_on": false
+            }
+          }
+        }
+      },
+      {
+        "name": "road_rear",
+        "frame": 1,
+        "properties": {},
+        "camera": [
+          -4,
+          -3,
+          2.6
+        ],
+        "target": [
+          -0.3,
+          0,
+          0.8
+        ],
+        "lens": 50
+      },
+      {
+        "name": "mask_close",
+        "frame": 1,
+        "properties": {},
+        "camera": [
+          1.6,
+          -1.4,
+          1.8
+        ],
+        "target": [
+          0,
+          0,
+          1.65
+        ],
+        "lens": 80,
+        "hide_collections": [
+          "Condor_Vehicle"
+        ],
+        "object_states": {
+          "BradTurner_Rig": {
+            "properties": {
+              "driving_pose": 0.0,
+              "mask_on": true,
+              "in_vehicle": 0.0
+            }
+          }
+        }
+      }
+    ]
+  },
+  "renders": [
+    {
+      "view": {
+        "name": "road",
+        "frame": 1,
+        "properties": {},
+        "camera": [
+          3.8,
+          -4.5,
+          2.6
+        ],
+        "target": [
+          -0.2,
+          0,
+          0.85
+        ],
+        "lens": 48
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Condor\\renders\\v15_review\\road.png",
+      "size_bytes": 1126921
+    },
+    {
+      "view": {
+        "name": "flight",
+        "frame": 121,
+        "properties": {},
+        "camera": [
+          3.8,
+          -4.5,
+          2.8
+        ],
+        "target": [
+          -0.2,
+          0,
+          0.85
+        ],
+        "lens": 48
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Condor\\renders\\v15_review\\flight.png",
+      "size_bytes": 1153196
+    },
+    {
+      "view": {
+        "name": "flight_side",
+        "frame": 121,
+        "properties": {},
+        "camera": [
+          -0.3,
+          -7,
+          1.8
+        ],
+        "target": [
+          -0.2,
+          0,
+          0.85
+        ],
+        "lens": 48
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Condor\\renders\\v15_review\\flight_side.png",
+      "size_bytes": 1074967
+    },
+    {
+      "view": {
+        "name": "transition",
+        "frame": 61,
+        "properties": {},
+        "camera": [
+          3,
+          -4,
+          2.6
+        ],
+        "target": [
+          -0.2,
+          0,
+          0.85
+        ],
+        "lens": 48
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Condor\\renders\\v15_review\\transition.png",
+      "size_bytes": 1198125
+    },
+    {
+      "view": {
+        "name": "brad_standing_False",
+        "frame": 1,
+        "properties": {},
+        "camera": [
+          3,
+          -3,
+          1.7
+        ],
+        "target": [
+          0,
+          0,
+          0.94
+        ],
+        "lens": 58,
+        "hide_collections": [
+          "Condor_Vehicle"
+        ],
+        "object_states": {
+          "BradTurner_Rig": {
+            "properties": {
+              "driving_pose": 0.0,
+              "mask_on": false,
+              "in_vehicle": 0.0
+            }
+          }
+        }
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Condor\\renders\\v15_review\\brad_standing_False.png",
+      "size_bytes": 1027602
+    },
+    {
+      "view": {
+        "name": "brad_standing_True",
+        "frame": 1,
+        "properties": {},
+        "camera": [
+          3,
+          -3,
+          1.7
+        ],
+        "target": [
+          0,
+          0,
+          0.94
+        ],
+        "lens": 58,
+        "hide_collections": [
+          "Condor_Vehicle"
+        ],
+        "object_states": {
+          "BradTurner_Rig": {
+            "properties": {
+              "driving_pose": 0.0,
+              "mask_on": true,
+              "in_vehicle": 0.0
+            }
+          }
+        }
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Condor\\renders\\v15_review\\brad_standing_True.png",
+      "size_bytes": 1035785
+    },
+    {
+      "view": {
+        "name": "riding_face",
+        "frame": 1,
+        "properties": {},
+        "camera": [
+          2.9,
+          -3.5,
+          2.3
+        ],
+        "target": [
+          0,
+          0,
+          1.02
+        ],
+        "lens": 58,
+        "object_states": {
+          "BradTurner_Rig": {
+            "properties": {
+              "mask_on": false
+            }
+          }
+        }
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Condor\\renders\\v15_review\\riding_face.png",
+      "size_bytes": 1264527
+    },
+    {
+      "view": {
+        "name": "road_rear",
+        "frame": 1,
+        "properties": {},
+        "camera": [
+          -4,
+          -3,
+          2.6
+        ],
+        "target": [
+          -0.3,
+          0,
+          0.8
+        ],
+        "lens": 50
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Condor\\renders\\v15_review\\road_rear.png",
+      "size_bytes": 1135911
+    },
+    {
+      "view": {
+        "name": "mask_close",
+        "frame": 1,
+        "properties": {},
+        "camera": [
+          1.6,
+          -1.4,
+          1.8
+        ],
+        "target": [
+          0,
+          0,
+          1.65
+        ],
+        "lens": 80,
+        "hide_collections": [
+          "Condor_Vehicle"
+        ],
+        "object_states": {
+          "BradTurner_Rig": {
+            "properties": {
+              "driving_pose": 0.0,
+              "mask_on": true,
+              "in_vehicle": 0.0
+            }
+          }
+        }
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Condor\\renders\\v15_review\\mask_close.png",
+      "size_bytes": 1032111
+    }
+  ],
+  "retained_previous_views": []
+}

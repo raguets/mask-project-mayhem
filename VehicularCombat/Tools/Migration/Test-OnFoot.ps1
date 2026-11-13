@@ -7,7 +7,7 @@ param(
     [switch]$WorkspaceCache,
     [string]$CacheRoot,
     [switch]$Terrain,
-    [ValidateSet('Thunderhawk','Rhino','Hurricane','Raven')][string]$Vehicle='Thunderhawk',
+    [ValidateSet('Thunderhawk','Rhino','Hurricane','Raven','Condor')][string]$Vehicle='Thunderhawk',
     [int]$TimeoutSeconds=360
 )
 $ErrorActionPreference='Stop'

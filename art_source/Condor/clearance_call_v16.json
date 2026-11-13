@@ -1,0 +1,7 @@
+{
+  "status": "success",
+  "result": {
+    "executed": true,
+    "result": "CLEARANCE_RESULT {\"source\": \"G:\\\\DEV\\\\mask-project-mayhem\\\\art_source\\\\Condor\\\\Condor_V16_Assembly.blend\", \"scope\": \"61 phases: actual wheel surfaces vs support/blades/rear cowl plus support-edge samples against conservative wheel cylinder. Rigid skid transforms relative to seat block. Not all vehicle/floor collisions.\", \"first_wheel_motion\": {\"frame\": 51, \"transform\": 0.37615740299224854, \"wheel_phase\": 0.025245942175388336, \"mast_angle_deg\": 47.01966428414976, \"wheel_center\": [-1.0519264936447144, 0.0, 0.3533497154712677], \"wheel_support_triangles\": 0, \"wheel_support_cylinder_samples\": 0, \"wheel_body_triangles\": 217}, \"max_skid_relative_transform_error\": 0.0, \"mask_head_triangle_pairs_standing\": 0, \"passed_wheel_support\": false, \"passed_wheel_body\": false, \"passed_rigid_skids\": true}\n"
+  }
+}

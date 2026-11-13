@@ -1,49 +1,35 @@
-﻿# Handoff — Raven V16, corrections de carrosserie et vitrage — 11 novembre 2026
-
-## Lot suivant EN COURS — intégration Raven dans Pinewoods
-
-Demande : Raven roule et vole comme Thunderhawk sans stationnaire. Code ajouté : RavenPawn/roues33,5cm, ConfigureRavenChassis, flotte/menu/retry et lanceur Bots3. Dynamique fixed-wing existante réutilisée. Export Blender MCP terminé sous `VehicularCombat/SourceArt/MASK/Raven` :20 groupes rigides,4 pneus,97 samples, FBX/atlases/manifest ; source dérivée `art_source/GameReady/Raven/Raven_GameReady.blend`. Calhoun18 animations à pied dans SourceArt/MASK/OnFoot/Calhoun. V16 restaurée ; utilisateur informé qu'il peut fermer Blender et n'a pas à lancer Unreal.
-
-Compilation principale sortie0 (Saved/SilentValley/raven-native-r3 actions0/1, raven-native-r4 actions2/3/4). UBT reste en échec UBA après export actions ; ne pas prétendre build UBT normal. Runner RC corrigé pour passer les guillemets natifs exacts. Nouveau RavenSmoke ajouté ensuite : -gather nécessaire. Compilation test EN COURS exec84352, `Saved/SilentValley/raven-test-native-r5`, graphe build-raven-test-actions.json ; ne relier la DLL qu'après fin de l'import.
-
-Import graphique r1 arrêté avant création d'assets après démarrage sans progression pendant3min. Import r2 NullRHI/NoShaderCompile EN COURS, exec10073, PID/arguments dans `Saved/Art/raven-import-r2/launch.json`, log editor.log. Vérifier raven-import.json ET raven-locomotion-import.json passed ; éditeur doit quitter. Ensuite Test-Raven.ps1 (Pinewoods4 véhicules, switch/route/vol minimum/virage/atterrissage) et Test-OnFoot -Terrain -Vehicle Raven. Aucun essai gameplay Raven passé à ce stade. Sections suivantes : lot artistique précédent.
+﻿# Handoff — Condor dans Pinewoods — 12 novembre 2026
 
 ## Objectif et état réel
 
-Lot actuel : raffiner Raven et Calhoun Burns dans Blender MCP suivant les corrections utilisateur. Assemblage actif enregistré : `art_source/Raven/Raven_V16_Assembly.blend`, frame1, hover_height0, Raven_Control sélectionné. Aucun rendu actif ni état essentiel non enregistré ; preuve `art_source/Raven/checkpoint_v16.json`. V11 initialement ouverte dirty/frame171 a été préservée dans `Session_before_V12_20261111_195221.blend`. V12 à V16 et exports antérieurs conservés.
+Intégrer Condor/Brad/Hocus Pocus et corriger les retours utilisateur : transformation en roulant, retour moto rapide avec freinage franc, accélération aérienne plus vive, suppression du balancement moto. Dernier signalement : support d’hélices semblant pénétrer la route. Route/hélicoptère : stationnaire au freinage maximal, nez légèrement baissé en avance ; Thunderhawk/Raven route/avion gardent leur vitesse minimale.
 
-Dépôt Git réellement à la RACINE `G:/DEV/mask-project-mayhem`, branche main, HEAD `a2fce0c` « Pine Valley environment OK ». Unreal reste dans `VehicularCombat/VehicularCombat.uproject`. Aucun commit/push effectué. Ancienne instruction parlant du dépôt imbriqué dépassée par cette migration vérifiée. Status global retenté : échec clean LFS sur L_SilentValley_Blockout.umap, accès refusé à `.git/lfs/tmp`. Ne pas contourner la restriction lecture seule de .git. Status ciblé/diffs texte consultés, aucune modification indexée. Préserver branding, README/lanceur racine, archives et preuves environnement antérieurs.
+Art V20 enregistré et revu antérieurement : `art_source/Condor/Condor_V20_Assembly.blend`, véhicule indépendant V20, `art_source/Brad_Turner/BradTurner_V2.blend` et `HocusPocus_V2.blend`. Versions antérieures et Session_before_V16 préservées. Un même Brad/rig/tête, masque indépendant monobloc. Onze vues `renders/v20_review` inspectées, trois réouvertures indépendantes passent. `clearance_v20.json` vérifie 61 phases sélectionnées roue/support/carénage et patins solidaires. Limite connue : arc intermédiaire de roue sous le plan du sol ; garde au sol complète en transformation NON validée. Rapport historique : `docs/progress/2026-11-12-Condor-Brad-HocusPocus.md`.
 
-## Réalisé dans ce lot
+Export jeu terminé : `art_source/GameReady/Condor/Condor_GameReady.blend`, `VehicularCombat/SourceArt/MASK/Condor` (12 groupes, deux pneus persistants, 97 échantillons), locomotion Brad18clips sous `SourceArt/MASK/OnFoot/Brad`. Import commandlet r3 passé : `Saved/Art/condor-import.json`, `condor-locomotion-import.json`, `condor-finalize.json`. Static LOD0 réduit conservé (sous-système LOD absent en commandlet), personnages LODs générés. Assets `/Game/MASK/Condor/BP_Condor`, DA_Condor et `/Game/MASK/OnFoot/Brad`.
 
-Skill projet mask-asset-production appliqué ; fiche de transformation lue avant les images. Références fournies inspectées : jouets Raven, photographies Corvette C4 et illustration/figurine Calhoun distinguées. s-l500.jpg réinspectée pour le pare-brise. Interprétation réaliste du visage/anatomie et habitacle caché autorisée ; dimensions et mécanismes non cotés restent estimés.
+## Code et réglages courants
 
-Capot lissé rigide au niveau des épaules, retours/joints repris ; partie fixe saillante devant le pare-brise supprimée, tableau de bord rentré. Plancher fixe arrêté àX0,425m, tunnel à0,405m. Portes incurvées avec retours ; canons diamétraux encastrés élargis45→90mm et logements adaptés. Tout l'avant tourne avec ses roues, puis bascule secondaire de celles-ci : architecture V11 conservée.
+Nouveau CondorPawn, deux classes de roue, équilibre par couples physiques, pose Brad suit la cassette siège, animation continue des deux rotors. Flotte/menu/retry et Jouer-MASK.cmd incluent Condor (Bots4). Sources principales : `Private/MASK/MaskDynamicsComponent.cpp`, `MaskVehicleModeComponent.cpp`, `ThunderhawkPawn.cpp`, `CondorPawn.*`, `MaskVehicleDefinition.h` ; scripts sous `Tools/Art` et `Tools/Migration`.
 
-Cassette commune de quatre réacteurs montant de0,197m, coque noire seulement dessus/flancs avec raccords arrondis, dessus HORIZONTAL. Les buses dégagent la façade fixe de9mm au déploiement. V13 avait encore deux buses extérieures visibles au repos : correction de profondeur18mm, contrôlée par rendu fermé V14/V16.
+Dernières corrections compilées avec succès (build final16,13s) : correcteur roulis moto critique amorti36/12 plutôt que réponse aéronautique lente ; direction progressive adoucie ; volume de dégagement moto orienté selon le lacet pour éviter qu’il bascule dans la chaussée. Volume Condor relevé (centre150cm, demi-hauteur100cm), obstacles supérieurs/latéraux conservés. Pas de verrou de vitesse dans CanChangeVehicleMode de Condor.
 
-Toit : centre fixe et deux parties latérales solidaires des portes, environ trois tiers. Dernière correction : ailes un peu plus fines à l'avant, raccord arrondi vitre latérale/toit. V15 avait des extrémités de joints saillantes : coins des vitrages et joints repris en V16. Pare-brise au contour trapézoïdal courbe ; lunette prolongée jusqu'àX−1,815m près de la cassette, plus arrondie et très sombre avec matériau distinct. Montants noirs derrière les portes. AGENTS.md et fiche actualisés.
+Rotor : commande vitesse5→10m/s², inclinaison maximale12→22°, réponse horizontale doublée avec compensation amortissement, forces bornées. Retour : commande vitesse décroît au moins10m/s², inclinaison de freinage jusqu’à30° ; descente6m/s Condor,8m/s Raven/Thunderhawk, arrondi par distance de freinage près du sol. `Tools/Migration/Tune-AirLandings.ps1` exécuté avec succès ; `Saved/Art/air-landing-tuning.json` confirme8/8/6. Import Condor conserve ces paramètres.
 
-## Validation et fichiers courants
+## Vérifications et travaux en cours
 
-`art_source/Raven/validation_v16.json` PASSE24 contrôles :33 états pneus/carrosserie,31 états nouvelles pièces de toit contre vitrages fixes, rigidité capot et limites. Aucune intersection sur ces paires ; accostages fermés exclus du test mobile de toit. Ce n'est pas une certification de tous les volumes ni de l'ajustement du pilote.
+Ancien smoke `smoke-condor-r2/condor.json` :19 contrôles passent (route, stationnaire, avance inclinée, virage, montée), mais timeout atterrissage ; donc intégration PAS entièrement validée. `condor-r3` PASSE25 contrôles, sortie0 : transformation à11,9m/s, stationnaire0,0034m/s, avance16,66m/s après5s, retour+rangement6,34s. Mais rendu avec virages alternés `condor-render-r1` ÉCHOUE (roulis86,88°, support−32,63cm), révélant le signe erroné du NOUVEAU correcteur. Signe corrigé (FRotator.Roll positif = rotation localeX négative), build13,49s réussi, log `Saved/Art/condor-balance-build.log`. `condor-render-r2` : équilibre et support PASSENT (pic11,25°, garde7,90cm), mais timeout Landing à8,46cm du sol, châssis droit sur pente. Nouveau critère rotor de contact : châssis droit (Up.Z>0,94), normale solZ>0,65, mêmes seuils hauteur/vitesse. Avions inchangés sur cet alignement. Build final13,40s réussi, `Saved/Art/condor-final-build.log`. `condor-render-r3` EN COURS exec29569 : fixture initiale200m en vallée au lieu800m en montagne. Aucun repositionnement en vol.
 
-`art_source/Raven/renders/v16_review` :8 PNG1280×960 Cycles GPU28 échantillons, TOUS ouverts et inspectés ; COMPLETE présent, aucun ERROR. V14 contient12 vues supplémentaires (lunette, cassette, coupe habitacle, personnage assis). Rendus anciens conservés, V15 remplacée pour les coins.
+Support : `Saved/Art/condor-road-mesh-bounds.json` : bas support33,7cm, pneus0,109cm en position droite. Ne prouve pas sa garde en mouvement/suspension/pente. MCP Blender port9876 refusé (WinError10061) ; utilisateur informé et ouverture Blender/MCP demandée via question asynchrone. Ne pas substituer Blender batch ; inspecter la vraie source si reconnectée.
 
-Sources autonomes exportées et réellement rouvertes : `art_source/Raven/Raven_V16_Vehicle.blend`, `art_source/Calhoun_Burns/CalhounBurns_V2.blend`, masque inchangé `CalhounMask_V1.blend`. Rapport `standalone_validation_v16.json` PASSE : trois sources indépendantes, drivers valides, même personnage/poids dans quatre états, pneus persistants, cassette verticale0,197m. V2 adapte la pose de jambes au plancher court. Rapport détaillé : `docs/progress/2026-11-11-Raven-canopy-and-cassette.md`, README des deux assets actualisés. Scripts dans `art_source/Raven/scripts`, helpers partagés dans `art_source/shared_tools`.
+## Git et suite
 
-## Terminé auparavant / limites et suite
+Git réellement à la racine workspace, main, HEAD `c0ef9cd`. Aucun commit ni indexation. Changements code/launcher/AGENTS/HANDOFF + nouveaux Condor/Brad/sourceart/scripts. Nombreuses références déplacées par ailleurs vers `Images de reference/Terminés` (suppressions+nouveau dossier dans status) : préserver ces déplacements utilisateur.
 
-Retry Unreal conserve Bots0–6, Vehicle/listen. Build natif r17 sorties0 ; tests réels Bots2 donne2→2 et Bots0 donne0→0,16 contrôles chacun. Preuves `VehicularCombat/docs/validation/silent-valley/retry-fleet`. Ne pas refaire ce correctif.
-
-Raven n'est pas intégrée dans Unreal ; pas de retopologie/UV finale. Peau, cheveux, plis et contacts mains/pédales encore stylisés. Contact pied/plancher NON validé : dessus des bottes minZ0,126m contre plancher haut0,160m, à reprendre par coupe dédiée. Vérifier direction MONDIALE des canons arrière après bascule ;45° local ne certifie pas le tir vers l'avant. Pinewood reste avec diagnostic rupture relief32m/2m, LAN/pickups et consolidation racine en attente ; utilisateur dirige actuellement vers Raven.
+Finir r3, diagnostiquer toute panne avec télémétrie. Vérifier virages moto alternés et garde support en jeu ; inspection rendue puis source MCP. Ensuite smoke rendu Condor, sortie/retour Brad (`Test-OnFoot.ps1 -Vehicle Condor`), régression Raven/Thunderhawk pour descente. Ne pas confondre compilation et validation dynamique/artistique.
 
 ## Première action recommandée
 
-Interroger la scène réellement ouverte, puis reprendre en priorité les contacts pilote/plancher et direction des canons arrière sur une NOUVELLE version, sans refaire le toit corrigé :
+`Get-Content VehicularCombat/Saved/Art/smoke-condor-render-r3/progress.json; Get-Content VehicularCombat/Saved/Art/smoke-condor-render-r3/game.log -Tail 15`
 
-```powershell
-& 'G:/Program Files/Epic Games/UE_5.8/Engine/Binaries/ThirdParty/Python3/Win64/python.exe' .agents/skills/mask-asset-production/scripts/mcp_client.py get_scene_info --port 9876
-```
 
-MCP local9876 opérationnel. Utiliser ce même Python avec execute_code --code-file pour les scripts Blender. Vérifier l'absence de file active avant mutation ; ne pas remplacer ce workflow par Blender batch. Suivre toute nouvelle correction utilisateur prioritaire.

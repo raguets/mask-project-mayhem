@@ -1,0 +1,114 @@
+{
+  "scope": "21 world-space triangle overlap samples: blades vs pilot head/suit/mask and selected cowl/fairing/glass/saddle. Does not certify all collisions, containment, fingers or deformation. Full-turn rotor clearance uses horizontal plane bound at deployed state.",
+  "samples": [
+    {
+      "frame": 1,
+      "blade_surface_intersections": 0
+    },
+    {
+      "frame": 7,
+      "blade_surface_intersections": 0
+    },
+    {
+      "frame": 13,
+      "blade_surface_intersections": 0
+    },
+    {
+      "frame": 19,
+      "blade_surface_intersections": 0
+    },
+    {
+      "frame": 25,
+      "blade_surface_intersections": 0
+    },
+    {
+      "frame": 31,
+      "blade_surface_intersections": 0
+    },
+    {
+      "frame": 37,
+      "blade_surface_intersections": 0
+    },
+    {
+      "frame": 43,
+      "blade_surface_intersections": 0
+    },
+    {
+      "frame": 49,
+      "blade_surface_intersections": 0
+    },
+    {
+      "frame": 55,
+      "blade_surface_intersections": 0
+    },
+    {
+      "frame": 61,
+      "blade_surface_intersections": 0
+    },
+    {
+      "frame": 67,
+      "blade_surface_intersections": 0
+    },
+    {
+      "frame": 73,
+      "blade_surface_intersections": 0
+    },
+    {
+      "frame": 79,
+      "blade_surface_intersections": 0
+    },
+    {
+      "frame": 85,
+      "blade_surface_intersections": 0
+    },
+    {
+      "frame": 91,
+      "blade_surface_intersections": 0
+    },
+    {
+      "frame": 97,
+      "blade_surface_intersections": 0
+    },
+    {
+      "frame": 103,
+      "blade_surface_intersections": 0
+    },
+    {
+      "frame": 109,
+      "blade_surface_intersections": 0
+    },
+    {
+      "frame": 115,
+      "blade_surface_intersections": 0
+    },
+    {
+      "frame": 121,
+      "blade_surface_intersections": 0
+    }
+  ],
+  "full_turn_vertical_pilot_clearance_m": 0.1284092664718628,
+  "four_states": [
+    {
+      "pose": 0.0,
+      "mask": false,
+      "same_meshes": true
+    },
+    {
+      "pose": 0.0,
+      "mask": true,
+      "same_meshes": true
+    },
+    {
+      "pose": 1.0,
+      "mask": false,
+      "same_meshes": true
+    },
+    {
+      "pose": 1.0,
+      "mask": true,
+      "same_meshes": true
+    }
+  ],
+  "two_persistent_tires": true,
+  "invalid_drivers": []
+}

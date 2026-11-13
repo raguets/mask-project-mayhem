@@ -6,6 +6,7 @@
 #include "Net/UnrealNetwork.h"
 #include "Engine/OverlapResult.h"
 #include "MASK/ThunderhawkPawn.h"
+#include "MASK/MaskVehicleDefinition.h"
 
 UMaskVehicleModeComponent::UMaskVehicleModeComponent()
 {
@@ -62,11 +63,16 @@ bool UMaskVehicleModeComponent::HasArticulationClearance()
 	FCollisionQueryParams Query(SCENE_QUERY_STAT(MaskDeploymentClearance),false,GetOwner());
 	TArray<AActor*> Attached;GetOwner()->GetAttachedActors(Attached,true,true);Query.AddIgnoredActors(Attached);
 	for(const auto& Module:IgnoredModules) { if(Module) { Query.AddIgnoredActor(Module); } }
-	const FVector Center=GetOwner()->GetActorTransform().TransformPosition(ClearanceCenter);
+	const auto* Car=Cast<AThunderhawkPawn>(GetOwner());
+	const bool Motorcycle=Car && Car->Definition && Car->Definition->Dynamics.bTwoWheelRoadBalance;
+	// Keep the upper rotor envelope clear of the road while the bike leans.
+	// Obstacles above/alongside the mechanism still block deployment.
+	const FQuat ClearanceRotation=Motorcycle?FRotator(0,GetOwner()->GetActorRotation().Yaw,0).Quaternion():GetOwner()->GetActorQuat();
+	const FVector Center=GetOwner()->GetActorLocation()+ClearanceRotation.RotateVector(ClearanceCenter);
 	TArray<FOverlapResult> Overlaps;
 	// Use the vehicle's collision contract: dropped pickups explicitly ignore
 	// vehicles and must not become phantom ceilings during descent/retraction.
-	if (GetWorld()->OverlapMultiByChannel(Overlaps,Center,GetOwner()->GetActorQuat(),ECC_Vehicle,
+	if (GetWorld()->OverlapMultiByChannel(Overlaps,Center,ClearanceRotation,ECC_Vehicle,
 		FCollisionShape::MakeBox(ClearanceExtent),Query))
 	{
 		Refuse(TEXT("Espace insuffisant pour les articulations"));

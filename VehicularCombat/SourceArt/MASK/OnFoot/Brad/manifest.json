@@ -1,0 +1,159 @@
+{
+  "name": "Brad",
+  "source": "Condor_GameReady.blend",
+  "rig": "Brad_GameRig",
+  "meshes": [
+    "BradBody",
+    "BradHair",
+    "BradMask"
+  ],
+  "one_body": true,
+  "face_retained": true,
+  "clips": [
+    {
+      "name": "Idle",
+      "action": "Brad_OnFoot_Idle",
+      "frames": 61,
+      "speed": 0,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "name": "Jump",
+      "action": "Brad_OnFoot_Jump",
+      "frames": 25,
+      "speed": 0,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "name": "Walk000",
+      "action": "Brad_OnFoot_Walk000",
+      "frames": 31,
+      "speed": 150,
+      "x": 150.0,
+      "y": -0.0
+    },
+    {
+      "name": "Walk045",
+      "action": "Brad_OnFoot_Walk045",
+      "frames": 31,
+      "speed": 150,
+      "x": 106.06601717798213,
+      "y": -106.06601717798213
+    },
+    {
+      "name": "Walk090",
+      "action": "Brad_OnFoot_Walk090",
+      "frames": 31,
+      "speed": 150,
+      "x": 9.184850993605149e-15,
+      "y": -150.0
+    },
+    {
+      "name": "Walk135",
+      "action": "Brad_OnFoot_Walk135",
+      "frames": 31,
+      "speed": 150,
+      "x": -106.06601717798212,
+      "y": -106.06601717798213
+    },
+    {
+      "name": "Walk180",
+      "action": "Brad_OnFoot_Walk180",
+      "frames": 31,
+      "speed": 150,
+      "x": -150.0,
+      "y": -1.8369701987210297e-14
+    },
+    {
+      "name": "Walk225",
+      "action": "Brad_OnFoot_Walk225",
+      "frames": 31,
+      "speed": 150,
+      "x": -106.06601717798215,
+      "y": 106.06601717798212
+    },
+    {
+      "name": "Walk270",
+      "action": "Brad_OnFoot_Walk270",
+      "frames": 31,
+      "speed": 150,
+      "x": -2.7554552980815446e-14,
+      "y": 150.0
+    },
+    {
+      "name": "Walk315",
+      "action": "Brad_OnFoot_Walk315",
+      "frames": 31,
+      "speed": 150,
+      "x": 106.0660171779821,
+      "y": 106.06601717798215
+    },
+    {
+      "name": "Run000",
+      "action": "Brad_OnFoot_Run000",
+      "frames": 19,
+      "speed": 400,
+      "x": 400.0,
+      "y": -0.0
+    },
+    {
+      "name": "Run045",
+      "action": "Brad_OnFoot_Run045",
+      "frames": 19,
+      "speed": 400,
+      "x": 282.842712474619,
+      "y": -282.842712474619
+    },
+    {
+      "name": "Run090",
+      "action": "Brad_OnFoot_Run090",
+      "frames": 19,
+      "speed": 400,
+      "x": 2.4492935982947064e-14,
+      "y": -400.0
+    },
+    {
+      "name": "Run135",
+      "action": "Brad_OnFoot_Run135",
+      "frames": 19,
+      "speed": 400,
+      "x": -282.84271247461896,
+      "y": -282.842712474619
+    },
+    {
+      "name": "Run180",
+      "action": "Brad_OnFoot_Run180",
+      "frames": 19,
+      "speed": 400,
+      "x": -400.0,
+      "y": -4.898587196589413e-14
+    },
+    {
+      "name": "Run225",
+      "action": "Brad_OnFoot_Run225",
+      "frames": 19,
+      "speed": 400,
+      "x": -282.8427124746191,
+      "y": 282.84271247461896
+    },
+    {
+      "name": "Run270",
+      "action": "Brad_OnFoot_Run270",
+      "frames": 19,
+      "speed": 400,
+      "x": -7.347880794884119e-14,
+      "y": 400.0
+    },
+    {
+      "name": "Run315",
+      "action": "Brad_OnFoot_Run315",
+      "frames": 19,
+      "speed": 400,
+      "x": 282.84271247461896,
+      "y": 282.8427124746191
+    }
+  ],
+  "interpretation": "Generic human locomotion authored with analytic two-bone IK; not motion capture or an official cartoon animation."
+}

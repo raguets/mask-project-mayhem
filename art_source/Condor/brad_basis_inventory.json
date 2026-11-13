@@ -1,0 +1,1059 @@
+{
+  "objects": [
+    {
+      "name": "BradTurner_Rig",
+      "type": "ARMATURE",
+      "materials": []
+    },
+    {
+      "name": "CB_ArmBand_L",
+      "type": "MESH",
+      "materials": [
+        "CB_NavyFlightFabric"
+      ]
+    },
+    {
+      "name": "CB_Cuff_L",
+      "type": "MESH",
+      "materials": [
+        "CB_OrangeArmor"
+      ]
+    },
+    {
+      "name": "CB_ArmBand_R",
+      "type": "MESH",
+      "materials": [
+        "CB_NavyFlightFabric"
+      ]
+    },
+    {
+      "name": "CB_Cuff_R",
+      "type": "MESH",
+      "materials": [
+        "CB_OrangeArmor"
+      ]
+    },
+    {
+      "name": "CB_Belt",
+      "type": "MESH",
+      "materials": [
+        "CB_CyanHarness"
+      ]
+    },
+    {
+      "name": "CB_BeltBuckle",
+      "type": "MESH",
+      "materials": [
+        "CB_CyanHarness"
+      ]
+    },
+    {
+      "name": "CB_FabricCollar_1.479",
+      "type": "MESH",
+      "materials": [
+        "CB_CyanHarness"
+      ]
+    },
+    {
+      "name": "CB_FabricCollar_1.491",
+      "type": "MESH",
+      "materials": [
+        "CB_CyanHarness"
+      ]
+    },
+    {
+      "name": "CB_Head_AnatomicalSurface",
+      "type": "MESH",
+      "materials": [
+        "CB_Skin_Interpreted",
+        "CB_LipTint.001"
+      ]
+    },
+    {
+      "name": "CB_ContinuousFlightSuit",
+      "type": "MESH",
+      "materials": [
+        "CB_NavyFlightFabric"
+      ]
+    },
+    {
+      "name": "CB_BootSole_L",
+      "type": "MESH",
+      "materials": [
+        "CB_BS_Spectrum2_Rubber.002"
+      ]
+    },
+    {
+      "name": "CB_BootUpper_L",
+      "type": "MESH",
+      "materials": [
+        "CB_NavyFlightFabric",
+        "CB_NavyFlightFabric"
+      ]
+    },
+    {
+      "name": "CB_BootWelt_L",
+      "type": "MESH",
+      "materials": [
+        "CB_NavyFlightFabric"
+      ]
+    },
+    {
+      "name": "CB_BootSole_R",
+      "type": "MESH",
+      "materials": [
+        "CB_BS_Spectrum2_Rubber.002"
+      ]
+    },
+    {
+      "name": "CB_BootUpper_R",
+      "type": "MESH",
+      "materials": [
+        "CB_NavyFlightFabric",
+        "CB_NavyFlightFabric"
+      ]
+    },
+    {
+      "name": "CB_BootWelt_R",
+      "type": "MESH",
+      "materials": [
+        "CB_NavyFlightFabric"
+      ]
+    },
+    {
+      "name": "CB_Eyeball_L",
+      "type": "MESH",
+      "materials": [
+        "CB_BS_MT4_Sclera.002"
+      ]
+    },
+    {
+      "name": "CB_Iris_L",
+      "type": "MESH",
+      "materials": [
+        "CB_BS_MT4_IrisFibers.002",
+        "CB_BS_MT4_Pupil.002"
+      ]
+    },
+    {
+      "name": "CB_Eyeball_R",
+      "type": "MESH",
+      "materials": [
+        "CB_BS_MT4_Sclera.002"
+      ]
+    },
+    {
+      "name": "CB_Iris_R",
+      "type": "MESH",
+      "materials": [
+        "CB_BS_MT4_IrisFibers.002",
+        "CB_BS_MT4_Pupil.002"
+      ]
+    },
+    {
+      "name": "CB_Brow_NaturalFibers",
+      "type": "MESH",
+      "materials": [
+        "CB_ChestnutHair"
+      ]
+    },
+    {
+      "name": "CB_GloveSkin_L",
+      "type": "MESH",
+      "materials": [
+        "CB_DarkGloveLeather"
+      ]
+    },
+    {
+      "name": "CB_GloveSkin_R",
+      "type": "MESH",
+      "materials": [
+        "CB_DarkGloveLeather"
+      ]
+    },
+    {
+      "name": "CB_OrangeGaiter_L",
+      "type": "MESH",
+      "materials": [
+        "CB_OrangeArmor"
+      ]
+    },
+    {
+      "name": "CB_OrangeGaiter_R",
+      "type": "MESH",
+      "materials": [
+        "CB_OrangeArmor"
+      ]
+    },
+    {
+      "name": "CB_FittedKneeGuard_L",
+      "type": "MESH",
+      "materials": [
+        "CB_OrangeArmor"
+      ]
+    },
+    {
+      "name": "CB_FittedKneeGuard_R",
+      "type": "MESH",
+      "materials": [
+        "CB_OrangeArmor"
+      ]
+    },
+    {
+      "name": "CB_FittedYellowBracer_L",
+      "type": "MESH",
+      "materials": [
+        "CB_OrangeArmor"
+      ]
+    },
+    {
+      "name": "CB_FittedYellowBracer_R",
+      "type": "MESH",
+      "materials": [
+        "CB_OrangeArmor"
+      ]
+    },
+    {
+      "name": "CB_SculptedPauldron_L",
+      "type": "MESH",
+      "materials": [
+        "CB_OrangeArmor"
+      ]
+    },
+    {
+      "name": "CB_FormedChestYoke_L",
+      "type": "MESH",
+      "materials": [
+        "CB_OrangeArmor"
+      ]
+    },
+    {
+      "name": "CB_SculptedPauldron_R",
+      "type": "MESH",
+      "materials": [
+        "CB_OrangeArmor"
+      ]
+    },
+    {
+      "name": "CB_FormedChestYoke_R",
+      "type": "MESH",
+      "materials": [
+        "CB_OrangeArmor"
+      ]
+    },
+    {
+      "name": "CB_CyanShoulderHarness_L",
+      "type": "MESH",
+      "materials": [
+        "CB_CyanHarness"
+      ]
+    },
+    {
+      "name": "CB_BackHarness_L",
+      "type": "MESH",
+      "materials": [
+        "CB_CyanHarness"
+      ]
+    },
+    {
+      "name": "CB_BackHarnessLower_L",
+      "type": "MESH",
+      "materials": [
+        "CB_CyanHarness"
+      ]
+    },
+    {
+      "name": "CB_CyanShoulderHarness_R",
+      "type": "MESH",
+      "materials": [
+        "CB_CyanHarness"
+      ]
+    },
+    {
+      "name": "CB_BackHarness_R",
+      "type": "MESH",
+      "materials": [
+        "CB_CyanHarness"
+      ]
+    },
+    {
+      "name": "CB_BackHarnessLower_R",
+      "type": "MESH",
+      "materials": [
+        "CB_CyanHarness"
+      ]
+    },
+    {
+      "name": "CB_ContinuousSweptHairCap",
+      "type": "MESH",
+      "materials": [
+        "CB_ChestnutHair"
+      ]
+    },
+    {
+      "name": "CB_FineCombedHair_6_Mesh",
+      "type": "MESH",
+      "materials": [
+        "CB_ChestnutHair"
+      ]
+    },
+    {
+      "name": "CB_FineCombedHair_7_Mesh",
+      "type": "MESH",
+      "materials": [
+        "CB_ChestnutHair"
+      ]
+    },
+    {
+      "name": "CB_FineCombedHair_8_Mesh",
+      "type": "MESH",
+      "materials": [
+        "CB_ChestnutHair"
+      ]
+    },
+    {
+      "name": "CB_FineCombedHair_9_Mesh",
+      "type": "MESH",
+      "materials": [
+        "CB_ChestnutHair"
+      ]
+    },
+    {
+      "name": "CB_FineCombedHair_10_Mesh",
+      "type": "MESH",
+      "materials": [
+        "CB_ChestnutHair"
+      ]
+    },
+    {
+      "name": "CB_FineCombedHair_11_Mesh",
+      "type": "MESH",
+      "materials": [
+        "CB_ChestnutHair"
+      ]
+    },
+    {
+      "name": "CB_FineCombedHair_12_Mesh",
+      "type": "MESH",
+      "materials": [
+        "CB_ChestnutHair"
+      ]
+    },
+    {
+      "name": "CB_FineCombedHair_13_Mesh",
+      "type": "MESH",
+      "materials": [
+        "CB_ChestnutHair"
+      ]
+    },
+    {
+      "name": "CB_FineCombedHair_14_Mesh",
+      "type": "MESH",
+      "materials": [
+        "CB_ChestnutHair"
+      ]
+    },
+    {
+      "name": "CB_FineCombedHair_15_Mesh",
+      "type": "MESH",
+      "materials": [
+        "CB_ChestnutHair"
+      ]
+    },
+    {
+      "name": "CB_FineCombedHair_16_Mesh",
+      "type": "MESH",
+      "materials": [
+        "CB_ChestnutHair"
+      ]
+    },
+    {
+      "name": "CB_FineCombedHair_17_Mesh",
+      "type": "MESH",
+      "materials": [
+        "CB_ChestnutHair"
+      ]
+    },
+    {
+      "name": "CB_FineCombedHair_18_Mesh",
+      "type": "MESH",
+      "materials": [
+        "CB_ChestnutHair"
+      ]
+    },
+    {
+      "name": "CB_FineCombedHair_19_Mesh",
+      "type": "MESH",
+      "materials": [
+        "CB_ChestnutHair"
+      ]
+    },
+    {
+      "name": "CB_FineCombedHair_20_Mesh",
+      "type": "MESH",
+      "materials": [
+        "CB_ChestnutHair"
+      ]
+    },
+    {
+      "name": "CB_FineCombedHair_21_Mesh",
+      "type": "MESH",
+      "materials": [
+        "CB_ChestnutHair"
+      ]
+    },
+    {
+      "name": "CB_FineCombedHair_22_Mesh",
+      "type": "MESH",
+      "materials": [
+        "CB_ChestnutHair"
+      ]
+    },
+    {
+      "name": "CB_FineCombedHair_23_Mesh",
+      "type": "MESH",
+      "materials": [
+        "CB_ChestnutHair"
+      ]
+    },
+    {
+      "name": "CB_FineCombedHair_24_Mesh",
+      "type": "MESH",
+      "materials": [
+        "CB_ChestnutHair"
+      ]
+    },
+    {
+      "name": "CB_FineCombedHair_25_Mesh",
+      "type": "MESH",
+      "materials": [
+        "CB_ChestnutHair"
+      ]
+    },
+    {
+      "name": "CB_FineCombedHair_26_Mesh",
+      "type": "MESH",
+      "materials": [
+        "CB_ChestnutHair"
+      ]
+    },
+    {
+      "name": "CB_FineCombedHair_27_Mesh",
+      "type": "MESH",
+      "materials": [
+        "CB_ChestnutHair"
+      ]
+    },
+    {
+      "name": "CB_FineCombedHair_28_Mesh",
+      "type": "MESH",
+      "materials": [
+        "CB_ChestnutHair"
+      ]
+    },
+    {
+      "name": "CB_FineCombedHair_29_Mesh",
+      "type": "MESH",
+      "materials": [
+        "CB_ChestnutHair"
+      ]
+    },
+    {
+      "name": "CB_FineCombedHair_30_Mesh",
+      "type": "MESH",
+      "materials": [
+        "CB_ChestnutHair"
+      ]
+    },
+    {
+      "name": "CB_FineCombedHair_31_Mesh",
+      "type": "MESH",
+      "materials": [
+        "CB_ChestnutHair"
+      ]
+    },
+    {
+      "name": "CB_FineCombedHair_32_Mesh",
+      "type": "MESH",
+      "materials": [
+        "CB_ChestnutHair"
+      ]
+    },
+    {
+      "name": "CB_FineCombedHair_33_Mesh",
+      "type": "MESH",
+      "materials": [
+        "CB_ChestnutHair"
+      ]
+    },
+    {
+      "name": "CB_FineCombedHair_34_Mesh",
+      "type": "MESH",
+      "materials": [
+        "CB_ChestnutHair"
+      ]
+    },
+    {
+      "name": "CB_FineCombedHair_35_Mesh",
+      "type": "MESH",
+      "materials": [
+        "CB_ChestnutHair"
+      ]
+    },
+    {
+      "name": "CB_FineCombedHair_36_Mesh",
+      "type": "MESH",
+      "materials": [
+        "CB_ChestnutHair"
+      ]
+    },
+    {
+      "name": "CB_FineCombedHair_37_Mesh",
+      "type": "MESH",
+      "materials": [
+        "CB_ChestnutHair"
+      ]
+    },
+    {
+      "name": "CB_FineCombedHair_38_Mesh",
+      "type": "MESH",
+      "materials": [
+        "CB_ChestnutHair"
+      ]
+    },
+    {
+      "name": "CB_FineCombedHair_39_Mesh",
+      "type": "MESH",
+      "materials": [
+        "CB_ChestnutHair"
+      ]
+    },
+    {
+      "name": "CB_FineCombedHair_40_Mesh",
+      "type": "MESH",
+      "materials": [
+        "CB_ChestnutHair"
+      ]
+    },
+    {
+      "name": "CB_FineCombedHair_41_Mesh",
+      "type": "MESH",
+      "materials": [
+        "CB_ChestnutHair"
+      ]
+    },
+    {
+      "name": "CB_FineCombedHair_42_Mesh",
+      "type": "MESH",
+      "materials": [
+        "CB_ChestnutHair"
+      ]
+    },
+    {
+      "name": "CB_FineCombedHair_43_Mesh",
+      "type": "MESH",
+      "materials": [
+        "CB_ChestnutHair"
+      ]
+    },
+    {
+      "name": "CB_FineCombedHair_44_Mesh",
+      "type": "MESH",
+      "materials": [
+        "CB_ChestnutHair"
+      ]
+    },
+    {
+      "name": "CB_FineCombedHair_45_Mesh",
+      "type": "MESH",
+      "materials": [
+        "CB_ChestnutHair"
+      ]
+    },
+    {
+      "name": "CB_FineCombedHair_46_Mesh",
+      "type": "MESH",
+      "materials": [
+        "CB_ChestnutHair"
+      ]
+    },
+    {
+      "name": "CB_FineCombedHair_47_Mesh",
+      "type": "MESH",
+      "materials": [
+        "CB_ChestnutHair"
+      ]
+    },
+    {
+      "name": "CB_FineCombedHair_48_Mesh",
+      "type": "MESH",
+      "materials": [
+        "CB_ChestnutHair"
+      ]
+    },
+    {
+      "name": "CB_FineCombedHair_49_Mesh",
+      "type": "MESH",
+      "materials": [
+        "CB_ChestnutHair"
+      ]
+    },
+    {
+      "name": "CB_FineCombedHair_50_Mesh",
+      "type": "MESH",
+      "materials": [
+        "CB_ChestnutHair"
+      ]
+    },
+    {
+      "name": "CB_FineCombedHair_51_Mesh",
+      "type": "MESH",
+      "materials": [
+        "CB_ChestnutHair"
+      ]
+    },
+    {
+      "name": "CB_FineCombedHair_52_Mesh",
+      "type": "MESH",
+      "materials": [
+        "CB_ChestnutHair"
+      ]
+    },
+    {
+      "name": "CB_FineCombedHair_53_Mesh",
+      "type": "MESH",
+      "materials": [
+        "CB_ChestnutHair"
+      ]
+    },
+    {
+      "name": "CB_FineCombedHair_54_Mesh",
+      "type": "MESH",
+      "materials": [
+        "CB_ChestnutHair"
+      ]
+    },
+    {
+      "name": "CB_FineCombedHair_55_Mesh",
+      "type": "MESH",
+      "materials": [
+        "CB_ChestnutHair"
+      ]
+    },
+    {
+      "name": "CB_FineCombedHair_56_Mesh",
+      "type": "MESH",
+      "materials": [
+        "CB_ChestnutHair"
+      ]
+    },
+    {
+      "name": "CB_FineCombedHair_57_Mesh",
+      "type": "MESH",
+      "materials": [
+        "CB_ChestnutHair"
+      ]
+    },
+    {
+      "name": "CB_FineCombedHair_58_Mesh",
+      "type": "MESH",
+      "materials": [
+        "CB_ChestnutHair"
+      ]
+    },
+    {
+      "name": "CB_FineCombedHair_59_Mesh",
+      "type": "MESH",
+      "materials": [
+        "CB_ChestnutHair"
+      ]
+    },
+    {
+      "name": "CB_FineCombedHair_60_Mesh",
+      "type": "MESH",
+      "materials": [
+        "CB_ChestnutHair"
+      ]
+    },
+    {
+      "name": "CB_FineCombedHair_61_Mesh",
+      "type": "MESH",
+      "materials": [
+        "CB_ChestnutHair"
+      ]
+    },
+    {
+      "name": "CB_FineCombedHair_62_Mesh",
+      "type": "MESH",
+      "materials": [
+        "CB_ChestnutHair"
+      ]
+    },
+    {
+      "name": "CB_FineCombedHair_63_Mesh",
+      "type": "MESH",
+      "materials": [
+        "CB_ChestnutHair"
+      ]
+    }
+  ],
+  "bones": {
+    "pelvis": {
+      "head": [
+        0.0,
+        0.0,
+        0.9300000071525574
+      ],
+      "tail": [
+        0.0,
+        0.0,
+        1.059999942779541
+      ]
+    },
+    "spine": {
+      "head": [
+        0.0,
+        0.0,
+        1.059999942779541
+      ],
+      "tail": [
+        -0.012000000104308128,
+        0.0,
+        1.2699999809265137
+      ]
+    },
+    "chest": {
+      "head": [
+        -0.012000000104308128,
+        0.0,
+        1.2699999809265137
+      ],
+      "tail": [
+        -0.017999999225139618,
+        0.0,
+        1.4800000190734863
+      ]
+    },
+    "neck": {
+      "head": [
+        -0.017999999225139618,
+        0.0,
+        1.4800000190734863
+      ],
+      "tail": [
+        -0.00800000037997961,
+        0.0,
+        1.5499999523162842
+      ]
+    },
+    "head": {
+      "head": [
+        -0.00800000037997961,
+        0.0,
+        1.5499999523162842
+      ],
+      "tail": [
+        -0.00800000037997961,
+        0.0,
+        1.7799999713897705
+      ]
+    },
+    "upper_arm.L": {
+      "head": [
+        -0.004999999888241291,
+        0.19499999284744263,
+        1.434999942779541
+      ],
+      "tail": [
+        0.004999999888241291,
+        0.25,
+        1.1549999713897705
+      ]
+    },
+    "forearm.L": {
+      "head": [
+        0.004999999888241291,
+        0.25,
+        1.1549999713897705
+      ],
+      "tail": [
+        0.02500000037252903,
+        0.2849999964237213,
+        0.9150000214576721
+      ]
+    },
+    "hand.L": {
+      "head": [
+        0.02500000037252903,
+        0.2849999964237213,
+        0.9150000214576721
+      ],
+      "tail": [
+        0.04500000178813934,
+        0.29100000858306885,
+        0.824999988079071
+      ]
+    },
+    "upper_arm.R": {
+      "head": [
+        -0.004999999888241291,
+        -0.19499999284744263,
+        1.434999942779541
+      ],
+      "tail": [
+        0.004999999888241291,
+        -0.25,
+        1.1549999713897705
+      ]
+    },
+    "forearm.R": {
+      "head": [
+        0.004999999888241291,
+        -0.25,
+        1.1549999713897705
+      ],
+      "tail": [
+        0.02500000037252903,
+        -0.2849999964237213,
+        0.9150000214576721
+      ]
+    },
+    "hand.R": {
+      "head": [
+        0.02500000037252903,
+        -0.2849999964237213,
+        0.9150000214576721
+      ],
+      "tail": [
+        0.04500000178813934,
+        -0.29100000858306885,
+        0.824999988079071
+      ]
+    },
+    "thigh.L": {
+      "head": [
+        0.0,
+        0.0949999988079071,
+        0.9549999833106995
+      ],
+      "tail": [
+        0.019999999552965164,
+        0.10999999940395355,
+        0.5350000262260437
+      ]
+    },
+    "shin.L": {
+      "head": [
+        0.019999999552965164,
+        0.10999999940395355,
+        0.5350000262260437
+      ],
+      "tail": [
+        0.0,
+        0.10999999940395355,
+        0.11500000208616257
+      ]
+    },
+    "foot.L": {
+      "head": [
+        0.0,
+        0.10999999940395355,
+        0.11500000208616257
+      ],
+      "tail": [
+        0.14000000059604645,
+        0.10999999940395355,
+        0.05999999865889549
+      ]
+    },
+    "thigh.R": {
+      "head": [
+        0.0,
+        -0.0949999988079071,
+        0.9549999833106995
+      ],
+      "tail": [
+        0.019999999552965164,
+        -0.10999999940395355,
+        0.5350000262260437
+      ]
+    },
+    "shin.R": {
+      "head": [
+        0.019999999552965164,
+        -0.10999999940395355,
+        0.5350000262260437
+      ],
+      "tail": [
+        0.0,
+        -0.10999999940395355,
+        0.11500000208616257
+      ]
+    },
+    "foot.R": {
+      "head": [
+        0.0,
+        -0.10999999940395355,
+        0.11500000208616257
+      ],
+      "tail": [
+        0.14000000059604645,
+        -0.10999999940395355,
+        0.05999999865889549
+      ]
+    }
+  },
+  "drivers": [
+    {
+      "bone": "pelvis",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "bone": "spine",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "bone": "chest",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "bone": "neck",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "bone": "head",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "bone": "upper_arm.L",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "bone": "forearm.L",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "bone": "hand.L",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "bone": "upper_arm.R",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "bone": "forearm.R",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "bone": "hand.R",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "bone": "thigh.L",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "bone": "shin.L",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "bone": "foot.L",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "bone": "thigh.R",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "bone": "shin.R",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "bone": "foot.R",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "properties": {
+    "mask_on": false,
+    "height_m_estimated": 1.8,
+    "reference_policy": "User supplied illustrations, replica photographs and toy photographs inspected. Anatomical realism and hidden surfaces interpreted, not photo scan.",
+    "asset_type": "One character, one head and armature, removable separate mask",
+    "driving_pose": 0.0,
+    "asset_version": "Calhoun Burns first publication V1 (Raven V10 assembly)",
+    "reference_fidelity": "Interpretation of supplied cartoon portraits and toy photos, no specific real-person likeness.",
+    "neck_refinement": "Continuous repaired neck retained; reviewed in standing and truck seated pose.",
+    "gunner_pose": 0.0,
+    "in_vehicle": 0.0,
+    "vehicle_lift": 0.0,
+    "reference_note": "Realistic anatomy and unshown geometry interpretation explicitly authorized 2026-11-11. Supplied navy/orange/cyan figurine and illustrated portrait, not a scan or likeness of a real person.",
+    "anatomy_provenance": "Editable CC0 Blender Human Base Meshes inherited through preserved Hondo source; copied meshes/armature/materials, independently revised face, hair, suit and separate mask."
+  }
+}
