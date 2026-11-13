@@ -1,0 +1,808 @@
+{
+  "scope": "121 integer phases; triangle intersections for listed evaluated moving/fixed surfaces. No complete volume containment proof. Rotor angular step 3 degrees, not exact swept volume. Contact/hinge pairs excluded. Gameplay/aerodynamics not tested.",
+  "phase_count": 121,
+  "selected_pairs": [
+    [
+      "SB_MainWing_-1",
+      "SB_FixedTailFuselage"
+    ],
+    [
+      "SB_MainWing_-1",
+      "SB_CabinBelly"
+    ],
+    [
+      "SB_MainWing_-1",
+      "SB_NoseWedge"
+    ],
+    [
+      "SB_MainWing_-1",
+      "SB_MagentaFacetedGlazing"
+    ],
+    [
+      "SB_MainWing_1",
+      "SB_FixedTailFuselage"
+    ],
+    [
+      "SB_MainWing_1",
+      "SB_CabinBelly"
+    ],
+    [
+      "SB_MainWing_1",
+      "SB_NoseWedge"
+    ],
+    [
+      "SB_MainWing_1",
+      "SB_MagentaFacetedGlazing"
+    ],
+    [
+      "SB_MainRotorBlade_-1",
+      "SB_FixedTailFuselage"
+    ],
+    [
+      "SB_MainRotorBlade_-1",
+      "SB_CabinBelly"
+    ],
+    [
+      "SB_MainRotorBlade_-1",
+      "SB_NoseWedge"
+    ],
+    [
+      "SB_MainRotorBlade_-1",
+      "SB_MagentaFacetedGlazing"
+    ],
+    [
+      "SB_MainRotorBlade_1",
+      "SB_FixedTailFuselage"
+    ],
+    [
+      "SB_MainRotorBlade_1",
+      "SB_CabinBelly"
+    ],
+    [
+      "SB_MainRotorBlade_1",
+      "SB_NoseWedge"
+    ],
+    [
+      "SB_MainRotorBlade_1",
+      "SB_MagentaFacetedGlazing"
+    ],
+    [
+      "SB_LandingSkidCannon_-1",
+      "SB_FixedTailFuselage"
+    ],
+    [
+      "SB_LandingSkidCannon_-1",
+      "SB_CabinBelly"
+    ],
+    [
+      "SB_LandingSkidCannon_-1",
+      "SB_NoseWedge"
+    ],
+    [
+      "SB_LandingSkidCannon_-1",
+      "SB_MagentaFacetedGlazing"
+    ],
+    [
+      "SB_LandingSkidCannon_1",
+      "SB_FixedTailFuselage"
+    ],
+    [
+      "SB_LandingSkidCannon_1",
+      "SB_CabinBelly"
+    ],
+    [
+      "SB_LandingSkidCannon_1",
+      "SB_NoseWedge"
+    ],
+    [
+      "SB_LandingSkidCannon_1",
+      "SB_MagentaFacetedGlazing"
+    ],
+    [
+      "SB_MainWing_-1",
+      "SB_LandingSkidCannon_-1"
+    ],
+    [
+      "SB_MainWing_1",
+      "SB_LandingSkidCannon_1"
+    ],
+    [
+      "SB_MainRotorBlade_-1",
+      "SB_VentralTailRotorFin"
+    ],
+    [
+      "SB_MainRotorBlade_1",
+      "SB_VentralTailRotorFin"
+    ]
+  ],
+  "collisions": {
+    "SB_MainWing_-1 / SB_FixedTailFuselage": [
+      {
+        "frame": 23,
+        "triangle_pairs": 8
+      },
+      {
+        "frame": 24,
+        "triangle_pairs": 10
+      },
+      {
+        "frame": 25,
+        "triangle_pairs": 12
+      },
+      {
+        "frame": 26,
+        "triangle_pairs": 14
+      },
+      {
+        "frame": 27,
+        "triangle_pairs": 14
+      },
+      {
+        "frame": 28,
+        "triangle_pairs": 16
+      },
+      {
+        "frame": 29,
+        "triangle_pairs": 16
+      },
+      {
+        "frame": 30,
+        "triangle_pairs": 18
+      },
+      {
+        "frame": 31,
+        "triangle_pairs": 18
+      },
+      {
+        "frame": 32,
+        "triangle_pairs": 20
+      },
+      {
+        "frame": 33,
+        "triangle_pairs": 20
+      },
+      {
+        "frame": 34,
+        "triangle_pairs": 20
+      },
+      {
+        "frame": 35,
+        "triangle_pairs": 22
+      },
+      {
+        "frame": 36,
+        "triangle_pairs": 20
+      },
+      {
+        "frame": 37,
+        "triangle_pairs": 20
+      },
+      {
+        "frame": 38,
+        "triangle_pairs": 22
+      },
+      {
+        "frame": 39,
+        "triangle_pairs": 22
+      },
+      {
+        "frame": 40,
+        "triangle_pairs": 24
+      },
+      {
+        "frame": 41,
+        "triangle_pairs": 26
+      },
+      {
+        "frame": 42,
+        "triangle_pairs": 28
+      },
+      {
+        "frame": 43,
+        "triangle_pairs": 28
+      },
+      {
+        "frame": 44,
+        "triangle_pairs": 28
+      },
+      {
+        "frame": 45,
+        "triangle_pairs": 26
+      },
+      {
+        "frame": 46,
+        "triangle_pairs": 22
+      },
+      {
+        "frame": 47,
+        "triangle_pairs": 20
+      },
+      {
+        "frame": 48,
+        "triangle_pairs": 20
+      },
+      {
+        "frame": 49,
+        "triangle_pairs": 20
+      },
+      {
+        "frame": 50,
+        "triangle_pairs": 18
+      },
+      {
+        "frame": 51,
+        "triangle_pairs": 18
+      },
+      {
+        "frame": 52,
+        "triangle_pairs": 18
+      },
+      {
+        "frame": 53,
+        "triangle_pairs": 16
+      },
+      {
+        "frame": 54,
+        "triangle_pairs": 16
+      },
+      {
+        "frame": 55,
+        "triangle_pairs": 16
+      },
+      {
+        "frame": 56,
+        "triangle_pairs": 16
+      },
+      {
+        "frame": 57,
+        "triangle_pairs": 16
+      },
+      {
+        "frame": 58,
+        "triangle_pairs": 16
+      },
+      {
+        "frame": 59,
+        "triangle_pairs": 16
+      },
+      {
+        "frame": 60,
+        "triangle_pairs": 16
+      },
+      {
+        "frame": 61,
+        "triangle_pairs": 16
+      },
+      {
+        "frame": 62,
+        "triangle_pairs": 16
+      },
+      {
+        "frame": 63,
+        "triangle_pairs": 16
+      },
+      {
+        "frame": 64,
+        "triangle_pairs": 16
+      },
+      {
+        "frame": 65,
+        "triangle_pairs": 16
+      },
+      {
+        "frame": 66,
+        "triangle_pairs": 16
+      },
+      {
+        "frame": 67,
+        "triangle_pairs": 16
+      },
+      {
+        "frame": 68,
+        "triangle_pairs": 16
+      },
+      {
+        "frame": 69,
+        "triangle_pairs": 16
+      },
+      {
+        "frame": 70,
+        "triangle_pairs": 16
+      },
+      {
+        "frame": 71,
+        "triangle_pairs": 16
+      },
+      {
+        "frame": 72,
+        "triangle_pairs": 16
+      },
+      {
+        "frame": 73,
+        "triangle_pairs": 16
+      },
+      {
+        "frame": 74,
+        "triangle_pairs": 16
+      },
+      {
+        "frame": 75,
+        "triangle_pairs": 16
+      },
+      {
+        "frame": 76,
+        "triangle_pairs": 16
+      },
+      {
+        "frame": 77,
+        "triangle_pairs": 16
+      },
+      {
+        "frame": 78,
+        "triangle_pairs": 16
+      },
+      {
+        "frame": 79,
+        "triangle_pairs": 16
+      },
+      {
+        "frame": 80,
+        "triangle_pairs": 16
+      },
+      {
+        "frame": 81,
+        "triangle_pairs": 16
+      },
+      {
+        "frame": 82,
+        "triangle_pairs": 10
+      }
+    ],
+    "SB_MainWing_1 / SB_FixedTailFuselage": [
+      {
+        "frame": 23,
+        "triangle_pairs": 8
+      },
+      {
+        "frame": 24,
+        "triangle_pairs": 10
+      },
+      {
+        "frame": 25,
+        "triangle_pairs": 12
+      },
+      {
+        "frame": 26,
+        "triangle_pairs": 14
+      },
+      {
+        "frame": 27,
+        "triangle_pairs": 14
+      },
+      {
+        "frame": 28,
+        "triangle_pairs": 16
+      },
+      {
+        "frame": 29,
+        "triangle_pairs": 16
+      },
+      {
+        "frame": 30,
+        "triangle_pairs": 18
+      },
+      {
+        "frame": 31,
+        "triangle_pairs": 18
+      },
+      {
+        "frame": 32,
+        "triangle_pairs": 20
+      },
+      {
+        "frame": 33,
+        "triangle_pairs": 20
+      },
+      {
+        "frame": 34,
+        "triangle_pairs": 20
+      },
+      {
+        "frame": 35,
+        "triangle_pairs": 22
+      },
+      {
+        "frame": 36,
+        "triangle_pairs": 20
+      },
+      {
+        "frame": 37,
+        "triangle_pairs": 20
+      },
+      {
+        "frame": 38,
+        "triangle_pairs": 22
+      },
+      {
+        "frame": 39,
+        "triangle_pairs": 22
+      },
+      {
+        "frame": 40,
+        "triangle_pairs": 24
+      },
+      {
+        "frame": 41,
+        "triangle_pairs": 26
+      },
+      {
+        "frame": 42,
+        "triangle_pairs": 28
+      },
+      {
+        "frame": 43,
+        "triangle_pairs": 28
+      },
+      {
+        "frame": 44,
+        "triangle_pairs": 28
+      },
+      {
+        "frame": 45,
+        "triangle_pairs": 26
+      },
+      {
+        "frame": 46,
+        "triangle_pairs": 22
+      },
+      {
+        "frame": 47,
+        "triangle_pairs": 20
+      },
+      {
+        "frame": 48,
+        "triangle_pairs": 20
+      },
+      {
+        "frame": 49,
+        "triangle_pairs": 20
+      },
+      {
+        "frame": 50,
+        "triangle_pairs": 18
+      },
+      {
+        "frame": 51,
+        "triangle_pairs": 18
+      },
+      {
+        "frame": 52,
+        "triangle_pairs": 18
+      },
+      {
+        "frame": 53,
+        "triangle_pairs": 16
+      },
+      {
+        "frame": 54,
+        "triangle_pairs": 16
+      },
+      {
+        "frame": 55,
+        "triangle_pairs": 16
+      },
+      {
+        "frame": 56,
+        "triangle_pairs": 16
+      },
+      {
+        "frame": 57,
+        "triangle_pairs": 16
+      },
+      {
+        "frame": 58,
+        "triangle_pairs": 16
+      },
+      {
+        "frame": 59,
+        "triangle_pairs": 16
+      },
+      {
+        "frame": 60,
+        "triangle_pairs": 16
+      },
+      {
+        "frame": 61,
+        "triangle_pairs": 16
+      },
+      {
+        "frame": 62,
+        "triangle_pairs": 16
+      },
+      {
+        "frame": 63,
+        "triangle_pairs": 16
+      },
+      {
+        "frame": 64,
+        "triangle_pairs": 16
+      },
+      {
+        "frame": 65,
+        "triangle_pairs": 16
+      },
+      {
+        "frame": 66,
+        "triangle_pairs": 16
+      },
+      {
+        "frame": 67,
+        "triangle_pairs": 16
+      },
+      {
+        "frame": 68,
+        "triangle_pairs": 16
+      },
+      {
+        "frame": 69,
+        "triangle_pairs": 16
+      },
+      {
+        "frame": 70,
+        "triangle_pairs": 16
+      },
+      {
+        "frame": 71,
+        "triangle_pairs": 16
+      },
+      {
+        "frame": 72,
+        "triangle_pairs": 16
+      },
+      {
+        "frame": 73,
+        "triangle_pairs": 16
+      },
+      {
+        "frame": 74,
+        "triangle_pairs": 16
+      },
+      {
+        "frame": 75,
+        "triangle_pairs": 16
+      },
+      {
+        "frame": 76,
+        "triangle_pairs": 16
+      },
+      {
+        "frame": 77,
+        "triangle_pairs": 16
+      },
+      {
+        "frame": 78,
+        "triangle_pairs": 16
+      },
+      {
+        "frame": 79,
+        "triangle_pairs": 16
+      },
+      {
+        "frame": 80,
+        "triangle_pairs": 16
+      },
+      {
+        "frame": 81,
+        "triangle_pairs": 16
+      },
+      {
+        "frame": 82,
+        "triangle_pairs": 10
+      }
+    ],
+    "SB_MainWing_-1 / SB_LandingSkidCannon_-1": [
+      {
+        "frame": 99,
+        "triangle_pairs": 10
+      },
+      {
+        "frame": 100,
+        "triangle_pairs": 16
+      },
+      {
+        "frame": 101,
+        "triangle_pairs": 22
+      },
+      {
+        "frame": 102,
+        "triangle_pairs": 24
+      },
+      {
+        "frame": 103,
+        "triangle_pairs": 24
+      },
+      {
+        "frame": 104,
+        "triangle_pairs": 24
+      },
+      {
+        "frame": 105,
+        "triangle_pairs": 24
+      },
+      {
+        "frame": 106,
+        "triangle_pairs": 26
+      },
+      {
+        "frame": 107,
+        "triangle_pairs": 36
+      },
+      {
+        "frame": 108,
+        "triangle_pairs": 40
+      },
+      {
+        "frame": 109,
+        "triangle_pairs": 40
+      },
+      {
+        "frame": 110,
+        "triangle_pairs": 40
+      },
+      {
+        "frame": 111,
+        "triangle_pairs": 42
+      },
+      {
+        "frame": 112,
+        "triangle_pairs": 46
+      },
+      {
+        "frame": 113,
+        "triangle_pairs": 38
+      },
+      {
+        "frame": 114,
+        "triangle_pairs": 32
+      },
+      {
+        "frame": 115,
+        "triangle_pairs": 32
+      },
+      {
+        "frame": 116,
+        "triangle_pairs": 32
+      },
+      {
+        "frame": 117,
+        "triangle_pairs": 32
+      },
+      {
+        "frame": 118,
+        "triangle_pairs": 32
+      },
+      {
+        "frame": 119,
+        "triangle_pairs": 32
+      },
+      {
+        "frame": 120,
+        "triangle_pairs": 32
+      },
+      {
+        "frame": 121,
+        "triangle_pairs": 32
+      }
+    ],
+    "SB_MainWing_1 / SB_LandingSkidCannon_1": [
+      {
+        "frame": 99,
+        "triangle_pairs": 10
+      },
+      {
+        "frame": 100,
+        "triangle_pairs": 16
+      },
+      {
+        "frame": 101,
+        "triangle_pairs": 22
+      },
+      {
+        "frame": 102,
+        "triangle_pairs": 24
+      },
+      {
+        "frame": 103,
+        "triangle_pairs": 24
+      },
+      {
+        "frame": 104,
+        "triangle_pairs": 24
+      },
+      {
+        "frame": 105,
+        "triangle_pairs": 24
+      },
+      {
+        "frame": 106,
+        "triangle_pairs": 26
+      },
+      {
+        "frame": 107,
+        "triangle_pairs": 36
+      },
+      {
+        "frame": 108,
+        "triangle_pairs": 40
+      },
+      {
+        "frame": 109,
+        "triangle_pairs": 40
+      },
+      {
+        "frame": 110,
+        "triangle_pairs": 40
+      },
+      {
+        "frame": 111,
+        "triangle_pairs": 42
+      },
+      {
+        "frame": 112,
+        "triangle_pairs": 46
+      },
+      {
+        "frame": 113,
+        "triangle_pairs": 38
+      },
+      {
+        "frame": 114,
+        "triangle_pairs": 32
+      },
+      {
+        "frame": 115,
+        "triangle_pairs": 32
+      },
+      {
+        "frame": 116,
+        "triangle_pairs": 32
+      },
+      {
+        "frame": 117,
+        "triangle_pairs": 32
+      },
+      {
+        "frame": 118,
+        "triangle_pairs": 32
+      },
+      {
+        "frame": 119,
+        "triangle_pairs": 32
+      },
+      {
+        "frame": 120,
+        "triangle_pairs": 32
+      },
+      {
+        "frame": 121,
+        "triangle_pairs": 32
+      }
+    ]
+  },
+  "minimum_skid_rail_z_m": 0.07000000029802322,
+  "rotor_samples": 120,
+  "rotor_hits": [],
+  "minimum_helicopter_blade_z_m": 2.814500093460083,
+  "pilot_glazing": [
+    {
+      "mask_on": false,
+      "glazing_intersections": []
+    },
+    {
+      "mask_on": true,
+      "glazing_intersections": [
+        "MM_Viper_ShoulderGorget"
+      ]
+    }
+  ]
+}

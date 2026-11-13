@@ -1,0 +1,7 @@
+{
+  "status": "success",
+  "result": {
+    "executed": true,
+    "result": "SHOULDER_FIT [{\"pose\": 0.0, \"samples\": 80, \"edge_distance_min_m\": 0.005996006540954113, \"edge_distance_max_m\": 0.006000064779073, \"edge_distance_mean_m\": 0.005999684624839574, \"samples_more_than_2mm_inside\": 0, \"scope\": \"Outer rim to evaluated garment only; nearest-surface sign, not volumetric collision proof.\"}, {\"pose\": 1.0, \"samples\": 80, \"edge_distance_min_m\": 0.005186663009226322, \"edge_distance_max_m\": 0.006000183988362551, \"edge_distance_mean_m\": 0.005985080491518602, \"samples_more_than_2mm_inside\": 0, \"scope\": \"Outer rim to evaluated garment only; nearest-surface sign, not volumetric collision proof.\"}]\n"
+  }
+}

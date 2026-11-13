@@ -1,0 +1,7 @@
+{
+  "status": "success",
+  "result": {
+    "executed": true,
+    "result": "MOTION_CHECK {\"collision_pairs\": {}, \"rotor_hits\": 0, \"ground_min\": 0.07000000029802322, \"pilot\": [{\"mask_on\": false, \"glazing_intersections\": [\"MM_ContinuousSweptHairCap\"]}, {\"mask_on\": true, \"glazing_intersections\": [\"MM_Viper_CrownRidge_Mesh\", \"MM_Viper_CrownRidge_Mesh.001\", \"MM_Viper_CompactHelmet\"]}]}\n"
+  }
+}

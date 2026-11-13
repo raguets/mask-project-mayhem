@@ -47,7 +47,7 @@ void APlayerHUD::DrawHUD()
 		if (const auto* MaskCar=Cast<AThunderhawkPawn>(Vehicle))
 		{
 			const auto State=MaskCar->Modes->GetMode();
-			const TCHAR* Mode=State==EMaskVehicleMode::Road?TEXT("ROUTE"):State==EMaskVehicleMode::Flight?TEXT("VOL"):State==EMaskVehicleMode::Landing?TEXT("ATTERRISSAGE AUTO"):State==EMaskVehicleMode::Combat?TEXT("COMBAT"):TEXT("TRANSFORMATION");
+			const TCHAR* Mode=State==EMaskVehicleMode::Road?(MaskCar->IsNativeAircraft()?TEXT("HELICOPTERE"):TEXT("ROUTE")):State==EMaskVehicleMode::Flight?(MaskCar->IsNativeAircraft()?TEXT("AVION"):TEXT("VOL")):State==EMaskVehicleMode::Landing?TEXT("ATTERRISSAGE AUTO"):State==EMaskVehicleMode::Combat?TEXT("COMBAT"):TEXT("TRANSFORMATION");
 			if(MaskCar->Definition) { DrawText(FString::Printf(TEXT("%s  |  %s  |  %s  |  %s %s"),*MaskCar->Definition->VehicleName,*MaskCar->Definition->DriverName,Mode,*MaskCar->Definition->MaskName,MaskCar->IsMaskVisible()?TEXT("equipe"):TEXT("retire")),FColor(120,230,255),20,18); }
 			if (!MaskCar->Modes->LastRefusal.IsEmpty()) { DrawText(MaskCar->Modes->LastRefusal,FColor(255,190,80),20,95); }
 		}
@@ -59,14 +59,16 @@ void APlayerHUD::DrawHUD()
 			const TCHAR* Rows[]={TEXT("RT / LT : accelerer / freiner ; en avion : regler la vitesse (minimum de vol)"),
 				TEXT("Stick gauche : virer avec roulis ; haut/bas : cabrer / piquer"),TEXT("Stick droit : camera libre     Clic L3 : recentrer     Clic R3 : cockpit / exterieur"),
 				TEXT("RB : tirer (maintenir)     Y : changer d'arme     Croix gauche/droite : armes 1/2"),
-				TEXT("X : transformer en roulant ; en avion : atterrissage puis retour voiture automatiques"),
+				(Cast<AThunderhawkPawn>(Vehicle) && Cast<AThunderhawkPawn>(Vehicle)->IsNativeAircraft())?TEXT("X : helicoptere / avion en vol ; stick haut/bas : monter / descendre pour se poser"):TEXT("X : transformer en roulant ; en avion : atterrissage puis retour voiture automatiques"),
 				TEXT("A : sortir du vehicule (a l'arret et au sol)     B : frein a main / piquer en avion"),
 				TEXT("LB : frein a main     Croix haut/bas : vehicule IA suivant / precedent"),
 				TEXT("L'IA reprend votre ancien vehicule     View (maintenir) : scores     Menu : pause/commandes")};
 			for (int32 I=0;I<UE_ARRAY_COUNT(Rows);++I) { DrawText(Rows[I],FColor::White,50,205+I*30.f); }
 			if(const auto* Mask=Cast<AThunderhawkPawn>(Vehicle);Mask && Mask->Definition)
 			{
-				if(Mask->Definition->VehicleName==TEXT("Hurricane"))
+				if(Mask->IsNativeAircraft())
+				{ DrawText(TEXT("Switchblade : X helicoptere/avion en vol ; helico : frein jusqu'au stationnaire, R/F monter/poser. Avion : avance obligatoire."),FColor(120,230,255),50,450); }
+				else if(Mask->Definition->VehicleName==TEXT("Hurricane"))
 				{ DrawText(TEXT("Hurricane reste au sol. En combat : LB + Y projette la roue de secours (une seule fois)."),FColor(120,230,255),50,450); }
 				else if(!Mask->Definition->bSupportsFlight)
 				{ DrawText(TEXT("Rhino et son module restent au sol. X sur le module : retour au camion et rassemblement."),FColor(120,230,255),50,450); }

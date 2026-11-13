@@ -1,0 +1,539 @@
+{
+  "status": "complete",
+  "elapsed_seconds": 105.83,
+  "scene_file": "G:\\DEV\\mask-project-mayhem\\art_source\\Switchblade\\Switchblade_V21_Assembly.blend",
+  "job": {
+    "rig": "Switchblade_Control",
+    "rig_properties": [
+      "transform",
+      "rotor_angle",
+      "canopy_open",
+      "hover_height"
+    ],
+    "actors": {
+      "MilesMayhem_Rig": [
+        "driving_pose",
+        "mask_on",
+        "in_vehicle"
+      ]
+    },
+    "output_dir": "G:\\DEV\\mask-project-mayhem\\art_source\\Switchblade\\renders\\v21_review",
+    "width": 1200,
+    "height": 900,
+    "samples": 24,
+    "device": "GPU",
+    "views": [
+      {
+        "name": "helicopter_front",
+        "frame": 1,
+        "properties": {},
+        "camera": [
+          9,
+          -11,
+          6
+        ],
+        "target": [
+          -0.4,
+          0,
+          1.5
+        ],
+        "lens": 55
+      },
+      {
+        "name": "helicopter_side",
+        "frame": 1,
+        "properties": {},
+        "camera": [
+          0,
+          -13,
+          3.2
+        ],
+        "target": [
+          -0.4,
+          0,
+          1.5
+        ],
+        "lens": 55
+      },
+      {
+        "name": "early_opening",
+        "frame": 19,
+        "properties": {},
+        "camera": [
+          -8,
+          -9,
+          6
+        ],
+        "target": [
+          -0.7,
+          0,
+          1.5
+        ],
+        "lens": 58
+      },
+      {
+        "name": "mid_transform",
+        "frame": 61,
+        "properties": {},
+        "camera": [
+          9,
+          -11,
+          7
+        ],
+        "target": [
+          -0.4,
+          0,
+          1.5
+        ],
+        "lens": 55
+      },
+      {
+        "name": "blades_folded",
+        "frame": 105,
+        "properties": {},
+        "camera": [
+          -4,
+          -6,
+          4
+        ],
+        "target": [
+          -1.3,
+          0,
+          2.12
+        ],
+        "lens": 67
+      },
+      {
+        "name": "airplane_front",
+        "frame": 121,
+        "properties": {},
+        "camera": [
+          9,
+          -11,
+          8
+        ],
+        "target": [
+          -0.4,
+          0,
+          1.6
+        ],
+        "lens": 55
+      },
+      {
+        "name": "airplane_side",
+        "frame": 121,
+        "properties": {},
+        "camera": [
+          0,
+          -13,
+          3
+        ],
+        "target": [
+          -0.4,
+          0,
+          1.6
+        ],
+        "lens": 55
+      },
+      {
+        "name": "airplane_rear",
+        "frame": 121,
+        "properties": {},
+        "camera": [
+          -10,
+          -9,
+          6
+        ],
+        "target": [
+          -0.4,
+          0,
+          1.6
+        ],
+        "lens": 55
+      },
+      {
+        "name": "airplane_top",
+        "frame": 121,
+        "properties": {},
+        "camera": [
+          0,
+          -0.01,
+          18
+        ],
+        "target": [
+          -0.4,
+          0,
+          1.4
+        ],
+        "lens": 55
+      },
+      {
+        "name": "rotor_stowed",
+        "frame": 121,
+        "properties": {},
+        "camera": [
+          -3,
+          -4,
+          4
+        ],
+        "target": [
+          -1.3,
+          0,
+          2.12
+        ],
+        "lens": 70
+      },
+      {
+        "name": "keel_and_supports",
+        "frame": 121,
+        "properties": {},
+        "camera": [
+          4,
+          -5,
+          0.85
+        ],
+        "target": [
+          0.1,
+          0,
+          1.1
+        ],
+        "lens": 58
+      },
+      {
+        "name": "cockpit_fit",
+        "frame": 1,
+        "properties": {
+          "canopy_open": 1.0
+        },
+        "camera": [
+          4,
+          -4,
+          4
+        ],
+        "target": [
+          0.8,
+          0,
+          1.4
+        ],
+        "lens": 78
+      },
+      {
+        "name": "forewing_weapons",
+        "frame": 121,
+        "properties": {},
+        "camera": [
+          4,
+          -4,
+          2.8
+        ],
+        "target": [
+          1.25,
+          0,
+          1.5
+        ],
+        "lens": 75
+      },
+      {
+        "name": "forewing_weapons_stored",
+        "frame": 1,
+        "properties": {},
+        "camera": [
+          4,
+          -4,
+          2.8
+        ],
+        "target": [
+          1.25,
+          0,
+          1.5
+        ],
+        "lens": 75
+      }
+    ]
+  },
+  "renders": [
+    {
+      "view": {
+        "name": "helicopter_front",
+        "frame": 1,
+        "properties": {},
+        "camera": [
+          9,
+          -11,
+          6
+        ],
+        "target": [
+          -0.4,
+          0,
+          1.5
+        ],
+        "lens": 55
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Switchblade\\renders\\v21_review\\helicopter_front.png",
+      "size_bytes": 1152963
+    },
+    {
+      "view": {
+        "name": "helicopter_side",
+        "frame": 1,
+        "properties": {},
+        "camera": [
+          0,
+          -13,
+          3.2
+        ],
+        "target": [
+          -0.4,
+          0,
+          1.5
+        ],
+        "lens": 55
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Switchblade\\renders\\v21_review\\helicopter_side.png",
+      "size_bytes": 1125828
+    },
+    {
+      "view": {
+        "name": "early_opening",
+        "frame": 19,
+        "properties": {},
+        "camera": [
+          -8,
+          -9,
+          6
+        ],
+        "target": [
+          -0.7,
+          0,
+          1.5
+        ],
+        "lens": 58
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Switchblade\\renders\\v21_review\\early_opening.png",
+      "size_bytes": 1201649
+    },
+    {
+      "view": {
+        "name": "mid_transform",
+        "frame": 61,
+        "properties": {},
+        "camera": [
+          9,
+          -11,
+          7
+        ],
+        "target": [
+          -0.4,
+          0,
+          1.5
+        ],
+        "lens": 55
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Switchblade\\renders\\v21_review\\mid_transform.png",
+      "size_bytes": 1157594
+    },
+    {
+      "view": {
+        "name": "blades_folded",
+        "frame": 105,
+        "properties": {},
+        "camera": [
+          -4,
+          -6,
+          4
+        ],
+        "target": [
+          -1.3,
+          0,
+          2.12
+        ],
+        "lens": 67
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Switchblade\\renders\\v21_review\\blades_folded.png",
+      "size_bytes": 1173787
+    },
+    {
+      "view": {
+        "name": "airplane_front",
+        "frame": 121,
+        "properties": {},
+        "camera": [
+          9,
+          -11,
+          8
+        ],
+        "target": [
+          -0.4,
+          0,
+          1.6
+        ],
+        "lens": 55
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Switchblade\\renders\\v21_review\\airplane_front.png",
+      "size_bytes": 1167071
+    },
+    {
+      "view": {
+        "name": "airplane_side",
+        "frame": 121,
+        "properties": {},
+        "camera": [
+          0,
+          -13,
+          3
+        ],
+        "target": [
+          -0.4,
+          0,
+          1.6
+        ],
+        "lens": 55
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Switchblade\\renders\\v21_review\\airplane_side.png",
+      "size_bytes": 1093319
+    },
+    {
+      "view": {
+        "name": "airplane_rear",
+        "frame": 121,
+        "properties": {},
+        "camera": [
+          -10,
+          -9,
+          6
+        ],
+        "target": [
+          -0.4,
+          0,
+          1.6
+        ],
+        "lens": 55
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Switchblade\\renders\\v21_review\\airplane_rear.png",
+      "size_bytes": 1162846
+    },
+    {
+      "view": {
+        "name": "airplane_top",
+        "frame": 121,
+        "properties": {},
+        "camera": [
+          0,
+          -0.01,
+          18
+        ],
+        "target": [
+          -0.4,
+          0,
+          1.4
+        ],
+        "lens": 55
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Switchblade\\renders\\v21_review\\airplane_top.png",
+      "size_bytes": 1161865
+    },
+    {
+      "view": {
+        "name": "rotor_stowed",
+        "frame": 121,
+        "properties": {},
+        "camera": [
+          -3,
+          -4,
+          4
+        ],
+        "target": [
+          -1.3,
+          0,
+          2.12
+        ],
+        "lens": 70
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Switchblade\\renders\\v21_review\\rotor_stowed.png",
+      "size_bytes": 1194171
+    },
+    {
+      "view": {
+        "name": "keel_and_supports",
+        "frame": 121,
+        "properties": {},
+        "camera": [
+          4,
+          -5,
+          0.85
+        ],
+        "target": [
+          0.1,
+          0,
+          1.1
+        ],
+        "lens": 58
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Switchblade\\renders\\v21_review\\keel_and_supports.png",
+      "size_bytes": 1135165
+    },
+    {
+      "view": {
+        "name": "cockpit_fit",
+        "frame": 1,
+        "properties": {
+          "canopy_open": 1.0
+        },
+        "camera": [
+          4,
+          -4,
+          4
+        ],
+        "target": [
+          0.8,
+          0,
+          1.4
+        ],
+        "lens": 78
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Switchblade\\renders\\v21_review\\cockpit_fit.png",
+      "size_bytes": 1382998
+    },
+    {
+      "view": {
+        "name": "forewing_weapons",
+        "frame": 121,
+        "properties": {},
+        "camera": [
+          4,
+          -4,
+          2.8
+        ],
+        "target": [
+          1.25,
+          0,
+          1.5
+        ],
+        "lens": 75
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Switchblade\\renders\\v21_review\\forewing_weapons.png",
+      "size_bytes": 1281862
+    },
+    {
+      "view": {
+        "name": "forewing_weapons_stored",
+        "frame": 1,
+        "properties": {},
+        "camera": [
+          4,
+          -4,
+          2.8
+        ],
+        "target": [
+          1.25,
+          0,
+          1.5
+        ],
+        "lens": 75
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Switchblade\\renders\\v21_review\\forewing_weapons_stored.png",
+      "size_bytes": 1282817
+    }
+  ],
+  "retained_previous_views": []
+}

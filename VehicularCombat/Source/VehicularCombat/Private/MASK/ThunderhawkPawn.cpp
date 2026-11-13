@@ -78,6 +78,13 @@ void AThunderhawkPawn::OnConstruction(const FTransform& Transform)
 			Movement->WheelSetups[I].WheelClass=Definition->Wheels[I].WheelClass;
 		}
 	}
+	if(IsNativeAircraft())
+	{
+		Movement->WheelSetups.Reset();
+		// Zero wheels makes the road all-wheels-grounded sleep heuristic vacuously true.
+		Movement->SleepThreshold=0.f;
+		Movement->EnableMechanicalSim(false);Movement->EnableSuspension(false);Movement->EnableWheelFriction(false);
+	}
 	Movement->Mass=Definition->MassKg;Movement->DownforceCoefficient=0.f;Movement->DragCoefficient=0.f;
  Movement->ThrottleInputRate.RiseRate=2.f;Movement->ThrottleInputRate.FallRate=4.f;
 	Movement->SteeringInputRate.RiseRate=5.f;Movement->SteeringInputRate.FallRate=7.f;
@@ -153,6 +160,14 @@ void AThunderhawkPawn::BeginPlay()
 	GetMesh()->SetEnableGravity(true);GetMesh()->SetSimulatePhysics(true);
 	GetMesh()->RecreatePhysicsState();GetVehicleMovement()->RecreatePhysicsState();
 	GetMesh()->SetAllBodiesSimulatePhysics(true);GetMesh()->WakeAllRigidBodies();
+	if(IsNativeAircraft())
+	{
+		GetMesh()->SetMassOverrideInKg(NAME_None,Definition->MassKg,true);
+		GetMesh()->SetAllUseCCD(true);
+		GetMesh()->SetLinearDamping(.05f);GetMesh()->SetAngularDamping(.5f);
+		// Keep Chaos async/body synchronization ticking even without road wheels.
+	}
+	if(Definition->Faction==EMaskFaction::Venom) { FleetTeamId=2; }
 	UE_LOG(LogTemp,Display,TEXT("MASK_PHYS sim=%d mass=%.2f root=%s wheelFL=%s actor=%s"),GetMesh()->IsSimulatingPhysics(),GetMesh()->GetMass(),
 		*GetMesh()->GetBoneName(0).ToString(),*GetMesh()->GetBoneLocation(TEXT("wheel_FL"),EBoneSpaces::ComponentSpace).ToString(),*GetActorLocation().ToString());
 	for (const auto& Part : Definition->Parts)
@@ -197,6 +212,7 @@ void AThunderhawkPawn::ApplyPilotState()
 }
 
 bool AThunderhawkPawn::IsMaskVisible() const { return IsValid(DriverCharacter)?DriverCharacter->IsMasked():bMaskVisible; }
+bool AThunderhawkPawn::IsNativeAircraft() const { return Definition && Definition->VehicleCategory==EMaskVehicleCategory::HelicopterAirplane; }
 void AThunderhawkPawn::DriverCharacterReady()
 {
 	if(!DriverCharacter || Matt==DriverCharacter->GetMesh()) { return; }
@@ -250,6 +266,7 @@ int32 AThunderhawkPawn::FleetSelectionGroup() const
 	if(Definition->VehicleName==TEXT("Hurricane")) { return 20; }
 	if(Definition->VehicleName==TEXT("Raven")) { return 30; }
 	if(Definition->VehicleName==TEXT("Condor")) { return 40; }
+	if(Definition->VehicleName==TEXT("Switchblade")) { return 50; }
 	return 100;
 }
 const UChaosVehicleWheel* AThunderhawkPawn::AnimationWheel(FName Name) const
@@ -313,7 +330,7 @@ void AThunderhawkPawn::Tick(float DeltaSeconds)
 				Transform=Transform*FTransform(Rotation,Pivot+FVector(0,0,Wheel->GetSuspensionOffset())-Rotation.RotateVector(Pivot));
 			}
 		}
-		if(Part.RotorSpeedDegrees>0.f && Progress>.98f)
+		if(Part.RotorSpeedDegrees>0.f && (Part.bRotorInBaseMode?Progress<.015f:Progress>.98f))
 		{
 			const double Now=GetWorld()->GetGameState()?GetWorld()->GetGameState()->GetServerWorldTimeSeconds():GetWorld()->GetTimeSeconds();
 			const FQuat Rotation(Part.RotorAxis.GetSafeNormal(),FMath::DegreesToRadians(FMath::Fmod(static_cast<float>(Now)*Part.RotorSpeedDegrees,360.f)));

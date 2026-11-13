@@ -97,3 +97,20 @@ bool UMaskAssetEditorLibrary::ConfigureCondorChassis(USkeletalMesh* Mesh)
 {
 	return ConfigureMaskChassis(Mesh,TEXT("/Game/MASK/Condor/"),FVector(-5,0,65),FVector(230,38,50),FVector(137,0,78));
 }
+
+bool UMaskAssetEditorLibrary::ConfigureSwitchbladeChassis(USkeletalMesh* Mesh)
+{
+#if WITH_EDITOR
+	if(!ConfigureMaskChassis(Mesh,TEXT("/Game/MASK/Switchblade/"),FVector(-45,0,145),FVector(690,128,130),FVector(270,0,150))) { return false; }
+	auto* Setup=Mesh->GetPhysicsAsset()->SkeletalBodySetups[0].Get();
+	const FTransform Pose=Mesh->GetRefSkeleton().GetRefBonePose()[0];const FVector Scale=Pose.GetScale3D().GetAbs();
+	for(float Side:{-1.f,1.f})
+	{
+		FKBoxElem Rail;Rail.Center=Pose.InverseTransformPosition(FVector(23,Side*98,13));Rail.Rotation=Pose.GetRotation().Inverse().Rotator();
+		Rail.X=240.f/Scale.X;Rail.Y=18.f/Scale.Y;Rail.Z=12.f/Scale.Z;Setup->AggGeom.BoxElems.Add(Rail);
+	}
+	Setup->InvalidatePhysicsData();Setup->CreatePhysicsMeshes();Mesh->GetPhysicsAsset()->MarkPackageDirty();return true;
+#else
+	return false;
+#endif
+}

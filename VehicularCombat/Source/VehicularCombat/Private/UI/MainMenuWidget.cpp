@@ -178,6 +178,7 @@ void UMainMenuWidget::CycleVehicleChoice()
 		else if(GI->MaskVehicleChoice==TEXT("Rhino")) { GI->MaskVehicleChoice=TEXT("Hurricane"); }
 		else if(GI->MaskVehicleChoice==TEXT("Hurricane")) { GI->MaskVehicleChoice=TEXT("Raven"); }
 		else if(GI->MaskVehicleChoice==TEXT("Raven")) { GI->MaskVehicleChoice=TEXT("Condor"); }
+		else if(GI->MaskVehicleChoice==TEXT("Condor")) { GI->MaskVehicleChoice=TEXT("Switchblade"); }
 		else { GI->bThunderhawkSelected=false;GI->MaskVehicleChoice=TEXT("Thunderhawk"); }
 		if(auto* Check=Cast<UCheckBox>(GetWidgetFromName(TEXT("ThunderhawkSelection")))) { Check->SetIsChecked(GI->bThunderhawkSelected); }
 		RefreshVehicleChoice();

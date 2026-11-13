@@ -1,0 +1,669 @@
+{
+  "status": "complete",
+  "elapsed_seconds": 101.11,
+  "scene_file": "G:\\DEV\\mask-project-mayhem\\art_source\\Switchblade\\Switchblade_V13_Assembly.blend",
+  "job": {
+    "rig": "Switchblade_Control",
+    "rig_properties": [
+      "transform",
+      "rotor_angle",
+      "canopy_open",
+      "hover_height"
+    ],
+    "actors": {
+      "MilesMayhem_Rig": [
+        "driving_pose",
+        "mask_on",
+        "in_vehicle"
+      ]
+    },
+    "output_dir": "G:\\DEV\\mask-project-mayhem\\art_source\\Switchblade\\renders\\v13_assembly",
+    "width": 1200,
+    "height": 900,
+    "samples": 24,
+    "device": "GPU",
+    "views": [
+      {
+        "name": "helicopter_front",
+        "frame": 1,
+        "properties": {},
+        "camera": [
+          9,
+          -11,
+          6
+        ],
+        "target": [
+          -0.4,
+          0,
+          1.5
+        ],
+        "lens": 55
+      },
+      {
+        "name": "helicopter_side",
+        "frame": 1,
+        "properties": {},
+        "camera": [
+          0,
+          -13,
+          3.2
+        ],
+        "target": [
+          -0.4,
+          0,
+          1.5
+        ],
+        "lens": 55
+      },
+      {
+        "name": "mid_transform",
+        "frame": 61,
+        "properties": {},
+        "camera": [
+          9,
+          -11,
+          7
+        ],
+        "target": [
+          -0.4,
+          0,
+          1.5
+        ],
+        "lens": 55
+      },
+      {
+        "name": "airplane_front",
+        "frame": 121,
+        "properties": {},
+        "camera": [
+          9,
+          -11,
+          8
+        ],
+        "target": [
+          -0.4,
+          0,
+          1.6
+        ],
+        "lens": 55
+      },
+      {
+        "name": "airplane_rear",
+        "frame": 121,
+        "properties": {},
+        "camera": [
+          -10,
+          -9,
+          6
+        ],
+        "target": [
+          -0.4,
+          0,
+          1.6
+        ],
+        "lens": 55
+      },
+      {
+        "name": "miles_0_False",
+        "frame": 1,
+        "properties": {},
+        "camera": [
+          3,
+          -3,
+          1.9
+        ],
+        "target": [
+          0,
+          0,
+          0.94
+        ],
+        "lens": 56,
+        "hide_collections": [
+          "Switchblade_Vehicle",
+          "Switchblade_Interior"
+        ],
+        "object_states": {
+          "MilesMayhem_Rig": {
+            "properties": {
+              "driving_pose": 0.0,
+              "mask_on": false,
+              "in_vehicle": 0.0
+            }
+          }
+        }
+      },
+      {
+        "name": "miles_0_True",
+        "frame": 1,
+        "properties": {},
+        "camera": [
+          3,
+          -3,
+          1.9
+        ],
+        "target": [
+          0,
+          0,
+          0.94
+        ],
+        "lens": 56,
+        "hide_collections": [
+          "Switchblade_Vehicle",
+          "Switchblade_Interior"
+        ],
+        "object_states": {
+          "MilesMayhem_Rig": {
+            "properties": {
+              "driving_pose": 0.0,
+              "mask_on": true,
+              "in_vehicle": 0.0
+            }
+          }
+        }
+      },
+      {
+        "name": "miles_1_False",
+        "frame": 1,
+        "properties": {},
+        "camera": [
+          3,
+          -3,
+          1.9
+        ],
+        "target": [
+          0,
+          0,
+          0.94
+        ],
+        "lens": 56,
+        "hide_collections": [
+          "Switchblade_Vehicle",
+          "Switchblade_Interior"
+        ],
+        "object_states": {
+          "MilesMayhem_Rig": {
+            "properties": {
+              "driving_pose": 1.0,
+              "mask_on": false,
+              "in_vehicle": 0.0
+            }
+          }
+        }
+      },
+      {
+        "name": "miles_1_True",
+        "frame": 1,
+        "properties": {},
+        "camera": [
+          3,
+          -3,
+          1.9
+        ],
+        "target": [
+          0,
+          0,
+          0.94
+        ],
+        "lens": 56,
+        "hide_collections": [
+          "Switchblade_Vehicle",
+          "Switchblade_Interior"
+        ],
+        "object_states": {
+          "MilesMayhem_Rig": {
+            "properties": {
+              "driving_pose": 1.0,
+              "mask_on": true,
+              "in_vehicle": 0.0
+            }
+          }
+        }
+      },
+      {
+        "name": "cockpit_fit",
+        "frame": 1,
+        "properties": {
+          "canopy_open": 1.0
+        },
+        "camera": [
+          4,
+          -4,
+          4
+        ],
+        "target": [
+          0.85,
+          0,
+          1.8
+        ],
+        "lens": 78
+      },
+      {
+        "name": "miles_face",
+        "frame": 1,
+        "properties": {},
+        "camera": [
+          1.4,
+          -1.7,
+          1.85
+        ],
+        "target": [
+          0.03,
+          0,
+          1.69
+        ],
+        "lens": 90,
+        "hide_collections": [
+          "Switchblade_Vehicle",
+          "Switchblade_Interior"
+        ],
+        "object_states": {
+          "MilesMayhem_Rig": {
+            "properties": {
+              "driving_pose": 0.0,
+              "mask_on": false,
+              "in_vehicle": 0.0
+            }
+          }
+        }
+      },
+      {
+        "name": "helicopter_top",
+        "frame": 1,
+        "properties": {},
+        "camera": [
+          0,
+          -0.01,
+          18
+        ],
+        "target": [
+          -0.4,
+          0,
+          1.5
+        ],
+        "lens": 55
+      },
+      {
+        "name": "early_opening",
+        "frame": 13,
+        "properties": {},
+        "camera": [
+          -8,
+          -9,
+          6
+        ],
+        "target": [
+          -0.7,
+          0,
+          1.5
+        ],
+        "lens": 58
+      },
+      {
+        "name": "airplane_top",
+        "frame": 121,
+        "properties": {},
+        "camera": [
+          0,
+          -0.01,
+          18
+        ],
+        "target": [
+          -0.4,
+          0,
+          1.4
+        ],
+        "lens": 55
+      }
+    ]
+  },
+  "renders": [
+    {
+      "view": {
+        "name": "helicopter_front",
+        "frame": 1,
+        "properties": {},
+        "camera": [
+          9,
+          -11,
+          6
+        ],
+        "target": [
+          -0.4,
+          0,
+          1.5
+        ],
+        "lens": 55
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Switchblade\\renders\\v13_assembly\\helicopter_front.png",
+      "size_bytes": 1144636
+    },
+    {
+      "view": {
+        "name": "helicopter_side",
+        "frame": 1,
+        "properties": {},
+        "camera": [
+          0,
+          -13,
+          3.2
+        ],
+        "target": [
+          -0.4,
+          0,
+          1.5
+        ],
+        "lens": 55
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Switchblade\\renders\\v13_assembly\\helicopter_side.png",
+      "size_bytes": 1116434
+    },
+    {
+      "view": {
+        "name": "mid_transform",
+        "frame": 61,
+        "properties": {},
+        "camera": [
+          9,
+          -11,
+          7
+        ],
+        "target": [
+          -0.4,
+          0,
+          1.5
+        ],
+        "lens": 55
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Switchblade\\renders\\v13_assembly\\mid_transform.png",
+      "size_bytes": 1154876
+    },
+    {
+      "view": {
+        "name": "airplane_front",
+        "frame": 121,
+        "properties": {},
+        "camera": [
+          9,
+          -11,
+          8
+        ],
+        "target": [
+          -0.4,
+          0,
+          1.6
+        ],
+        "lens": 55
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Switchblade\\renders\\v13_assembly\\airplane_front.png",
+      "size_bytes": 1161603
+    },
+    {
+      "view": {
+        "name": "airplane_rear",
+        "frame": 121,
+        "properties": {},
+        "camera": [
+          -10,
+          -9,
+          6
+        ],
+        "target": [
+          -0.4,
+          0,
+          1.6
+        ],
+        "lens": 55
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Switchblade\\renders\\v13_assembly\\airplane_rear.png",
+      "size_bytes": 1162819
+    },
+    {
+      "view": {
+        "name": "miles_0_False",
+        "frame": 1,
+        "properties": {},
+        "camera": [
+          3,
+          -3,
+          1.9
+        ],
+        "target": [
+          0,
+          0,
+          0.94
+        ],
+        "lens": 56,
+        "hide_collections": [
+          "Switchblade_Vehicle",
+          "Switchblade_Interior"
+        ],
+        "object_states": {
+          "MilesMayhem_Rig": {
+            "properties": {
+              "driving_pose": 0.0,
+              "mask_on": false,
+              "in_vehicle": 0.0
+            }
+          }
+        }
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Switchblade\\renders\\v13_assembly\\miles_0_False.png",
+      "size_bytes": 1125262
+    },
+    {
+      "view": {
+        "name": "miles_0_True",
+        "frame": 1,
+        "properties": {},
+        "camera": [
+          3,
+          -3,
+          1.9
+        ],
+        "target": [
+          0,
+          0,
+          0.94
+        ],
+        "lens": 56,
+        "hide_collections": [
+          "Switchblade_Vehicle",
+          "Switchblade_Interior"
+        ],
+        "object_states": {
+          "MilesMayhem_Rig": {
+            "properties": {
+              "driving_pose": 0.0,
+              "mask_on": true,
+              "in_vehicle": 0.0
+            }
+          }
+        }
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Switchblade\\renders\\v13_assembly\\miles_0_True.png",
+      "size_bytes": 1139720
+    },
+    {
+      "view": {
+        "name": "miles_1_False",
+        "frame": 1,
+        "properties": {},
+        "camera": [
+          3,
+          -3,
+          1.9
+        ],
+        "target": [
+          0,
+          0,
+          0.94
+        ],
+        "lens": 56,
+        "hide_collections": [
+          "Switchblade_Vehicle",
+          "Switchblade_Interior"
+        ],
+        "object_states": {
+          "MilesMayhem_Rig": {
+            "properties": {
+              "driving_pose": 1.0,
+              "mask_on": false,
+              "in_vehicle": 0.0
+            }
+          }
+        }
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Switchblade\\renders\\v13_assembly\\miles_1_False.png",
+      "size_bytes": 1140554
+    },
+    {
+      "view": {
+        "name": "miles_1_True",
+        "frame": 1,
+        "properties": {},
+        "camera": [
+          3,
+          -3,
+          1.9
+        ],
+        "target": [
+          0,
+          0,
+          0.94
+        ],
+        "lens": 56,
+        "hide_collections": [
+          "Switchblade_Vehicle",
+          "Switchblade_Interior"
+        ],
+        "object_states": {
+          "MilesMayhem_Rig": {
+            "properties": {
+              "driving_pose": 1.0,
+              "mask_on": true,
+              "in_vehicle": 0.0
+            }
+          }
+        }
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Switchblade\\renders\\v13_assembly\\miles_1_True.png",
+      "size_bytes": 1156697
+    },
+    {
+      "view": {
+        "name": "cockpit_fit",
+        "frame": 1,
+        "properties": {
+          "canopy_open": 1.0
+        },
+        "camera": [
+          4,
+          -4,
+          4
+        ],
+        "target": [
+          0.85,
+          0,
+          1.8
+        ],
+        "lens": 78
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Switchblade\\renders\\v13_assembly\\cockpit_fit.png",
+      "size_bytes": 1373703
+    },
+    {
+      "view": {
+        "name": "miles_face",
+        "frame": 1,
+        "properties": {},
+        "camera": [
+          1.4,
+          -1.7,
+          1.85
+        ],
+        "target": [
+          0.03,
+          0,
+          1.69
+        ],
+        "lens": 90,
+        "hide_collections": [
+          "Switchblade_Vehicle",
+          "Switchblade_Interior"
+        ],
+        "object_states": {
+          "MilesMayhem_Rig": {
+            "properties": {
+              "driving_pose": 0.0,
+              "mask_on": false,
+              "in_vehicle": 0.0
+            }
+          }
+        }
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Switchblade\\renders\\v13_assembly\\miles_face.png",
+      "size_bytes": 1119380
+    },
+    {
+      "view": {
+        "name": "helicopter_top",
+        "frame": 1,
+        "properties": {},
+        "camera": [
+          0,
+          -0.01,
+          18
+        ],
+        "target": [
+          -0.4,
+          0,
+          1.5
+        ],
+        "lens": 55
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Switchblade\\renders\\v13_assembly\\helicopter_top.png",
+      "size_bytes": 1143739
+    },
+    {
+      "view": {
+        "name": "early_opening",
+        "frame": 13,
+        "properties": {},
+        "camera": [
+          -8,
+          -9,
+          6
+        ],
+        "target": [
+          -0.7,
+          0,
+          1.5
+        ],
+        "lens": 58
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Switchblade\\renders\\v13_assembly\\early_opening.png",
+      "size_bytes": 1201851
+    },
+    {
+      "view": {
+        "name": "airplane_top",
+        "frame": 121,
+        "properties": {},
+        "camera": [
+          0,
+          -0.01,
+          18
+        ],
+        "target": [
+          -0.4,
+          0,
+          1.4
+        ],
+        "lens": 55
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Switchblade\\renders\\v13_assembly\\airplane_top.png",
+      "size_bytes": 1150337
+    }
+  ],
+  "retained_previous_views": []
+}

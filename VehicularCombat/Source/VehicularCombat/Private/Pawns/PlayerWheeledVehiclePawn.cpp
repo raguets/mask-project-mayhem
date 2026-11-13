@@ -192,7 +192,14 @@ bool APlayerWheeledVehiclePawn::CanDriverExit(FString& Reason) const
 	{ Reason=TEXT("Arretez le vehicule avant de sortir");return false; }
 	const auto* Move=CastChecked<UChaosWheeledVehicleMovementComponent>(GetVehicleMovement());int32 Contacts=0;
 	for(int32 I=0;I<Move->Wheels.Num();++I) { Contacts+=Move->GetWheelState(I).bInContact?1:0; }
-	if(Contacts<2 || GetActorUpVector().Z<.8f) { Reason=TEXT("Posez le vehicule sur un sol praticable pour sortir");return false; }
+	const auto* Data=GetDriverDefinition();const bool Skids=Data && Data->VehicleCategory==EMaskVehicleCategory::HelicopterAirplane;
+	if(Skids)
+	{
+		FCollisionQueryParams Query(SCENE_QUERY_STAT(SkidDriverExit),false,this);TArray<AActor*> Attached;GetAttachedActors(Attached,true,true);Query.AddIgnoredActors(Attached);FHitResult Hit;
+		if(!GetWorld()->LineTraceSingleByChannel(Hit,GetActorLocation()+FVector(0,0,100),GetActorLocation()-FVector(0,0,400),ECC_Vehicle,Query) || GetActorLocation().Z-Hit.ImpactPoint.Z>40.f || Hit.ImpactNormal.Z<.7f)
+		{ Reason=TEXT("Posez l'helicoptere avant de sortir");return false; }
+	}
+	if((!Skids && Contacts<2) || GetActorUpVector().Z<.8f) { Reason=TEXT("Posez le vehicule sur un sol praticable pour sortir");return false; }
 	return true;
 }
 TArray<FVector> APlayerWheeledVehiclePawn::GetDriverExitOffsets() const
@@ -212,6 +219,13 @@ void APlayerWheeledVehiclePawn::ServerRequestDriverExit_Implementation()
 	float RoadZ=0.f;int32 Contacts=0;
 	for(int32 I=0;I<Wheels->Wheels.Num();++I) { const auto& Wheel=Wheels->GetWheelState(I);if(Wheel.bInContact) { RoadZ+=Wheel.ContactPoint.Z;++Contacts; } }
 	RoadZ/=FMath::Max(1,Contacts);
+	const auto* ExitData=GetDriverDefinition();
+	if(Contacts==0 && ExitData && ExitData->VehicleCategory==EMaskVehicleCategory::HelicopterAirplane)
+	{
+		FHitResult Ground;
+		if(!GetWorld()->LineTraceSingleByChannel(Ground,GetActorLocation()+FVector(0,0,100),GetActorLocation()-FVector(0,0,400),ECC_Visibility,GroundQuery)) { return; }
+		RoadZ=Ground.ImpactPoint.Z;
+	}
 	for(const FVector Local:GetDriverExitOffsets())
 	{
 		const FVector XY=GetActorTransform().TransformPosition(Local);FHitResult Ground;

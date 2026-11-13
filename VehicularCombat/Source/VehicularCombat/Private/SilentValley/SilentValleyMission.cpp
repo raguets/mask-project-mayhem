@@ -77,7 +77,9 @@ bool ASilentValleyMission::SpawnEscort()
     FActorSpawnParameters Params;Params.SpawnCollisionHandlingOverride=ESpawnActorCollisionHandlingMethod::DontSpawnIfColliding;
     Enemy=GetWorld()->SpawnActor<APlayerWheeledVehiclePawn>(Class,Position,FRotator(0,180,0),Params);
     if(!Enemy) { return false; }
-    Enemy->FleetTeamId=2;EnemyController=GetWorld()->SpawnActor<AVehicleBotController>();
+    const auto* PC=GetWorld()->GetFirstPlayerController();
+    const auto* Player=PC?Cast<APlayerWheeledVehiclePawn>(PC->GetPawn()):nullptr;
+    Enemy->FleetTeamId=Player && Player->FleetTeamId==2?1:2;EnemyController=GetWorld()->SpawnActor<AVehicleBotController>();
     if(!EnemyController) { Enemy->Destroy();Enemy=nullptr;return false; }
     EnemyController->Possess(Enemy);EnemyController->SetActorTickEnabled(false);
     Enemy->GetVehicleMovementComponent()->SetHandbrakeInput(true);Enemy->GetVehicleMovementComponent()->SetBrakeInput(1);
@@ -94,7 +96,7 @@ void ASilentValleyMission::Tick(float DeltaSeconds)
         auto* PC=It->Get();APawn* Pawn=PC?PC->GetPawn():nullptr;if(!PC) { continue; }++Players;
         const auto* Life=Pawn?Pawn->FindComponentByClass<UHealthComponent>():nullptr;const auto* Driver=Cast<AMaskDriverCharacter>(Pawn);
         const bool Healthy=(Life && Life->CurrentHealth>0) || (Driver && Driver->Health>0);Alive|=Healthy;
-        if(auto* Car=Cast<APlayerWheeledVehiclePawn>(Pawn)) { Car->FleetTeamId=1; }
+        if(auto* Car=Cast<APlayerWheeledVehiclePawn>(Pawn)) { const auto* Def=Car->GetDriverDefinition();Car->FleetTeamId=Def?static_cast<int32>(Def->Faction):1; }
         if(Healthy && AtTarget(Pawn)) { Arrived=true;Stopped|=Pawn->GetVelocity().Size()<100; }
     }
     AllDownSeconds=Players>0 && !Alive?AllDownSeconds+DeltaSeconds:0;
@@ -132,7 +134,7 @@ void ASilentValleyMission::Retry(APlayerController* Requester)
     FString Vehicle=TEXT("Thunderhawk");const auto* Driver=Cast<AMaskDriverCharacter>(Requester->GetPawn());
     const auto* Car=Driver?Cast<AThunderhawkPawn>(Driver->SourceVehicle):Cast<AThunderhawkPawn>(Requester->GetPawn());
     if(Car && Car->Definition) { Vehicle=Car->Definition->VehicleName; }
-    if(Vehicle!=TEXT("Rhino") && Vehicle!=TEXT("Hurricane") && Vehicle!=TEXT("Raven") && Vehicle!=TEXT("Condor")) { Vehicle=TEXT("Thunderhawk"); }
+    if(Vehicle!=TEXT("Rhino") && Vehicle!=TEXT("Hurricane") && Vehicle!=TEXT("Raven") && Vehicle!=TEXT("Condor") && Vehicle!=TEXT("Switchblade")) { Vehicle=TEXT("Thunderhawk"); }
     // Recreate the configured companion fleet, including an explicit solo run.
     const auto* GameMode=GetWorld()->GetAuthGameMode();
     const int32 Bots=FMath::Clamp(UGameplayStatics::GetIntOption(GameMode?GameMode->OptionsString:FString(),TEXT("Bots"),0),0,6);

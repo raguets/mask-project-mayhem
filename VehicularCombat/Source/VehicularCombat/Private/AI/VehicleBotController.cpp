@@ -88,9 +88,11 @@ void AVehicleBotController::Tick(float DeltaSeconds)
     // A close formation point can lie behind the rear axle. Back into it rather
     // than circling with full steering inside a truck-sized turning radius.
     const bool Reverse=Now<ReverseUntil || (Follow && Distance<1000.f && FMath::Abs(Heading)>100.f);
-    if(auto* Mask=Cast<AThunderhawkPawn>(Vehicle);Mask && Mask->Modes->GetMode()==EMaskVehicleMode::Flight)
+    if(auto* Mask=Cast<AThunderhawkPawn>(Vehicle);Mask && (Mask->IsNativeAircraft() || Mask->Modes->GetMode()==EMaskVehicleMode::Flight))
     {
-        Mask->SetAIPilotInput(FVector(Approach?.35f:0.f,FMath::Clamp(Heading/45.f,-1.f,1.f),Target?FMath::Clamp((Target->GetActorLocation().Z+300.f-Vehicle->GetActorLocation().Z)/650.f,-.4f,.4f):0.f));
+        const bool Rotor=Mask->IsNativeAircraft() && Mask->Modes->GetMode()!=EMaskVehicleMode::Flight;
+        const FVector Ref=Target?Target->GetActorLocation():Navigation;
+        Mask->SetAIPilotInput(FVector(Approach?.35f:Rotor?-.6f:0.f,FMath::Clamp(Heading/45.f,-1.f,1.f),FMath::Clamp((Ref.Z+450.f-Vehicle->GetActorLocation().Z)/650.f,-.4f,.4f)));
     }
     Movement->SetHandbrakeInput(Follow && !Approach);Movement->SetTargetGear(Reverse?-1:1,true);
     const float TravelHeading=Reverse?FMath::FindDeltaAngleDegrees(Vehicle->GetActorRotation().Yaw+180.f,Route.Rotation().Yaw):Heading;

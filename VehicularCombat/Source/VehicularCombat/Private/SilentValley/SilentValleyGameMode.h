@@ -11,6 +11,8 @@ class ASilentValleyGameMode : public ACustomGameMode
 public:
     virtual void InitGame(const FString& MapName,const FString& Options,FString& Error) override;
     virtual void BeginPlay() override;
+    virtual void RestartPlayer(AController* Player) override;
+    bool FindNativeAircraftStart(FTransform& Transform) const;
     virtual AActor* ChoosePlayerStart_Implementation(AController* Player) override;
 private:
     bool bMissionEnabled=true;

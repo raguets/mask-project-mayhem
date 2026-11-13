@@ -50,6 +50,7 @@ public:
 	UFUNCTION(Server, Reliable) void ServerToggleMask();
 	UFUNCTION(Server, Reliable) void ServerToggleDriverPose();
 	UFUNCTION(BlueprintPure) bool IsMaskVisible() const;
+	UFUNCTION(BlueprintPure) bool IsNativeAircraft() const;
 	virtual bool CanChangeVehicleMode(FString& Reason) const { return true; }
 	virtual bool CanVehicleJump() const override;
 	virtual UMaskVehicleDefinition* GetDriverDefinition() const override { return Definition; }
@@ -64,6 +65,7 @@ protected:
 	virtual void UnPossessed() override;
 	virtual const TCHAR* DefaultDefinitionPath() const { return TEXT("/Game/MASK/Thunderhawk/DA_Thunderhawk.DA_Thunderhawk"); }
 public:
+	FVector GetPilotInput() const { return FlightInput; }
 	void SetAIPilotInput(FVector Input) { if (HasAuthority()) { FlightInput=Input.BoundToCube(1.f); } }
 private:
 	void FlightForward(float Value);

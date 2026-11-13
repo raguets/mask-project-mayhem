@@ -1,0 +1,240 @@
+{
+  "status": "complete",
+  "elapsed_seconds": 42.28,
+  "scene_file": "G:\\DEV\\mask-project-mayhem\\art_source\\Switchblade\\Switchblade_V1_Vehicle.blend",
+  "job": {
+    "rig": "Switchblade_Control",
+    "rig_properties": [
+      "transform",
+      "rotor_angle",
+      "canopy_open",
+      "hover_height"
+    ],
+    "output_dir": "G:\\DEV\\mask-project-mayhem\\art_source\\Switchblade\\renders\\v1_vehicle",
+    "width": 1200,
+    "height": 900,
+    "samples": 24,
+    "device": "GPU",
+    "views": [
+      {
+        "name": "helicopter_front",
+        "frame": 1,
+        "properties": {},
+        "camera": [
+          9,
+          -11,
+          6
+        ],
+        "target": [
+          -0.4,
+          0,
+          1.5
+        ],
+        "lens": 55
+      },
+      {
+        "name": "helicopter_side",
+        "frame": 1,
+        "properties": {},
+        "camera": [
+          0,
+          -13,
+          3.2
+        ],
+        "target": [
+          -0.4,
+          0,
+          1.5
+        ],
+        "lens": 55
+      },
+      {
+        "name": "mid_transform",
+        "frame": 61,
+        "properties": {},
+        "camera": [
+          9,
+          -11,
+          7
+        ],
+        "target": [
+          -0.4,
+          0,
+          1.5
+        ],
+        "lens": 55
+      },
+      {
+        "name": "airplane_front",
+        "frame": 121,
+        "properties": {},
+        "camera": [
+          9,
+          -11,
+          8
+        ],
+        "target": [
+          -0.4,
+          0,
+          1.6
+        ],
+        "lens": 55
+      },
+      {
+        "name": "airplane_rear",
+        "frame": 121,
+        "properties": {},
+        "camera": [
+          -10,
+          -9,
+          6
+        ],
+        "target": [
+          -0.4,
+          0,
+          1.6
+        ],
+        "lens": 55
+      },
+      {
+        "name": "airplane_top",
+        "frame": 121,
+        "properties": {},
+        "camera": [
+          0,
+          -0.01,
+          14
+        ],
+        "target": [
+          -0.4,
+          0,
+          1.5
+        ],
+        "lens": 55
+      }
+    ]
+  },
+  "renders": [
+    {
+      "view": {
+        "name": "helicopter_front",
+        "frame": 1,
+        "properties": {},
+        "camera": [
+          9,
+          -11,
+          6
+        ],
+        "target": [
+          -0.4,
+          0,
+          1.5
+        ],
+        "lens": 55
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Switchblade\\renders\\v1_vehicle\\helicopter_front.png",
+      "size_bytes": 1167626
+    },
+    {
+      "view": {
+        "name": "helicopter_side",
+        "frame": 1,
+        "properties": {},
+        "camera": [
+          0,
+          -13,
+          3.2
+        ],
+        "target": [
+          -0.4,
+          0,
+          1.5
+        ],
+        "lens": 55
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Switchblade\\renders\\v1_vehicle\\helicopter_side.png",
+      "size_bytes": 1137137
+    },
+    {
+      "view": {
+        "name": "mid_transform",
+        "frame": 61,
+        "properties": {},
+        "camera": [
+          9,
+          -11,
+          7
+        ],
+        "target": [
+          -0.4,
+          0,
+          1.5
+        ],
+        "lens": 55
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Switchblade\\renders\\v1_vehicle\\mid_transform.png",
+      "size_bytes": 1146461
+    },
+    {
+      "view": {
+        "name": "airplane_front",
+        "frame": 121,
+        "properties": {},
+        "camera": [
+          9,
+          -11,
+          8
+        ],
+        "target": [
+          -0.4,
+          0,
+          1.6
+        ],
+        "lens": 55
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Switchblade\\renders\\v1_vehicle\\airplane_front.png",
+      "size_bytes": 1151560
+    },
+    {
+      "view": {
+        "name": "airplane_rear",
+        "frame": 121,
+        "properties": {},
+        "camera": [
+          -10,
+          -9,
+          6
+        ],
+        "target": [
+          -0.4,
+          0,
+          1.6
+        ],
+        "lens": 55
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Switchblade\\renders\\v1_vehicle\\airplane_rear.png",
+      "size_bytes": 1172564
+    },
+    {
+      "view": {
+        "name": "airplane_top",
+        "frame": 121,
+        "properties": {},
+        "camera": [
+          0,
+          -0.01,
+          14
+        ],
+        "target": [
+          -0.4,
+          0,
+          1.5
+        ],
+        "lens": 55
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Switchblade\\renders\\v1_vehicle\\airplane_top.png",
+      "size_bytes": 1190760
+    }
+  ],
+  "retained_previous_views": []
+}

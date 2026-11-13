@@ -48,6 +48,15 @@ void UMaskVehicleModeComponent::ServerToggleMode_Implementation()
 	if(const auto* Vehicle=Cast<APlayerWheeledVehiclePawn>(GetOwner());Vehicle && Vehicle->IsDriverOnFoot()) { Refuse(TEXT("Remontez dans le vehicule avant de le transformer"));return; }
 	if(const auto* Vehicle=Cast<AThunderhawkPawn>(GetOwner());Vehicle && !Vehicle->CanChangeVehicleMode(Reason)) { Refuse(*Reason);return; }
 	if (const auto* Health=GetOwner()->FindComponentByClass<UHealthComponent>(); Health && Health->CurrentHealth<=0.f) { return; }
+	const auto* Aircraft=Cast<AThunderhawkPawn>(GetOwner());
+	if(Aircraft && Aircraft->IsNativeAircraft())
+	{
+		// Both endpoints are flight modes: returning to helicopter must NOT land/retract as a car.
+		if(!HasArticulationClearance()) { return; }
+		State.Mode=State.Mode==EMaskVehicleMode::Road?EMaskVehicleMode::Deploying:EMaskVehicleMode::Retracting;
+		State.ServerStartTime=ServerNow();GetOwner()->ForceNetUpdate();
+		UE_LOG(LogTemp,Display,TEXT("MASK_AIR_TO_AIR start mode=%d"),static_cast<int32>(State.Mode));return;
+	}
 	if(State.Mode==EMaskVehicleMode::Flight)
 	{
 		State.Mode=EMaskVehicleMode::Landing;State.ServerStartTime=ServerNow();GetOwner()->ForceNetUpdate();return;

@@ -1,0 +1,14 @@
+[
+  {
+    "asset": "viper",
+    "source": "G:\\DEV\\mask-project-mayhem\\art_source\\Miles_Mayhem\\Viper_V2.blend",
+    "render": "G:\\DEV\\mask-project-mayhem\\art_source\\Switchblade\\renders\\independent_final\\viper.png",
+    "actual_reopened": true
+  },
+  {
+    "asset": "miles",
+    "source": "G:\\DEV\\mask-project-mayhem\\art_source\\Miles_Mayhem\\MilesMayhem_V2.blend",
+    "render": "G:\\DEV\\mask-project-mayhem\\art_source\\Switchblade\\renders\\independent_final\\miles.png",
+    "actual_reopened": true
+  }
+]

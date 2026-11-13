@@ -1,5 +1,23 @@
 # Art production instructions
 
+## Autorisation générale d’interprétation — 2026-11-13
+
+L’utilisateur autorise désormais toujours une interprétation réaliste des personnages d’après les références fournies, ainsi que des cockpits non montrés. Cette autorisation s’applique notamment à Miles Mayhem et au cockpit de Switchblade. Ne pas redemander cette autorisation ; distinguer les formes observées des détails/anatomie/dimensions interprétés, sans prétendre reproduire une personne réelle.
+
+## Switchblade / Miles / Viper — 2026-11-13
+
+- Fiche transformation à lire avant images. Catégorie hélicoptère / avion : stationnaire et atterrissage en hélicoptère ; pas de stationnaire en avion. Tous les mécanismes commencent ensemble.
+- Verrière basse au niveau de la partie arrière, large à l’arrière sur toute la largeur du cockpit puis se rétrécissant légèrement vers l’avant. Nez prolongeant sa pente et le dessous du cockpit ; dessous massif, modérément bombé avec fond plus plat. Fermer les jours aux côtés arrière du vitrage et entre les parties haute/basse du cockpit.
+- Ailes repliées suivant les bords de la queue, légèrement plus larges près du cockpit et convergentes vers l’arrière ; elles rejoignent les petites ailes latérales. Déployées : bord arrière perpendiculaire au corps (constant X), bord avant oblique réduisant la corde vers l’extérieur. Dernière correction de planforme prioritaire sur les anciennes approximations.
+- Les faces EXTÉRIEURES des ailes stockées remontent pour devenir leur DESSUS déployé. Contrôler l’ouverture dès ses premières phases contre la queue. Charnières et liaisons d’ailes ne doivent pas être visibles ; ne pas laisser de pièces rapportées au-dessus de la verrière.
+- Les deux pales se superposent sur la queue. La dérive remonte en pivotant PAR L’ARRIÈRE dans le plan longitudinal vertical, pas latéralement.
+- Les patins deviennent des canons SOUS les ailes ; partie arrière des rails légèrement allongée. Garder les mêmes pièces persistantes.
+- Miles garde un seul corps/tête/rig pour les poses ; Viper indépendant et amovible. Ajuster le bord inférieur de Viper sur les épaules réelles et vérifier son suivi dans les deux poses.
+- Corrections suivantes du13/11 : cacher le support/pivot visible de la dérive ; dérive avion au bord arrière vertical/plat et bord avant oblique. Supports de patins plus étroits et courbes, balayés vers l’arrière, couverts par les ailes en avion. Peintures présentes sur grandes ailes ET petites ailes avant, visibles dans le viewport et les rendus.
+- Élargir légèrement les deux pales. Une fois leur repli terminé, abaisser leur base pour les plaquer contre le pont derrière le cockpit. Réduire encore le ventre avant : quille plus anguleuse remontant vers le nez, nez gardant de l’épaisseur dessous. Supprimer les pièces latérales du vitrage qui flottent sans liaison ; ajouter les deux prises d’air métalliques aux flancs supérieurs vers le milieu.
+- Dernières proportions du13/11 : supports de patins plus larges, patins légèrement reculés ; grandes ailes un peu plus larges avec bord avant davantage balayé pour continuer les petites ailes de cockpit ; deux ailerons arrière légèrement agrandis. Nez plus large au bout, sans cassure de pente : dessus prolonge le dernier plan du vitrage, dessous prolonge la quille avant en ligne droite.
+- Dernière correction de courbure : les supports descendent de l’AVANT vers l’ARRIÈRE ; seule leur convexité intermédiaire pointe vers l’AVANT. Ne pas inverser toute la pièce. Petites ailes avant plus larges à l’arrière et davantage obliques, avec terminaison droite : dernière demande les prolonge un peu pour toucher les ailes principales, sans les croiser. Deux canons escamotables intégrés dans leur avant. Prises d’air métalliques légèrement plus proéminentes.
+
 ## Raven glazing and roof corrections — 2026-11-11
 
 - Roof width is approximately three equal parts: left door roof wing, fixed center, right door roof wing. The side roof parts follow their doors and become winglets when opened.

@@ -1,0 +1,2 @@
+import bpy,json
+print(json.dumps({'file':bpy.data.filepath,'scene':bpy.context.scene.name,'frame':bpy.context.scene.frame_current,'objects':len(bpy.data.objects),'active_review':bpy.app.driver_namespace.get('_mask_asset_review_active'),'rigs':[o.name for o in bpy.data.objects if o.type=='ARMATURE'],'transform':bpy.data.objects['Switchblade_Control']['transform'],'interpretation_authorized':bpy.data.objects['Switchblade_Control']['interpretation_authorized']},ensure_ascii=False))

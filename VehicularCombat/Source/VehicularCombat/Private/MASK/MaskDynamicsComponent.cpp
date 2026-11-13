@@ -17,7 +17,7 @@ void UMaskDynamicsComponent::SetPilotInput(FVector Value) { if(!Value.ContainsNa
 bool UMaskDynamicsComponent::IsAirborneMode() const
 {
 	const auto* Car=Cast<AThunderhawkPawn>(GetOwner());
-	return Car && Car->Definition && Car->Definition->bSupportsFlight && (Car->Modes->GetMode()==EMaskVehicleMode::Flight || Car->Modes->GetMode()==EMaskVehicleMode::Landing);
+	return Car && Car->Definition && Car->Definition->bSupportsFlight && (Car->IsNativeAircraft() || Car->Modes->GetMode()==EMaskVehicleMode::Flight || Car->Modes->GetMode()==EMaskVehicleMode::Landing);
 }
 float UMaskDynamicsComponent::KineticEnergyKJ() const
 {
@@ -28,7 +28,8 @@ void UMaskDynamicsComponent::ApplyAttitude(USkeletalMeshComponent* Body,const FQ
 {
 	FQuat Error=Target*Body->GetComponentQuat().Inverse();if(Error.W<0) { Error=Error*-1.f; }Error.Normalize();
 	FVector Axis;float Angle;Error.ToAxisAndAngle(Axis,Angle);
-	const FVector Acceleration=(Axis*Angle*9.f-(Body->GetPhysicsAngularVelocityInRadians()-DesiredAngularVelocity)*5.f).GetClampedToMaxSize(3.f);
+	const auto* Aircraft=Cast<AThunderhawkPawn>(GetOwner());const bool Native=Aircraft && Aircraft->IsNativeAircraft();
+	const FVector Acceleration=(Axis*Angle*(Native?25.f:9.f)-(Body->GetPhysicsAngularVelocityInRadians()-DesiredAngularVelocity)*(Native?10.f:5.f)).GetClampedToMaxSize(Native?6.f:3.f);
 	// Actual inertia tensor, not an instantaneous rotation assignment.
 	const FVector Local=Body->GetComponentQuat().UnrotateVector(Acceleration)*Body->GetInertiaTensor();
 	Body->AddTorqueInRadians(Body->GetComponentQuat().RotateVector(Local));
@@ -38,20 +39,22 @@ void UMaskDynamicsComponent::Simulate(float DeltaSeconds)
 	auto* Car=Cast<AThunderhawkPawn>(GetOwner());if(!Car || !Car->Definition) { return; }
 	auto* Body=Car->GetMesh();auto* Move=CastChecked<UChaosWheeledVehicleMovementComponent>(Car->GetVehicleMovement());
 	const auto& Tune=Car->Definition->Dynamics;const auto Mode=Car->Modes->GetMode();const bool Air=IsAirborneMode();
+	const bool Native=Car->IsNativeAircraft(),WasAir=bAirForces;
 	if(Air!=bAirForces)
 	{
-		Move->EnableMechanicalSim(!Air);Move->EnableSuspension(!Air);Move->EnableWheelFriction(!Air);Move->EnableSelfRighting(!Air);
+		Move->EnableMechanicalSim(!Air && !Native);Move->EnableSuspension(!Air && !Native);Move->EnableWheelFriction(!Air && !Native);Move->EnableSelfRighting(!Air && !Native);
 		bAirForces=Air;Body->WakeAllRigidBodies();
 	}
 	if(!Car->HasAuthority() && !Car->IsLocallyControlled()) { PreviousMode=Mode;return; }
 	const FVector Velocity=Body->GetPhysicsLinearVelocity()*.01f;const float Mass=Body->GetMass();
-	const bool Rotor=Tune.FlightModel==EMaskFlightModel::Rotorcraft;
+	const bool Rotor=Native?Mode!=EMaskVehicleMode::Flight:Tune.FlightModel==EMaskFlightModel::Rotorcraft;
 	const float Maximum=Rotor?Tune.RotorcraftMaximumAirspeedMPS:Tune.MaximumAirspeedMPS;
-	if(Air && (PreviousMode!=EMaskVehicleMode::Flight && PreviousMode!=EMaskVehicleMode::Landing))
+	if(Air && (!WasAir || (Native && Rotor!=bPreviousRotorModel)))
 	{
 		if(Car->HasAuthority()) { TargetAirspeedMPS=FMath::Clamp(static_cast<float>(Velocity.Size2D()),Rotor?0.f:Tune.MinimumAirspeedMPS,Maximum); }
-		bTakeoffAssist=true;
+		bTakeoffAssist=!Native;
 	}
+	bPreviousRotorModel=Rotor;
 	PreviousMode=Mode;
 	if(!Air)
 	{
@@ -100,10 +103,24 @@ void UMaskDynamicsComponent::Simulate(float DeltaSeconds)
 	GroundClearanceCM=FoundGround?Car->GetActorLocation().Z-Ground.ImpactPoint.Z:50000.f;
 	const float Height=GroundClearanceCM*.01f;
 	const bool Landing=Mode==EMaskVehicleMode::Landing;
+	// Landed skids can sleep without a wheel tick; pilot lift must wake the actual rigid body.
+	if(Native && (Mode!=EMaskVehicleMode::Road || PilotInput.SizeSquared()>.0025f || Height>.4f)) { Move->SetSleeping(false); }
+	if(Native && Mode==EMaskVehicleMode::Road && FoundGround && Height<.4f && PilotInput.Z<=.05f && PilotInput.X<=.05f && Velocity.Z<.8f)
+	{
+		// Real skid collision supports the landed helicopter; no automatic hover on spawn.
+		TargetAirspeedMPS=0.f;bTakeoffAssist=false;
+		Body->AddForce(-FVector(Velocity.X,Velocity.Y,0)*Mass*4.f*100.f);
+		const FVector Heading=Car->GetActorForwardVector().GetSafeNormal2D();
+		ApplyAttitude(Body,FRotationMatrix::MakeFromZX(Ground.ImpactNormal,Heading).ToQuat(),FVector::ZeroVector);
+		return;
+	}
+	if(Native && FoundGround && Height<.4f && (PilotInput.Z>.05f || PilotInput.X>.05f || Mode==EMaskVehicleMode::Deploying)) { bTakeoffAssist=true; }
 	if(Height>=Tune.AutomaticTakeoffHeightM && Velocity.Z>=0.f) { bTakeoffAssist=false; }
 	if(Landing) { bTakeoffAssist=false; }
 	const float Minimum=Rotor?0.f:FMath::Max(5.f,Tune.MinimumAirspeedMPS);
 	TargetAirspeedMPS=FMath::Clamp(TargetAirspeedMPS+(Landing?0.f:PilotInput.X)*Tune.SpeedCommandRateMPS2*DeltaSeconds,Minimum,FMath::Max(Minimum,Maximum));
+	if(Native && Mode==EMaskVehicleMode::Deploying) { TargetAirspeedMPS=FMath::Max(TargetAirspeedMPS,Tune.MinimumAirspeedMPS*Car->Modes->GetDeployment()); }
+	if(Native && Mode==EMaskVehicleMode::Retracting) { TargetAirspeedMPS=FMath::Max(0.f,TargetAirspeedMPS-FMath::Max(12.f,Tune.SpeedCommandRateMPS2)*DeltaSeconds); }
 	if(Landing) { TargetAirspeedMPS=FMath::Max(Minimum,TargetAirspeedMPS-FMath::Max(10.f,Tune.SpeedCommandRateMPS2)*DeltaSeconds); }
 	float DesiredVZ=Rotor?PilotInput.Z*Tune.RotorcraftClimbMPS:Velocity.Size2D()*FMath::Sin(FMath::DegreesToRadians(PilotInput.Z*Tune.MaximumPitchDegrees));
 	if(bTakeoffAssist && FoundGround) { DesiredVZ=FMath::Max(DesiredVZ,FMath::Clamp((Tune.AutomaticTakeoffHeightM-Height)*2.f,.3f,2.5f)); }
@@ -121,7 +138,7 @@ void UMaskDynamicsComponent::Simulate(float DeltaSeconds)
 	const float VerticalAcceleration=FMath::Clamp((DesiredVZ-Velocity.Z)*1.6f,-Gravity*.8f,Gravity);
 	const FVector Drag=-Velocity.GetSafeNormal()*(.5f*1.225f*Tune.AirDragAreaM2*Velocity.SizeSquared());
 	FVector Force=Drag;
-	FRotator Attitude=Car->GetActorRotation();float DesiredYawRate=0.f;
+	FRotator Attitude=Car->GetActorRotation();float DesiredYawRate=0.f;FVector RotorThrustAxis=Car->GetActorUpVector();
 	if(!Rotor)
 	{
 		const float ForwardSpeed=FVector::DotProduct(Velocity,Car->GetActorForwardVector());
@@ -148,20 +165,24 @@ void UMaskDynamicsComponent::Simulate(float DeltaSeconds)
 	{
 		const FVector Heading=Car->GetActorForwardVector().GetSafeNormal2D();
 		const FVector DesiredHorizontal=Heading*TargetAirspeedMPS;
-		const float TiltLimit=FMath::Max(.1f,Gravity+VerticalAcceleration)*FMath::Tan(FMath::DegreesToRadians(FMath::Clamp(Landing?30.f:Tune.MaximumPitchDegrees,1.f,35.f)));
+		const bool Braking=Landing || (Native && (Mode==EMaskVehicleMode::Retracting || PilotInput.X<-.05f));
+		const float TiltLimit=FMath::Max(.1f,Gravity+VerticalAcceleration)*FMath::Tan(FMath::DegreesToRadians(FMath::Clamp(Braking?30.f:Tune.MaximumPitchDegrees,1.f,35.f)));
 		const FVector DampingCompensation=FVector(Velocity.X,Velocity.Y,0)*Body->GetLinearDamping();
-		const FVector Acceleration=((DesiredHorizontal-FVector(Velocity.X,Velocity.Y,0))*2.f+DampingCompensation).GetClampedToMaxSize(FMath::Min(Landing?6.f:4.5f,TiltLimit));
+		const FVector Acceleration=((DesiredHorizontal-FVector(Velocity.X,Velocity.Y,0))*(Native?1.f:2.f)+DampingCompensation).GetClampedToMaxSize(FMath::Min(Braking?6.f:4.5f,TiltLimit));
 		FVector DesiredUp=FVector(Acceleration.X,Acceleration.Y,Gravity+VerticalAcceleration).GetSafeNormal();
 		if(Landing && FoundGround && Height<2.5f && Ground.ImpactNormal.Z>.82f)
 		{
 			DesiredUp=FMath::Lerp(DesiredUp,Ground.ImpactNormal,FMath::Clamp((2.5f-Height)/2.f,0.f,1.f)).GetSafeNormal();
 		}
+		// Native cyclic thrust responds before the airframe catches up, avoiding a delayed hover feedback loop.
+		if(Native) { RotorThrustAxis=DesiredUp; }
 		// Preserve the rotor thrust axis first; prioritizing heading would flatten
 		// the commanded forward tilt and prevent horizontal acceleration.
 		Attitude=FRotationMatrix::MakeFromZX(DesiredUp,Heading).Rotator();DesiredYawRate=PilotInput.Y*FMath::DegreesToRadians(Tune.LowSpeedTurnRateDegrees);
 	}
-	const float Lift=Mass*FMath::Clamp((Gravity+VerticalAcceleration)/FMath::Max(Car->GetActorUpVector().Z,.4),0.,Gravity*2.5);
-	Force+=Car->GetActorUpVector()*Lift;
+	const FVector ThrustAxis=Native && Rotor?RotorThrustAxis:Car->GetActorUpVector();
+	const float Lift=Mass*FMath::Clamp((Gravity+VerticalAcceleration)/FMath::Max(ThrustAxis.Z,.4),0.,Gravity*2.5);
+	Force+=ThrustAxis*Lift;
 	if(!Rotor)
 	{
 		// Replace horizontal bank lift with the commanded centripetal force.
@@ -170,6 +191,7 @@ void UMaskDynamicsComponent::Simulate(float DeltaSeconds)
 		Force-=FVector(LiftForce.X,LiftForce.Y,0);
 		Force+=FVector::CrossProduct(FVector::UpVector,Velocity.GetSafeNormal2D())*Mass*Velocity.Size2D()*DesiredYawRate;
 	}
+	if(Native && PilotInput.Z>.5f && Height<.4f) { UE_LOG(LogTemp,Display,TEXT("SWITCHBLADE_LIFT input=%s mass=%.1f desired_vz=%.2f force=%s velocity=%s awake=%d"),*PilotInput.ToString(),Mass,DesiredVZ,*Force.ToString(),*Velocity.ToString(),Body->IsAnyRigidBodyAwake()); }
 	Body->AddForce(Force*100.f);
 	ApplyAttitude(Body,Attitude.Quaternion(),FVector::UpVector*DesiredYawRate);
 	// A motorcycle remains balanced upright across a hillside rather than

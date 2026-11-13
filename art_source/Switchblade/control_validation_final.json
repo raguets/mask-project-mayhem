@@ -1,0 +1,82 @@
+{
+  "source": "G:\\DEV\\mask-project-mayhem\\art_source\\Switchblade\\Switchblade_V15_Assembly.blend",
+  "wing_sides": [
+    {
+      "side": -1,
+      "upper_surface_outward_in_storage_dot": 0.9928086400032043,
+      "upper_surface_up_deployed_dot": 1.0,
+      "skid_rail_under_wing_gap_m": 0.21499991416931152,
+      "barrel_under_wing_gap_m": 0.26299989223480225,
+      "wing_bounds": {
+        "min": [
+          -0.9600000381469727,
+          -3.8399999141693115,
+          1.465000033378601
+        ],
+        "max": [
+          0.16654880344867706,
+          -0.7099999785423279,
+          1.534999966621399
+        ]
+      },
+      "rail_bounds": {
+        "min": [
+          -0.6852641105651855,
+          -1.7399998903274536,
+          1.0500000715255737
+        ],
+        "max": [
+          1.7029258012771606,
+          -1.619999885559082,
+          1.2500001192092896
+        ]
+      }
+    },
+    {
+      "side": 1,
+      "upper_surface_outward_in_storage_dot": 0.9928087592124939,
+      "upper_surface_up_deployed_dot": 1.0,
+      "skid_rail_under_wing_gap_m": 0.21499991416931152,
+      "barrel_under_wing_gap_m": 0.26299989223480225,
+      "wing_bounds": {
+        "min": [
+          -0.9600000381469727,
+          0.7100000381469727,
+          1.465000033378601
+        ],
+        "max": [
+          0.16654880344867706,
+          3.8399999141693115,
+          1.534999966621399
+        ]
+      },
+      "rail_bounds": {
+        "min": [
+          -0.6852641105651855,
+          1.619999885559082,
+          1.0500000715255737
+        ],
+        "max": [
+          1.7029258012771606,
+          1.7399998903274536,
+          1.2500001192092896
+        ]
+      }
+    }
+  ],
+  "glazing_bounds": {
+    "min": [
+      0.07999999821186066,
+      -0.6490206718444824,
+      1.5128905773162842
+    ],
+    "max": [
+      2.5,
+      0.6490206122398376,
+      2.1309030055999756
+    ]
+  },
+  "invalid_drivers": [],
+  "category": "helicopter_airplane",
+  "no_gameplay_simulation": true
+}

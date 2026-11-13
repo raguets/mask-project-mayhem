@@ -24,4 +24,6 @@ public:
 	static bool ConfigureRavenChassis(class USkeletalMesh* Mesh);
 	UFUNCTION(BlueprintCallable, Category="MASK|Editor")
 	static bool ConfigureCondorChassis(class USkeletalMesh* Mesh);
+	UFUNCTION(BlueprintCallable, Category="MASK|Editor")
+	static bool ConfigureSwitchbladeChassis(class USkeletalMesh* Mesh);
 };

@@ -15,7 +15,7 @@ void ACustomGameMode::InitGame(const FString& MapName, const FString& Options, F
 	Super::InitGame(MapName, Options, ErrorMessage);
 	TrainingBotCount = FMath::Clamp(UGameplayStatics::GetIntOption(Options, TEXT("Bots"), 0), 0, 6);
 	const FString Choice=UGameplayStatics::ParseOption(Options,TEXT("Vehicle"));
-	bMaskFleet=Choice==TEXT("Thunderhawk") || Choice==TEXT("Rhino") || Choice==TEXT("Hurricane") || Choice==TEXT("Raven") || Choice==TEXT("Condor");
+	bMaskFleet=Choice==TEXT("Thunderhawk") || Choice==TEXT("Rhino") || Choice==TEXT("Hurricane") || Choice==TEXT("Raven") || Choice==TEXT("Condor") || Choice==TEXT("Switchblade");
 	if (bMaskFleet)
 	{
 		const FString Path=FString::Printf(TEXT("/Game/MASK/%s/BP_%s.BP_%s_C"),*Choice,*Choice,*Choice);
@@ -31,13 +31,14 @@ UClass* ACustomGameMode::GetDefaultPawnClassForController_Implementation(AContro
 	{
 		if(const auto* Bot=Cast<AVehicleBotController>(InController))
 		{
-			const TCHAR* Paths[]={TEXT("/Game/MASK/Thunderhawk/BP_Thunderhawk.BP_Thunderhawk_C"),TEXT("/Game/MASK/Rhino/BP_Rhino.BP_Rhino_C"),TEXT("/Game/MASK/Hurricane/BP_Hurricane.BP_Hurricane_C"),TEXT("/Game/MASK/Raven/BP_Raven.BP_Raven_C"),TEXT("/Game/MASK/Condor/BP_Condor.BP_Condor_C")};
+			const TCHAR* Paths[]={TEXT("/Game/MASK/Thunderhawk/BP_Thunderhawk.BP_Thunderhawk_C"),TEXT("/Game/MASK/Rhino/BP_Rhino.BP_Rhino_C"),TEXT("/Game/MASK/Hurricane/BP_Hurricane.BP_Hurricane_C"),TEXT("/Game/MASK/Raven/BP_Raven.BP_Raven_C"),TEXT("/Game/MASK/Condor/BP_Condor.BP_Condor_C"),TEXT("/Game/MASK/Switchblade/BP_Switchblade.BP_Switchblade_C")};
 			TArray<UClass*> Companions;
 			for(const TCHAR* Path:Paths)
 			{
 				if(auto* Class=LoadClass<APawn>(nullptr,Path);Class && Class!=DefaultPawnClass) { Companions.Add(Class); }
 			}
-			if(!Companions.IsEmpty()) { return Companions[Bot->TrainingIndex%Companions.Num()]; }
+			// Missing assets must never silently duplicate a different vehicle.
+			return Companions.IsValidIndex(Bot->TrainingIndex)?Companions[Bot->TrainingIndex]:nullptr;
 		}
 	}
 	return Super::GetDefaultPawnClassForController_Implementation(InController);
@@ -93,6 +94,7 @@ bool ACustomGameMode::SwitchPlayerVehicleTo(APlayerController* Player,APlayerWhe
 void ACustomGameMode::BeginPlay()
 {
 	Super::BeginPlay();
+	if(bMaskFleet) { TrainingBotCount=FMath::Min(TrainingBotCount,5); }
 	if (TrainingBotCount > 0)
 	{
 		FTimerHandle Handle;
@@ -105,7 +107,7 @@ void ACustomGameMode::SpawnTrainingBots()
 	for (int32 Index = 0; Index < TrainingBotCount; ++Index)
 	{
 		auto* Bot = GetWorld()->SpawnActor<AVehicleBotController>();
-		if (Bot) { Bot->TrainingIndex = Index; RestartPlayer(Bot); }
+		if (Bot) { Bot->TrainingIndex = Index; if(GetDefaultPawnClassForController(Bot)) { RestartPlayer(Bot); } else { UE_LOG(LogTemp,Warning,TEXT("MASK_FLEET missing family for slot %d; duplicate prohibited"),Index);Bot->Destroy(); } }
 	}
 	UE_LOG(LogTemp, Display, TEXT("VC_TRAINING started bots=%d"), TrainingBotCount);
 }

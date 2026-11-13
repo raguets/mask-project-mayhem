@@ -12,6 +12,13 @@ class UChaosVehicleWheel;
 UENUM(BlueprintType)
 enum class EMaskFlightModel : uint8 { FixedWing, Rotorcraft };
 
+/** Base mobility and transformation family; existing vehicles retain their road base. */
+UENUM(BlueprintType)
+enum class EMaskVehicleCategory : uint8 { GroundBased, HelicopterAirplane };
+
+UENUM(BlueprintType)
+enum class EMaskFaction : uint8 { None=0, Mask=1, Venom=2 };
+
 /** SI tuning for assisted flight. Values are gameplay estimates, not aircraft specifications. */
 USTRUCT(BlueprintType)
 struct FMaskDynamicsSettings
@@ -64,6 +71,8 @@ struct FMaskVehiclePart
 	UPROPERTY(EditAnywhere) FVector RotorAxis = FVector::ZeroVector;
 	UPROPERTY(EditAnywhere) FVector RotorPivot = FVector::ZeroVector;
 	UPROPERTY(EditAnywhere) float RotorSpeedDegrees = 0.f;
+	/** A native helicopter rotor spins in the untransformed mode, not the airplane mode. */
+	UPROPERTY(EditAnywhere) bool bRotorInBaseMode = false;
 };
 
 /** Asset-specific geometry, timing and physics; no Thunderhawk mechanisms in the mode protocol. */
@@ -75,6 +84,8 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly) FString VehicleName = TEXT("Thunderhawk");
 	UPROPERTY(EditAnywhere, BlueprintReadOnly) FString DriverName = TEXT("Matt Trakker");
 	UPROPERTY(EditAnywhere, BlueprintReadOnly) FString MaskName = TEXT("Spectrum");
+	UPROPERTY(EditAnywhere, BlueprintReadOnly) EMaskVehicleCategory VehicleCategory = EMaskVehicleCategory::GroundBased;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly) EMaskFaction Faction = EMaskFaction::Mask;
 	UPROPERTY(EditAnywhere, BlueprintReadOnly) bool bSupportsFlight = true;
 	UPROPERTY(EditAnywhere, BlueprintReadOnly) FMaskDynamicsSettings Dynamics;
 	UPROPERTY(EditAnywhere) float MassKg = 1450.f;

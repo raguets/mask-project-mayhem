@@ -1,0 +1,7 @@
+{
+  "status": "success",
+  "result": {
+    "executed": true,
+    "result": "MOTION_CHECK {\"collision_pairs\": {\"SB_MainWing_-1 / SB_LandingSkidCannon_-1\": 43, \"SB_MainWing_1 / SB_LandingSkidCannon_1\": 43}, \"rotor_hits\": 0, \"ground_min\": 0.07000000029802322, \"pilot\": [{\"mask_on\": false, \"glazing_intersections\": []}, {\"mask_on\": true, \"glazing_intersections\": []}]}\n"
+  }
+}

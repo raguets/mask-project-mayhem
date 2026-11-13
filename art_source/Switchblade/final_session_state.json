@@ -1,0 +1,7 @@
+{
+  "status": "success",
+  "result": {
+    "executed": true,
+    "result": "{\"file\": \"G:\\\\DEV\\\\mask-project-mayhem\\\\art_source\\\\Switchblade\\\\Switchblade_V15_Assembly.blend\", \"scene\": \"Scene\", \"frame\": 1, \"objects\": 314, \"active_review\": null, \"rigs\": [\"MilesMayhem_Rig\"], \"transform\": 0.0, \"interpretation_authorized\": \"2026-11-13: general realistic character and cockpit interpretation authorized by user.\"}\n"
+  }
+}

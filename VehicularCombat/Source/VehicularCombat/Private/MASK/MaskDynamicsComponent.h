@@ -23,6 +23,7 @@ private:
 	FVector PilotInput = FVector::ZeroVector;
 	EMaskVehicleMode PreviousMode = EMaskVehicleMode::Road;
 	bool bAirForces = false, bTakeoffAssist = false;
+	bool bPreviousRotorModel = false;
 	float NominalEngineTorque = 0.f, LastEngineTorque = -1.f;
 	void ApplyAttitude(class USkeletalMeshComponent* Body,const FQuat& Target,FVector DesiredAngularVelocity) const;
 };

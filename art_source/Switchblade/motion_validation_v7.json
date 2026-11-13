@@ -1,0 +1,133 @@
+{
+  "scope": "121 integer phases; triangle intersections for listed evaluated moving/fixed surfaces. No complete volume containment proof. Rotor angular step 3 degrees, not exact swept volume. Contact/hinge pairs excluded. Gameplay/aerodynamics not tested.",
+  "phase_count": 121,
+  "selected_pairs": [
+    [
+      "SB_MainWing_-1",
+      "SB_FixedTailFuselage"
+    ],
+    [
+      "SB_MainWing_-1",
+      "SB_CabinBelly"
+    ],
+    [
+      "SB_MainWing_-1",
+      "SB_NoseWedge"
+    ],
+    [
+      "SB_MainWing_-1",
+      "SB_MagentaFacetedGlazing"
+    ],
+    [
+      "SB_MainWing_1",
+      "SB_FixedTailFuselage"
+    ],
+    [
+      "SB_MainWing_1",
+      "SB_CabinBelly"
+    ],
+    [
+      "SB_MainWing_1",
+      "SB_NoseWedge"
+    ],
+    [
+      "SB_MainWing_1",
+      "SB_MagentaFacetedGlazing"
+    ],
+    [
+      "SB_MainRotorBlade_-1",
+      "SB_FixedTailFuselage"
+    ],
+    [
+      "SB_MainRotorBlade_-1",
+      "SB_CabinBelly"
+    ],
+    [
+      "SB_MainRotorBlade_-1",
+      "SB_NoseWedge"
+    ],
+    [
+      "SB_MainRotorBlade_-1",
+      "SB_MagentaFacetedGlazing"
+    ],
+    [
+      "SB_MainRotorBlade_1",
+      "SB_FixedTailFuselage"
+    ],
+    [
+      "SB_MainRotorBlade_1",
+      "SB_CabinBelly"
+    ],
+    [
+      "SB_MainRotorBlade_1",
+      "SB_NoseWedge"
+    ],
+    [
+      "SB_MainRotorBlade_1",
+      "SB_MagentaFacetedGlazing"
+    ],
+    [
+      "SB_LandingSkidCannon_-1",
+      "SB_FixedTailFuselage"
+    ],
+    [
+      "SB_LandingSkidCannon_-1",
+      "SB_CabinBelly"
+    ],
+    [
+      "SB_LandingSkidCannon_-1",
+      "SB_NoseWedge"
+    ],
+    [
+      "SB_LandingSkidCannon_-1",
+      "SB_MagentaFacetedGlazing"
+    ],
+    [
+      "SB_LandingSkidCannon_1",
+      "SB_FixedTailFuselage"
+    ],
+    [
+      "SB_LandingSkidCannon_1",
+      "SB_CabinBelly"
+    ],
+    [
+      "SB_LandingSkidCannon_1",
+      "SB_NoseWedge"
+    ],
+    [
+      "SB_LandingSkidCannon_1",
+      "SB_MagentaFacetedGlazing"
+    ],
+    [
+      "SB_MainWing_-1",
+      "SB_LandingSkidCannon_-1"
+    ],
+    [
+      "SB_MainWing_1",
+      "SB_LandingSkidCannon_1"
+    ],
+    [
+      "SB_MainRotorBlade_-1",
+      "SB_VentralTailRotorFin"
+    ],
+    [
+      "SB_MainRotorBlade_1",
+      "SB_VentralTailRotorFin"
+    ]
+  ],
+  "collisions": {},
+  "minimum_skid_rail_z_m": 0.07000000029802322,
+  "rotor_samples": 120,
+  "rotor_hits": [],
+  "minimum_helicopter_blade_z_m": 2.814500093460083,
+  "pilot_glazing": [
+    {
+      "mask_on": false,
+      "glazing_intersections": []
+    },
+    {
+      "mask_on": true,
+      "glazing_intersections": []
+    }
+  ]
+}
