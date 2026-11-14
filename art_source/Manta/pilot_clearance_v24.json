@@ -1,0 +1,22 @@
+{
+  "source": "G:\\DEV\\mask-project-mayhem\\art_source\\Manta\\Manta_V24_Assembly.blend",
+  "passed": true,
+  "states": [
+    {
+      "mask": false,
+      "overlaps": {
+        "MA_Windshield": 0,
+        "MA_TbarRoof": 0,
+        "MA_CabinFloor": 0
+      }
+    },
+    {
+      "mask": true,
+      "overlaps": {
+        "MA_Windshield": 0,
+        "MA_TbarRoof": 0,
+        "MA_CabinFloor": 0
+      }
+    }
+  ]
+}

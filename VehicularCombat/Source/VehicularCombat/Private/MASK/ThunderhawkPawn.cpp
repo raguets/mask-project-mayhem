@@ -267,6 +267,7 @@ int32 AThunderhawkPawn::FleetSelectionGroup() const
 	if(Definition->VehicleName==TEXT("Raven")) { return 30; }
 	if(Definition->VehicleName==TEXT("Condor")) { return 40; }
 	if(Definition->VehicleName==TEXT("Switchblade")) { return 50; }
+	if(Definition->VehicleName==TEXT("Manta")) { return 60; }
 	return 100;
 }
 const UChaosVehicleWheel* AThunderhawkPawn::AnimationWheel(FName Name) const

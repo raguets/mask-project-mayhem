@@ -134,7 +134,7 @@ void ASilentValleyMission::Retry(APlayerController* Requester)
     FString Vehicle=TEXT("Thunderhawk");const auto* Driver=Cast<AMaskDriverCharacter>(Requester->GetPawn());
     const auto* Car=Driver?Cast<AThunderhawkPawn>(Driver->SourceVehicle):Cast<AThunderhawkPawn>(Requester->GetPawn());
     if(Car && Car->Definition) { Vehicle=Car->Definition->VehicleName; }
-    if(Vehicle!=TEXT("Rhino") && Vehicle!=TEXT("Hurricane") && Vehicle!=TEXT("Raven") && Vehicle!=TEXT("Condor") && Vehicle!=TEXT("Switchblade")) { Vehicle=TEXT("Thunderhawk"); }
+    if(Vehicle!=TEXT("Rhino") && Vehicle!=TEXT("Hurricane") && Vehicle!=TEXT("Raven") && Vehicle!=TEXT("Condor") && Vehicle!=TEXT("Switchblade") && Vehicle!=TEXT("Manta")) { Vehicle=TEXT("Thunderhawk"); }
     // Recreate the configured companion fleet, including an explicit solo run.
     const auto* GameMode=GetWorld()->GetAuthGameMode();
     const int32 Bots=FMath::Clamp(UGameplayStatics::GetIntOption(GameMode?GameMode->OptionsString:FString(),TEXT("Bots"),0),0,6);

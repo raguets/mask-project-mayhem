@@ -1,0 +1,249 @@
+{
+  "status": "complete",
+  "source": "G:\\DEV\\mask-project-mayhem\\art_source\\Manta\\Manta_V18_Assembly.blend",
+  "elapsed_seconds": 98.50348806381226,
+  "views": [
+    {
+      "name": "road_front_left",
+      "frame": 1,
+      "properties": {
+        "driving_pose": 1.0,
+        "in_vehicle": 1.0,
+        "mask_on": false
+      },
+      "camera_expected": [
+        6.0,
+        6.0,
+        3.5
+      ],
+      "camera_evaluated": [
+        6.0,
+        6.0,
+        3.5
+      ],
+      "lens": 53.0,
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Manta\\renders\\v18\\road_front_left.png",
+      "bytes": 1213473
+    },
+    {
+      "name": "road_rear_left",
+      "frame": 1,
+      "properties": {
+        "driving_pose": 1.0,
+        "in_vehicle": 1.0,
+        "mask_on": false
+      },
+      "camera_expected": [
+        -6.0,
+        6.0,
+        3.299999952316284
+      ],
+      "camera_evaluated": [
+        -6.0,
+        6.0,
+        3.299999952316284
+      ],
+      "lens": 53.0,
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Manta\\renders\\v18\\road_rear_left.png",
+      "bytes": 1269073
+    },
+    {
+      "name": "road_side_left",
+      "frame": 1,
+      "properties": {
+        "driving_pose": 1.0,
+        "in_vehicle": 1.0,
+        "mask_on": false
+      },
+      "camera_expected": [
+        0.0,
+        8.0,
+        1.7000000476837158
+      ],
+      "camera_evaluated": [
+        0.0,
+        8.0,
+        1.7000000476837158
+      ],
+      "lens": 53.0,
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Manta\\renders\\v18\\road_side_left.png",
+      "bytes": 1132229
+    },
+    {
+      "name": "windshield_front",
+      "frame": 1,
+      "properties": {
+        "driving_pose": 1.0,
+        "in_vehicle": 1.0,
+        "mask_on": false
+      },
+      "camera_expected": [
+        6.0,
+        0.0,
+        2.0
+      ],
+      "camera_evaluated": [
+        6.0,
+        0.0,
+        2.0
+      ],
+      "lens": 75.0,
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Manta\\renders\\v18\\windshield_front.png",
+      "bytes": 1157801
+    },
+    {
+      "name": "road_hood_detail",
+      "frame": 1,
+      "properties": {
+        "driving_pose": 1.0,
+        "in_vehicle": 1.0,
+        "mask_on": false
+      },
+      "camera_expected": [
+        4.800000190734863,
+        3.0,
+        2.5999999046325684
+      ],
+      "camera_evaluated": [
+        4.800000190734863,
+        3.0,
+        2.5999999046325684
+      ],
+      "lens": 68.0,
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Manta\\renders\\v18\\road_hood_detail.png",
+      "bytes": 1374358
+    },
+    {
+      "name": "phase_50",
+      "frame": 61,
+      "properties": {
+        "driving_pose": 1.0,
+        "in_vehicle": 1.0,
+        "mask_on": false
+      },
+      "camera_expected": [
+        8.0,
+        9.0,
+        6.0
+      ],
+      "camera_evaluated": [
+        8.0,
+        9.0,
+        6.0
+      ],
+      "lens": 53.0,
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Manta\\renders\\v18\\phase_50.png",
+      "bytes": 1169291
+    },
+    {
+      "name": "phase_90_missiles",
+      "frame": 109,
+      "properties": {
+        "driving_pose": 1.0,
+        "in_vehicle": 1.0,
+        "mask_on": false
+      },
+      "camera_expected": [
+        4.699999809265137,
+        3.0,
+        3.0
+      ],
+      "camera_evaluated": [
+        4.699999809265137,
+        3.0,
+        3.0
+      ],
+      "lens": 65.0,
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Manta\\renders\\v18\\phase_90_missiles.png",
+      "bytes": 1431377
+    },
+    {
+      "name": "flight_front_left",
+      "frame": 121,
+      "properties": {
+        "driving_pose": 1.0,
+        "in_vehicle": 1.0,
+        "mask_on": false
+      },
+      "camera_expected": [
+        8.0,
+        9.0,
+        6.0
+      ],
+      "camera_evaluated": [
+        8.0,
+        9.0,
+        6.0
+      ],
+      "lens": 53.0,
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Manta\\renders\\v18\\flight_front_left.png",
+      "bytes": 1191426
+    },
+    {
+      "name": "flight_rear_left",
+      "frame": 121,
+      "properties": {
+        "driving_pose": 1.0,
+        "in_vehicle": 1.0,
+        "mask_on": false
+      },
+      "camera_expected": [
+        -8.0,
+        9.0,
+        5.5
+      ],
+      "camera_evaluated": [
+        -8.0,
+        9.0,
+        5.5
+      ],
+      "lens": 53.0,
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Manta\\renders\\v18\\flight_rear_left.png",
+      "bytes": 1199643
+    },
+    {
+      "name": "flight_top",
+      "frame": 121,
+      "properties": {
+        "driving_pose": 1.0,
+        "in_vehicle": 1.0,
+        "mask_on": false
+      },
+      "camera_expected": [
+        0.0,
+        -0.009999999776482582,
+        16.0
+      ],
+      "camera_evaluated": [
+        0.0,
+        -0.009999999776482582,
+        16.0
+      ],
+      "lens": 53.0,
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Manta\\renders\\v18\\flight_top.png",
+      "bytes": 1155126
+    },
+    {
+      "name": "driving_left",
+      "frame": 1,
+      "properties": {
+        "driving_pose": 1.0,
+        "in_vehicle": 1.0,
+        "mask_on": false
+      },
+      "camera_expected": [
+        1.5,
+        3.0,
+        2.0
+      ],
+      "camera_evaluated": [
+        1.5,
+        3.0,
+        2.0
+      ],
+      "lens": 70.0,
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Manta\\renders\\v18\\driving_left.png",
+      "bytes": 1410374
+    }
+  ]
+}

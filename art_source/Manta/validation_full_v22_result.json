@@ -1,0 +1,7 @@
+{
+  "status": "success",
+  "result": {
+    "executed": true,
+    "result": "{\"nonzero_phase_counts\": {\"MA_SlidingHoodSkin / MA_FixedHoodShoulder_L\": 13, \"MA_SlidingHoodSkin / MA_FixedHoodShoulder_R\": 13}, \"containment_records\": 0, \"missile_angle\": 30.000000000000004, \"invalid_drivers\": [], \"pilot\": [{\"mask_on\": false, \"surface_overlaps\": {\"MA_Windshield\": 0, \"MA_TbarRoof\": 0, \"MA_CabinFloor\": 0}, \"driver_world_y\": 0.3700000047683716}, {\"mask_on\": true, \"surface_overlaps\": {\"MA_Windshield\": 0, \"MA_TbarRoof\": 0, \"MA_CabinFloor\": 0}, \"driver_world_y\": 0.3700000047683716}], \"elapsed\": 115.58314681053162}\n"
+  }
+}

@@ -1,0 +1,4 @@
+Non transformé, l'avant du canon fixé au montant arrière repose sur le montant avant (pare-brise).
+Transformation : le canon pivote vers l'arrire et toute la partie carrosserie, fixée sur l'essieu arrière, se soulève (la partie avant pointe vers le haut), pour laisser le bateau sortir de la jeep. Tout l'intérieur e le jeep (voant, fauteuils, coffre font partie du bateau et partent donc avec lui).
+Le bateau est une sorte de rigide.
+Il faudra que la transformation ne soit possible que face à un plan d'eau. C'est un nouveau type de véhicule route / sur eau. Pour se retransformer, la bateau s'approche de la jeep qui est restée près du plan d'eau : si le bateau est loin, il revient automatiquement près de la jeep pour déclencher la transformation.

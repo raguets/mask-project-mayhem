@@ -1,0 +1,305 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "frame": 1,
+      "part": "SM_Manta_Control",
+      "delta_m": 8.547306060791016e-05
+    },
+    {
+      "frame": 1,
+      "part": "SM_MA_HeadlightCannonTravel_-1",
+      "delta_m": 0.0
+    },
+    {
+      "frame": 1,
+      "part": "SM_MA_HeadlightCannonTravel_1",
+      "delta_m": 0.0
+    },
+    {
+      "frame": 1,
+      "part": "SM_MA_TripleLauncherLift",
+      "delta_m": 2.9802322387695312e-08
+    },
+    {
+      "frame": 1,
+      "part": "SM_MA_TripleMissileElevation",
+      "delta_m": 0.0
+    },
+    {
+      "frame": 1,
+      "part": "SM_MA_FR",
+      "delta_m": 0.0
+    },
+    {
+      "frame": 1,
+      "part": "SM_MA_FrontWheelFlip_-1",
+      "delta_m": 0.0
+    },
+    {
+      "frame": 1,
+      "part": "SM_MA_UnderbodyWingPivot_-1",
+      "delta_m": 0.0
+    },
+    {
+      "frame": 1,
+      "part": "SM_MA_RR",
+      "delta_m": 0.0
+    },
+    {
+      "frame": 1,
+      "part": "SM_MA_FL",
+      "delta_m": 0.0
+    },
+    {
+      "frame": 1,
+      "part": "SM_MA_FrontWheelFlip_1",
+      "delta_m": 0.0
+    },
+    {
+      "frame": 1,
+      "part": "SM_MA_UnderbodyWingPivot_1",
+      "delta_m": 0.0
+    },
+    {
+      "frame": 1,
+      "part": "SM_MA_RL",
+      "delta_m": 0.0
+    },
+    {
+      "frame": 1,
+      "part": "SM_MA_TripleReactorTravel",
+      "delta_m": 0.0
+    },
+    {
+      "frame": 1,
+      "part": "SM_MA_RearWheelCarrier_-1",
+      "delta_m": 0.0
+    },
+    {
+      "frame": 1,
+      "part": "SM_MA_RearWheelCarrier_1",
+      "delta_m": 0.0
+    },
+    {
+      "frame": 1,
+      "part": "SM_Manta_Control_Glass",
+      "delta_m": 4.571676254272461e-05
+    },
+    {
+      "frame": 1,
+      "part": "SM_MA_SlidingHood",
+      "delta_m": 0.0
+    },
+    {
+      "frame": 1,
+      "part": "SM_MA_RearLightSpoilerHinge",
+      "delta_m": 0.0
+    },
+    {
+      "frame": 1,
+      "part": "SM_MA_RearBoardRigidFrameV19",
+      "delta_m": 0.0
+    },
+    {
+      "frame": 61,
+      "part": "SM_Manta_Control",
+      "delta_m": 8.547306060791016e-05
+    },
+    {
+      "frame": 61,
+      "part": "SM_MA_HeadlightCannonTravel_-1",
+      "delta_m": 0.0
+    },
+    {
+      "frame": 61,
+      "part": "SM_MA_HeadlightCannonTravel_1",
+      "delta_m": 0.0
+    },
+    {
+      "frame": 61,
+      "part": "SM_MA_TripleLauncherLift",
+      "delta_m": 5.960464477539063e-08
+    },
+    {
+      "frame": 61,
+      "part": "SM_MA_TripleMissileElevation",
+      "delta_m": 5.960464477539063e-08
+    },
+    {
+      "frame": 61,
+      "part": "SM_MA_FR",
+      "delta_m": 1.1920928955078125e-07
+    },
+    {
+      "frame": 61,
+      "part": "SM_MA_FrontWheelFlip_-1",
+      "delta_m": 4.470348358154297e-08
+    },
+    {
+      "frame": 61,
+      "part": "SM_MA_UnderbodyWingPivot_-1",
+      "delta_m": 1.1920928955078125e-07
+    },
+    {
+      "frame": 61,
+      "part": "SM_MA_RR",
+      "delta_m": 2.384185791015625e-07
+    },
+    {
+      "frame": 61,
+      "part": "SM_MA_FL",
+      "delta_m": 1.1920928955078125e-07
+    },
+    {
+      "frame": 61,
+      "part": "SM_MA_FrontWheelFlip_1",
+      "delta_m": 4.470348358154297e-08
+    },
+    {
+      "frame": 61,
+      "part": "SM_MA_UnderbodyWingPivot_1",
+      "delta_m": 1.1920928955078125e-07
+    },
+    {
+      "frame": 61,
+      "part": "SM_MA_RL",
+      "delta_m": 1.1920928955078125e-07
+    },
+    {
+      "frame": 61,
+      "part": "SM_MA_TripleReactorTravel",
+      "delta_m": 0.0
+    },
+    {
+      "frame": 61,
+      "part": "SM_MA_RearWheelCarrier_-1",
+      "delta_m": 1.1920928955078125e-07
+    },
+    {
+      "frame": 61,
+      "part": "SM_MA_RearWheelCarrier_1",
+      "delta_m": 1.1920928955078125e-07
+    },
+    {
+      "frame": 61,
+      "part": "SM_Manta_Control_Glass",
+      "delta_m": 4.571676254272461e-05
+    },
+    {
+      "frame": 61,
+      "part": "SM_MA_SlidingHood",
+      "delta_m": 0.0
+    },
+    {
+      "frame": 61,
+      "part": "SM_MA_RearLightSpoilerHinge",
+      "delta_m": 4.76837158203125e-07
+    },
+    {
+      "frame": 61,
+      "part": "SM_MA_RearBoardRigidFrameV19",
+      "delta_m": 4.76837158203125e-07
+    },
+    {
+      "frame": 121,
+      "part": "SM_Manta_Control",
+      "delta_m": 8.547306060791016e-05
+    },
+    {
+      "frame": 121,
+      "part": "SM_MA_HeadlightCannonTravel_-1",
+      "delta_m": 0.0
+    },
+    {
+      "frame": 121,
+      "part": "SM_MA_HeadlightCannonTravel_1",
+      "delta_m": 0.0
+    },
+    {
+      "frame": 121,
+      "part": "SM_MA_TripleLauncherLift",
+      "delta_m": 5.960464477539063e-08
+    },
+    {
+      "frame": 121,
+      "part": "SM_MA_TripleMissileElevation",
+      "delta_m": 0.0
+    },
+    {
+      "frame": 121,
+      "part": "SM_MA_FR",
+      "delta_m": 1.1920928955078125e-07
+    },
+    {
+      "frame": 121,
+      "part": "SM_MA_FrontWheelFlip_-1",
+      "delta_m": 1.1920928955078125e-07
+    },
+    {
+      "frame": 121,
+      "part": "SM_MA_UnderbodyWingPivot_-1",
+      "delta_m": 2.384185791015625e-07
+    },
+    {
+      "frame": 121,
+      "part": "SM_MA_RR",
+      "delta_m": 3.5762786865234375e-07
+    },
+    {
+      "frame": 121,
+      "part": "SM_MA_FL",
+      "delta_m": 1.1920928955078125e-07
+    },
+    {
+      "frame": 121,
+      "part": "SM_MA_FrontWheelFlip_1",
+      "delta_m": 1.1920928955078125e-07
+    },
+    {
+      "frame": 121,
+      "part": "SM_MA_UnderbodyWingPivot_1",
+      "delta_m": 2.384185791015625e-07
+    },
+    {
+      "frame": 121,
+      "part": "SM_MA_RL",
+      "delta_m": 3.5762786865234375e-07
+    },
+    {
+      "frame": 121,
+      "part": "SM_MA_TripleReactorTravel",
+      "delta_m": 1.1920928955078125e-07
+    },
+    {
+      "frame": 121,
+      "part": "SM_MA_RearWheelCarrier_-1",
+      "delta_m": 2.384185791015625e-07
+    },
+    {
+      "frame": 121,
+      "part": "SM_MA_RearWheelCarrier_1",
+      "delta_m": 2.384185791015625e-07
+    },
+    {
+      "frame": 121,
+      "part": "SM_Manta_Control_Glass",
+      "delta_m": 4.571676254272461e-05
+    },
+    {
+      "frame": 121,
+      "part": "SM_MA_SlidingHood",
+      "delta_m": 0.0
+    },
+    {
+      "frame": 121,
+      "part": "SM_MA_RearLightSpoilerHinge",
+      "delta_m": 4.76837158203125e-07
+    },
+    {
+      "frame": 121,
+      "part": "SM_MA_RearBoardRigidFrameV19",
+      "delta_m": 2.384185791015625e-07
+    }
+  ]
+}

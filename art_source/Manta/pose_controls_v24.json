@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "states": [
+    {
+      "pose": 0,
+      "mask": false,
+      "props_retained": true,
+      "pose_angle": 0.0,
+      "mask_visible": false
+    },
+    {
+      "pose": 0,
+      "mask": true,
+      "props_retained": true,
+      "pose_angle": 0.0,
+      "mask_visible": true
+    },
+    {
+      "pose": 1,
+      "mask": false,
+      "props_retained": true,
+      "pose_angle": 2.101027011871338,
+      "mask_visible": false
+    },
+    {
+      "pose": 1,
+      "mask": true,
+      "props_retained": true,
+      "pose_angle": 2.101027011871338,
+      "mask_visible": true
+    }
+  ]
+}

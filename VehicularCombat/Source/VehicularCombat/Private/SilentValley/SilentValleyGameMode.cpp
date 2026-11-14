@@ -2,6 +2,7 @@
 #include "SilentValley/SilentValleyMission.h"
 #include "SilentValley/SilentValleyRoad.h"
 #include "MASK/SwitchbladePawn.h"
+#include "MASK/MantaPawn.h"
 #include "Engine/StaticMeshActor.h"
 #include "Components/StaticMeshComponent.h"
 #include "Engine/StaticMesh.h"
@@ -13,12 +14,12 @@ void ASilentValleyGameMode::InitGame(const FString& MapName,const FString& Optio
 {
     bMissionEnabled=UGameplayStatics::ParseOption(Options,TEXT("Mission"))!=TEXT("0");
     FString Actual=UGameplayStatics::ParseOption(Options,TEXT("Vehicle")).IsEmpty()?Options+TEXT("?Vehicle=Thunderhawk"):Options;
-    if(!UGameplayStatics::HasOption(Actual,TEXT("Bots"))) { Actual+=TEXT("?Bots=5"); }
+    if(!UGameplayStatics::HasOption(Actual,TEXT("Bots"))) { Actual+=TEXT("?Bots=6"); }
     Super::InitGame(MapName,Actual,Error);
 }
 bool ASilentValleyGameMode::FindNativeAircraftStart(FTransform& Transform) const
 {
-    FCollisionQueryParams Query(SCENE_QUERY_STAT(SwitchbladeExteriorStart),false);
+    FCollisionQueryParams Query(SCENE_QUERY_STAT(VenomExteriorStart),false);
     for(TActorIterator<APawn> It(GetWorld());It;++It) { Query.AddIgnoredActor(*It); }
     TArray<FBox> Bases;
     for(TActorIterator<AStaticMeshActor> It(GetWorld());It;++It)
@@ -53,12 +54,12 @@ bool ASilentValleyGameMode::FindNativeAircraftStart(FTransform& Transform) const
 void ASilentValleyGameMode::RestartPlayer(AController* Player)
 {
     UClass* Class=Player?GetDefaultPawnClassForController(Player):nullptr;
-    if(Class && Class->IsChildOf(ASwitchbladePawn::StaticClass()))
+    if(Class && (Class->IsChildOf(ASwitchbladePawn::StaticClass()) || Class->IsChildOf(AMantaPawn::StaticClass())))
     {
         FTransform Outside;
-        if(!FindNativeAircraftStart(Outside)) { UE_LOG(LogTemp,Error,TEXT("SWITCHBLADE_START no safe exterior takeoff site; garage fallback prohibited"));return; }
+        if(!FindNativeAircraftStart(Outside)) { UE_LOG(LogTemp,Error,TEXT("VENOM_START no safe exterior road site for %s; garage fallback prohibited"),*GetNameSafe(Class));return; }
         RestartPlayerAtTransform(Player,Outside);
-        UE_LOG(LogTemp,Display,TEXT("SWITCHBLADE_START exterior=%s pawn=%s"),*Outside.GetLocation().ToString(),*GetNameSafe(Player->GetPawn()));return;
+        UE_LOG(LogTemp,Display,TEXT("VENOM_START exterior=%s pawn=%s"),*Outside.GetLocation().ToString(),*GetNameSafe(Player->GetPawn()));return;
     }
     Super::RestartPlayer(Player);
 }

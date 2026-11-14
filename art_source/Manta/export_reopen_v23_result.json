@@ -1,0 +1,7 @@
+{
+  "status": "success",
+  "result": {
+    "executed": true,
+    "result": "Infos: Copie enregistrée sous « Session_before_final_export.blend »\nInfos: Enregistré sous « Manta_V23_Vehicle.blend »\nInfos: Enregistré sous « VanessaWarfield_V1.blend »\nInfos: Enregistré sous « Whip_V1.blend »\nINDEPENDENT_SOURCES_REOPENED [{\"kind\": \"vehicle\", \"file\": \"G:\\\\DEV\\\\mask-project-mayhem\\\\art_source\\\\Manta\\\\Manta_V23_Vehicle.blend\", \"actual_reopened\": true, \"invalid_dependencies\": [], \"armatures\": 0, \"passed\": true}, {\"kind\": \"character\", \"file\": \"G:\\\\DEV\\\\mask-project-mayhem\\\\art_source\\\\Vanessa_Warfield\\\\VanessaWarfield_V1.blend\", \"actual_reopened\": true, \"invalid_dependencies\": [], \"armatures\": 1, \"four_states\": [{\"pose\": 0.0, \"mask_on\": false, \"same_body_face_mesh\": true}, {\"pose\": 0.0, \"mask_on\": true, \"same_body_face_mesh\": true}, {\"pose\": 1.0, \"mask_on\": false, \"same_body_face_mesh\": true}, {\"pose\": 1.0, \"mask_on\": true, \"same_body_face_mesh\": true}], \"passed\": true}, {\"kind\": \"mask\", \"file\": \"G:\\\\DEV\\\\mask-project-mayhem\\\\art_source\\\\Vanessa_Warfield\\\\Whip_V1.blend\", \"actual_reopened\": true, \"invalid_dependencies\": [], \"armatures\": 0, \"passed\": true}]\n"
+  }
+}

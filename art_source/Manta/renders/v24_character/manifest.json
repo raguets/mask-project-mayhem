@@ -1,0 +1,95 @@
+{
+  "status": "complete",
+  "source": "G:\\DEV\\mask-project-mayhem\\art_source\\Manta\\Manta_V24_Assembly.blend",
+  "elapsed_seconds": 93.97882318496704,
+  "views": [
+    {
+      "name": "standing_face",
+      "frame": 1,
+      "properties": {
+        "driving_pose": 0.0,
+        "in_vehicle": 0.0,
+        "mask_on": false
+      },
+      "camera_expected": [
+        3.0,
+        4.0,
+        1.7999999523162842
+      ],
+      "camera_evaluated": [
+        3.0,
+        4.0,
+        1.7999999523162842
+      ],
+      "lens": 65.0,
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Manta\\renders\\v24_character\\standing_face.png",
+      "bytes": 910331
+    },
+    {
+      "name": "standing_whip",
+      "frame": 1,
+      "properties": {
+        "driving_pose": 0.0,
+        "in_vehicle": 0.0,
+        "mask_on": true
+      },
+      "camera_expected": [
+        3.0,
+        4.0,
+        1.7999999523162842
+      ],
+      "camera_evaluated": [
+        3.0,
+        4.0,
+        1.7999999523162842
+      ],
+      "lens": 65.0,
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Manta\\renders\\v24_character\\standing_whip.png",
+      "bytes": 913538
+    },
+    {
+      "name": "driving_face",
+      "frame": 1,
+      "properties": {
+        "driving_pose": 1.0,
+        "in_vehicle": 1.0,
+        "mask_on": false
+      },
+      "camera_expected": [
+        1.5,
+        3.0,
+        2.0
+      ],
+      "camera_evaluated": [
+        1.5,
+        3.0,
+        2.0
+      ],
+      "lens": 65.0,
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Manta\\renders\\v24_character\\driving_face.png",
+      "bytes": 1149930
+    },
+    {
+      "name": "driving_whip",
+      "frame": 1,
+      "properties": {
+        "driving_pose": 1.0,
+        "in_vehicle": 1.0,
+        "mask_on": true
+      },
+      "camera_expected": [
+        1.5,
+        3.0,
+        2.0
+      ],
+      "camera_evaluated": [
+        1.5,
+        3.0,
+        2.0
+      ],
+      "lens": 65.0,
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Manta\\renders\\v24_character\\driving_whip.png",
+      "bytes": 1149655
+    }
+  ]
+}

@@ -1,0 +1,274 @@
+{
+  "status": "complete",
+  "elapsed_seconds": 58.7,
+  "scene_file": "G:\\DEV\\mask-project-mayhem\\art_source\\Manta\\Manta_V1_Vehicle.blend",
+  "job": {
+    "rig": "Manta_Control",
+    "rig_properties": [
+      "transform",
+      "door_open"
+    ],
+    "output_dir": "G:\\DEV\\mask-project-mayhem\\art_source\\Manta\\renders\\v1_vehicle",
+    "width": 1200,
+    "height": 900,
+    "samples": 24,
+    "device": "GPU",
+    "views": [
+      {
+        "name": "road_front",
+        "frame": 1,
+        "camera": [
+          6,
+          -6,
+          3.8
+        ],
+        "target": [
+          0,
+          0,
+          0.6
+        ],
+        "lens": 53,
+        "properties": {}
+      },
+      {
+        "name": "road_rear",
+        "frame": 1,
+        "camera": [
+          -6,
+          -6,
+          3.5
+        ],
+        "target": [
+          0,
+          0,
+          0.6
+        ],
+        "lens": 53,
+        "properties": {}
+      },
+      {
+        "name": "road_side",
+        "frame": 1,
+        "camera": [
+          0,
+          -8,
+          2.0
+        ],
+        "target": [
+          0,
+          0,
+          0.6
+        ],
+        "lens": 53,
+        "properties": {}
+      },
+      {
+        "name": "phase_50",
+        "frame": 61,
+        "camera": [
+          6,
+          -6,
+          5
+        ],
+        "target": [
+          0,
+          0,
+          0.6
+        ],
+        "lens": 53,
+        "properties": {}
+      },
+      {
+        "name": "flight_front",
+        "frame": 121,
+        "camera": [
+          6,
+          -7,
+          5.7
+        ],
+        "target": [
+          0,
+          0,
+          0.6
+        ],
+        "lens": 53,
+        "properties": {}
+      },
+      {
+        "name": "flight_rear",
+        "frame": 121,
+        "camera": [
+          -6,
+          -7,
+          4.8
+        ],
+        "target": [
+          0,
+          0,
+          0.6
+        ],
+        "lens": 53,
+        "properties": {}
+      },
+      {
+        "name": "flight_top",
+        "frame": 121,
+        "camera": [
+          0,
+          -0.01,
+          11
+        ],
+        "target": [
+          0,
+          0,
+          0.6
+        ],
+        "lens": 53,
+        "properties": {}
+      }
+    ]
+  },
+  "renders": [
+    {
+      "view": {
+        "name": "road_front",
+        "frame": 1,
+        "camera": [
+          6,
+          -6,
+          3.8
+        ],
+        "target": [
+          0,
+          0,
+          0.6
+        ],
+        "lens": 53,
+        "properties": {}
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Manta\\renders\\v1_vehicle\\road_front.png",
+      "size_bytes": 1229149
+    },
+    {
+      "view": {
+        "name": "road_rear",
+        "frame": 1,
+        "camera": [
+          -6,
+          -6,
+          3.5
+        ],
+        "target": [
+          0,
+          0,
+          0.6
+        ],
+        "lens": 53,
+        "properties": {}
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Manta\\renders\\v1_vehicle\\road_rear.png",
+      "size_bytes": 1247702
+    },
+    {
+      "view": {
+        "name": "road_side",
+        "frame": 1,
+        "camera": [
+          0,
+          -8,
+          2.0
+        ],
+        "target": [
+          0,
+          0,
+          0.6
+        ],
+        "lens": 53,
+        "properties": {}
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Manta\\renders\\v1_vehicle\\road_side.png",
+      "size_bytes": 1158712
+    },
+    {
+      "view": {
+        "name": "phase_50",
+        "frame": 61,
+        "camera": [
+          6,
+          -6,
+          5
+        ],
+        "target": [
+          0,
+          0,
+          0.6
+        ],
+        "lens": 53,
+        "properties": {}
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Manta\\renders\\v1_vehicle\\phase_50.png",
+      "size_bytes": 1239189
+    },
+    {
+      "view": {
+        "name": "flight_front",
+        "frame": 121,
+        "camera": [
+          6,
+          -7,
+          5.7
+        ],
+        "target": [
+          0,
+          0,
+          0.6
+        ],
+        "lens": 53,
+        "properties": {}
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Manta\\renders\\v1_vehicle\\flight_front.png",
+      "size_bytes": 1219199
+    },
+    {
+      "view": {
+        "name": "flight_rear",
+        "frame": 121,
+        "camera": [
+          -6,
+          -7,
+          4.8
+        ],
+        "target": [
+          0,
+          0,
+          0.6
+        ],
+        "lens": 53,
+        "properties": {}
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Manta\\renders\\v1_vehicle\\flight_rear.png",
+      "size_bytes": 1227735
+    },
+    {
+      "view": {
+        "name": "flight_top",
+        "frame": 121,
+        "camera": [
+          0,
+          -0.01,
+          11
+        ],
+        "target": [
+          0,
+          0,
+          0.6
+        ],
+        "lens": 53,
+        "properties": {}
+      },
+      "file": "G:\\DEV\\mask-project-mayhem\\art_source\\Manta\\renders\\v1_vehicle\\flight_top.png",
+      "size_bytes": 1124610
+    }
+  ],
+  "retained_previous_views": []
+}

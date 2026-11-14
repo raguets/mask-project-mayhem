@@ -1,0 +1,550 @@
+{
+  "source": "G:\\DEV\\mask-project-mayhem\\art_source\\Manta\\Manta_V22_Assembly.blend",
+  "version": 22,
+  "phases": 241,
+  "elapsed_seconds": 115.58314681053162,
+  "invalid_drivers": [],
+  "selected_surface_overlaps": {
+    "MA_MainBody / MA_FrontWheel_-1_Tire": [],
+    "MA_MainBody / MA_FrontWheel_1_Tire": [],
+    "MA_MainBody / MA_RearWheel_-1_Tire": [],
+    "MA_MainBody / MA_RearWheel_1_Tire": [],
+    "MA_MainBody / MA_MainWing_1": [],
+    "MA_MainBody / MA_MainWing_-1": [],
+    "MA_MainBody / MA_RearLightPanel": [],
+    "MA_MainBody / MA_CannonDarkBore": [],
+    "MA_MainBody / MA_CannonDarkBore.001": [],
+    "MA_MainBody / MA_CannonRib": [],
+    "MA_MainBody / MA_CannonRib.001": [],
+    "MA_MainBody / MA_CannonRib.002": [],
+    "MA_MainBody / MA_CannonRib.003": [],
+    "MA_MainBody / MA_CannonRib.004": [],
+    "MA_MainBody / MA_CannonRib.005": [],
+    "MA_MainBody / MA_RedHeadlightCannon": [],
+    "MA_MainBody / MA_RedHeadlightCannon.001": [],
+    "MA_MainBody / MA_RearBoardRigidLeg_-1": [],
+    "MA_MainBody / MA_RearBoardRigidLeg_1": [],
+    "MA_SlidingHoodSkin / MA_MissileGuide": [],
+    "MA_SlidingHoodSkin / MA_MissileGuide.001": [],
+    "MA_SlidingHoodSkin / MA_MissileGuide.002": [],
+    "MA_SlidingHoodSkin / MA_MissileRedTip": [],
+    "MA_SlidingHoodSkin / MA_MissileRedTip.001": [],
+    "MA_SlidingHoodSkin / MA_MissileRedTip.002": [],
+    "MA_SlidingHoodSkin / MA_PersistentMissile": [],
+    "MA_SlidingHoodSkin / MA_PersistentMissile.001": [],
+    "MA_SlidingHoodSkin / MA_PersistentMissile.002": [],
+    "MA_SlidingHoodSkin / MA_TripleLauncherCassette": [],
+    "MA_SlidingHoodSkin / MA_CannonDarkBore": [],
+    "MA_SlidingHoodSkin / MA_CannonDarkBore.001": [],
+    "MA_SlidingHoodSkin / MA_CannonRib": [],
+    "MA_SlidingHoodSkin / MA_CannonRib.001": [],
+    "MA_SlidingHoodSkin / MA_CannonRib.002": [],
+    "MA_SlidingHoodSkin / MA_CannonRib.003": [],
+    "MA_SlidingHoodSkin / MA_CannonRib.004": [],
+    "MA_SlidingHoodSkin / MA_CannonRib.005": [],
+    "MA_SlidingHoodSkin / MA_RedHeadlightCannon": [],
+    "MA_SlidingHoodSkin / MA_RedHeadlightCannon.001": [],
+    "MA_FixedHoodRearQuarter / MA_MissileGuide": [],
+    "MA_FixedHoodRearQuarter / MA_MissileGuide.001": [],
+    "MA_FixedHoodRearQuarter / MA_MissileGuide.002": [],
+    "MA_FixedHoodRearQuarter / MA_MissileRedTip": [],
+    "MA_FixedHoodRearQuarter / MA_MissileRedTip.001": [],
+    "MA_FixedHoodRearQuarter / MA_MissileRedTip.002": [],
+    "MA_FixedHoodRearQuarter / MA_PersistentMissile": [],
+    "MA_FixedHoodRearQuarter / MA_PersistentMissile.001": [],
+    "MA_FixedHoodRearQuarter / MA_PersistentMissile.002": [],
+    "MA_FixedHoodRearQuarter / MA_TripleLauncherCassette": [],
+    "MA_FixedHoodRearQuarter / MA_CannonDarkBore": [],
+    "MA_FixedHoodRearQuarter / MA_CannonDarkBore.001": [],
+    "MA_FixedHoodRearQuarter / MA_CannonRib": [],
+    "MA_FixedHoodRearQuarter / MA_CannonRib.001": [],
+    "MA_FixedHoodRearQuarter / MA_CannonRib.002": [],
+    "MA_FixedHoodRearQuarter / MA_CannonRib.003": [],
+    "MA_FixedHoodRearQuarter / MA_CannonRib.004": [],
+    "MA_FixedHoodRearQuarter / MA_CannonRib.005": [],
+    "MA_FixedHoodRearQuarter / MA_RedHeadlightCannon": [],
+    "MA_FixedHoodRearQuarter / MA_RedHeadlightCannon.001": [],
+    "MA_FixedHoodShoulder_L / MA_MissileGuide": [],
+    "MA_FixedHoodShoulder_L / MA_MissileGuide.001": [],
+    "MA_FixedHoodShoulder_L / MA_MissileGuide.002": [],
+    "MA_FixedHoodShoulder_L / MA_MissileRedTip": [],
+    "MA_FixedHoodShoulder_L / MA_MissileRedTip.001": [],
+    "MA_FixedHoodShoulder_L / MA_MissileRedTip.002": [],
+    "MA_FixedHoodShoulder_L / MA_PersistentMissile": [],
+    "MA_FixedHoodShoulder_L / MA_PersistentMissile.001": [],
+    "MA_FixedHoodShoulder_L / MA_PersistentMissile.002": [],
+    "MA_FixedHoodShoulder_L / MA_TripleLauncherCassette": [],
+    "MA_FixedHoodShoulder_L / MA_CannonDarkBore": [],
+    "MA_FixedHoodShoulder_L / MA_CannonDarkBore.001": [],
+    "MA_FixedHoodShoulder_L / MA_CannonRib": [],
+    "MA_FixedHoodShoulder_L / MA_CannonRib.001": [],
+    "MA_FixedHoodShoulder_L / MA_CannonRib.002": [],
+    "MA_FixedHoodShoulder_L / MA_CannonRib.003": [],
+    "MA_FixedHoodShoulder_L / MA_CannonRib.004": [],
+    "MA_FixedHoodShoulder_L / MA_CannonRib.005": [],
+    "MA_FixedHoodShoulder_L / MA_RedHeadlightCannon": [],
+    "MA_FixedHoodShoulder_L / MA_RedHeadlightCannon.001": [],
+    "MA_FixedHoodShoulder_R / MA_MissileGuide": [],
+    "MA_FixedHoodShoulder_R / MA_MissileGuide.001": [],
+    "MA_FixedHoodShoulder_R / MA_MissileGuide.002": [],
+    "MA_FixedHoodShoulder_R / MA_MissileRedTip": [],
+    "MA_FixedHoodShoulder_R / MA_MissileRedTip.001": [],
+    "MA_FixedHoodShoulder_R / MA_MissileRedTip.002": [],
+    "MA_FixedHoodShoulder_R / MA_PersistentMissile": [],
+    "MA_FixedHoodShoulder_R / MA_PersistentMissile.001": [],
+    "MA_FixedHoodShoulder_R / MA_PersistentMissile.002": [],
+    "MA_FixedHoodShoulder_R / MA_TripleLauncherCassette": [],
+    "MA_FixedHoodShoulder_R / MA_CannonDarkBore": [],
+    "MA_FixedHoodShoulder_R / MA_CannonDarkBore.001": [],
+    "MA_FixedHoodShoulder_R / MA_CannonRib": [],
+    "MA_FixedHoodShoulder_R / MA_CannonRib.001": [],
+    "MA_FixedHoodShoulder_R / MA_CannonRib.002": [],
+    "MA_FixedHoodShoulder_R / MA_CannonRib.003": [],
+    "MA_FixedHoodShoulder_R / MA_CannonRib.004": [],
+    "MA_FixedHoodShoulder_R / MA_CannonRib.005": [],
+    "MA_FixedHoodShoulder_R / MA_RedHeadlightCannon": [],
+    "MA_FixedHoodShoulder_R / MA_RedHeadlightCannon.001": [],
+    "MA_SlidingHoodSkin / MA_FixedFrontCheek": [],
+    "MA_SlidingHoodSkin / MA_FixedFrontCheek.001": [],
+    "MA_SlidingHoodSkin / MA_HeadlightPortRim": [],
+    "MA_SlidingHoodSkin / MA_HeadlightPortRim.001": [],
+    "MA_SlidingHoodSkin / MA_HeadlightPortRim.002": [],
+    "MA_SlidingHoodSkin / MA_HeadlightPortRim.003": [],
+    "MA_SlidingHoodSkin / MA_HeadlightPortRim.004": [],
+    "MA_SlidingHoodSkin / MA_HeadlightPortRim.005": [],
+    "MA_SlidingHoodSkin / MA_HeadlightPortRim.006": [],
+    "MA_SlidingHoodSkin / MA_HeadlightPortRim.007": [],
+    "MA_SlidingHoodSkin / MA_FixedHoodShoulder_L": [
+      {
+        "frame": 1.0,
+        "t": 0.0,
+        "triangle_pairs": 37
+      },
+      {
+        "frame": 1.5,
+        "t": 0.004166666883975267,
+        "triangle_pairs": 41
+      },
+      {
+        "frame": 2.0,
+        "t": 0.008333333767950535,
+        "triangle_pairs": 41
+      },
+      {
+        "frame": 2.5,
+        "t": 0.012500000186264515,
+        "triangle_pairs": 37
+      },
+      {
+        "frame": 3.0,
+        "t": 0.01666666753590107,
+        "triangle_pairs": 26
+      },
+      {
+        "frame": 3.5,
+        "t": 0.02083333395421505,
+        "triangle_pairs": 25
+      },
+      {
+        "frame": 4.0,
+        "t": 0.02500000037252903,
+        "triangle_pairs": 25
+      },
+      {
+        "frame": 4.5,
+        "t": 0.02916666679084301,
+        "triangle_pairs": 25
+      },
+      {
+        "frame": 5.0,
+        "t": 0.03333333507180214,
+        "triangle_pairs": 23
+      },
+      {
+        "frame": 5.5,
+        "t": 0.03750000149011612,
+        "triangle_pairs": 23
+      },
+      {
+        "frame": 6.0,
+        "t": 0.0416666679084301,
+        "triangle_pairs": 20
+      },
+      {
+        "frame": 6.5,
+        "t": 0.04583333432674408,
+        "triangle_pairs": 20
+      },
+      {
+        "frame": 7.0,
+        "t": 0.05000000074505806,
+        "triangle_pairs": 18
+      }
+    ],
+    "MA_SlidingHoodSkin / MA_FixedHoodShoulder_R": [
+      {
+        "frame": 1.0,
+        "t": 0.0,
+        "triangle_pairs": 37
+      },
+      {
+        "frame": 1.5,
+        "t": 0.004166666883975267,
+        "triangle_pairs": 41
+      },
+      {
+        "frame": 2.0,
+        "t": 0.008333333767950535,
+        "triangle_pairs": 41
+      },
+      {
+        "frame": 2.5,
+        "t": 0.012500000186264515,
+        "triangle_pairs": 37
+      },
+      {
+        "frame": 3.0,
+        "t": 0.01666666753590107,
+        "triangle_pairs": 26
+      },
+      {
+        "frame": 3.5,
+        "t": 0.02083333395421505,
+        "triangle_pairs": 25
+      },
+      {
+        "frame": 4.0,
+        "t": 0.02500000037252903,
+        "triangle_pairs": 25
+      },
+      {
+        "frame": 4.5,
+        "t": 0.02916666679084301,
+        "triangle_pairs": 25
+      },
+      {
+        "frame": 5.0,
+        "t": 0.03333333507180214,
+        "triangle_pairs": 23
+      },
+      {
+        "frame": 5.5,
+        "t": 0.03750000149011612,
+        "triangle_pairs": 23
+      },
+      {
+        "frame": 6.0,
+        "t": 0.0416666679084301,
+        "triangle_pairs": 20
+      },
+      {
+        "frame": 6.5,
+        "t": 0.04583333432674408,
+        "triangle_pairs": 20
+      },
+      {
+        "frame": 7.0,
+        "t": 0.05000000074505806,
+        "triangle_pairs": 18
+      }
+    ],
+    "MA_SlidingHoodSkin / MA_IntegratedRoundedNose": [],
+    "MA_RearLightPanel / MA_NozzleInner": [],
+    "MA_RearLightPanel / MA_NozzleInner.001": [],
+    "MA_RearLightPanel / MA_NozzleInner.002": [],
+    "MA_RearLightPanel / MA_NozzleOuter": [],
+    "MA_RearLightPanel / MA_NozzleOuter.001": [],
+    "MA_RearLightPanel / MA_NozzleOuter.002": [],
+    "MA_RearLightPanel / MA_ReactorBody": [],
+    "MA_RearLightPanel / MA_ReactorBody.001": [],
+    "MA_RearLightPanel / MA_ReactorBody.002": [],
+    "MA_RearLightPanel / MA_ReactorCassette": [],
+    "MA_RearLightPanel / MA_ReactorRidge": [],
+    "MA_RearLightPanel / MA_ReactorRidge.001": [],
+    "MA_RearLightPanel / MA_ReactorRidge.002": [],
+    "MA_RearLightPanel / MA_ReactorRidge.003": [],
+    "MA_RearLightPanel / MA_ReactorRidge.004": [],
+    "MA_RearLightPanel / MA_ReactorRidge.005": [],
+    "MA_RearLightPanel / MA_ReactorRidge.006": [],
+    "MA_RearLightPanel / MA_ReactorRidge.007": [],
+    "MA_RearLightPanel / MA_ReactorRidge.008": [],
+    "MA_RearLightPanel / MA_ReactorRidge.009": [],
+    "MA_RearLightPanel / MA_ReactorRidge.010": [],
+    "MA_RearLightPanel / MA_ReactorRidge.011": [],
+    "MA_RearLightPanel / MA_ReactorRidge.012": [],
+    "MA_RearLightPanel / MA_ReactorRidge.013": [],
+    "MA_RearLightPanel / MA_ReactorRidge.014": [],
+    "MA_RearLightPanel / MA_ReactorRidge.015": [],
+    "MA_RearLightPanel / MA_ReactorRidge.016": [],
+    "MA_RearLightPanel / MA_ReactorRidge.017": [],
+    "MA_RearLightPanel / MA_ReactorRidge.018": [],
+    "MA_RearLightPanel / MA_ReactorRidge.019": [],
+    "MA_RearLightPanel / MA_ReactorRidge.020": [],
+    "MA_RearLightPanel / MA_ReactorRidge.021": [],
+    "MA_RearLightPanel / MA_ReactorRidge.022": [],
+    "MA_RearLightPanel / MA_ReactorRidge.023": [],
+    "MA_RearLightPanel / MA_ReactorRidge.024": [],
+    "MA_RearLightPanel / MA_ReactorRidge.025": [],
+    "MA_RearLightPanel / MA_ReactorRidge.026": [],
+    "MA_RearLightPanel / MA_ReactorRidge.027": [],
+    "MA_RearLightPanel / MA_ReactorRidge.028": [],
+    "MA_RearLightPanel / MA_ReactorRidge.029": [],
+    "MA_RearLightPanel / MA_FlatHatchFrame": [],
+    "MA_RearLightPanel / MA_FlatQuarterFrame_-1": [],
+    "MA_RearLightPanel / MA_FlatQuarterFrame_1": [],
+    "MA_RearLightPanel / MA_QuarterGlass_-1": [],
+    "MA_RearLightPanel / MA_QuarterGlass_1": [],
+    "MA_RearLightPanel / MA_RearHatchGlass": []
+  },
+  "missile_containment_samples": [],
+  "missile_elevation_degrees": 30.000000000000004,
+  "wing_cannon_forward_axes": [
+    [
+      1.0,
+      -4.371138828673793e-08,
+      0.0
+    ],
+    [
+      1.0,
+      4.371138828673793e-08,
+      0.0
+    ]
+  ],
+  "end_states": [
+    {
+      "frame": 1.0,
+      "bounds": {
+        "MA_FrontWheel_-1_Tire": {
+          "min": [
+            1.01298189163208,
+            -0.935000479221344,
+            0.02400001883506775
+          ],
+          "max": [
+            1.6049818992614746,
+            -0.7250005006790161,
+            0.6159999370574951
+          ],
+          "centre": [
+            1.308982014656067,
+            -0.8299999833106995,
+            0.3199999928474426
+          ]
+        },
+        "MA_FrontWheel_1_Tire": {
+          "min": [
+            1.01298189163208,
+            0.72500079870224,
+            0.02400001883506775
+          ],
+          "max": [
+            1.6049818992614746,
+            0.9350007772445679,
+            0.6159999370574951
+          ],
+          "centre": [
+            1.308982014656067,
+            0.8299998641014099,
+            0.3199999928474426
+          ]
+        },
+        "MA_RearWheel_-1_Tire": {
+          "min": [
+            -1.615273356437683,
+            -0.9350007176399231,
+            0.02400001883506775
+          ],
+          "max": [
+            -1.0232733488082886,
+            -0.7250007390975952,
+            0.6159999370574951
+          ],
+          "centre": [
+            -1.319273591041565,
+            -0.8299999833106995,
+            0.3199999928474426
+          ]
+        },
+        "MA_RearWheel_1_Tire": {
+          "min": [
+            -1.615273356437683,
+            0.7250006794929504,
+            0.02400001883506775
+          ],
+          "max": [
+            -1.0232733488082886,
+            0.9350006580352783,
+            0.6159999370574951
+          ],
+          "centre": [
+            -1.319273591041565,
+            0.8299998641014099,
+            0.3199999928474426
+          ]
+        },
+        "MA_RearLightPanel": {
+          "min": [
+            -2.184999942779541,
+            -0.7749999761581421,
+            0.38999998569488525
+          ],
+          "max": [
+            -2.1273999214172363,
+            0.7749999761581421,
+            0.7300000190734863
+          ],
+          "centre": [
+            -2.156202554702759,
+            2.697623902037094e-09,
+            0.5582455396652222
+          ]
+        },
+        "MA_SlidingHoodSkin": {
+          "min": [
+            1.1349999904632568,
+            -0.5400000214576721,
+            0.49274933338165283
+          ],
+          "max": [
+            2.3499999046325684,
+            0.5400000214576721,
+            0.8494237661361694
+          ],
+          "centre": [
+            1.777795433998108,
+            -2.8552902264777913e-08,
+            0.6903311014175415
+          ]
+        }
+      }
+    },
+    {
+      "frame": 121.0,
+      "bounds": {
+        "MA_FrontWheel_-1_Tire": {
+          "min": [
+            1.01298189163208,
+            -0.8749995231628418,
+            0.06400005519390106
+          ],
+          "max": [
+            1.6049818992614746,
+            -0.6649995446205139,
+            0.656000018119812
+          ],
+          "centre": [
+            1.308982014656067,
+            -0.7699998617172241,
+            0.36000001430511475
+          ]
+        },
+        "MA_FrontWheel_1_Tire": {
+          "min": [
+            1.01298189163208,
+            0.66499924659729,
+            0.06400005519390106
+          ],
+          "max": [
+            1.6049818992614746,
+            0.8749992251396179,
+            0.656000018119812
+          ],
+          "centre": [
+            1.308982014656067,
+            0.7700002789497375,
+            0.36000001430511475
+          ]
+        },
+        "MA_RearWheel_-1_Tire": {
+          "min": [
+            -1.674274206161499,
+            -1.6760001182556152,
+            0.02400001883506775
+          ],
+          "max": [
+            -1.4642741680145264,
+            -1.0840001106262207,
+            0.6159999370574951
+          ],
+          "centre": [
+            -1.569275140762329,
+            -1.3799999952316284,
+            0.3199999928474426
+          ]
+        },
+        "MA_RearWheel_1_Tire": {
+          "min": [
+            -1.674274206161499,
+            1.0840001106262207,
+            0.02400001883506775
+          ],
+          "max": [
+            -1.4642741680145264,
+            1.6760001182556152,
+            0.6159999370574951
+          ],
+          "centre": [
+            -1.5692721605300903,
+            1.3799999952316284,
+            0.3199999928474426
+          ]
+        },
+        "MA_RearLightPanel": {
+          "min": [
+            -2.4702000617980957,
+            -0.7749999761581421,
+            0.7911999821662903
+          ],
+          "max": [
+            -2.130199909210205,
+            0.7749999761581421,
+            0.848800003528595
+          ],
+          "centre": [
+            -2.3019556999206543,
+            2.697623902037094e-09,
+            0.819996178150177
+          ]
+        },
+        "MA_SlidingHoodSkin": {
+          "min": [
+            1.3299999237060547,
+            -0.5400000214576721,
+            0.49274933338165283
+          ],
+          "max": [
+            2.544999837875366,
+            0.5400000214576721,
+            0.8494237661361694
+          ],
+          "centre": [
+            1.972795844078064,
+            -2.8552902264777913e-08,
+            0.6903311014175415
+          ]
+        }
+      }
+    }
+  ],
+  "pilot": [
+    {
+      "mask_on": false,
+      "surface_overlaps": {
+        "MA_Windshield": 0,
+        "MA_TbarRoof": 0,
+        "MA_CabinFloor": 0
+      },
+      "driver_world_y": 0.3700000047683716
+    },
+    {
+      "mask_on": true,
+      "surface_overlaps": {
+        "MA_Windshield": 0,
+        "MA_TbarRoof": 0,
+        "MA_CabinFloor": 0
+      },
+      "driver_world_y": 0.3700000047683716
+    }
+  ],
+  "limits": "Selected evaluated triangle surfaces and finite missile containment samples. Does not prove all-part clearance/containment, padded contacts, suspension motion or flight physics."
+}

@@ -1,0 +1,4 @@
+{
+  "status": "error",
+  "message": "{\"exception_type\": \"RuntimeError\", \"message\": \"Operator bpy.ops.object.mode_set.poll() Le contexte n\\u2019a pas d\\u2019objet actif\", \"traceback\": \"Traceback (most recent call last):\\n  File \\\"C:\\\\Users\\\\steph\\\\AppData\\\\Roaming\\\\Blender Foundation\\\\Blender\\\\5.2\\\\scripts\\\\addons\\\\blender_mcp.py\\\", line 2333, in execute_code\\n    exec(code, namespace)\\n    ~~~~^^^^^^^^^^^^^^^^^\\n  File \\\"<string>\\\", line 6, in <module>\\n  File \\\"<vanessa>\\\", line 44, in <module>\\nRuntimeError: Operator bpy.ops.object.mode_set.poll() Le contexte n\\u2019a pas d\\u2019objet actif\\n\"}"
+}

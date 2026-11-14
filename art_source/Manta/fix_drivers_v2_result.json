@@ -1,0 +1,7 @@
+{
+  "status": "success",
+  "result": {
+    "executed": true,
+    "result": "MA_SlidingHood [0.3799999952316284, 0.0, 0.0] [0.0, 0.0, 0.0] [('0.38*t', True)]\nMA_UnderbodyWingPivot_1 [-1.4800000190734863, 0.5600000023841858, 0.23999999463558197] [0.0, 0.0, 1.5707963705062866] [('1.5707963267948966*t', True)]\nMA_RearLightSpoilerHinge [-2.009999990463257, 0.0, 0.8299999833106995] [0.0, 1.399999976158142, 0.0] [('1.40*t', True)]\nInfos: Enregistré sous « Manta_V2_Assembly.blend »\n"
+  }
+}

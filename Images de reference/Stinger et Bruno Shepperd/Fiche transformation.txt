@@ -1,5 +1,0 @@
-Quand piranha se transforme, la moto s'arrête et le side-car sert de sous-marin ou avion
-Les transformations se font en même temps :
-- la partie side-car se détache de sa base pour former un sous-marin (le personnage se retrouve dedans et n'est plus sur la moto)
-- des petites ailettes sortent sur les côtés du side-car
-- 2 canons sortent par l'avant du side-car

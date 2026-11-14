@@ -1,0 +1,7 @@
+{
+  "status": "success",
+  "result": {
+    "executed": true,
+    "result": "{\"passed\": true, \"failed\": [], \"checks\": 31}\n"
+  }
+}

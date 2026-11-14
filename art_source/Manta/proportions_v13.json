@@ -1,0 +1,21 @@
+{
+  "overall_length": 4.7,
+  "front": {
+    "length": 1.88,
+    "fraction": 0.4
+  },
+  "doors": {
+    "length": 1.41,
+    "fraction": 0.3
+  },
+  "rear": {
+    "length": 1.41,
+    "fraction": 0.3
+  },
+  "front_axle_x": 1.3089818407153637,
+  "rear_axle_x": -1.3880815600844805,
+  "arch_radius": 0.34,
+  "wheel_radius": 0.296,
+  "old_rear": -2.2323999404907227,
+  "old_front": 2.2680001258850098
+}

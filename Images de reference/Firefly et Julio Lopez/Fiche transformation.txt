@@ -1,0 +1,4 @@
+Véhicule de la catégorie route / avion (comme manta, thunderhawk, raven).
+Tout se transforme en même temps :
+- Les ailes repliées sous le véhicules se déploient en pivotant vers l'arrière. Les points de pivot sont sous l'arrière du buggy. Les grosses roues arrière se retrouvent donc en position de réacteurs et les petites roues avant sont sur les bords des ailes et un relié au centre de ces roues canon pointe vers l'avant .
+- Les dessus du nez de déploient en pivotant par leurs bords pour donner des ailerons à l'avant : ça découvre un mini canon au centre.

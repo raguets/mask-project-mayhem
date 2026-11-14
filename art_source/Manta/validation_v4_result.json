@@ -1,0 +1,7 @@
+{
+  "status": "success",
+  "result": {
+    "executed": true,
+    "result": "{\"invalid_drivers\": [], \"colliding_phase_counts\": {\"MA_MainBody / MA_MainWing_1\": 0, \"MA_MainBody / MA_MainWing_-1\": 0, \"MA_MainBody / MA_FrontWheel_1_Tire\": 1, \"MA_MainBody / MA_FrontWheel_-1_Tire\": 1, \"MA_MainBody / MA_RearWheel_1_Tire\": 0, \"MA_MainBody / MA_RearWheel_-1_Tire\": 0, \"MA_MainBody / MA_SlidingHoodSkin\": 121, \"MA_MainBody / MA_RearLightPanel\": 120, \"MA_MainBody / MA_ReactorCassette\": 121, \"MA_Underbody / MA_MainWing_-1\": 120, \"MA_Underbody / MA_MainWing_1\": 120}, \"minimum_z\": {\"MA_MainBody\": 0.23999999463558197, \"MA_Underbody\": 0.17999999225139618, \"MA_MainWing_1\": 0.14249999821186066, \"MA_MainWing_-1\": 0.14249999821186066, \"MA_FrontWheel_1_Tire\": 0.02400001883506775, \"MA_FrontWheel_-1_Tire\": 0.02400001883506775, \"MA_RearWheel_1_Tire\": 0.02400001883506775, \"MA_RearWheel_-1_Tire\": 0.02400001883506775, \"MA_SlidingHoodSkin\": 0.5313738584518433, \"MA_RearLightPanel\": 0.5149999856948853, \"MA_ReactorCassette\": 0.4099999964237213}, \"pilot\": [{\"mask_on\": false, \"surface_intersections\": {\"MA_Windshield\": 0, \"MA_TbarRoof\": 0, \"MA_RoofFrontCross\": 0, \"MA_RoofRearCross\": 0, \"MA_CabinFloor\": 1096}, \"highest_head_or_mask\": 1.2580002546310425}, {\"mask_on\": true, \"surface_intersections\": {\"MA_Windshield\": 0, \"MA_TbarRoof\": 0, \"MA_RoofFrontCross\": 0, \"MA_RoofRearCross\": 0, \"MA_CabinFloor\": 1096}, \"highest_head_or_mask\": 1.2899872064590454}]}\n"
+  }
+}

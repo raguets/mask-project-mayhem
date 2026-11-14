@@ -1,0 +1,24 @@
+{
+  "source": "G:\\DEV\\mask-project-mayhem\\art_source\\Manta\\Manta_V23_Assembly.blend",
+  "phases": 241,
+  "overlaps": {
+    "MA_SlidingHoodSkin / MA_FixedHoodShoulder_L": [],
+    "MA_SlidingHoodSkin / MA_FixedHoodShoulder_R": [],
+    "MA_FrontWheel_-1_Tire / MA_CircularArchLip": [],
+    "MA_FrontWheel_-1_Tire / MA_CircularArchLip.001": [],
+    "MA_FrontWheel_-1_Tire / MA_CircularArchLip.002": [],
+    "MA_FrontWheel_-1_Tire / MA_CircularArchLip.003": [],
+    "MA_FrontWheel_1_Tire / MA_CircularArchLip": [],
+    "MA_FrontWheel_1_Tire / MA_CircularArchLip.001": [],
+    "MA_FrontWheel_1_Tire / MA_CircularArchLip.002": [],
+    "MA_FrontWheel_1_Tire / MA_CircularArchLip.003": [],
+    "MA_RearWheel_-1_Tire / MA_CircularArchLip": [],
+    "MA_RearWheel_-1_Tire / MA_CircularArchLip.001": [],
+    "MA_RearWheel_-1_Tire / MA_CircularArchLip.002": [],
+    "MA_RearWheel_-1_Tire / MA_CircularArchLip.003": [],
+    "MA_RearWheel_1_Tire / MA_CircularArchLip": [],
+    "MA_RearWheel_1_Tire / MA_CircularArchLip.001": [],
+    "MA_RearWheel_1_Tire / MA_CircularArchLip.002": [],
+    "MA_RearWheel_1_Tire / MA_CircularArchLip.003": []
+  }
+}

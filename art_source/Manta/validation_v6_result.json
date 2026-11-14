@@ -1,0 +1,4 @@
+{
+  "status": "error",
+  "message": "{\"exception_type\": \"SyntaxError\", \"message\": \"did you forget parentheses around the comprehension target? (<validation_v6>, line 10)\", \"traceback\": \"Traceback (most recent call last):\\n  File \\\"C:\\\\Users\\\\steph\\\\AppData\\\\Roaming\\\\Blender Foundation\\\\Blender\\\\5.2\\\\scripts\\\\addons\\\\blender_mcp.py\\\", line 2333, in execute_code\\n    exec(code, namespace)\\n    ~~~~^^^^^^^^^^^^^^^^^\\n  File \\\"<string>\\\", line 6, in <module>\\n  File \\\"<validation_v6>\\\", line 10\\n    pairs=[('MA_ReactorCassette','MA_RearLightPanel'),('MA_MainBody',n) for n in names[2:]]+[('MA_Underbody','MA_MainWing_'+str(s)) for s in [-1,1]]\\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\\nSyntaxError: did you forget parentheses around the comprehension target?\\n\"}"
+}

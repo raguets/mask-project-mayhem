@@ -1,0 +1,46 @@
+{
+  "phases": 121,
+  "parts": [
+    "MA_MissileGuide",
+    "MA_MissileGuide.001",
+    "MA_MissileGuide.002",
+    "MA_MissileRedTip",
+    "MA_MissileRedTip.001",
+    "MA_MissileRedTip.002",
+    "MA_PersistentMissile",
+    "MA_PersistentMissile.001",
+    "MA_PersistentMissile.002",
+    "MA_TripleLauncherCassette"
+  ],
+  "hood_panels": [
+    "MA_SlidingHoodSkin",
+    "MA_FixedHoodRearQuarter",
+    "MA_FixedHoodShoulder_L",
+    "MA_FixedHoodShoulder_R"
+  ],
+  "intersections_or_containment": [],
+  "hammerhead_front_max_z": 0.5438739657402039,
+  "front_cannon_axis_z": 0.58,
+  "nose_below_cannon_axis": true,
+  "wing_cannon_axes_flight": [
+    {
+      "side": -1,
+      "forward_axis": [
+        1.0,
+        -4.371138828673793e-08,
+        0.0
+      ],
+      "dot_project_forward": 1.0
+    },
+    {
+      "side": 1,
+      "forward_axis": [
+        1.0,
+        4.371138828673793e-08,
+        0.0
+      ],
+      "dot_project_forward": 1.0
+    }
+  ],
+  "method": "Evaluated triangle overlap plus ray parity at centres and up to 17 mesh samples. Containment samples complement surfaces; not an exhaustive volume proof."
+}

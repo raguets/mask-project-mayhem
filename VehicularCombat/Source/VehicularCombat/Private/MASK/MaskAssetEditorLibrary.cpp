@@ -93,6 +93,11 @@ bool UMaskAssetEditorLibrary::ConfigureRavenChassis(USkeletalMesh* Mesh)
 	return ConfigureMaskChassis(Mesh,TEXT("/Game/MASK/Raven/"),FVector(0,0,52),FVector(435,170,52),FVector(215,0,55));
 }
 
+bool UMaskAssetEditorLibrary::ConfigureMantaChassis(USkeletalMesh* Mesh)
+{
+	return ConfigureMaskChassis(Mesh,TEXT("/Game/MASK/Manta/"),FVector(8,0,55),FVector(452,174,52),FVector(235,0,60));
+}
+
 bool UMaskAssetEditorLibrary::ConfigureCondorChassis(USkeletalMesh* Mesh)
 {
 	return ConfigureMaskChassis(Mesh,TEXT("/Game/MASK/Condor/"),FVector(-5,0,65),FVector(230,38,50),FVector(137,0,78));
